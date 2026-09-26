@@ -1,0 +1,148 @@
+{
+  "id": 47,
+  "module": 5,
+  "level": "B2-",
+  "title": { "zh": "逛美術館", "en": "At the Museum" },
+  "scenario": {
+    "title": "看展、聊作品、表達感受",
+    "context": "描述展覽和作品時，英文常用分詞構句把兩個動作濃縮成一句：「走進展間，我第一眼就看到那幅畫」「用回收材料做成，這件作品…」。學會分詞構句，描述會更流暢、更像書寫的英文。",
+    "dialogues": [
+      {
+        "title": "At a contemporary art exhibition",
+        "lines": [
+          { "speaker": "Jess", "en": "So what did you think of the first room?", "zh": "你覺得第一個展間怎麼樣？" },
+          { "speaker": "Minz", "en": "Honestly, I was blown away. Walking in, I didn't expect the whole ceiling to be covered in paper cranes.", "zh": "說真的我被震撼到了。一走進去，完全沒想到整個天花板都是紙鶴。" },
+          { "speaker": "Jess", "en": "Me too. Made from old newspapers, the cranes tell the story of the city.", "zh": "我也是。那些紙鶴是用舊報紙做的，訴說著這座城市的故事。" },
+          { "speaker": "Minz", "en": "What about the video room? That one went a bit over my head.", "zh": "那錄像展間呢？那個我有點看不懂。" },
+          { "speaker": "Jess", "en": "Same. Having read the description twice, I still don't get it.", "zh": "我也是。說明讀了兩遍還是不懂。" },
+          { "speaker": "Minz", "en": "Video art isn't really my cup of tea. I prefer things I can touch.", "zh": "錄像藝術不太是我的菜，我比較喜歡摸得到的東西。" },
+          { "speaker": "Jess", "en": "Spoken like a true illustrator.", "zh": "真不愧是插畫家會說的話。" }
+        ]
+      },
+      {
+        "title": "At the gift shop",
+        "lines": [
+          { "speaker": "Leo", "en": "This place is so artsy. Even the tote bags look like art pieces.", "zh": "這裡好文青，連帆布袋都像藝術品。" },
+          { "speaker": "Minz", "en": "Designed by local artists, all of these are limited editions.", "zh": "這些都是本地藝術家設計的，全都是限量版。" },
+          { "speaker": "Leo", "en": "Feeling inspired, I might start painting again.", "zh": "受到啟發，我可能會重新開始畫畫。" },
+          { "speaker": "Minz", "en": "You should! You were really good in college.", "zh": "你應該畫！你大學時畫得很好。" },
+          { "speaker": "Leo", "en": "Not being very patient, I usually give up after a week.", "zh": "我沒什麼耐心，通常一個禮拜就放棄了。" },
+          { "speaker": "Minz", "en": "Then start small. Buy this sketchbook and draw one thing a day.", "zh": "那就從小地方開始，買這本素描本，每天畫一樣東西。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "What did you think of ___?", "zh": "你覺得 ___ 怎麼樣？" },
+      { "en": "I was blown away by ___.", "zh": "我被 ___ 震撼到了。" },
+      { "en": "It really made me think.", "zh": "它真的讓我思考。" },
+      { "en": "I'm not sure I get it.", "zh": "我不太確定我看懂了。" },
+      { "en": "What's the artist trying to say?", "zh": "藝術家想表達什麼？" },
+      { "en": "It reminds me of ___.", "zh": "它讓我想到 ___。" },
+      { "en": "The colors are stunning.", "zh": "色彩美到驚人。" },
+      { "en": "Is photography allowed?", "zh": "可以拍照嗎？" },
+      { "en": "Do you offer guided tours?", "zh": "有導覽嗎？" },
+      { "en": "It's not really my cup of tea.", "zh": "這不太是我的菜。" }
+    ],
+    "chinglish": [
+      { "wrong": "When I walk in, I saw the painting.", "right": "Walking in, I saw the painting. / When I walked in, I saw the painting.", "why": "時態要一致；或者用分詞構句簡化。" },
+      { "wrong": "Made by recycled paper, the artwork is special.", "right": "Made from recycled paper, the artwork is really unique.", "why": "看得出原料時 made of，原料已改變形態時 made from。special 也常被過度使用。" },
+      { "wrong": "Walking in the museum, the painting was beautiful.", "right": "Walking through the museum, I saw a beautiful painting.", "why": "分詞構句的主詞要跟主要子句相同。原句變成「畫在走路」，是很經典的錯誤（dangling participle）。" },
+      { "wrong": "This exhibition is very high level.", "right": "This exhibition is really sophisticated / impressive.", "why": "「很有水準」直翻 high level 不自然。" }
+    ]
+  },
+  "grammar": {
+    "id": "participle-clauses-intro",
+    "title": "分詞構句入門",
+    "oneLiner": "兩個子句主詞相同時，可以把其中一個濃縮成 V-ing（主動）或 p.p.（被動）開頭的片語。",
+    "whenToUse": [
+      "主動、同時發生：Walking in, I saw the cranes.（= When I walked in, …）",
+      "被動：Made from old newspapers, the cranes…（= The cranes were made from…）",
+      "先發生：Having read the description, I still didn't get it.（= After I had read…）",
+      "原因：Feeling inspired, I started painting.（= Because I felt inspired…）",
+      "否定：Not being patient, I gave up.",
+      "最重要的規則：分詞的主詞必須和主要子句的主詞相同。"
+    ],
+    "whyWeGetItWrong": "中文可以很自由地省略主詞：「走進去，看到一幅畫」「用舊報紙做成，很有意義」。英文的分詞構句也能省略主詞，但有一個嚴格條件：省略的主詞必須跟後面的主詞是同一個。台灣人最常犯的錯是 Walking in the museum, the painting was beautiful，意思變成「畫在博物館裡走路」。",
+    "examples": [
+      { "correct": "Walking along the river, we saw a street performer.", "incorrect": "Walking along the river, a street performer was singing.", "note": "我們在走路，主詞要是 we。" },
+      { "correct": "Painted in 1920, the portrait is now worth millions.", "note": "被動用 p.p.。" },
+      { "correct": "Having finished the tour, we went to the café.", "note": "先完成用 having + p.p.。" },
+      { "correct": "Not knowing the way, I asked a guard.", "note": "否定 not + V-ing。" },
+      { "correct": "Feeling tired, she sat down on a bench.", "note": "表原因。" }
+    ],
+    "quiz": [
+      { "id": "u047-g1", "type": "mcq", "question": "___ the gallery, I noticed a huge sculpture.", "options": ["Entered", "Entering", "To enter"], "answer": 1, "explanation": "主動、同時：V-ing。" },
+      { "id": "u047-g2", "type": "mcq", "question": "___ in 1890, this building used to be a train station.", "options": ["Building", "Built", "Having build"], "answer": 1, "explanation": "建築物是被建造的，用 p.p.。" },
+      { "id": "u047-g3", "type": "fill", "question": "___ finished the exhibition, we grabbed a coffee. (先完成)", "answer": "Having", "explanation": "having + p.p. 表先完成。" },
+      { "id": "u047-g4", "type": "mcq", "question": "Which is correct?", "options": ["Looking at the painting, tears came to my eyes.", "Looking at the painting, I started to cry.", "Looked at the painting, I cried."], "answer": 1, "explanation": "分詞主詞要跟主要子句相同（I）。" },
+      { "id": "u047-g5", "type": "fill", "question": "___ knowing the artist, I didn't understand the reference. (否定)", "answer": "Not", "explanation": "否定分詞構句：Not + V-ing。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "not-my-cup-of-tea",
+      "term": "not my cup of tea",
+      "meaning": "不是我的菜、不合我的口味",
+      "register": "neutral",
+      "usage": "委婉地表示不喜歡某種東西或活動，英式起源。",
+      "risk": { "level": "safe", "note": "禮貌又常用，不會冒犯喜歡那樣東西的人。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Opera isn't really my cup of tea.", "zh": "歌劇不太是我的菜。" },
+        { "en": "It's well made, but it's not my cup of tea.", "zh": "做得很好，但不合我的口味。" }
+      ]
+    },
+    {
+      "id": "blown-away",
+      "term": "blown away",
+      "meaning": "被震撼、驚艷到",
+      "register": "casual",
+      "usage": "I was blown away by… = 被…深深打動或驚訝。",
+      "risk": { "level": "safe", "note": "正面強烈的讚美。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "I was blown away by the view from the top.", "zh": "山頂的景色讓我驚艷。" },
+        { "en": "The client was blown away by your designs.", "zh": "客戶被你的設計驚艷到了。" }
+      ]
+    },
+    {
+      "id": "artsy",
+      "term": "artsy",
+      "meaning": "文青的、很有藝術感的",
+      "register": "casual",
+      "usage": "形容人、地方、東西很有藝術氣息，有時帶點「故作藝術」的調侃。英式也說 arty。",
+      "risk": { "level": "careful", "note": "看語氣可能是稱讚，也可能是在揶揄太做作。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "Huashan is full of artsy shops and cafés.", "zh": "華山都是文青小店和咖啡廳。" },
+        { "en": "The movie was a bit too artsy for me.", "zh": "那部電影對我來說有點太文藝了。" }
+      ]
+    },
+    {
+      "id": "over-my-head",
+      "term": "over my head",
+      "meaning": "超出我的理解、看不懂",
+      "register": "casual",
+      "usage": "It went over my head. = 我沒聽懂／沒看懂（笑話、概念、作品）。",
+      "risk": { "level": "safe", "note": "自嘲式的說法，很安全。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "The joke went right over my head.", "zh": "那個笑話我完全沒聽懂。" },
+        { "en": "Most of the lecture was over my head.", "zh": "那場演講大部分我都聽不懂。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u047-r1", "sourceUnit": 46, "type": "mcq", "question": "The painting is gone from the wall. Someone ___ moved it to another room.", "options": ["must have", "must", "mustn't"], "answer": 0, "explanation": "複習第 46 單元：推測過去用 must have + p.p.。" },
+    { "id": "u047-r2", "sourceUnit": 45, "type": "mcq", "question": "If I ___ rich, I'd buy that painting.", "options": ["am", "were", "will be"], "answer": 1, "explanation": "複習第 45 單元：type 2 用 were。" },
+    { "id": "u047-r3", "sourceUnit": 43, "type": "fill", "question": "The audio guide doesn't ___ to be working.", "answer": "seem", "explanation": "複習第 43 單元：doesn't seem to。" },
+    { "id": "u047-r4", "sourceUnit": 39, "type": "mcq", "question": "If we ___ early, we'll avoid the crowds.", "options": ["go", "will go", "went"], "answer": 0, "explanation": "複習第 39 單元：type 1 if 子句用現在式。" },
+    { "id": "u047-r5", "sourceUnit": 31, "type": "mcq", "question": "The artist ___ work we saw is from Tainan.", "options": ["who", "whose", "which"], "answer": 1, "explanation": "複習第 31 單元：whose = …的。" },
+    { "id": "u047-r6", "sourceUnit": 15, "type": "mcq", "question": "Which is correct?", "options": ["I go rarely to museums.", "I rarely go to museums.", "Rarely I go museums."], "answer": 1, "explanation": "複習第 15 單元：頻率副詞放一般動詞前。" },
+    { "id": "u047-r7", "sourceUnit": 47, "type": "mcq", "question": "Which is correct?", "options": ["Walking in, the art was amazing.", "Walking in, I was amazed by the art.", "Walked in, I amazed."], "answer": 1, "explanation": "分詞構句的主詞要一致。" }
+  ]
+}

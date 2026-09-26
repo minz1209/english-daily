@@ -1,0 +1,155 @@
+{
+  "id": 50,
+  "module": 5,
+  "level": "B2-",
+  "title": { "zh": "整合：旅行分享", "en": "Review: Trip Stories" },
+  "scenario": {
+    "title": "旅行回來，跟同事朋友分享",
+    "context": "第五章的收尾：旅行回來分享見聞。說故事時會用到過去完成式（在那之前早就…）、推測過去（一定是…）、後悔（早知道就…），還會用上這一章的比較、被動和分詞構句。",
+    "dialogues": [
+      {
+        "title": "Back at the office",
+        "lines": [
+          { "speaker": "Daniel", "en": "Welcome back! How was Thailand?", "zh": "歡迎回來！泰國怎麼樣？" },
+          { "speaker": "Minz", "en": "Amazing, mostly. It was the trip of a lifetime. I'd been wanting to go for years.", "zh": "大部分都很棒，是一生難忘的旅行。我好幾年前就一直想去了。" },
+          { "speaker": "Daniel", "en": "Mostly?", "zh": "大部分？" },
+          { "speaker": "Minz", "en": "I got food poisoning on day three. I shouldn't have eaten the beach seafood.", "zh": "我第三天食物中毒了。我不該吃海灘的海鮮。" },
+          { "speaker": "Daniel", "en": "Ouch. It must have been awful.", "zh": "好慘，那一定很難受。" },
+          { "speaker": "Minz", "en": "It was. But by the time we got to Chiang Mai, I had recovered.", "zh": "是啊。但等我們到清邁的時候，我已經好了。" },
+          { "speaker": "Daniel", "en": "Was Chiang Mai worth it?", "zh": "清邁值得去嗎？" },
+          { "speaker": "Minz", "en": "Totally. It's half as crowded as Bangkok and twice as relaxing.", "zh": "絕對值得。人潮只有曼谷的一半，放鬆程度是兩倍。" }
+        ]
+      },
+      {
+        "title": "Showing photos to friends",
+        "lines": [
+          { "speaker": "Jess", "en": "OK, show us the photos!", "zh": "好，給我們看照片！" },
+          { "speaker": "Minz", "en": "This is the night market. Walking through it, you can smell grilled pork everywhere.", "zh": "這是夜市。走在裡面，到處都聞得到烤豬肉的味道。" },
+          { "speaker": "Leo", "en": "What's that temple? It's gorgeous.", "zh": "那間寺廟是什麼？好美。" },
+          { "speaker": "Minz", "en": "Wat Chedi Luang. Built in the 14th century, it was partly destroyed by an earthquake.", "zh": "契迪龍寺。它建於十四世紀，有部分被地震摧毀。" },
+          { "speaker": "Jess", "en": "So, would you go back?", "zh": "所以你會再去嗎？" },
+          { "speaker": "Minz", "en": "In a heartbeat. It's crossed off my bucket list, but I'd go again. Things like this only happen once in a blue moon.", "zh": "毫不猶豫。這已經從我的遺願清單上劃掉了，但我會再去。這種體驗千載難逢。" },
+          { "speaker": "Leo", "en": "Sounds like you really lived it up.", "zh": "聽起來你玩得很盡興。" },
+          { "speaker": "Minz", "en": "I did. Expensive, but worth every penny.", "zh": "是啊。很貴，但每一分錢都值得。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "How was your trip?", "zh": "旅行怎麼樣？" },
+      { "en": "It was the trip of a lifetime.", "zh": "那是一生難忘的旅行。" },
+      { "en": "The highlight was ___.", "zh": "最精彩的是 ___。" },
+      { "en": "I'd been wanting to go for years.", "zh": "我好幾年來一直想去。" },
+      { "en": "If I went again, I'd ___.", "zh": "如果我再去一次，我會 ___。" },
+      { "en": "I should have stayed longer.", "zh": "我應該多待幾天的。" },
+      { "en": "It's much cheaper than I expected.", "zh": "比我想像的便宜很多。" },
+      { "en": "Would you recommend it?", "zh": "你會推薦嗎？" },
+      { "en": "I'd go back in a heartbeat.", "zh": "我會毫不猶豫地再去。" },
+      { "en": "Here's a little something I brought back for you.", "zh": "這是我帶回來給你的小東西。", "note": "送伴手禮時說" }
+    ],
+    "chinglish": [
+      { "wrong": "I went to Thailand play for one week.", "right": "I spent a week in Thailand.", "why": "「去泰國玩」的「玩」不要翻成 play（複習第 39 單元）。" },
+      { "wrong": "This is a souvenir I bring back for you.", "right": "I brought this back for you.", "why": "已經帶回來了，用過去式 brought。「伴手禮」可以不用特別說 souvenir。" },
+      { "wrong": "When I arrived Chiang Mai, I already recovered.", "right": "By the time I arrived in Chiang Mai, I had recovered.", "why": "arrive 後面要加 in / at；先發生的「康復」用過去完成式（複習第 32 單元）。" },
+      { "wrong": "Thailand is more cheaper than Japan.", "right": "Thailand is much cheaper than Japan.", "why": "複習第 33 單元：cheaper 不加 more。" }
+    ]
+  },
+  "grammar": {
+    "id": "review-past-perfect-deduction-regret",
+    "title": "過去完成、推測、should have",
+    "oneLiner": "說旅行故事的三個工具：had + p.p.（更早之前）、must / might have + p.p.（推測）、should have + p.p.（後悔）。",
+    "whenToUse": [
+      "過去完成：By the time we got there, the market had closed.",
+      "過去完成進行式：I'd been wanting to go for years.（到那時為止一直…）",
+      "推測過去：It must have been awful. / They might have closed early.",
+      "後悔：I should have stayed longer. / I shouldn't have eaten that.",
+      "這一章其他工具：twice as… as（比較）、got stolen（被動）、Walking through…（分詞構句）、If I went again, I'd…（type 2）。",
+      "所有「情態動詞 + have + p.p.」都是在講過去，差別只在語氣：must（確定）、might（可能）、should（後悔）、could（本來可以）。"
+    ],
+    "whyWeGetItWrong": "這一章的文法都在處理同一件事：中文的「早就」「一定是」「早知道」都只是加副詞，動詞不變；英文則要把時間線疊到動詞上（had + p.p.、have + p.p.）。說一個旅行故事時，這些結構會密集出現，最容易亂掉。整合單元讓你在同一段故事中練習切換。",
+    "examples": [
+      { "correct": "When we got to the temple, it had already closed.", "incorrect": "When we got to the temple, it already closed.", "note": "先關門，我們才到。" },
+      { "correct": "The driver must have taken a wrong turn.", "incorrect": "The driver must took a wrong turn.", "note": "推測過去。" },
+      { "correct": "We should have booked the hotel earlier.", "note": "後悔。" },
+      { "correct": "Having seen the sunset from the mountain, I'll never forget it.", "note": "分詞構句。" },
+      { "correct": "The tickets were twice as expensive as last year.", "note": "倍數比較。" }
+    ],
+    "quiz": [
+      { "id": "u050-g1", "type": "mcq", "question": "By the time we arrived, the ferry ___.", "options": ["left", "had left", "has left"], "answer": 1, "explanation": "先離開用過去完成式。" },
+      { "id": "u050-g2", "type": "mcq", "question": "The restaurant was closed. It ___ closed for the holiday.", "options": ["must have", "must", "should have"], "answer": 0, "explanation": "推測過去：must have + p.p.。" },
+      { "id": "u050-g3", "type": "fill", "question": "We ___ have brought more cash. Nobody took cards. (後悔)", "answer": "should", "explanation": "後悔沒做：should have。" },
+      { "id": "u050-g4", "type": "mcq", "question": "If I ___ back, I'd stay a whole month.", "options": ["go", "went", "will go"], "answer": 1, "explanation": "type 2：if 子句用過去式。" },
+      { "id": "u050-g5", "type": "fill", "question": "I'd ___ wanting to visit Chiang Mai for years before I finally went.", "answer": "been", "explanation": "had been wanting：到那時為止一直想。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "once-in-a-blue-moon",
+      "term": "once in a blue moon",
+      "meaning": "千載難逢、非常罕見",
+      "register": "casual",
+      "usage": "形容很少發生的事。blue moon 指一個月內出現的第二次滿月。",
+      "risk": { "level": "safe", "note": "日常用語。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "I only take a vacation once in a blue moon.", "zh": "我很少很少休假。" },
+        { "en": "My brother calls once in a blue moon.", "zh": "我哥難得才打一次電話。" }
+      ]
+    },
+    {
+      "id": "bucket-list",
+      "term": "bucket list",
+      "meaning": "遺願清單、人生必做清單",
+      "register": "neutral",
+      "usage": "這輩子想完成的事的清單。cross something off my bucket list = 完成清單上的一件事。",
+      "risk": { "level": "safe", "note": "普遍用語。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Seeing the northern lights is on my bucket list.", "zh": "看極光在我的人生清單上。" },
+        { "en": "I finally crossed Japan off my bucket list.", "zh": "我終於把日本從清單上劃掉了。" }
+      ]
+    },
+    {
+      "id": "live-it-up",
+      "term": "live it up",
+      "meaning": "盡情享受、過得很爽",
+      "register": "casual",
+      "usage": "花錢玩樂、享受生活。",
+      "risk": { "level": "safe", "note": "正面輕鬆。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "We lived it up in Bangkok for a week.", "zh": "我們在曼谷盡情玩了一週。" },
+        { "en": "You only turn thirty once. Live it up!", "zh": "人生只有一次三十歲，好好享受吧！" }
+      ]
+    },
+    {
+      "id": "worth-every-penny",
+      "term": "worth every penny",
+      "meaning": "每一分錢都值得",
+      "register": "neutral",
+      "usage": "形容雖然貴，但完全值得。",
+      "risk": { "level": "safe", "note": "普遍用語。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "The hotel was pricey, but it was worth every penny.", "zh": "飯店很貴，但每一分錢都值得。" },
+        { "en": "This chair was expensive, but my back says it's worth every penny.", "zh": "這張椅子很貴，但我的背說完全值得。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u050-r1", "sourceUnit": 49, "type": "mcq", "question": "I ___ packed so many clothes. I didn't wear half of them.", "options": ["shouldn't have", "should have", "mustn't"], "answer": 0, "explanation": "複習第 49 單元：後悔做了。" },
+    { "id": "u050-r2", "sourceUnit": 48, "type": "fill", "question": "Hotels in Bangkok are about half the ___ of hotels in Tokyo.", "answer": "price", "explanation": "複習第 48 單元：half the price。" },
+    { "id": "u050-r3", "sourceUnit": 47, "type": "mcq", "question": "___ in 1296, the city is full of history.", "options": ["Founding", "Founded", "Found"], "answer": 1, "explanation": "複習第 47 單元：被動分詞。" },
+    { "id": "u050-r4", "sourceUnit": 46, "type": "mcq", "question": "My charger is gone. I ___ left it at the hotel.", "options": ["must have", "must", "can't"], "answer": 0, "explanation": "複習第 46 單元：推測過去。" },
+    { "id": "u050-r5", "sourceUnit": 45, "type": "fill", "question": "If I ___ (have) more time off, I'd travel more.", "answer": "had", "explanation": "複習第 45 單元：type 2。" },
+    { "id": "u050-r6", "sourceUnit": 44, "type": "mcq", "question": "Which is correct?", "options": ["I recommend you to visit in November.", "I recommend visiting in November.", "I recommend to visit you in November."], "answer": 1, "explanation": "複習第 44 單元：recommend + V-ing。" },
+    { "id": "u050-r7", "sourceUnit": 43, "type": "fill", "question": "There ___ to be a problem with my booking.", "answer": "seems", "explanation": "複習第 43 單元：There seems to be。" },
+    { "id": "u050-r8", "sourceUnit": 42, "type": "mcq", "question": "We ___ upgraded to a suite!", "options": ["got", "were get", "have"], "answer": 0, "explanation": "複習第 42 單元：get + p.p.。" },
+    { "id": "u050-r9", "sourceUnit": 34, "type": "mcq", "question": "I'd rather ___ by train than fly.", "options": ["travel", "to travel", "traveling"], "answer": 0, "explanation": "複習第 34 單元：would rather + 原形。" },
+    { "id": "u050-r10", "sourceUnit": 18, "type": "mcq", "question": "My wallet ___ on the night train.", "options": ["was stolen", "got stolen", "Both are possible."], "answer": 2, "explanation": "複習第 18 單元：be + p.p. 和 get + p.p. 都可以表示被動。" },
+    { "id": "u050-r11", "sourceUnit": 50, "type": "fill", "question": "It was expensive, but it was worth every ___.", "answer": "penny", "explanation": "worth every penny = 每一分錢都值得。" }
+  ]
+}

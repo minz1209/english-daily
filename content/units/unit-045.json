@@ -1,0 +1,148 @@
+{
+  "id": 45,
+  "module": 5,
+  "level": "B2-",
+  "title": { "zh": "租車自駕", "en": "Renting a Car" },
+  "scenario": {
+    "title": "租車、自駕、做白日夢",
+    "context": "自駕旅行時常會聊「如果我有錢，我就買台露營車」「如果我是你，我會買全險」。這種「不太可能」或「跟現實相反」的假設，用的是第二類條件句：If + 過去式, would + 原形。",
+    "dialogues": [
+      {
+        "title": "At the rental counter",
+        "lines": [
+          { "speaker": "Agent", "en": "Would you like to add full insurance? It's an extra 15 dollars a day.", "zh": "要加保全險嗎？一天多 15 塊。" },
+          { "speaker": "Minz", "en": "Hmm, what do you think, Jess?", "zh": "嗯，Jess 你覺得呢？" },
+          { "speaker": "Jess", "en": "If I were you, I'd get it. You're not used to driving on the right.", "zh": "如果我是你，我會加。你不習慣靠右開。" },
+          { "speaker": "Minz", "en": "Good point. If I scratched the car, I'd feel terrible. OK, full insurance, please.", "zh": "說得對。如果我刮到車，我會很難過。好，全險，謝謝。" },
+          { "speaker": "Agent", "en": "Smart choice. Even a small fender bender can get expensive.", "zh": "聰明的選擇。就算是小擦撞也可能很貴。" },
+          { "speaker": "Minz", "en": "Is this car a gas guzzler? We're driving a lot.", "zh": "這台車很耗油嗎？我們會開很多路。" },
+          { "speaker": "Agent", "en": "It's a hybrid, so it's pretty efficient.", "zh": "是油電混合，蠻省油的。" }
+        ]
+      },
+      {
+        "title": "On the road",
+        "lines": [
+          { "speaker": "Jess", "en": "Shotgun! I called it first.", "zh": "我坐副駕！我先喊的。" },
+          { "speaker": "Leo", "en": "Fine. Ugh, look at this traffic. It's bumper-to-bumper.", "zh": "好啦。唉，看這車潮，整條都塞住了。" },
+          { "speaker": "Minz", "en": "If we had left an hour earlier, we wouldn't be stuck… never mind.", "zh": "如果我們早一小時出發就不會卡住……算了。" },
+          { "speaker": "Jess", "en": "If you could live anywhere in the world, where would you live?", "zh": "如果你可以住在世界上任何地方，你會住哪？" },
+          { "speaker": "Leo", "en": "Somewhere with no traffic. If I had the money, I'd buy a house in the mountains.", "zh": "沒有塞車的地方。如果我有錢，我會在山上買間房子。" },
+          { "speaker": "Minz", "en": "If I lived in the mountains, I'd never get any work done. I'd just stare at the view.", "zh": "如果我住在山上，我永遠不會做事，只會一直看風景。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "I'd like to pick up a car I reserved.", "zh": "我要取我預約的車。" },
+      { "en": "Is insurance included?", "zh": "有含保險嗎？" },
+      { "en": "Do I need to return it with a full tank?", "zh": "還車時要加滿油嗎？" },
+      { "en": "If I were you, I'd ___.", "zh": "如果我是你，我會 ___。", "note": "給建議的經典句型" },
+      { "en": "Where's the nearest gas station?", "zh": "最近的加油站在哪？" },
+      { "en": "Is there a parking lot nearby?", "zh": "附近有停車場嗎？" },
+      { "en": "Can you give me directions?", "zh": "可以告訴我怎麼走嗎？" },
+      { "en": "Let's pull over for a bit.", "zh": "我們靠邊停一下吧。" },
+      { "en": "If you could ___, what would you ___?", "zh": "如果你可以 ___，你會 ___？", "note": "閒聊時的經典假設問題" },
+      { "en": "What would you do if ___?", "zh": "如果 ___，你會怎麼做？" }
+    ],
+    "chinglish": [
+      { "wrong": "If I am you, I will buy insurance.", "right": "If I were you, I'd get insurance.", "why": "「如果我是你」是不可能的假設，要用 were + would。中文的「如果」不區分可能與不可能。" },
+      { "wrong": "If I have money, I would buy a house.", "right": "If I had the money, I'd buy a house.", "why": "第二類條件句 if 子句用過去式，主要子句用 would。兩邊時態要一致。" },
+      { "wrong": "If I was you…", "right": "If I were you…", "why": "口語中 If I was you 也常聽到，但 If I were you 是標準固定說法，考試和寫作要用 were。" },
+      { "wrong": "The road is very jam.", "right": "The traffic is terrible. / We're stuck in traffic.", "why": "jam 是名詞，說 a traffic jam；「塞車」口語多說 traffic is bad / we're stuck in traffic。" }
+    ]
+  },
+  "grammar": {
+    "id": "second-conditional",
+    "title": "條件句 type 2：If I were…",
+    "oneLiner": "If + 過去式, would + 原形：講現在或未來「不太可能」或「跟現實相反」的假設。",
+    "whenToUse": [
+      "跟現實相反：If I had a car, I'd drive.（但我沒有車）",
+      "不太可能發生：If I won the lottery, I'd quit my job.",
+      "be 動詞一律用 were（尤其 If I were you）。",
+      "主要子句可以用 would / could / might + 原形。",
+      "給建議：If I were you, I'd…",
+      "比較 type 1：If it rains, we'll stay in.（真的可能）vs If it snowed in Taipei, I'd be shocked.（幾乎不可能）"
+    ],
+    "whyWeGetItWrong": "中文的「如果」不管可能或不可能，動詞都不變：「如果下雨」「如果我是你」「如果我中樂透」。英文則用「往過去退一格」表示距離現實很遠，這對台灣人來說很反直覺：明明講的是現在，為什麼要用過去式？把過去式想成「心理上的距離」就比較好理解。",
+    "examples": [
+      { "correct": "If I were you, I'd take the train.", "incorrect": "If I am you, I will take the train.", "note": "不可能的假設用 were / would。" },
+      { "correct": "If I had more time, I'd learn to drive.", "note": "現實是：我沒有時間。" },
+      { "correct": "What would you do if you lost your passport?", "note": "假設問題。" },
+      { "correct": "If we lived closer, we could hang out more.", "note": "主要子句也可以用 could。" },
+      { "correct": "I wouldn't drive here if I were you. The roads are crazy.", "note": "if 放後面不加逗號。" }
+    ],
+    "quiz": [
+      { "id": "u045-g1", "type": "mcq", "question": "If I ___ you, I'd get full insurance.", "options": ["am", "were", "will be"], "answer": 1, "explanation": "If I were you。" },
+      { "id": "u045-g2", "type": "mcq", "question": "If I had a car, I ___ drive to work.", "options": ["will", "would", "am"], "answer": 1, "explanation": "type 2 主要子句用 would。" },
+      { "id": "u045-g3", "type": "fill", "question": "If I ___ (win) the lottery, I'd travel around the world.", "answer": "won", "explanation": "if 子句用過去式。" },
+      { "id": "u045-g4", "type": "mcq", "question": "Which one is a real possibility (type 1)?", "options": ["If it rains tomorrow, we'll stay in.", "If I were a bird, I'd fly home.", "If I had wings, I'd fly."], "answer": 0, "explanation": "明天下雨是真的有可能，用 type 1。" },
+      { "id": "u045-g5", "type": "fill", "question": "What ___ you do if you got lost in a foreign city?", "answer": "would", "explanation": "What would you do if…?" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "fender-bender",
+      "term": "fender bender",
+      "meaning": "小擦撞、小車禍",
+      "register": "casual",
+      "usage": "fender 是擋泥板，指沒人受傷的輕微車禍。",
+      "risk": { "level": "safe", "note": "日常用語。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "Sorry I'm late. There was a fender bender on the highway.", "zh": "抱歉遲到，高速公路上有小擦撞。" },
+        { "en": "It was just a fender bender. Nobody got hurt.", "zh": "只是小擦撞，沒人受傷。" }
+      ]
+    },
+    {
+      "id": "call-shotgun",
+      "term": "call shotgun",
+      "meaning": "搶副駕駛座",
+      "register": "very-casual",
+      "usage": "大喊 Shotgun! 就是宣告要坐副駕。有不成文的規則：要看到車才能喊。",
+      "risk": { "level": "safe", "note": "朋友間的玩笑用語。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "Shotgun! I get the front seat.", "zh": "副駕是我的！" },
+        { "en": "You can't call shotgun from inside the house!", "zh": "你不能在屋子裡就喊副駕啦！" }
+      ]
+    },
+    {
+      "id": "gas-guzzler",
+      "term": "gas guzzler",
+      "meaning": "很耗油的車",
+      "register": "casual",
+      "usage": "guzzle = 狂喝。形容油耗很高的車。",
+      "risk": { "level": "safe", "note": "日常用語，帶一點負面。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "My dad's old SUV is a real gas guzzler.", "zh": "我爸那台舊休旅車超耗油。" },
+        { "en": "I sold my gas guzzler and bought an electric scooter.", "zh": "我把耗油的車賣了，買了電動機車。" }
+      ]
+    },
+    {
+      "id": "bumper-to-bumper",
+      "term": "bumper-to-bumper",
+      "meaning": "車子一台接一台、大塞車",
+      "register": "neutral",
+      "usage": "bumper-to-bumper traffic = 車距很近、幾乎不動的車潮。",
+      "risk": { "level": "safe", "note": "新聞和日常都用。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "It was bumper-to-bumper all the way to Yilan.", "zh": "一路塞到宜蘭。" },
+        { "en": "I hate driving at rush hour. It's always bumper-to-bumper.", "zh": "我討厭尖峰時間開車，永遠在塞。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u045-r1", "sourceUnit": 44, "type": "mcq", "question": "I suggest ___ early to avoid the traffic.", "options": ["you to leave", "leaving", "to leave you"], "answer": 1, "explanation": "複習第 44 單元：suggest + V-ing。" },
+    { "id": "u045-r2", "sourceUnit": 43, "type": "fill", "question": "The GPS doesn't ___ to be working.", "answer": "seem", "explanation": "複習第 43 單元：doesn't seem to。" },
+    { "id": "u045-r3", "sourceUnit": 41, "type": "mcq", "question": "Which is correct?", "options": ["We got the car off at the gas station.", "We got off the car.", "We got out of the car at the gas station."], "answer": 2, "explanation": "複習第 41 單元：下汽車用 get out of（公車火車用 get off）。" },
+    { "id": "u045-r4", "sourceUnit": 37, "type": "mcq", "question": "It was ___ long drive!", "options": ["so", "such a", "such"], "answer": 1, "explanation": "複習第 37 單元：such a + 形容詞 + 名詞。" },
+    { "id": "u045-r5", "sourceUnit": 29, "type": "mcq", "question": "You've driven on the right before, ___?", "options": ["haven't you", "didn't you", "don't you"], "answer": 0, "explanation": "複習第 29 單元：You've → haven't you。" },
+    { "id": "u045-r6", "sourceUnit": 13, "type": "fill", "question": "Driving in the city is so ___ (stress). I prefer the MRT.", "answer": "stressful", "explanation": "複習第 13 單元形容詞：stressful（令人有壓力的）。" },
+    { "id": "u045-r7", "sourceUnit": 45, "type": "mcq", "question": "Which is correct?", "options": ["If I am you, I will rent a smaller car.", "If I were you, I'd rent a smaller car.", "If I was you, I will rent a smaller car."], "answer": 1, "explanation": "If I were you, I'd…" }
+  ]
+}

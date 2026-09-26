@@ -1,0 +1,148 @@
+{
+  "id": 42,
+  "module": 5,
+  "level": "B2-",
+  "title": { "zh": "飯店入住", "en": "At the Hotel" },
+  "scenario": {
+    "title": "入住、房間問題、升等",
+    "context": "飯店的對話充滿被動語態：房間已經打掃好了、早餐有包含、你被升等了。第 18 單元學過基本被動，這個單元加上 get + p.p. 和 has been done，讓被動用法更完整、更口語。",
+    "dialogues": [
+      {
+        "title": "Checking in",
+        "lines": [
+          { "speaker": "Clerk", "en": "Welcome! Checking in?", "zh": "歡迎！要入住嗎？" },
+          { "speaker": "Minz", "en": "Yes, I have a reservation under Minz. Two nights.", "zh": "是的，我用 Minz 的名字訂房，兩晚。" },
+          { "speaker": "Clerk", "en": "Great. Your room hasn't been cleaned yet, I'm afraid. It'll be ready in about thirty minutes.", "zh": "好的。很抱歉您的房間還沒打掃好，大概三十分鐘後好。" },
+          { "speaker": "Minz", "en": "No problem. Can I leave my bag here?", "zh": "沒問題。我可以把行李寄放在這嗎？" },
+          { "speaker": "Clerk", "en": "Of course. And good news: you've been upgraded to a room with a harbor view.", "zh": "當然。還有好消息：您被升等到港景房了。" },
+          { "speaker": "Minz", "en": "Oh wow, thank you! Is breakfast included?", "zh": "哇，謝謝！有含早餐嗎？" },
+          { "speaker": "Clerk", "en": "It is. It's served from 6:30 to 10 on the second floor. We'll also comp your parking since the room wasn't ready.", "zh": "有，早餐在二樓，6 點半到 10 點。因為房間還沒好，停車費我們也幫您免了。" },
+          { "speaker": "Minz", "en": "That's so kind. Thanks!", "zh": "太貼心了，謝謝！" }
+        ]
+      },
+      {
+        "title": "Talking about hotels",
+        "lines": [
+          { "speaker": "Jess", "en": "How's the hotel?", "zh": "飯店怎麼樣？" },
+          { "speaker": "Minz", "en": "Honestly, it's pretty swanky. I got upgraded for free.", "zh": "說真的蠻高級的，我被免費升等了。" },
+          { "speaker": "Jess", "en": "Lucky! Last time I booked the cheapest place I could find, and it was a total dive.", "zh": "好幸運！我上次訂了能找到的最便宜的，結果超破。" },
+          { "speaker": "Minz", "en": "Ha, what happened?", "zh": "哈，發生什麼事？" },
+          { "speaker": "Jess", "en": "My towels never got changed, and my phone got stolen from the lobby.", "zh": "毛巾從來沒換過，我的手機還在大廳被偷。" },
+          { "speaker": "Minz", "en": "Oh no. This place is so ritzy they probably have a guard for the lobby plants.", "zh": "天啊。這裡高級到大廳的植物可能都有警衛看守。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "I have a reservation under ___.", "zh": "我用 ___ 的名字訂房。" },
+      { "en": "Is breakfast included?", "zh": "有含早餐嗎？" },
+      { "en": "What time is check-out?", "zh": "幾點退房？" },
+      { "en": "Could I get a late check-out?", "zh": "可以延後退房嗎？" },
+      { "en": "Can I leave my bags here?", "zh": "我可以把行李寄放在這嗎？" },
+      { "en": "The air conditioning isn't working.", "zh": "冷氣壞了。" },
+      { "en": "Could I get some extra towels?", "zh": "可以多給我幾條毛巾嗎？" },
+      { "en": "My room hasn't been cleaned.", "zh": "我的房間還沒被打掃。" },
+      { "en": "Is there somewhere I can store my luggage?", "zh": "有地方可以寄放行李嗎？" },
+      { "en": "What's the Wi-Fi password?", "zh": "Wi-Fi 密碼是什麼？" }
+    ],
+    "chinglish": [
+      { "wrong": "My room didn't clean.", "right": "My room wasn't cleaned. / My room hasn't been cleaned.", "why": "房間是被打掃的，要用被動。中文「房間沒打掃」省略了「被」。" },
+      { "wrong": "Breakfast is include?", "right": "Is breakfast included?", "why": "被動要 be + p.p.，include 要變成 included。" },
+      { "wrong": "Can I deposit my luggage?", "right": "Can I leave my luggage here? / Can you store my bags?", "why": "「寄放行李」直翻 deposit 是存款的意思。說 leave / store。" },
+      { "wrong": "The room is very dirty dirty.", "right": "The room is pretty dirty. There's hair in the bathroom.", "why": "英文不疊字；客訴時具體描述問題，比形容詞強調更有效。" }
+    ]
+  },
+  "grammar": {
+    "id": "passive-get-perfect",
+    "title": "被動進階：get + p.p.／has been done",
+    "oneLiner": "get + p.p. 是口語的被動，常用在「發生在某人身上」的事；has been + p.p. 是現在完成式的被動。",
+    "whenToUse": [
+      "現在完成被動：has / have been + p.p.。Your room has been cleaned. / You've been upgraded.",
+      "否定和問句：It hasn't been cleaned yet. / Has it been fixed?",
+      "get + p.p.：口語被動，常用在意外、改變、突發事件。My phone got stolen. / I got upgraded. / He got fired.",
+      "get + p.p. 也用在「變成某狀態」：get married, get dressed, get lost。",
+      "進行式被動：is being + p.p.。Your room is being cleaned right now."
+    ],
+    "whyWeGetItWrong": "第 18 單元已經提過，中文很少用「被」，所以台灣人常忘了用被動。進入 B2 之後，還得分清楚時態：「已經打掃好了」是 has been cleaned，「正在打掃」是 is being cleaned。get + p.p. 則是母語者口語中非常常見、但教科書很少教的被動形式。",
+    "examples": [
+      { "correct": "Your room has been cleaned.", "incorrect": "Your room has cleaned.", "note": "現在完成被動要有 been。" },
+      { "correct": "My wallet got stolen on the train.", "note": "get + p.p. 表示意外。" },
+      { "correct": "We got upgraded to a suite!", "note": "口語好消息也常用 get + p.p.。" },
+      { "correct": "The pool is being repaired this week.", "note": "正在進行的被動。" },
+      { "correct": "Has the bill been paid?", "incorrect": "Has the bill paid?", "note": "問句也要有 been。" }
+    ],
+    "quiz": [
+      { "id": "u042-g1", "type": "mcq", "question": "Your room ___ yet.", "options": ["hasn't cleaned", "hasn't been cleaned", "didn't clean"], "answer": 1, "explanation": "現在完成被動：hasn't been + p.p.。" },
+      { "id": "u042-g2", "type": "fill", "question": "My luggage got ___ (lose) on the way to Tokyo.", "answer": "lost", "explanation": "get + p.p.：got lost。" },
+      { "id": "u042-g3", "type": "mcq", "question": "The elevator ___ right now, so please use the stairs.", "options": ["is repaired", "is being repaired", "repairs"], "answer": 1, "explanation": "正在修用 is being repaired。" },
+      { "id": "u042-g4", "type": "mcq", "question": "Is breakfast ___?", "options": ["include", "included", "including"], "answer": 1, "explanation": "被動：be + included。" },
+      { "id": "u042-g5", "type": "fill", "question": "Good news! You've ___ upgraded to a sea-view room.", "answer": "been", "explanation": "have been + p.p.。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "comp",
+      "term": "comp",
+      "meaning": "免費招待（complimentary 的簡稱）",
+      "register": "casual",
+      "usage": "動詞 comp something = 免費提供；形容詞 It's comped. 飯店、餐廳、賭場常用。",
+      "risk": { "level": "safe", "note": "服務業常用語。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "The manager comped our dessert because of the wait.", "zh": "因為等太久，經理招待我們甜點。" },
+        { "en": "Our drinks were comped. Nice!", "zh": "我們的飲料免費，讚！" }
+      ]
+    },
+    {
+      "id": "a-dive",
+      "term": "a dive",
+      "meaning": "破舊廉價的店（通常是酒吧、餐廳、旅館）",
+      "register": "casual",
+      "usage": "a dive bar = 老舊但有個性的便宜酒吧，有時是帶著喜愛的說法。",
+      "risk": { "level": "careful", "note": "當著老闆的面別說；但 dive bar 在朋友間常是正面的。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "The hostel was a dive, but the location was perfect.", "zh": "那間青旅很破，但地點完美。" },
+        { "en": "Let's go to that dive bar near the station. The drinks are cheap.", "zh": "去車站附近那間小破酒吧吧，酒很便宜。" }
+      ]
+    },
+    {
+      "id": "swanky",
+      "term": "swanky",
+      "meaning": "高級、時髦、氣派",
+      "register": "casual",
+      "usage": "形容飯店、餐廳、派對很豪華時髦。",
+      "risk": { "level": "safe", "note": "帶點玩笑語氣的稱讚。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "They had their wedding at a swanky hotel in Xinyi.", "zh": "他們在信義區一間高級飯店辦婚禮。" },
+        { "en": "Swanky place! Did you win the lottery?", "zh": "好高級的地方！你中樂透了嗎？" }
+      ]
+    },
+    {
+      "id": "ritzy",
+      "term": "ritzy",
+      "meaning": "奢華、貴氣",
+      "register": "casual",
+      "usage": "源自麗池酒店（The Ritz），形容很貴很豪華的地方。",
+      "risk": { "level": "safe", "note": "有點老派但仍常見，帶點調侃。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "It's a ritzy neighborhood. Rent is crazy.", "zh": "那是很貴氣的街區，房租超誇張。" },
+        { "en": "I felt underdressed at that ritzy restaurant.", "zh": "在那間高級餐廳我覺得自己穿太隨便。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u042-r1", "sourceUnit": 41, "type": "mcq", "question": "Could you drop ___ at the hotel?", "options": ["off me", "me off", "me"], "answer": 1, "explanation": "複習第 41 單元：drop me off。" },
+    { "id": "u042-r2", "sourceUnit": 40, "type": "mcq", "question": "The hotel ___ we stayed at had a rooftop pool.", "options": ["who", "that", "whose"], "answer": 1, "explanation": "複習第 40 單元：指物用 that。" },
+    { "id": "u042-r3", "sourceUnit": 38, "type": "fill", "question": "Help ___ to anything in the minibar.", "answer": "yourself", "explanation": "複習第 38 單元：help yourself。" },
+    { "id": "u042-r4", "sourceUnit": 34, "type": "mcq", "question": "I'd rather ___ somewhere quiet.", "options": ["stay", "to stay", "staying"], "answer": 0, "explanation": "複習第 34 單元：would rather + 原形。" },
+    { "id": "u042-r5", "sourceUnit": 26, "type": "mcq", "question": "I ___ for my room for an hour!", "options": ["'m waiting", "'ve been waiting", "wait"], "answer": 1, "explanation": "複習第 26 單元：完成進行式。" },
+    { "id": "u042-r6", "sourceUnit": 10, "type": "fill", "question": "We had a ___ at the hotel party. (超好玩)", "answer": "blast", "explanation": "複習第 10 單元：have a blast。" },
+    { "id": "u042-r7", "sourceUnit": 42, "type": "mcq", "question": "Which is correct?", "options": ["My phone got stolen.", "My phone stole.", "My phone was steal."], "answer": 0, "explanation": "get + p.p. 表示意外。" }
+  ]
+}

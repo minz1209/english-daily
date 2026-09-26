@@ -1,0 +1,147 @@
+{
+  "id": 46,
+  "module": 5,
+  "level": "B2-",
+  "title": { "zh": "東西不見了", "en": "Losing Something" },
+  "scenario": {
+    "title": "護照、錢包不見了，推理它在哪",
+    "context": "東西不見時，大家會開始推理：「一定是掉在計程車上了」「可能被偷了」「不可能在飯店，我有檢查」。這些「對過去的推測」要用 must have / might have / can't have + p.p.，是第 35 單元 must 推測的過去版本。",
+    "dialogues": [
+      {
+        "title": "Where's my passport?",
+        "lines": [
+          { "speaker": "Minz", "en": "Jess, I can't find my passport. I'm starting to freak out.", "zh": "Jess，我找不到護照，我開始慌了。" },
+          { "speaker": "Jess", "en": "OK, keep your cool. When did you last have it?", "zh": "好，冷靜。你最後一次拿到它是什麼時候？" },
+          { "speaker": "Minz", "en": "At the hotel check-in. I must have left it at the front desk.", "zh": "飯店入住的時候。我一定是把它留在櫃台了。" },
+          { "speaker": "Jess", "en": "Or you might have put it in your backpack. Did you check the side pocket?", "zh": "或者你可能放進背包了。你有檢查側袋嗎？" },
+          { "speaker": "Minz", "en": "I did. It can't have been in my backpack. I emptied the whole thing.", "zh": "檢查了。不可能在背包，我整個倒出來了。" },
+          { "speaker": "Jess", "en": "Let's call the hotel before we panic.", "zh": "慌之前先打給飯店吧。" },
+          { "speaker": "Minz", "en": "Good idea. I completely lost track of it after the taxi.", "zh": "好主意。下計程車後我就完全不記得它去哪了。" }
+        ]
+      },
+      {
+        "title": "It turns up",
+        "lines": [
+          { "speaker": "Clerk", "en": "Hello, front desk. How can I help?", "zh": "您好，這裡是櫃台，有什麼需要？" },
+          { "speaker": "Minz", "en": "Hi, I checked in this afternoon. I think I might have left my passport at the desk.", "zh": "你好，我今天下午入住，我想我可能把護照留在櫃台了。" },
+          { "speaker": "Clerk", "en": "Let me check. … Yes, we have a Taiwanese passport here. Someone must have put it in the safe.", "zh": "我查一下……有，我們這有一本台灣護照，應該是有人把它放進保險箱了。" },
+          { "speaker": "Minz", "en": "Oh, thank goodness. I'll come down right now.", "zh": "喔，謝天謝地。我馬上下去。" },
+          { "speaker": "Jess", "en": "See? I told you it would turn up.", "zh": "看吧？我就說它會出現。" },
+          { "speaker": "Minz", "en": "You were right. I must have looked like a crazy person.", "zh": "你是對的。我剛剛一定看起來像個瘋子。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "I can't find my ___.", "zh": "我找不到我的 ___。" },
+      { "en": "When did you last have it?", "zh": "你最後一次拿到是什麼時候？" },
+      { "en": "I must have left it in the taxi.", "zh": "我一定是忘在計程車上了。" },
+      { "en": "Someone might have taken it by mistake.", "zh": "可能有人拿錯了。" },
+      { "en": "It can't have gone far.", "zh": "它不可能跑太遠。" },
+      { "en": "Has anyone turned in a ___?", "zh": "有人交來一個 ___ 嗎？", "note": "turn in = 交出、送交" },
+      { "en": "Where's the lost and found?", "zh": "失物招領在哪？" },
+      { "en": "I'd like to report a lost ___.", "zh": "我要報失 ___。" },
+      { "en": "Let's retrace our steps.", "zh": "我們沿原路找找看。" },
+      { "en": "Thank goodness!", "zh": "謝天謝地！" }
+    ],
+    "chinglish": [
+      { "wrong": "My passport is lost by me.", "right": "I lost my passport. / I can't find my passport.", "why": "被動句聽起來很怪。直接用主動 I lost… 最自然。" },
+      { "wrong": "I must left it in the taxi.", "right": "I must have left it in the taxi.", "why": "推測過去要用 must have + p.p.，不能直接接過去式。" },
+      { "wrong": "It mustn't be in my bag.", "right": "It can't be in my bag. / It can't have been in my bag.", "why": "推測否定用 can't（複習第 35 單元），mustn't 是「禁止」。" },
+      { "wrong": "Don't be nervous, calm down calm down.", "right": "Stay calm. We'll figure it out.", "why": "重複說 calm down 反而讓人更緊張，英文會給具體的安撫。" }
+    ]
+  },
+  "grammar": {
+    "id": "modals-past-deduction",
+    "title": "推測過去 must / might / can't have",
+    "oneLiner": "情態動詞 + have + p.p. 用來推測「過去」發生了什麼：must have（一定是）、might / could have（可能）、can't have（不可能）。",
+    "whenToUse": [
+      "must have + p.p.：很有把握的推測。I must have left it at the desk.",
+      "might / may / could have + p.p.：不確定的推測。Someone might have taken it.",
+      "can't / couldn't have + p.p.：很有把握的否定推測。It can't have been stolen. The door was locked.",
+      "口語縮寫：must've, might've, could've（聽起來像 must of，但寫法是 have）。",
+      "比較：must be（推測現在）vs must have been（推測過去）。"
+    ],
+    "whyWeGetItWrong": "中文推測過去只要加「一定是」「可能」，後面動詞直接用：「一定是掉了」「可能被偷了」。英文的情態動詞後面只能接原形，所以要表示過去，就得靠 have + p.p. 來承載時間。台灣人常說 must left 或 might lost，就是把中文的結構直接套進來。",
+    "examples": [
+      { "correct": "I must have dropped it on the train.", "incorrect": "I must dropped it on the train.", "note": "must + have + p.p.。" },
+      { "correct": "She might have gone home already.", "note": "不確定的推測。" },
+      { "correct": "He can't have seen us. He didn't wave.", "incorrect": "He mustn't have seen us.", "note": "否定推測用 can't have。" },
+      { "correct": "You must be tired. You must have walked ten kilometers today.", "note": "must be（現在）vs must have walked（過去）。" },
+      { "correct": "It could have been worse.", "note": "常用的安慰句：本來可能更糟。" }
+    ],
+    "quiz": [
+      { "id": "u046-g1", "type": "mcq", "question": "My wallet's gone. I ___ it on the bus.", "options": ["must leave", "must have left", "must left"], "answer": 1, "explanation": "推測過去：must have + p.p.。" },
+      { "id": "u046-g2", "type": "mcq", "question": "It ___ been stolen. I had it in my hand the whole time.", "options": ["must have", "can't have", "might have"], "answer": 1, "explanation": "很確定不可能：can't have。" },
+      { "id": "u046-g3", "type": "fill", "question": "I'm not sure. Someone ___ have picked it up by mistake.", "answer": "might|may|could", "explanation": "不確定的推測。" },
+      { "id": "u046-g4", "type": "fill", "question": "You look exhausted. You must have ___ (walk) all day.", "answer": "walked", "explanation": "must have + p.p.。" },
+      { "id": "u046-g5", "type": "mcq", "question": "Which is correct?", "options": ["She must of forgotten.", "She must have forgotten.", "She must forgot."], "answer": 1, "explanation": "寫作時是 must have，不是 must of。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "lose-track-of",
+      "term": "lose track of",
+      "meaning": "搞不清楚、忘了注意（時間、東西、人）",
+      "register": "neutral",
+      "usage": "lose track of time（忘了時間）、lose track of someone（跟某人失聯）。",
+      "risk": { "level": "safe", "note": "中性常用。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Sorry, I lost track of time. Am I late?", "zh": "抱歉，我忘了時間，我遲到了嗎？" },
+        { "en": "I lost track of my keys somewhere between the café and home.", "zh": "從咖啡店到家的路上，我不知道鑰匙丟哪了。" }
+      ]
+    },
+    {
+      "id": "freak-out",
+      "term": "freak out",
+      "meaning": "嚇壞、抓狂、崩潰",
+      "register": "casual",
+      "usage": "freak out / be freaking out / freak someone out（嚇到某人）。",
+      "risk": { "level": "safe", "note": "口語常用，不粗俗。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "I freaked out when I couldn't find my passport.", "zh": "找不到護照時我整個嚇壞了。" },
+        { "en": "Don't freak out, but I think I broke your mug.", "zh": "你先別抓狂，但我好像打破你的杯子了。" }
+      ]
+    },
+    {
+      "id": "keep-your-cool",
+      "term": "keep your cool",
+      "meaning": "保持冷靜",
+      "register": "casual",
+      "usage": "在壓力下不慌、不生氣。反義 lose your cool（失控、發火）。",
+      "risk": { "level": "safe", "note": "友善的提醒。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "She kept her cool even when the client started yelling.", "zh": "客戶開始吼的時候她還是很冷靜。" },
+        { "en": "I lost my cool and said something I regret.", "zh": "我失控說了讓我後悔的話。" }
+      ]
+    },
+    {
+      "id": "turn-up",
+      "term": "turn up",
+      "meaning": "（失物）出現、被找到；（人）出現",
+      "register": "casual",
+      "usage": "It'll turn up. = 它會出現的。也指人突然出現：He turned up late.",
+      "risk": { "level": "safe", "note": "另外 turn up 也有「把音量調大」的意思（第 33 單元 Turn it up!）。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Don't worry about your ring. It'll turn up.", "zh": "別擔心你的戒指，它會出現的。" },
+        { "en": "Only five people turned up to the meeting.", "zh": "只有五個人來開會。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u046-r1", "sourceUnit": 45, "type": "mcq", "question": "If I ___ my passport, I'd go straight to the embassy.", "options": ["lose", "lost", "will lose"], "answer": 1, "explanation": "複習第 45 單元：type 2 用過去式。" },
+    { "id": "u046-r2", "sourceUnit": 44, "type": "mcq", "question": "I recommend ___ a photo of your passport.", "options": ["you to take", "taking", "to take you"], "answer": 1, "explanation": "複習第 44 單元：recommend + V-ing。" },
+    { "id": "u046-r3", "sourceUnit": 42, "type": "fill", "question": "My bag got ___ (leave) on the train.", "answer": "left", "explanation": "複習第 42 單元：get + p.p.。" },
+    { "id": "u046-r4", "sourceUnit": 38, "type": "fill", "question": "I blamed ___ for losing it.", "answer": "myself", "explanation": "複習第 38 單元：反身代名詞。" },
+    { "id": "u046-r5", "sourceUnit": 30, "type": "mcq", "question": "I ___ my keys three times this month!", "options": ["lost", "'ve lost", "was losing"], "answer": 1, "explanation": "複習第 30 單元：到現在為止的次數用現在完成式。" },
+    { "id": "u046-r6", "sourceUnit": 14, "type": "mcq", "question": "I keep ___ my umbrella everywhere.", "options": ["to forget", "forgetting", "forget"], "answer": 1, "explanation": "複習第 14 單元：keep + V-ing。" },
+    { "id": "u046-r7", "sourceUnit": 46, "type": "mcq", "question": "Which is correct?", "options": ["I must left it at home.", "I must have left it at home.", "I must leaving it at home."], "answer": 1, "explanation": "must have + p.p.。" }
+  ]
+}

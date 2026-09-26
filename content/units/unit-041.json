@@ -1,0 +1,148 @@
+{
+  "id": 41,
+  "module": 5,
+  "level": "B2-",
+  "title": { "zh": "機場報到", "en": "Checking In at the Airport" },
+  "scenario": {
+    "title": "報到、托運、安檢、登機",
+    "context": "機場英文幾乎都是片語動詞：check in、drop off、pick up、take off、board。每個都有固定的受詞位置和意思。聽懂地勤和廣播，出國就少一半壓力。",
+    "dialogues": [
+      {
+        "title": "At the check-in counter",
+        "lines": [
+          { "speaker": "Agent", "en": "Good evening. Where are you flying to today?", "zh": "晚安，今天飛哪裡？" },
+          { "speaker": "Minz", "en": "Seattle. I checked in online, but I need to drop off a bag.", "zh": "西雅圖。我已經線上報到了，但要托運一件行李。" },
+          { "speaker": "Agent", "en": "Sure. Can I see your passport? And please put your bag on the scale.", "zh": "好的，可以看您的護照嗎？請把行李放上磅秤。" },
+          { "speaker": "Agent", "en": "It's 24 kilos, so you're fine. Would you like a window or an aisle seat?", "zh": "24 公斤，沒問題。您要靠窗還是走道？" },
+          { "speaker": "Minz", "en": "Aisle, please. It's a red-eye, so I'll want to get up without waking anyone.", "zh": "走道，謝謝。這是紅眼班機，我想起身時不吵到別人。" },
+          { "speaker": "Agent", "en": "Here's your boarding pass. Boarding starts at 11:20 at gate B7.", "zh": "這是您的登機證，11 點 20 分在 B7 登機。" },
+          { "speaker": "Minz", "en": "And will I need to pick up my bag in Tokyo for my connection?", "zh": "我在東京轉機時需要領行李嗎？" },
+          { "speaker": "Agent", "en": "No, it's checked through to Seattle. You'll pick it up there.", "zh": "不用，直掛到西雅圖，您在那邊領就好。" }
+        ]
+      },
+      {
+        "title": "Running late",
+        "lines": [
+          { "speaker": "Jess", "en": "Where are you? They're about to close the gate!", "zh": "你在哪？快關閘門了！" },
+          { "speaker": "Minz", "en": "Still in the security line. I knew we were cutting it close.", "zh": "還在安檢排隊。我就知道我們時間抓太緊了。" },
+          { "speaker": "Jess", "en": "Tell the staff your flight's boarding. They might let you skip ahead.", "zh": "跟工作人員說你的班機在登機了，他們可能會讓你插隊。" },
+          { "speaker": "Minz", "en": "OK, I'm through! Running now.", "zh": "好，我過了！在跑了。" },
+          { "speaker": "Jess", "en": "Hurry. The plane takes off in twenty minutes.", "zh": "快點，飛機二十分鐘後起飛。" },
+          { "speaker": "Minz", "en": "Made it! Next time, we're leaving home an hour earlier.", "zh": "趕上了！下次我們早一個小時出門。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "I'd like to check in for my flight to ___.", "zh": "我要報到飛往 ___ 的班機。" },
+      { "en": "I need to drop off a bag.", "zh": "我要托運一件行李。" },
+      { "en": "Window or aisle?", "zh": "靠窗還是走道？" },
+      { "en": "Is my bag checked through to ___?", "zh": "我的行李有直掛到 ___ 嗎？" },
+      { "en": "What time does boarding start?", "zh": "幾點開始登機？" },
+      { "en": "Which gate is it?", "zh": "在哪個登機門？" },
+      { "en": "Is the flight on time?", "zh": "班機準時嗎？" },
+      { "en": "My flight's been delayed.", "zh": "我的班機延誤了。" },
+      { "en": "Can I take this on board?", "zh": "這個可以帶上飛機嗎？" },
+      { "en": "Where do I pick up my luggage?", "zh": "我在哪裡領行李？" }
+    ],
+    "chinglish": [
+      { "wrong": "I want to check in my luggage.", "right": "I'd like to check a bag. / I need to drop off a bag.", "why": "文法可以，但 I want 太直接（複習第 2 單元）。托運說 check a bag 或 drop off a bag。" },
+      { "wrong": "The plane is flying at 10.", "right": "The plane takes off at 10. / The flight leaves at 10.", "why": "起飛是 take off / leave / depart。" },
+      { "wrong": "Can you take me to the airport? / Can you pick me to the airport?", "right": "Can you drop me off at the airport? / Can you pick me up from the airport?", "why": "送人去 drop off，接人 pick up。中文「載我去機場」「接我」容易混用。" },
+      { "wrong": "My luggages are overweight.", "right": "My luggage is overweight. / My bags are overweight.", "why": "luggage 不可數，不加 s。" }
+    ]
+  },
+  "grammar": {
+    "id": "travel-phrasal-verbs",
+    "title": "片語動詞 check in / drop off / pick up",
+    "oneLiner": "旅行的片語動詞分兩種：可以拆開的（pick it up）和不能拆開的（get on the plane）；代名詞一定放在可拆開片語的中間。",
+    "whenToUse": [
+      "可拆開（及物）：drop off, pick up, check in (a bag), fill out (a form), look up。I'll pick you up. / Fill it out.",
+      "不及物（沒有受詞）：take off（起飛）, check in（報到）, check out（退房）, set off（出發）。",
+      "不可拆開：get on / get off（上下交通工具）, look after, run into。Get on the plane（不能說 get the plane on）。",
+      "drop off = 送到、放下；pick up = 接、領取。",
+      "同一個片語動詞可能有多個意思：take off = 起飛 / 脫掉（衣服）/ 請假。"
+    ],
+    "whyWeGetItWrong": "第 25 單元學過代名詞要放中間，但旅行片語多了一個麻煩：有些不能拆（get on the bus），有些根本沒有受詞（The plane took off）。台灣人常把中文的「送」「接」「載」全翻成 take 或 send，其實英文分工很細：送人去用 drop off，接人用 pick up，自己上車用 get on。",
+    "examples": [
+      { "correct": "Can you drop me off at Terminal 2?", "note": "drop + 人 + off。" },
+      { "correct": "I'll pick you up at arrivals.", "incorrect": "I'll pick up you at arrivals.", "note": "代名詞夾中間。" },
+      { "correct": "The plane took off an hour late.", "note": "take off 不需要受詞。" },
+      { "correct": "We got on the train at Taipei Main Station.", "incorrect": "We got the train on at Taipei Main Station.", "note": "get on 不能拆開。" },
+      { "correct": "Please fill out this customs form.", "note": "fill out = 填寫。" }
+    ],
+    "quiz": [
+      { "id": "u041-g1", "type": "mcq", "question": "Could you ___ at the airport tomorrow?", "options": ["pick up me", "pick me up", "pick me"], "answer": 1, "explanation": "代名詞放中間：pick me up。" },
+      { "id": "u041-g2", "type": "fill", "question": "Our plane took ___ right on time.", "answer": "off", "explanation": "take off = 起飛。" },
+      { "id": "u041-g3", "type": "mcq", "question": "Which is correct?", "options": ["We got the bus on.", "We got on the bus.", "We on got the bus."], "answer": 1, "explanation": "get on 不能拆開。" },
+      { "id": "u041-g4", "type": "fill", "question": "Can you drop me ___ at the station on your way?", "answer": "off", "explanation": "drop someone off = 載某人到某處放下。" },
+      { "id": "u041-g5", "type": "mcq", "question": "You need to ___ this form before you land.", "options": ["fill out", "fill up", "full in"], "answer": 0, "explanation": "填表 fill out（英式 fill in 也可以）。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "red-eye",
+      "term": "red-eye",
+      "meaning": "紅眼班機（深夜起飛、清晨抵達）",
+      "register": "casual",
+      "usage": "take the red-eye / a red-eye flight。",
+      "risk": { "level": "safe", "note": "普遍說法。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "I took the red-eye and went straight to the meeting.", "zh": "我搭紅眼班機，下機就直接去開會。" },
+        { "en": "Red-eyes are cheaper, but I can never sleep on planes.", "zh": "紅眼班機比較便宜，但我在飛機上都睡不著。" }
+      ]
+    },
+    {
+      "id": "cutting-it-close",
+      "term": "cutting it close",
+      "meaning": "時間抓太緊、差點來不及",
+      "register": "casual",
+      "usage": "You're cutting it close = 你時間抓太剛好了。",
+      "risk": { "level": "safe", "note": "日常用語。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "Leaving at 7 for an 8 o'clock flight? That's cutting it close.", "zh": "七點出門趕八點的飛機？太趕了吧。" },
+        { "en": "We made it, but we really cut it close.", "zh": "我們趕上了，但真的差一點。" }
+      ]
+    },
+    {
+      "id": "jet-lagged",
+      "term": "jet-lagged",
+      "meaning": "有時差、時差很嚴重",
+      "register": "neutral",
+      "usage": "I'm jet-lagged. 名詞是 jet lag。",
+      "risk": { "level": "safe", "note": "中性用語。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Sorry if I'm slow today. I'm still jet-lagged.", "zh": "抱歉我今天反應慢，還在時差中。" },
+        { "en": "The jet lag was brutal after my trip to New York.", "zh": "去紐約回來時差超可怕。" }
+      ]
+    },
+    {
+      "id": "puddle-jumper",
+      "term": "puddle-jumper",
+      "meaning": "短程小飛機",
+      "register": "casual",
+      "usage": "形容短距離、座位少的螺旋槳小飛機。",
+      "risk": { "level": "safe", "note": "美式口語，帶點幽默。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "We took a puddle-jumper from Taitung to Green Island.", "zh": "我們從台東搭小飛機去綠島。" },
+        { "en": "Puddle-jumpers make me nervous. They shake so much.", "zh": "小飛機讓我很緊張，晃得好厲害。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u041-r1", "sourceUnit": 40, "type": "mcq", "question": "It was ___ flight I've ever taken.", "options": ["the longest", "the most long", "longer"], "answer": 0, "explanation": "複習第 40 單元：long → the longest。" },
+    { "id": "u041-r2", "sourceUnit": 39, "type": "mcq", "question": "If the flight ___ delayed, I'll miss my connection.", "options": ["will be", "is", "was"], "answer": 1, "explanation": "複習第 39 單元：if 子句用現在式。" },
+    { "id": "u041-r3", "sourceUnit": 37, "type": "fill", "question": "It was ___ a long flight that I watched five movies.", "answer": "such", "explanation": "複習第 37 單元：such a… that。" },
+    { "id": "u041-r4", "sourceUnit": 33, "type": "mcq", "question": "Economy is ___ than business class, obviously.", "options": ["more cheap", "cheaper", "cheapest"], "answer": 1, "explanation": "複習第 33 單元：cheap → cheaper。" },
+    { "id": "u041-r5", "sourceUnit": 25, "type": "mcq", "question": "Which is correct?", "options": ["I'll call back you after I land.", "I'll call you back after I land.", "I'll back call you."], "answer": 1, "explanation": "複習第 25 單元：代名詞放中間。" },
+    { "id": "u041-r6", "sourceUnit": 9, "type": "mcq", "question": "I ___ to Seattle on Friday. The ticket's booked.", "options": ["will fly", "'m flying", "fly"], "answer": 1, "explanation": "複習第 9 單元：已排定用進行式。" },
+    { "id": "u041-r7", "sourceUnit": 41, "type": "fill", "question": "I'll pick you ___ at arrivals.", "answer": "up", "explanation": "pick up = 接。" }
+  ]
+}

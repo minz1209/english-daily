@@ -1,0 +1,149 @@
+{
+  "id": 48,
+  "module": 5,
+  "level": "B2-",
+  "title": { "zh": "殺價買紀念品", "en": "Haggling for Souvenirs" },
+  "scenario": {
+    "title": "在市集殺價、比價",
+    "context": "在東南亞市集殺價時，會一直比價錢：「這裡比那攤貴兩倍」「沒有那家一半便宜」。英文用 twice as… as、half as… as、three times more… 表達倍數比較，結構和中文差很多。",
+    "dialogues": [
+      {
+        "title": "At a market in Bangkok",
+        "lines": [
+          { "speaker": "Seller", "en": "Beautiful scarves! Pure silk. Only 800 baht.", "zh": "漂亮的圍巾！純絲，只要 800 泰銖。" },
+          { "speaker": "Minz", "en": "800? The stall next door has the same one for half as much.", "zh": "800？隔壁攤一樣的只要一半價錢。" },
+          { "speaker": "Seller", "en": "Not the same quality! Mine is twice as soft. Feel it.", "zh": "品質不一樣！我的軟兩倍，你摸摸看。" },
+          { "speaker": "Minz", "en": "It's nice, but it's not twice as nice. How about 400?", "zh": "是不錯，但沒有好兩倍。400 怎麼樣？" },
+          { "speaker": "Seller", "en": "400 is too low. 600, final price.", "zh": "400 太低了。600，最後價。" },
+          { "speaker": "Minz", "en": "What if I buy three? Can you do 1,300 for all of them?", "zh": "如果我買三條呢？三條 1,300 可以嗎？" },
+          { "speaker": "Seller", "en": "OK, OK, 1,400 and it's a deal.", "zh": "好啦好啦，1,400 就成交。" },
+          { "speaker": "Minz", "en": "Deal!", "zh": "成交！" }
+        ]
+      },
+      {
+        "title": "Back at the hotel",
+        "lines": [
+          { "speaker": "Jess", "en": "How much did you pay for those?", "zh": "那些你付多少？" },
+          { "speaker": "Minz", "en": "1,400 for three. I haggled her down from 2,400.", "zh": "三條 1,400。我從 2,400 殺下來的。" },
+          { "speaker": "Jess", "en": "Nice! I'm too shy to haggle. I always pay three times as much as everyone else.", "zh": "厲害！我太害羞不敢殺價，我總是付別人三倍的錢。" },
+          { "speaker": "Minz", "en": "My mom taught me. She's a bit of a cheapskate, honestly.", "zh": "我媽教我的。說真的她有點小氣。" },
+          { "speaker": "Jess", "en": "Well, tonight I'm going to splash out on a nice dinner. Want to come?", "zh": "嗯，今晚我要揮霍一下吃頓好的，要一起來嗎？" },
+          { "speaker": "Minz", "en": "Sure, as long as it doesn't break the bank.", "zh": "好啊，只要不會花到破產就好。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "How much is this?", "zh": "這個多少錢？" },
+      { "en": "That's a bit out of my budget.", "zh": "有點超出我的預算。" },
+      { "en": "Can you do a better price?", "zh": "可以算便宜一點嗎？" },
+      { "en": "What if I buy two?", "zh": "如果我買兩個呢？" },
+      { "en": "What's your best price?", "zh": "你最低能給多少？" },
+      { "en": "I saw it cheaper at another stall.", "zh": "我在另一攤看到比較便宜的。" },
+      { "en": "I'll think about it.", "zh": "我再考慮一下。", "note": "殺價時轉身要走的經典台詞" },
+      { "en": "It's a deal!", "zh": "成交！" },
+      { "en": "Do you take cards?", "zh": "可以刷卡嗎？" },
+      { "en": "It costs twice as much here.", "zh": "這裡貴兩倍。" }
+    ],
+    "chinglish": [
+      { "wrong": "This is two times expensive than that one.", "right": "This is twice as expensive as that one.", "why": "倍數比較的結構是 twice / three times + as + 形容詞 + as。中文「貴兩倍」直翻結構會錯。" },
+      { "wrong": "Can cheaper?", "right": "Can you do a better price?", "why": "中式「可以便宜嗎」直翻不是英文句子（複習第 6 單元）。" },
+      { "wrong": "This one is half cheaper.", "right": "This one is half the price. / This one costs half as much.", "why": "「便宜一半」要說 half the price / half as much。" },
+      { "wrong": "I bought it with very cheap price.", "right": "I got it for a really good price. / I got it cheap.", "why": "價格的介系詞是 for / at，而且 price 前要有冠詞。" }
+    ]
+  },
+  "grammar": {
+    "id": "multiple-comparisons",
+    "title": "倍數比較 twice as… as",
+    "oneLiner": "倍數 + as + 形容詞 / 副詞 + as；也可以用 倍數 + 比較級 + than 或 倍數 + the + 名詞。",
+    "whenToUse": [
+      "as… as（一樣）：This one is as good as that one.",
+      "not as… as（不如）：It's not as cheap as I thought.",
+      "倍數 + as… as：twice as expensive as / three times as big as / half as much as。",
+      "倍數 + the + 名詞：twice the price / half the size / three times the amount。",
+      "倍數 + 比較級 + than：three times more expensive than（口語常用，但正式寫作偏好 as… as）。",
+      "much / many：I paid twice as much. / There were three times as many people."
+    ],
+    "whyWeGetItWrong": "中文「貴兩倍」「大三倍」「便宜一半」把倍數放在形容詞後面，英文卻放在前面，還要用 as… as 包起來。而且中文「貴兩倍」到底是原價的兩倍還是多兩倍，本身就有歧義，英文的 twice as expensive 則明確是「兩倍的價格」。",
+    "examples": [
+      { "correct": "The hotel was twice as expensive as the hostel.", "incorrect": "The hotel was two times expensive than the hostel.", "note": "倍數 + as + 形容詞 + as。" },
+      { "correct": "This bag is half the price of the one at the mall.", "note": "half the + 名詞。" },
+      { "correct": "The market is not as crowded as it was yesterday.", "note": "not as… as = 不如。" },
+      { "correct": "I paid three times as much as you did.", "note": "講金額用 as much as。" },
+      { "correct": "Their apartment is about twice the size of mine.", "note": "twice the size of。" }
+    ],
+    "quiz": [
+      { "id": "u048-g1", "type": "mcq", "question": "The taxi cost ___ the bus.", "options": ["twice as much as", "two times more as", "twice much than"], "answer": 0, "explanation": "twice as much as。" },
+      { "id": "u048-g2", "type": "fill", "question": "This scarf is half the ___ of that one. (價格)", "answer": "price", "explanation": "half the price。" },
+      { "id": "u048-g3", "type": "mcq", "question": "The night market isn't ___ busy as it is on weekends.", "options": ["so", "as", "more"], "answer": 1, "explanation": "not as… as。" },
+      { "id": "u048-g4", "type": "fill", "question": "There were three times as ___ tourists as last year.", "answer": "many", "explanation": "可數名詞用 as many as。" },
+      { "id": "u048-g5", "type": "mcq", "question": "Which is correct?", "options": ["My room is double big than yours.", "My room is twice as big as yours.", "My room is two times big as yours."], "answer": 1, "explanation": "twice as big as。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "haggle",
+      "term": "haggle",
+      "meaning": "討價還價、殺價",
+      "register": "neutral",
+      "usage": "haggle over the price / haggle someone down（把某人的價錢殺下來）。",
+      "risk": { "level": "safe", "note": "中性用語。在歐美多數商店殺價會很尷尬，市集和二手市場才適合。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "You're expected to haggle at this market.", "zh": "這個市場本來就要殺價。" },
+        { "en": "I haggled him down to half the original price.", "zh": "我把他的價錢殺到原價一半。" }
+      ]
+    },
+    {
+      "id": "cheapskate",
+      "term": "cheapskate",
+      "meaning": "小氣鬼、鐵公雞",
+      "register": "casual",
+      "usage": "形容很不願意花錢的人。",
+      "risk": { "level": "careful", "note": "當面叫別人 cheapskate 很不客氣；自嘲沒問題。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Don't be such a cheapskate. Leave a tip!", "zh": "別那麼小氣，留點小費！" },
+        { "en": "I'm a total cheapskate when it comes to clothes.", "zh": "買衣服這件事我超小氣。" }
+      ]
+    },
+    {
+      "id": "splash-out",
+      "term": "splash out",
+      "meaning": "揮霍一下、花大錢",
+      "register": "casual",
+      "usage": "splash out on something = 花大錢買某樣東西，通常是犒賞自己。",
+      "risk": { "level": "safe", "note": "英式說法，美國人聽得懂，但自己常說 splurge（第 65 單元）。" },
+      "dated": false,
+      "variety": "UK",
+      "examples": [
+        { "en": "We splashed out on a fancy dinner for our anniversary.", "zh": "週年紀念我們揮霍了一頓高級晚餐。" },
+        { "en": "I don't usually splash out, but these boots were worth it.", "zh": "我通常不亂花錢，但這雙靴子值得。" }
+      ]
+    },
+    {
+      "id": "break-the-bank",
+      "term": "break the bank",
+      "meaning": "花很多錢、讓人破產",
+      "register": "casual",
+      "usage": "通常用否定：It won't break the bank. = 不會太貴。",
+      "risk": { "level": "safe", "note": "日常用語。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "You can eat really well in Taipei without breaking the bank.", "zh": "在台北不用花大錢也能吃得很好。" },
+        { "en": "A weekend in Kenting won't break the bank.", "zh": "去墾丁過個週末不會花很多錢。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u048-r1", "sourceUnit": 47, "type": "mcq", "question": "___ from local silk, these scarves are very popular.", "options": ["Making", "Made", "Having make"], "answer": 1, "explanation": "複習第 47 單元：被動分詞 made。" },
+    { "id": "u048-r2", "sourceUnit": 46, "type": "fill", "question": "I can't find my change. The seller ___ have forgotten to give it to me. (可能)", "answer": "might|may|could|must", "explanation": "複習第 46 單元：推測過去。" },
+    { "id": "u048-r3", "sourceUnit": 44, "type": "mcq", "question": "I suggest ___ a few stalls before you buy.", "options": ["you to visit", "visiting", "visit you"], "answer": 1, "explanation": "複習第 44 單元：suggest + V-ing。" },
+    { "id": "u048-r4", "sourceUnit": 40, "type": "mcq", "question": "It's ___ market I've ever been to.", "options": ["the busiest", "the most busy", "busier"], "answer": 0, "explanation": "複習第 40 單元：busy → the busiest。" },
+    { "id": "u048-r5", "sourceUnit": 32, "type": "mcq", "question": "By the time I came back, someone ___ the last one.", "options": ["bought", "had bought", "has bought"], "answer": 1, "explanation": "複習第 32 單元：過去完成式。" },
+    { "id": "u048-r6", "sourceUnit": 16, "type": "mcq", "question": "I bought gifts for my ___ kids.", "options": ["cousin's", "cousins'", "Both are possible."], "answer": 2, "explanation": "複習第 16 單元：一個表親用 cousin's，多個表親用 cousins'。" },
+    { "id": "u048-r7", "sourceUnit": 48, "type": "fill", "question": "This hotel is twice ___ expensive as the one we stayed at last year.", "answer": "as", "explanation": "twice as… as。" }
+  ]
+}

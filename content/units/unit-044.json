@@ -1,0 +1,149 @@
+{
+  "id": 44,
+  "module": 5,
+  "level": "B2-",
+  "title": { "zh": "請當地人推薦", "en": "Asking Locals for Tips" },
+  "scenario": {
+    "title": "問當地人哪裡好吃好玩",
+    "context": "旅行時問當地人推薦，常會聽到 I'd recommend… / I suggest…，自己推薦別人時也會用。但 recommend 和 suggest 的句型比想像中嚴格：recommend you to go 是台灣人最常見的錯誤之一。",
+    "dialogues": [
+      {
+        "title": "At a café in Tainan",
+        "lines": [
+          { "speaker": "Tourist", "en": "Excuse me, are you from around here? Could you recommend a good place for dinner?", "zh": "不好意思，你是本地人嗎？可以推薦一個吃晚餐的好地方嗎？" },
+          { "speaker": "Minz", "en": "Sure! What kind of food are you in the mood for?", "zh": "當然！你想吃哪種？" },
+          { "speaker": "Tourist", "en": "Something local. Not too touristy.", "zh": "在地的，不要太觀光。" },
+          { "speaker": "Minz", "en": "Then I'd recommend going to the beef soup place on Minzu Road. It's a real hole-in-the-wall.", "zh": "那我推薦去民族路那家牛肉湯，是真正的巷弄小店。" },
+          { "speaker": "Tourist", "en": "Is it worth the hype? I saw it on TikTok.", "zh": "有值得那麼紅嗎？我在 TikTok 上看過。" },
+          { "speaker": "Minz", "en": "Honestly, yes. I suggest you get there before six, though. The line gets crazy.", "zh": "說真的值得。不過我建議你六點前到，隊伍會超長。" },
+          { "speaker": "Tourist", "en": "Great. Anything else that's a must-see?", "zh": "太好了。還有什麼必看的嗎？" },
+          { "speaker": "Minz", "en": "I'd suggest walking around Shennong Street at night. And there's a tiny bookstore there that's a hidden gem.", "zh": "我建議晚上去神農街走走。那邊還有一間很小的書店，是隱藏版好地方。" }
+        ]
+      },
+      {
+        "title": "Recommending to a friend",
+        "lines": [
+          { "speaker": "Ryan", "en": "I'm visiting Taipei next month. What would you recommend?", "zh": "我下個月要去台北。你推薦什麼？" },
+          { "speaker": "Minz", "en": "I'd definitely recommend the National Palace Museum. It's a must-see.", "zh": "我一定推薦故宮，那是必看的。" },
+          { "speaker": "Ryan", "en": "What about food?", "zh": "那吃的呢？" },
+          { "speaker": "Minz", "en": "I recommend that you skip the famous dumpling chain and try a local night market instead.", "zh": "我建議你跳過那家有名的連鎖餃子店，改去在地的夜市。" },
+          { "speaker": "Ryan", "en": "Which one would you suggest?", "zh": "你建議哪一個？" },
+          { "speaker": "Minz", "en": "Ningxia. It's smaller, but the food is better.", "zh": "寧夏。比較小，但東西比較好吃。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "Could you recommend a good place for ___?", "zh": "可以推薦一個 ___ 的好地方嗎？" },
+      { "en": "What would you recommend?", "zh": "你會推薦什麼？" },
+      { "en": "Where do locals usually go?", "zh": "當地人都去哪裡？" },
+      { "en": "What are you in the mood for?", "zh": "你想吃什麼類型的？" },
+      { "en": "I'd recommend ___.", "zh": "我推薦 ___。" },
+      { "en": "I'd suggest going early.", "zh": "我建議早點去。" },
+      { "en": "It's a must-see.", "zh": "這是必看的。" },
+      { "en": "Is it worth the hype?", "zh": "它值得那麼紅嗎？" },
+      { "en": "Is it within walking distance?", "zh": "走路到得了嗎？" },
+      { "en": "Thanks for the tip!", "zh": "謝謝你的建議！" }
+    ],
+    "chinglish": [
+      { "wrong": "I recommend you to go to the night market.", "right": "I recommend going to the night market. / I recommend (that) you go to the night market.", "why": "recommend 不接「人 + to V」。這是台灣人（甚至很多教材）最常見的錯誤。" },
+      { "wrong": "I suggest you to try the beef soup.", "right": "I suggest (that) you try the beef soup. / I suggest trying the beef soup.", "why": "suggest 也一樣，不接 you to。" },
+      { "wrong": "This place is very famous, you must go.", "right": "It's a must-see. / You really should check it out.", "why": "you must go 語氣很強，像是命令；推薦用 should / I'd recommend 比較自然。" },
+      { "wrong": "Can you introduce some food for me?", "right": "Can you recommend some local food?", "why": "「介紹美食」直翻 introduce 不對。introduce 是介紹人認識。" }
+    ]
+  },
+  "grammar": {
+    "id": "recommend-suggest-patterns",
+    "title": "recommend / suggest 正確句型",
+    "oneLiner": "recommend / suggest + V-ing，或 + (that) 人 + 原形；不能說 recommend you to…",
+    "whenToUse": [
+      "recommend / suggest + 名詞：I recommend the beef soup.",
+      "recommend / suggest + V-ing：I suggest going early.",
+      "recommend / suggest + (that) + 人 + 原形：I suggest (that) you go early.（注意是原形，不是 goes）",
+      "recommend + 名詞 + to + 人：I recommended the café to my friend.",
+      "I'd recommend / I'd suggest 比 I recommend 更委婉。",
+      "類似的 advise 可以接 人 + to V：I'd advise you to go early.（第 83 單元會詳細講）"
+    ],
+    "whyWeGetItWrong": "中文「我推薦你去」「我建議你試試」的結構都是「我 + 動詞 + 你 + 去做」，跟 advise / ask / tell 一樣，所以台灣人很自然地說 recommend you to go。但 recommend 和 suggest 偏偏不能這樣用。這是需要單獨記住的例外。",
+    "examples": [
+      { "correct": "I recommend trying the braised pork rice.", "incorrect": "I recommend you to try the braised pork rice.", "note": "recommend + V-ing。" },
+      { "correct": "I suggest (that) you book a table.", "incorrect": "I suggest you to book a table.", "note": "suggest + (that) + 人 + 原形。" },
+      { "correct": "She suggested that he take the train.", "note": "原形 take，不是 takes（假設語氣，第 84 單元會細講）。" },
+      { "correct": "Can you recommend a good hotel?", "note": "recommend + 名詞。" },
+      { "correct": "My friend recommended this place to me.", "incorrect": "My friend recommended me this place.", "note": "recommend 東西 to 人。" }
+    ],
+    "quiz": [
+      { "id": "u044-g1", "type": "mcq", "question": "I recommend ___ the museum on a weekday.", "options": ["you to visit", "visiting", "to visit you"], "answer": 1, "explanation": "recommend + V-ing。" },
+      { "id": "u044-g2", "type": "mcq", "question": "I suggest ___ bring an umbrella.", "options": ["you to", "that you", "you are"], "answer": 1, "explanation": "suggest (that) you + 原形。" },
+      { "id": "u044-g3", "type": "fill", "question": "Can you recommend a good hostel ___ me?", "answer": "to|for", "explanation": "recommend something to / for someone。" },
+      { "id": "u044-g4", "type": "mcq", "question": "Which is correct?", "options": ["She recommended me this book.", "She recommended this book to me.", "She recommended me to read this book."], "answer": 1, "explanation": "recommend 東西 to 人。" },
+      { "id": "u044-g5", "type": "fill", "question": "I'd suggest ___ (get) there before the crowds.", "answer": "getting", "explanation": "suggest + V-ing。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "hidden-gem",
+      "term": "hidden gem",
+      "meaning": "隱藏版好地方、私房景點",
+      "register": "neutral",
+      "usage": "少有人知道但很棒的地方或東西。",
+      "risk": { "level": "safe", "note": "旅遊介紹常見用語。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "This little bookstore is a hidden gem.", "zh": "這間小書店是隱藏版寶地。" },
+        { "en": "I love finding hidden gems when I travel.", "zh": "我旅行時很愛找私房景點。" }
+      ]
+    },
+    {
+      "id": "must-see",
+      "term": "must-see",
+      "meaning": "必看、必去",
+      "register": "neutral",
+      "usage": "名詞或形容詞：a must-see / a must-see museum。也有 must-try（必吃）、must-have（必備）。",
+      "risk": { "level": "safe", "note": "普遍用語。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Taroko Gorge is a must-see if you go to Hualien.", "zh": "去花蓮的話太魯閣是必看的。" },
+        { "en": "Stinky tofu is a must-try, even if it smells scary.", "zh": "臭豆腐是必吃，就算聞起來很可怕。" }
+      ]
+    },
+    {
+      "id": "worth-the-hype",
+      "term": "worth the hype",
+      "meaning": "名不虛傳、值得那麼紅",
+      "register": "casual",
+      "usage": "Is it worth the hype? / It's totally worth the hype. 否定 not worth the hype = 名過其實。",
+      "risk": { "level": "safe", "note": "日常用語。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Everyone's talking about that bakery. Is it worth the hype?", "zh": "大家都在講那間麵包店，有值得嗎？" },
+        { "en": "Honestly, the movie wasn't worth the hype.", "zh": "說真的，那部電影名過其實。" }
+      ]
+    },
+    {
+      "id": "hole-in-the-wall",
+      "term": "hole-in-the-wall",
+      "meaning": "巷弄小店、不起眼但好吃的店",
+      "register": "casual",
+      "usage": "很小很簡陋，但往往很道地好吃的店。",
+      "risk": { "level": "safe", "note": "通常是帶著喜愛的稱讚。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "The best dumplings in town are at this hole-in-the-wall.", "zh": "城裡最好吃的餃子在這間小店。" },
+        { "en": "I prefer hole-in-the-wall places to fancy restaurants.", "zh": "我比較喜歡巷弄小店，不喜歡高級餐廳。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u044-r1", "sourceUnit": 43, "type": "mcq", "question": "___ to be a long line at that restaurant.", "options": ["There seems", "It seems", "There seem"], "answer": 0, "explanation": "複習第 43 單元：There seems to be。" },
+    { "id": "u044-r2", "sourceUnit": 42, "type": "fill", "question": "My bag got ___ (steal) at the night market.", "answer": "stolen", "explanation": "複習第 42 單元：get + p.p.。" },
+    { "id": "u044-r3", "sourceUnit": 40, "type": "mcq", "question": "That's the night market ___ we had the best oyster omelet.", "options": ["which", "where", "who"], "answer": 1, "explanation": "複習第 40 單元：地點用 where。" },
+    { "id": "u044-r4", "sourceUnit": 36, "type": "mcq", "question": "\"It's the best place in town.\" → He said it ___ the best place in town.", "options": ["is", "was", "will"], "answer": 1, "explanation": "複習第 36 單元：轉述時態後退。" },
+    { "id": "u044-r5", "sourceUnit": 28, "type": "mcq", "question": "I ___ around the old street when I found this café.", "options": ["walked", "was walking", "have walked"], "answer": 1, "explanation": "複習第 28 單元：背景用過去進行式。" },
+    { "id": "u044-r6", "sourceUnit": 12, "type": "fill", "question": "Have you tried the milk tea ___?", "answer": "yet", "explanation": "複習第 12 單元：問句用 yet。" },
+    { "id": "u044-r7", "sourceUnit": 44, "type": "mcq", "question": "Which is correct?", "options": ["I recommend you to go early.", "I recommend going early.", "I recommend you going to early."], "answer": 1, "explanation": "recommend + V-ing。" }
+  ]
+}

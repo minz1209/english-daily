@@ -1,0 +1,149 @@
+{
+  "id": 49,
+  "module": 5,
+  "level": "B2-",
+  "title": { "zh": "旅途出狀況", "en": "When Things Go Wrong on a Trip" },
+  "scenario": {
+    "title": "旅行中生病、差點錯過班機、後悔",
+    "context": "旅行出包後，最常說的就是「早知道就…」：早知道就買保險、早知道就不吃那家路邊攤。英文用 should have + p.p. 表達後悔，shouldn't have + p.p. 表達「不該做卻做了」。",
+    "dialogues": [
+      {
+        "title": "Food poisoning",
+        "lines": [
+          { "speaker": "Jess", "en": "How are you feeling? You look terrible.", "zh": "你感覺怎樣？你看起來好糟。" },
+          { "speaker": "Minz", "en": "I'm sick as a dog. I shouldn't have eaten that seafood at the beach.", "zh": "我病得很慘。我不該吃海邊那家海鮮的。" },
+          { "speaker": "Jess", "en": "I told you it had been sitting in the sun all day.", "zh": "我就說那些東西在太陽底下曬一整天了。" },
+          { "speaker": "Minz", "en": "I know, I know. I should have listened to you.", "zh": "我知道我知道，我應該聽你的。" },
+          { "speaker": "Jess", "en": "Did you buy travel insurance?", "zh": "你有買旅遊險嗎？" },
+          { "speaker": "Minz", "en": "No. I should have, but I thought it was a waste of money.", "zh": "沒有。我應該買的，但我以為那是浪費錢。" },
+          { "speaker": "Jess", "en": "Let's go to a clinic. You're totally out of it.", "zh": "我們去診所吧，你整個人都恍神了。" }
+        ]
+      },
+      {
+        "title": "Two days later",
+        "lines": [
+          { "speaker": "Jess", "en": "Feeling any better?", "zh": "有好一點嗎？" },
+          { "speaker": "Minz", "en": "Much better. I'm definitely on the mend.", "zh": "好多了，我肯定在恢復中。" },
+          { "speaker": "Jess", "en": "Good, because we almost missed our train this morning. You should have set an alarm!", "zh": "很好，因為我們今天早上差點錯過火車。你應該設鬧鐘的！" },
+          { "speaker": "Minz", "en": "I did set one. I just slept through it.", "zh": "我有設，只是睡死了沒聽到。" },
+          { "speaker": "Jess", "en": "Well, we made it with two minutes to spare. That was a close call.", "zh": "嗯，我們在最後兩分鐘趕上了，好險。" },
+          { "speaker": "Minz", "en": "Next trip, I'm doing everything right. Insurance, alarms, no beach seafood.", "zh": "下次旅行我一定全部做對：買保險、設鬧鐘、不吃海邊海鮮。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "I should have ___.", "zh": "我早該 ___。" },
+      { "en": "I shouldn't have ___.", "zh": "我不該 ___ 的。" },
+      { "en": "You should have told me!", "zh": "你應該跟我說的！" },
+      { "en": "I think I have food poisoning.", "zh": "我好像食物中毒了。" },
+      { "en": "Is there a pharmacy nearby?", "zh": "附近有藥局嗎？" },
+      { "en": "I need to see a doctor.", "zh": "我需要看醫生。" },
+      { "en": "Do you have travel insurance?", "zh": "你有旅遊險嗎？" },
+      { "en": "We made it just in time.", "zh": "我們剛好趕上。" },
+      { "en": "That was a close call.", "zh": "好險。" },
+      { "en": "Lesson learned.", "zh": "學到教訓了。" }
+    ],
+    "chinglish": [
+      { "wrong": "If I know, I will buy insurance.", "right": "I should have bought insurance. / If I'd known, I would have bought insurance.", "why": "「早知道就…」是對過去的後悔，要用 should have + p.p. 或第三類條件句（第 64 單元）。" },
+      { "wrong": "I should bought insurance.", "right": "I should have bought insurance.", "why": "should 後面接原形，表示過去要用 have + p.p.。" },
+      { "wrong": "I eat bad food, my stomach is broken.", "right": "I ate something bad. My stomach is really upset.", "why": "過去的事用過去式；肚子不舒服是 upset stomach，不是 broken。" },
+      { "wrong": "Almost we missed the train.", "right": "We almost missed the train.", "why": "almost 放在動詞前面，不放句首。" }
+    ]
+  },
+  "grammar": {
+    "id": "should-have-regret",
+    "title": "should have + p.p. 表後悔",
+    "oneLiner": "should have + p.p. = 當時應該做（但沒做）；shouldn't have + p.p. = 當時不該做（但做了）。",
+    "whenToUse": [
+      "後悔沒做：I should have bought insurance.",
+      "後悔做了：I shouldn't have eaten that.",
+      "批評或責怪別人：You should have told me.",
+      "口語縮寫：should've（聽起來像 should of，但寫法是 have）。",
+      "相關：could have + p.p.（本來可以但沒有）：We could have taken the earlier train.",
+      "相關：would have + p.p.（本來會）：I would have come, but I was sick."
+    ],
+    "whyWeGetItWrong": "中文「早知道就…」「應該要…的」後面接的動詞不用變，時間靠語境。英文的 should 是情態動詞，後面只能接原形，所以要表示「過去」就得加 have + p.p.，這和第 46 單元的 must have 是同一個邏輯。台灣人常說 I should bought 或 I should buy，後者會被聽成「我現在應該買」。",
+    "examples": [
+      { "correct": "I should have checked the weather.", "incorrect": "I should checked the weather.", "note": "should + have + p.p.。" },
+      { "correct": "We shouldn't have stayed out so late.", "note": "後悔做了某事。" },
+      { "correct": "You should have called me!", "note": "責怪別人。" },
+      { "correct": "We could have taken a taxi, but we walked.", "note": "could have = 本來可以。" },
+      { "correct": "I should buy insurance for my next trip.", "note": "注意：沒有 have 就是講現在或未來。" }
+    ],
+    "quiz": [
+      { "id": "u049-g1", "type": "mcq", "question": "I missed the flight. I ___ earlier.", "options": ["should leave", "should have left", "should left"], "answer": 1, "explanation": "後悔過去：should have + p.p.。" },
+      { "id": "u049-g2", "type": "mcq", "question": "My stomach hurts. I ___ so much street food.", "options": ["shouldn't have eaten", "shouldn't eat", "should have eaten"], "answer": 0, "explanation": "後悔做了：shouldn't have + p.p.。" },
+      { "id": "u049-g3", "type": "fill", "question": "You should ___ told me you were sick!", "answer": "have", "explanation": "should have + p.p.。" },
+      { "id": "u049-g4", "type": "mcq", "question": "We ___ taken the earlier train, but we wanted to sleep in.", "options": ["could have", "could", "can have"], "answer": 0, "explanation": "本來可以：could have + p.p.。" },
+      { "id": "u049-g5", "type": "fill", "question": "I should have ___ (bring) a jacket. It's freezing.", "answer": "brought", "explanation": "bring → brought。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "sick-as-a-dog",
+      "term": "sick as a dog",
+      "meaning": "病得很重、非常不舒服",
+      "register": "casual",
+      "usage": "誇張地形容生病，特別是嘔吐、發燒。",
+      "risk": { "level": "safe", "note": "口語常用，不冒犯人。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "I was sick as a dog all weekend.", "zh": "我整個週末都病得很慘。" },
+        { "en": "Half the team is sick as a dog with the flu.", "zh": "團隊一半的人得流感病得很重。" }
+      ]
+    },
+    {
+      "id": "out-of-it",
+      "term": "out of it",
+      "meaning": "恍神、精神不濟",
+      "register": "casual",
+      "usage": "因為累、生病、吃藥而反應遲鈍。",
+      "risk": { "level": "safe", "note": "日常用語。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Sorry, I'm a bit out of it. I didn't sleep last night.", "zh": "抱歉我有點恍神，昨晚沒睡。" },
+        { "en": "The medicine made me totally out of it.", "zh": "那個藥讓我整個人昏昏沉沉。" }
+      ]
+    },
+    {
+      "id": "on-the-mend",
+      "term": "on the mend",
+      "meaning": "正在康復",
+      "register": "neutral",
+      "usage": "病情好轉中，也可以用在關係或經濟恢復。",
+      "risk": { "level": "safe", "note": "溫和好用，寫卡片也適合。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Grandma had surgery last week, but she's on the mend.", "zh": "阿嬤上週動了手術，但正在康復。" },
+        { "en": "Good to hear you're on the mend!", "zh": "很高興聽到你在好轉！" }
+      ]
+    },
+    {
+      "id": "a-close-call",
+      "term": "a close call",
+      "meaning": "好險、千鈞一髮",
+      "register": "casual",
+      "usage": "差點發生壞事。That was a close call!",
+      "risk": { "level": "safe", "note": "日常用語。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "We almost missed the last bus. That was a close call!", "zh": "我們差點錯過末班車，好險！" },
+        { "en": "The scooter almost hit me. Close call.", "zh": "那台機車差點撞到我，好險。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u049-r1", "sourceUnit": 48, "type": "mcq", "question": "The clinic visit cost ___ I expected.", "options": ["twice as much as", "two times much than", "double as much"], "answer": 0, "explanation": "複習第 48 單元：twice as much as。" },
+    { "id": "u049-r2", "sourceUnit": 47, "type": "mcq", "question": "___ sick, I stayed in bed all day.", "options": ["Felt", "Feeling", "To feel"], "answer": 1, "explanation": "複習第 47 單元：分詞構句表原因。" },
+    { "id": "u049-r3", "sourceUnit": 45, "type": "fill", "question": "If I ___ you, I'd see a doctor right away.", "answer": "were", "explanation": "複習第 45 單元：If I were you。" },
+    { "id": "u049-r4", "sourceUnit": 41, "type": "mcq", "question": "Our flight took ___ two hours late.", "options": ["on", "off", "up"], "answer": 1, "explanation": "複習第 41 單元：take off。" },
+    { "id": "u049-r5", "sourceUnit": 33, "type": "mcq", "question": "This is the ___ I've felt in years.", "options": ["worse", "worst", "most bad"], "answer": 1, "explanation": "複習第 33 單元：bad → worst。" },
+    { "id": "u049-r6", "sourceUnit": 17, "type": "mcq", "question": "You look pale. You ___ get some rest.", "options": ["should", "should to", "had better to"], "answer": 0, "explanation": "複習第 17 單元：should + 原形。" },
+    { "id": "u049-r7", "sourceUnit": 1, "type": "mcq", "question": "I ___ in a hostel this week, but I usually stay in hotels.", "options": ["stay", "'m staying", "stayed"], "answer": 1, "explanation": "複習第 1 單元：暫時狀態用進行式。" },
+    { "id": "u049-r8", "sourceUnit": 49, "type": "mcq", "question": "Which is correct?", "options": ["I should bought a ticket.", "I should have bought a ticket.", "I should buying a ticket."], "answer": 1, "explanation": "should have + p.p.。" }
+  ]
+}

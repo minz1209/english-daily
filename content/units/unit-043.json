@@ -1,0 +1,148 @@
+{
+  "id": 43,
+  "module": 5,
+  "level": "B2-",
+  "title": { "zh": "餐廳客訴", "en": "Complaining at a Restaurant" },
+  "scenario": {
+    "title": "餐點有問題，禮貌地反映",
+    "context": "在國外餐廳遇到問題，直接說 This is wrong 容易讓氣氛變僵。英文客訴的關鍵是「軟化」：用 There seems to be… / It seems to be… 把問題說成觀察，而不是指責，服務生也更願意幫你處理。",
+    "dialogues": [
+      {
+        "title": "Wrong order",
+        "lines": [
+          { "speaker": "Minz", "en": "Excuse me, I'm sorry, but there seems to be a mistake. I ordered the steak medium, and this seems to be well-done.", "zh": "不好意思，抱歉，好像有點問題。我點的牛排是五分熟，這個看起來是全熟。" },
+          { "speaker": "Server", "en": "Oh, I'm so sorry about that. I'll have the kitchen make you a new one right away.", "zh": "啊，真的很抱歉。我馬上請廚房重做一份。" },
+          { "speaker": "Minz", "en": "Thank you. Also, we've been waiting for our drinks for a while. They seem to have been forgotten.", "zh": "謝謝。另外，我們的飲料等了一陣子了，好像被忘記了。" },
+          { "speaker": "Server", "en": "You're right, I apologize. The drinks are on the house tonight.", "zh": "您說得對，很抱歉。今晚的飲料由我們招待。" },
+          { "speaker": "Minz", "en": "That's very kind, thank you.", "zh": "你們人真好，謝謝。" },
+          { "speaker": "Server", "en": "Here's your steak. Medium this time, I promise.", "zh": "您的牛排，這次是五分熟，我保證。" },
+          { "speaker": "Minz", "en": "Perfect. Oh, this really hits the spot.", "zh": "完美。喔，這真的太對味了。" }
+        ]
+      },
+      {
+        "title": "Talking about it later",
+        "lines": [
+          { "speaker": "Jess", "en": "How was that place near the harbor?", "zh": "港邊那間怎麼樣？" },
+          { "speaker": "Minz", "en": "The service wasn't up to par at first, but they fixed everything.", "zh": "一開始服務不太到位，但他們都處理好了。" },
+          { "speaker": "Jess", "en": "Better than the one we went to last year. That was such a tourist trap.", "zh": "比我們去年去的那間好。那間根本是觀光客陷阱。" },
+          { "speaker": "Minz", "en": "Ugh, don't remind me. The seafood didn't seem to be fresh at all.", "zh": "唉，別提了。海鮮看起來一點都不新鮮。" },
+          { "speaker": "Jess", "en": "And it cost twice as much as everywhere else.", "zh": "而且價錢是別家的兩倍。" },
+          { "speaker": "Minz", "en": "Lesson learned: always check the reviews first.", "zh": "學到教訓：一定要先看評價。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "Excuse me, I'm sorry to bother you, but ___.", "zh": "不好意思打擾一下，但 ___。" },
+      { "en": "There seems to be a mistake with my order.", "zh": "我的餐點好像有點問題。" },
+      { "en": "This isn't quite what I ordered.", "zh": "這不太是我點的。" },
+      { "en": "I think this might be undercooked.", "zh": "這個好像沒熟。" },
+      { "en": "We've been waiting for quite a while.", "zh": "我們等了蠻久的。" },
+      { "en": "Could we speak to the manager, please?", "zh": "我們可以跟經理談談嗎？", "note": "最後手段，語氣要保持平靜" },
+      { "en": "Could you take this back?", "zh": "這個可以收回去嗎？" },
+      { "en": "I'd appreciate it if you could ___.", "zh": "如果你能 ___ 我會很感激。" },
+      { "en": "Thanks for sorting that out.", "zh": "謝謝你們處理好。" },
+      { "en": "It hit the spot.", "zh": "太對味了。" }
+    ],
+    "chinglish": [
+      { "wrong": "Your food is wrong!", "right": "I think there's been a mix-up with my order.", "why": "直接說 wrong 帶指責。英文客訴習慣把問題說成「好像有誤會」，讓對方有台階下。" },
+      { "wrong": "This steak is not cooked enough, change one for me.", "right": "This steak seems a bit undercooked. Could I get it cooked a little longer?", "why": "change one for me 是中式直翻，而且語氣像命令。" },
+      { "wrong": "Call your manager come here.", "right": "Could I speak to the manager, please?", "why": "中文「叫你們經理出來」直翻很兇。" },
+      { "wrong": "It seems like is not fresh.", "right": "It doesn't seem to be fresh. / It seems like it's not fresh.", "why": "seems like 後面要接完整子句（有主詞）。" }
+    ]
+  },
+  "grammar": {
+    "id": "there-seems-to-be",
+    "title": "There seems to be… / seem to V",
+    "oneLiner": "seem 把肯定的陳述變成「看起來像」的觀察，是客訴、提意見時最好用的軟化工具。",
+    "whenToUse": [
+      "There seems to be + 名詞：There seems to be a problem.（比 There is a problem 委婉）",
+      "主詞 + seem(s) to + 原形：The steak seems to be well-done.",
+      "seem to have + p.p.（過去的推測）：They seem to have forgotten our drinks.",
+      "seem + 形容詞：It seems a bit cold.",
+      "It seems like / It seems that + 子句：It seems like there's been a mistake.",
+      "否定：doesn't seem to…：It doesn't seem to be working."
+    ],
+    "whyWeGetItWrong": "中文客訴時常直接說事實：「這個沒熟」「你們送錯了」，語氣靠聲調調整。英文則靠句型軟化，seem 就是其中最常用的一個。台灣人會用 seem 但常把結構弄錯，例如 It seems like is cold（少了主詞），或 There seem is a problem。",
+    "examples": [
+      { "correct": "There seems to be a problem with the bill.", "incorrect": "There seem is a problem with the bill.", "note": "There seems to be + 名詞。" },
+      { "correct": "This dish seems to be missing the sauce.", "note": "主詞 + seems to + 原形。" },
+      { "correct": "They seem to have forgotten our order.", "note": "seem to have + p.p.：推測過去。" },
+      { "correct": "It seems like the kitchen is really busy.", "incorrect": "It seems like is really busy.", "note": "seems like 後接完整子句。" },
+      { "correct": "The soup doesn't seem to be very hot.", "note": "否定用 doesn't seem to。" }
+    ],
+    "quiz": [
+      { "id": "u043-g1", "type": "mcq", "question": "___ to be a mistake on our bill.", "options": ["It seems", "There seems", "There seem is"], "answer": 1, "explanation": "There seems to be + 名詞。" },
+      { "id": "u043-g2", "type": "fill", "question": "The waiter seems ___ have forgotten our drinks.", "answer": "to", "explanation": "seem to have + p.p.。" },
+      { "id": "u043-g3", "type": "mcq", "question": "Which is correct?", "options": ["It seems like is closed.", "It seems like it's closed.", "It seem closed like."], "answer": 1, "explanation": "seems like + 完整子句。" },
+      { "id": "u043-g4", "type": "mcq", "question": "The fish doesn't ___ very fresh.", "options": ["seem", "seems", "seem to"], "answer": 0, "explanation": "doesn't seem + 形容詞。" },
+      { "id": "u043-g5", "type": "mcq", "question": "Which complaint sounds the most polite?", "options": ["This is wrong.", "You gave me the wrong dish.", "I think there seems to be a mix-up with my order."], "answer": 2, "explanation": "用 seem 軟化最禮貌。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "on-the-house",
+      "term": "on the house",
+      "meaning": "店家招待、免費",
+      "register": "neutral",
+      "usage": "It's on the house. = 這是店家請的。",
+      "risk": { "level": "safe", "note": "普遍用語。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Dessert is on the house tonight.", "zh": "今晚甜點由店家招待。" },
+        { "en": "The owner said our second round was on the house.", "zh": "老闆說第二輪算他請。" }
+      ]
+    },
+    {
+      "id": "hit-the-spot",
+      "term": "hit the spot",
+      "meaning": "（食物飲料）正是我想要的、很對味",
+      "register": "casual",
+      "usage": "剛好滿足需求時說：That really hit the spot.",
+      "risk": { "level": "safe", "note": "日常好用。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "A cold beer after a long hike really hits the spot.", "zh": "健行完來瓶冰啤酒，太爽了。" },
+        { "en": "That noodle soup hit the spot on a rainy day.", "zh": "下雨天那碗湯麵真是太對味了。" }
+      ]
+    },
+    {
+      "id": "not-up-to-par",
+      "term": "not up to par",
+      "meaning": "未達標準、不如平常",
+      "register": "neutral",
+      "usage": "par 源自高爾夫的「標準桿」。也可以說身體狀況 I'm not feeling up to par.",
+      "risk": { "level": "safe", "note": "委婉的批評，職場也可以用。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "The food wasn't up to par tonight. Maybe the chef was off.", "zh": "今晚的菜不如平常，也許主廚休假。" },
+        { "en": "His work hasn't been up to par lately.", "zh": "他最近的工作表現不如以往。" }
+      ]
+    },
+    {
+      "id": "tourist-trap",
+      "term": "tourist trap",
+      "meaning": "觀光客陷阱（又貴又普通的地方）",
+      "register": "casual",
+      "usage": "專門賺觀光客錢、品質不怎麼樣的店或景點。",
+      "risk": { "level": "safe", "note": "負面但不冒犯人。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Avoid the restaurants right next to the temple. They're tourist traps.", "zh": "避開廟旁邊的餐廳，那都是觀光客陷阱。" },
+        { "en": "It's a bit of a tourist trap, but the view is worth it.", "zh": "有點坑觀光客，但景色值得。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u043-r1", "sourceUnit": 42, "type": "mcq", "question": "Our table ___ yet.", "options": ["hasn't been cleared", "hasn't cleared", "didn't clear"], "answer": 0, "explanation": "複習第 42 單元：現在完成被動。" },
+    { "id": "u043-r2", "sourceUnit": 41, "type": "fill", "question": "Could you fill ___ this form, please?", "answer": "out|in", "explanation": "複習第 41 單元：fill out / fill in。" },
+    { "id": "u043-r3", "sourceUnit": 39, "type": "mcq", "question": "If the food ___ cold, send it back.", "options": ["will be", "is", "was"], "answer": 1, "explanation": "複習第 39 單元：if 子句用現在式。" },
+    { "id": "u043-r4", "sourceUnit": 35, "type": "mcq", "question": "You waited an hour for your food? That ___ have been annoying.", "options": ["must", "mustn't", "can't"], "answer": 0, "explanation": "複習第 35 單元：must 推測。" },
+    { "id": "u043-r5", "sourceUnit": 27, "type": "mcq", "question": "Could you tell me ___?", "options": ["how long is the wait", "how long the wait is", "how long does the wait"], "answer": 1, "explanation": "複習第 27 單元：間接問句用肯定語序。" },
+    { "id": "u043-r6", "sourceUnit": 11, "type": "mcq", "question": "___ a hair in my soup.", "options": ["There's", "There have", "It has"], "answer": 0, "explanation": "複習第 11 單元：There is。" },
+    { "id": "u043-r7", "sourceUnit": 43, "type": "fill", "question": "There ___ to be a problem with my order.", "answer": "seems", "explanation": "There seems to be…" }
+  ]
+}
