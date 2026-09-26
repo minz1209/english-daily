@@ -1,0 +1,157 @@
+{
+  "id": 7,
+  "module": 1,
+  "level": "B1",
+  "title": { "zh": "天氣閒聊", "en": "Weather Small Talk" },
+  "scenario": {
+    "title": "電梯裡、等公車時的天氣話題",
+    "context": "天氣是全世界最安全的閒聊題材：在電梯、等車、會議開始前都能用。台灣的天氣尤其好聊：悶熱、午後雷陣雨、颱風假。這個單元的主角是虛主詞 It。",
+    "dialogues": [
+      {
+        "title": "In the elevator",
+        "lines": [
+          { "speaker": "Coworker", "en": "Wow, it's so muggy today.", "zh": "哇，今天好悶。" },
+          { "speaker": "Minz", "en": "I know. I was sweating the second I walked out of the station.", "zh": "對啊，我一走出車站就開始流汗。" },
+          { "speaker": "Coworker", "en": "It's supposed to rain this afternoon, too.", "zh": "而且聽說下午會下雨。" },
+          { "speaker": "Minz", "en": "Of course it is. It's Taipei in June.", "zh": "當然會啊，六月的台北嘛。" },
+          { "speaker": "Coworker", "en": "Did you bring an umbrella?", "zh": "你有帶傘嗎？" },
+          { "speaker": "Minz", "en": "Always. I keep one in my bag all year round.", "zh": "一定有，我一年四季包包裡都放一把。" }
+        ]
+      },
+      {
+        "title": "A friend visiting from Canada",
+        "lines": [
+          { "speaker": "Ryan", "en": "How do you guys live in this? It's thirty-five degrees!", "zh": "你們怎麼受得了？三十五度欸！" },
+          { "speaker": "Minz", "en": "Honestly, it's a scorcher even for us. Today's extra bad.", "zh": "說真的，這對我們來說也超熱，今天特別誇張。" },
+          { "speaker": "Ryan", "en": "Back home it's probably snowing right now.", "zh": "我家那邊現在應該在下雪吧。" },
+          { "speaker": "Minz", "en": "I'd take snow over this. Wait, is it raining?", "zh": "我寧願下雪。等等，是在下雨嗎？" },
+          { "speaker": "Ryan", "en": "Wow, it's pouring. It was sunny five minutes ago!", "zh": "哇，傾盆大雨。五分鐘前還大太陽欸！" },
+          { "speaker": "Minz", "en": "Welcome to summer afternoons in Taiwan. It'll stop in half an hour.", "zh": "歡迎來到台灣的夏天午後。半小時後就會停了。" },
+          { "speaker": "Ryan", "en": "How far is it to the MRT? Should we just run?", "zh": "到捷運站多遠？我們要用跑的嗎？" },
+          { "speaker": "Minz", "en": "It's only about five minutes, but let's wait it out in this café.", "zh": "只要五分鐘左右，但我們先在這間咖啡店等雨停吧。" }
+        ]
+      },
+      {
+        "title": "Typhoon day",
+        "lines": [
+          { "speaker": "Jess", "en": "Did you hear? It's a typhoon day tomorrow. No work!", "zh": "你有聽說嗎？明天放颱風假，不用上班！" },
+          { "speaker": "Minz", "en": "Finally! Is it going to be a big one?", "zh": "終於！這個颱風會很大嗎？" },
+          { "speaker": "Jess", "en": "They say it's going to be really windy tonight.", "zh": "聽說今晚風會很大。" },
+          { "speaker": "Minz", "en": "Better stock up on snacks and instant noodles.", "zh": "那最好先囤點零食和泡麵。" },
+          { "speaker": "Jess", "en": "Already did. It's going to be a movie marathon day.", "zh": "已經囤了。明天就是電影馬拉松日。" },
+          { "speaker": "Minz", "en": "Stay safe, and don't go outside!", "zh": "注意安全，別出門！" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "It's so hot today, isn't it?", "zh": "今天好熱喔，對吧？", "note": "附加問句讓對方好接話（第 29 單元會詳細講）" },
+      { "en": "It's supposed to rain later.", "zh": "聽說等一下會下雨。", "note": "be supposed to = 預計、據說會" },
+      { "en": "It looks like it's going to rain.", "zh": "看起來快下雨了。" },
+      { "en": "It's been raining all week.", "zh": "已經下一整個禮拜的雨了。" },
+      { "en": "It's about a ten-minute walk.", "zh": "走路大概十分鐘。", "note": "It 也用在距離" },
+      { "en": "It's getting late. I should go.", "zh": "時間不早了，我該走了。", "note": "It 也用在時間" },
+      { "en": "What's the weather like in ___?", "zh": "___ 的天氣怎麼樣？" },
+      { "en": "I keep an umbrella in my bag all year round.", "zh": "我一年四季都放一把傘在包包裡。" },
+      { "en": "Let's wait it out.", "zh": "我們等它過去吧。", "note": "等雨停、等風頭過" },
+      { "en": "Stay dry! / Stay cool!", "zh": "別淋濕囉！／別熱到囉！", "note": "天氣極端時的道別語" }
+    ],
+    "chinglish": [
+      { "wrong": "Today is very hot.", "right": "It's really hot today.", "why": "中文「今天很熱」主詞是今天。英文雖然 Today is hot 也不算錯，但母語者習慣用 It 當主詞講天氣。" },
+      { "wrong": "Outside is raining.", "right": "It's raining outside.", "why": "「外面在下雨」直翻會把 outside 當主詞，但英文下雨的主詞一定是 It。" },
+      { "wrong": "The weather is very hot and wet.", "right": "It's hot and humid. / It's muggy.", "why": "wet 是「濕的」，指東西被弄濕。空氣潮濕、悶熱要說 humid 或 muggy。" },
+      { "wrong": "Tomorrow have typhoon.", "right": "There's a typhoon coming tomorrow.", "why": "中文「明天有颱風」的「有」直翻成 have 是常見錯誤。存在要用 There is（第 11 單元會詳細講）。" }
+    ]
+  },
+  "grammar": {
+    "id": "dummy-subject-it",
+    "title": "虛主詞 It（天氣、時間、距離）",
+    "oneLiner": "英文句子一定要有主詞，講天氣、時間、距離時，沒有真正的主詞就用 It 頂上去。",
+    "whenToUse": [
+      "天氣：It's raining. / It's cold. / It's getting windy.",
+      "時間、日期：It's 3 o'clock. / It's Friday! / It's getting late.",
+      "距離：It's about 2 kilometers. / It's a five-minute walk.",
+      "整體情況：It's so crowded here. / It's quiet today.",
+      "這個 It 沒有意思、不需要翻譯，只是文法上的主詞。"
+    ],
+    "whyWeGetItWrong": "中文常常沒有主詞：「下雨了」「好熱」「三點了」「很遠」都能單獨成句。英文每個句子都要有主詞，所以台灣人會不自覺地把「今天」「外面」「天氣」塞進主詞位置（Outside is raining），或直接漏掉（Is raining）。記住：講天氣時間距離，先說 It。",
+    "examples": [
+      { "correct": "It's raining again.", "incorrect": "Is raining again.", "note": "不能漏主詞。" },
+      { "correct": "It's really humid in Taipei in the summer.", "incorrect": "Taipei summer is very wet.", "note": "用 It 當主詞，形容悶熱用 humid。" },
+      { "correct": "It's almost midnight.", "note": "時間也用 It。" },
+      { "correct": "How far is it to the station?", "incorrect": "How far to the station is?", "note": "問距離的標準句型。" },
+      { "correct": "It's supposed to be sunny tomorrow.", "note": "預報式的說法。" }
+    ],
+    "quiz": [
+      { "id": "u007-g1", "type": "mcq", "question": "Which sentence is correct?", "options": ["Is very cold today.", "It's very cold today.", "Today very cold."], "answer": 1, "explanation": "英文一定要有主詞，天氣用 It。" },
+      { "id": "u007-g2", "type": "fill", "question": "___ about a fifteen-minute walk from here.", "answer": "It's|It is", "explanation": "距離也用虛主詞 It。" },
+      { "id": "u007-g3", "type": "mcq", "question": "Which word describes hot and wet air?", "options": ["wet", "humid", "watery"], "answer": 1, "explanation": "空氣潮濕悶熱用 humid（或 muggy）。" },
+      { "id": "u007-g4", "type": "mcq", "question": "Which one is natural?", "options": ["Outside is raining.", "It's raining outside.", "Outside raining."], "answer": 1, "explanation": "下雨的主詞是 It。" },
+      { "id": "u007-g5", "type": "fill", "question": "It's getting ___. We should head home.", "answer": "late|dark", "explanation": "It's getting late / dark = 時間晚了／天黑了。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "its-freezing",
+      "term": "It's freezing",
+      "meaning": "冷死了（誇張地說很冷）",
+      "register": "casual",
+      "usage": "字面是「結冰」，但日常用來誇張地說很冷，不一定真的零度以下。也可以說 I'm freezing.",
+      "risk": { "level": "safe", "note": "任何場合都能用。辦公室冷氣太強時很好用。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Can we turn the AC down? It's freezing in here.", "zh": "冷氣可以調弱一點嗎？這裡冷死了。" },
+        { "en": "I'm freezing. I should've brought a jacket.", "zh": "我好冷，早知道就帶外套。" }
+      ]
+    },
+    {
+      "id": "a-scorcher",
+      "term": "a scorcher",
+      "meaning": "超級大熱天",
+      "register": "casual",
+      "usage": "形容熱到像被烤的一天：Today's a scorcher.",
+      "risk": { "level": "safe", "note": "英式新聞和閒聊特別愛用，美國人也懂。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "It's going to be a scorcher today. Drink lots of water.", "zh": "今天會熱爆，多喝水。" },
+        { "en": "Yesterday was a real scorcher. It hit 37 degrees.", "zh": "昨天熱死了，到 37 度。" }
+      ]
+    },
+    {
+      "id": "its-pouring",
+      "term": "It's pouring",
+      "meaning": "下傾盆大雨",
+      "register": "neutral",
+      "usage": "雨下很大時說，也可以說 It's pouring down / pouring rain。",
+      "risk": { "level": "safe", "note": "中性，哪裡都能用。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "It's pouring outside. Let's get a taxi.", "zh": "外面下超大，叫計程車吧。" },
+        { "en": "I got caught in the pouring rain on my way home.", "zh": "我回家路上被大雨困住了。" }
+      ]
+    },
+    {
+      "id": "muggy",
+      "term": "muggy",
+      "meaning": "悶熱、濕黏",
+      "register": "casual",
+      "usage": "又熱又潮濕、空氣黏在身上的感覺，台灣夏天的完美形容詞。",
+      "risk": { "level": "safe", "note": "口語常用，比 humid 更有「不舒服」的感覺。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "It's so muggy, my hair is a mess.", "zh": "好悶，頭髮整個炸掉。" },
+        { "en": "Taiwan summers are hot and muggy.", "zh": "台灣的夏天又熱又悶。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u007-r1", "sourceUnit": 6, "type": "mcq", "question": "I don't have ___ time. Can we make it quick?", "options": ["many", "much", "a few"], "answer": 1, "explanation": "複習第 6 單元：time 不可數，用 much。" },
+    { "id": "u007-r2", "sourceUnit": 6, "type": "fill", "question": "1,500 for a plain T-shirt? What a ___-off.", "answer": "rip", "explanation": "複習第 6 單元：rip-off = 坑人。" },
+    { "id": "u007-r3", "sourceUnit": 5, "type": "mcq", "question": "Does this soup have ___ pork in it?", "options": ["some", "any", "a"], "answer": 1, "explanation": "複習第 5 單元：真的在問有沒有，用 any。" },
+    { "id": "u007-r4", "sourceUnit": 3, "type": "mcq", "question": "Let's meet ___ the entrance of the museum.", "options": ["in", "on", "at"], "answer": 2, "explanation": "複習第 3 單元：會面點用 at。" },
+    { "id": "u007-r5", "sourceUnit": 7, "type": "fill", "question": "It's so hot and ___ today. My shirt is sticking to me.", "answer": "muggy|humid", "explanation": "muggy / humid = 悶熱潮濕。" }
+  ]
+}

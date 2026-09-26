@@ -1,0 +1,159 @@
+{
+  "id": 1,
+  "module": 1,
+  "level": "B1",
+  "title": { "zh": "認識新朋友", "en": "Meeting New People" },
+  "scenario": {
+    "title": "朋友的派對上，第一次見面",
+    "context": "朋友家的聚會、語言交換、公司新同事——第一次見面的前 30 秒最尷尬。重點不是講得多，而是自然地接住話題、丟回問題，讓對話有來有往。",
+    "dialogues": [
+      {
+        "title": "At a friend's house party",
+        "lines": [
+          { "speaker": "Jess", "en": "Hey, I don't think we've met. I'm Jess.", "zh": "嗨，我們好像還沒見過，我是 Jess。" },
+          { "speaker": "Minz", "en": "Hi Jess, I'm Minz. Nice to meet you.", "zh": "嗨 Jess，我是 Minz，很高興認識你。" },
+          { "speaker": "Jess", "en": "You too! So how do you know Mark?", "zh": "我也是！你跟 Mark 怎麼認識的？" },
+          { "speaker": "Minz", "en": "We used to work together. What about you?", "zh": "我們以前是同事。你呢？" },
+          { "speaker": "Jess", "en": "We're roommates, actually. I'm staying at his place until I find my own apartment.", "zh": "其實我們是室友。我找到自己的房子之前先住他那邊。" },
+          { "speaker": "Minz", "en": "Oh, nice. Are you from around here?", "zh": "喔不錯。你是本地人嗎？" },
+          { "speaker": "Jess", "en": "No, I'm from Melbourne. I'm just here for a year on a working holiday.", "zh": "不是，我是墨爾本人，來打工度假一年。" },
+          { "speaker": "Minz", "en": "That's so cool. How are you liking Taipei so far?", "zh": "好酷。到目前為止喜歡台北嗎？" },
+          { "speaker": "Jess", "en": "I love it. The food alone is worth it.", "zh": "超喜歡，光是食物就值得了。" }
+        ]
+      },
+      {
+        "title": "Language exchange meetup",
+        "lines": [
+          { "speaker": "Tom", "en": "Hey, is this seat taken?", "zh": "嘿，這個位子有人坐嗎？" },
+          { "speaker": "Minz", "en": "No, go ahead.", "zh": "沒有，請坐。" },
+          { "speaker": "Tom", "en": "Thanks. I'm Tom, by the way.", "zh": "謝啦，對了我叫 Tom。" },
+          { "speaker": "Minz", "en": "I'm Minz. So what do you do, Tom?", "zh": "我是 Minz。Tom 你是做什麼的？" },
+          { "speaker": "Tom", "en": "I teach English at a cram school. But I'm learning Chinese right now, so that's why I'm here.", "zh": "我在補習班教英文。不過我最近在學中文，所以才來這裡。" },
+          { "speaker": "Minz", "en": "Nice! I'm a freelance illustrator. I mostly work with food brands.", "zh": "不錯耶！我是自由接案的插畫師，大多跟餐飲品牌合作。" },
+          { "speaker": "Tom", "en": "No way, that sounds like a dream job.", "zh": "真的假的，聽起來是夢幻工作。" },
+          { "speaker": "Minz", "en": "Ha, some days. Anyway, how's your Chinese going?", "zh": "哈，有些日子是啦。所以你的中文學得怎麼樣？" },
+          { "speaker": "Tom", "en": "Slowly. The tones are killing me.", "zh": "很慢。聲調快把我搞死了。" }
+        ]
+      },
+      {
+        "title": "Running into a neighbor",
+        "lines": [
+          { "speaker": "Neighbor", "en": "Hey! You just moved into 5F, right?", "zh": "嘿！你是剛搬進五樓的對吧？" },
+          { "speaker": "Minz", "en": "Yeah, last week. I'm Minz.", "zh": "對，上禮拜搬來的，我是 Minz。" },
+          { "speaker": "Neighbor", "en": "I'm Daniel, 3F. Welcome to the building.", "zh": "我是三樓的 Daniel，歡迎入住。" },
+          { "speaker": "Minz", "en": "Thanks! Everyone seems really friendly here.", "zh": "謝謝！這裡大家看起來都很友善。" },
+          { "speaker": "Daniel", "en": "They are. Just a heads-up though, the elevator's a bit slow in the mornings.", "zh": "是啊。不過先提醒你，早上電梯有點慢。" },
+          { "speaker": "Minz", "en": "Good to know. See you around!", "zh": "了解，之後見！" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "I don't think we've met.", "zh": "我們好像還沒見過。", "note": "主動自我介紹最自然的開場，比 Hello, my name is… 輕鬆很多" },
+      { "en": "So how do you know ___?", "zh": "你跟 ___ 怎麼認識的？", "note": "派對上最安全的第一個問題" },
+      { "en": "Are you from around here?", "zh": "你是本地人嗎？", "note": "比 Where are you from? 柔和，不會像在查戶口" },
+      { "en": "So what do you do?", "zh": "你是做什麼的？", "note": "問職業的標準說法；What's your job? 聽起來像面試" },
+      { "en": "How are you liking ___ so far?", "zh": "到目前為止覺得 ___ 怎麼樣？", "note": "問新來的人對城市、工作的感覺" },
+      { "en": "I'm ___, by the way.", "zh": "對了，我叫 ___。", "note": "聊了一陣才想到要報名字時用" },
+      { "en": "I mostly work with ___.", "zh": "我主要跟 ___ 合作。", "note": "介紹工作時補一句，讓對方有話可以接" },
+      { "en": "That sounds like a dream job.", "zh": "聽起來是夢幻工作。" },
+      { "en": "What about you?", "zh": "那你呢？", "note": "把問題丟回去，對話才不會斷" },
+      { "en": "See you around!", "zh": "之後見！", "note": "沒有約下次、但可能再碰到時的道別" }
+    ],
+    "chinglish": [
+      { "wrong": "My name is Minz. Nice to meet you. My hobby is drawing.", "right": "I'm Minz. Nice to meet you!", "why": "課本式的三連發像在面試。英文母語者第一次見面通常只報名字，興趣等聊到了再說。My hobby is… 在口語裡很少人講，會說 I'm really into drawing。" },
+      { "wrong": "I am work in a design company.", "right": "I work at a design company.", "why": "中文「我在設計公司工作」沒有 be 動詞，很多人就把 am 和 work 疊在一起。一般動詞前面不用 am；公司前面用 at 比 in 自然。" },
+      { "wrong": "What's your job?", "right": "So what do you do?", "why": "What's your job? 文法沒錯，但語氣很直，像在填表。What do you do? 是聊天時問職業的慣用說法。" },
+      { "wrong": "Nice to meet you too too.", "right": "Nice to meet you too. / You too!", "why": "對方說 Nice to meet you，你回 You too! 就夠了，不需要把整句重複一次。" }
+    ]
+  },
+  "grammar": {
+    "id": "present-simple-vs-continuous",
+    "title": "現在簡單式 vs 現在進行式",
+    "oneLiner": "長期的習慣和事實用簡單式；「這陣子」「暫時」的狀態用進行式。",
+    "whenToUse": [
+      "現在簡單式：身分、職業、習慣、不太會變的事實。I work as an illustrator. / I live in Taipei.",
+      "現在進行式：此刻正在做的事。I'm talking to a client right now.",
+      "現在進行式也用在「這陣子、暫時」的狀態，即使此刻沒在做。I'm learning Chinese right now.（不是指此刻正在上課）",
+      "常搭配的時間詞：簡單式配 usually, every day, always；進行式配 right now, these days, this month, at the moment。"
+    ],
+    "whyWeGetItWrong": "中文動詞本身沒有時態，「我在學中文」可以指此刻、也可以指這陣子，「我住台北」和「我這陣子住朋友家」用的是同一個動詞。所以台灣人常把所有事情都用簡單式講，或者把 am 硬套在一般動詞前面（I am work…）。英文要你先決定：這件事是長期不變的，還是暫時的？",
+    "examples": [
+      { "correct": "I teach English at a cram school.", "incorrect": "I am teach English at a cram school.", "note": "職業是長期的事，用簡單式。am 和一般動詞不能直接放在一起。" },
+      { "correct": "I'm staying at a friend's place until I find an apartment.", "incorrect": "I stay at a friend's place until I find an apartment.", "note": "暫時的住處用進行式。用 stay 聽起來像你一直都住那。" },
+      { "correct": "I live in Taipei, but I'm working in Taichung this month.", "note": "同一句裡長期（live）和暫時（working this month）的對比。" },
+      { "correct": "What do you do?", "incorrect": "What are you doing?", "note": "問職業用簡單式。What are you doing? 是問「你現在在幹嘛」。" },
+      { "correct": "I know what you mean.", "incorrect": "I'm knowing what you mean.", "note": "know, like, want, need, believe 這類狀態動詞通常不用進行式。" }
+    ],
+    "quiz": [
+      { "id": "u001-g1", "type": "mcq", "question": "A: So what do you do? B: I ___ as a graphic designer.", "options": ["am work", "work", "am working now"], "answer": 1, "explanation": "職業是長期的身分，用簡單式 work。am work 是最常見的錯誤。" },
+      { "id": "u001-g2", "type": "mcq", "question": "Sorry, I can't talk. I ___ dinner right now.", "options": ["cook", "am cooking", "cooks"], "answer": 1, "explanation": "right now 表示此刻正在發生，用進行式。" },
+      { "id": "u001-g3", "type": "fill", "question": "I usually take the MRT, but I ___ (drive) to work this week because my MRT line is closed for repairs.", "answer": "am driving|'m driving", "explanation": "this week 是暫時的安排，和平常的習慣（usually take）形成對比，用 am driving。" },
+      { "id": "u001-g4", "type": "mcq", "question": "Which sentence sounds natural?", "options": ["I'm wanting a coffee.", "I want a coffee.", "I am want a coffee."], "answer": 1, "explanation": "want 是狀態動詞，通常不用進行式。" },
+      { "id": "u001-g5", "type": "mcq", "question": "Tom is from the US, but he ___ in Taipei for a year.", "options": ["lives", "is living", "live"], "answer": 1, "explanation": "「待一年」是有期限的暫時狀態，用 is living 最自然。lives 文法上可以，但聽起來像長期定居。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "whats-up",
+      "term": "What's up?",
+      "meaning": "嗨／最近怎樣？（打招呼）",
+      "register": "casual",
+      "usage": "朋友、同輩、熟同事之間打招呼。它不是真的在問你問題，回 Not much 或 Hey 就好，不用報告近況。",
+      "risk": { "level": "safe", "note": "對主管、長輩、客戶第一次見面太隨便，改用 Hi, how are you?" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Hey man, what's up?", "zh": "嘿，怎樣？" },
+        { "en": "What's up? You look stressed.", "zh": "怎麼了？你看起來壓力很大。（這裡是真的在問「怎麼了」）" }
+      ]
+    },
+    {
+      "id": "hows-it-going",
+      "term": "How's it going?",
+      "meaning": "最近還好嗎？",
+      "register": "neutral",
+      "usage": "比 How are you? 輕鬆一點，但對同事、店員、剛認識的人都可以用。回 Good, you? 或 Not bad 就好。",
+      "risk": { "level": "safe", "note": "幾乎在任何場合都安全，是最萬用的打招呼。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Hey Daniel, how's it going?", "zh": "嘿 Daniel，最近好嗎？" },
+        { "en": "How's it going with the new job?", "zh": "新工作還順利嗎？" }
+      ]
+    },
+    {
+      "id": "not-much",
+      "term": "Not much",
+      "meaning": "沒什麼（回答 What's up?）",
+      "register": "casual",
+      "usage": "What's up? 的標準回答，後面通常再丟回一句 You? 或 What about you?",
+      "risk": { "level": "safe", "note": "不要回 I'm fine, thank you——那是回答 How are you? 的，而且太課本。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "A: What's up? B: Not much, you?", "zh": "A：怎樣？ B：沒什麼，你呢？" },
+        { "en": "Not much, just working on a project for a client.", "zh": "沒什麼啦，在弄一個客戶的案子。" }
+      ]
+    },
+    {
+      "id": "no-worries",
+      "term": "No worries",
+      "meaning": "沒關係／不客氣",
+      "register": "casual",
+      "usage": "別人道謝或道歉時都能回。澳洲人超愛用，美國和英國也很普遍。",
+      "risk": { "level": "safe", "note": "寫給客戶的正式 email 裡少用，改成 No problem at all 或 You're welcome。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "A: Sorry I'm late! B: No worries, we just got here too.", "zh": "A：抱歉我遲到了！ B：沒關係，我們也剛到。" },
+        { "en": "A: Thanks for saving me a seat. B: No worries.", "zh": "A：謝謝你幫我留位子。 B：不客氣。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u001-r1", "sourceUnit": 1, "type": "mcq", "question": "Your friend says \"What's up?\" What's the most natural reply?", "options": ["I'm fine, thank you. And you?", "Not much, you?", "The sky."], "answer": 1, "explanation": "What's up? 回 Not much, you? 最自然。" },
+    { "id": "u001-r2", "sourceUnit": 1, "type": "mcq", "question": "You want to ask someone's job at a party. Which is the most natural?", "options": ["What's your job?", "What are you doing?", "So what do you do?"], "answer": 2, "explanation": "So what do you do? 是聊天時問職業的慣用說法。" },
+    { "id": "u001-r3", "sourceUnit": 1, "type": "fill", "question": "A: Sorry I kept you waiting! B: No ___, I just got here.", "answer": "worries", "explanation": "No worries = 沒關係。" },
+    { "id": "u001-r4", "sourceUnit": 1, "type": "fill", "question": "I don't think we've ___. I'm Jess.", "answer": "met", "explanation": "I don't think we've met. 是主動自我介紹的自然開場。" }
+  ]
+}

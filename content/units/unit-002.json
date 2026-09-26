@@ -1,0 +1,161 @@
+{
+  "id": 2,
+  "module": 1,
+  "level": "B1",
+  "title": { "zh": "點咖啡", "en": "Ordering Coffee" },
+  "scenario": {
+    "title": "咖啡店櫃台前的 60 秒",
+    "context": "點咖啡看起來簡單，但店員會連續丟好幾個問題：尺寸、內用外帶、要不要加東西、名字。聽得懂這幾個固定問題，就不會在櫃台前慌掉。",
+    "dialogues": [
+      {
+        "title": "A busy café in the morning",
+        "lines": [
+          { "speaker": "Barista", "en": "Hi there, what can I get for you?", "zh": "嗨，要點什麼？" },
+          { "speaker": "Minz", "en": "Hi, can I get a large iced latte, please?", "zh": "嗨，可以給我一杯大杯冰拿鐵嗎？" },
+          { "speaker": "Barista", "en": "Sure. Any milk preference? We've got oat, soy, and almond.", "zh": "好的。牛奶有指定嗎？我們有燕麥奶、豆漿和杏仁奶。" },
+          { "speaker": "Minz", "en": "Oat milk, please. And could you make it less sweet?", "zh": "燕麥奶，謝謝。可以做少甜一點嗎？" },
+          { "speaker": "Barista", "en": "No problem. For here or to go?", "zh": "沒問題。內用還是外帶？" },
+          { "speaker": "Minz", "en": "To go, please.", "zh": "外帶，謝謝。" },
+          { "speaker": "Barista", "en": "Anything else? Our banana bread just came out of the oven.", "zh": "還需要什麼嗎？我們的香蕉蛋糕剛出爐。" },
+          { "speaker": "Minz", "en": "Tempting, but I'm good, thanks.", "zh": "很誘人，不過不用了，謝謝。" },
+          { "speaker": "Barista", "en": "Can I get a name for the order?", "zh": "可以留個名字嗎？" },
+          { "speaker": "Minz", "en": "Minz. M-I-N-Z.", "zh": "Minz，M-I-N-Z。" }
+        ]
+      },
+      {
+        "title": "Ordering for a coworker",
+        "lines": [
+          { "speaker": "Minz", "en": "Hi, I'll have a medium Americano, and could I also get a hot chai latte?", "zh": "嗨，我要一杯中杯美式，然後可以再一杯熱的印度奶茶拿鐵嗎？" },
+          { "speaker": "Barista", "en": "Sure thing. Do you want the chai with regular milk?", "zh": "好的。奶茶用一般牛奶可以嗎？" },
+          { "speaker": "Minz", "en": "Hmm, let me check. … Yeah, regular's fine.", "zh": "嗯，我問一下。……可以，一般的就好。" },
+          { "speaker": "Barista", "en": "Great. Do you want those in a carrier?", "zh": "好。要幫你放杯架嗎？" },
+          { "speaker": "Minz", "en": "Yes, please. That'd be great.", "zh": "好，麻煩了。" },
+          { "speaker": "Barista", "en": "That'll be two hundred and forty. Card or cash?", "zh": "總共兩百四。刷卡還是現金？" },
+          { "speaker": "Minz", "en": "Card. Can I tap?", "zh": "刷卡。可以感應嗎？" },
+          { "speaker": "Barista", "en": "You bet. Go ahead whenever you're ready.", "zh": "當然可以，準備好就感應。" }
+        ]
+      },
+      {
+        "title": "Getting the order wrong",
+        "lines": [
+          { "speaker": "Barista", "en": "Iced latte for Minz!", "zh": "Minz 的冰拿鐵！" },
+          { "speaker": "Minz", "en": "Thanks! Oh, sorry, I think this one's regular milk. I ordered oat.", "zh": "謝謝！喔，不好意思，這杯好像是一般牛奶，我點的是燕麥奶。" },
+          { "speaker": "Barista", "en": "Oh no, my bad. I'll remake it for you right away.", "zh": "啊，是我的錯，馬上幫你重做。" },
+          { "speaker": "Minz", "en": "No worries, thank you.", "zh": "沒關係，謝謝。" },
+          { "speaker": "Barista", "en": "Here you go. Sorry about that!", "zh": "來，不好意思喔！" },
+          { "speaker": "Minz", "en": "All good. Have a nice day!", "zh": "沒事。祝你有美好的一天！" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "Can I get a ___, please?", "zh": "可以給我一杯 ___ 嗎？", "note": "美式點餐最常聽到的句型" },
+      { "en": "I'll have a ___.", "zh": "我要一杯 ___。", "note": "直接又有禮貌，美英都通" },
+      { "en": "Could you make it less sweet?", "zh": "可以做少甜一點嗎？", "note": "國外很少有甜度分級，用 less sweet / half sweet 說明" },
+      { "en": "Could I also get ___?", "zh": "可以再加一個 ___ 嗎？" },
+      { "en": "For here or to go?", "zh": "內用還是外帶？", "note": "英式常說 Eat in or take away?" },
+      { "en": "Can I get a name for the order?", "zh": "可以留個名字嗎？", "note": "店員會問的，要聽得懂" },
+      { "en": "Can I tap?", "zh": "可以感應付款嗎？", "note": "tap = 感應卡片或手機支付" },
+      { "en": "I think this one's ___. I ordered ___.", "zh": "這杯好像是 ___，我點的是 ___。", "note": "客氣地指出點錯了" },
+      { "en": "That'd be great.", "zh": "那太好了／麻煩了。", "note": "接受店員提議時的萬用回答" },
+      { "en": "All good.", "zh": "沒事啦。", "note": "對方道歉時回，比 It's OK 輕鬆" }
+    ],
+    "chinglish": [
+      { "wrong": "I want a latte.", "right": "Can I get a latte, please? / I'll have a latte.", "why": "中文「我要一杯拿鐵」很自然，直接翻成 I want 在英文裡像小孩子在討東西，聽起來很沒禮貌。點餐用 Can I get / I'll have / Could I have。" },
+      { "wrong": "Give me an iced Americano.", "right": "Could I get an iced Americano?", "why": "祈使句 Give me… 在英文裡是命令，除非很熟，不然對店員說會讓人皺眉。" },
+      { "wrong": "Take out, please.", "right": "To go, please. (US) / Take away, please. (UK)", "why": "takeout 在美式是名詞（外帶食物），回答「外帶」要說 to go。台灣習慣的 take out 是混出來的說法。" },
+      { "wrong": "One cup of latte.", "right": "One latte, please.", "why": "咖啡本身已經以「杯」為單位，不用說 cup of。" }
+    ]
+  },
+  "grammar": {
+    "id": "polite-requests-can-i-get",
+    "title": "禮貌點餐：Can I get / I'll have",
+    "oneLiner": "點東西時別用 I want，改用 Can I get / I'll have / Could I have，禮貌度一次到位。",
+    "whenToUse": [
+      "Can I get…? 最口語、最常見，咖啡店、速食店都用。",
+      "I'll have… 直接但有禮貌，餐廳點餐很適合；後面接 please 更好。",
+      "Could I have…? 比 Can I 再客氣一點，正式餐廳或拜託別人時用。",
+      "I'd like… 客氣、中性，任何場合都安全。",
+      "要求對方做事用 Could you…?（Could you make it less sweet?），不要用祈使句。"
+    ],
+    "whyWeGetItWrong": "中文「我要」完全中性，台灣人在點餐時說「我要一杯拿鐵」不會有人覺得失禮。但英文的 want 是赤裸裸的「我想要」，拿來點餐聽起來很像在下命令。英文的禮貌是靠句型撐起來的，疑問句（Can I…? / Could you…?）和 will／would 都能讓語氣軟化。",
+    "examples": [
+      { "correct": "Can I get a small hot chocolate, please?", "incorrect": "I want a small hot chocolate.", "note": "Can I get 是點餐標配。" },
+      { "correct": "I'll have the chicken sandwich, please.", "note": "I'll have 用在已經決定好的時候，語氣自然俐落。" },
+      { "correct": "Could you make it with oat milk?", "incorrect": "Make it with oat milk.", "note": "要求店員調整時用 Could you，別用命令句。" },
+      { "correct": "I'd like a table for two, please.", "note": "I'd like = I would like，客氣中性，餐廳訂位很常用。" },
+      { "correct": "Could I have some water, please?", "incorrect": "Give me some water.", "note": "Could I have 比 Can I get 再正式一點。" }
+    ],
+    "quiz": [
+      { "id": "u002-g1", "type": "mcq", "question": "Which is the most natural way to order at a café?", "options": ["I want a cappuccino.", "Can I get a cappuccino, please?", "Give me one cappuccino."], "answer": 1, "explanation": "Can I get… please? 是最自然、有禮貌的點餐句型。" },
+      { "id": "u002-g2", "type": "fill", "question": "___ you make it less sweet? (禮貌地請店員做少甜)", "answer": "Could|Can", "explanation": "請對方做事用 Could you…? 最客氣，Can you 也可以。" },
+      { "id": "u002-g3", "type": "mcq", "question": "Waiter: \"Are you ready to order?\" You: \"Yes, I ___ the salmon, please.\"", "options": ["'ll have", "want", "am having want"], "answer": 0, "explanation": "I'll have… 是餐廳點餐的自然說法。" },
+      { "id": "u002-g4", "type": "fill", "question": "I'd ___ a table for four, please.", "answer": "like", "explanation": "I'd like = I would like，訂位、點餐都能用。" },
+      { "id": "u002-g5", "type": "mcq", "question": "Which one sounds the MOST polite?", "options": ["Can I get some napkins?", "Could I have some napkins, please?", "I want napkins."], "answer": 1, "explanation": "Could I have… please? 最客氣；Can I get 也 OK 但比較隨性；I want 不適合用來要東西。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "im-good",
+      "term": "I'm good",
+      "meaning": "不用了，謝謝（婉拒）",
+      "register": "casual",
+      "usage": "對方問 Anything else? / Do you want a bag? 時的婉拒。它不是「我很好」，而是「我這樣就夠了」。",
+      "risk": { "level": "safe", "note": "語氣要輕鬆，加 thanks 最保險。聽的時候也要注意：別人對你說 I'm good，意思是不要，不是他心情好。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "A: Do you want a bag? B: I'm good, thanks.", "zh": "A：需要袋子嗎？ B：不用，謝謝。" },
+        { "en": "A: More coffee? B: I'm good. Any more and I won't sleep tonight.", "zh": "A：再來點咖啡？ B：不用了，再喝我今晚就睡不著了。" }
+      ]
+    },
+    {
+      "id": "you-bet",
+      "term": "You bet",
+      "meaning": "當然／沒問題（也可以回應道謝）",
+      "register": "casual",
+      "usage": "回答 Can I…? 表示「當然可以」，或回應 Thanks 表示「不客氣」。美國中西部特別常聽到。",
+      "risk": { "level": "safe", "note": "友善又輕鬆，但正式 email 裡不要用。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "A: Can I pay by card? B: You bet.", "zh": "A：可以刷卡嗎？ B：當然。" },
+        { "en": "A: Thanks for the help! B: You bet!", "zh": "A：謝謝幫忙！ B：不客氣！" }
+      ]
+    },
+    {
+      "id": "to-go",
+      "term": "to go",
+      "meaning": "外帶",
+      "register": "neutral",
+      "usage": "For here or to go? 的回答，也可以直接加在點餐後面：A latte to go, please.",
+      "risk": { "level": "safe", "note": "美式說法；在英國多說 take away，但 to go 大家也聽得懂。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "Two croissants to go, please.", "zh": "兩個可頌外帶，謝謝。" },
+        { "en": "A: For here or to go? B: To go.", "zh": "A：內用還是外帶？ B：外帶。" }
+      ]
+    },
+    {
+      "id": "a-cuppa",
+      "term": "a cuppa",
+      "meaning": "一杯茶（英式口語）",
+      "register": "casual",
+      "usage": "英國人說 cup of tea 的暱稱，通常指加奶的紅茶。邀人喝茶、表達想休息一下時用。",
+      "risk": { "level": "safe", "note": "美國人聽得懂但自己不太說；在美國講會有點英國腔的可愛感。" },
+      "dated": false,
+      "variety": "UK",
+      "examples": [
+        { "en": "Fancy a cuppa?", "zh": "要不要來杯茶？" },
+        { "en": "I need a cuppa before I start this report.", "zh": "開始寫報告前我需要先喝杯茶。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u002-r1", "sourceUnit": 1, "type": "mcq", "question": "Tom is from the US, but he ___ in Taipei for a year on a working holiday.", "options": ["lives", "is living", "live"], "answer": 1, "explanation": "複習第 1 單元：暫時的狀態用現在進行式。" },
+    { "id": "u002-r2", "sourceUnit": 1, "type": "fill", "question": "A: What's up? B: Not ___, you?", "answer": "much", "explanation": "複習第 1 單元：What's up? → Not much, you?" },
+    { "id": "u002-r3", "sourceUnit": 1, "type": "mcq", "question": "Which is correct?", "options": ["I am work at a café.", "I work at a café.", "I working at a café."], "answer": 1, "explanation": "複習第 1 單元：一般動詞前不加 am。" },
+    { "id": "u002-r4", "sourceUnit": 2, "type": "mcq", "question": "The cashier asks, \"Do you need a receipt?\" You don't. You say:", "options": ["I'm good, thanks.", "I'm fine, thank you, and you?", "I don't want."], "answer": 0, "explanation": "I'm good = 不用了，謝謝。" },
+    { "id": "u002-r5", "sourceUnit": 2, "type": "fill", "question": "A: For here or ___ go? B: For here.", "answer": "to", "explanation": "For here or to go? = 內用還是外帶？" }
+  ]
+}

@@ -1,0 +1,136 @@
+@import 'tailwindcss';
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* 設計方向：像一本有頁邊註記的讀本。紙色底、襯線英文、文楷中文；
+   每個內容區塊一種墨色，只用在標記、邊線與重點，不大面積鋪色。 */
+@theme {
+  --font-display: 'Fraunces', 'LXGW WenKai TC', Georgia, serif;
+  --font-en: 'Newsreader', Georgia, 'Times New Roman', serif;
+  --font-zh: 'LXGW WenKai TC', 'PingFang TC', 'Noto Sans TC', sans-serif;
+
+  --color-paper: var(--paper);
+  --color-paper-2: var(--paper-2);
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-ink-3: var(--ink-3);
+  --color-rule: var(--rule);
+
+  --color-scene: var(--scene);
+  --color-scene-soft: var(--scene-soft);
+  --color-gram: var(--gram);
+  --color-gram-soft: var(--gram-soft);
+  --color-slang: var(--slang);
+  --color-slang-soft: var(--slang-soft);
+  --color-daily: var(--daily);
+  --color-daily-soft: var(--daily-soft);
+  --color-rev: var(--rev);
+  --color-rev-soft: var(--rev-soft);
+  --color-ok: var(--ok);
+  --color-bad: var(--bad);
+}
+
+:root {
+  --paper: #f5f0e6;
+  --paper-2: #ece5d6;
+  --ink: #1f1c16;
+  --ink-2: #4d473c;
+  --ink-3: #7d7566;
+  --rule: #d8cfbc;
+
+  --scene: #1f6b5c;
+  --scene-soft: #dde9e2;
+  --gram: #3847a3;
+  --gram-soft: #e0e2f1;
+  --slang: #b04623;
+  --slang-soft: #f3dfd2;
+  --daily: #8a3a6b;
+  --daily-soft: #efdde6;
+  --rev: #7d6210;
+  --rev-soft: #efe6c8;
+  --ok: #2f7a3d;
+  --bad: #b3261e;
+}
+
+.dark {
+  --paper: #17150f;
+  --paper-2: #221f17;
+  --ink: #ede6d6;
+  --ink-2: #c3baa6;
+  --ink-3: #8c846f;
+  --rule: #3a3528;
+
+  --scene: #72c6b0;
+  --scene-soft: #1c2d27;
+  --gram: #a3aef2;
+  --gram-soft: #1f2238;
+  --slang: #f09a72;
+  --slang-soft: #33211a;
+  --daily: #e59dcb;
+  --daily-soft: #311d29;
+  --rev: #e2c15e;
+  --rev-soft: #2e2716;
+  --ok: #7fcf8c;
+  --bad: #f08a80;
+}
+
+html {
+  background: var(--paper);
+  color: var(--ink);
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: var(--font-zh);
+  font-size: 18px;
+  line-height: 1.75;
+  background: var(--paper);
+  /* 很淡的紙紋，讓畫面不像純平面 */
+  background-image: radial-gradient(color-mix(in srgb, var(--ink) 4%, transparent) 0.6px, transparent 0.6px);
+  background-size: 5px 5px;
+  min-height: 100dvh;
+}
+
+.en {
+  font-family: var(--font-en);
+  font-size: 1.08em;
+  letter-spacing: 0.005em;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--slang) 30%, transparent);
+}
+
+:focus-visible {
+  outline: 2px solid var(--ink);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+.rise {
+  animation: rise 0.55s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .rise {
+    animation: none;
+  }
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  scrollbar-width: none;
+}

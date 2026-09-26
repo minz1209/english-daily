@@ -1,0 +1,148 @@
+{
+  "id": 9,
+  "module": 1,
+  "level": "B1",
+  "title": { "zh": "傳訊息約朋友", "en": "Making Plans by Text" },
+  "scenario": {
+    "title": "LINE／WhatsApp 上約時間",
+    "context": "約朋友的訊息往往很短，但藏了很多「未來式」：已經排好的行程、剛剛才決定的事、還不確定的計畫。英文有三種講未來的方法，用對了，對方就知道你有多確定。",
+    "dialogues": [
+      {
+        "title": "Group chat: planning Saturday",
+        "lines": [
+          { "speaker": "Leo", "en": "Anyone down for hot pot on Saturday?", "zh": "有人週六要吃火鍋嗎？" },
+          { "speaker": "Minz", "en": "I'm down! What time are you thinking?", "zh": "我要！你想幾點？" },
+          { "speaker": "Leo", "en": "Maybe 7? I'm going to book that place near Zhongxiao Dunhua.", "zh": "七點？我打算訂忠孝敦化附近那間。" },
+          { "speaker": "Jess", "en": "I'm meeting a client at 5, but I'll come after that.", "zh": "我五點要見客戶，但結束後會過去。" },
+          { "speaker": "Minz", "en": "Is Chris coming?", "zh": "Chris 會來嗎？" },
+          { "speaker": "Leo", "en": "He said maybe, so he'll probably flake.", "zh": "他說可能，所以他八成會放鳥。" },
+          { "speaker": "Jess", "en": "Classic Chris.", "zh": "很有 Chris 的風格。" },
+          { "speaker": "Leo", "en": "OK, I'll book a table for four just in case.", "zh": "好，保險起見我訂四人桌。" }
+        ]
+      },
+      {
+        "title": "One-on-one: changing plans",
+        "lines": [
+          { "speaker": "Minz", "en": "Hey, are we still on for tomorrow?", "zh": "嘿，明天還是照約嗎？" },
+          { "speaker": "Amy", "en": "So sorry, I have to bail. My boss just asked me to go to Taichung tomorrow.", "zh": "超抱歉，我得取消。我老闆剛叫我明天去台中。" },
+          { "speaker": "Minz", "en": "No worries! Are you going to be back by the weekend?", "zh": "沒關係！你週末前會回來嗎？" },
+          { "speaker": "Amy", "en": "I'm coming back Friday night.", "zh": "我星期五晚上回來。" },
+          { "speaker": "Minz", "en": "Want to do Sunday brunch instead?", "zh": "那改成週日早午餐？" },
+          { "speaker": "Amy", "en": "Sounds good, but let's play it by ear. I might be exhausted.", "zh": "好啊，不過到時候再看，我可能會累癱。" },
+          { "speaker": "Minz", "en": "Totally fair. I'll text you Saturday.", "zh": "完全可以理解。我週六再傳訊息給你。" },
+          { "speaker": "Amy", "en": "Perfect. Thanks for understanding!", "zh": "太好了，謝謝體諒！" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "Are we still on for tomorrow?", "zh": "明天還照約嗎？", "note": "確認約定的超實用句" },
+      { "en": "What time are you thinking?", "zh": "你想約幾點？" },
+      { "en": "I'm free after 6.", "zh": "我六點後有空。" },
+      { "en": "Does Saturday work for you?", "zh": "星期六你可以嗎？" },
+      { "en": "Something came up. Can we reschedule?", "zh": "臨時有事，可以改時間嗎？" },
+      { "en": "Want to do Sunday instead?", "zh": "改成星期天好嗎？" },
+      { "en": "I'll text you when I get there.", "zh": "我到了再傳訊息給你。" },
+      { "en": "Running 10 minutes late, sorry!", "zh": "會晚十分鐘到，抱歉！", "note": "訊息裡常省略 I'm" },
+      { "en": "Just in case.", "zh": "以防萬一。" },
+      { "en": "Thanks for understanding!", "zh": "謝謝體諒！" }
+    ],
+    "chinglish": [
+      { "wrong": "Tomorrow I will go to Taichung for business.", "right": "I'm going to Taichung tomorrow for work.", "why": "已經安排好的行程用現在進行式最自然。will 聽起來像是現在才決定的。另外 for business 偏正式，口語說 for work。" },
+      { "wrong": "Do you have time tomorrow?", "right": "Are you free tomorrow?", "why": "Do you have time? 不算錯，但聽起來像要找你談一件事。約吃飯、出去玩說 Are you free? 比較輕鬆。" },
+      { "wrong": "I will go to the gym later maybe.", "right": "I might go to the gym later.", "why": "不確定的事用 might，比 will…maybe 簡潔自然。" },
+      { "wrong": "Let's see the situation.", "right": "Let's see how it goes. / Let's play it by ear.", "why": "「看情況」直翻的 see the situation 很生硬。" }
+    ]
+  },
+  "grammar": {
+    "id": "future-will-going-to-continuous",
+    "title": "未來：will / be going to / 現在進行式",
+    "oneLiner": "已經排定的行程用進行式，已經打算好的用 be going to，當下才決定或預測用 will。",
+    "whenToUse": [
+      "現在進行式：已經安排好、有時間地點的行程。I'm meeting a client at 5. / I'm flying to Tokyo on Friday.",
+      "be going to：之前就打算好的計畫，或根據眼前證據的預測。I'm going to book that place. / Look at those clouds. It's going to rain.",
+      "will：說話當下才做的決定、答應、提議。OK, I'll book a table. / I'll text you later.",
+      "will 也用在一般預測：He'll probably be late.",
+      "might：不確定。I might be exhausted."
+    ],
+    "whyWeGetItWrong": "中文講未來就加「會」或「要」，「我明天要去台中」「我等下會傳訊息給你」，一個字包辦全部。所以台灣人習慣所有未來都用 will。但對母語者來說，I will go to Taichung tomorrow 聽起來像是「好吧，那我就去台中」的當下決定，而不是已經排好的出差。",
+    "examples": [
+      { "correct": "I'm having dinner with my parents tonight.", "incorrect": "I will have dinner with my parents tonight.", "note": "已經約好的事用進行式。" },
+      { "correct": "A: The printer's out of paper. B: I'll get some.", "incorrect": "A: The printer's out of paper. B: I'm going to get some.", "note": "當下決定的用 will。" },
+      { "correct": "I'm going to learn to swim this summer.", "note": "已經打算好的計畫。" },
+      { "correct": "Look at the sky. It's going to pour.", "note": "有眼前證據的預測用 going to。" },
+      { "correct": "I might be a little late.", "incorrect": "I will maybe be a little late.", "note": "不確定用 might。" }
+    ],
+    "quiz": [
+      { "id": "u009-g1", "type": "mcq", "question": "Sorry, I can't make it on Friday. I ___ my cousin at the airport.", "options": ["will pick up", "'m picking up", "pick up"], "answer": 1, "explanation": "已經排定的行程用現在進行式。" },
+      { "id": "u009-g2", "type": "mcq", "question": "A: It's cold in here. B: Oh, I ___ close the window.", "options": ["'ll", "'m going to", "'m closing"], "answer": 0, "explanation": "當下才決定要做的事用 will。" },
+      { "id": "u009-g3", "type": "fill", "question": "I'm not sure yet, but I ___ come a bit late.", "answer": "might|may", "explanation": "不確定用 might / may。" },
+      { "id": "u009-g4", "type": "mcq", "question": "Look at those dark clouds. It ___ rain.", "options": ["is going to", "will maybe", "is raining"], "answer": 0, "explanation": "根據眼前證據的預測用 be going to。" },
+      { "id": "u009-g5", "type": "fill", "question": "I've already decided. I'm ___ to quit my job next year.", "answer": "going", "explanation": "已經決定好的計畫用 be going to。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "down-for",
+      "term": "down for",
+      "meaning": "想參加、有興趣（I'm down = 我要／好啊）",
+      "register": "casual",
+      "usage": "回應邀約表示想參加。Are you down for karaoke? → I'm down!",
+      "risk": { "level": "safe", "note": "朋友之間很普遍，對主管邀約不要回 I'm down，說 Sounds great。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "Anyone down for bubble tea?", "zh": "有人要喝珍奶嗎？" },
+        { "en": "A: Want to go to Yangmingshan this weekend? B: I'm down.", "zh": "A：這週末要去陽明山嗎？ B：好啊。" }
+      ]
+    },
+    {
+      "id": "flake",
+      "term": "flake",
+      "meaning": "放鳥、臨時爽約（動詞）；常爽約的人（名詞）",
+      "register": "very-casual",
+      "usage": "動詞 flake (on someone)；名詞 He's such a flake. 形容詞 flaky。",
+      "risk": { "level": "careful", "note": "說某人是 flake 是在批評他不可靠，當面說會傷感情。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "Don't flake on me this time!", "zh": "這次不要再放我鳥了！" },
+        { "en": "He's a bit flaky, so don't count on him.", "zh": "他有點不可靠，別指望他。" }
+      ]
+    },
+    {
+      "id": "bail",
+      "term": "bail",
+      "meaning": "臨時取消、先閃人",
+      "register": "casual",
+      "usage": "I have to bail = 我得取消／我得先走了。bail on someone = 放某人鴿子。",
+      "risk": { "level": "safe", "note": "說自己 I have to bail 是誠實告知，語氣不重；說別人 bailed on me 則帶抱怨。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "Sorry guys, I have to bail early tonight.", "zh": "抱歉各位，我今晚得先走。" },
+        { "en": "She bailed on us at the last minute.", "zh": "她最後一刻放我們鴿子。" }
+      ]
+    },
+    {
+      "id": "play-it-by-ear",
+      "term": "play it by ear",
+      "meaning": "到時候再看、隨機應變",
+      "register": "neutral",
+      "usage": "不先定死計畫，看當天狀況決定。",
+      "risk": { "level": "safe", "note": "工作上也能用，例如 Let's play it by ear and see how the client reacts." },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "I don't know how long the meeting will take, so let's play it by ear.", "zh": "不知道會議要開多久，到時候再看。" },
+        { "en": "We didn't plan anything. We're just going to play it by ear.", "zh": "我們沒排行程，打算隨興。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u009-r1", "sourceUnit": 8, "type": "mcq", "question": "Which is correct?", "options": ["My stomach is pain.", "I have a stomachache.", "I have stomach pain very."], "answer": 1, "explanation": "複習第 8 單元：have a + 症狀名詞。" },
+    { "id": "u009-r2", "sourceUnit": 7, "type": "fill", "question": "___ supposed to rain this afternoon, so bring an umbrella.", "answer": "It's|It is", "explanation": "複習第 7 單元：天氣用 It。" },
+    { "id": "u009-r3", "sourceUnit": 5, "type": "mcq", "question": "We don't have ___ milk left.", "options": ["some", "any", "many"], "answer": 1, "explanation": "複習第 5 單元：否定句用 any；milk 不可數，不能用 many。" },
+    { "id": "u009-r4", "sourceUnit": 1, "type": "mcq", "question": "A: What ___ you do? B: I'm an illustrator.", "options": ["are", "do", "is"], "answer": 1, "explanation": "複習第 1 單元：問職業用 What do you do?" },
+    { "id": "u009-r5", "sourceUnit": 9, "type": "fill", "question": "A: Anyone ___ for karaoke tonight? B: Me!", "answer": "down", "explanation": "down for = 想參加。" }
+  ]
+}

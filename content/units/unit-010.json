@@ -1,0 +1,163 @@
+{
+  "id": 10,
+  "module": 1,
+  "level": "B1",
+  "title": { "zh": "整合：週末聚會", "en": "Review: A Weekend Get-Together" },
+  "scenario": {
+    "title": "好久不見的朋友聚會",
+    "context": "第一章的收尾：一場老朋友的聚會。你會聊到現在在做什麼（現在式）、最近發生什麼（過去式）、接下來的計畫（未來式），前九個單元的句型全部會用上。",
+    "dialogues": [
+      {
+        "title": "Running into an old friend",
+        "lines": [
+          { "speaker": "Kevin", "en": "Minz? No way! Long time no see!", "zh": "Minz？不會吧！好久不見！" },
+          { "speaker": "Minz", "en": "Kevin! Oh my god, it's been, what, three years?", "zh": "Kevin！天啊，大概有……三年了吧？" },
+          { "speaker": "Kevin", "en": "At least. Are you still working at that agency?", "zh": "至少有。你還在那間廣告公司嗎？" },
+          { "speaker": "Minz", "en": "No, I left last year. I work for myself now. I'm a freelance illustrator.", "zh": "沒有，我去年離職了。現在自己接案，當自由插畫師。" },
+          { "speaker": "Kevin", "en": "That's awesome. How's it going?", "zh": "太棒了。還順利嗎？" },
+          { "speaker": "Minz", "en": "Pretty well, actually. I'm working on a project for a tea brand right now. What about you?", "zh": "其實還不錯。我現在在做一個茶飲品牌的案子。你呢？" },
+          { "speaker": "Kevin", "en": "I'm still at the bank, but I'm moving to Singapore next month.", "zh": "我還在銀行，但下個月要搬去新加坡了。" },
+          { "speaker": "Minz", "en": "Next month? We need to catch up before you go!", "zh": "下個月？你走之前我們一定要好好聊聊！" }
+        ]
+      },
+      {
+        "title": "Planning a farewell party",
+        "lines": [
+          { "speaker": "Minz", "en": "What if we throw you a little farewell party this Saturday?", "zh": "這週六幫你辦個小小的送別派對怎麼樣？" },
+          { "speaker": "Kevin", "en": "That would be amazing. Where, though?", "zh": "那太好了。不過要在哪裡？" },
+          { "speaker": "Minz", "en": "My place. It's a bit small, but it's a stone's throw from the MRT.", "zh": "我家。有點小，但離捷運站超近。" },
+          { "speaker": "Kevin", "en": "Perfect. Should I bring anything?", "zh": "完美。我需要帶什麼嗎？" },
+          { "speaker": "Minz", "en": "It's BYOB, and I'll order some food.", "zh": "酒水自備，我會叫點吃的。" },
+          { "speaker": "Kevin", "en": "Got it. I'll bring some wine, then.", "zh": "了解，那我帶點紅酒。" },
+          { "speaker": "Minz", "en": "Great. I'm going to invite some people from the old office, too.", "zh": "好。我也打算邀一些以前辦公室的人。" },
+          { "speaker": "Kevin", "en": "Just don't invite Chris. He'll flake anyway.", "zh": "別邀 Chris 就好，反正他一定會放鳥。" }
+        ]
+      },
+      {
+        "title": "The morning after",
+        "lines": [
+          { "speaker": "Jess", "en": "How was the party last night?", "zh": "昨晚的派對怎麼樣？" },
+          { "speaker": "Minz", "en": "It was a blast! Almost everyone came, and we stayed up till three.", "zh": "超好玩！幾乎每個人都有來，我們聊到三點。" },
+          { "speaker": "Jess", "en": "Three? You must be wiped out.", "zh": "三點？你一定累爆了吧。" },
+          { "speaker": "Minz", "en": "Totally. I slept in till noon and I'm still cleaning up.", "zh": "完全是。我睡到中午，現在還在收拾。" },
+          { "speaker": "Jess", "en": "Did Chris show up?", "zh": "Chris 有出現嗎？" },
+          { "speaker": "Minz", "en": "Surprisingly, yes! He even brought a cake.", "zh": "出乎意料，有！他還帶了蛋糕。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "Long time no see!", "zh": "好久不見！" },
+      { "en": "It's been ages!", "zh": "超久沒見了！", "note": "比 long time no see 更強調「太久」" },
+      { "en": "Are you still working at ___?", "zh": "你還在 ___ 工作嗎？" },
+      { "en": "What have you been up to?", "zh": "你最近在忙什麼？", "note": "久別重逢必問" },
+      { "en": "I'm working on ___ right now.", "zh": "我現在正在做 ___。" },
+      { "en": "We need to catch up!", "zh": "我們要好好聊一下！" },
+      { "en": "Should I bring anything?", "zh": "需要我帶什麼嗎？", "note": "受邀去別人家時的禮貌問句" },
+      { "en": "What if we ___?", "zh": "如果我們 ___ 怎麼樣？", "note": "提議的輕鬆說法" },
+      { "en": "Thanks for having me!", "zh": "謝謝招待！", "note": "離開主人家時說" },
+      { "en": "We should do this more often.", "zh": "我們應該常常這樣聚。" }
+    ],
+    "chinglish": [
+      { "wrong": "I miss you so much, where did you go these years?", "right": "I've missed you! What have you been up to?", "why": "「這幾年你去哪了」直翻聽起來像在質問。母語者會用 What have you been up to? 輕鬆問近況。" },
+      { "wrong": "Welcome to my home party.", "right": "Welcome! Come on in.", "why": "home party 不是英文常用的說法。直接說 Come on in / Make yourself at home 就很自然。" },
+      { "wrong": "I will move to Singapore next month.", "right": "I'm moving to Singapore next month.", "why": "已經確定的搬家行程用現在進行式（複習第 9 單元）。" },
+      { "wrong": "Yesterday party is very fun.", "right": "The party yesterday was so much fun.", "why": "已經過去用 was；fun 是名詞，口語常說 so much fun / a lot of fun。" }
+    ]
+  },
+  "grammar": {
+    "id": "tense-review-basic",
+    "title": "時態總整理",
+    "oneLiner": "講話前先問自己：這件事是長期的、此刻的、已經結束的，還是還沒發生的？",
+    "whenToUse": [
+      "現在簡單式：身分、習慣、事實。I work for myself.",
+      "現在進行式：此刻、這陣子、已排定的未來。I'm working on a project. / I'm moving next month.",
+      "過去簡單式：已經結束的事。I left last year. / Almost everyone came.",
+      "be going to：已經打算好的事。I'm going to invite some people.",
+      "will：當下決定、提議、一般預測。I'll bring some wine. / He'll flake anyway.",
+      "問句和否定句別忘了助動詞：do / does / did 後面接原形。"
+    ],
+    "whyWeGetItWrong": "這一章的每個文法點，背後都是同一個問題：中文動詞不用變化，時間靠「昨天、正在、要、了」來標示。英文把時間資訊塞進動詞本身，所以每說一句話，腦中都得先確認時間軸。這需要練習，不是理解了就會。多開口，錯了再修正就好。",
+    "examples": [
+      { "correct": "I left the agency last year, and now I work for myself.", "incorrect": "I leave the agency last year, and now I am work for myself.", "note": "過去的事用過去式；現在的身分用簡單式。" },
+      { "correct": "I'm working on a big project this month.", "note": "這陣子正在做的事用進行式。" },
+      { "correct": "Kevin is moving to Singapore next month.", "incorrect": "Kevin will move to Singapore next month.", "note": "已經確定的行程用進行式比較自然。" },
+      { "correct": "A: We need drinks. B: I'll grab some.", "note": "當下的決定用 will。" },
+      { "correct": "Did you have fun last night?", "incorrect": "Did you had fun last night?", "note": "did 後面接原形。" }
+    ],
+    "quiz": [
+      { "id": "u010-g1", "type": "mcq", "question": "I ___ at an agency for three years, but I quit last year.", "options": ["work", "worked", "am working"], "answer": 1, "explanation": "已經結束的事用過去式。" },
+      { "id": "u010-g2", "type": "mcq", "question": "Right now I ___ on a logo for a tea shop.", "options": ["work", "'m working", "worked"], "answer": 1, "explanation": "此刻或這陣子正在做的事用進行式。" },
+      { "id": "u010-g3", "type": "fill", "question": "We ___ (fly) to Tokyo next Friday. The tickets are already booked.", "answer": "are flying|'re flying", "explanation": "已經訂好的行程用現在進行式。" },
+      { "id": "u010-g4", "type": "mcq", "question": "A: The ice is almost gone. B: No problem, I ___ buy more.", "options": ["'ll", "'m going to", "am buying"], "answer": 0, "explanation": "當下決定的事用 will。" },
+      { "id": "u010-g5", "type": "fill", "question": "___ you go to Kevin's party last Saturday?", "answer": "Did", "explanation": "過去式問句用 Did。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "a-blast",
+      "term": "a blast",
+      "meaning": "超好玩、玩得很盡興",
+      "register": "casual",
+      "usage": "It was a blast! / We had a blast. 比 very fun 強烈又自然。",
+      "risk": { "level": "safe", "note": "正面詞，跟同事主管說也沒問題。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Thanks for inviting me. I had a blast!", "zh": "謝謝邀請，我玩得超開心！" },
+        { "en": "The company trip was a blast this year.", "zh": "今年的員工旅遊超好玩。" }
+      ]
+    },
+    {
+      "id": "catch-up",
+      "term": "catch up",
+      "meaning": "敘舊、聊近況",
+      "register": "neutral",
+      "usage": "跟一陣子沒見的人更新彼此近況。We should catch up! / Let's grab coffee and catch up.",
+      "risk": { "level": "safe", "note": "工作上也常用：Let's catch up next week（下週來對一下進度）。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "It's been forever! Let's get dinner and catch up.", "zh": "超久不見了！一起吃晚餐聊聊吧。" },
+        { "en": "We spent the whole afternoon catching up.", "zh": "我們整個下午都在敘舊。" }
+      ]
+    },
+    {
+      "id": "long-time-no-see",
+      "term": "long time no see",
+      "meaning": "好久不見",
+      "register": "casual",
+      "usage": "久別重逢的招呼。有趣的是，這句據說源自中文「好久不見」的洋涇濱英文直翻，後來被英文母語者廣泛接受。",
+      "risk": { "level": "safe", "note": "朋友間很自然；正式場合用 It's been a long time / It's great to see you again。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Hey, long time no see! How've you been?", "zh": "嘿，好久不見！最近好嗎？" },
+        { "en": "Long time no see! You look great.", "zh": "好久不見！你氣色很好。" }
+      ]
+    },
+    {
+      "id": "byob",
+      "term": "BYOB",
+      "meaning": "酒水自備（Bring Your Own Bottle / Booze）",
+      "register": "casual",
+      "usage": "派對邀請或餐廳說明上常看到，意思是主人不提供酒，客人自己帶。唸法是四個字母 B-Y-O-B。",
+      "risk": { "level": "safe", "note": "寫在邀請裡很正常。有些餐廳會收 corkage fee（開瓶費）。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Party at my place on Saturday. It's BYOB!", "zh": "週六在我家開派對，酒水自備！" },
+        { "en": "That restaurant is BYOB, so let's pick up some wine on the way.", "zh": "那間餐廳可以自帶酒，我們路上去買瓶紅酒吧。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u010-r1", "sourceUnit": 9, "type": "mcq", "question": "Sorry, I can't come on Friday. I ___ my parents for dinner.", "options": ["will meet", "'m meeting", "meet"], "answer": 1, "explanation": "複習第 9 單元：已排定的行程用進行式。" },
+    { "id": "u010-r2", "sourceUnit": 9, "type": "fill", "question": "I don't know what time I'll finish, so let's play it by ___.", "answer": "ear", "explanation": "複習第 9 單元：play it by ear = 到時候再看。" },
+    { "id": "u010-r3", "sourceUnit": 8, "type": "mcq", "question": "I can't come to work. I ___ a fever.", "options": ["am", "have", "feel"], "answer": 1, "explanation": "複習第 8 單元：have a fever。" },
+    { "id": "u010-r4", "sourceUnit": 6, "type": "mcq", "question": "There aren't ___ good cafés around here.", "options": ["much", "many", "a little"], "answer": 1, "explanation": "複習第 6 單元：café 可數，用 many。" },
+    { "id": "u010-r5", "sourceUnit": 4, "type": "fill", "question": "We ___ (hang) out at the beach all afternoon.", "answer": "hung", "explanation": "複習第 4 單元：hang out → hung out。" },
+    { "id": "u010-r6", "sourceUnit": 3, "type": "mcq", "question": "I'm ___ a taxi, be there in five!", "options": ["in", "on", "at"], "answer": 0, "explanation": "複習第 3 單元：計程車用 in。" },
+    { "id": "u010-r7", "sourceUnit": 2, "type": "fill", "question": "A: Want a bag? B: I'm ___, thanks.", "answer": "good", "explanation": "複習第 2 單元：I'm good = 不用了。" },
+    { "id": "u010-r8", "sourceUnit": 10, "type": "mcq", "question": "Your friend says the party is BYOB. What should you do?", "options": ["Bring your own drinks.", "Bring your own boyfriend.", "Pay at the door."], "answer": 0, "explanation": "BYOB = 酒水自備。" }
+  ]
+}

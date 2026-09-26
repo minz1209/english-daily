@@ -1,0 +1,159 @@
+{
+  "id": 5,
+  "module": 1,
+  "level": "B1",
+  "title": { "zh": "餐廳點餐", "en": "Eating Out" },
+  "scenario": {
+    "title": "跟朋友去餐廳吃飯",
+    "context": "從入座、看菜單、問推薦、點菜到結帳，一頓飯裡會用到大量「數得出來」和「數不出來」的東西：幾盤菜、一些水、一點醬。some / any 用對，點起菜來就很自然。",
+    "dialogues": [
+      {
+        "title": "Getting a table and ordering",
+        "lines": [
+          { "speaker": "Host", "en": "Hi, how many?", "zh": "嗨，幾位？" },
+          { "speaker": "Minz", "en": "Two, please. Do you have any tables by the window?", "zh": "兩位。有靠窗的位子嗎？" },
+          { "speaker": "Host", "en": "Let me check. Yes, right this way.", "zh": "我看一下。有的，這邊請。" },
+          { "speaker": "Server", "en": "Can I get you something to drink while you look at the menu?", "zh": "看菜單的時候要先點飲料嗎？" },
+          { "speaker": "Jess", "en": "Could we just get some water for now?", "zh": "可以先給我們一些水嗎？" },
+          { "speaker": "Server", "en": "Sure. Still or sparkling?", "zh": "好。一般的還是氣泡水？" },
+          { "speaker": "Jess", "en": "Still is fine, thanks.", "zh": "一般的就好，謝謝。" },
+          { "speaker": "Minz", "en": "Oh my god, I'm starving. Everything looks good.", "zh": "天啊我好餓，每道看起來都好好吃。" },
+          { "speaker": "Jess", "en": "Let's ask what they recommend.", "zh": "問問看他們推薦什麼吧。" }
+        ]
+      },
+      {
+        "title": "Asking for recommendations",
+        "lines": [
+          { "speaker": "Minz", "en": "Excuse me, what do you recommend? It's our first time here.", "zh": "不好意思，你推薦什麼？我們第一次來。" },
+          { "speaker": "Server", "en": "The braised pork rice is our most popular dish. And the three-cup chicken is to die for.", "zh": "滷肉飯是我們最受歡迎的。三杯雞也超級好吃。" },
+          { "speaker": "Minz", "en": "Great, we'll have both. Does the chicken have any peanuts in it? My friend is allergic.", "zh": "好，兩個都要。三杯雞裡有花生嗎？我朋友會過敏。" },
+          { "speaker": "Server", "en": "No peanuts, but there's some sesame oil.", "zh": "沒有花生，但有一些麻油。" },
+          { "speaker": "Jess", "en": "Sesame's fine. Could we also get some vegetables? Maybe the stir-fried greens?", "zh": "芝麻沒問題。可以再加點青菜嗎？炒青菜好了。" },
+          { "speaker": "Server", "en": "Sure. Would you like any rice with that?", "zh": "好的。要搭白飯嗎？" },
+          { "speaker": "Minz", "en": "Two bowls, please.", "zh": "兩碗，謝謝。" }
+        ]
+      },
+      {
+        "title": "Paying the bill",
+        "lines": [
+          { "speaker": "Jess", "en": "That was amazing. I totally pigged out.", "zh": "太好吃了。我整個吃爆。" },
+          { "speaker": "Minz", "en": "Me too. Excuse me, could we get the check, please?", "zh": "我也是。不好意思，可以買單嗎？" },
+          { "speaker": "Jess", "en": "Let's split it.", "zh": "我們分攤吧。" },
+          { "speaker": "Minz", "en": "No, no, this is my treat. You paid last time.", "zh": "不用啦，這次我請。上次是你付的。" },
+          { "speaker": "Jess", "en": "Are you sure? Thanks! Next one's on me, then.", "zh": "你確定嗎？謝啦！那下次換我請。" },
+          { "speaker": "Minz", "en": "Deal.", "zh": "成交。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "Do you have any tables for two?", "zh": "有兩人的位子嗎？" },
+      { "en": "What do you recommend?", "zh": "你推薦什麼？" },
+      { "en": "Does this have any ___ in it?", "zh": "這個裡面有 ___ 嗎？", "note": "問食材、過敏原的必備句" },
+      { "en": "I'm allergic to ___.", "zh": "我對 ___ 過敏。" },
+      { "en": "Could we get some more napkins?", "zh": "可以再給我們一些紙巾嗎？" },
+      { "en": "Can I get this without ___?", "zh": "這道可以不要加 ___ 嗎？", "note": "例：without cilantro（不要香菜）" },
+      { "en": "Could we get the check, please?", "zh": "可以買單嗎？", "note": "美式 check，英式 bill" },
+      { "en": "Let's split it.", "zh": "我們分攤吧。" },
+      { "en": "Next one's on me.", "zh": "下次我請。" },
+      { "en": "We'll have both.", "zh": "兩個都要。" }
+    ],
+    "chinglish": [
+      { "wrong": "Can I have a water?", "right": "Can I have some water? / Can I have a glass of water?", "why": "water 不可數，前面不能直接加 a。要嘛用 some，要嘛用容器（a glass of / a bottle of）。" },
+      { "wrong": "This restaurant's foods are very delicious.", "right": "The food here is really good.", "why": "food 一般當不可數名詞，不加 s。very delicious 也有點誇張，母語者更常說 really good / amazing。" },
+      { "wrong": "I'm very hungry, I want to eat many food.", "right": "I'm starving. I could eat a lot.", "why": "food 不可數，不能用 many。a lot 最保險，可數不可數都能用。" },
+      { "wrong": "Buy the bill.", "right": "Could we get the check / bill, please?", "why": "「買單」是中文特有的說法，英文沒有 buy the bill。" }
+    ]
+  },
+  "grammar": {
+    "id": "countable-uncountable-some-any",
+    "title": "可數／不可數＋some / any",
+    "oneLiner": "可數名詞要加 a 或變複數；不可數名詞不加 a、不加 s。some 用在肯定句和請求，any 用在否定句和一般問句。",
+    "whenToUse": [
+      "可數名詞：可以一個一個數的東西。a dish, two bowls, some peanuts。",
+      "不可數名詞：液體、材料、抽象概念。water, rice, food, oil, advice, information。要計數就加容器或單位：a bowl of rice, a glass of water, a piece of advice。",
+      "some：肯定句，以及「請求或提供東西」的問句。Could we get some water? / Would you like some tea?",
+      "any：否定句和一般的是非問句。We don't have any tables. / Does it have any peanuts?"
+    ],
+    "whyWeGetItWrong": "中文名詞沒有單複數，也沒有可數不可數的概念，「一碗飯」「一些水」「很多食物」的邏輯全靠量詞。所以台灣人常把 a 加在不可數名詞前面（a water），或把不可數名詞加 s（foods, advices）。some / any 的差別也常被教成「肯定用 some、疑問用 any」，但點餐、請求時的問句其實要用 some，因為你預期對方會說 yes。",
+    "examples": [
+      { "correct": "Could we get some water?", "incorrect": "Could we get any water?", "note": "請求東西時用 some，因為你預期答案是 yes。" },
+      { "correct": "Does this soup have any meat in it?", "note": "真的不確定、在詢問有沒有時用 any。" },
+      { "correct": "We don't have any tables right now.", "incorrect": "We don't have some tables right now.", "note": "否定句用 any。" },
+      { "correct": "Can I get a bowl of rice?", "incorrect": "Can I get a rice?", "note": "rice 不可數，要加 a bowl of。" },
+      { "correct": "Can you give me some advice?", "incorrect": "Can you give me some advices?", "note": "advice 不可數，永遠不加 s。" }
+    ],
+    "quiz": [
+      { "id": "u005-g1", "type": "mcq", "question": "Could I have ___ water, please?", "options": ["a", "some", "any"], "answer": 1, "explanation": "water 不可數，請求時用 some。" },
+      { "id": "u005-g2", "type": "mcq", "question": "Sorry, we don't have ___ vegetarian options today.", "options": ["some", "any", "a"], "answer": 1, "explanation": "否定句用 any。" },
+      { "id": "u005-g3", "type": "fill", "question": "Does this dish have ___ nuts in it? I'm allergic.", "answer": "any", "explanation": "真的在問「有沒有」的一般問句用 any。" },
+      { "id": "u005-g4", "type": "mcq", "question": "Which is correct?", "options": ["The foods here are great.", "The food here is great.", "The food here are great."], "answer": 1, "explanation": "food 一般當不可數，搭配單數動詞 is。" },
+      { "id": "u005-g5", "type": "mcq", "question": "Would you like ___ more tea?", "options": ["any", "some", "a"], "answer": 1, "explanation": "提供東西給對方時用 some。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "im-starving",
+      "term": "I'm starving",
+      "meaning": "我快餓死了（誇張地說很餓）",
+      "register": "casual",
+      "usage": "日常誇飾，比 I'm very hungry 自然很多。也可以說 I'm famished（比較正式）。",
+      "risk": { "level": "safe", "note": "任何場合都能說，只是不要在談論真正的飢荒時用。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "I skipped lunch, so I'm starving.", "zh": "我沒吃午餐，餓扁了。" },
+        { "en": "Can we eat first? I'm starving.", "zh": "可以先吃飯嗎？我快餓死了。" }
+      ]
+    },
+    {
+      "id": "to-die-for",
+      "term": "to die for",
+      "meaning": "好吃／好到不行",
+      "register": "casual",
+      "usage": "放在名詞後面，形容食物或東西好到值得為它而死（誇飾）。",
+      "risk": { "level": "safe", "note": "語氣熱情，偏生活化；工作簡報裡少用。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Their mango shaved ice is to die for.", "zh": "他們的芒果冰好吃到不行。" },
+        { "en": "She has a view to die for from her balcony.", "zh": "她陽台的景色美到犯規。" }
+      ]
+    },
+    {
+      "id": "pig-out",
+      "term": "pig out",
+      "meaning": "大吃特吃、吃到撐",
+      "register": "very-casual",
+      "usage": "描述自己吃太多，帶點自嘲。pig out on + 食物。",
+      "risk": { "level": "careful", "note": "說自己沒問題；說別人 He's pigging out 可能讓人覺得被說胖或吃相差，避免用在別人身上。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "We pigged out on hot pot last night.", "zh": "我們昨晚火鍋吃到爆。" },
+        { "en": "I always pig out when I'm stressed.", "zh": "我一壓力大就狂吃。" }
+      ]
+    },
+    {
+      "id": "my-treat",
+      "term": "my treat",
+      "meaning": "我請客",
+      "register": "neutral",
+      "usage": "要請客時說 It's my treat / This is my treat。另一個常見說法是 It's on me。",
+      "risk": { "level": "safe", "note": "跟同事、朋友、客戶都能用。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Put your wallet away. It's my treat.", "zh": "錢包收起來，我請。" },
+        { "en": "Let's grab dinner to celebrate. My treat!", "zh": "去吃晚餐慶祝吧，我請客！" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u005-r1", "sourceUnit": 4, "type": "mcq", "question": "Which is correct?", "options": ["I didn't ate breakfast.", "I didn't eat breakfast.", "I not eat breakfast."], "answer": 1, "explanation": "複習第 4 單元：didn't + 原形。" },
+    { "id": "u005-r2", "sourceUnit": 4, "type": "fill", "question": "After moving all the boxes, I was completely wiped ___.", "answer": "out", "explanation": "複習第 4 單元：wiped out = 累癱。" },
+    { "id": "u005-r3", "sourceUnit": 3, "type": "mcq", "question": "The restaurant is ___ the second floor.", "options": ["in", "on", "at"], "answer": 1, "explanation": "複習第 3 單元：樓層用 on。" },
+    { "id": "u005-r4", "sourceUnit": 1, "type": "mcq", "question": "I ___ at my cousin's place until I find an apartment.", "options": ["stay", "'m staying", "am stay"], "answer": 1, "explanation": "複習第 1 單元：暫時狀態用進行式。" },
+    { "id": "u005-r5", "sourceUnit": 5, "type": "fill", "question": "Put your card away. It's my ___.", "answer": "treat", "explanation": "It's my treat = 我請客。" },
+    { "id": "u005-r6", "sourceUnit": 5, "type": "mcq", "question": "Can I get ___, please?", "options": ["a rice", "a bowl of rice", "rices"], "answer": 1, "explanation": "rice 不可數，要用 a bowl of。" }
+  ]
+}

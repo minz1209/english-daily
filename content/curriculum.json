@@ -1,0 +1,1850 @@
+{
+  "version": 1,
+  "modules": [
+    {
+      "id": 1,
+      "title": "日常起手式",
+      "level": "B1"
+    },
+    {
+      "id": 2,
+      "title": "生活與人際",
+      "level": "B1"
+    },
+    {
+      "id": 3,
+      "title": "工作起步",
+      "level": "B1+"
+    },
+    {
+      "id": 4,
+      "title": "社交深入",
+      "level": "B1+"
+    },
+    {
+      "id": 5,
+      "title": "旅行與服務",
+      "level": "B2-"
+    },
+    {
+      "id": 6,
+      "title": "職場進階",
+      "level": "B2-"
+    },
+    {
+      "id": 7,
+      "title": "觀點與討論",
+      "level": "B2"
+    },
+    {
+      "id": 8,
+      "title": "細膩表達",
+      "level": "B2"
+    },
+    {
+      "id": 9,
+      "title": "自然流利",
+      "level": "B2"
+    }
+  ],
+  "units": [
+    {
+      "id": 1,
+      "module": 1,
+      "level": "B1",
+      "title": {
+        "zh": "認識新朋友",
+        "en": "Meeting New People"
+      },
+      "scenario": "認識新朋友",
+      "grammar": {
+        "id": "present-simple-vs-continuous",
+        "title": "現在簡單式 vs 現在進行式"
+      },
+      "slang": [
+        "What's up?",
+        "How's it going?",
+        "Not much",
+        "No worries"
+      ]
+    },
+    {
+      "id": 2,
+      "module": 1,
+      "level": "B1",
+      "title": {
+        "zh": "點咖啡",
+        "en": "Ordering Coffee"
+      },
+      "scenario": "點咖啡",
+      "grammar": {
+        "id": "polite-requests-can-i-get",
+        "title": "禮貌點餐：Can I get / I'll have"
+      },
+      "slang": [
+        "I'm good",
+        "You bet",
+        "to go",
+        "a cuppa"
+      ]
+    },
+    {
+      "id": 3,
+      "module": 1,
+      "level": "B1",
+      "title": {
+        "zh": "問路搭捷運",
+        "en": "Getting Around by MRT"
+      },
+      "scenario": "問路搭捷運",
+      "grammar": {
+        "id": "prepositions-of-place",
+        "title": "地點介系詞 in / on / at"
+      },
+      "slang": [
+        "hang a left",
+        "You can't miss it",
+        "a stone's throw"
+      ]
+    },
+    {
+      "id": 4,
+      "module": 1,
+      "level": "B1",
+      "title": {
+        "zh": "聊週末",
+        "en": "Talking About the Weekend"
+      },
+      "scenario": "聊週末",
+      "grammar": {
+        "id": "past-simple-irregular",
+        "title": "過去簡單式＋不規則動詞"
+      },
+      "slang": [
+        "chill",
+        "hang out",
+        "wiped out",
+        "sleep in"
+      ]
+    },
+    {
+      "id": 5,
+      "module": 1,
+      "level": "B1",
+      "title": {
+        "zh": "餐廳點餐",
+        "en": "Eating Out"
+      },
+      "scenario": "餐廳點餐",
+      "grammar": {
+        "id": "countable-uncountable-some-any",
+        "title": "可數／不可數＋some / any"
+      },
+      "slang": [
+        "I'm starving",
+        "to die for",
+        "pig out",
+        "my treat"
+      ]
+    },
+    {
+      "id": 6,
+      "module": 1,
+      "level": "B1",
+      "title": {
+        "zh": "逛街購物",
+        "en": "Going Shopping"
+      },
+      "scenario": "逛街購物",
+      "grammar": {
+        "id": "quantifiers-much-many-few-little",
+        "title": "much / many / a few / a little"
+      },
+      "slang": [
+        "a steal",
+        "a rip-off",
+        "window-shopping",
+        "shop till you drop"
+      ]
+    },
+    {
+      "id": 7,
+      "module": 1,
+      "level": "B1",
+      "title": {
+        "zh": "天氣閒聊",
+        "en": "Weather Small Talk"
+      },
+      "scenario": "天氣閒聊",
+      "grammar": {
+        "id": "dummy-subject-it",
+        "title": "虛主詞 It（天氣、時間、距離）"
+      },
+      "slang": [
+        "It's freezing",
+        "a scorcher",
+        "It's pouring",
+        "muggy"
+      ]
+    },
+    {
+      "id": 8,
+      "module": 1,
+      "level": "B1",
+      "title": {
+        "zh": "身體不舒服",
+        "en": "Feeling Unwell"
+      },
+      "scenario": "身體不舒服",
+      "grammar": {
+        "id": "symptoms-have-a-noun",
+        "title": "症狀表達：have a + 名詞"
+      },
+      "slang": [
+        "feel off",
+        "run-down",
+        "come down with",
+        "puke"
+      ]
+    },
+    {
+      "id": 9,
+      "module": 1,
+      "level": "B1",
+      "title": {
+        "zh": "傳訊息約朋友",
+        "en": "Making Plans by Text"
+      },
+      "scenario": "傳訊息約朋友",
+      "grammar": {
+        "id": "future-will-going-to-continuous",
+        "title": "未來：will / be going to / 現在進行式"
+      },
+      "slang": [
+        "down for",
+        "flake",
+        "bail",
+        "play it by ear"
+      ]
+    },
+    {
+      "id": 10,
+      "module": 1,
+      "level": "B1",
+      "title": {
+        "zh": "整合：週末聚會",
+        "en": "Review: A Weekend Get-Together"
+      },
+      "scenario": "週末聚會",
+      "grammar": {
+        "id": "tense-review-basic",
+        "title": "時態總整理"
+      },
+      "slang": [
+        "a blast",
+        "catch up",
+        "long time no see",
+        "BYOB"
+      ]
+    },
+    {
+      "id": 11,
+      "module": 2,
+      "level": "B1",
+      "title": {
+        "zh": "租屋看房",
+        "en": "Viewing an Apartment"
+      },
+      "scenario": "租屋看房",
+      "grammar": {
+        "id": "there-is-there-are",
+        "title": "There is / There are"
+      },
+      "slang": [
+        "roomie",
+        "a dump",
+        "a shoebox",
+        "a hassle"
+      ]
+    },
+    {
+      "id": 12,
+      "module": 2,
+      "level": "B1",
+      "title": {
+        "zh": "跟房東報修",
+        "en": "Reporting Problems to the Landlord"
+      },
+      "scenario": "跟房東報修",
+      "grammar": {
+        "id": "present-perfect-already-yet-just",
+        "title": "現在完成式入門 already / yet / just"
+      },
+      "slang": [
+        "act up",
+        "on the fritz",
+        "get around to",
+        "sort out"
+      ]
+    },
+    {
+      "id": 13,
+      "module": 2,
+      "level": "B1",
+      "title": {
+        "zh": "描述一個人",
+        "en": "Describing People"
+      },
+      "scenario": "描述一個人",
+      "grammar": {
+        "id": "ed-vs-ing-adjectives",
+        "title": "-ed / -ing 形容詞"
+      },
+      "slang": [
+        "down-to-earth",
+        "laid-back",
+        "a pain in the neck",
+        "nerd"
+      ]
+    },
+    {
+      "id": 14,
+      "module": 2,
+      "level": "B1",
+      "title": {
+        "zh": "聊興趣",
+        "en": "Hobbies and Interests"
+      },
+      "scenario": "聊興趣",
+      "grammar": {
+        "id": "gerund-vs-infinitive-1",
+        "title": "動名詞 vs 不定詞 I"
+      },
+      "slang": [
+        "be into",
+        "geek out",
+        "a buff",
+        "hooked on"
+      ]
+    },
+    {
+      "id": 15,
+      "module": 2,
+      "level": "B1",
+      "title": {
+        "zh": "上健身房",
+        "en": "At the Gym"
+      },
+      "scenario": "上健身房",
+      "grammar": {
+        "id": "frequency-adverb-position",
+        "title": "頻率副詞的位置"
+      },
+      "slang": [
+        "hit the gym",
+        "swole",
+        "no pain, no gain",
+        "beast mode"
+      ]
+    },
+    {
+      "id": 16,
+      "module": 2,
+      "level": "B1",
+      "title": {
+        "zh": "聊家人",
+        "en": "Talking About Family"
+      },
+      "scenario": "聊家人",
+      "grammar": {
+        "id": "possessives-family-terms",
+        "title": "所有格＋家族稱謂"
+      },
+      "slang": [
+        "folks",
+        "bro",
+        "sis",
+        "the black sheep"
+      ]
+    },
+    {
+      "id": 17,
+      "module": 2,
+      "level": "B1",
+      "title": {
+        "zh": "請病假",
+        "en": "Calling in Sick"
+      },
+      "scenario": "請病假",
+      "grammar": {
+        "id": "should-had-better-ought-to",
+        "title": "should / had better / ought to"
+      },
+      "slang": [
+        "call in sick",
+        "take it easy",
+        "a bug",
+        "play hooky"
+      ]
+    },
+    {
+      "id": 18,
+      "module": 2,
+      "level": "B1",
+      "title": {
+        "zh": "手機送修",
+        "en": "Getting Your Phone Fixed"
+      },
+      "scenario": "手機送修",
+      "grammar": {
+        "id": "passive-intro-broke-vs-was-broken",
+        "title": "被動入門：broke vs was broken"
+      },
+      "slang": [
+        "bricked",
+        "a lemon",
+        "dead",
+        "on its last legs"
+      ]
+    },
+    {
+      "id": 19,
+      "module": 2,
+      "level": "B1",
+      "title": {
+        "zh": "生日派對",
+        "en": "Birthday Party"
+      },
+      "scenario": "生日派對",
+      "grammar": {
+        "id": "exclamations-what-how",
+        "title": "感嘆句 What a… / How…"
+      },
+      "slang": [
+        "party animal",
+        "throw a party",
+        "crash a party",
+        "the life of the party"
+      ]
+    },
+    {
+      "id": 20,
+      "module": 2,
+      "level": "B1",
+      "title": {
+        "zh": "整合：幫忙搬家",
+        "en": "Review: Helping a Friend Move"
+      },
+      "scenario": "幫忙搬家",
+      "grammar": {
+        "id": "confusing-verbs-borrow-lend-bring-take-say-tell",
+        "title": "易混動詞 borrow/lend、bring/take、say/tell"
+      },
+      "slang": [
+        "give me a hand",
+        "no biggie",
+        "you're a lifesaver",
+        "owe you one"
+      ]
+    },
+    {
+      "id": 21,
+      "module": 3,
+      "level": "B1+",
+      "title": {
+        "zh": "上班第一天",
+        "en": "First Day at Work"
+      },
+      "scenario": "上班第一天",
+      "grammar": {
+        "id": "present-perfect-vs-past-for-since",
+        "title": "現在完成 vs 過去式＋for / since"
+      },
+      "slang": [
+        "newbie",
+        "show someone the ropes",
+        "team player",
+        "first-day jitters"
+      ]
+    },
+    {
+      "id": 22,
+      "module": 3,
+      "level": "B1+",
+      "title": {
+        "zh": "開會發言",
+        "en": "Speaking Up in Meetings"
+      },
+      "scenario": "開會發言",
+      "grammar": {
+        "id": "agree-disagree",
+        "title": "同意／不同意：I agree（不說 I'm agree）"
+      },
+      "slang": [
+        "on the same page",
+        "touch base",
+        "circle back",
+        "put a pin in it"
+      ]
+    },
+    {
+      "id": 23,
+      "module": 3,
+      "level": "B1+",
+      "title": {
+        "zh": "寫工作 email",
+        "en": "Writing Work Emails"
+      },
+      "scenario": "寫工作 email",
+      "grammar": {
+        "id": "would-you-mind-ving",
+        "title": "Would you mind + V-ing"
+      },
+      "slang": [
+        "ASAP",
+        "FYI",
+        "loop in",
+        "ping"
+      ]
+    },
+    {
+      "id": 24,
+      "module": 3,
+      "level": "B1+",
+      "title": {
+        "zh": "請同事幫忙",
+        "en": "Asking Coworkers for Help"
+      },
+      "scenario": "請同事幫忙",
+      "grammar": {
+        "id": "causative-make-let-have-get",
+        "title": "使役動詞 make / let / have / get"
+      },
+      "slang": [
+        "cover for",
+        "swamped",
+        "slammed",
+        "I've got your back"
+      ]
+    },
+    {
+      "id": 25,
+      "module": 3,
+      "level": "B1+",
+      "title": {
+        "zh": "視訊會議",
+        "en": "Video Calls"
+      },
+      "scenario": "視訊會議",
+      "grammar": {
+        "id": "phone-phrasal-verbs",
+        "title": "電話片語動詞 call back / hang up / hold on"
+      },
+      "slang": [
+        "hop on a call",
+        "you're breaking up",
+        "drop off",
+        "talk over each other"
+      ]
+    },
+    {
+      "id": 26,
+      "module": 3,
+      "level": "B1+",
+      "title": {
+        "zh": "回報進度",
+        "en": "Giving Status Updates"
+      },
+      "scenario": "回報進度",
+      "grammar": {
+        "id": "present-perfect-continuous",
+        "title": "現在完成進行式"
+      },
+      "slang": [
+        "on track",
+        "fall behind",
+        "in the weeds",
+        "behind the eight ball"
+      ]
+    },
+    {
+      "id": 27,
+      "module": 3,
+      "level": "B1+",
+      "title": {
+        "zh": "請主管核准",
+        "en": "Getting Approval"
+      },
+      "scenario": "請主管核准",
+      "grammar": {
+        "id": "indirect-questions",
+        "title": "間接問句"
+      },
+      "slang": [
+        "green light",
+        "sign off on",
+        "run it by",
+        "the higher-ups"
+      ]
+    },
+    {
+      "id": 28,
+      "module": 3,
+      "level": "B1+",
+      "title": {
+        "zh": "出包道歉",
+        "en": "Owning a Mistake"
+      },
+      "scenario": "出包道歉",
+      "grammar": {
+        "id": "past-continuous-when-while",
+        "title": "過去進行式＋when / while"
+      },
+      "slang": [
+        "my bad",
+        "drop the ball",
+        "mess up",
+        "screw up"
+      ]
+    },
+    {
+      "id": 29,
+      "module": 3,
+      "level": "B1+",
+      "title": {
+        "zh": "下班小聚",
+        "en": "After-Work Drinks"
+      },
+      "scenario": "下班小聚",
+      "grammar": {
+        "id": "tag-questions",
+        "title": "附加問句"
+      },
+      "slang": [
+        "grab a bite",
+        "happy hour",
+        "call it a night",
+        "let loose"
+      ]
+    },
+    {
+      "id": 30,
+      "module": 3,
+      "level": "B1+",
+      "title": {
+        "zh": "整合：績效面談",
+        "en": "Review: Performance Check-In"
+      },
+      "scenario": "績效面談",
+      "grammar": {
+        "id": "perfect-past-continuous-contrast",
+        "title": "完成／過去／完成進行 對照"
+      },
+      "slang": [
+        "pull your weight",
+        "go the extra mile",
+        "on the ball",
+        "step up"
+      ]
+    },
+    {
+      "id": 31,
+      "module": 4,
+      "level": "B1+",
+      "title": {
+        "zh": "交友軟體",
+        "en": "Dating Apps"
+      },
+      "scenario": "交友軟體",
+      "grammar": {
+        "id": "defining-relative-clauses",
+        "title": "限定關係子句 who / which / that"
+      },
+      "slang": [
+        "swipe right",
+        "ghost",
+        "hit it off",
+        "catfish"
+      ]
+    },
+    {
+      "id": 32,
+      "module": 4,
+      "level": "B1+",
+      "title": {
+        "zh": "聊劇",
+        "en": "Talking About Shows"
+      },
+      "scenario": "聊劇",
+      "grammar": {
+        "id": "past-perfect",
+        "title": "過去完成式"
+      },
+      "slang": [
+        "spoiler",
+        "binge-watch",
+        "plot twist",
+        "tearjerker"
+      ]
+    },
+    {
+      "id": 33,
+      "module": 4,
+      "level": "B1+",
+      "title": {
+        "zh": "聊音樂",
+        "en": "Talking About Music"
+      },
+      "scenario": "聊音樂",
+      "grammar": {
+        "id": "comparatives-superlatives",
+        "title": "比較級與最高級"
+      },
+      "slang": [
+        "banger",
+        "slaps",
+        "one-hit wonder",
+        "jam"
+      ]
+    },
+    {
+      "id": 34,
+      "module": 4,
+      "level": "B1+",
+      "title": {
+        "zh": "邀約與婉拒",
+        "en": "Invitations and Saying No"
+      },
+      "scenario": "邀約與婉拒",
+      "grammar": {
+        "id": "would-rather-prefer",
+        "title": "would rather / prefer A to B"
+      },
+      "slang": [
+        "rain check",
+        "I'll pass",
+        "not my thing",
+        "count me in"
+      ]
+    },
+    {
+      "id": 35,
+      "module": 4,
+      "level": "B1+",
+      "title": {
+        "zh": "聽朋友抱怨",
+        "en": "When a Friend Vents"
+      },
+      "scenario": "聽朋友抱怨",
+      "grammar": {
+        "id": "must-deduction-present",
+        "title": "must 推測現在：That must be…"
+      },
+      "slang": [
+        "vent",
+        "that sucks",
+        "rough day",
+        "hang in there"
+      ]
+    },
+    {
+      "id": 36,
+      "module": 4,
+      "level": "B1+",
+      "title": {
+        "zh": "聊八卦",
+        "en": "Gossip"
+      },
+      "scenario": "聊八卦",
+      "grammar": {
+        "id": "reported-speech-1",
+        "title": "間接引述 I：say / tell＋時態後退"
+      },
+      "slang": [
+        "spill the tea",
+        "juicy",
+        "word on the street",
+        "dish"
+      ]
+    },
+    {
+      "id": 37,
+      "module": 4,
+      "level": "B1+",
+      "title": {
+        "zh": "稱讚與回應",
+        "en": "Giving and Taking Compliments"
+      },
+      "scenario": "稱讚與回應",
+      "grammar": {
+        "id": "responding-to-compliments-so-such",
+        "title": "回應稱讚＋so / such"
+      },
+      "slang": [
+        "killing it",
+        "on point",
+        "nailed it",
+        "looking sharp"
+      ]
+    },
+    {
+      "id": 38,
+      "module": 4,
+      "level": "B1+",
+      "title": {
+        "zh": "聊寵物",
+        "en": "Talking About Pets"
+      },
+      "scenario": "聊寵物",
+      "grammar": {
+        "id": "pronouns-for-pets-reflexive",
+        "title": "寵物用 it 還是 he/she＋反身代名詞"
+      },
+      "slang": [
+        "fur baby",
+        "zoomies",
+        "doggo"
+      ]
+    },
+    {
+      "id": 39,
+      "module": 4,
+      "level": "B1+",
+      "title": {
+        "zh": "規劃旅行",
+        "en": "Planning a Trip"
+      },
+      "scenario": "規劃旅行",
+      "grammar": {
+        "id": "first-conditional",
+        "title": "條件句 type 1"
+      },
+      "slang": [
+        "off the beaten path",
+        "touristy",
+        "hit the road",
+        "travel light"
+      ]
+    },
+    {
+      "id": 40,
+      "module": 4,
+      "level": "B1+",
+      "title": {
+        "zh": "整合：朋友婚禮",
+        "en": "Review: A Friend's Wedding"
+      },
+      "scenario": "朋友婚禮",
+      "grammar": {
+        "id": "review-comparison-relative-conditional",
+        "title": "比較、關係子句、條件句"
+      },
+      "slang": [
+        "tie the knot",
+        "plus-one",
+        "cold feet",
+        "pop the question"
+      ]
+    },
+    {
+      "id": 41,
+      "module": 5,
+      "level": "B2-",
+      "title": {
+        "zh": "機場報到",
+        "en": "Checking In at the Airport"
+      },
+      "scenario": "機場報到",
+      "grammar": {
+        "id": "travel-phrasal-verbs",
+        "title": "片語動詞 check in / drop off / pick up"
+      },
+      "slang": [
+        "red-eye",
+        "cutting it close",
+        "jet-lagged",
+        "puddle-jumper"
+      ]
+    },
+    {
+      "id": 42,
+      "module": 5,
+      "level": "B2-",
+      "title": {
+        "zh": "飯店入住",
+        "en": "At the Hotel"
+      },
+      "scenario": "飯店入住",
+      "grammar": {
+        "id": "passive-get-perfect",
+        "title": "被動進階：get + p.p.／has been done"
+      },
+      "slang": [
+        "comp",
+        "a dive",
+        "swanky",
+        "ritzy"
+      ]
+    },
+    {
+      "id": 43,
+      "module": 5,
+      "level": "B2-",
+      "title": {
+        "zh": "餐廳客訴",
+        "en": "Complaining at a Restaurant"
+      },
+      "scenario": "餐廳客訴",
+      "grammar": {
+        "id": "there-seems-to-be",
+        "title": "There seems to be… / seem to V"
+      },
+      "slang": [
+        "on the house",
+        "hit the spot",
+        "not up to par",
+        "tourist trap"
+      ]
+    },
+    {
+      "id": 44,
+      "module": 5,
+      "level": "B2-",
+      "title": {
+        "zh": "請當地人推薦",
+        "en": "Asking Locals for Tips"
+      },
+      "scenario": "請當地人推薦",
+      "grammar": {
+        "id": "recommend-suggest-patterns",
+        "title": "recommend / suggest 正確句型"
+      },
+      "slang": [
+        "hidden gem",
+        "must-see",
+        "worth the hype",
+        "hole-in-the-wall"
+      ]
+    },
+    {
+      "id": 45,
+      "module": 5,
+      "level": "B2-",
+      "title": {
+        "zh": "租車自駕",
+        "en": "Renting a Car"
+      },
+      "scenario": "租車自駕",
+      "grammar": {
+        "id": "second-conditional",
+        "title": "條件句 type 2：If I were…"
+      },
+      "slang": [
+        "fender bender",
+        "call shotgun",
+        "gas guzzler",
+        "bumper-to-bumper"
+      ]
+    },
+    {
+      "id": 46,
+      "module": 5,
+      "level": "B2-",
+      "title": {
+        "zh": "東西不見了",
+        "en": "Losing Something"
+      },
+      "scenario": "東西不見了",
+      "grammar": {
+        "id": "modals-past-deduction",
+        "title": "推測過去 must / might / can't have"
+      },
+      "slang": [
+        "lose track of",
+        "freak out",
+        "keep your cool",
+        "turn up"
+      ]
+    },
+    {
+      "id": 47,
+      "module": 5,
+      "level": "B2-",
+      "title": {
+        "zh": "逛美術館",
+        "en": "At the Museum"
+      },
+      "scenario": "逛美術館",
+      "grammar": {
+        "id": "participle-clauses-intro",
+        "title": "分詞構句入門"
+      },
+      "slang": [
+        "not my cup of tea",
+        "blown away",
+        "artsy",
+        "over my head"
+      ]
+    },
+    {
+      "id": 48,
+      "module": 5,
+      "level": "B2-",
+      "title": {
+        "zh": "殺價買紀念品",
+        "en": "Haggling for Souvenirs"
+      },
+      "scenario": "殺價買紀念品",
+      "grammar": {
+        "id": "multiple-comparisons",
+        "title": "倍數比較 twice as… as"
+      },
+      "slang": [
+        "haggle",
+        "cheapskate",
+        "splash out",
+        "break the bank"
+      ]
+    },
+    {
+      "id": 49,
+      "module": 5,
+      "level": "B2-",
+      "title": {
+        "zh": "旅途出狀況",
+        "en": "When Things Go Wrong on a Trip"
+      },
+      "scenario": "旅途出狀況",
+      "grammar": {
+        "id": "should-have-regret",
+        "title": "should have + p.p. 表後悔"
+      },
+      "slang": [
+        "sick as a dog",
+        "out of it",
+        "on the mend",
+        "a close call"
+      ]
+    },
+    {
+      "id": 50,
+      "module": 5,
+      "level": "B2-",
+      "title": {
+        "zh": "整合：旅行分享",
+        "en": "Review: Trip Stories"
+      },
+      "scenario": "旅行分享",
+      "grammar": {
+        "id": "review-past-perfect-deduction-regret",
+        "title": "過去完成、推測、should have"
+      },
+      "slang": [
+        "once in a blue moon",
+        "bucket list",
+        "live it up",
+        "worth every penny"
+      ]
+    },
+    {
+      "id": 51,
+      "module": 6,
+      "level": "B2-",
+      "title": {
+        "zh": "面試",
+        "en": "Job Interview"
+      },
+      "scenario": "面試",
+      "grammar": {
+        "id": "describing-achievements",
+        "title": "描述成就：強動詞＋時態"
+      },
+      "slang": [
+        "hit the ground running",
+        "sell yourself",
+        "people person",
+        "wear many hats"
+      ]
+    },
+    {
+      "id": 52,
+      "module": 6,
+      "level": "B2-",
+      "title": {
+        "zh": "談薪水",
+        "en": "Negotiating Salary"
+      },
+      "scenario": "談薪水",
+      "grammar": {
+        "id": "probability-adverbs",
+        "title": "probably / likely / maybe 的位置與強度"
+      },
+      "slang": [
+        "ballpark",
+        "lowball",
+        "meet halfway",
+        "take-home pay"
+      ]
+    },
+    {
+      "id": 53,
+      "module": 6,
+      "level": "B2-",
+      "title": {
+        "zh": "做簡報",
+        "en": "Giving a Presentation"
+      },
+      "scenario": "做簡報",
+      "grammar": {
+        "id": "linkers-however-therefore",
+        "title": "連接詞 however / therefore"
+      },
+      "slang": [
+        "in a nutshell",
+        "the bottom line",
+        "the big picture",
+        "low-hanging fruit"
+      ]
+    },
+    {
+      "id": 54,
+      "module": 6,
+      "level": "B2-",
+      "title": {
+        "zh": "給回饋",
+        "en": "Giving Feedback"
+      },
+      "scenario": "給回饋",
+      "grammar": {
+        "id": "softening-language",
+        "title": "軟化語氣：You might want to…"
+      },
+      "slang": [
+        "sugarcoat",
+        "beat around the bush",
+        "cut to the chase",
+        "tough love"
+      ]
+    },
+    {
+      "id": 55,
+      "module": 6,
+      "level": "B2-",
+      "title": {
+        "zh": "跨部門協作",
+        "en": "Working Across Teams"
+      },
+      "scenario": "跨部門協作",
+      "grammar": {
+        "id": "work-phrasal-verbs",
+        "title": "片語動詞 follow up / figure out / work out"
+      },
+      "slang": [
+        "bandwidth",
+        "step on toes",
+        "on it",
+        "pass the buck"
+      ]
+    },
+    {
+      "id": 56,
+      "module": 6,
+      "level": "B2-",
+      "title": {
+        "zh": "趕死線",
+        "en": "Racing a Deadline"
+      },
+      "scenario": "趕死線",
+      "grammar": {
+        "id": "future-perfect",
+        "title": "未來完成式＋by"
+      },
+      "slang": [
+        "crunch time",
+        "down to the wire",
+        "pull an all-nighter",
+        "burn the midnight oil"
+      ]
+    },
+    {
+      "id": 57,
+      "module": 6,
+      "level": "B2-",
+      "title": {
+        "zh": "辦公室政治",
+        "en": "Office Politics"
+      },
+      "scenario": "辦公室政治",
+      "grammar": {
+        "id": "non-defining-relative-clauses",
+        "title": "非限定關係子句"
+      },
+      "slang": [
+        "throw under the bus",
+        "brown-noser",
+        "play favorites",
+        "the elephant in the room"
+      ]
+    },
+    {
+      "id": 58,
+      "module": 6,
+      "level": "B2-",
+      "title": {
+        "zh": "想離職",
+        "en": "Thinking of Quitting"
+      },
+      "scenario": "想離職",
+      "grammar": {
+        "id": "used-to-be-used-to-get-used-to",
+        "title": "used to / be used to / get used to"
+      },
+      "slang": [
+        "burnt out",
+        "jump ship",
+        "greener pastures",
+        "dead-end job"
+      ]
+    },
+    {
+      "id": 59,
+      "module": 6,
+      "level": "B2-",
+      "title": {
+        "zh": "斜槓接案",
+        "en": "Side Hustles"
+      },
+      "scenario": "斜槓接案",
+      "grammar": {
+        "id": "what-clauses",
+        "title": "名詞子句 What I need is…"
+      },
+      "slang": [
+        "side hustle",
+        "gig",
+        "hustle",
+        "be your own boss"
+      ]
+    },
+    {
+      "id": 60,
+      "module": 6,
+      "level": "B2-",
+      "title": {
+        "zh": "整合：尾牙",
+        "en": "Review: Year-End Party"
+      },
+      "scenario": "尾牙",
+      "grammar": {
+        "id": "review-used-to-linkers-softening",
+        "title": "used to、連接詞、軟化語氣"
+      },
+      "slang": [
+        "raise a glass",
+        "let your hair down",
+        "a good sport",
+        "on a roll"
+      ]
+    },
+    {
+      "id": 61,
+      "module": 7,
+      "level": "B2",
+      "title": {
+        "zh": "聊新聞",
+        "en": "Talking About the News"
+      },
+      "scenario": "聊新聞",
+      "grammar": {
+        "id": "passive-reporting",
+        "title": "It is said that / is reported to"
+      },
+      "slang": [
+        "clickbait",
+        "go viral",
+        "hot take",
+        "fake news"
+      ]
+    },
+    {
+      "id": 62,
+      "module": 7,
+      "level": "B2",
+      "title": {
+        "zh": "聊科技 AI",
+        "en": "Talking Tech and AI"
+      },
+      "scenario": "聊科技 AI",
+      "grammar": {
+        "id": "compound-adjectives",
+        "title": "複合形容詞 a two-hour meeting"
+      },
+      "slang": [
+        "game changer",
+        "techie",
+        "early adopter",
+        "buggy"
+      ]
+    },
+    {
+      "id": 63,
+      "module": 7,
+      "level": "B2",
+      "title": {
+        "zh": "贊成與反對",
+        "en": "Agreeing and Disagreeing"
+      },
+      "scenario": "贊成與反對",
+      "grammar": {
+        "id": "concession-even-though-despite",
+        "title": "讓步 even though / despite / in spite of"
+      },
+      "slang": [
+        "devil's advocate",
+        "fair point",
+        "agree to disagree",
+        "I hear you"
+      ]
+    },
+    {
+      "id": 64,
+      "module": 7,
+      "level": "B2",
+      "title": {
+        "zh": "環保議題",
+        "en": "Environmental Issues"
+      },
+      "scenario": "環保議題",
+      "grammar": {
+        "id": "third-conditional",
+        "title": "條件句 type 3"
+      },
+      "slang": [
+        "go green",
+        "greenwashing",
+        "a drop in the bucket",
+        "tree hugger"
+      ]
+    },
+    {
+      "id": 65,
+      "module": 7,
+      "level": "B2",
+      "title": {
+        "zh": "花錢與存錢",
+        "en": "Spending and Saving"
+      },
+      "scenario": "花錢與存錢",
+      "grammar": {
+        "id": "purpose-to-so-that",
+        "title": "目的 to / in order to / so that"
+      },
+      "slang": [
+        "broke",
+        "splurge",
+        "pinch pennies",
+        "money doesn't grow on trees"
+      ]
+    },
+    {
+      "id": 66,
+      "module": 7,
+      "level": "B2",
+      "title": {
+        "zh": "飲食習慣",
+        "en": "Eating Habits"
+      },
+      "scenario": "飲食習慣",
+      "grammar": {
+        "id": "articles-generic",
+        "title": "冠詞 a / the / 零冠詞"
+      },
+      "slang": [
+        "couch potato",
+        "cheat day",
+        "hangry",
+        "sweet tooth"
+      ]
+    },
+    {
+      "id": 67,
+      "module": 7,
+      "level": "B2",
+      "title": {
+        "zh": "社群媒體",
+        "en": "Social Media"
+      },
+      "scenario": "社群媒體",
+      "grammar": {
+        "id": "perception-verbs",
+        "title": "感官動詞 see / hear + V / V-ing"
+      },
+      "slang": [
+        "FOMO",
+        "lurk",
+        "flex",
+        "cancel"
+      ]
+    },
+    {
+      "id": 68,
+      "module": 7,
+      "level": "B2",
+      "title": {
+        "zh": "世代差異",
+        "en": "Generation Gaps"
+      },
+      "scenario": "世代差異",
+      "grammar": {
+        "id": "wish-if-only",
+        "title": "wish / if only"
+      },
+      "slang": [
+        "old school",
+        "back in the day",
+        "no cap",
+        "OK boomer"
+      ]
+    },
+    {
+      "id": 69,
+      "module": 7,
+      "level": "B2",
+      "title": {
+        "zh": "城市 vs 鄉下",
+        "en": "City vs. Countryside"
+      },
+      "scenario": "城市 vs 鄉下",
+      "grammar": {
+        "id": "the-more-the-more",
+        "title": "the more…, the more…"
+      },
+      "slang": [
+        "rat race",
+        "the middle of nowhere",
+        "concrete jungle",
+        "in the sticks"
+      ]
+    },
+    {
+      "id": 70,
+      "module": 7,
+      "level": "B2",
+      "title": {
+        "zh": "整合：深夜聊人生",
+        "en": "Review: Late-Night Life Talk"
+      },
+      "scenario": "深夜聊人生",
+      "grammar": {
+        "id": "review-wish-third-conditional-concession",
+        "title": "wish、type 3、讓步"
+      },
+      "slang": [
+        "heart-to-heart",
+        "at a crossroads",
+        "go with the flow",
+        "YOLO"
+      ]
+    },
+    {
+      "id": 71,
+      "module": 8,
+      "level": "B2",
+      "title": {
+        "zh": "婉拒同事請求",
+        "en": "Saying No at Work"
+      },
+      "scenario": "婉拒同事請求",
+      "grammar": {
+        "id": "verb-to-v-vs-ving-meaning",
+        "title": "remember / stop / try + to V vs V-ing"
+      },
+      "slang": [
+        "my plate is full",
+        "stretched thin",
+        "bite off more than you can chew",
+        "no can do"
+      ]
+    },
+    {
+      "id": 72,
+      "module": 8,
+      "level": "B2",
+      "title": {
+        "zh": "化解衝突",
+        "en": "Resolving Conflict"
+      },
+      "scenario": "化解衝突",
+      "grammar": {
+        "id": "cleft-sentences",
+        "title": "分裂句 It was… that / What I meant was…"
+      },
+      "slang": [
+        "clear the air",
+        "bury the hatchet",
+        "get off on the wrong foot",
+        "blow up"
+      ]
+    },
+    {
+      "id": 73,
+      "module": 8,
+      "level": "B2",
+      "title": {
+        "zh": "安慰失戀",
+        "en": "Comforting a Heartbroken Friend"
+      },
+      "scenario": "安慰失戀",
+      "grammar": {
+        "id": "suggestions-could-might-why-dont-you",
+        "title": "could / might / Why don't you 建議"
+      },
+      "slang": [
+        "plenty of fish in the sea",
+        "move on",
+        "dump",
+        "rebound"
+      ]
+    },
+    {
+      "id": 74,
+      "module": 8,
+      "level": "B2",
+      "title": {
+        "zh": "細膩的情緒",
+        "en": "Shades of Feeling"
+      },
+      "scenario": "細膩的情緒",
+      "grammar": {
+        "id": "degree-adverbs-quite-pretty-rather",
+        "title": "quite / pretty / rather / fairly"
+      },
+      "slang": [
+        "bummed",
+        "stoked",
+        "over the moon",
+        "on edge"
+      ]
+    },
+    {
+      "id": 75,
+      "module": 8,
+      "level": "B2",
+      "title": {
+        "zh": "玩笑與反話",
+        "en": "Jokes and Sarcasm"
+      },
+      "scenario": "玩笑與反話",
+      "grammar": {
+        "id": "negative-questions-yes-no",
+        "title": "否定疑問句的 Yes / No"
+      },
+      "slang": [
+        "pull someone's leg",
+        "JK",
+        "Yeah, right",
+        "roast"
+      ]
+    },
+    {
+      "id": 76,
+      "module": 8,
+      "level": "B2",
+      "title": {
+        "zh": "Small talk",
+        "en": "Small Talk"
+      },
+      "scenario": "Small talk",
+      "grammar": {
+        "id": "short-answers-so-neither",
+        "title": "簡答 So do I / Neither do I / Me neither"
+      },
+      "slang": [
+        "can't complain",
+        "same old, same old",
+        "you know how it is",
+        "keep me posted"
+      ]
+    },
+    {
+      "id": 77,
+      "module": 8,
+      "level": "B2",
+      "title": {
+        "zh": "去朋友家作客",
+        "en": "Visiting a Friend's Place"
+      },
+      "scenario": "去朋友家作客",
+      "grammar": {
+        "id": "imperatives-hospitality",
+        "title": "祈使句與客氣用語"
+      },
+      "slang": [
+        "make yourself at home",
+        "crash",
+        "potluck",
+        "overstay your welcome"
+      ]
+    },
+    {
+      "id": 78,
+      "module": 8,
+      "level": "B2",
+      "title": {
+        "zh": "抱怨鄰居",
+        "en": "Noisy Neighbors"
+      },
+      "scenario": "抱怨鄰居",
+      "grammar": {
+        "id": "always-continuous-complaints",
+        "title": "always＋進行式表不滿"
+      },
+      "slang": [
+        "drive someone up the wall",
+        "get on my nerves",
+        "cut it out",
+        "knock it off"
+      ]
+    },
+    {
+      "id": 79,
+      "module": 8,
+      "level": "B2",
+      "title": {
+        "zh": "說一個故事",
+        "en": "Telling a Story"
+      },
+      "scenario": "說一個故事",
+      "grammar": {
+        "id": "narrative-tenses-time-linkers",
+        "title": "敘事時態＋by the time / as soon as"
+      },
+      "slang": [
+        "long story short",
+        "out of the blue",
+        "you won't believe",
+        "the next thing I knew"
+      ]
+    },
+    {
+      "id": 80,
+      "module": 8,
+      "level": "B2",
+      "title": {
+        "zh": "整合：帶外國朋友吃熱炒",
+        "en": "Review: Taking Friends to a Rechao Place"
+      },
+      "scenario": "帶外國朋友吃熱炒",
+      "grammar": {
+        "id": "review-negative-questions-short-answers-degree",
+        "title": "否定疑問、簡答、程度副詞"
+      },
+      "slang": [
+        "bottoms up",
+        "tipsy",
+        "hangover",
+        "chug"
+      ]
+    },
+    {
+      "id": 81,
+      "module": 9,
+      "level": "B2",
+      "title": {
+        "zh": "職場閒聊進階",
+        "en": "Workplace Small Talk"
+      },
+      "scenario": "職場閒聊進階",
+      "grammar": {
+        "id": "inversion-not-only-never",
+        "title": "倒裝 Not only… / Never have I…"
+      },
+      "slang": [
+        "break the ice",
+        "small world",
+        "talk shop",
+        "water-cooler talk"
+      ]
+    },
+    {
+      "id": 82,
+      "module": 9,
+      "level": "B2",
+      "title": {
+        "zh": "外商視訊面試",
+        "en": "Remote Interview"
+      },
+      "scenario": "外商視訊面試",
+      "grammar": {
+        "id": "reduced-relative-clauses",
+        "title": "減化關係子句"
+      },
+      "slang": [
+        "land a job",
+        "a long shot",
+        "the real deal",
+        "rock star"
+      ]
+    },
+    {
+      "id": 83,
+      "module": 9,
+      "level": "B2",
+      "title": {
+        "zh": "醫病溝通",
+        "en": "Talking to Your Doctor"
+      },
+      "scenario": "醫病溝通",
+      "grammar": {
+        "id": "verb-object-to-infinitive",
+        "title": "advise / ask / tell sb to V"
+      },
+      "slang": [
+        "a clean bill of health",
+        "under the knife",
+        "doctor's orders",
+        "take a turn for the worse"
+      ]
+    },
+    {
+      "id": 84,
+      "module": 9,
+      "level": "B2",
+      "title": {
+        "zh": "公共議題",
+        "en": "Public Issues"
+      },
+      "scenario": "公共議題",
+      "grammar": {
+        "id": "subjunctive-its-crucial-that",
+        "title": "It's crucial that + 原形"
+      },
+      "slang": [
+        "hot-button issue",
+        "slippery slope",
+        "on the fence",
+        "a can of worms"
+      ]
+    },
+    {
+      "id": 85,
+      "module": 9,
+      "level": "B2",
+      "title": {
+        "zh": "爭取權益",
+        "en": "Standing Up for Yourself"
+      },
+      "scenario": "爭取權益",
+      "grammar": {
+        "id": "register-informal-neutral-formal",
+        "title": "語域：口語／中性／正式"
+      },
+      "slang": [
+        "get the runaround",
+        "the fine print",
+        "jump through hoops",
+        "red tape"
+      ]
+    },
+    {
+      "id": 86,
+      "module": 9,
+      "level": "B2",
+      "title": {
+        "zh": "看球賽",
+        "en": "Watching a Game"
+      },
+      "scenario": "看球賽",
+      "grammar": {
+        "id": "to-as-preposition",
+        "title": "to 當介系詞：look forward to + V-ing"
+      },
+      "slang": [
+        "underdog",
+        "clutch",
+        "choke",
+        "GOAT"
+      ]
+    },
+    {
+      "id": 87,
+      "module": 9,
+      "level": "B2",
+      "title": {
+        "zh": "介紹台灣節慶",
+        "en": "Explaining Taiwanese Festivals"
+      },
+      "scenario": "介紹台灣節慶",
+      "grammar": {
+        "id": "relative-adverbs-where-when-why",
+        "title": "關係副詞 where / when / why"
+      },
+      "slang": [
+        "ring in the new year",
+        "go all out",
+        "a far cry from",
+        "it's a thing"
+      ]
+    },
+    {
+      "id": 88,
+      "module": 9,
+      "level": "B2",
+      "title": {
+        "zh": "危機處理",
+        "en": "Handling a Crisis"
+      },
+      "scenario": "危機處理",
+      "grammar": {
+        "id": "mixed-conditionals",
+        "title": "混合條件句"
+      },
+      "slang": [
+        "damage control",
+        "put out fires",
+        "the last straw",
+        "the writing on the wall"
+      ]
+    },
+    {
+      "id": 89,
+      "module": 9,
+      "level": "B2",
+      "title": {
+        "zh": "帶新人",
+        "en": "Mentoring a New Hire"
+      },
+      "scenario": "帶新人",
+      "grammar": {
+        "id": "dependent-prepositions",
+        "title": "介系詞搭配 good at / responsible for / depend on"
+      },
+      "slang": [
+        "learn the hard way",
+        "rule of thumb",
+        "take it with a grain of salt",
+        "trial and error"
+      ]
+    },
+    {
+      "id": 90,
+      "module": 9,
+      "level": "B2",
+      "title": {
+        "zh": "整合：半年回顧",
+        "en": "Review: Six Months In"
+      },
+      "scenario": "半年回顧",
+      "grammar": {
+        "id": "review-all-conditionals",
+        "title": "假設語氣全系列"
+      },
+      "slang": [
+        "come a long way",
+        "the sky's the limit",
+        "onwards and upwards",
+        "pat yourself on the back"
+      ]
+    }
+  ]
+}

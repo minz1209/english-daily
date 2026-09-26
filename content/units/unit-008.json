@@ -1,0 +1,148 @@
+{
+  "id": 8,
+  "module": 1,
+  "level": "B1",
+  "title": { "zh": "身體不舒服", "en": "Feeling Unwell" },
+  "scenario": {
+    "title": "跟朋友說不舒服、到診所描述症狀",
+    "context": "生病時最需要講清楚，卻最容易卡住：頭痛、喉嚨痛、拉肚子、全身無力。英文描述症狀有很固定的句型，學會 have a + 名詞和 My ___ hurts，看醫生就不慌。",
+    "dialogues": [
+      {
+        "title": "Texting a friend",
+        "lines": [
+          { "speaker": "Jess", "en": "Hey, are we still on for dinner tonight?", "zh": "嘿，今晚吃飯還照約嗎？" },
+          { "speaker": "Minz", "en": "Ugh, I'm so sorry. I think I'm coming down with something.", "zh": "唉，真的很抱歉，我好像快生病了。" },
+          { "speaker": "Jess", "en": "Oh no! What's wrong?", "zh": "不會吧！怎麼了？" },
+          { "speaker": "Minz", "en": "I have a sore throat and a bit of a fever. I've felt off all day.", "zh": "喉嚨痛，還有點發燒。整天都怪怪的。" },
+          { "speaker": "Jess", "en": "You've been working way too much. You're probably run-down.", "zh": "你最近工作太多了，大概是累垮了。" },
+          { "speaker": "Minz", "en": "Probably. Can we do next week instead?", "zh": "應該是。我們改下週好嗎？" },
+          { "speaker": "Jess", "en": "Of course. Get some rest and drink lots of water!", "zh": "當然。好好休息，多喝水！" }
+        ]
+      },
+      {
+        "title": "At the clinic",
+        "lines": [
+          { "speaker": "Doctor", "en": "So, what seems to be the problem?", "zh": "所以，哪裡不舒服？" },
+          { "speaker": "Minz", "en": "I have a bad cough and a runny nose. And my whole body aches.", "zh": "我咳得很嚴重、流鼻水，全身痠痛。" },
+          { "speaker": "Doctor", "en": "How long have you had these symptoms?", "zh": "這些症狀多久了？" },
+          { "speaker": "Minz", "en": "About three days. The cough started first.", "zh": "大概三天。一開始是咳嗽。" },
+          { "speaker": "Doctor", "en": "Do you have a fever?", "zh": "有發燒嗎？" },
+          { "speaker": "Minz", "en": "I had a slight fever last night, around 38.", "zh": "昨晚有點發燒，大概 38 度。" },
+          { "speaker": "Doctor", "en": "Any nausea or vomiting?", "zh": "有想吐或嘔吐嗎？" },
+          { "speaker": "Minz", "en": "I felt a little sick to my stomach this morning, but I didn't throw up.", "zh": "今天早上有點反胃，但沒有吐。" },
+          { "speaker": "Doctor", "en": "OK. It looks like a viral infection. I'll give you something for the cough.", "zh": "好。看起來是病毒感染，我開止咳的藥給你。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "I have a headache / a sore throat / a fever.", "zh": "我頭痛／喉嚨痛／發燒。" },
+      { "en": "My back hurts.", "zh": "我背痛。", "note": "身體部位 + hurts" },
+      { "en": "I have a runny nose / a stuffy nose.", "zh": "我流鼻水／鼻塞。" },
+      { "en": "I feel dizzy.", "zh": "我頭暈。" },
+      { "en": "I feel sick to my stomach.", "zh": "我反胃、想吐。", "note": "美式 I feel sick 常常就是指想吐" },
+      { "en": "I have diarrhea.", "zh": "我拉肚子。", "note": "口語也說 I have an upset stomach（比較委婉）" },
+      { "en": "I think I'm coming down with something.", "zh": "我好像快生病了。" },
+      { "en": "How long have you had it?", "zh": "這樣多久了？" },
+      { "en": "Get some rest.", "zh": "好好休息。" },
+      { "en": "Feel better soon!", "zh": "早日康復！", "note": "比 Get well soon 更口語" }
+    ],
+    "chinglish": [
+      { "wrong": "My head is very pain.", "right": "I have a headache. / My head hurts.", "why": "pain 是名詞，不能當形容詞用。中文「我頭很痛」的結構直翻就會出錯，英文要用 have a headache 或 My head hurts。" },
+      { "wrong": "I catch a cold.", "right": "I caught a cold. / I have a cold.", "why": "感冒是已經發生的事，要用過去式 caught，或描述現在狀態 I have a cold。" },
+      { "wrong": "I feel uncomfortable.", "right": "I don't feel well. / I'm not feeling well.", "why": "uncomfortable 在英文裡多指「不自在、尷尬」或身體姿勢不舒服，生病說 I don't feel well 比較準確。" },
+      { "wrong": "I have a flu.", "right": "I have the flu.", "why": "流感習慣說 the flu；感冒則是 a cold。這是固定用法。" }
+    ]
+  },
+  "grammar": {
+    "id": "symptoms-have-a-noun",
+    "title": "症狀表達：have a + 名詞",
+    "oneLiner": "英文描述症狀多半是「擁有」一個病痛名詞：I have a headache，而不是「我的頭很痛苦」。",
+    "whenToUse": [
+      "have a + 症狀名詞：a headache, a stomachache, a sore throat, a fever, a cough, a cold, a runny nose。",
+      "身體部位 + hurt(s)：My back hurts. / My eyes hurt.",
+      "feel + 形容詞：I feel dizzy / tired / sick / weak.",
+      "特例：the flu（流感）用 the；diarrhea（腹瀉）不可數，不加 a。",
+      "已經好幾天了：I've had a cough for three days.（現在完成式，第 12、21 單元會詳細講）"
+    ],
+    "whyWeGetItWrong": "中文描述症狀多是「部位 + 痛」：頭痛、胃痛、喉嚨痛，動詞是「痛」。台灣人會很自然地想找一個對應「痛」的形容詞，結果造出 My head is pain。英文的思路是：你「擁有」一個叫 headache 的東西，或是某個部位「在痛」（hurts）。",
+    "examples": [
+      { "correct": "I have a terrible headache.", "incorrect": "My head is very pain.", "note": "pain 是名詞，改用 have a headache。" },
+      { "correct": "My stomach hurts.", "incorrect": "My stomach is hurt.", "note": "hurt 在這裡是動詞「痛」，不是被動。" },
+      { "correct": "I have a sore throat.", "incorrect": "My throat is painful.", "note": "喉嚨痛有固定說法：sore throat。" },
+      { "correct": "I've had a fever since last night.", "note": "從某時開始持續的症狀用現在完成式。" },
+      { "correct": "I feel dizzy when I stand up.", "incorrect": "I am dizzy feeling when I stand up.", "note": "feel + 形容詞。" }
+    ],
+    "quiz": [
+      { "id": "u008-g1", "type": "mcq", "question": "Which is correct?", "options": ["My head is pain.", "I have a headache.", "I have head pain very."], "answer": 1, "explanation": "頭痛 = have a headache。" },
+      { "id": "u008-g2", "type": "fill", "question": "I have a ___ throat. It hurts when I swallow.", "answer": "sore", "explanation": "喉嚨痛 = sore throat。" },
+      { "id": "u008-g3", "type": "mcq", "question": "My knee ___ when I walk up stairs.", "options": ["hurts", "is hurt", "pains"], "answer": 0, "explanation": "部位 + hurts。" },
+      { "id": "u008-g4", "type": "mcq", "question": "I can't come to work. I have ___ flu.", "options": ["a", "the", "some"], "answer": 1, "explanation": "流感習慣說 the flu。" },
+      { "id": "u008-g5", "type": "fill", "question": "I ___ dizzy. I think I need to sit down.", "answer": "feel|'m feeling|am feeling", "explanation": "feel + 形容詞（dizzy）。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "feel-off",
+      "term": "feel off",
+      "meaning": "覺得怪怪的、不太對勁",
+      "register": "casual",
+      "usage": "說不出哪裡不舒服，但就是狀況不好。也可以說 I feel a bit off today.",
+      "risk": { "level": "safe", "note": "跟同事說也很自然，請假時可以用來開頭。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "I've felt a bit off since lunch.", "zh": "午餐後我就覺得怪怪的。" },
+        { "en": "Something's off. I think I'm getting sick.", "zh": "有點不對勁，我好像要生病了。" }
+      ]
+    },
+    {
+      "id": "run-down",
+      "term": "run-down",
+      "meaning": "累垮了、身體虛",
+      "register": "casual",
+      "usage": "長期疲勞、壓力大導致身體變差，容易生病的狀態。",
+      "risk": { "level": "safe", "note": "也可以形容建築物「破舊」（a run-down building），看語境判斷。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "I've been feeling run-down since the deadline.", "zh": "趕完截稿之後我就一直很虛。" },
+        { "en": "You look run-down. Take a day off.", "zh": "你看起來很累，請一天假吧。" }
+      ]
+    },
+    {
+      "id": "come-down-with",
+      "term": "come down with",
+      "meaning": "染上（小病）、開始生病",
+      "register": "neutral",
+      "usage": "come down with + 病名，常用在感冒、流感剛開始時。I think I'm coming down with something.",
+      "risk": { "level": "safe", "note": "中性，跟主管請假也能用。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Half the office came down with the flu last week.", "zh": "上週辦公室有一半的人得了流感。" },
+        { "en": "I think I'm coming down with a cold.", "zh": "我好像感冒了。" }
+      ]
+    },
+    {
+      "id": "puke",
+      "term": "puke",
+      "meaning": "吐（嘔吐）",
+      "register": "very-casual",
+      "usage": "throw up / vomit 的粗俗口語版，朋友間說。",
+      "risk": { "level": "avoid-at-work", "note": "很直白，有點噁心的畫面感。看醫生說 vomit，跟同事說 throw up。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "That roller coaster almost made me puke.", "zh": "那個雲霄飛車差點讓我吐出來。" },
+        { "en": "He drank too much and puked in the taxi.", "zh": "他喝太多，在計程車上吐了。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u008-r1", "sourceUnit": 7, "type": "mcq", "question": "Which sentence is correct?", "options": ["Is raining again.", "It's raining again.", "Outside is raining again."], "answer": 1, "explanation": "複習第 7 單元：天氣用虛主詞 It。" },
+    { "id": "u008-r2", "sourceUnit": 6, "type": "fill", "question": "These shoes are a ___ too tight. Do you have a bigger size?", "answer": "little|bit", "explanation": "複習第 6 單元：a little too… = 有點太…" },
+    { "id": "u008-r3", "sourceUnit": 4, "type": "mcq", "question": "I ___ a cold last week, but I'm fine now.", "options": ["catch", "caught", "catched"], "answer": 1, "explanation": "複習第 4 單元：catch → caught。" },
+    { "id": "u008-r4", "sourceUnit": 8, "type": "fill", "question": "I think I'm coming ___ with something. My throat feels weird.", "answer": "down", "explanation": "come down with = 開始生病。" },
+    { "id": "u008-r5", "sourceUnit": 8, "type": "mcq", "question": "You're telling your boss you're sick. Which word should you AVOID?", "options": ["throw up", "puke", "feel sick"], "answer": 1, "explanation": "puke 很粗俗，職場避免。" }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "id": 3,
+  "module": 1,
+  "level": "B1",
+  "title": { "zh": "問路搭捷運", "en": "Getting Around by MRT" },
+  "scenario": {
+    "title": "問路、報路、在捷運站幫人",
+    "context": "在台北最常遇到的英文時刻，可能是觀光客拿著手機問你路。報路的英文其實只有幾個固定零件：方向、地標、距離，加上 in / on / at 用對，就能講得清清楚楚。",
+    "dialogues": [
+      {
+        "title": "A tourist at Zhongshan Station",
+        "lines": [
+          { "speaker": "Tourist", "en": "Excuse me, sorry to bother you. Do you know how to get to Dadaocheng Wharf?", "zh": "不好意思打擾一下，你知道大稻埕碼頭怎麼去嗎？" },
+          { "speaker": "Minz", "en": "Sure. It's about a fifteen-minute walk from here, or you can take the green line one stop to Beimen.", "zh": "知道。從這裡走大概十五分鐘，或者可以搭綠線坐一站到北門。" },
+          { "speaker": "Tourist", "en": "I think I'll walk. Which way do I go?", "zh": "我想我用走的。要往哪個方向？" },
+          { "speaker": "Minz", "en": "Go out Exit 5 and walk straight down Nanjing West Road.", "zh": "從五號出口出去，沿著南京西路直走。" },
+          { "speaker": "Minz", "en": "When you get to the end, hang a left and you'll see the river.", "zh": "走到底之後左轉，就會看到河了。" },
+          { "speaker": "Tourist", "en": "Great. Is there anywhere to eat around there?", "zh": "太好了。那附近有吃東西的地方嗎？" },
+          { "speaker": "Minz", "en": "Tons. There's a night market on the wharf in the evening. You can't miss it.", "zh": "超多。晚上碼頭上有夜市，一定會看到。" },
+          { "speaker": "Tourist", "en": "Thank you so much!", "zh": "非常謝謝你！" },
+          { "speaker": "Minz", "en": "No problem. Enjoy!", "zh": "不客氣，玩得開心！" }
+        ]
+      },
+      {
+        "title": "Meeting a friend at the station",
+        "lines": [
+          { "speaker": "Chris", "en": "Hey, I'm at the station. Where are you?", "zh": "嘿，我到車站了，你在哪？" },
+          { "speaker": "Minz", "en": "I'm on the platform, at the very end near the escalator.", "zh": "我在月台上，最尾端靠近手扶梯那邊。" },
+          { "speaker": "Chris", "en": "Which platform? There are two.", "zh": "哪一個月台？有兩個。" },
+          { "speaker": "Minz", "en": "The one going toward Tamsui. Actually, just wait at the ticket gates. I'll come to you.", "zh": "往淡水那邊的。算了，你在閘門等我，我過去找你。" },
+          { "speaker": "Chris", "en": "OK. I'm standing next to the convenience store.", "zh": "好，我站在便利商店旁邊。" },
+          { "speaker": "Minz", "en": "Got it. Be there in a sec.", "zh": "了解，馬上到。" },
+          { "speaker": "Chris", "en": "By the way, is the restaurant far from here?", "zh": "對了，餐廳離這邊遠嗎？" },
+          { "speaker": "Minz", "en": "Nope, it's a stone's throw away. It's on the second floor of the building across the street.", "zh": "不遠，就在旁邊而已。在對面那棟大樓的二樓。" }
+        ]
+      },
+      {
+        "title": "Giving directions on the phone",
+        "lines": [
+          { "speaker": "Delivery guy", "en": "Hi, I'm outside, but I can't find your building.", "zh": "嗨，我到外面了，但找不到你們大樓。" },
+          { "speaker": "Minz", "en": "Are you on Minsheng Road or in the alley?", "zh": "你在民生路上還是在巷子裡？" },
+          { "speaker": "Delivery guy", "en": "I'm on Minsheng Road, in front of a 7-Eleven.", "zh": "我在民生路上，一家 7-Eleven 前面。" },
+          { "speaker": "Minz", "en": "OK, walk past the 7-Eleven and turn right into Lane 20.", "zh": "好，經過 7-Eleven 之後右轉進 20 巷。" },
+          { "speaker": "Minz", "en": "We're the third building on the left, number 6. I'll come down now.", "zh": "我們是左手邊第三棟，6 號。我現在下去。" },
+          { "speaker": "Delivery guy", "en": "Perfect, see you in a minute.", "zh": "好，等等見。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "Excuse me, do you know how to get to ___?", "zh": "不好意思，你知道 ___ 怎麼去嗎？" },
+      { "en": "It's about a ten-minute walk from here.", "zh": "從這裡走大概十分鐘。", "note": "注意 ten-minute 不加 s（第 62 單元會詳細講複合形容詞）" },
+      { "en": "Take the blue line two stops to ___.", "zh": "搭藍線坐兩站到 ___。" },
+      { "en": "Go out Exit 2 and go straight.", "zh": "從二號出口出去直走。" },
+      { "en": "Turn left at the second traffic light.", "zh": "在第二個紅綠燈左轉。" },
+      { "en": "It's on your right, across from the bank.", "zh": "在你右手邊，銀行對面。" },
+      { "en": "Walk past ___ and you'll see it.", "zh": "經過 ___ 就會看到了。" },
+      { "en": "You need to transfer at ___.", "zh": "你要在 ___ 轉車。", "note": "transfer 也可以說 change lines" },
+      { "en": "I'm not from around here, sorry.", "zh": "抱歉，我不是這附近的人。", "note": "不知道路時的誠實回答" },
+      { "en": "Let me check on my phone.", "zh": "我用手機查一下。" }
+    ],
+    "chinglish": [
+      { "wrong": "Go straight and turn left, then turn right, then…", "right": "Go straight down this road. At the end, turn left. It's on your right.", "why": "中文習慣一口氣串很多指令。英文報路會切成短句，並加上地標和「做完這步會看到什麼」，對方比較記得住。" },
+      { "wrong": "The restaurant is in the second floor.", "right": "The restaurant is on the second floor.", "why": "樓層一律用 on。中文「在二樓」沒有介系詞之分，所以很多人都用 in。" },
+      { "wrong": "I'm at the MRT.", "right": "I'm at the MRT station. / I'm on the MRT.", "why": "MRT 指的是捷運系統或車廂。at the station 是在車站，on the MRT 是在車上。" },
+      { "wrong": "How to go to Taipei 101?", "right": "How do I get to Taipei 101?", "why": "How to go…? 是中文「怎麼去」的直翻，而且缺了主詞和助動詞。問路用 How do I get to…? 或 Do you know how to get to…?" }
+    ]
+  },
+  "grammar": {
+    "id": "prepositions-of-place",
+    "title": "地點介系詞 in / on / at",
+    "oneLiner": "at 是一個點，on 是一個面或一條線，in 是一個空間或區域。",
+    "whenToUse": [
+      "at：把地點當成一個「點」，特別是會面點、店家、車站。at the station, at the gate, at 7-Eleven, at the corner。",
+      "on：表面、樓層、道路、交通工具（可以站在裡面走動的）。on the platform, on the second floor, on Nanjing Road, on the MRT, on the bus。",
+      "in：被包起來的空間或區域。in the building, in the alley, in Taipei, in a taxi, in the car。",
+      "交通工具的規則：能站起來走的（bus, train, MRT, plane）用 on；只能坐著鑽進去的（car, taxi）用 in。"
+    ],
+    "whyWeGetItWrong": "中文的「在」一個字包辦所有地點，「在車站、在月台、在二樓、在台北、在公車上」全都一樣。所以台灣人的 in / on / at 常常靠感覺猜。與其死背，不如想像畫面：你要表達的是地圖上的一個點（at）、一個平面或一條線（on），還是一個被包住的空間（in）？",
+    "examples": [
+      { "correct": "Let's meet at the ticket gates.", "incorrect": "Let's meet in the ticket gates.", "note": "會面地點當成一個點，用 at。" },
+      { "correct": "I'm on the bus now.", "incorrect": "I'm in the bus now.", "note": "公車、捷運、火車、飛機用 on。" },
+      { "correct": "I'm in a taxi.", "incorrect": "I'm on a taxi.", "note": "計程車、汽車用 in。" },
+      { "correct": "Our office is on the 12th floor.", "incorrect": "Our office is in the 12th floor.", "note": "樓層用 on。" },
+      { "correct": "The café is on Yongkang Street, in Da'an District.", "note": "街道用 on，行政區、城市用 in。" },
+      { "correct": "She lives at 25 Lane 20, Minsheng Road.", "note": "完整門牌地址用 at（街名本身用 on）。" }
+    ],
+    "quiz": [
+      { "id": "u003-g1", "type": "mcq", "question": "I'll wait for you ___ Exit 3.", "options": ["in", "on", "at"], "answer": 2, "explanation": "會面點是一個點，用 at。" },
+      { "id": "u003-g2", "type": "mcq", "question": "Sorry, I'm running late. I'm still ___ the MRT.", "options": ["in", "on", "at"], "answer": 1, "explanation": "捷運、公車這類可以站著走動的交通工具用 on。" },
+      { "id": "u003-g3", "type": "fill", "question": "The clinic is ___ the third floor.", "answer": "on", "explanation": "樓層一律用 on。" },
+      { "id": "u003-g4", "type": "mcq", "question": "My hotel is ___ Xinyi District, near Taipei 101.", "options": ["in", "on", "at"], "answer": 0, "explanation": "區域、城市用 in。" },
+      { "id": "u003-g5", "type": "fill", "question": "I left my umbrella ___ the taxi!", "answer": "in", "explanation": "計程車、汽車用 in。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "hang-a-left",
+      "term": "hang a left",
+      "meaning": "左轉（hang a right = 右轉）",
+      "register": "casual",
+      "usage": "口語報路、開車時用，比 turn left 更輕鬆。",
+      "risk": { "level": "safe", "note": "口頭說沒問題；寫下來的正式路線說明用 turn left。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "Hang a left at the next light.", "zh": "下個紅綠燈左轉。" },
+        { "en": "Go past the park and hang a right. It's the blue building.", "zh": "經過公園之後右轉，就是那棟藍色大樓。" }
+      ]
+    },
+    {
+      "id": "you-cant-miss-it",
+      "term": "You can't miss it",
+      "meaning": "一定會看到／很好找",
+      "register": "neutral",
+      "usage": "報路最後加一句，表示那個地方很明顯。",
+      "risk": { "level": "safe", "note": "常被開玩笑，因為說完對方常常就錯過了。確定真的很明顯再說。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "It's the huge red temple on the corner. You can't miss it.", "zh": "就是轉角那間很大的紅色廟，一定看得到。" },
+        { "en": "Just look for the long line outside. You can't miss it.", "zh": "找外面大排長龍的那家就對了，不會錯過的。" }
+      ]
+    },
+    {
+      "id": "a-stones-throw",
+      "term": "a stone's throw",
+      "meaning": "很近，就在附近",
+      "register": "neutral",
+      "usage": "形容距離很近，常用在介紹住處、飯店、店家位置。",
+      "risk": { "level": "safe", "note": "屬於慣用語，稍微書面一點，房仲和旅遊介紹很愛用。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "My place is a stone's throw from the station.", "zh": "我家離車站超近。" },
+        { "en": "The hotel is just a stone's throw away from the night market.", "zh": "飯店離夜市就幾步路。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u003-r1", "sourceUnit": 2, "type": "mcq", "question": "At a café, which is the most natural?", "options": ["I want an iced tea.", "Can I get an iced tea, please?", "Give me iced tea."], "answer": 1, "explanation": "複習第 2 單元：點餐用 Can I get… please?" },
+    { "id": "u003-r2", "sourceUnit": 2, "type": "fill", "question": "A: Do you need a straw? B: I'm ___, thanks.", "answer": "good", "explanation": "複習第 2 單元：I'm good = 不用了。" },
+    { "id": "u003-r3", "sourceUnit": 1, "type": "mcq", "question": "A: What do you do? B: I ___ a small design studio.", "options": ["run", "am run", "am running now"], "answer": 0, "explanation": "複習第 1 單元：長期的工作用簡單式。" },
+    { "id": "u003-r4", "sourceUnit": 3, "type": "mcq", "question": "A tourist asks for directions. Which is best?", "options": ["How to go to the museum?", "How do I get to the museum?", "Museum how go?"], "answer": 1, "explanation": "問路用 How do I get to…?" },
+    { "id": "u003-r5", "sourceUnit": 3, "type": "fill", "question": "The station is just a stone's ___ from my apartment.", "answer": "throw", "explanation": "a stone's throw = 很近。" }
+  ]
+}

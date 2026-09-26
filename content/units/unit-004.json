@@ -1,0 +1,148 @@
+{
+  "id": 4,
+  "module": 1,
+  "level": "B1",
+  "title": { "zh": "聊週末", "en": "Talking About the Weekend" },
+  "scenario": {
+    "title": "週一早上：How was your weekend?",
+    "context": "週一進辦公室、語言交換見面，第一句話幾乎都是 How was your weekend?。這不是在要一份報告，而是給你一個輕鬆開聊的機會。答案用過去式、講一兩個細節，再把問題丟回去。",
+    "dialogues": [
+      {
+        "title": "Monday morning at the office",
+        "lines": [
+          { "speaker": "Amy", "en": "Morning! How was your weekend?", "zh": "早！週末過得怎樣？" },
+          { "speaker": "Minz", "en": "Pretty good! I went hiking on Saturday, and on Sunday I just chilled at home.", "zh": "還不錯！週六去爬山，週日就在家耍廢。" },
+          { "speaker": "Amy", "en": "Nice. Where did you go hiking?", "zh": "不錯耶。去哪裡爬山？" },
+          { "speaker": "Minz", "en": "Elephant Mountain. We got there at six to catch the sunrise.", "zh": "象山。我們六點就到了，為了看日出。" },
+          { "speaker": "Amy", "en": "Six? That's dedication.", "zh": "六點？真有毅力。" },
+          { "speaker": "Minz", "en": "Honestly, I was wiped out by noon. What about you? Did you do anything fun?", "zh": "老實說中午我就累癱了。你呢？有做什麼好玩的嗎？" },
+          { "speaker": "Amy", "en": "Not really. I slept in, did some laundry, and caught up on a show.", "zh": "沒有耶。睡到自然醒、洗了衣服，然後追了一部劇。" },
+          { "speaker": "Minz", "en": "Sounds like the perfect weekend to me.", "zh": "對我來說這就是完美週末啊。" }
+        ]
+      },
+      {
+        "title": "A friend who had a big weekend",
+        "lines": [
+          { "speaker": "Minz", "en": "Hey! Did you end up going to that concert?", "zh": "嘿！你後來有去那場演唱會嗎？" },
+          { "speaker": "Leo", "en": "Yeah, it was amazing. We stood in the front row the whole time.", "zh": "有啊，超讚。我們整場都站在第一排。" },
+          { "speaker": "Minz", "en": "No way! How did you get front-row spots?", "zh": "真的假的！你們怎麼搶到第一排的？" },
+          { "speaker": "Leo", "en": "We lined up for, like, four hours before the doors opened.", "zh": "開場前我們排了大概四個小時。" },
+          { "speaker": "Minz", "en": "Four hours? I would've given up after twenty minutes.", "zh": "四個小時？我排二十分鐘就放棄了。" },
+          { "speaker": "Leo", "en": "Ha, it was worth it. Afterward we hung out at a bar near the venue till two.", "zh": "哈，很值得。結束後我們在場館附近的酒吧待到兩點。" },
+          { "speaker": "Minz", "en": "You must be dead today.", "zh": "你今天一定累翻了吧。" },
+          { "speaker": "Leo", "en": "Totally. I've already had three coffees.", "zh": "完全是。我已經喝三杯咖啡了。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "How was your weekend?", "zh": "週末過得怎樣？" },
+      { "en": "Did you do anything fun?", "zh": "有做什麼好玩的嗎？", "note": "延續話題的萬用問題" },
+      { "en": "Pretty good! I ___ on Saturday.", "zh": "還不錯！我週六 ___。", "note": "先給評價，再給一個細節" },
+      { "en": "Not much, I just stayed in.", "zh": "沒幹嘛，就待在家。", "note": "stay in = 待在家不出門" },
+      { "en": "Did you end up going to ___?", "zh": "你後來有去 ___ 嗎？", "note": "end up 表示「最後結果」，問對方之前提過的計畫" },
+      { "en": "It was worth it.", "zh": "很值得。" },
+      { "en": "I caught up on a show.", "zh": "我補追了一部劇。", "note": "catch up on = 補做之前落後的事" },
+      { "en": "We got there around ___.", "zh": "我們大概 ___ 到。" },
+      { "en": "Sounds like the perfect weekend.", "zh": "聽起來是完美的週末。", "note": "回應別人的萬用句：Sounds like…" },
+      { "en": "What about you? Anything exciting?", "zh": "你呢？有什麼特別的嗎？" }
+    ],
+    "chinglish": [
+      { "wrong": "I go hiking yesterday.", "right": "I went hiking yesterday.", "why": "中文靠「昨天」表達過去，動詞不變。英文動詞本身要變成過去式，就算前面已經有 yesterday 也一樣。" },
+      { "wrong": "I didn't went to the party.", "right": "I didn't go to the party.", "why": "did / didn't 已經表示過去了，後面的動詞要回到原形。這是「雙重過去式」錯誤。" },
+      { "wrong": "My weekend is very boring.", "right": "My weekend was pretty quiet.", "why": "週末已經過了要用 was。另外 boring 講自己的週末有點負面，母語者比較常說 quiet / low-key / chill。" },
+      { "wrong": "I played at home.", "right": "I just relaxed at home. / I chilled at home.", "why": "中文「在家玩」直翻成 play 聽起來像小孩在玩玩具。大人的「放鬆、耍廢」用 relax / chill / hang out。" }
+    ]
+  },
+  "grammar": {
+    "id": "past-simple-irregular",
+    "title": "過去簡單式＋不規則動詞",
+    "oneLiner": "已經結束的事，動詞要變過去式；問句和否定句用 did，動詞回到原形。",
+    "whenToUse": [
+      "描述已經結束的事件，特別是有明確時間點：yesterday, last weekend, on Saturday, two days ago。",
+      "肯定句：動詞變過去式。規則動詞加 -ed（stayed, watched），不規則動詞要記（went, got, slept, saw）。",
+      "否定句：didn't + 原形。I didn't go.",
+      "問句：Did + 主詞 + 原形？Did you go? / Where did you go?",
+      "最常用的不規則動詞：go→went, get→got, have→had, see→saw, eat→ate, sleep→slept, buy→bought, take→took, make→made, meet→met, hang out→hung out。"
+    ],
+    "whyWeGetItWrong": "中文用時間詞（昨天、上週）或「了」「過」表達過去，動詞本身永遠不變。英文則要求動詞自己變形，而且 did 和過去式動詞只能擇一出現。台灣人最常見的兩個錯：忘了變（I go yesterday），或變兩次（I didn't went）。",
+    "examples": [
+      { "correct": "We went to a night market on Saturday.", "incorrect": "We go to a night market on Saturday.", "note": "已經發生的事，go 要變 went。" },
+      { "correct": "I didn't sleep well last night.", "incorrect": "I didn't slept well last night.", "note": "didn't 後面接原形。" },
+      { "correct": "Where did you eat?", "incorrect": "Where did you ate?", "note": "問句 did 後面也是原形。" },
+      { "correct": "We hung out at a friend's place.", "incorrect": "We hanged out at a friend's place.", "note": "hang out 的過去式是 hung out。hanged 只用在「吊死」。" },
+      { "correct": "I bought a new jacket and met some friends for lunch.", "note": "buy→bought、meet→met，都是常用又容易拼錯的不規則動詞。" }
+    ],
+    "quiz": [
+      { "id": "u004-g1", "type": "fill", "question": "I ___ (see) a really good movie last night.", "answer": "saw", "explanation": "see 的過去式是 saw。" },
+      { "id": "u004-g2", "type": "mcq", "question": "Which sentence is correct?", "options": ["I didn't went out on Sunday.", "I didn't go out on Sunday.", "I not went out on Sunday."], "answer": 1, "explanation": "didn't + 原形 go。" },
+      { "id": "u004-g3", "type": "fill", "question": "Where ___ you go last weekend?", "answer": "did", "explanation": "過去式的 wh- 問句用 did。" },
+      { "id": "u004-g4", "type": "mcq", "question": "We ___ out at a café for hours.", "options": ["hanged", "hung", "hang"], "answer": 1, "explanation": "hang out → hung out。" },
+      { "id": "u004-g5", "type": "fill", "question": "I ___ (buy) this bag in Tokyo last year.", "answer": "bought", "explanation": "buy → bought。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "chill",
+      "term": "chill",
+      "meaning": "放鬆、耍廢（動詞）；很放鬆的、隨和的（形容詞）",
+      "register": "casual",
+      "usage": "當動詞：I just chilled at home. 當形容詞：a chill weekend / He's really chill.",
+      "risk": { "level": "safe", "note": "年輕人和同輩間很常用；叫別人 Chill! 或 Chill out! 有「你冷靜點」的意思，對方正在生氣時說會火上加油。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "We didn't do much, just chilled by the river.", "zh": "沒做什麼，就在河邊放空。" },
+        { "en": "It was a pretty chill weekend.", "zh": "週末蠻悠閒的。" }
+      ]
+    },
+    {
+      "id": "hang-out",
+      "term": "hang out",
+      "meaning": "一起消磨時間、出去玩",
+      "register": "casual",
+      "usage": "跟朋友在一起、沒有特定目的地待著。也可以當名詞：a popular hangout（熱門聚點）。",
+      "risk": { "level": "safe", "note": "用在大人之間完全自然。對剛認識的異性說 Want to hang out? 可能會被理解成約會邀請，看語境。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "We hung out at Leo's place and played board games.", "zh": "我們在 Leo 家待著玩桌遊。" },
+        { "en": "Do you want to hang out this weekend?", "zh": "這週末要不要一起出去？" }
+      ]
+    },
+    {
+      "id": "wiped-out",
+      "term": "wiped out",
+      "meaning": "累癱了、精疲力盡",
+      "register": "casual",
+      "usage": "體力或精神消耗很大之後，比 very tired 生動很多。",
+      "risk": { "level": "safe", "note": "跟同事說也沒問題。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "After the hike, I was completely wiped out.", "zh": "爬完山我整個累癱。" },
+        { "en": "Sorry, I'm going to bed. I'm wiped out.", "zh": "抱歉我要睡了，我累爆了。" }
+      ]
+    },
+    {
+      "id": "sleep-in",
+      "term": "sleep in",
+      "meaning": "睡懶覺、睡到自然醒",
+      "register": "neutral",
+      "usage": "故意比平常晚起。英式也說 have a lie-in。",
+      "risk": { "level": "safe", "note": "注意和 oversleep（睡過頭，不是故意的）分開。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "I slept in till eleven on Sunday.", "zh": "我星期天睡到十一點。" },
+        { "en": "Tomorrow's a holiday, so I'm going to sleep in.", "zh": "明天放假，我要睡到自然醒。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u004-r1", "sourceUnit": 3, "type": "mcq", "question": "Text your friend: \"I'm running late. I'm still ___ the bus.\"", "options": ["in", "on", "at"], "answer": 1, "explanation": "複習第 3 單元：公車用 on。" },
+    { "id": "u004-r2", "sourceUnit": 3, "type": "fill", "question": "Go straight and ___ a left at the temple.", "answer": "hang", "explanation": "複習第 3 單元：hang a left = 左轉。" },
+    { "id": "u004-r3", "sourceUnit": 2, "type": "mcq", "question": "Waiter: \"Anything else?\" You don't need anything. You say:", "options": ["I'm good, thanks.", "No want.", "I'm fine, and you?"], "answer": 0, "explanation": "複習第 2 單元：I'm good = 不用了。" },
+    { "id": "u004-r4", "sourceUnit": 4, "type": "mcq", "question": "A: How was your weekend? B: Pretty quiet. I ___ in and watched Netflix.", "options": ["stay", "stayed", "was stay"], "answer": 1, "explanation": "已經過去的週末用過去式 stayed。" },
+    { "id": "u004-r5", "sourceUnit": 4, "type": "fill", "question": "I didn't set an alarm. I just slept ___.", "answer": "in", "explanation": "sleep in = 睡到自然醒。" }
+  ]
+}

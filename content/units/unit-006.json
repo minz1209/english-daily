@@ -1,0 +1,160 @@
+{
+  "id": 6,
+  "module": 1,
+  "level": "B1",
+  "title": { "zh": "逛街購物", "en": "Going Shopping" },
+  "scenario": {
+    "title": "逛服飾店、試穿、比價",
+    "context": "在國外逛街或帶外國朋友逛五分埔，最常用到的是：問尺寸、要試穿、問有沒有別的顏色、評論價格。講「很多、一點點、幾件」的時候，much / many / a few / a little 會一直出現。",
+    "dialogues": [
+      {
+        "title": "At a clothing store",
+        "lines": [
+          { "speaker": "Staff", "en": "Hi, let me know if you need any help.", "zh": "嗨，需要幫忙的話跟我說。" },
+          { "speaker": "Minz", "en": "Thanks, I'm just looking for now.", "zh": "謝謝，我先隨便看看。" },
+          { "speaker": "Minz", "en": "Actually, do you have this jacket in a medium?", "zh": "其實，這件外套有 M 號嗎？" },
+          { "speaker": "Staff", "en": "Let me check. We only have a few left. … Here's a medium in black.", "zh": "我看一下，剩沒幾件了。……這件是黑色 M 號。" },
+          { "speaker": "Minz", "en": "Do you have it in any other colors?", "zh": "有其他顏色嗎？" },
+          { "speaker": "Staff", "en": "Not in a medium, sorry. We don't have many sizes left in this style.", "zh": "M 號沒有了，抱歉。這款剩的尺寸不多。" },
+          { "speaker": "Minz", "en": "That's OK. Can I try it on?", "zh": "沒關係。可以試穿嗎？" },
+          { "speaker": "Staff", "en": "Of course. The fitting rooms are just over there.", "zh": "當然，試衣間就在那邊。" }
+        ]
+      },
+      {
+        "title": "Talking about prices with a friend",
+        "lines": [
+          { "speaker": "Jess", "en": "How much was it?", "zh": "這件多少錢？" },
+          { "speaker": "Minz", "en": "It was on sale, only eight hundred.", "zh": "在特價，才八百。" },
+          { "speaker": "Jess", "en": "Eight hundred for a leather jacket? That's a steal.", "zh": "皮外套八百？超划算。" },
+          { "speaker": "Minz", "en": "I know! But look at this T-shirt. Fifteen hundred for a plain white tee.", "zh": "對吧！但你看這件 T 恤，一件素白 T 要一千五。" },
+          { "speaker": "Jess", "en": "What a rip-off. It's probably just the logo you're paying for.", "zh": "也太坑了吧，應該是在付 logo 的錢。" },
+          { "speaker": "Minz", "en": "Exactly. I don't have much money left this month anyway.", "zh": "就是說。反正我這個月也沒剩多少錢了。" },
+          { "speaker": "Jess", "en": "Same. Let's just go window-shopping for a bit and then get bubble tea.", "zh": "我也是。那我們就隨便逛逛，然後去買珍奶。" }
+        ]
+      },
+      {
+        "title": "Returning an item",
+        "lines": [
+          { "speaker": "Minz", "en": "Hi, I bought this yesterday, but it's a little too small. Can I exchange it?", "zh": "嗨，我昨天買了這件，但有點太小。可以換嗎？" },
+          { "speaker": "Staff", "en": "Sure. Do you have the receipt?", "zh": "可以。有收據嗎？" },
+          { "speaker": "Minz", "en": "Yes, here you go.", "zh": "有，在這。" },
+          { "speaker": "Staff", "en": "Would you like a larger size or a refund?", "zh": "你要換大一號還是退款？" },
+          { "speaker": "Minz", "en": "A large, if you have one.", "zh": "如果有的話換 L。" },
+          { "speaker": "Staff", "en": "We do. Here you are.", "zh": "有的，給你。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "I'm just looking, thanks.", "zh": "我只是看看，謝謝。", "note": "店員來招呼時的標準回答" },
+      { "en": "Do you have this in a medium?", "zh": "這件有 M 號嗎？" },
+      { "en": "Do you have it in any other colors?", "zh": "有其他顏色嗎？" },
+      { "en": "Can I try it on?", "zh": "可以試穿嗎？" },
+      { "en": "It's a little too tight.", "zh": "有點太緊。", "note": "too big / too small / too long 同樣用法" },
+      { "en": "How much is this?", "zh": "這個多少錢？" },
+      { "en": "Is this on sale?", "zh": "這有在特價嗎？" },
+      { "en": "Can I exchange it for a different size?", "zh": "可以換別的尺寸嗎？" },
+      { "en": "I'll think about it.", "zh": "我再考慮一下。", "note": "委婉地說不買" },
+      { "en": "I'll take it.", "zh": "我要這件。", "note": "決定購買時說" }
+    ],
+    "chinglish": [
+      { "wrong": "Can I try it?", "right": "Can I try it on?", "why": "試穿衣服要說 try on，try 單獨用是「嘗試、嚐嚐看」，在服飾店說 try it 對方大概懂，但聽起來像要吃它。" },
+      { "wrong": "This is very expensive, can cheaper?", "right": "Is there any chance you could do a better price?", "why": "can cheaper 是中文「可以便宜一點嗎」的直翻。一般店家不太議價，真的要問就用委婉的完整句。" },
+      { "wrong": "I have many money.", "right": "I have a lot of money.", "why": "money 不可數，不能用 many。口語裡不管可數不可數，a lot of 最保險。" },
+      { "wrong": "This clothes is nice.", "right": "These clothes are nice. / This shirt is nice.", "why": "clothes 本身是複數，不能用 this。講單件衣服就直接講是什麼：shirt, jacket, dress。" }
+    ]
+  },
+  "grammar": {
+    "id": "quantifiers-much-many-few-little",
+    "title": "much / many / a few / a little",
+    "oneLiner": "many 和 a few 配可數，much 和 a little 配不可數；a lot of 兩種都能配。",
+    "whenToUse": [
+      "many + 可數複數：many sizes, many people。",
+      "much + 不可數：much money, much time。在口語裡，much 主要出現在否定句和問句（I don't have much time / How much is it?），肯定句通常用 a lot of。",
+      "a few + 可數複數：少數幾個（正面、還有一些）。a few left。",
+      "a little + 不可數：一點點。a little sugar, a little too small。",
+      "a lot of / lots of：可數不可數都能用，口語肯定句的首選。",
+      "注意：few / little（沒有 a）意思是「幾乎沒有」，語氣偏負面。"
+    ],
+    "whyWeGetItWrong": "中文的「很多」「一點」不分名詞種類，「很多錢」「很多人」都是同一個詞。英文卻要先判斷名詞可不可數，再選 much 或 many。另外，課本常把 much 教成「很多」，但在肯定句說 I have much money 聽起來很生硬，母語者幾乎只說 a lot of。",
+    "examples": [
+      { "correct": "We don't have many sizes left.", "incorrect": "We don't have much sizes left.", "note": "size 可數，用 many。" },
+      { "correct": "I don't have much time.", "incorrect": "I don't have many time.", "note": "time（時間）不可數，用 much。" },
+      { "correct": "I spent a lot of money today.", "incorrect": "I spent much money today.", "note": "肯定句用 a lot of 最自然。" },
+      { "correct": "There are only a few left.", "note": "a few：還有幾件。" },
+      { "correct": "It's a little too big.", "note": "a little 也可以修飾形容詞，意思是「有點」。" },
+      { "correct": "Few people know about this shop.", "note": "few（沒有 a）= 很少人知道，語氣是「幾乎沒人」。" }
+    ],
+    "quiz": [
+      { "id": "u006-g1", "type": "mcq", "question": "How ___ is this bag?", "options": ["many", "much", "a lot"], "answer": 1, "explanation": "問價錢用 How much。" },
+      { "id": "u006-g2", "type": "mcq", "question": "There aren't ___ people here on weekdays.", "options": ["much", "many", "a little"], "answer": 1, "explanation": "people 可數，用 many。" },
+      { "id": "u006-g3", "type": "fill", "question": "Hurry! There are only a ___ left in your size.", "answer": "few", "explanation": "可數的「幾個」用 a few。" },
+      { "id": "u006-g4", "type": "mcq", "question": "Which sounds most natural?", "options": ["I bought much clothes.", "I bought a lot of clothes.", "I bought many clothes a lot."], "answer": 1, "explanation": "肯定句用 a lot of 最自然。" },
+      { "id": "u006-g5", "type": "fill", "question": "These pants are a ___ too long. Do you have a shorter pair?", "answer": "little|bit", "explanation": "a little too long = 有點太長（a bit 也可以）。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "a-steal",
+      "term": "a steal",
+      "meaning": "超划算、便宜到像用偷的",
+      "register": "casual",
+      "usage": "形容價格非常好：It's a steal! / I got it for a steal.",
+      "risk": { "level": "safe", "note": "跟店員說也沒問題，是正面的稱讚。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Only 500 for these boots? That's a steal.", "zh": "這雙靴子才五百？超划算。" },
+        { "en": "I got this lamp for a steal at a flea market.", "zh": "這盞燈是在跳蚤市場撿到的便宜。" }
+      ]
+    },
+    {
+      "id": "a-rip-off",
+      "term": "a rip-off",
+      "meaning": "坑人、貴得離譜",
+      "register": "casual",
+      "usage": "抱怨東西不值那個價。動詞是 rip someone off（坑某人）。",
+      "risk": { "level": "careful", "note": "私下跟朋友講沒問題，當著店員的面說就很不禮貌。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "300 for a bottle of water at the airport? What a rip-off.", "zh": "機場一瓶水三百？也太坑。" },
+        { "en": "I think the taxi driver ripped us off.", "zh": "我覺得那個計程車司機坑了我們。" }
+      ]
+    },
+    {
+      "id": "window-shopping",
+      "term": "window-shopping",
+      "meaning": "只看不買地逛街",
+      "register": "neutral",
+      "usage": "go window-shopping，逛街但沒有打算真的買。",
+      "risk": { "level": "safe", "note": "中性詞，哪裡都能用。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "I'm broke, so I'm just window-shopping today.", "zh": "我沒錢了，今天只是看看。" },
+        { "en": "We spent the afternoon window-shopping in Ximending.", "zh": "我們下午在西門町隨便逛逛。" }
+      ]
+    },
+    {
+      "id": "shop-till-you-drop",
+      "term": "shop till you drop",
+      "meaning": "買到腿軟、逛到累倒",
+      "register": "casual",
+      "usage": "形容瘋狂購物，常用在旅遊或週年慶。",
+      "risk": { "level": "safe", "note": "有點老派的廣告詞感，但大家都懂，帶點幽默。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "We went to the outlet and shopped till we dropped.", "zh": "我們去 outlet 買到腿軟。" },
+        { "en": "Anniversary sale this weekend. Time to shop till you drop!", "zh": "這週末週年慶，準備買到手軟！" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u006-r1", "sourceUnit": 5, "type": "mcq", "question": "Could we get ___ napkins, please?", "options": ["any", "some", "a"], "answer": 1, "explanation": "複習第 5 單元：請求東西用 some。" },
+    { "id": "u006-r2", "sourceUnit": 5, "type": "fill", "question": "Their beef noodle soup is to ___ for.", "answer": "die", "explanation": "複習第 5 單元：to die for = 好吃到不行。" },
+    { "id": "u006-r3", "sourceUnit": 4, "type": "fill", "question": "We ___ (meet) some really nice people at the party.", "answer": "met", "explanation": "複習第 4 單元：meet → met。" },
+    { "id": "u006-r4", "sourceUnit": 2, "type": "mcq", "question": "Which is the best way to order?", "options": ["Give me a mocha.", "I'll have a mocha, please.", "I want mocha."], "answer": 1, "explanation": "複習第 2 單元：I'll have… please。" },
+    { "id": "u006-r5", "sourceUnit": 6, "type": "mcq", "question": "Staff: \"Can I help you find anything?\" You: \"___\"", "options": ["No, I'm just looking, thanks.", "No need you.", "I see see."], "answer": 0, "explanation": "I'm just looking, thanks. 是標準回答。" }
+  ]
+}
