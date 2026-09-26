@@ -1,7 +1,8 @@
-// 解鎖規則：開始日當天解鎖第 1 單元，之後每 2 天（當地時間午夜）解鎖下一個
+// 解鎖規則：開始日當天解鎖第 1 單元，之後每 DAYS_PER_UNIT 天（當地時間午夜）解鎖下一個
+// 想改回兩天一個單元，把 DAYS_PER_UNIT 改成 2 即可，其他地方會跟著變
 import { authoredCount } from './content'
 
-export const DAYS_PER_UNIT = 2
+export const DAYS_PER_UNIT = 1
 export const RESTOCK_THRESHOLD = 15
 
 export function todayISO(d = new Date()) {
@@ -29,8 +30,10 @@ export interface ScheduleState {
   unlocked: number
   /** 今天的單元 */
   todayUnit: number
-  /** 今天是這個單元的第幾天（1 或 2） */
+  /** 今天是這個單元的第幾天（1 ～ DAYS_PER_UNIT） */
   dayOfUnit: number
+  /** 從開始日算起的第幾天（開始日 = 1） */
+  day: number
   /** 下一次解鎖時間；內容用完時為 null */
   nextUnlockAt: Date | null
   /** 尚未解鎖、但內容已經寫好的單元數 */
@@ -53,6 +56,7 @@ export function getSchedule(startISO: string, now = new Date()): ScheduleState {
     unlocked,
     todayUnit: unlocked,
     dayOfUnit: (days % DAYS_PER_UNIT) + 1,
+    day: days + 1,
     nextUnlockAt: scheduled < authoredCount ? next : null,
     remainingLocked,
     needsRestock: remainingLocked < RESTOCK_THRESHOLD,

@@ -1,3 +1,4 @@
+import { DAYS_PER_UNIT } from '../lib/schedule'
 import { Link } from 'react-router-dom'
 import { curriculum } from '../lib/content'
 import { useSchedule } from '../lib/useSchedule'
@@ -10,7 +11,7 @@ export function Course() {
     <div>
       <h1 className="rise font-display text-4xl font-semibold">課程總表</h1>
       <p className="rise mt-2 text-ink-2">
-        {curriculum.units.length} 個單元，每 2 天解鎖一個。已解鎖的隨時可以回頭看。
+        {curriculum.units.length} 個單元，{DAYS_PER_UNIT === 1 ? '每天' : `每 ${DAYS_PER_UNIT} 天`}解鎖一個。已解鎖的隨時可以回頭看。
       </p>
 
       <div className="mt-10 space-y-12">

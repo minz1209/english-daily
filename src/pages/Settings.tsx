@@ -1,3 +1,4 @@
+import { DAYS_PER_UNIT } from '../lib/schedule'
 import { useState } from 'react'
 import { applyTheme, getTheme, resetAll, setStartDate, useProgress, type Theme } from '../lib/progress'
 import { useSchedule } from '../lib/useSchedule'
@@ -14,7 +15,7 @@ export function Settings() {
 
       <section>
         <h2 className="mb-2 font-bold">開始日期</h2>
-        <p className="mb-3 text-[0.95rem] text-ink-2">從這天起每 2 天解鎖一個單元。往前調可以一次解鎖多個，往後調就會重新上鎖。</p>
+        <p className="mb-3 text-[0.95rem] text-ink-2">從這天起{DAYS_PER_UNIT === 1 ? '每天' : `每 ${DAYS_PER_UNIT} 天`}解鎖一個單元。往前調可以一次解鎖多個，往後調就會重新上鎖。</p>
         <input
           type="date"
           value={p.startDate}

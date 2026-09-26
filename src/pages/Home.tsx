@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { curriculum, dailySentences, moduleOf, authoredCount } from '../lib/content'
-import { formatCountdown } from '../lib/schedule'
+import { DAYS_PER_UNIT, formatCountdown } from '../lib/schedule'
 import { useSchedule } from '../lib/useSchedule'
 import { quizAccuracy, useProgress } from '../lib/progress'
 import { SpeakButton } from '../components/SpeakButton'
@@ -34,7 +34,7 @@ export function Home() {
         <p>
           {sch.now.getMonth() + 1} 月 {sch.now.getDate()} 日 · 週{WEEKDAY[sch.now.getDay()]}
         </p>
-        <p className="font-display italic">Day {Math.max(1, (sch.scheduled - 1) * 2 + sch.dayOfUnit)}</p>
+        <p className="font-display italic">Day {sch.day}</p>
       </div>
 
       {/* 今天的單元 */}
@@ -55,14 +55,18 @@ export function Home() {
             </div>
           </Link>
           <p className="mt-5 text-ink-2">
-            {sch.dayOfUnit === 1 ? '第 1 天：先讀情境對話和句型，再做文法小測驗。' : '第 2 天：學俚語、做複習題，把單元收尾。'}
+            {DAYS_PER_UNIT === 1
+              ? '建議順序：情境對話和句型 → 文法小測驗 → 俚語 → 複習題。'
+              : sch.dayOfUnit === 1
+                ? '第 1 天：先讀情境對話和句型，再做文法小測驗。'
+                : '第 2 天：學俚語、做複習題，把單元收尾。'}
             {doneToday && <span className="ml-1 text-ok">（已完成 ✓）</span>}
           </p>
           <div className="mt-5 grid grid-cols-2 gap-2 sm:grid-cols-4">
             {(['scenario', 'grammar', 'slang', 'review'] as const).map((k, i) => {
               const b = BLOCKS[k]
               const hint = k === 'scenario' ? today.scenario : k === 'grammar' ? today.grammar.title : k === 'slang' ? `${today.slang.length} 則` : '間隔複習'
-              const suggested = sch.dayOfUnit === 1 ? i < 2 : i >= 2
+              const suggested = DAYS_PER_UNIT === 1 || (sch.dayOfUnit === 1 ? i < 2 : i >= 2)
               return (
                 <Link
                   key={k}
