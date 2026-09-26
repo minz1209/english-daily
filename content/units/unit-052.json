@@ -1,0 +1,148 @@
+{
+  "id": 52,
+  "module": 6,
+  "level": "B2-",
+  "title": { "zh": "談薪水", "en": "Negotiating Salary" },
+  "scenario": {
+    "title": "談薪水、報價、談條件",
+    "context": "談錢時，確定程度很重要：「應該可以」「很可能」「不太可能」差很多。台灣人很愛用 maybe，但放在句首聽起來很沒把握。這個單元學 probably、likely、unlikely 的位置和強度，讓談判語氣更精準。",
+    "dialogues": [
+      {
+        "title": "The offer call",
+        "lines": [
+          { "speaker": "HR", "en": "We'd like to offer you the position. The base salary is 65,000 a month.", "zh": "我們想錄取你，底薪是每月 65,000。" },
+          { "speaker": "Minz", "en": "Thank you, I'm really excited. Could you tell me a bit more about the whole package?", "zh": "謝謝，我很開心。可以多告訴我整體薪酬嗎？" },
+          { "speaker": "HR", "en": "There's a year-end bonus, which is likely to be around two months' salary.", "zh": "有年終獎金，很可能是兩個月左右。" },
+          { "speaker": "Minz", "en": "I see. To be honest, based on my experience, I was expecting something in the ballpark of 75,000.", "zh": "了解。老實說，以我的經驗，我預期的是 75,000 左右。" },
+          { "speaker": "HR", "en": "That's probably above our range for this role. But I'll definitely check with the manager.", "zh": "那大概超出這個職位的範圍了，但我一定會跟主管確認。" },
+          { "speaker": "Minz", "en": "I appreciate that. Is there any flexibility on remote work, too?", "zh": "謝謝。遠端工作方面有彈性嗎？" },
+          { "speaker": "HR", "en": "Possibly. Two days a week is likely, but I can't promise yet.", "zh": "可能有。一週兩天很有可能，但我還不能保證。" }
+        ]
+      },
+      {
+        "title": "Advice from a friend",
+        "lines": [
+          { "speaker": "Minz", "en": "They offered 65, and I asked for 75. Do you think I'll get it?", "zh": "他們開 6 萬 5，我要求 7 萬 5。你覺得我會拿到嗎？" },
+          { "speaker": "Leo", "en": "Probably not the full 75, but they'll likely meet you halfway.", "zh": "大概拿不到整個 7 萬 5，但他們很可能會各退一步。" },
+          { "speaker": "Minz", "en": "I just didn't want them to lowball me.", "zh": "我只是不想被他們壓價。" },
+          { "speaker": "Leo", "en": "Smart. And remember, 70 sounds great, but your take-home pay will definitely be lower after tax and insurance.", "zh": "聰明。還有記得，7 萬聽起來很棒，但扣完稅和保險後實拿一定比較少。" },
+          { "speaker": "Minz", "en": "Right. It's unlikely they'll say no to the remote days, though.", "zh": "對。不過他們不太可能拒絕遠端那幾天。" },
+          { "speaker": "Leo", "en": "Then you're in a good position. Stay calm and don't accept on the spot.", "zh": "那你處境不錯。保持冷靜，別當場答應。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "Could you tell me more about the package?", "zh": "可以多告訴我整體薪酬嗎？" },
+      { "en": "Based on my experience, I was expecting around ___.", "zh": "以我的經驗，我預期的是 ___ 左右。" },
+      { "en": "Is there any flexibility on ___?", "zh": "___ 方面有彈性嗎？" },
+      { "en": "What's the salary range for this role?", "zh": "這個職位的薪資範圍是多少？" },
+      { "en": "Could I have a few days to think it over?", "zh": "我可以考慮幾天嗎？" },
+      { "en": "Is that before or after tax?", "zh": "那是稅前還是稅後？" },
+      { "en": "I'm sure we can find something that works for both of us.", "zh": "我相信我們能找到雙方都能接受的方案。" },
+      { "en": "That's probably a bit low for me.", "zh": "那對我來說大概有點低。" },
+      { "en": "Would you be open to ___?", "zh": "你們可以接受 ___ 嗎？" },
+      { "en": "I'd like to get that in writing.", "zh": "我希望能有書面確認。" }
+    ],
+    "chinglish": [
+      { "wrong": "Maybe I want 75,000.", "right": "I was hoping for something around 75,000.", "why": "談判時 maybe 放句首聽起來很沒信心。用 was hoping for / around 讓語氣委婉但堅定。" },
+      { "wrong": "Maybe they will probably say yes.", "right": "They'll probably say yes.", "why": "maybe 和 probably 意思重疊，選一個就好。" },
+      { "wrong": "The salary is too low, I can't accept.", "right": "I appreciate the offer. Is there any room to move on the base salary?", "why": "直接說 too low 很像關門。先感謝，再問彈性。" },
+      { "wrong": "How much is the salary after deduct?", "right": "What would my take-home pay be?", "why": "「扣掉之後」直翻很不通順。實拿薪水說 take-home pay。" }
+    ]
+  },
+  "grammar": {
+    "id": "probability-adverbs",
+    "title": "probably / likely / maybe 的位置與強度",
+    "oneLiner": "maybe 放句首、比較口語；probably 放動詞前或 will 後；be likely to + V 更正式。強度：definitely > probably / likely > possibly / maybe > unlikely > definitely not。",
+    "whenToUse": [
+      "definitely / certainly：確定。I'll definitely call you.",
+      "probably：很可能。放在 will 後面、won't 前面：They'll probably agree. / They probably won't agree.",
+      "be likely to + V / It's likely that…：很可能，比 probably 正式。The bonus is likely to be two months.",
+      "possibly / perhaps / maybe：有可能。maybe 通常放句首，perhaps 較正式。",
+      "unlikely：不太可能。It's unlikely they'll say no.",
+      "注意：likely 是形容詞，口語的 They'll likely… 美式常見。"
+    ],
+    "whyWeGetItWrong": "中文的「可能」一個詞包辦了 50% 到 90% 的所有機率，而且可以放在句子很多位置。台灣人常用 maybe 代替所有的「可能」，在談判、報告時聽起來很不確定。另外 probably 的位置（will probably / probably won't）也常出錯。",
+    "examples": [
+      { "correct": "They'll probably make a decision next week.", "incorrect": "They probably will maybe decide next week.", "note": "probably 放在 will 後面，一個機率詞就好。" },
+      { "correct": "They probably won't approve it.", "incorrect": "They won't probably approve it.", "note": "否定時 probably 放在 won't 前面。" },
+      { "correct": "The project is likely to be delayed.", "note": "be likely to + V。" },
+      { "correct": "It's unlikely that the price will go down.", "note": "It's unlikely that + 子句。" },
+      { "correct": "Maybe we can meet halfway.", "note": "maybe 放句首，提議時語氣柔和。" }
+    ],
+    "quiz": [
+      { "id": "u052-g1", "type": "mcq", "question": "Which is correct?", "options": ["They will probably call tomorrow.", "They probably will maybe call.", "They will call probably maybe."], "answer": 0, "explanation": "probably 放 will 後面。" },
+      { "id": "u052-g2", "type": "mcq", "question": "Which is correct?", "options": ["She won't probably come.", "She probably won't come.", "She probably not come."], "answer": 1, "explanation": "probably 放 won't 前面。" },
+      { "id": "u052-g3", "type": "fill", "question": "The bonus is ___ to be around two months' salary. (很可能)", "answer": "likely", "explanation": "be likely to + V。" },
+      { "id": "u052-g4", "type": "mcq", "question": "Which shows the LOWEST probability?", "options": ["It's likely.", "It's possible.", "It's unlikely."], "answer": 2, "explanation": "unlikely = 不太可能。" },
+      { "id": "u052-g5", "type": "fill", "question": "I'll ___ send you the contract today. (一定)", "answer": "definitely|certainly", "explanation": "確定用 definitely。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "ballpark",
+      "term": "ballpark",
+      "meaning": "大概的範圍、粗估",
+      "register": "casual",
+      "usage": "a ballpark figure（粗估數字）/ in the ballpark of（大約）。Can you give me a ballpark?",
+      "risk": { "level": "safe", "note": "職場常用，談報價很好用。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "Can you give me a ballpark figure for the logo design?", "zh": "logo 設計你可以給我一個大概的價格嗎？" },
+        { "en": "We're looking at something in the ballpark of 200,000.", "zh": "我們預估大概 20 萬左右。" }
+      ]
+    },
+    {
+      "id": "lowball",
+      "term": "lowball",
+      "meaning": "故意壓低價格、開低價",
+      "register": "casual",
+      "usage": "lowball someone / a lowball offer（很低的出價）。",
+      "risk": { "level": "careful", "note": "說對方 lowball 帶指控，談判時別直接對對方說。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "Don't let them lowball you. Know your worth.", "zh": "別讓他們壓你價，要知道自己的價值。" },
+        { "en": "Their first offer was a total lowball.", "zh": "他們第一次的出價低得離譜。" }
+      ]
+    },
+    {
+      "id": "meet-halfway",
+      "term": "meet halfway",
+      "meaning": "各退一步、折衷",
+      "register": "neutral",
+      "usage": "meet someone halfway = 雙方各讓一步。",
+      "risk": { "level": "safe", "note": "談判常用，很有建設性。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "You want 80, I offered 60. Can we meet halfway at 70?", "zh": "你要 80，我出 60。我們各退一步，70 好嗎？" },
+        { "en": "I'm willing to meet you halfway on the timeline.", "zh": "時程方面我願意各退一步。" }
+      ]
+    },
+    {
+      "id": "take-home-pay",
+      "term": "take-home pay",
+      "meaning": "實拿薪水（扣稅和保險後）",
+      "register": "neutral",
+      "usage": "扣除所得稅、勞健保之後實際拿到的錢。",
+      "risk": { "level": "safe", "note": "中性用語。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "My take-home pay is about 52,000 after deductions.", "zh": "扣完之後我實拿大概 5 萬 2。" },
+        { "en": "The salary looks good, but what's the take-home pay?", "zh": "薪水看起來不錯，但實拿多少？" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u052-r1", "sourceUnit": 51, "type": "mcq", "question": "Which sounds strongest?", "options": ["I helped with sales.", "I grew sales by 30% in one year.", "I was involved in sales."], "answer": 1, "explanation": "複習第 51 單元：強動詞 + 數字。" },
+    { "id": "u052-r2", "sourceUnit": 50, "type": "fill", "question": "The client ___ have forgotten to reply. It's been a week. (一定)", "answer": "must", "explanation": "複習第 50 單元：推測過去。" },
+    { "id": "u052-r3", "sourceUnit": 48, "type": "mcq", "question": "The new offer is ___ as my current salary.", "options": ["one and a half times as much", "one and half more", "1.5 times much"], "answer": 0, "explanation": "複習第 48 單元：倍數 + as much as。" },
+    { "id": "u052-r4", "sourceUnit": 44, "type": "mcq", "question": "I suggest ___ for a bit more.", "options": ["you to ask", "asking", "ask you"], "answer": 1, "explanation": "複習第 44 單元：suggest + V-ing。" },
+    { "id": "u052-r5", "sourceUnit": 36, "type": "mcq", "question": "\"We can offer 70.\" → She said they ___ offer 70.", "options": ["can", "could", "will"], "answer": 1, "explanation": "複習第 36 單元：can → could。" },
+    { "id": "u052-r6", "sourceUnit": 20, "type": "mcq", "question": "HR ___ me the offer would be ready by Monday.", "options": ["said", "told", "spoke"], "answer": 1, "explanation": "複習第 20 單元：tell + 人。" },
+    { "id": "u052-r7", "sourceUnit": 52, "type": "mcq", "question": "Which is correct?", "options": ["They won't probably agree.", "They probably won't agree.", "They not probably agree."], "answer": 1, "explanation": "probably 放 won't 前。" }
+  ]
+}

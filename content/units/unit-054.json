@@ -1,0 +1,150 @@
+{
+  "id": 54,
+  "module": 6,
+  "level": "B2-",
+  "title": { "zh": "給回饋", "en": "Giving Feedback" },
+  "scenario": {
+    "title": "給同事或下屬回饋、接受批評",
+    "context": "給回饋是英文職場最微妙的溝通：太直接會傷人，太委婉對方聽不懂。英文用一整套「軟化語氣」的工具：You might want to…、It'd be great if…、I wonder if…，讓批評聽起來像建議。",
+    "dialogues": [
+      {
+        "title": "Reviewing a junior designer's work",
+        "lines": [
+          { "speaker": "Minz", "en": "Thanks for sending this over, Kai. Overall, it's a solid first draft.", "zh": "Kai，謝謝你傳過來。整體來說，這是很扎實的初稿。" },
+          { "speaker": "Kai", "en": "Thanks! Please don't sugarcoat it, though. I want to improve.", "zh": "謝謝！不過請不要包裝，我想進步。" },
+          { "speaker": "Minz", "en": "Fair enough. The layout works, but the text might be a little hard to read on mobile.", "zh": "好。版面可以，但文字在手機上可能有點難讀。" },
+          { "speaker": "Minz", "en": "You might want to try a bigger font size for the body text.", "zh": "你可以試試把內文字級放大。" },
+          { "speaker": "Kai", "en": "Got it. Anything else?", "zh": "了解。還有別的嗎？" },
+          { "speaker": "Minz", "en": "It'd be great if the colors matched the brand guide a bit more closely. I wonder if the green is slightly off.", "zh": "如果配色能更貼近品牌規範會更好。我在想綠色是不是有點偏。" },
+          { "speaker": "Kai", "en": "Oh, you're right. I used the wrong hex code.", "zh": "喔，你說得對，我用錯色碼了。" },
+          { "speaker": "Minz", "en": "Easy fix. Honestly, you're doing great for your first month.", "zh": "很好修。說真的，以第一個月來說你做得很好。" }
+        ]
+      },
+      {
+        "title": "Receiving tough feedback",
+        "lines": [
+          { "speaker": "Karen", "en": "Minz, can I be honest with you about the client meeting?", "zh": "Minz，關於客戶會議，我可以坦白說嗎？" },
+          { "speaker": "Minz", "en": "Of course. Please cut to the chase.", "zh": "當然，請直說。" },
+          { "speaker": "Karen", "en": "You spent ten minutes on background. The client wanted the designs. You were beating around the bush.", "zh": "你花了十分鐘講背景，客戶想看的是設計。你在繞圈子。" },
+          { "speaker": "Minz", "en": "That's fair. I was nervous and over-explained.", "zh": "說得對。我很緊張，解釋太多了。" },
+          { "speaker": "Karen", "en": "Next time, you could start with the designs and explain only if they ask.", "zh": "下次你可以先放設計，他們問了再解釋。" },
+          { "speaker": "Minz", "en": "Thanks. I know it's tough love, but it helps.", "zh": "謝謝。我知道你是嚴格但為我好，這很有幫助。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "Overall, this is really solid.", "zh": "整體來說，這很扎實。", "note": "先說優點" },
+      { "en": "You might want to ___.", "zh": "你可以考慮 ___。" },
+      { "en": "It'd be great if ___.", "zh": "如果 ___ 會很好。" },
+      { "en": "I wonder if ___.", "zh": "我在想 ___ 會不會。" },
+      { "en": "Have you considered ___?", "zh": "你有考慮過 ___ 嗎？" },
+      { "en": "One thing that could make it even better is ___.", "zh": "有一件事可以讓它更好：___。" },
+      { "en": "Can I give you some feedback?", "zh": "我可以給你一些回饋嗎？" },
+      { "en": "That's fair.", "zh": "說得有道理。", "note": "接受批評時的回應" },
+      { "en": "Thanks for being honest.", "zh": "謝謝你坦白說。" },
+      { "en": "What would you do differently?", "zh": "你會怎麼改？" }
+    ],
+    "chinglish": [
+      { "wrong": "This is wrong. Change it.", "right": "This might not be quite right. Could you take another look?", "why": "直接否定在英文職場很少見，會被視為不尊重。用 might / could 讓對方有空間。" },
+      { "wrong": "Your design has many problems.", "right": "There are a few things we could improve.", "why": "problems 帶負面意味。把焦點放在「可以改善」。" },
+      { "wrong": "You should must change the color.", "right": "You might want to change the color.", "why": "should 和 must 不能連用；而且回饋時用 might want to 最柔和。" },
+      { "wrong": "Sorry, I disturb you, I have some opinion.", "right": "Do you have a minute? I have some thoughts on the draft.", "why": "opinion 在這裡用 thoughts 更自然；也不用先道歉。" }
+    ]
+  },
+  "grammar": {
+    "id": "softening-language",
+    "title": "軟化語氣：You might want to…",
+    "oneLiner": "用 might / could / would、疑問句、I wonder if…、a bit / slightly 等工具，讓批評聽起來像建議。",
+    "whenToUse": [
+      "You might want to + V：你可以考慮…（其實就是「你應該」的委婉說法）。",
+      "It'd be great if + 子句（過去式）：It'd be great if you could send it earlier.",
+      "I wonder if / I was wondering if…：I wonder if the green is slightly off.",
+      "could / might 取代 is / will：It might be hard to read.",
+      "加上 a bit / slightly / a little：a bit long / slightly off。",
+      "用問句：Have you thought about…? / What if we tried…?",
+      "聽到這些句型要知道：對方其實是在說「請改」。"
+    ],
+    "whyWeGetItWrong": "中文的委婉多半靠語氣、表情和「喔」「啦」這類語助詞，句子結構不太變。英文的委婉則直接內建在文法裡：用情態動詞、過去式、疑問句。台灣人給回饋時常太直接（This is wrong），而收到回饋時又常聽不出 You might want to 其實是「一定要改」。",
+    "examples": [
+      { "correct": "You might want to double-check the dates.", "incorrect": "You must check the dates again.", "note": "must 太強，might want to 是委婉的「請你檢查」。" },
+      { "correct": "It'd be great if we could get this by Thursday.", "note": "It'd be great if + could。" },
+      { "correct": "The intro is a bit long.", "note": "加上 a bit 軟化。" },
+      { "correct": "I wonder if a darker blue would work better.", "note": "用 I wonder if 提出替代方案。" },
+      { "correct": "Have you considered using photos instead?", "note": "用問句提建議。" }
+    ],
+    "quiz": [
+      { "id": "u054-g1", "type": "mcq", "question": "Which is the softest feedback?", "options": ["Change the font.", "You must change the font.", "You might want to try a different font."], "answer": 2, "explanation": "might want to 最柔和。" },
+      { "id": "u054-g2", "type": "fill", "question": "It'd be great if you ___ send the files by Monday.", "answer": "could", "explanation": "It'd be great if you could…" },
+      { "id": "u054-g3", "type": "mcq", "question": "Your manager says, \"You might want to check the numbers again.\" What does she mean?", "options": ["It's optional.", "Please check them. There's probably a mistake.", "The numbers are perfect."], "answer": 1, "explanation": "委婉句型其實是明確的要求。" },
+      { "id": "u054-g4", "type": "fill", "question": "I ___ if the logo is a little too small. (在想)", "answer": "wonder|was wondering", "explanation": "I wonder if…" },
+      { "id": "u054-g5", "type": "mcq", "question": "Which softener fits best? \"The presentation is ___ long.\"", "options": ["very very", "a bit", "totally"], "answer": 1, "explanation": "a bit 軟化批評。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "sugarcoat",
+      "term": "sugarcoat",
+      "meaning": "粉飾、包裝壞消息",
+      "register": "casual",
+      "usage": "把不好聽的話說得比實際好聽。Don't sugarcoat it. = 直說吧。",
+      "risk": { "level": "safe", "note": "常用在要求對方誠實。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "I won't sugarcoat it. The client hated it.", "zh": "我就直說了，客戶很討厭它。" },
+        { "en": "Don't sugarcoat it. Tell me what's wrong.", "zh": "別包裝了，告訴我哪裡不對。" }
+      ]
+    },
+    {
+      "id": "beat-around-the-bush",
+      "term": "beat around the bush",
+      "meaning": "拐彎抹角、繞圈子",
+      "register": "casual",
+      "usage": "不直接講重點。Stop beating around the bush.",
+      "risk": { "level": "careful", "note": "說別人 beating around the bush 帶不耐煩，對主管或客戶要小心。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Stop beating around the bush. Are we getting the project or not?", "zh": "別繞圈子了，我們到底有沒有拿到案子？" },
+        { "en": "I'll be honest and not beat around the bush.", "zh": "我會坦白說，不拐彎抹角。" }
+      ]
+    },
+    {
+      "id": "cut-to-the-chase",
+      "term": "cut to the chase",
+      "meaning": "直接說重點",
+      "register": "casual",
+      "usage": "跳過鋪陳直接講重點。Let's cut to the chase.",
+      "risk": { "level": "careful", "note": "自己說 Let me cut to the chase 沒問題；要求別人 cut to the chase 有點不耐煩。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "I'll cut to the chase: we need to raise prices.", "zh": "我直說重點：我們要漲價。" },
+        { "en": "We only have ten minutes, so let's cut to the chase.", "zh": "我們只有十分鐘，直接講重點吧。" }
+      ]
+    },
+    {
+      "id": "tough-love",
+      "term": "tough love",
+      "meaning": "嚴格的愛、嚴厲但為你好",
+      "register": "neutral",
+      "usage": "用嚴格的方式幫助別人成長。",
+      "risk": { "level": "safe", "note": "中性用語。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "My first boss was all about tough love, but I learned so much.", "zh": "我第一個主管很嚴格，但我學到超多。" },
+        { "en": "Sometimes friends need a bit of tough love.", "zh": "有時候朋友需要一點嚴厲的愛。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u054-r1", "sourceUnit": 53, "type": "mcq", "question": "The draft is strong. ___, the intro needs work.", "options": ["But", "However", "Although"], "answer": 1, "explanation": "複習第 53 單元：開新句子用 However,。" },
+    { "id": "u054-r2", "sourceUnit": 52, "type": "mcq", "question": "Which is correct?", "options": ["She won't probably like it.", "She probably won't like it.", "She probably not like it."], "answer": 1, "explanation": "複習第 52 單元：probably won't。" },
+    { "id": "u054-r3", "sourceUnit": 50, "type": "fill", "question": "By the time I gave feedback, he ___ already sent it to the client.", "answer": "had", "explanation": "複習第 50 單元：過去完成式。" },
+    { "id": "u054-r4", "sourceUnit": 46, "type": "mcq", "question": "The file is corrupted. Someone ___ saved it wrong.", "options": ["must have", "must", "should"], "answer": 0, "explanation": "複習第 46 單元：推測過去。" },
+    { "id": "u054-r5", "sourceUnit": 38, "type": "fill", "question": "Don't be so hard on ___. Everyone makes mistakes.", "answer": "yourself", "explanation": "複習第 38 單元：反身代名詞。" },
+    { "id": "u054-r6", "sourceUnit": 22, "type": "mcq", "question": "Which is the most polite way to disagree?", "options": ["You're wrong.", "I see your point, but I'm not sure that works.", "No."], "answer": 1, "explanation": "複習第 22 單元。" },
+    { "id": "u054-r7", "sourceUnit": 54, "type": "fill", "question": "You ___ want to shorten the title. It's a bit long.", "answer": "might|may", "explanation": "You might want to…" }
+  ]
+}

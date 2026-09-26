@@ -1,0 +1,148 @@
+{
+  "id": 55,
+  "module": 6,
+  "level": "B2-",
+  "title": { "zh": "跨部門協作", "en": "Working Across Teams" },
+  "scenario": {
+    "title": "跟行銷、工程、業務部門合作",
+    "context": "跨部門合作時，大家會一直說要「追蹤一下」「想辦法」「搞定」「把事情釐清」。這些全是片語動詞：follow up、figure out、work out、sort out、come up with。學會它們，會議筆記和 email 都會更道地。",
+    "dialogues": [
+      {
+        "title": "Kickoff meeting",
+        "lines": [
+          { "speaker": "Tony", "en": "So marketing needs the campaign visuals by the 15th. Does design have the bandwidth?", "zh": "所以行銷部 15 號前需要活動視覺。設計部有餘力嗎？" },
+          { "speaker": "Minz", "en": "It's tight, but we'll figure it out. Can you send the copy by Monday?", "zh": "很緊，但我們會想辦法。你週一前可以給文案嗎？" },
+          { "speaker": "Tony", "en": "We're still working out the key message, but I'll follow up by Friday.", "zh": "我們還在研究主要訊息，但週五前會跟你確認。" },
+          { "speaker": "Ken", "en": "From the engineering side, we'll need the assets in specific sizes. I'll send over a list.", "zh": "工程這邊需要特定尺寸的素材，我會傳一份清單。" },
+          { "speaker": "Minz", "en": "Great. I don't want to step on anyone's toes, but who has final approval?", "zh": "好。我不想越權，但誰有最終核准權？" },
+          { "speaker": "Tony", "en": "Good question. Let's sort that out now so we don't pass the buck later.", "zh": "好問題。現在就講清楚，免得之後互相推卸責任。" },
+          { "speaker": "Karen", "en": "Tony signs off on copy, Minz on visuals. Any issues, come to me.", "zh": "文案由 Tony 簽核，視覺由 Minz。有問題來找我。" }
+        ]
+      },
+      {
+        "title": "A week later",
+        "lines": [
+          { "speaker": "Minz", "en": "Hi Tony, just following up on the copy. Any updates?", "zh": "Tony 你好，追蹤一下文案，有更新嗎？" },
+          { "speaker": "Tony", "en": "Sorry! We came up with three options but couldn't decide.", "zh": "抱歉！我們想出三個選項但決定不了。" },
+          { "speaker": "Minz", "en": "Could you send all three? We can mock them up and see which works best visually.", "zh": "三個都可以傳給我嗎？我們先做成模擬稿，看哪個視覺上效果最好。" },
+          { "speaker": "Tony", "en": "That's a great idea. I'm on it.", "zh": "好主意，我馬上處理。" },
+          { "speaker": "Minz", "en": "Thanks. We'll turn it around in a day.", "zh": "謝謝，我們一天內給你。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "Just following up on ___.", "zh": "追蹤一下 ___。" },
+      { "en": "Any updates on ___?", "zh": "___ 有更新嗎？" },
+      { "en": "We'll figure it out.", "zh": "我們會想辦法。" },
+      { "en": "Who has final approval?", "zh": "誰有最終核准權？" },
+      { "en": "Let's sort out the roles first.", "zh": "先把分工講清楚。" },
+      { "en": "Could you send it over?", "zh": "可以傳過來嗎？" },
+      { "en": "I'll loop you in when it's ready.", "zh": "好了我再通知你。" },
+      { "en": "What's the timeline?", "zh": "時程怎麼排？" },
+      { "en": "Let's set up a quick call.", "zh": "我們約個簡短通話吧。" },
+      { "en": "We'll turn it around in a day.", "zh": "我們一天內完成。", "note": "turn around = 完成並交回" }
+    ],
+    "chinglish": [
+      { "wrong": "I will follow this case.", "right": "I'll follow up on this. / I'll keep track of this.", "why": "「跟進這個案子」直翻 follow this case 很怪。追蹤進度說 follow up on。" },
+      { "wrong": "We need to think a way.", "right": "We need to figure out a way. / We need to come up with a solution.", "why": "「想辦法」直翻 think a way 不對。用 figure out / come up with。" },
+      { "wrong": "This is not my business, please ask marketing.", "right": "That's more on marketing's side. Tony would know.", "why": "not my business 聽起來像「不關我的事」，很冷漠。" },
+      { "wrong": "Please give me the copy until Monday.", "right": "Could you send the copy by Monday?", "why": "截止期限用 by，until 是「一直到」。" }
+    ]
+  },
+  "grammar": {
+    "id": "work-phrasal-verbs",
+    "title": "片語動詞 follow up / figure out / work out",
+    "oneLiner": "職場最常用的片語動詞，意思多半不能從字面猜，要整組記。",
+    "whenToUse": [
+      "follow up (on)：追蹤、後續確認。I'll follow up on the invoice.",
+      "figure out：想出來、搞懂。We need to figure out the budget.",
+      "work out：解決、成功；計算。It worked out in the end. / Let's work out the costs.",
+      "sort out：處理好、整理清楚（第 12 單元學過）。",
+      "come up with：想出（點子）。She came up with a great name.",
+      "turn around：完成並交回。Can you turn this around by tomorrow?",
+      "follow up 的名詞：a follow-up（後續追蹤信）；不可拆開的：come up with, follow up on。"
+    ],
+    "whyWeGetItWrong": "中文用單一動詞：「追蹤」「想辦法」「解決」「想出」。英文職場卻偏好片語動詞，因為聽起來比較口語、親切。台灣人常用比較正式的單字（investigate、solve、propose）來避開片語動詞，結果 email 讀起來很生硬。另外，片語動詞的受詞位置和介系詞也常出錯。",
+    "examples": [
+      { "correct": "I'll follow up with the client tomorrow.", "note": "follow up with + 人，follow up on + 事。" },
+      { "correct": "I can't figure out why the file won't open.", "incorrect": "I can't figure why the file won't open.", "note": "figure out 要加 out。" },
+      { "correct": "Don't worry. It'll work out.", "note": "work out 不及物 = 最後會順利。" },
+      { "correct": "She came up with the idea for the campaign.", "incorrect": "She came up the idea.", "note": "come up with 三個字都要。" },
+      { "correct": "Let's figure it out together.", "incorrect": "Let's figure out it together.", "note": "代名詞放中間。" }
+    ],
+    "quiz": [
+      { "id": "u055-g1", "type": "mcq", "question": "I'll ___ with you next week about the contract.", "options": ["follow up", "follow", "follow out"], "answer": 0, "explanation": "follow up with + 人。" },
+      { "id": "u055-g2", "type": "mcq", "question": "Which is correct?", "options": ["Let's figure out it.", "Let's figure it out.", "Let's out figure it."], "answer": 1, "explanation": "代名詞放中間。" },
+      { "id": "u055-g3", "type": "fill", "question": "Who came ___ with this brilliant idea?", "answer": "up", "explanation": "come up with = 想出。" },
+      { "id": "u055-g4", "type": "mcq", "question": "The launch was stressful, but everything ___ in the end.", "options": ["worked out", "figured out", "followed up"], "answer": 0, "explanation": "work out = 最後順利。" },
+      { "id": "u055-g5", "type": "fill", "question": "Could you send the copy ___ Friday? (截止期限)", "answer": "by", "explanation": "截止用 by。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "bandwidth",
+      "term": "bandwidth",
+      "meaning": "（人的）餘力、時間精力",
+      "register": "casual",
+      "usage": "原意是網路頻寬，職場借用來說「有沒有空處理」。I don't have the bandwidth.",
+      "risk": { "level": "careful", "note": "典型的科技業行話，有人覺得做作。聽得懂最重要。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "I don't have the bandwidth to take on another project.", "zh": "我沒有餘力再接一個案子。" },
+        { "en": "Does your team have the bandwidth for this?", "zh": "你們團隊有空處理這個嗎？" }
+      ]
+    },
+    {
+      "id": "step-on-toes",
+      "term": "step on toes",
+      "meaning": "越權、踩到別人的地盤",
+      "register": "casual",
+      "usage": "I don't want to step on anyone's toes. = 我不想越權／冒犯別人。",
+      "risk": { "level": "safe", "note": "常用來表示尊重對方的職責。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "I don't want to step on your toes, but can I make a suggestion?", "zh": "我不想越權，但我可以給個建議嗎？" },
+        { "en": "He stepped on a lot of toes when he joined.", "zh": "他剛加入時得罪了很多人。" }
+      ]
+    },
+    {
+      "id": "on-it",
+      "term": "on it",
+      "meaning": "我來處理、我馬上辦",
+      "register": "casual",
+      "usage": "I'm on it. = 我正在處理 / 我馬上做。",
+      "risk": { "level": "safe", "note": "簡潔有力，同事間很常用。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "A: Can someone fix the typo? B: On it!", "zh": "A：有人可以改錯字嗎？ B：我來！" },
+        { "en": "Don't worry about the invoice. I'm on it.", "zh": "發票別擔心，我在處理。" }
+      ]
+    },
+    {
+      "id": "pass-the-buck",
+      "term": "pass the buck",
+      "meaning": "推卸責任",
+      "register": "casual",
+      "usage": "把責任推給別人。The buck stops here. = 責任由我承擔。",
+      "risk": { "level": "careful", "note": "指控別人 passing the buck 很重，說的時候要小心。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Stop passing the buck and take responsibility.", "zh": "別再推卸責任，負起責任吧。" },
+        { "en": "Every department kept passing the buck.", "zh": "每個部門都在互踢皮球。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u055-r1", "sourceUnit": 54, "type": "mcq", "question": "Which is the softest request?", "options": ["Send it now.", "It'd be great if you could send it today.", "You must send it."], "answer": 1, "explanation": "複習第 54 單元：It'd be great if…" },
+    { "id": "u055-r2", "sourceUnit": 53, "type": "fill", "question": "The deadline is tight. ___, we need extra help. (因此)", "answer": "Therefore|So|As a result", "explanation": "複習第 53 單元：Therefore,。" },
+    { "id": "u055-r3", "sourceUnit": 51, "type": "mcq", "question": "Which is strongest?", "options": ["I was involved in the launch.", "I launched the campaign in three markets.", "I helped the launch."], "answer": 1, "explanation": "複習第 51 單元：強動詞。" },
+    { "id": "u055-r4", "sourceUnit": 47, "type": "mcq", "question": "___ with engineering, we finished two days early.", "options": ["Working closely", "Worked closely", "Work closely"], "answer": 0, "explanation": "複習第 47 單元：分詞構句。" },
+    { "id": "u055-r5", "sourceUnit": 39, "type": "mcq", "question": "If marketing ___ the copy by Monday, we'll finish on time.", "options": ["sends", "will send", "sent"], "answer": 0, "explanation": "複習第 39 單元：type 1 if 子句用現在式。" },
+    { "id": "u055-r6", "sourceUnit": 23, "type": "fill", "question": "I'm looping ___ Ken from engineering.", "answer": "in", "explanation": "複習第 23 單元：loop in。" },
+    { "id": "u055-r7", "sourceUnit": 55, "type": "mcq", "question": "Which is correct?", "options": ["We'll figure out it.", "We'll figure it out.", "We'll figure it."], "answer": 1, "explanation": "代名詞放中間。" }
+  ]
+}

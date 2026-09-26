@@ -1,0 +1,148 @@
+{
+  "id": 51,
+  "module": 6,
+  "level": "B2-",
+  "title": { "zh": "面試", "en": "Job Interview" },
+  "scenario": {
+    "title": "英文面試：介紹經歷與成就",
+    "context": "英文面試最常卡在「講自己的成就」：台灣人習慣說「我負責…」「我參與了…」，聽起來很被動。英文面試要用強動詞（led、launched、increased）和具體數字，並用對時態區分過去的經歷和現在的能力。",
+    "dialogues": [
+      {
+        "title": "Tell me about yourself",
+        "lines": [
+          { "speaker": "Interviewer", "en": "So, tell me a bit about yourself.", "zh": "請簡單介紹一下你自己。" },
+          { "speaker": "Minz", "en": "Sure. I'm a brand designer with six years of experience, mostly in food and beverage.", "zh": "好的。我是品牌設計師，有六年經驗，主要在餐飲領域。" },
+          { "speaker": "Minz", "en": "At my last agency, I led the rebrand of a tea chain with over 40 stores. After the launch, their social media following grew by 60 percent.", "zh": "在上一間公司，我主導了一個超過 40 家店的茶飲品牌重塑，上線後他們的社群追蹤數成長了 60%。" },
+          { "speaker": "Interviewer", "en": "Impressive. And what have you been doing since then?", "zh": "很厲害。那之後你在做什麼？" },
+          { "speaker": "Minz", "en": "I've been freelancing for about a year. I've worked with twelve clients so far, so I've had to wear many hats: designer, project manager, and salesperson.", "zh": "我接案大概一年了，到目前為止合作過十二個客戶，所以我得身兼多職：設計師、專案經理、業務。" },
+          { "speaker": "Interviewer", "en": "Why do you want to join an in-house team now?", "zh": "為什麼現在想加入內部團隊？" },
+          { "speaker": "Minz", "en": "I miss collaborating every day. I'm a people person, and I do my best work with a team.", "zh": "我很懷念每天跟人合作。我很擅長跟人相處，在團隊中我的表現最好。" }
+        ]
+      },
+      {
+        "title": "Preparing with a friend",
+        "lines": [
+          { "speaker": "Jess", "en": "How did the interview go?", "zh": "面試怎麼樣？" },
+          { "speaker": "Minz", "en": "I think well. You were right. I had to sell myself more than I'm used to.", "zh": "應該不錯。你說得對，我得比平常更推銷自己。" },
+          { "speaker": "Jess", "en": "Did you mention the tea rebrand numbers?", "zh": "你有提到茶飲品牌重塑的數字嗎？" },
+          { "speaker": "Minz", "en": "Yes. Instead of saying I was responsible for it, I said I led it. It felt weird, but they seemed impressed.", "zh": "有。我沒有說我負責那個案子，而是說我主導了它。感覺很怪，但他們看起來很佩服。" },
+          { "speaker": "Jess", "en": "Good. They want someone who can hit the ground running.", "zh": "很好。他們要的是能馬上上手的人。" },
+          { "speaker": "Minz", "en": "Fingers crossed. They said they'd let me know by Friday.", "zh": "祈禱吧。他們說週五前會通知我。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "I have ___ years of experience in ___.", "zh": "我在 ___ 領域有 ___ 年經驗。" },
+      { "en": "I led a team of ___.", "zh": "我帶領一個 ___ 人的團隊。" },
+      { "en": "I increased ___ by ___ percent.", "zh": "我讓 ___ 成長了 ___%。" },
+      { "en": "I'm particularly proud of ___.", "zh": "我特別自豪的是 ___。" },
+      { "en": "My biggest strength is ___.", "zh": "我最大的優勢是 ___。" },
+      { "en": "One thing I'm working on is ___.", "zh": "我正在加強的一點是 ___。", "note": "回答「你的缺點」時很好用" },
+      { "en": "I'm looking for a role where I can ___.", "zh": "我在找一個能讓我 ___ 的職位。" },
+      { "en": "What does a typical day look like?", "zh": "這個職位的一天大概是怎樣？", "note": "反問面試官的好問題" },
+      { "en": "What are the next steps?", "zh": "接下來的流程是什麼？" },
+      { "en": "Thank you for your time.", "zh": "謝謝您撥時間。" }
+    ],
+    "chinglish": [
+      { "wrong": "I was responsible for the rebrand project.", "right": "I led the rebrand. / I managed the rebrand from start to finish.", "why": "be responsible for 是職務描述，聽起來像只在名單上。強動詞（led、designed、launched）才能展現你實際做了什麼。" },
+      { "wrong": "I have participated in many projects.", "right": "I've worked on over twenty projects, including ___.", "why": "participate 很模糊。用具體數字和例子。" },
+      { "wrong": "My English is not good, please forgive me.", "right": "(不用道歉，直接回答)", "why": "面試開頭先為英文道歉會讓對方把焦點放在你的弱點上。" },
+      { "wrong": "I am a hard-working person and I can eat bitter.", "right": "I'm resilient. I work well under pressure.", "why": "「吃苦耐勞」直翻 eat bitter 不是英文。" }
+    ]
+  },
+  "grammar": {
+    "id": "describing-achievements",
+    "title": "描述成就：強動詞＋時態",
+    "oneLiner": "講成就用「強動詞 + 具體結果 + 數字」；過去的工作用過去式，到現在的累積用現在完成式。",
+    "whenToUse": [
+      "過去的職位和成就用過去式：I led / launched / redesigned / increased…",
+      "到現在的經驗累積用現在完成式：I've worked with twelve clients so far.",
+      "持續中的工作用現在完成進行式：I've been freelancing for a year.",
+      "強動詞清單：led, launched, built, designed, grew, cut, increased, reduced, negotiated, streamlined。",
+      "結構：動詞 + 做了什麼 + 結果（數字）。I redesigned the menu, which increased average orders by 15%.",
+      "避免弱動詞：was responsible for, participated in, helped with, was involved in。"
+    ],
+    "whyWeGetItWrong": "中文職場習慣低調，履歷和面試常寫「負責」「參與」「協助」。直翻成英文會讓面試官覺得你只是跑腿的。英文面試文化期待你清楚說出自己的貢獻，這不是自大，而是讓對方能判斷你的能力。另外，時態也很關鍵：用錯了會讓人誤會你還在前一份工作。",
+    "examples": [
+      { "correct": "I launched a new product line that brought in 2 million NT dollars.", "incorrect": "I was involved in a new product line.", "note": "強動詞 + 數字。" },
+      { "correct": "I've managed over thirty client projects.", "note": "到現在為止的累積，用現在完成式。" },
+      { "correct": "I've been leading the design team since 2024.", "note": "持續中的職責。" },
+      { "correct": "I cut production time by 30% by creating a template system.", "note": "by + V-ing 說明方法。" },
+      { "correct": "At my last job, I trained five junior designers.", "incorrect": "At my last job, I have trained five junior designers.", "note": "已經離職的工作用過去式。" }
+    ],
+    "quiz": [
+      { "id": "u051-g1", "type": "mcq", "question": "Which sounds strongest in an interview?", "options": ["I was responsible for the website.", "I participated in the website.", "I redesigned the website, which doubled sign-ups."], "answer": 2, "explanation": "強動詞 + 具體結果。" },
+      { "id": "u051-g2", "type": "mcq", "question": "At my previous company, I ___ a team of four.", "options": ["have managed", "managed", "am managing"], "answer": 1, "explanation": "已經離開的工作用過去式。" },
+      { "id": "u051-g3", "type": "fill", "question": "I've ___ (work) with over fifty clients so far.", "answer": "worked", "explanation": "so far 用現在完成式。" },
+      { "id": "u051-g4", "type": "mcq", "question": "I ___ as a freelancer since last year.", "options": ["work", "'ve been working", "worked"], "answer": 1, "explanation": "since + 持續到現在，用完成進行式。" },
+      { "id": "u051-g5", "type": "fill", "question": "I reduced costs by 20% ___ switching suppliers.", "answer": "by", "explanation": "by + V-ing 說明方法。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "hit-the-ground-running",
+      "term": "hit the ground running",
+      "meaning": "一上任就馬上進入狀況",
+      "register": "neutral",
+      "usage": "不需要太多適應期，立刻開始有產出。職缺描述很常見。",
+      "risk": { "level": "safe", "note": "職場標準用語。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "We need someone who can hit the ground running.", "zh": "我們需要能馬上上手的人。" },
+        { "en": "Thanks to the training, I hit the ground running on day one.", "zh": "多虧了訓練，我第一天就進入狀況。" }
+      ]
+    },
+    {
+      "id": "sell-yourself",
+      "term": "sell yourself",
+      "meaning": "推銷自己",
+      "register": "neutral",
+      "usage": "在面試或提案時展現自己的價值。",
+      "risk": { "level": "safe", "note": "正面用語，不帶貶義。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "You need to sell yourself more in interviews.", "zh": "你面試時要多推銷自己。" },
+        { "en": "I'm bad at selling myself, but I'm working on it.", "zh": "我不太會推銷自己，但我在練習。" }
+      ]
+    },
+    {
+      "id": "people-person",
+      "term": "people person",
+      "meaning": "很擅長跟人相處的人",
+      "register": "neutral",
+      "usage": "喜歡和人互動、善於溝通的人。I'm a people person.",
+      "risk": { "level": "safe", "note": "面試常用，但太常被用，最好搭配具體例子。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "She's a real people person. Clients love her.", "zh": "她很會跟人相處，客戶都很喜歡她。" },
+        { "en": "I'm not much of a people person. I prefer working alone.", "zh": "我不太擅長跟人打交道，比較喜歡一個人做事。" }
+      ]
+    },
+    {
+      "id": "wear-many-hats",
+      "term": "wear many hats",
+      "meaning": "身兼多職",
+      "register": "neutral",
+      "usage": "在小公司或自由接案時一人扮演多種角色。",
+      "risk": { "level": "safe", "note": "面試和履歷常用，帶正面意涵。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "At a startup, everyone wears many hats.", "zh": "在新創公司，每個人都身兼多職。" },
+        { "en": "As a freelancer, I wear many hats: designer, accountant, and marketer.", "zh": "接案者要身兼多職：設計、會計、行銷。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u051-r1", "sourceUnit": 50, "type": "mcq", "question": "By the time I left the agency, I ___ there for five years.", "options": ["worked", "had worked", "have worked"], "answer": 1, "explanation": "複習第 50 單元：過去完成式。" },
+    { "id": "u051-r2", "sourceUnit": 49, "type": "fill", "question": "I ___ have prepared more examples. (後悔)", "answer": "should", "explanation": "複習第 49 單元：should have + p.p.。" },
+    { "id": "u051-r3", "sourceUnit": 47, "type": "mcq", "question": "___ the interview, I felt confident.", "options": ["Having prepared for", "Prepared for", "Prepare for"], "answer": 0, "explanation": "複習第 47 單元：having + p.p. 表先完成。" },
+    { "id": "u051-r4", "sourceUnit": 43, "type": "mcq", "question": "The interviewer ___ to like my portfolio.", "options": ["seemed", "seems like", "was seem"], "answer": 0, "explanation": "複習第 43 單元：seem to V。" },
+    { "id": "u051-r5", "sourceUnit": 35, "type": "mcq", "question": "You had three interviews today? You ___ be exhausted.", "options": ["must", "can't", "should"], "answer": 0, "explanation": "複習第 35 單元：must 推測。" },
+    { "id": "u051-r6", "sourceUnit": 19, "type": "mcq", "question": "___ impressive portfolio!", "options": ["What an", "How", "What"], "answer": 0, "explanation": "複習第 19 單元：What an + 形容詞 + 名詞。" },
+    { "id": "u051-r7", "sourceUnit": 51, "type": "fill", "question": "At a small company, you have to wear many ___.", "answer": "hats", "explanation": "wear many hats = 身兼多職。" }
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "id": 60,
+  "module": 6,
+  "level": "B2-",
+  "title": { "zh": "整合：尾牙", "en": "Review: Year-End Party" },
+  "scenario": {
+    "title": "公司尾牙：致詞、抽獎、跟主管聊天",
+    "context": "第六章的收尾：外商公司的尾牙。你要跟老闆聊過去一年、用委婉的方式提建議、上台簡短致詞，還要應付抽獎和敬酒。這一章的 used to、連接詞、軟化語氣、What 子句都會派上用場。",
+    "dialogues": [
+      {
+        "title": "Chatting with the director",
+        "lines": [
+          { "speaker": "Director", "en": "Minz! Having a good time?", "zh": "Minz！玩得開心嗎？" },
+          { "speaker": "Minz", "en": "I am, thanks. I'm still not used to seeing everyone this dressed up, though.", "zh": "很開心，謝謝。不過我還是不習慣看到大家打扮成這樣。" },
+          { "speaker": "Director", "en": "Ha! So, how's your first year been?", "zh": "哈！那你第一年過得如何？" },
+          { "speaker": "Minz", "en": "Honestly, it's been great. I used to worry about fitting in, but the team has been amazing.", "zh": "說真的很棒。我以前擔心融不進去，但團隊很棒。" },
+          { "speaker": "Director", "en": "Glad to hear it. Anything we could do better?", "zh": "很高興聽到。有什麼我們可以做得更好的嗎？" },
+          { "speaker": "Minz", "en": "Well, it might be worth having clearer approval steps. What slows us down most is waiting for sign-off.", "zh": "嗯，也許可以考慮讓核准流程更清楚。最拖慢我們的是等簽核。" },
+          { "speaker": "Director", "en": "That's fair. However, I think we've improved since the new system. Let's discuss it in January.", "zh": "有道理。不過我覺得用了新系統後有改善了。我們一月再討論。" },
+          { "speaker": "Minz", "en": "Sounds great. Thanks for being such a good sport about the feedback.", "zh": "好的。謝謝你這麼有風度接受回饋。" }
+        ]
+      },
+      {
+        "title": "The toast",
+        "lines": [
+          { "speaker": "Karen", "en": "Minz, will you say a few words for the design team?", "zh": "Minz，可以代表設計團隊說幾句話嗎？" },
+          { "speaker": "Minz", "en": "Oh no. OK, sure.", "zh": "天啊。好，沒問題。" },
+          { "speaker": "Minz", "en": "Hi everyone. This year was tough. Although we had some crazy deadlines, we never let each other down.", "zh": "大家好。今年很辛苦。雖然有一些瘋狂的截止日，但我們從沒讓彼此失望。" },
+          { "speaker": "Minz", "en": "What I'm most proud of isn't a single project. It's how we supported each other.", "zh": "我最自豪的不是某個案子，而是我們怎麼互相扶持。" },
+          { "speaker": "Minz", "en": "We've been on a roll since the summer, so let's keep it going. Please raise a glass to the team!", "zh": "我們從夏天開始就一路順風，讓我們繼續保持。請大家為團隊舉杯！" },
+          { "speaker": "Everyone", "en": "Cheers!", "zh": "乾杯！" },
+          { "speaker": "Daniel", "en": "Nice speech. Now let your hair down and enjoy the night!", "zh": "講得好。現在放輕鬆好好享受今晚吧！" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "I'd like to say a few words.", "zh": "我想說幾句話。" },
+      { "en": "This year has been ___.", "zh": "今年是 ___ 的一年。" },
+      { "en": "I couldn't have done it without ___.", "zh": "沒有 ___ 我做不到。" },
+      { "en": "What I'm most proud of is ___.", "zh": "我最自豪的是 ___。" },
+      { "en": "Here's to another great year!", "zh": "敬另一個美好的一年！" },
+      { "en": "Please raise your glasses.", "zh": "請大家舉杯。" },
+      { "en": "Thanks for all your hard work.", "zh": "謝謝大家的辛勞。" },
+      { "en": "It might be worth ___.", "zh": "也許值得 ___。", "note": "委婉提建議" },
+      { "en": "Let's keep the momentum going.", "zh": "讓我們保持這股氣勢。" },
+      { "en": "Happy New Year, everyone!", "zh": "大家新年快樂！" }
+    ],
+    "chinglish": [
+      { "wrong": "Thank you boss, boss is very good.", "right": "Thanks, Karen. You've been an amazing manager.", "why": "英文不用 boss 當稱呼。直接叫名字並具體稱讚。" },
+      { "wrong": "Everyone work hard, everyone happy.", "right": "Thanks for all your hard work. Enjoy the night!", "why": "中文口號式的致詞直翻缺主詞動詞，聽起來不完整。" },
+      { "wrong": "Although this year is hard, but we did it.", "right": "Although this year was hard, we did it.", "why": "複習第 53 單元：although 和 but 只能選一個；而且今年已經過去，用 was。" },
+      { "wrong": "Drink it all! Ganbei!", "right": "Cheers! / Bottoms up!", "why": "英文敬酒用 Cheers。Bottoms up（第 80 單元）才是「乾杯喝光」，但外國人通常不會逼你喝完。" }
+    ]
+  },
+  "grammar": {
+    "id": "review-used-to-linkers-softening",
+    "title": "used to、連接詞、軟化語氣",
+    "oneLiner": "職場進階的三個工具：用 used to / be used to 講改變、用連接詞組織論點、用軟化語氣提建議。",
+    "whenToUse": [
+      "講過去與現在的對比：I used to worry… / I'm not used to… / I've gotten used to…",
+      "組織論點：Although…, … / However, … / Therefore, … / What I'm most proud of is…",
+      "委婉建議：It might be worth… / You might want to… / It'd be great if…",
+      "描述成就：We launched… / We've grown by…（第 51 單元）",
+      "未來目標：By next year, we'll have…（第 56 單元）",
+      "補充說明：Karen, who led the project, …（第 57 單元）"
+    ],
+    "whyWeGetItWrong": "這一章的每個文法點都和「職場溝通的分寸」有關：中文靠語氣和關係拿捏分寸，英文則靠句型。尾牙這種場合同時需要正式（致詞）、委婉（跟主管提建議）、輕鬆（跟同事聊天），是練習切換語域的好機會。第 85 單元會更系統地講語域。",
+    "examples": [
+      { "correct": "I used to hate public speaking, but I'm getting used to it.", "note": "used to + V vs get used to + V-ing。" },
+      { "correct": "Although we missed one deadline, we delivered every project.", "incorrect": "Although we missed one deadline, but we delivered every project.", "note": "although 和 but 選一個。" },
+      { "correct": "It might be worth hiring another designer next year.", "note": "委婉建議。" },
+      { "correct": "What made this year special was the team.", "note": "What 子句強調。" },
+      { "correct": "By next December, we'll have doubled our client list.", "note": "未來完成式。" }
+    ],
+    "quiz": [
+      { "id": "u060-g1", "type": "mcq", "question": "I ___ nervous at parties, but now I enjoy them.", "options": ["used to be", "am used to be", "used to being"], "answer": 0, "explanation": "以前常：used to + 原形。" },
+      { "id": "u060-g2", "type": "mcq", "question": "It was a hard year. ___, we grew by 20%.", "options": ["Although", "However", "Because"], "answer": 1, "explanation": "開新句子轉折：However,。" },
+      { "id": "u060-g3", "type": "fill", "question": "___ I'm most grateful for is this team.", "answer": "What", "explanation": "What 子句當主詞。" },
+      { "id": "u060-g4", "type": "mcq", "question": "Which is the most diplomatic suggestion?", "options": ["We must change the process.", "It might be worth reviewing the process.", "The process is bad."], "answer": 1, "explanation": "It might be worth… 委婉。" },
+      { "id": "u060-g5", "type": "fill", "question": "I'm still getting used to ___ (give) speeches.", "answer": "giving", "explanation": "get used to + V-ing。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "raise-a-glass",
+      "term": "raise a glass",
+      "meaning": "舉杯敬酒",
+      "register": "neutral",
+      "usage": "Let's raise a glass to… = 讓我們為…舉杯。",
+      "risk": { "level": "safe", "note": "正式場合也適合。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Let's raise a glass to the happy couple.", "zh": "讓我們為新人舉杯。" },
+        { "en": "Please raise a glass to Karen for an amazing year.", "zh": "請大家為 Karen 帶來精彩的一年舉杯。" }
+      ]
+    },
+    {
+      "id": "let-your-hair-down",
+      "term": "let your hair down",
+      "meaning": "放輕鬆、卸下拘束",
+      "register": "casual",
+      "usage": "平常很正經的人放開來玩。",
+      "risk": { "level": "safe", "note": "友善的邀請。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "It's the year-end party. Let your hair down!", "zh": "這是尾牙，放開來玩吧！" },
+        { "en": "It's nice to see the boss let her hair down for once.", "zh": "難得看到老闆放輕鬆，真好。" }
+      ]
+    },
+    {
+      "id": "a-good-sport",
+      "term": "a good sport",
+      "meaning": "有風度的人、玩得起的人",
+      "register": "casual",
+      "usage": "願意配合、輸了或被開玩笑也不生氣的人。Be a good sport.",
+      "risk": { "level": "safe", "note": "正面稱讚。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Thanks for being a good sport about the costume.", "zh": "謝謝你願意配合穿那套服裝。" },
+        { "en": "He lost the game but was a good sport about it.", "zh": "他輸了比賽，但很有風度。" }
+      ]
+    },
+    {
+      "id": "on-a-roll",
+      "term": "on a roll",
+      "meaning": "一路順風、手氣正旺",
+      "register": "casual",
+      "usage": "連續成功、狀態很好。",
+      "risk": { "level": "safe", "note": "正面輕鬆。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "We've won three pitches in a row. We're on a roll!", "zh": "我們連續拿下三個提案，一路順風！" },
+        { "en": "Don't stop now. You're on a roll.", "zh": "現在別停，你狀態正好。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u060-r1", "sourceUnit": 59, "type": "mcq", "question": "___ I love about this team is the trust.", "options": ["What", "That", "Which"], "answer": 0, "explanation": "複習第 59 單元：What 子句。" },
+    { "id": "u060-r2", "sourceUnit": 58, "type": "mcq", "question": "I'm not used to ___ in front of people.", "options": ["speak", "speaking", "spoke"], "answer": 1, "explanation": "複習第 58 單元：be used to + V-ing。" },
+    { "id": "u060-r3", "sourceUnit": 57, "type": "fill", "question": "Our CEO, ___ started the company in 2010, gave a speech.", "answer": "who", "explanation": "複習第 57 單元：非限定子句。" },
+    { "id": "u060-r4", "sourceUnit": 56, "type": "mcq", "question": "By next year, we ___ fifty new clients.", "options": ["will have signed", "will sign", "signed"], "answer": 0, "explanation": "複習第 56 單元：未來完成式。" },
+    { "id": "u060-r5", "sourceUnit": 55, "type": "fill", "question": "Who came up ___ the idea for the party theme?", "answer": "with", "explanation": "複習第 55 單元：come up with。" },
+    { "id": "u060-r6", "sourceUnit": 54, "type": "mcq", "question": "Which feedback is softest?", "options": ["The speech was too long.", "The speech might have been a bit long.", "Bad speech."], "answer": 1, "explanation": "複習第 54 單元：軟化語氣。" },
+    { "id": "u060-r7", "sourceUnit": 53, "type": "mcq", "question": "Which is correct?", "options": ["Although it was hard, but we won.", "Although it was hard, we won.", "Although hard, but won."], "answer": 1, "explanation": "複習第 53 單元：although 不配 but。" },
+    { "id": "u060-r8", "sourceUnit": 52, "type": "mcq", "question": "The bonus will ___ be announced next week.", "options": ["probably", "maybe", "likely"], "answer": 0, "explanation": "複習第 52 單元：will probably。" },
+    { "id": "u060-r9", "sourceUnit": 44, "type": "mcq", "question": "I recommend ___ the dumplings. They're amazing.", "options": ["you to try", "trying", "to try you"], "answer": 1, "explanation": "複習第 44 單元：recommend + V-ing。" },
+    { "id": "u060-r10", "sourceUnit": 28, "type": "fill", "question": "I ___ (give) my speech when the mic stopped working.", "answer": "was giving", "explanation": "複習第 28 單元：被打斷的背景用過去進行式。" },
+    { "id": "u060-r11", "sourceUnit": 60, "type": "fill", "question": "We've won three awards this year. We're on a ___!", "answer": "roll", "explanation": "on a roll = 一路順風。" }
+  ]
+}

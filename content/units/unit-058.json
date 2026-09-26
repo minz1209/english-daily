@@ -1,0 +1,149 @@
+{
+  "id": 58,
+  "module": 6,
+  "level": "B2-",
+  "title": { "zh": "想離職", "en": "Thinking of Quitting" },
+  "scenario": {
+    "title": "跟朋友討論換工作",
+    "context": "考慮離職時，常會比較過去和現在：「我以前很喜歡這份工作」「我還是不習慣加班」「我慢慢習慣了」。used to、be used to、get used to 看起來很像，意思卻完全不同，是台灣人最常搞混的一組。",
+    "dialogues": [
+      {
+        "title": "Venting to a friend",
+        "lines": [
+          { "speaker": "Leo", "en": "I think I'm done with my job.", "zh": "我覺得我受夠我的工作了。" },
+          { "speaker": "Minz", "en": "What? You used to love it!", "zh": "什麼？你以前很愛的！" },
+          { "speaker": "Leo", "en": "I did. I used to look forward to Mondays. Now I dread them.", "zh": "是啊。我以前很期待星期一，現在超怕。" },
+          { "speaker": "Minz", "en": "What changed?", "zh": "發生什麼改變了？" },
+          { "speaker": "Leo", "en": "New management. I'm working until ten every night, and I'm just not used to it.", "zh": "新管理層。我每天都工作到十點，實在不習慣。" },
+          { "speaker": "Minz", "en": "That sounds exhausting. You sound completely burnt out.", "zh": "聽起來好累，你聽起來完全燃燒殆盡了。" },
+          { "speaker": "Leo", "en": "I am. And there's no promotion in sight. It feels like a dead-end job.", "zh": "是啊，而且完全看不到升遷，感覺是份沒前途的工作。" }
+        ]
+      },
+      {
+        "title": "Thinking it through",
+        "lines": [
+          { "speaker": "Minz", "en": "Have you started looking?", "zh": "你開始找了嗎？" },
+          { "speaker": "Leo", "en": "A little. A startup offered me a job, but I'm scared to jump ship.", "zh": "有一點。一家新創給我 offer，但我不敢跳槽。" },
+          { "speaker": "Minz", "en": "Why? Startups are fun.", "zh": "為什麼？新創很好玩啊。" },
+          { "speaker": "Leo", "en": "I'm used to having a stable paycheck. I'm not sure I could get used to all that uncertainty.", "zh": "我習慣有穩定的薪水了，我不確定能不能適應那麼多不確定性。" },
+          { "speaker": "Minz", "en": "You'd get used to it. I did when I started freelancing.", "zh": "你會習慣的，我剛開始接案時也是。" },
+          { "speaker": "Leo", "en": "True. But what if the grass isn't actually greener?", "zh": "也對。但如果那邊其實也沒比較好呢？" },
+          { "speaker": "Minz", "en": "Then at least you'll know. Staying somewhere that makes you miserable isn't safe either.", "zh": "那至少你會知道。待在讓你痛苦的地方也不叫安全。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "I'm thinking of quitting.", "zh": "我在考慮離職。" },
+      { "en": "I used to love this job.", "zh": "我以前很愛這份工作。" },
+      { "en": "I'm not used to ___.", "zh": "我不習慣 ___。" },
+      { "en": "I'm still getting used to ___.", "zh": "我還在適應 ___。" },
+      { "en": "It's time for a change.", "zh": "是時候改變了。" },
+      { "en": "I'm ready for a new challenge.", "zh": "我準備好迎接新挑戰了。" },
+      { "en": "I gave my notice today.", "zh": "我今天提離職了。" },
+      { "en": "My last day is ___.", "zh": "我最後一天是 ___。" },
+      { "en": "I've learned a lot here.", "zh": "我在這裡學到很多。", "note": "離職時的得體話" },
+      { "en": "Let's keep in touch.", "zh": "保持聯絡。" }
+    ],
+    "chinglish": [
+      { "wrong": "I used to work overtime now.", "right": "I'm used to working overtime now.", "why": "used to + V 是「以前常…（現在不了）」。「習慣」要用 be used to + V-ing。" },
+      { "wrong": "I am used to work overtime.", "right": "I'm used to working overtime.", "why": "be used to 的 to 是介系詞，後面接 V-ing（複習第 14 單元：介系詞後接 V-ing）。" },
+      { "wrong": "I want to resign my job.", "right": "I want to quit my job. / I'm going to resign.", "why": "resign 通常不直接接 my job，說 resign from 或 quit。口語最常說 quit。" },
+      { "wrong": "I use to live in Tainan.", "right": "I used to live in Tainan.", "why": "肯定句一定是 used to。只有在 did 後面才用 use to：Did you use to…?" }
+    ]
+  },
+  "grammar": {
+    "id": "used-to-be-used-to-get-used-to",
+    "title": "used to / be used to / get used to",
+    "oneLiner": "used to + V = 以前常（現在不了）；be used to + V-ing = 習慣；get used to + V-ing = 逐漸習慣。",
+    "whenToUse": [
+      "used to + 原形：過去的習慣或狀態，現在已經不是了。I used to love Mondays.",
+      "否定和問句：didn't use to / Did you use to…?（沒有 d）",
+      "be used to + 名詞 / V-ing：已經習慣。I'm used to working late.",
+      "get used to + 名詞 / V-ing：逐漸習慣的過程。You'll get used to it.",
+      "be / get used to 可以用各種時態：I'm getting used to it. / I've gotten used to it.",
+      "判斷訣竅：後面是原形就是「以前」；後面是 V-ing 或名詞就是「習慣」。"
+    ],
+    "whyWeGetItWrong": "三個結構都有 used to，但意思和後面接的東西都不一樣。中文的「以前」和「習慣」是完全不同的詞，所以台灣人很難從字面分辨。另外 be used to 的 to 是介系詞，後面要接 V-ing，這一點特別反直覺，因為我們習慣 to 後面接原形。",
+    "examples": [
+      { "correct": "I used to work at a bank.", "note": "以前在銀行工作，現在沒有。" },
+      { "correct": "I'm used to waking up early.", "incorrect": "I'm used to wake up early.", "note": "be used to + V-ing。" },
+      { "correct": "It took me a year to get used to the new system.", "note": "逐漸習慣的過程。" },
+      { "correct": "Did you use to live in Kaohsiung?", "incorrect": "Did you used to live in Kaohsiung?", "note": "did 後面用 use to。" },
+      { "correct": "I didn't use to like coffee, but now I love it.", "note": "否定。" }
+    ],
+    "quiz": [
+      { "id": "u058-g1", "type": "mcq", "question": "I ___ play basketball every day, but now I don't have time.", "options": ["used to", "am used to", "get used to"], "answer": 0, "explanation": "以前常做、現在不了：used to + 原形。" },
+      { "id": "u058-g2", "type": "mcq", "question": "I've lived in Taipei for years, so I'm used to ___ the MRT.", "options": ["take", "taking", "took"], "answer": 1, "explanation": "be used to + V-ing。" },
+      { "id": "u058-g3", "type": "fill", "question": "Don't worry. You'll get used to ___ (work) from home.", "answer": "working", "explanation": "get used to + V-ing。" },
+      { "id": "u058-g4", "type": "mcq", "question": "Which is correct?", "options": ["Did you used to smoke?", "Did you use to smoke?", "Did you using to smoke?"], "answer": 1, "explanation": "did 後面用 use to。" },
+      { "id": "u058-g5", "type": "mcq", "question": "\"I'm used to spicy food\" means:", "options": ["I ate spicy food in the past.", "Spicy food is normal for me.", "I'm starting to like spicy food."], "answer": 1, "explanation": "be used to = 習慣了。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "burnt-out",
+      "term": "burnt out",
+      "meaning": "燃燒殆盡、職業倦怠",
+      "register": "neutral",
+      "usage": "長期壓力導致身心疲憊。名詞 burnout。美式也拼 burned out。",
+      "risk": { "level": "safe", "note": "現在是很正式被承認的概念，跟主管或 HR 講也可以。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "After three years of overtime, I was completely burnt out.", "zh": "加班三年後，我完全燃燒殆盡了。" },
+        { "en": "Take a break before you burn out.", "zh": "在倦怠之前休息一下。" }
+      ]
+    },
+    {
+      "id": "jump-ship",
+      "term": "jump ship",
+      "meaning": "跳槽、離開（組織）",
+      "register": "casual",
+      "usage": "突然離開公司或團隊，常帶「在困難時離開」的意味。",
+      "risk": { "level": "careful", "note": "說別人 jump ship 可能暗示不忠誠。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Half the team jumped ship after the merger.", "zh": "合併後團隊一半的人跳槽了。" },
+        { "en": "I'm not ready to jump ship yet.", "zh": "我還沒準備好跳槽。" }
+      ]
+    },
+    {
+      "id": "greener-pastures",
+      "term": "greener pastures",
+      "meaning": "更好的機會、更好的地方",
+      "register": "neutral",
+      "usage": "leave for greener pastures = 離開去找更好的機會。相關俗語：The grass is always greener on the other side.（外國的月亮比較圓）",
+      "risk": { "level": "safe", "note": "中性，離職公告也會用。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "She left for greener pastures in Singapore.", "zh": "她去新加坡找更好的發展了。" },
+        { "en": "Remember, the grass isn't always greener on the other side.", "zh": "記住，別人家的草不一定比較綠。" }
+      ]
+    },
+    {
+      "id": "dead-end-job",
+      "term": "dead-end job",
+      "meaning": "沒前途的工作",
+      "register": "neutral",
+      "usage": "沒有升遷、沒有成長空間的工作。",
+      "risk": { "level": "careful", "note": "說別人的工作是 dead-end 很失禮。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "I spent five years in a dead-end job before I went back to school.", "zh": "我在一份沒前途的工作待了五年才回去念書。" },
+        { "en": "No job is a dead-end if you're learning something.", "zh": "只要還在學習，沒有工作是沒前途的。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u058-r1", "sourceUnit": 57, "type": "mcq", "question": "My old boss, ___ I really respected, retired last year.", "options": ["that", "whom", "which"], "answer": 1, "explanation": "複習第 57 單元：非限定子句不用 that（whom / who 當受詞）。" },
+    { "id": "u058-r2", "sourceUnit": 56, "type": "fill", "question": "By next March, I ___ have worked here for five years.", "answer": "will|'ll", "explanation": "複習第 56 單元：未來完成式。" },
+    { "id": "u058-r3", "sourceUnit": 54, "type": "mcq", "question": "Which is the softest?", "options": ["You must quit.", "You might want to think about other options.", "Quit now."], "answer": 1, "explanation": "複習第 54 單元：軟化語氣。" },
+    { "id": "u058-r4", "sourceUnit": 50, "type": "mcq", "question": "By the time I quit, I ___ there for six years.", "options": ["worked", "had worked", "have worked"], "answer": 1, "explanation": "複習第 50 單元：過去完成式。" },
+    { "id": "u058-r5", "sourceUnit": 42, "type": "fill", "question": "Three people got ___ (fire) last week.", "answer": "fired", "explanation": "複習第 42 單元：get + p.p.。" },
+    { "id": "u058-r6", "sourceUnit": 26, "type": "mcq", "question": "I ___ about quitting for months.", "options": ["'ve been thinking", "think", "'m thinking since"], "answer": 0, "explanation": "複習第 26 單元：完成進行式。" },
+    { "id": "u058-r7", "sourceUnit": 58, "type": "mcq", "question": "Which is correct?", "options": ["I'm used to work late.", "I'm used to working late.", "I used to working late."], "answer": 1, "explanation": "be used to + V-ing。" }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "id": 59,
+  "module": 6,
+  "level": "B2-",
+  "title": { "zh": "斜槓接案", "en": "Side Hustles" },
+  "scenario": {
+    "title": "聊接案、斜槓和自由工作",
+    "context": "聊自由接案時，常會強調重點：「我最喜歡的是時間自由」「我需要的是穩定的客戶」。英文用 What I love is… / What I need is… 這種名詞子句把重點放在句尾，聽起來更有說服力，也是很好用的簡報句型。",
+    "dialogues": [
+      {
+        "title": "At a networking event",
+        "lines": [
+          { "speaker": "Guest", "en": "So what do you do?", "zh": "所以你是做什麼的？" },
+          { "speaker": "Minz", "en": "I'm a freelance illustrator. I work mostly with food brands.", "zh": "我是自由插畫家，主要跟餐飲品牌合作。" },
+          { "speaker": "Guest", "en": "Nice! Was that always the plan?", "zh": "不錯！一開始就是這樣計畫的嗎？" },
+          { "speaker": "Minz", "en": "Not at all. It started as a side hustle while I was working at an agency.", "zh": "完全不是。一開始是我在廣告公司工作時的副業。" },
+          { "speaker": "Guest", "en": "What made you go full-time?", "zh": "什麼讓你決定全職做？" },
+          { "speaker": "Minz", "en": "What I realized was that I had more fun doing my own gigs than my day job.", "zh": "我發現的是，做自己的案子比做正職開心多了。" },
+          { "speaker": "Guest", "en": "Being your own boss must be great.", "zh": "自己當老闆一定很棒。" },
+          { "speaker": "Minz", "en": "What I love is the freedom. What I don't love is chasing invoices.", "zh": "我喜歡的是自由，不喜歡的是追款項。" }
+        ]
+      },
+      {
+        "title": "Advice for a friend",
+        "lines": [
+          { "speaker": "Leo", "en": "I'm thinking of starting a side hustle. Any tips?", "zh": "我在考慮開始做副業，有什麼建議嗎？" },
+          { "speaker": "Minz", "en": "What matters most is having a few steady clients before you quit.", "zh": "最重要的是在辭職前先有幾個穩定的客戶。" },
+          { "speaker": "Leo", "en": "Makes sense. What else?", "zh": "有道理。還有呢？" },
+          { "speaker": "Minz", "en": "What nobody tells you is how much time admin takes. Contracts, taxes, emails…", "zh": "沒人告訴你的是行政有多花時間：合約、報稅、回信……" },
+          { "speaker": "Leo", "en": "Ugh. I just want to hustle and make stuff.", "zh": "唉，我只想拚命做東西。" },
+          { "speaker": "Minz", "en": "What you need, then, is a good system. I'll show you mine.", "zh": "那你需要的是一套好的系統，我給你看我的。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "What I love about it is ___.", "zh": "我喜歡它的地方是 ___。" },
+      { "en": "What I need is ___.", "zh": "我需要的是 ___。" },
+      { "en": "What matters most is ___.", "zh": "最重要的是 ___。" },
+      { "en": "What surprised me was ___.", "zh": "讓我意外的是 ___。" },
+      { "en": "It started as a side project.", "zh": "它一開始是個副業。" },
+      { "en": "I work with clients in ___.", "zh": "我的客戶在 ___ 領域。" },
+      { "en": "What are your rates?", "zh": "你的收費是多少？" },
+      { "en": "I charge by the project.", "zh": "我按案計價。" },
+      { "en": "Do you have a portfolio?", "zh": "你有作品集嗎？" },
+      { "en": "Let's stay in touch.", "zh": "保持聯絡。" }
+    ],
+    "chinglish": [
+      { "wrong": "The thing I like is freedom is very important.", "right": "What I like is the freedom.", "why": "中文「我喜歡的是自由」直翻時常多加一個動詞。What I like is + 名詞 就夠了。" },
+      { "wrong": "What I need is have more clients.", "right": "What I need is more clients. / What I need is to find more clients.", "why": "is 後面接名詞或 to V，不能直接接原形動詞。" },
+      { "wrong": "I am a slash youth.", "right": "I have a few side hustles. / I have a portfolio career.", "why": "「斜槓青年」是中文特有說法，英文不這樣說。" },
+      { "wrong": "I do case.", "right": "I freelance. / I take on freelance projects.", "why": "「接案」直翻 do case 不是英文。" }
+    ]
+  },
+  "grammar": {
+    "id": "what-clauses",
+    "title": "名詞子句 What I need is…",
+    "oneLiner": "What + 主詞 + 動詞 可以當成一個名詞（= the thing that），放在句首把重點延到句尾。",
+    "whenToUse": [
+      "What 子句當主詞：What I love is the freedom.",
+      "What 子句當受詞：I don't know what I want. / That's exactly what I meant.",
+      "What… is / was + 名詞 / to V / that 子句：What I need is to rest. / What surprised me was that nobody complained.",
+      "動詞用單數（is / was），因為整個 What 子句算一件事。",
+      "這種句型在簡報、面試、寫作中很有力：What makes us different is…",
+      "注意語序：What I need（不是 What do I need）。"
+    ],
+    "whyWeGetItWrong": "中文「我需要的是…」「讓我意外的是…」的結構很常見，但台灣人翻成英文時常用 The thing that… 或把問句語序帶進來（What do I need is…）。其實 What + 肯定語序就能當名詞用，和第 27 單元的間接問句是同樣的語序規則。",
+    "examples": [
+      { "correct": "What I need is a break.", "incorrect": "What do I need is a break.", "note": "What 子句用肯定語序。" },
+      { "correct": "What surprised me was how friendly everyone was.", "note": "強調意外的事。" },
+      { "correct": "That's not what I said.", "note": "What 子句當受詞。" },
+      { "correct": "What makes our studio different is our focus on food brands.", "note": "簡報常用。" },
+      { "correct": "What I want to do is start my own studio.", "note": "What… is + (to) V。" }
+    ],
+    "quiz": [
+      { "id": "u059-g1", "type": "mcq", "question": "___ is more time with my family.", "options": ["What do I want", "What I want", "That I want"], "answer": 1, "explanation": "What 子句用肯定語序。" },
+      { "id": "u059-g2", "type": "fill", "question": "___ surprised me was how fast it grew.", "answer": "What", "explanation": "What + 動詞 = 讓…的事。" },
+      { "id": "u059-g3", "type": "mcq", "question": "What I need ___ a better laptop.", "options": ["are", "is", "be"], "answer": 1, "explanation": "What 子句當主詞用單數 is。" },
+      { "id": "u059-g4", "type": "mcq", "question": "That's exactly ___ I was thinking.", "options": ["that", "what", "which"], "answer": 1, "explanation": "what = the thing that。" },
+      { "id": "u059-g5", "type": "fill", "question": "What I want ___ do is travel for a year.", "answer": "to", "explanation": "What I want to do is…" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "side-hustle",
+      "term": "side hustle",
+      "meaning": "副業、斜槓",
+      "register": "casual",
+      "usage": "正職以外賺錢的工作，通常帶有熱情或創業意味。",
+      "risk": { "level": "safe", "note": "很普遍，但跟正職主管提到時要注意公司規定。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "My side hustle is selling illustrated stickers online.", "zh": "我的副業是在網路上賣插畫貼紙。" },
+        { "en": "Her side hustle eventually became her full-time job.", "zh": "她的副業最後變成全職工作。" }
+      ]
+    },
+    {
+      "id": "gig",
+      "term": "gig",
+      "meaning": "（短期）工作、案子、演出",
+      "register": "casual",
+      "usage": "a gig = 一份臨時工作或一場演出。gig economy = 零工經濟。",
+      "risk": { "level": "safe", "note": "日常用語。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "I got a new gig designing a menu for a café.", "zh": "我接到一個幫咖啡店設計菜單的新案子。" },
+        { "en": "The band has a gig on Saturday.", "zh": "樂團週六有一場演出。" }
+      ]
+    },
+    {
+      "id": "hustle",
+      "term": "hustle",
+      "meaning": "拚命努力、積極打拚",
+      "register": "casual",
+      "usage": "動詞 hustle = 很拚；名詞 the hustle。注意 hustle 也有「詐騙」的意思，看語境。",
+      "risk": { "level": "careful", "note": "hustle culture（拚命文化）現在常被批評；說某人 hustled you 是指被騙。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "She really hustled to get her business off the ground.", "zh": "她為了讓事業起步真的很拚。" },
+        { "en": "I'm tired of the hustle. I want balance.", "zh": "我厭倦了拚命的日子，我想要平衡。" }
+      ]
+    },
+    {
+      "id": "be-your-own-boss",
+      "term": "be your own boss",
+      "meaning": "自己當老闆",
+      "register": "neutral",
+      "usage": "自由接案或創業，不受雇於人。",
+      "risk": { "level": "safe", "note": "中性用語。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Being your own boss sounds great until tax season.", "zh": "自己當老闆聽起來很棒，直到報稅季。" },
+        { "en": "I've always wanted to be my own boss.", "zh": "我一直想自己當老闆。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u059-r1", "sourceUnit": 58, "type": "mcq", "question": "I ___ work at an agency, but now I freelance.", "options": ["used to", "am used to", "use to"], "answer": 0, "explanation": "複習第 58 單元：used to + 原形。" },
+    { "id": "u059-r2", "sourceUnit": 57, "type": "mcq", "question": "My first client, ___ runs a bakery, still hires me.", "options": ["who", "that", "which"], "answer": 0, "explanation": "複習第 57 單元：非限定子句用 who。" },
+    { "id": "u059-r3", "sourceUnit": 55, "type": "fill", "question": "We need to figure ___ how to price this project.", "answer": "out", "explanation": "複習第 55 單元：figure out。" },
+    { "id": "u059-r4", "sourceUnit": 51, "type": "mcq", "question": "I ___ with over forty clients since I started freelancing.", "options": ["worked", "'ve worked", "work"], "answer": 1, "explanation": "複習第 51 單元：since 用現在完成式。" },
+    { "id": "u059-r5", "sourceUnit": 43, "type": "mcq", "question": "There ___ to be a mistake on your invoice.", "options": ["seems", "seem", "is seem"], "answer": 0, "explanation": "複習第 43 單元：There seems to be。" },
+    { "id": "u059-r6", "sourceUnit": 27, "type": "mcq", "question": "Could you tell me ___?", "options": ["what are your rates", "what your rates are", "what do your rates"], "answer": 1, "explanation": "複習第 27 單元：間接問句用肯定語序。" },
+    { "id": "u059-r7", "sourceUnit": 59, "type": "mcq", "question": "Which is correct?", "options": ["What do I need is more sleep.", "What I need is more sleep.", "What I need are more sleep."], "answer": 1, "explanation": "What 子句：肯定語序 + is。" }
+  ]
+}

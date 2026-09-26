@@ -1,0 +1,148 @@
+{
+  "id": 57,
+  "module": 6,
+  "level": "B2-",
+  "title": { "zh": "辦公室政治", "en": "Office Politics" },
+  "scenario": {
+    "title": "私下聊主管、同事和辦公室氣氛",
+    "context": "私下聊職場人事時，常會補充說明：「新來的主管，就是那個從新加坡調來的，他…」。這種「補充資訊」的子句前後要加逗號，而且不能用 that，這是非限定關係子句，和第 31 單元的限定子句剛好相反。",
+    "dialogues": [
+      {
+        "title": "Lunch break",
+        "lines": [
+          { "speaker": "Amy", "en": "Have you met the new director, who transferred from Singapore?", "zh": "你見過新的總監了嗎？就是從新加坡調來的那位。" },
+          { "speaker": "Minz", "en": "Briefly. He seems nice, but Kevin, who's been here for ten years, doesn't like him.", "zh": "見過一下。他看起來人不錯，但待了十年的 Kevin 不喜歡他。" },
+          { "speaker": "Amy", "en": "That's because Kevin wanted the job, which everyone knows.", "zh": "那是因為 Kevin 想要那個位子，這大家都知道。" },
+          { "speaker": "Minz", "en": "Ah, the elephant in the room.", "zh": "啊，那個大家都知道卻不說的事。" },
+          { "speaker": "Amy", "en": "And in yesterday's meeting, Kevin threw Daniel under the bus for the delay.", "zh": "而且昨天開會時，Kevin 把延誤的責任推給 Daniel。" },
+          { "speaker": "Minz", "en": "What? The delay was caused by the vendor, which Kevin chose!", "zh": "什麼？延誤是廠商造成的，而那家廠商是 Kevin 選的！" },
+          { "speaker": "Amy", "en": "Exactly. Meanwhile, he's being a total brown-noser with the new director.", "zh": "就是。同時他對新總監超會拍馬屁。" }
+        ]
+      },
+      {
+        "title": "Staying out of it",
+        "lines": [
+          { "speaker": "Daniel", "en": "I heard about the meeting. I'm pretty upset.", "zh": "我聽說會議的事了，我蠻不爽的。" },
+          { "speaker": "Minz", "en": "You should talk to Karen, who always has your back.", "zh": "你應該跟 Karen 談談，她一直都挺你。" },
+          { "speaker": "Daniel", "en": "Maybe. I just don't want to look like I'm complaining.", "zh": "也許吧。我只是不想看起來像在抱怨。" },
+          { "speaker": "Minz", "en": "Stick to the facts. The emails, which show who picked the vendor, speak for themselves.", "zh": "就講事實。那些信件清楚顯示是誰選的廠商，證據會說話。" },
+          { "speaker": "Daniel", "en": "Good point. I hope the director doesn't play favorites.", "zh": "說得好。希望總監不會偏心。" },
+          { "speaker": "Minz", "en": "Me too. Let's keep our heads down and do good work.", "zh": "我也是。我們就低調把工作做好吧。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "Between you and me, ___.", "zh": "我們私下說，___。" },
+      { "en": "I'd rather not get involved.", "zh": "我不想捲入。" },
+      { "en": "Let's keep this between us.", "zh": "這件事我們知道就好。" },
+      { "en": "Stick to the facts.", "zh": "講事實就好。" },
+      { "en": "I don't want to take sides.", "zh": "我不想選邊站。" },
+      { "en": "It's not worth the drama.", "zh": "不值得為這個鬧。" },
+      { "en": "Let's keep our heads down.", "zh": "我們低調點吧。" },
+      { "en": "I think there's been a misunderstanding.", "zh": "我想這裡有誤會。" },
+      { "en": "Could we talk privately?", "zh": "我們可以私下談嗎？" },
+      { "en": "I'd like to clear something up.", "zh": "我想澄清一件事。" }
+    ],
+    "chinglish": [
+      { "wrong": "Karen that is my manager is very kind.", "right": "Karen, who is my manager, is very kind.", "why": "補充說明已經知道是誰的人時，要用逗號 + who，不能用 that。" },
+      { "wrong": "He got the job, that made Kevin angry.", "right": "He got the job, which made Kevin angry.", "why": "指前面整件事的補充說明用 which，不能用 that。" },
+      { "wrong": "He is very good at flattering the horse.", "right": "He's a real brown-noser. / He's always sucking up to the boss.", "why": "「拍馬屁」直翻不通，英文說 suck up to / brown-nose。" },
+      { "wrong": "He put the pot on Daniel's back.", "right": "He threw Daniel under the bus. / He blamed Daniel.", "why": "「揹鍋」「甩鍋」不能直翻。" }
+    ]
+  },
+  "grammar": {
+    "id": "non-defining-relative-clauses",
+    "title": "非限定關係子句",
+    "oneLiner": "補充說明（不是用來指出是哪一個）的子句前後加逗號，只能用 who / which / whose，不能用 that，也不能省略。",
+    "whenToUse": [
+      "指人補充：Karen, who is my manager, always has my back.",
+      "指物補充：The vendor, which Kevin chose, was late.",
+      "指前面整件事：He got the job, which surprised everyone.",
+      "whose：The designer, whose work won an award, is joining us.",
+      "限定 vs 非限定：My sister who lives in Tainan（我有好幾個姊妹，住台南的那個）vs My sister, who lives in Tainan（我只有一個姊姊，順便說她住台南）。",
+      "口語講的時候，逗號的位置通常會停頓一下。"
+    ],
+    "whyWeGetItWrong": "中文沒有這種用逗號區分的補充結構，通常會說成兩句：「Karen 是我主管，她人很好。」台灣人學了關係子句後，常一律用 that，或忘記加逗號，讓意思從「補充說明」變成「限定是哪一個」。尤其是指整句話的 which，中文完全沒有對應的用法。",
+    "examples": [
+      { "correct": "Our director, who joined last month, is from Singapore.", "incorrect": "Our director that joined last month is from Singapore.", "note": "只有一個總監，是補充說明，用逗號 + who。" },
+      { "correct": "The meeting ran two hours over, which was frustrating.", "incorrect": "The meeting ran two hours over, that was frustrating.", "note": "指整件事用 which。" },
+      { "correct": "Taipei, where I grew up, has changed a lot.", "note": "地點補充用 where。" },
+      { "correct": "Kevin, whose team missed the deadline, blamed the vendor.", "note": "whose 補充。" },
+      { "correct": "The designer who won the award is joining us.", "note": "沒有逗號 = 限定（指出是哪一位）。" }
+    ],
+    "quiz": [
+      { "id": "u057-g1", "type": "mcq", "question": "My manager, ___ is from Tainan, loves spicy food.", "options": ["that", "who", "which"], "answer": 1, "explanation": "非限定子句指人用 who，不用 that。" },
+      { "id": "u057-g2", "type": "mcq", "question": "He was late again, ___ annoyed everyone.", "options": ["that", "which", "who"], "answer": 1, "explanation": "指整件事用 which。" },
+      { "id": "u057-g3", "type": "fill", "question": "The new director, ___ office is next to mine, is very quiet. (…的)", "answer": "whose", "explanation": "whose = …的。" },
+      { "id": "u057-g4", "type": "mcq", "question": "Which is correct?", "options": ["Taipei 101, that is very tall, is in Xinyi.", "Taipei 101, which is very tall, is in Xinyi.", "Taipei 101 which is very tall is in Xinyi."], "answer": 1, "explanation": "獨一無二的東西補充說明，要逗號 + which。" },
+      { "id": "u057-g5", "type": "mcq", "question": "\"My brother, who lives in Japan, is a chef.\" This means:", "options": ["I have several brothers.", "I have one brother, and he lives in Japan.", "The brother in Japan is different from the others."], "answer": 1, "explanation": "有逗號 = 補充資訊，暗示只有一個哥哥。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "throw-under-the-bus",
+      "term": "throw under the bus",
+      "meaning": "出賣、把責任推給某人",
+      "register": "casual",
+      "usage": "為了自保犧牲別人。throw someone under the bus。",
+      "risk": { "level": "careful", "note": "是很重的指控，私下聊可以，正式場合別直接指名。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "I can't believe he threw me under the bus in front of the client.", "zh": "真不敢相信他在客戶面前把我推出去。" },
+        { "en": "Good managers never throw their team under the bus.", "zh": "好主管絕不會出賣自己的團隊。" }
+      ]
+    },
+    {
+      "id": "brown-noser",
+      "term": "brown-noser",
+      "meaning": "馬屁精",
+      "register": "very-casual",
+      "usage": "很會拍上司馬屁的人。動詞 brown-nose。更中性的說法是 suck up to。",
+      "risk": { "level": "avoid-at-work", "note": "來源有點粗俗，職場公開場合避免；用 He's always sucking up to the boss 稍微好一點。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "Everyone knows he's a brown-noser.", "zh": "大家都知道他是馬屁精。" },
+        { "en": "Stop brown-nosing. It's embarrassing.", "zh": "別再拍馬屁了，很丟臉。" }
+      ]
+    },
+    {
+      "id": "play-favorites",
+      "term": "play favorites",
+      "meaning": "偏心、差別待遇",
+      "register": "neutral",
+      "usage": "主管或父母對某些人特別好。",
+      "risk": { "level": "careful", "note": "指控主管 play favorites 要小心措辭。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "A good manager doesn't play favorites.", "zh": "好主管不會偏心。" },
+        { "en": "My mom says she doesn't play favorites, but she does.", "zh": "我媽說她不偏心，但她明明就有。" }
+      ]
+    },
+    {
+      "id": "the-elephant-in-the-room",
+      "term": "the elephant in the room",
+      "meaning": "大家都知道卻刻意不提的問題",
+      "register": "neutral",
+      "usage": "address the elephant in the room = 直接面對那個敏感話題。",
+      "risk": { "level": "safe", "note": "正式場合也能用，常作為直面問題的開場。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Let's address the elephant in the room: we're over budget.", "zh": "我們來談那個大家都在避的問題：我們超支了。" },
+        { "en": "Nobody mentioned the layoffs. It was the elephant in the room.", "zh": "沒人提到裁員，那是大家心照不宣的事。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u057-r1", "sourceUnit": 56, "type": "mcq", "question": "By the end of the year, he ___ three managers.", "options": ["will have had", "will have", "has had"], "answer": 0, "explanation": "複習第 56 單元：未來完成式。" },
+    { "id": "u057-r2", "sourceUnit": 55, "type": "fill", "question": "Every team kept passing the ___, so nothing got fixed.", "answer": "buck", "explanation": "複習第 55 單元：pass the buck。" },
+    { "id": "u057-r3", "sourceUnit": 53, "type": "mcq", "question": "Which is correct?", "options": ["Because he was late, so we started without him.", "Because he was late, we started without him.", "Because late, so start."], "answer": 1, "explanation": "複習第 53 單元：because 和 so 只能選一個。" },
+    { "id": "u057-r4", "sourceUnit": 49, "type": "mcq", "question": "I ___ said that in the meeting. It was a mistake.", "options": ["shouldn't have", "shouldn't", "mustn't have"], "answer": 0, "explanation": "複習第 49 單元：後悔做了。" },
+    { "id": "u057-r5", "sourceUnit": 41, "type": "mcq", "question": "Could you ___ at the office?", "options": ["drop off them", "drop them off", "them drop off"], "answer": 1, "explanation": "複習第 41 單元：代名詞放中間。" },
+    { "id": "u057-r6", "sourceUnit": 25, "type": "mcq", "question": "He hung ___ on me in the middle of the call!", "options": ["up", "out", "off"], "answer": 0, "explanation": "複習第 25 單元：hang up。" },
+    { "id": "u057-r7", "sourceUnit": 57, "type": "mcq", "question": "Which is correct?", "options": ["Karen, that is my boss, is great.", "Karen, who is my boss, is great.", "Karen who is my boss, is great."], "answer": 1, "explanation": "非限定子句：逗號 + who。" }
+  ]
+}
