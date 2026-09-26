@@ -1,0 +1,150 @@
+{
+  "id": 35,
+  "module": 4,
+  "level": "B1+",
+  "title": { "zh": "聽朋友抱怨", "en": "When a Friend Vents" },
+  "scenario": {
+    "title": "朋友心情不好，怎麼回應",
+    "context": "朋友抱怨時，他需要的通常不是解決方法，而是被理解。英文最常用 That must be… 表達同理：「那一定很辛苦」。這裡的 must 不是「必須」，而是「推測」，是台灣人比較少用、但母語者天天在用的用法。",
+    "dialogues": [
+      {
+        "title": "A bad day at work",
+        "lines": [
+          { "speaker": "Jess", "en": "Can I vent for a minute?", "zh": "我可以抱怨一下嗎？" },
+          { "speaker": "Minz", "en": "Of course. What happened?", "zh": "當然。怎麼了？" },
+          { "speaker": "Jess", "en": "My boss took credit for my idea in front of the whole team.", "zh": "我老闆在整個團隊面前把我的點子說成是他的。" },
+          { "speaker": "Minz", "en": "Ugh, that sucks. You must be so frustrated.", "zh": "唉，太爛了。你一定很沮喪。" },
+          { "speaker": "Jess", "en": "I am. And I can't even say anything because he's my boss.", "zh": "對啊。而且我什麼都不能說，因為他是我老闆。" },
+          { "speaker": "Minz", "en": "That must be really hard. Has he done this before?", "zh": "那一定很難受。他之前也這樣過嗎？" },
+          { "speaker": "Jess", "en": "Twice. I'm starting to think it's on purpose.", "zh": "兩次了。我開始覺得他是故意的。" },
+          { "speaker": "Minz", "en": "Do you want advice, or do you just need me to listen?", "zh": "你想聽建議，還是只需要我聽你說？" },
+          { "speaker": "Jess", "en": "Just listen for now. Thanks for asking.", "zh": "先聽就好，謝謝你問。" }
+        ]
+      },
+      {
+        "title": "Checking in later",
+        "lines": [
+          { "speaker": "Minz", "en": "Hey, how are you holding up?", "zh": "嘿，你還撐得住嗎？" },
+          { "speaker": "Jess", "en": "Better. Rough day yesterday, but I slept on it.", "zh": "好多了。昨天很難熬，但我睡一覺冷靜下來了。" },
+          { "speaker": "Minz", "en": "You must have a lot on your mind with the promotion coming up, too.", "zh": "升遷的事快到了，你心裡一定也很多事。" },
+          { "speaker": "Jess", "en": "Exactly. I think I'll talk to HR next week.", "zh": "就是。我想下週去找人資談。" },
+          { "speaker": "Minz", "en": "That sounds like a good plan. Hang in there.", "zh": "聽起來是好計畫。撐住。" },
+          { "speaker": "Jess", "en": "Thanks. Drinks on me when this is over.", "zh": "謝謝。這事結束後我請你喝一杯。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "What happened?", "zh": "發生什麼事了？" },
+      { "en": "That must be really hard.", "zh": "那一定很難受。" },
+      { "en": "You must be exhausted.", "zh": "你一定累壞了。" },
+      { "en": "I'm sorry you're going through that.", "zh": "很遺憾你正在經歷這些。" },
+      { "en": "That's not fair.", "zh": "那不公平。" },
+      { "en": "Do you want advice, or should I just listen?", "zh": "你想聽建議，還是我聽就好？", "note": "英文圈很推崇的貼心問法" },
+      { "en": "I'm here if you need to talk.", "zh": "需要聊的話我都在。" },
+      { "en": "How are you holding up?", "zh": "你還撐得住嗎？" },
+      { "en": "I get it.", "zh": "我懂。" },
+      { "en": "Take all the time you need.", "zh": "慢慢來，不急。" }
+    ],
+    "chinglish": [
+      { "wrong": "Don't think too much.", "right": "Try not to overthink it. / That's a lot to deal with.", "why": "「不要想太多」直翻聽起來像在否定對方的感受。英文會先同理，再溫和地給建議。" },
+      { "wrong": "You must be feel tired.", "right": "You must be tired. / You must feel tired.", "why": "must 後面接原形，be 和 feel 只能擇一。" },
+      { "wrong": "Fighting!", "right": "You've got this! / Hang in there!", "why": "「加油」直翻 fighting 在英文裡是「打架」。鼓勵人說 You've got this / Hang in there。" },
+      { "wrong": "It's OK, everybody is the same.", "right": "I've been there too. It's really tough.", "why": "「大家都一樣」可能讓對方覺得被輕忽。分享自己也經歷過，比說大家都這樣更有同理心。" }
+    ]
+  },
+  "grammar": {
+    "id": "must-deduction-present",
+    "title": "must 推測現在：That must be…",
+    "oneLiner": "must 除了「必須」，還有「一定是（很有把握的推測）」的意思，用來表達同理最自然。",
+    "whenToUse": [
+      "must + be / 原形：根據線索的強烈推測。You must be tired.（你一定很累）",
+      "That must be + 形容詞：同理對方的處境。That must be frustrating.",
+      "can't be：很有把握的否定推測。That can't be right.（那不可能是對的）",
+      "might / could / may + 原形：不太確定的推測。He might be busy.",
+      "推測過去的事用 must have + p.p.（第 46 單元會詳細講）。",
+      "注意：推測的否定不是 mustn't，而是 can't。"
+    ],
+    "whyWeGetItWrong": "台灣人學 must 時，幾乎只學到「必須」，所以 You must be tired 常被誤以為是「你必須很累」。另外，表達同理時中文會說「辛苦了」，英文沒有對應的固定說法，That must be hard 就是最接近的一句。推測否定用 mustn't 也是常見錯誤，那樣意思會變成「禁止」。",
+    "examples": [
+      { "correct": "You've been working all night. You must be exhausted.", "note": "有線索（整晚工作）→ 強烈推測。" },
+      { "correct": "That must be really stressful.", "note": "同理對方。" },
+      { "correct": "She can't be serious!", "incorrect": "She mustn't be serious!", "note": "推測否定用 can't。" },
+      { "correct": "He's not answering. He might be in a meeting.", "note": "不確定的推測用 might。" },
+      { "correct": "You must be Jess's sister. You look just like her!", "note": "初次見面時的推測。" }
+    ],
+    "quiz": [
+      { "id": "u035-g1", "type": "mcq", "question": "You just flew in from New York? You ___ be jet-lagged.", "options": ["must", "mustn't", "can't"], "answer": 0, "explanation": "有線索的強烈推測用 must。" },
+      { "id": "u035-g2", "type": "mcq", "question": "That ___ be right. The restaurant closed years ago.", "options": ["must", "can't", "mustn't"], "answer": 1, "explanation": "推測否定用 can't。" },
+      { "id": "u035-g3", "type": "fill", "question": "Your boss yelled at you in front of everyone? That must ___ awful.", "answer": "be|feel", "explanation": "must + 原形。" },
+      { "id": "u035-g4", "type": "mcq", "question": "I'm not sure where Tom is. He ___ be at the gym.", "options": ["must", "might", "can't"], "answer": 1, "explanation": "不確定用 might。" },
+      { "id": "u035-g5", "type": "mcq", "question": "Which one expresses sympathy?", "options": ["You must work harder.", "That must be hard.", "You mustn't be sad."], "answer": 1, "explanation": "That must be hard = 那一定很辛苦。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "vent",
+      "term": "vent",
+      "meaning": "發洩、抱怨一下",
+      "register": "casual",
+      "usage": "把情緒說出來。Can I vent? / I just need to vent.",
+      "risk": { "level": "safe", "note": "普遍用語。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Sorry, I just needed to vent.", "zh": "抱歉，我只是需要發洩一下。" },
+        { "en": "She called me to vent about her roommate.", "zh": "她打給我抱怨她室友。" }
+      ]
+    },
+    {
+      "id": "that-sucks",
+      "term": "that sucks",
+      "meaning": "好爛、太慘了",
+      "register": "very-casual",
+      "usage": "朋友之間表達同情或不滿。",
+      "risk": { "level": "careful", "note": "很口語，對長輩、主管、客戶避免；改說 That's unfortunate / I'm sorry to hear that。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "Your flight got canceled? That sucks.", "zh": "你的班機被取消了？太慘了。" },
+        { "en": "It sucks that we have to work on Saturday.", "zh": "週六還要上班真的很爛。" }
+      ]
+    },
+    {
+      "id": "rough-day",
+      "term": "rough day",
+      "meaning": "難熬的一天",
+      "register": "casual",
+      "usage": "Rough day? 可以用來關心別人。也有 rough week / rough patch（低潮期）。",
+      "risk": { "level": "safe", "note": "溫和好用。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "You look tired. Rough day?", "zh": "你看起來很累，今天很難熬嗎？" },
+        { "en": "We're going through a rough patch, but we'll be OK.", "zh": "我們正經歷低潮期，但會沒事的。" }
+      ]
+    },
+    {
+      "id": "hang-in-there",
+      "term": "hang in there",
+      "meaning": "撐住、加油",
+      "register": "casual",
+      "usage": "鼓勵正在經歷困難的人。",
+      "risk": { "level": "safe", "note": "對同事、朋友都適合。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Only two more days until the deadline. Hang in there!", "zh": "只剩兩天就截稿了，撐住！" },
+        { "en": "I know it's hard right now, but hang in there.", "zh": "我知道現在很難，但撐下去。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u035-r1", "sourceUnit": 34, "type": "mcq", "question": "I'd rather ___ about it tomorrow.", "options": ["to talk", "talk", "talking"], "answer": 1, "explanation": "複習第 34 單元：would rather + 原形。" },
+    { "id": "u035-r2", "sourceUnit": 33, "type": "fill", "question": "Today was the ___ (bad) day of my week.", "answer": "worst", "explanation": "複習第 33 單元：bad → worst。" },
+    { "id": "u035-r3", "sourceUnit": 31, "type": "mcq", "question": "The coworker ___ took my idea is getting promoted.", "options": ["which", "who", "whose"], "answer": 1, "explanation": "複習第 31 單元：指人用 who。" },
+    { "id": "u035-r4", "sourceUnit": 27, "type": "mcq", "question": "Do you know ___?", "options": ["why is she upset", "why she is upset", "why does she upset"], "answer": 1, "explanation": "複習第 27 單元：間接問句用肯定語序。" },
+    { "id": "u035-r5", "sourceUnit": 19, "type": "mcq", "question": "___ sweet of you to call!", "options": ["What", "How", "What a"], "answer": 1, "explanation": "複習第 19 單元：How + 形容詞 + of you。" },
+    { "id": "u035-r6", "sourceUnit": 3, "type": "mcq", "question": "I'm ___ the bus now. I'll call you when I get home.", "options": ["in", "on", "at"], "answer": 1, "explanation": "複習第 3 單元：公車用 on。" },
+    { "id": "u035-r7", "sourceUnit": 35, "type": "mcq", "question": "Your friend's cat is sick. You say:", "options": ["Fighting!", "That must be so worrying. I'm sorry.", "Don't think too much."], "answer": 1, "explanation": "用 That must be… 表達同理。" }
+  ]
+}

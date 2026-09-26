@@ -1,0 +1,147 @@
+{
+  "id": 32,
+  "module": 4,
+  "level": "B1+",
+  "title": { "zh": "聊劇", "en": "Talking About Shows" },
+  "scenario": {
+    "title": "推薦影集、講劇情不爆雷",
+    "context": "講劇情時常要說「在那之前，他早就已經…」：她發現的時候，他已經離開了。這種「過去的過去」就是過去完成式（had + p.p.）的用途。學會它，講故事的時間線才不會亂。",
+    "dialogues": [
+      {
+        "title": "Monday morning recommendation",
+        "lines": [
+          { "speaker": "Daniel", "en": "Have you watched the new season of that detective show?", "zh": "你看了那部偵探劇的新一季嗎？" },
+          { "speaker": "Minz", "en": "I binge-watched the whole thing this weekend. No regrets.", "zh": "我這週末一口氣全看完了，毫不後悔。" },
+          { "speaker": "Daniel", "en": "I'm only on episode three. No spoilers!", "zh": "我才看到第三集。不准爆雷！" },
+          { "speaker": "Minz", "en": "I won't. But the plot twist in episode six… wow.", "zh": "我不會。但第六集的劇情反轉……哇。" },
+          { "speaker": "Daniel", "en": "Stop! Just tell me if it's worth it.", "zh": "停！告訴我值不值得看就好。" },
+          { "speaker": "Minz", "en": "Totally. I had never seen a show do that before.", "zh": "絕對值得，我從來沒看過有劇這樣處理。" },
+          { "speaker": "Daniel", "en": "OK, I'm finishing it tonight.", "zh": "好，我今晚就看完。" }
+        ]
+      },
+      {
+        "title": "After Daniel finishes",
+        "lines": [
+          { "speaker": "Daniel", "en": "I finished it! I can't believe the detective had known the whole time.", "zh": "我看完了！真不敢相信那個偵探一直都知道。" },
+          { "speaker": "Minz", "en": "Right? By the time his partner figured it out, he had already destroyed the evidence.", "zh": "對吧？等他搭檔發現的時候，他早就把證據毀掉了。" },
+          { "speaker": "Daniel", "en": "And the scene where his daughter finds the letter he had written years ago…", "zh": "還有他女兒發現他多年前寫的那封信那一幕……" },
+          { "speaker": "Minz", "en": "I cried so hard. It was such a tearjerker.", "zh": "我哭慘了，太催淚了。" },
+          { "speaker": "Daniel", "en": "Same. I hadn't cried at a show in years.", "zh": "我也是，我已經好幾年沒看劇哭了。" },
+          { "speaker": "Minz", "en": "We need another show to watch. Any ideas?", "zh": "我們需要新的劇來追。有想法嗎？" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "Have you watched ___?", "zh": "你看過 ___ 嗎？" },
+      { "en": "No spoilers!", "zh": "不准爆雷！" },
+      { "en": "I'm only on episode three.", "zh": "我才看到第三集。" },
+      { "en": "Is it worth watching?", "zh": "值得看嗎？" },
+      { "en": "It's a bit slow at first, but it gets better.", "zh": "一開始有點慢，但後面越來越好看。" },
+      { "en": "I couldn't stop watching.", "zh": "我停不下來。" },
+      { "en": "What's it about?", "zh": "它在講什麼？" },
+      { "en": "It's based on a true story.", "zh": "它是根據真實故事改編的。" },
+      { "en": "The ending was a letdown.", "zh": "結局很讓人失望。" },
+      { "en": "I'd give it an 8 out of 10.", "zh": "我給它 10 分裡的 8 分。" }
+    ],
+    "chinglish": [
+      { "wrong": "When his partner found out, he already destroyed the evidence.", "right": "When his partner found out, he had already destroyed the evidence.", "why": "兩件過去的事，先發生的那件要用過去完成式，時間順序才會清楚。中文靠「已經」「早就」，英文靠 had + p.p.。" },
+      { "wrong": "Don't spoil me!", "right": "Don't spoil it for me! / No spoilers!", "why": "spoil me 是「寵我」。爆雷要說 spoil it (for me)。" },
+      { "wrong": "This drama is very touching my heart.", "right": "This show is so touching. / This show really got to me.", "why": "touching 是形容詞，不能後面接受詞。另外美式口語把影集叫 show，drama 指的是「劇情類」。" },
+      { "wrong": "I chase this drama every week.", "right": "I'm following this show. / I'm watching it every week.", "why": "「追劇」直翻 chase 不通，用 follow / watch / keep up with。" }
+    ]
+  },
+  "grammar": {
+    "id": "past-perfect",
+    "title": "過去完成式",
+    "oneLiner": "had + p.p.：兩件過去的事裡，比較早發生的那一件用過去完成式。",
+    "whenToUse": [
+      "過去的過去：When I arrived, the movie had started.（電影先開始，我才到）",
+      "常搭配：by the time, already, before, after, never…before。",
+      "間接引述裡的時態後退：He said he had seen it.（第 36 單元會詳講）",
+      "經驗到過去某時為止：I had never seen anything like it (before that).",
+      "如果用 before / after 已經把順序講清楚，口語常直接用過去式：I left after he arrived."
+    ],
+    "whyWeGetItWrong": "中文的「早就」「已經」可以放在任何時態裡，動詞不用改。英文說故事時，主要事件用過去式，更早的事情要再往前推一格，改用 had + p.p.。台灣人講故事常把所有事都用過去式，聽的人就搞不清楚順序，尤其是劇情有倒敘的時候。",
+    "examples": [
+      { "correct": "By the time I got home, my roommate had eaten all the pizza.", "incorrect": "By the time I got home, my roommate ate all the pizza.", "note": "室友先吃完，我才到家。" },
+      { "correct": "I had never watched a K-drama before I moved to Seoul.", "note": "到過去某時為止的經驗。" },
+      { "correct": "She realized she had left her phone at the café.", "note": "先把手機留在咖啡店，後來才發現。" },
+      { "correct": "The show had already ended when I turned on the TV.", "note": "already 放 had 和 p.p. 中間。" },
+      { "correct": "After I finished the book, I watched the movie.", "note": "有 after 標明順序，用過去式就可以。" }
+    ],
+    "quiz": [
+      { "id": "u032-g1", "type": "mcq", "question": "When we got to the theater, the movie ___.", "options": ["already started", "had already started", "has already started"], "answer": 1, "explanation": "電影先開始，用過去完成式。" },
+      { "id": "u032-g2", "type": "fill", "question": "I ___ never seen such a good ending before that show.", "answer": "had", "explanation": "到過去某時為止的經驗，用 had。" },
+      { "id": "u032-g3", "type": "mcq", "question": "She was upset because someone ___ the ending.", "options": ["had spoiled", "has spoiled", "spoils"], "answer": 0, "explanation": "爆雷在她難過之前發生。" },
+      { "id": "u032-g4", "type": "fill", "question": "By the time I finished season one, my friends had ___ (watch) all three seasons.", "answer": "watched", "explanation": "had + p.p.。" },
+      { "id": "u032-g5", "type": "mcq", "question": "I realized I ___ that episode before.", "options": ["had seen", "have seen", "see"], "answer": 0, "explanation": "先看過，後來才發現。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "spoiler",
+      "term": "spoiler",
+      "meaning": "爆雷、劇透",
+      "register": "neutral",
+      "usage": "名詞 spoiler；spoiler alert = 以下有雷。動詞 spoil it (for someone)。",
+      "risk": { "level": "safe", "note": "很普遍。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Spoiler alert: the dog doesn't die.", "zh": "爆雷警告：狗沒有死。" },
+        { "en": "Don't read the comments. They're full of spoilers.", "zh": "別看留言，全是雷。" }
+      ]
+    },
+    {
+      "id": "binge-watch",
+      "term": "binge-watch",
+      "meaning": "一口氣追完、狂追劇",
+      "register": "casual",
+      "usage": "binge = 暴飲暴食般地大量做某事。也可以只說 binge：I binged the whole series.",
+      "risk": { "level": "safe", "note": "日常用語。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "I binge-watched eight episodes last night.", "zh": "我昨晚一口氣看了八集。" },
+        { "en": "It's the perfect show to binge on a rainy weekend.", "zh": "這部很適合下雨的週末一口氣追完。" }
+      ]
+    },
+    {
+      "id": "plot-twist",
+      "term": "plot twist",
+      "meaning": "劇情大反轉",
+      "register": "neutral",
+      "usage": "故事出乎意料的轉折，也用來開玩笑形容生活中的意外：Plot twist: he was single the whole time.",
+      "risk": { "level": "safe", "note": "普遍用語。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Nobody saw that plot twist coming.", "zh": "沒人料到那個劇情反轉。" },
+        { "en": "Plot twist: the client loved the first draft after all.", "zh": "劇情反轉：客戶最後還是喜歡初稿。" }
+      ]
+    },
+    {
+      "id": "tearjerker",
+      "term": "tearjerker",
+      "meaning": "催淚作品、賺人熱淚的片",
+      "register": "casual",
+      "usage": "讓人哭的電影、劇、歌、故事。jerk = 猛拉，把眼淚拉出來。",
+      "risk": { "level": "safe", "note": "日常用語。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Bring tissues. It's a real tearjerker.", "zh": "帶面紙，超催淚的。" },
+        { "en": "I don't usually like tearjerkers, but this one was beautiful.", "zh": "我通常不喜歡催淚片，但這部很美。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u032-r1", "sourceUnit": 31, "type": "mcq", "question": "It's the show ___ everyone's talking about.", "options": ["who", "that", "whose"], "answer": 1, "explanation": "複習第 31 單元：指物用 that。" },
+    { "id": "u032-r2", "sourceUnit": 31, "type": "fill", "question": "He stopped replying after two dates. He totally ___ me.", "answer": "ghosted", "explanation": "複習第 31 單元：ghost。" },
+    { "id": "u032-r3", "sourceUnit": 30, "type": "mcq", "question": "I ___ three seasons so far.", "options": ["watched", "'ve watched", "was watching"], "answer": 1, "explanation": "複習第 30 單元：so far 用現在完成式。" },
+    { "id": "u032-r4", "sourceUnit": 28, "type": "mcq", "question": "I ___ the finale when my phone rang.", "options": ["watched", "was watching", "have watched"], "answer": 1, "explanation": "複習第 28 單元：被打斷的背景用過去進行式。" },
+    { "id": "u032-r5", "sourceUnit": 24, "type": "mcq", "question": "My sister ___ me watch the whole series with her.", "options": ["made", "let to", "got"], "answer": 0, "explanation": "複習第 24 單元：make + 人 + 原形。" },
+    { "id": "u032-r6", "sourceUnit": 16, "type": "mcq", "question": "It's my ___ favorite show. (我表姊的)", "options": ["cousin's", "cousins's", "cousin"], "answer": 0, "explanation": "複習第 16 單元：單數 + 's。" },
+    { "id": "u032-r7", "sourceUnit": 32, "type": "fill", "question": "No ___! I haven't seen the last episode yet.", "answer": "spoilers", "explanation": "No spoilers = 不准爆雷。" }
+  ]
+}

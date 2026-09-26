@@ -1,0 +1,149 @@
+{
+  "id": 39,
+  "module": 4,
+  "level": "B1+",
+  "title": { "zh": "規劃旅行", "en": "Planning a Trip" },
+  "scenario": {
+    "title": "跟朋友討論行程",
+    "context": "規劃旅行時一直在說「如果…就…」：如果下雨我們就去美術館、如果太早到就先寄放行李。這種「真的有可能發生」的假設，用的是第一類條件句：If + 現在式, will + 原形。",
+    "dialogues": [
+      {
+        "title": "Planning Hualien",
+        "lines": [
+          { "speaker": "Jess", "en": "So, Hualien next month! What do you want to do?", "zh": "所以下個月去花蓮！你想做什麼？" },
+          { "speaker": "Minz", "en": "Taroko, for sure. But if it rains, we'll have to skip the hiking.", "zh": "太魯閣一定要。但如果下雨，我們就得跳過健行。" },
+          { "speaker": "Jess", "en": "True. If the weather's bad, we can go to that art village instead.", "zh": "對。如果天氣不好，我們可以改去那個藝術村。" },
+          { "speaker": "Minz", "en": "I'd love to find somewhere off the beaten path, too. Not just the touristy stuff.", "zh": "我也想找一些私房景點，不要只有觀光客去的地方。" },
+          { "speaker": "Jess", "en": "My cousin lives there. If I ask her, she'll give us some tips.", "zh": "我表妹住那。如果我問她，她會給我們一些建議。" },
+          { "speaker": "Minz", "en": "Perfect. How are we getting there?", "zh": "太好了。我們怎麼過去？" },
+          { "speaker": "Jess", "en": "Train. If we don't book tickets this week, they'll sell out.", "zh": "搭火車。如果這週沒訂票，會被賣光。" },
+          { "speaker": "Minz", "en": "Booking now!", "zh": "我現在就訂！" }
+        ]
+      },
+      {
+        "title": "The night before",
+        "lines": [
+          { "speaker": "Jess", "en": "Are you packed?", "zh": "你打包好了嗎？" },
+          { "speaker": "Minz", "en": "Almost. I'm trying to travel light this time. Just a backpack.", "zh": "差不多了。這次我想輕裝旅行，只帶一個背包。" },
+          { "speaker": "Jess", "en": "Impressive. If you forget anything, you can borrow mine.", "zh": "厲害。如果你忘了帶什麼，可以用我的。" },
+          { "speaker": "Minz", "en": "Thanks. What time should we leave?", "zh": "謝啦。我們幾點出發？" },
+          { "speaker": "Jess", "en": "The train's at 7:10. If we hit the road by 6:30, we'll be fine.", "zh": "火車七點十分。如果我們六點半出門就沒問題。" },
+          { "speaker": "Minz", "en": "Ugh, early. OK, I'll set three alarms.", "zh": "唉，好早。好，我設三個鬧鐘。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "What do you want to do there?", "zh": "你到那邊想做什麼？" },
+      { "en": "If it rains, we'll ___.", "zh": "如果下雨，我們就 ___。" },
+      { "en": "Have you been there before?", "zh": "你以前去過嗎？" },
+      { "en": "What's a must-see there?", "zh": "那裡必去的是什麼？" },
+      { "en": "Let's book it before it sells out.", "zh": "趁還沒賣完快訂。" },
+      { "en": "How long does it take to get there?", "zh": "到那裡要多久？" },
+      { "en": "Should we rent a scooter?", "zh": "我們要租機車嗎？" },
+      { "en": "I'll look into it.", "zh": "我來查查看。" },
+      { "en": "Let's keep the schedule flexible.", "zh": "行程保持彈性吧。" },
+      { "en": "I can't wait!", "zh": "我等不及了！" }
+    ],
+    "chinglish": [
+      { "wrong": "If it will rain, we will stay in the hotel.", "right": "If it rains, we'll stay at the hotel.", "why": "if 子句裡用現在式表示未來，不能用 will。中文「如果會下雨」的「會」讓人想用 will。" },
+      { "wrong": "If tomorrow is raining, we go to the museum.", "right": "If it rains tomorrow, we'll go to the museum.", "why": "下雨的主詞是 it（複習第 7 單元），主要子句用 will。" },
+      { "wrong": "We play two days in Hualien.", "right": "We're spending two days in Hualien.", "why": "「去花蓮玩兩天」直翻 play 聽起來像小孩在玩。大人旅遊用 spend / visit / travel。" },
+      { "wrong": "Let's go to some secret places.", "right": "Let's find some hidden gems / places off the beaten path.", "why": "「私房景點」直翻 secret places 有點怪，英文用 hidden gems（第 44 單元）或 off the beaten path。" }
+    ]
+  },
+  "grammar": {
+    "id": "first-conditional",
+    "title": "條件句 type 1",
+    "oneLiner": "If + 現在式, will + 原形：講未來真的有可能發生的情況與結果。",
+    "whenToUse": [
+      "真實可能的未來：If it rains, we'll stay in.",
+      "if 子句用現在式（即使講的是未來），主要子句用 will / can / might / should / 祈使句。",
+      "順序可以對調：We'll stay in if it rains.（if 放後面時不加逗號）",
+      "unless = if not：We'll miss the train unless we leave now.",
+      "當…的時候（確定會發生）用 when：When I get there, I'll call you.",
+      "警告、承諾、提議都常用：If you're late, we'll leave without you."
+    ],
+    "whyWeGetItWrong": "中文「如果明天會下雨，我們就會待在家」兩個子句都用「會」。英文的 if 子句卻不能用 will，因為 if 本身已經表示「假設的未來」。這是台灣人最頑固的錯誤之一。記住：if 後面，現在式。",
+    "examples": [
+      { "correct": "If we leave now, we'll catch the train.", "incorrect": "If we will leave now, we'll catch the train.", "note": "if 子句用現在式。" },
+      { "correct": "I'll call you if I get lost.", "note": "if 放後面不加逗號。" },
+      { "correct": "Unless it rains, we'll go hiking.", "note": "unless = if… not。" },
+      { "correct": "If you're hungry, grab a snack.", "note": "主要子句可以是祈使句。" },
+      { "correct": "When I arrive, I'll text you.", "incorrect": "When I will arrive, I'll text you.", "note": "when 子句也用現在式。" }
+    ],
+    "quiz": [
+      { "id": "u039-g1", "type": "mcq", "question": "If it ___ tomorrow, we'll go to the museum.", "options": ["will rain", "rains", "rained"], "answer": 1, "explanation": "if 子句用現在式。" },
+      { "id": "u039-g2", "type": "fill", "question": "If we book now, we ___ get a good price.", "answer": "will|'ll|might|can", "explanation": "主要子句用 will / can / might。" },
+      { "id": "u039-g3", "type": "mcq", "question": "We'll miss the train ___ we hurry.", "options": ["if", "unless", "when"], "answer": 1, "explanation": "unless = if… not。" },
+      { "id": "u039-g4", "type": "mcq", "question": "Which is correct?", "options": ["When I will get there, I'll call you.", "When I get there, I'll call you.", "When I get there, I call you will."], "answer": 1, "explanation": "when 子句用現在式。" },
+      { "id": "u039-g5", "type": "fill", "question": "If you ___ (forget) your charger, you can use mine.", "answer": "forget", "explanation": "if 子句用現在式。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "off-the-beaten-path",
+      "term": "off the beaten path",
+      "meaning": "人跡罕至、私房的",
+      "register": "neutral",
+      "usage": "不在熱門路線上的地方。英式也說 off the beaten track。",
+      "risk": { "level": "safe", "note": "旅遊文章常見。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "We found a tiny café off the beaten path.", "zh": "我們找到一間很隱密的小咖啡店。" },
+        { "en": "I prefer places that are a bit off the beaten path.", "zh": "我比較喜歡人少一點的地方。" }
+      ]
+    },
+    {
+      "id": "touristy",
+      "term": "touristy",
+      "meaning": "很觀光客、觀光味很重",
+      "register": "casual",
+      "usage": "形容地方或活動太商業化、都是遊客。",
+      "risk": { "level": "safe", "note": "通常帶點負面，但不冒犯人。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Jiufen is beautiful, but it's pretty touristy.", "zh": "九份很美，但觀光味很重。" },
+        { "en": "Let's skip the touristy stuff and eat where locals eat.", "zh": "跳過觀光客行程，去當地人吃的地方吧。" }
+      ]
+    },
+    {
+      "id": "hit-the-road",
+      "term": "hit the road",
+      "meaning": "出發、上路",
+      "register": "casual",
+      "usage": "開始旅程或離開某處。Let's hit the road.",
+      "risk": { "level": "safe", "note": "友善常用。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "We should hit the road before traffic gets bad.", "zh": "塞車前我們就該出發。" },
+        { "en": "It's late. I'd better hit the road.", "zh": "很晚了，我該走了。" }
+      ]
+    },
+    {
+      "id": "travel-light",
+      "term": "travel light",
+      "meaning": "輕裝旅行、行李很少",
+      "register": "neutral",
+      "usage": "只帶少量行李出門。",
+      "risk": { "level": "safe", "note": "中性用語。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "I always travel light. One carry-on, that's it.", "zh": "我都輕裝旅行，一個登機箱就好。" },
+        { "en": "If you travel light, you can skip baggage claim.", "zh": "如果行李少，就不用等托運。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u039-r1", "sourceUnit": 38, "type": "fill", "question": "Don't worry about the kids. They can look after ___.", "answer": "themselves", "explanation": "複習第 38 單元：反身代名詞。" },
+    { "id": "u039-r2", "sourceUnit": 37, "type": "mcq", "question": "Taroko is ___ beautiful!", "options": ["so", "such", "such a"], "answer": 0, "explanation": "複習第 37 單元：單獨形容詞用 so。" },
+    { "id": "u039-r3", "sourceUnit": 35, "type": "mcq", "question": "You've been traveling for three weeks? You ___ be tired.", "options": ["must", "can't", "mustn't"], "answer": 0, "explanation": "複習第 35 單元：must 推測。" },
+    { "id": "u039-r4", "sourceUnit": 31, "type": "mcq", "question": "I want to stay somewhere ___ has a view of the ocean.", "options": ["who", "that", "whose"], "answer": 1, "explanation": "複習第 31 單元：指物用 that。" },
+    { "id": "u039-r5", "sourceUnit": 23, "type": "fill", "question": "Would you mind ___ (check) the train times?", "answer": "checking", "explanation": "複習第 23 單元：mind + V-ing。" },
+    { "id": "u039-r6", "sourceUnit": 7, "type": "mcq", "question": "How far ___ to the station?", "options": ["is it", "it is", "has it"], "answer": 0, "explanation": "複習第 7 單元：How far is it…?" },
+    { "id": "u039-r7", "sourceUnit": 39, "type": "mcq", "question": "Which is correct?", "options": ["If it will rain, we'll stay in.", "If it rains, we'll stay in.", "If it rains, we stay in will."], "answer": 1, "explanation": "if 子句用現在式。" }
+  ]
+}

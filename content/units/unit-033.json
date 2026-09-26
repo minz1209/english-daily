@@ -1,0 +1,149 @@
+{
+  "id": 33,
+  "module": 4,
+  "level": "B1+",
+  "title": { "zh": "聊音樂", "en": "Talking About Music" },
+  "scenario": {
+    "title": "推薦歌手、比較專輯、去演唱會",
+    "context": "聊音樂一定會比較：這張比上一張好、這是他最棒的歌、現場比錄音更好聽。比較級和最高級看起來簡單，但 more better、the most best 這類錯誤在台灣人的英文裡非常常見。",
+    "dialogues": [
+      {
+        "title": "Road trip playlist",
+        "lines": [
+          { "speaker": "Leo", "en": "Who's in charge of music? Please not Minz. Her playlist is the saddest thing I've ever heard.", "zh": "誰負責放音樂？拜託不要 Minz，她的歌單是我聽過最悲傷的。" },
+          { "speaker": "Minz", "en": "Hey! It's not sad, it's chill.", "zh": "喂！那不是悲傷，是放鬆。" },
+          { "speaker": "Jess", "en": "I'll do it. Have you heard the new Sunset Rollercoaster album?", "zh": "我來。你們聽過落日飛車的新專輯了嗎？" },
+          { "speaker": "Leo", "en": "Yeah, but I think their older stuff is better.", "zh": "聽過，但我覺得他們以前的作品比較好。" },
+          { "speaker": "Jess", "en": "Really? The new one is way more polished.", "zh": "真的嗎？新的精緻多了。" },
+          { "speaker": "Minz", "en": "Play track four. That song slaps.", "zh": "放第四首，那首超好聽。" },
+          { "speaker": "Jess", "en": "Agreed. It's the catchiest song on the album.", "zh": "同意，那是整張專輯最洗腦的一首。" },
+          { "speaker": "Leo", "en": "OK, fine, it's a banger. Turn it up!", "zh": "好啦，是神曲。大聲一點！" }
+        ]
+      },
+      {
+        "title": "After a concert",
+        "lines": [
+          { "speaker": "Minz", "en": "That was the best concert I've been to in years.", "zh": "那是我這幾年去過最棒的演唱會。" },
+          { "speaker": "Jess", "en": "They sounded even better live than on the record.", "zh": "他們現場聽起來甚至比錄音更好。" },
+          { "speaker": "Minz", "en": "And the crowd was so much louder than last time.", "zh": "而且觀眾比上次吵多了。" },
+          { "speaker": "Jess", "en": "The encore was my favorite part. They played that old song from 2012!", "zh": "安可是我最喜歡的部分，他們唱了 2012 年那首老歌！" },
+          { "speaker": "Minz", "en": "Everyone thought they were a one-hit wonder back then.", "zh": "那時候大家都以為他們只會紅一首。" },
+          { "speaker": "Jess", "en": "And now they're one of the most popular bands in Asia.", "zh": "現在他們是亞洲最受歡迎的樂團之一。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "What kind of music are you into?", "zh": "你喜歡哪種音樂？" },
+      { "en": "Have you heard their new album?", "zh": "你聽過他們的新專輯嗎？" },
+      { "en": "Their older stuff is better.", "zh": "他們以前的作品比較好。" },
+      { "en": "It's the best song on the album.", "zh": "這是整張專輯最好聽的一首。" },
+      { "en": "They sound even better live.", "zh": "他們現場更好聽。" },
+      { "en": "This song is stuck in my head.", "zh": "這首歌一直在我腦中。" },
+      { "en": "Turn it up!", "zh": "開大聲一點！" },
+      { "en": "It grows on you.", "zh": "越聽越好聽。" },
+      { "en": "It's one of my all-time favorites.", "zh": "這是我心中永遠的最愛之一。" },
+      { "en": "I'm not really a fan of ___.", "zh": "我不太喜歡 ___。" }
+    ],
+    "chinglish": [
+      { "wrong": "This song is more better.", "right": "This song is better. / This song is much better.", "why": "better 本身就是比較級，不能再加 more。要加強用 much / way / even。" },
+      { "wrong": "She is the most best singer.", "right": "She's the best singer.", "why": "best 已經是最高級。" },
+      { "wrong": "This album is more popular than any album.", "right": "This album is more popular than any other album.", "why": "跟同類比較時要加 other，不然等於拿自己跟自己比。" },
+      { "wrong": "The song is very brainwashing.", "right": "The song is so catchy.", "why": "「洗腦」直翻 brainwashing 是「政治洗腦」。歌很洗腦用 catchy。" }
+    ]
+  },
+  "grammar": {
+    "id": "comparatives-superlatives",
+    "title": "比較級與最高級",
+    "oneLiner": "短形容詞加 -er / -est，長形容詞用 more / most；better、best 這種不規則的不要再加 more。",
+    "whenToUse": [
+      "一音節：old → older → the oldest；big → bigger → the biggest。",
+      "-y 結尾的兩音節：catchy → catchier → the catchiest。",
+      "兩音節以上：popular → more popular → the most popular。",
+      "不規則：good → better → best；bad → worse → worst；far → farther / further。",
+      "加強比較級：much / way / a lot / even better。（不用 very better）",
+      "最高級常搭配：the best … I've ever…、one of the most…、in the world / on the album。"
+    ],
+    "whyWeGetItWrong": "中文比較只要加「比較」「更」「最」，詞本身不變，所以台灣人很自然地把 more 加在 better 前面，或者說 very better（中文「好很多」）。另外中文的「更好」「最好」一樣是 better 和 best，但學習者常忘記它們是不規則變化。",
+    "examples": [
+      { "correct": "Their new album is way better than the last one.", "incorrect": "Their new album is very more better than the last one.", "note": "用 way / much 加強比較級。" },
+      { "correct": "It's the catchiest song of the year.", "note": "-y 結尾變 -iest。" },
+      { "correct": "She's one of the most talented singers in Taiwan.", "note": "one of the most + 複數名詞。" },
+      { "correct": "The concert was worse than I expected.", "incorrect": "The concert was more bad than I expected.", "note": "bad 的比較級是 worse。" },
+      { "correct": "That's the best concert I've ever been to.", "note": "最高級 + I've ever… 很常見。" }
+    ],
+    "quiz": [
+      { "id": "u033-g1", "type": "mcq", "question": "Their live show is ___ than their album.", "options": ["more better", "much better", "very better"], "answer": 1, "explanation": "much better；better 不加 more、不用 very。" },
+      { "id": "u033-g2", "type": "fill", "question": "This is the ___ (good) album I've heard this year.", "answer": "best", "explanation": "good 的最高級是 best。" },
+      { "id": "u033-g3", "type": "mcq", "question": "She's one of the ___ singers in Asia.", "options": ["most popular", "more popular", "popularest"], "answer": 0, "explanation": "長形容詞用 most。" },
+      { "id": "u033-g4", "type": "fill", "question": "The traffic after the concert was even ___ (bad) than last time.", "answer": "worse", "explanation": "bad → worse。" },
+      { "id": "u033-g5", "type": "mcq", "question": "This song is ___ than the original.", "options": ["catchier", "more catchy er", "catchiest"], "answer": 0, "explanation": "catchy → catchier。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "banger",
+      "term": "banger",
+      "meaning": "神曲、超嗨的歌",
+      "register": "very-casual",
+      "usage": "形容讓人想跟著搖擺的好歌。英式口語 banger 也可以指香腸。",
+      "risk": { "level": "safe", "note": "年輕人常用，大人說會有點「裝年輕」的可愛感。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Every song on this album is a banger.", "zh": "這張專輯每首都是神曲。" },
+        { "en": "Put on some bangers for the party.", "zh": "派對放點嗨歌。" }
+      ]
+    },
+    {
+      "id": "slaps",
+      "term": "slaps",
+      "meaning": "（歌、食物）超讚",
+      "register": "very-casual",
+      "usage": "This song slaps. 也可以形容食物：This beef noodle soup slaps.",
+      "risk": { "level": "careful", "note": "Gen Z 用語，三十歲以上的人用會顯得刻意；正式場合不用。聽得懂最重要。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "Have you heard this remix? It slaps.", "zh": "你聽過這個混音嗎？超讚。" },
+        { "en": "This fried chicken slaps.", "zh": "這個炸雞超好吃。" }
+      ]
+    },
+    {
+      "id": "one-hit-wonder",
+      "term": "one-hit wonder",
+      "meaning": "只紅一首歌的歌手",
+      "register": "neutral",
+      "usage": "只有一首成名曲、之後就沒消息的藝人；也可引申到其他領域。",
+      "risk": { "level": "safe", "note": "帶點調侃，但是常見說法。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Most people think they're a one-hit wonder, but their other songs are great.", "zh": "大部分人以為他們只紅一首，但其他歌也很棒。" },
+        { "en": "I don't want my startup to be a one-hit wonder.", "zh": "我不想讓我的新創只紅一次。" }
+      ]
+    },
+    {
+      "id": "jam",
+      "term": "jam",
+      "meaning": "很愛的歌；即興演奏",
+      "register": "casual",
+      "usage": "This is my jam! = 這是我的愛歌！動詞 jam = 一起即興玩音樂。",
+      "risk": { "level": "safe", "note": "友善輕鬆。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "Oh, turn it up! This is my jam!", "zh": "喔，開大聲！這是我的愛歌！" },
+        { "en": "We jammed in his garage every Sunday.", "zh": "我們每個星期天都在他車庫即興玩音樂。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u033-r1", "sourceUnit": 32, "type": "mcq", "question": "By the time we arrived, the band ___ playing.", "options": ["already started", "had already started", "has started"], "answer": 1, "explanation": "複習第 32 單元：先發生的用過去完成式。" },
+    { "id": "u033-r2", "sourceUnit": 31, "type": "fill", "question": "She's the singer ___ song went viral last year.", "answer": "whose", "explanation": "複習第 31 單元：whose = …的。" },
+    { "id": "u033-r3", "sourceUnit": 29, "type": "mcq", "question": "They're playing tonight, ___?", "options": ["aren't they", "don't they", "isn't it"], "answer": 0, "explanation": "複習第 29 單元：they're → aren't they。" },
+    { "id": "u033-r4", "sourceUnit": 25, "type": "fill", "question": "Can you turn the music ___? I can't hear you. (關小聲)", "answer": "down", "explanation": "複習第 25 單元片語動詞：turn down = 調小聲。" },
+    { "id": "u033-r5", "sourceUnit": 17, "type": "mcq", "question": "The concert starts in ten minutes. We ___ hurry.", "options": ["'d better", "should to", "ought"], "answer": 0, "explanation": "複習第 17 單元：had better。" },
+    { "id": "u033-r6", "sourceUnit": 1, "type": "mcq", "question": "A: What's up? B: ___", "options": ["Not much, you?", "I'm fine, thank you.", "Up is sky."], "answer": 0, "explanation": "複習第 1 單元。" },
+    { "id": "u033-r7", "sourceUnit": 33, "type": "mcq", "question": "Which is correct?", "options": ["This is more better.", "This is way better.", "This is very better."], "answer": 1, "explanation": "比較級用 way / much 加強。" }
+  ]
+}

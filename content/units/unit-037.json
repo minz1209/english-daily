@@ -1,0 +1,147 @@
+{
+  "id": 37,
+  "module": 4,
+  "level": "B1+",
+  "title": { "zh": "稱讚與回應", "en": "Giving and Taking Compliments" },
+  "scenario": {
+    "title": "稱讚別人、接受稱讚",
+    "context": "台灣人被稱讚時的直覺是否認：「沒有啦」「哪有」。但在英文裡，否認稱讚等於說對方眼光不好。這個單元學怎麼大方地說 thank you，也學怎麼用 so / such 讓稱讚更有力。",
+    "dialogues": [
+      {
+        "title": "After a presentation",
+        "lines": [
+          { "speaker": "Karen", "en": "Minz, your presentation was so good. The client loved it.", "zh": "Minz，你的簡報超棒，客戶很喜歡。" },
+          { "speaker": "Minz", "en": "Thank you! I was so nervous, but I'm glad it went well.", "zh": "謝謝！我超緊張的，但很高興進行得很順利。" },
+          { "speaker": "Daniel", "en": "Seriously, you nailed it. The mood board was on point.", "zh": "說真的你表現完美，情緒板做得超到位。" },
+          { "speaker": "Minz", "en": "Thanks, Daniel. That means a lot coming from you.", "zh": "謝謝 Daniel，你這樣說對我意義重大。" },
+          { "speaker": "Karen", "en": "It was such a clear story. Where did you learn to present like that?", "zh": "故事好清楚。你在哪學會這樣報告的？" },
+          { "speaker": "Minz", "en": "I've been practicing a lot. And Amy gave me some really helpful feedback.", "zh": "我一直在練習。而且 Amy 給了我很有幫助的回饋。" }
+        ]
+      },
+      {
+        "title": "Compliments among friends",
+        "lines": [
+          { "speaker": "Jess", "en": "Whoa, look at you! You're looking sharp today.", "zh": "哇，看看你！今天好帥氣。" },
+          { "speaker": "Leo", "en": "Thanks! I have a job interview this afternoon.", "zh": "謝啦！我下午有面試。" },
+          { "speaker": "Minz", "en": "That suit fits you so well. Where'd you get it?", "zh": "那套西裝好合身，在哪買的？" },
+          { "speaker": "Leo", "en": "Thanks, I actually got it tailored. It was such a good deal.", "zh": "謝謝，其實是訂做的，價錢超划算。" },
+          { "speaker": "Jess", "en": "You're killing it lately. New haircut, new suit, interviews…", "zh": "你最近好猛，新髮型、新西裝、面試……" },
+          { "speaker": "Leo", "en": "Ha, I appreciate it. Wish me luck!", "zh": "哈，謝謝。祝我好運！" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "Thank you, that's so kind of you.", "zh": "謝謝，你真好。" },
+      { "en": "That means a lot.", "zh": "這對我意義重大。" },
+      { "en": "I appreciate it.", "zh": "謝謝你這麼說。" },
+      { "en": "Thanks! I worked really hard on it.", "zh": "謝謝！我很努力做的。", "note": "大方承認努力，不用謙虛否認" },
+      { "en": "I couldn't have done it without the team.", "zh": "沒有團隊我做不到。" },
+      { "en": "I love your ___. Where did you get it?", "zh": "我好喜歡你的 ___，在哪買的？" },
+      { "en": "You did a great job on ___.", "zh": "你的 ___ 做得很好。" },
+      { "en": "That color looks great on you.", "zh": "那個顏色很適合你。" },
+      { "en": "You have such a good eye.", "zh": "你眼光真好。" },
+      { "en": "I'm so proud of you.", "zh": "我真為你驕傲。" }
+    ],
+    "chinglish": [
+      { "wrong": "No, no, no, I'm not good at all.", "right": "Thank you! I'm glad you liked it.", "why": "中文用否認表達謙虛，英文直接否認稱讚會讓對方尷尬，好像他判斷錯了。說 thank you 就是最好的謙虛。" },
+      { "wrong": "Your English is so good! — No, my English is very poor.", "right": "Thanks! I'm still working on it.", "why": "想謙虛可以加一句「我還在努力」，但不要否定對方。" },
+      { "wrong": "It's a so good idea.", "right": "It's such a good idea. / The idea is so good.", "why": "名詞前面用 such (a)，單獨形容詞前用 so。" },
+      { "wrong": "You are very handsome today.", "right": "You're looking sharp today!", "why": "文法沒錯，但對同事說 handsome 可能有點私人。稱讚打扮用 looking sharp / great 比較安全。" }
+    ]
+  },
+  "grammar": {
+    "id": "responding-to-compliments-so-such",
+    "title": "回應稱讚＋so / such",
+    "oneLiner": "so + 形容詞 / 副詞；such (a) + (形容詞) + 名詞。回應稱讚時先說 thank you。",
+    "whenToUse": [
+      "so + 形容詞：It was so good. / You're so talented.",
+      "so + 副詞：You presented so clearly.",
+      "such a + 形容詞 + 單數名詞：It was such a clear story.",
+      "such + 形容詞 + 複數 / 不可數名詞：They're such nice people. / It was such good advice.",
+      "so / such… that…（結果）：It was so good that I watched it twice.",
+      "回應稱讚的公式：Thank you + (感受 / 分享功勞 / 補充細節)。"
+    ],
+    "whyWeGetItWrong": "中文的「好」「超」「這麼」放在形容詞或名詞前都一樣：「好棒」「好棒的點子」。英文要看後面是不是名詞，選 so 或 such。台灣人常說 so good idea 或 such good，其實只要記住：看到名詞就用 such。",
+    "examples": [
+      { "correct": "It was such a great presentation.", "incorrect": "It was so great presentation.", "note": "有名詞用 such a。" },
+      { "correct": "Your presentation was so great.", "note": "只有形容詞用 so。" },
+      { "correct": "They gave me such helpful feedback.", "incorrect": "They gave me such a helpful feedback.", "note": "feedback 不可數，不加 a。" },
+      { "correct": "The food was so good that we ordered more.", "note": "so… that… 表結果。" },
+      { "correct": "A: Great job! B: Thanks, I really appreciate that.", "incorrect": "A: Great job! B: No, it's nothing.", "note": "接受稱讚。" }
+    ],
+    "quiz": [
+      { "id": "u037-g1", "type": "mcq", "question": "It was ___ good idea!", "options": ["so", "such a", "such"], "answer": 1, "explanation": "單數名詞前用 such a。" },
+      { "id": "u037-g2", "type": "mcq", "question": "Your design is ___ beautiful.", "options": ["so", "such", "such a"], "answer": 0, "explanation": "單獨形容詞用 so。" },
+      { "id": "u037-g3", "type": "fill", "question": "They're ___ kind people. (so / such)", "answer": "such", "explanation": "複數名詞前用 such。" },
+      { "id": "u037-g4", "type": "mcq", "question": "Someone says \"Great job today!\" The best reply is:", "options": ["No, I was terrible.", "Thanks! I'm glad it went well.", "Not at all good."], "answer": 1, "explanation": "大方接受稱讚。" },
+      { "id": "u037-g5", "type": "fill", "question": "The concert was ___ loud that my ears were ringing.", "answer": "so", "explanation": "so + 形容詞 + that。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "killing-it",
+      "term": "killing it",
+      "meaning": "表現超好、超猛",
+      "register": "casual",
+      "usage": "You're killing it! = 你表現太好了。也說 You killed it!",
+      "risk": { "level": "safe", "note": "正面稱讚，同事間也常用。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "Your Instagram is killing it lately!", "zh": "你的 IG 最近超紅！" },
+        { "en": "You killed it on stage last night.", "zh": "你昨晚在台上超猛。" }
+      ]
+    },
+    {
+      "id": "on-point",
+      "term": "on point",
+      "meaning": "到位、完美",
+      "register": "casual",
+      "usage": "形容穿搭、妝容、作品、時機剛剛好。Your outfit is on point.",
+      "risk": { "level": "safe", "note": "口語，工作上對熟同事用沒問題。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "Your eyeliner is on point today.", "zh": "你今天眼線畫得超完美。" },
+        { "en": "The timing of that joke was on point.", "zh": "那個笑話的時機抓得超準。" }
+      ]
+    },
+    {
+      "id": "nailed-it",
+      "term": "nailed it",
+      "meaning": "搞定、完美達成",
+      "register": "casual",
+      "usage": "You nailed it! / I nailed the interview. 也常被反諷用：做很爛時自嘲 Nailed it.",
+      "risk": { "level": "safe", "note": "正面時很安全，注意語調以免被當反諷。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "You nailed the interview! They want to hire you.", "zh": "你面試超完美！他們要錄取你。" },
+        { "en": "(Looking at a burnt cake) Nailed it.", "zh": "（看著烤焦的蛋糕）完美。（反諷）" }
+      ]
+    },
+    {
+      "id": "looking-sharp",
+      "term": "looking sharp",
+      "meaning": "看起來很帥氣、很有型",
+      "register": "casual",
+      "usage": "稱讚別人打扮得體、有精神，男女都可用。",
+      "risk": { "level": "safe", "note": "比 handsome / beautiful 中性，職場稱讚打扮很安全。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Looking sharp! Big meeting today?", "zh": "好帥！今天有重要會議嗎？" },
+        { "en": "You're looking sharp in that blazer.", "zh": "你穿那件西裝外套很有型。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u037-r1", "sourceUnit": 36, "type": "mcq", "question": "\"I'll finish it tonight.\" → She said she ___ finish it that night.", "options": ["will", "would", "is"], "answer": 1, "explanation": "複習第 36 單元：will → would。" },
+    { "id": "u037-r2", "sourceUnit": 35, "type": "fill", "question": "You finished the whole project alone? That ___ be exhausting.", "answer": "must", "explanation": "複習第 35 單元：That must be…" },
+    { "id": "u037-r3", "sourceUnit": 33, "type": "mcq", "question": "This is the ___ presentation I've ever seen.", "options": ["most good", "best", "more better"], "answer": 1, "explanation": "複習第 33 單元：good → best。" },
+    { "id": "u037-r4", "sourceUnit": 29, "type": "mcq", "question": "That was a great talk, ___?", "options": ["wasn't it", "isn't it", "didn't it"], "answer": 0, "explanation": "複習第 29 單元：was → wasn't it。" },
+    { "id": "u037-r5", "sourceUnit": 21, "type": "mcq", "question": "I ___ presentations for ten years, and I still get nervous.", "options": ["give", "'ve been giving", "gave"], "answer": 1, "explanation": "複習第 21、26 單元：持續到現在。" },
+    { "id": "u037-r6", "sourceUnit": 5, "type": "mcq", "question": "Could you give me ___ feedback on my slides?", "options": ["a", "some", "many"], "answer": 1, "explanation": "複習第 5 單元：feedback 不可數。" },
+    { "id": "u037-r7", "sourceUnit": 37, "type": "mcq", "question": "Which is correct?", "options": ["It's so nice day.", "It's such a nice day.", "It's such nice day."], "answer": 1, "explanation": "單數名詞前用 such a。" }
+  ]
+}

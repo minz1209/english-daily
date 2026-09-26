@@ -1,0 +1,148 @@
+{
+  "id": 31,
+  "module": 4,
+  "level": "B1+",
+  "title": { "zh": "交友軟體", "en": "Dating Apps" },
+  "scenario": {
+    "title": "跟朋友聊交友軟體和約會",
+    "context": "「那個說他是攝影師的人」「我上次見的那個男生」——聊約會對象時，我們一直在用子句描述「哪一個人」。英文的 who / which / that 關係子句就是做這件事，而且語序和中文完全相反。",
+    "dialogues": [
+      {
+        "title": "Brunch gossip",
+        "lines": [
+          { "speaker": "Jess", "en": "So, any luck on the apps?", "zh": "所以，交友軟體上有收穫嗎？" },
+          { "speaker": "Amy", "en": "Kind of. Remember the guy who said he was a photographer?", "zh": "算是吧。記得那個說他是攝影師的人嗎？" },
+          { "speaker": "Jess", "en": "The one that had all those mountain pictures?", "zh": "那個有一堆山景照的？" },
+          { "speaker": "Amy", "en": "Yes! We met for coffee last week, and we really hit it off.", "zh": "對！我們上週喝了咖啡，很聊得來。" },
+          { "speaker": "Jess", "en": "That's great! What about the guy who stopped replying?", "zh": "太好了！那個突然不回訊息的呢？" },
+          { "speaker": "Amy", "en": "Oh, he totally ghosted me. After three dates!", "zh": "喔，他完全人間蒸發了，約了三次之後！" },
+          { "speaker": "Minz", "en": "That's the worst. People who ghost should just send one text. It takes ten seconds.", "zh": "最爛了。會搞消失的人應該傳一句話就好，只要十秒鐘。" },
+          { "speaker": "Amy", "en": "Right? Anyway, I'm focusing on the photographer now.", "zh": "對吧？總之我現在專心在攝影師身上。" }
+        ]
+      },
+      {
+        "title": "Minz tries an app",
+        "lines": [
+          { "speaker": "Jess", "en": "Let's set up your profile. First, pick a photo that shows your face clearly.", "zh": "來設定你的檔案。先選一張臉很清楚的照片。" },
+          { "speaker": "Minz", "en": "What about the one that my friend took at the pottery studio?", "zh": "我朋友在陶藝教室幫我拍的那張呢？" },
+          { "speaker": "Jess", "en": "Perfect. Now just swipe right on people you'd actually want to meet.", "zh": "完美。現在只對真的想見面的人往右滑。" },
+          { "speaker": "Minz", "en": "This guy's profile says he's a pilot who loves cooking. Too good to be true?", "zh": "這個人的檔案說他是愛煮飯的機師。好到不像真的？" },
+          { "speaker": "Jess", "en": "Maybe. His photos look like stock images. Could be a catfish.", "zh": "有可能。他的照片看起來像圖庫照，可能是假帳號。" },
+          { "speaker": "Minz", "en": "OK, swiping left. I'll stick to people whose photos look real.", "zh": "好，往左滑。我只選照片看起來真實的人。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "Remember the guy who ___?", "zh": "記得那個 ___ 的人嗎？" },
+      { "en": "The one that ___?", "zh": "那個 ___ 的？" },
+      { "en": "We really hit it off.", "zh": "我們很聊得來。" },
+      { "en": "Any luck on the apps?", "zh": "交友軟體上有收穫嗎？" },
+      { "en": "What do you usually do on a first date?", "zh": "你第一次約會通常做什麼？" },
+      { "en": "I'm looking for someone who ___.", "zh": "我在找一個 ___ 的人。" },
+      { "en": "It's too good to be true.", "zh": "好到不像真的。" },
+      { "en": "Let's just meet for coffee first.", "zh": "先喝個咖啡吧。" },
+      { "en": "There wasn't any chemistry.", "zh": "沒有來電。", "note": "chemistry = 彼此的火花" },
+      { "en": "Did you two exchange numbers?", "zh": "你們有交換電話嗎？" }
+    ],
+    "chinglish": [
+      { "wrong": "The say he is photographer guy.", "right": "The guy who said he was a photographer.", "why": "中文把描述放在名詞前面（說他是攝影師的那個人），英文把描述放在名詞後面，用 who / that 連起來。" },
+      { "wrong": "I like the man who he is funny.", "right": "I like guys who are funny.", "why": "who 已經取代了主詞，後面不能再放 he。" },
+      { "wrong": "The picture which you took it is nice.", "right": "The picture (that) you took is nice.", "why": "which / that 已經指那張照片，後面不能再有 it。" },
+      { "wrong": "We have electricity!", "right": "We have chemistry. / There was a spark.", "why": "「來電」直翻 electricity 母語者聽不懂。兩人有火花用 chemistry / spark。" }
+    ]
+  },
+  "grammar": {
+    "id": "defining-relative-clauses",
+    "title": "限定關係子句 who / which / that",
+    "oneLiner": "用 who（人）、which（物）、that（人或物）把描述接在名詞後面，說明「是哪一個」。",
+    "whenToUse": [
+      "who：指人。The guy who ghosted me.",
+      "which：指物。The app which I use most.",
+      "that：人和物都能用，口語最常見。The one that had the mountain photos.",
+      "whose：…的。People whose photos look real.",
+      "關係代名詞當受詞時可以省略：The photo (that) my friend took.",
+      "關係代名詞當主詞時不能省略：The guy who said…（不能說 The guy said… 當作描述）"
+    ],
+    "whyWeGetItWrong": "中文的修飾語全部放在名詞前面：「那個說他是攝影師、有一堆山景照的男生」。英文正好相反，先說名詞，再用 who / that 補充。台灣人常見的錯誤是在子句裡重複主詞或受詞（the man who he…、the photo that you took it），因為中文腦會覺得句子「少了東西」。",
+    "examples": [
+      { "correct": "I met a guy who works at a bookstore.", "incorrect": "I met a guy who he works at a bookstore.", "note": "who 就是主詞，不重複 he。" },
+      { "correct": "That's the café (that) we went to on our first date.", "note": "當受詞的 that 可以省略。" },
+      { "correct": "Apps that match you by interests are more fun.", "note": "that 指物。" },
+      { "correct": "I prefer people whose profiles are honest.", "note": "whose = …的。" },
+      { "correct": "The restaurant which you recommended was amazing.", "incorrect": "The restaurant which you recommended it was amazing.", "note": "不重複 it。" }
+    ],
+    "quiz": [
+      { "id": "u031-g1", "type": "mcq", "question": "I'm looking for someone ___ loves traveling.", "options": ["which", "who", "whose"], "answer": 1, "explanation": "指人當主詞用 who。" },
+      { "id": "u031-g2", "type": "mcq", "question": "Which is correct?", "options": ["The app which I use it is free.", "The app I use is free.", "The app I use it is free."], "answer": 1, "explanation": "受詞的關係代名詞可以省略，但不能重複 it。" },
+      { "id": "u031-g3", "type": "fill", "question": "She dated a guy ___ sister is a famous singer. (…的)", "answer": "whose", "explanation": "whose = …的。" },
+      { "id": "u031-g4", "type": "mcq", "question": "Remember the restaurant ___ had the amazing dumplings?", "options": ["who", "that", "whose"], "answer": 1, "explanation": "指物用 that / which。" },
+      { "id": "u031-g5", "type": "mcq", "question": "Which is correct?", "options": ["The man who he called me was rude.", "The man who called me was rude.", "The man called me who was rude."], "answer": 1, "explanation": "who 取代主詞，不重複 he。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "swipe-right",
+      "term": "swipe right",
+      "meaning": "（交友軟體）右滑表示喜歡；引申為「贊成、有興趣」",
+      "register": "casual",
+      "usage": "源自 Tinder。swipe left = 沒興趣。現在也用在交友以外：I'd swipe right on that idea.",
+      "risk": { "level": "safe", "note": "年輕人普遍使用，不粗俗。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "I swiped right on him because of his dog.", "zh": "我因為他的狗對他右滑。" },
+        { "en": "A four-day work week? I'd swipe right on that.", "zh": "一週上四天班？這我按讚。" }
+      ]
+    },
+    {
+      "id": "ghost",
+      "term": "ghost",
+      "meaning": "突然消失、搞失蹤（不再回訊息）",
+      "register": "casual",
+      "usage": "ghost someone = 不說一聲就斷聯。也用在工作：The client ghosted us after the proposal.",
+      "risk": { "level": "safe", "note": "普遍用語，但指控別人 ghost 帶抱怨。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "He ghosted me after our second date.", "zh": "第二次約會後他就人間蒸發了。" },
+        { "en": "The client totally ghosted us after we sent the quote.", "zh": "我們寄報價後，客戶就完全消失了。" }
+      ]
+    },
+    {
+      "id": "hit-it-off",
+      "term": "hit it off",
+      "meaning": "一見如故、很聊得來",
+      "register": "casual",
+      "usage": "兩個人初次見面就很合得來。hit it off with someone。",
+      "risk": { "level": "safe", "note": "用在朋友、同事、約會都可以。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "My mom and my boyfriend really hit it off.", "zh": "我媽和我男友很合得來。" },
+        { "en": "We hit it off right away and talked for hours.", "zh": "我們一見如故，聊了好幾個小時。" }
+      ]
+    },
+    {
+      "id": "catfish",
+      "term": "catfish",
+      "meaning": "網路上用假身分、假照片騙人的人（或這種行為）",
+      "register": "casual",
+      "usage": "名詞 a catfish，動詞 catfish someone / get catfished。",
+      "risk": { "level": "careful", "note": "說某人是 catfish 等於指控對方詐騙，沒證據別亂說。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "His photos were from a model's Instagram. Total catfish.", "zh": "他的照片是從某個模特兒的 IG 抓的，根本假帳號。" },
+        { "en": "Always video chat first so you don't get catfished.", "zh": "先視訊，才不會被假帳號騙。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u031-r1", "sourceUnit": 30, "type": "mcq", "question": "I ___ my current job in 2024.", "options": ["have started", "started", "have been starting"], "answer": 1, "explanation": "複習第 30 單元：有明確時間用過去式。" },
+    { "id": "u031-r2", "sourceUnit": 29, "type": "mcq", "question": "You met him on an app, ___?", "options": ["didn't you", "don't you", "weren't you"], "answer": 0, "explanation": "複習第 29 單元：過去式肯定句用 didn't you。" },
+    { "id": "u031-r3", "sourceUnit": 27, "type": "mcq", "question": "Do you know ___?", "options": ["where does he live", "where he lives", "where lives he"], "answer": 1, "explanation": "複習第 27 單元：間接問句用肯定語序。" },
+    { "id": "u031-r4", "sourceUnit": 23, "type": "fill", "question": "Would you mind ___ (take) a photo of us?", "answer": "taking", "explanation": "複習第 23 單元：mind + V-ing。" },
+    { "id": "u031-r5", "sourceUnit": 15, "type": "mcq", "question": "Which is correct?", "options": ["I'm usually shy on first dates.", "I usually am shy on first dates.", "I'm shy usually always."], "answer": 0, "explanation": "複習第 15 單元：be 動詞後放頻率副詞。" },
+    { "id": "u031-r6", "sourceUnit": 31, "type": "fill", "question": "We only met once, but we really hit it ___.", "answer": "off", "explanation": "hit it off = 很聊得來。" }
+  ]
+}

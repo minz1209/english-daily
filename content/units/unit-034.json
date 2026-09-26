@@ -1,0 +1,149 @@
+{
+  "id": 34,
+  "module": 4,
+  "level": "B1+",
+  "title": { "zh": "邀約與婉拒", "en": "Invitations and Saying No" },
+  "scenario": {
+    "title": "接受、婉拒、提出替代方案",
+    "context": "被邀約時，最難的是說「不」又不傷感情。英文會用 I'd rather… / I'd prefer… 表達偏好，再提出替代方案，讓拒絕聽起來像「換個方式」而不是「不要」。",
+    "dialogues": [
+      {
+        "title": "Weekend plans",
+        "lines": [
+          { "speaker": "Leo", "en": "We're going to that new club in Xinyi on Saturday. You in?", "zh": "我們週六要去信義區那間新夜店，你要來嗎？" },
+          { "speaker": "Minz", "en": "Honestly, clubs aren't really my thing. I'd rather do something quieter.", "zh": "老實說夜店不太是我的菜，我比較想做點安靜的事。" },
+          { "speaker": "Leo", "en": "Fair enough. What about dinner before?", "zh": "有道理。那之前一起吃晚餐呢？" },
+          { "speaker": "Minz", "en": "Dinner sounds great. Count me in for that.", "zh": "晚餐很好，這個算我一份。" },
+          { "speaker": "Leo", "en": "Would you prefer Thai or hot pot?", "zh": "你比較想吃泰式還是火鍋？" },
+          { "speaker": "Minz", "en": "I prefer Thai to hot pot in this heat.", "zh": "這麼熱的天，我比較想吃泰式。" },
+          { "speaker": "Leo", "en": "Thai it is. I'll book for six.", "zh": "就泰式。我訂六點。" }
+        ]
+      },
+      {
+        "title": "Declining a coworker",
+        "lines": [
+          { "speaker": "Amy", "en": "A few of us are doing karaoke tonight. Want to come?", "zh": "我們幾個今晚要去唱歌，要來嗎？" },
+          { "speaker": "Minz", "en": "I'd love to, but I'm wiped out. Can I take a rain check?", "zh": "很想去，但我累癱了。可以改天嗎？" },
+          { "speaker": "Amy", "en": "Of course. How about next Friday?", "zh": "當然。下週五呢？" },
+          { "speaker": "Minz", "en": "Next Friday works. I'd rather go when I actually have energy to sing.", "zh": "下週五可以。我寧願在真的有力氣唱的時候去。" },
+          { "speaker": "Amy", "en": "Ha, deal. What about the hiking trip on Sunday?", "zh": "哈，成交。那週日的健行呢？" },
+          { "speaker": "Minz", "en": "I think I'll pass on that one. I've already got plans with my family.", "zh": "那個我應該就不參加了，我已經跟家人有約。" },
+          { "speaker": "Amy", "en": "No worries. Next time!", "zh": "沒關係，下次吧！" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "You in?", "zh": "你要來嗎？", "note": "Are you in? 的省略" },
+      { "en": "Count me in!", "zh": "算我一份！" },
+      { "en": "I'd love to, but ___.", "zh": "我很想去，但 ___。", "note": "婉拒的標準開頭" },
+      { "en": "Can I take a rain check?", "zh": "可以改天嗎？" },
+      { "en": "I think I'll pass this time.", "zh": "這次我應該就不參加了。" },
+      { "en": "I'd rather ___.", "zh": "我比較想 ___。" },
+      { "en": "How about ___ instead?", "zh": "改成 ___ 怎麼樣？" },
+      { "en": "That works for me.", "zh": "我可以。" },
+      { "en": "Thanks for thinking of me.", "zh": "謝謝你想到我。", "note": "婉拒時補一句，顯得有溫度" },
+      { "en": "Let me check my schedule and get back to you.", "zh": "我確認一下行程再回覆你。" }
+    ],
+    "chinglish": [
+      { "wrong": "I don't want to go.", "right": "I'd love to, but I can't make it.", "why": "直接說 I don't want to 在英文裡很傷人。先表達善意，再給理由。" },
+      { "wrong": "I prefer Thai than hot pot.", "right": "I prefer Thai to hot pot. / I'd rather have Thai than hot pot.", "why": "prefer 搭配 to，would rather 才搭配 than。" },
+      { "wrong": "I would rather to stay home.", "right": "I'd rather stay home.", "why": "would rather 後面接原形，不加 to。" },
+      { "wrong": "Next time again.", "right": "Maybe next time! / Let's do it another time.", "why": "「下次再說」直翻不完整。" }
+    ]
+  },
+  "grammar": {
+    "id": "would-rather-prefer",
+    "title": "would rather / prefer A to B",
+    "oneLiner": "would rather + 原形（than + 原形）；prefer + 名詞 / V-ing + to + 名詞 / V-ing。",
+    "whenToUse": [
+      "would rather（'d rather）+ 原形：I'd rather stay home.",
+      "would rather A than B（兩個都原形）：I'd rather walk than take a taxi.",
+      "否定：I'd rather not.（我寧可不要，很好用的婉拒）",
+      "prefer A to B（一般偏好）：I prefer tea to coffee. / I prefer walking to driving.",
+      "would prefer to V（這一次的偏好）：I'd prefer to meet on Friday.",
+      "問對方偏好：Would you rather…? / Would you prefer A or B?"
+    ],
+    "whyWeGetItWrong": "中文「我比較喜歡 A，不喜歡 B」「我寧願 A 也不要 B」，結構很自由。英文 would rather 和 prefer 的搭配詞不一樣（than vs to），後面的動詞形式也不一樣（原形 vs V-ing），台灣人常混用成 prefer A than B 或 would rather to V。",
+    "examples": [
+      { "correct": "I'd rather stay in tonight.", "incorrect": "I'd rather to stay in tonight.", "note": "would rather + 原形。" },
+      { "correct": "I prefer cats to dogs.", "incorrect": "I prefer cats than dogs.", "note": "prefer A to B。" },
+      { "correct": "I'd rather walk than wait for the bus.", "note": "would rather A than B，兩個都原形。" },
+      { "correct": "A: Want to come? B: I'd rather not, thanks.", "note": "委婉拒絕。" },
+      { "correct": "I prefer working from home to commuting.", "note": "prefer + V-ing to V-ing。" }
+    ],
+    "quiz": [
+      { "id": "u034-g1", "type": "mcq", "question": "I'd rather ___ home tonight.", "options": ["to stay", "stay", "staying"], "answer": 1, "explanation": "would rather + 原形。" },
+      { "id": "u034-g2", "type": "mcq", "question": "I prefer tea ___ coffee.", "options": ["than", "to", "over than"], "answer": 1, "explanation": "prefer A to B。" },
+      { "id": "u034-g3", "type": "fill", "question": "I'd rather take the MRT ___ drive.", "answer": "than", "explanation": "would rather A than B。" },
+      { "id": "u034-g4", "type": "fill", "question": "A: Want to go clubbing? B: I'd rather ___, thanks. (委婉拒絕)", "answer": "not", "explanation": "I'd rather not = 我寧可不要。" },
+      { "id": "u034-g5", "type": "mcq", "question": "I prefer ___ to cooking.", "options": ["eat out", "eating out", "to eat out"], "answer": 1, "explanation": "prefer + V-ing to V-ing。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "rain-check",
+      "term": "rain check",
+      "meaning": "改天、延期（婉拒但保留下次）",
+      "register": "casual",
+      "usage": "take a rain check / Can I get a rain check? 源自棒球賽因雨取消時發的補看券。",
+      "risk": { "level": "safe", "note": "非常好用的禮貌婉拒，對同事也適用。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "Can I take a rain check on dinner? Something came up.", "zh": "晚餐可以改天嗎？臨時有事。" },
+        { "en": "Rain check? I'm swamped this week.", "zh": "改天好嗎？我這週忙翻了。" }
+      ]
+    },
+    {
+      "id": "ill-pass",
+      "term": "I'll pass",
+      "meaning": "我就不了、我跳過",
+      "register": "casual",
+      "usage": "婉拒提議或食物：I'll pass on dessert. 加 thanks 語氣更好。",
+      "risk": { "level": "safe", "note": "單說 I'll pass 有點冷淡，加上 I think… / thanks 會比較柔和。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Horror movies? I think I'll pass, thanks.", "zh": "恐怖片？我應該就不了，謝謝。" },
+        { "en": "I'll pass on the second round. I have work tomorrow.", "zh": "第二攤我就不去了，明天要上班。" }
+      ]
+    },
+    {
+      "id": "not-my-thing",
+      "term": "not my thing",
+      "meaning": "不是我的菜、我不太喜歡",
+      "register": "casual",
+      "usage": "委婉地說不喜歡某種活動或東西。也可以說 not really my scene。",
+      "risk": { "level": "safe", "note": "比 I don't like it 柔和，不會否定對方的喜好。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Camping isn't really my thing.", "zh": "露營不太是我的菜。" },
+        { "en": "Spicy food's not my thing, but you go ahead.", "zh": "我不太吃辣，但你們吃沒關係。" }
+      ]
+    },
+    {
+      "id": "count-me-in",
+      "term": "count me in",
+      "meaning": "算我一份",
+      "register": "casual",
+      "usage": "表示要參加。反義是 count me out。",
+      "risk": { "level": "safe", "note": "熱情友善。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Beach trip? Count me in!", "zh": "海邊之旅？算我一份！" },
+        { "en": "If you need volunteers, count me in.", "zh": "如果需要志工，算我一個。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u034-r1", "sourceUnit": 33, "type": "mcq", "question": "This restaurant is ___ than the one we went to last week.", "options": ["more better", "much better", "most good"], "answer": 1, "explanation": "複習第 33 單元：much better。" },
+    { "id": "u034-r2", "sourceUnit": 32, "type": "fill", "question": "I ___ never tried Thai food before I went to Bangkok.", "answer": "had", "explanation": "複習第 32 單元：過去完成式。" },
+    { "id": "u034-r3", "sourceUnit": 30, "type": "mcq", "question": "Which is correct?", "options": ["I've been knowing her for years.", "I've known her for years.", "I know her since years."], "answer": 1, "explanation": "複習第 30 單元：know 不用進行式。" },
+    { "id": "u034-r4", "sourceUnit": 26, "type": "mcq", "question": "Sorry I'm late. How long ___ waiting?", "options": ["are you", "have you been", "did you"], "answer": 1, "explanation": "複習第 26 單元：完成進行式問持續多久。" },
+    { "id": "u034-r5", "sourceUnit": 18, "type": "mcq", "question": "Sorry I didn't answer. My phone ___.", "options": ["was dead", "was died", "dead"], "answer": 0, "explanation": "複習第 18 單元：My phone was dead。" },
+    { "id": "u034-r6", "sourceUnit": 2, "type": "fill", "question": "A: Want more rice? B: I'm ___, thanks.", "answer": "good", "explanation": "複習第 2 單元：I'm good = 不用了。" },
+    { "id": "u034-r7", "sourceUnit": 34, "type": "mcq", "question": "Which is the most polite way to decline?", "options": ["I don't want to.", "I'd love to, but I can't make it. Rain check?", "No."], "answer": 1, "explanation": "先表達善意，再婉拒並保留下次。" }
+  ]
+}

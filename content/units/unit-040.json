@@ -1,0 +1,154 @@
+{
+  "id": 40,
+  "module": 4,
+  "level": "B1+",
+  "title": { "zh": "整合：朋友婚禮", "en": "Review: A Friend's Wedding" },
+  "scenario": {
+    "title": "收到喜帖、參加婚禮、致詞",
+    "context": "第四章的收尾：好朋友要結婚了。從聽到求婚的消息、回覆喜帖、到婚禮上跟陌生人聊天，你會用到比較級、關係子句、條件句，也會用到這一章學過的轉述、稱讚和同理。",
+    "dialogues": [
+      {
+        "title": "The big news",
+        "lines": [
+          { "speaker": "Jess", "en": "OK, sit down. Leo popped the question last night!", "zh": "好，你坐下。Leo 昨晚求婚了！" },
+          { "speaker": "Minz", "en": "No way! What did you say?", "zh": "不會吧！你怎麼回答？" },
+          { "speaker": "Jess", "en": "I said yes, obviously! We're tying the knot next spring.", "zh": "當然說好啊！我們明年春天要結婚。" },
+          { "speaker": "Minz", "en": "I'm so happy for you! How did he do it?", "zh": "我真為你們開心！他怎麼求的？" },
+          { "speaker": "Jess", "en": "At the café where we had our first date. It was the sweetest thing ever.", "zh": "在我們第一次約會的咖啡店，是有史以來最甜的事。" },
+          { "speaker": "Minz", "en": "That's such a Leo thing to do. Was he nervous?", "zh": "真的很 Leo 的作風。他有緊張嗎？" },
+          { "speaker": "Jess", "en": "He told me he had been planning it for months and almost got cold feet twice.", "zh": "他跟我說他計畫了好幾個月，還差點臨陣退縮兩次。" },
+          { "speaker": "Minz", "en": "Ha! Well, if you need help with the invitations, I'll design them for free.", "zh": "哈！嗯，如果你需要喜帖，我免費幫你設計。" }
+        ]
+      },
+      {
+        "title": "At the reception",
+        "lines": [
+          { "speaker": "Guest", "en": "Hi, I don't think we've met. How do you know the couple?", "zh": "嗨，我們好像沒見過。你跟新人怎麼認識的？" },
+          { "speaker": "Minz", "en": "I'm Jess's friend from college. And you?", "zh": "我是 Jess 的大學同學。你呢？" },
+          { "speaker": "Guest", "en": "I'm Leo's cousin. I came as my sister's plus-one.", "zh": "我是 Leo 的表哥，我是以我姊姊的攜伴身分來的。" },
+          { "speaker": "Minz", "en": "Nice! Isn't this the most beautiful venue?", "zh": "不錯！這是不是最美的場地？" },
+          { "speaker": "Guest", "en": "It is. And the invitations were gorgeous. Someone said a friend designed them.", "zh": "是啊。喜帖也好漂亮，有人說是朋友設計的。" },
+          { "speaker": "Minz", "en": "Ha, that was me, actually.", "zh": "哈，其實就是我。" },
+          { "speaker": "Guest", "en": "No way! You must be so proud. They were such a big hit.", "zh": "真的假的！你一定很驕傲，大家都超喜歡。" },
+          { "speaker": "Minz", "en": "Thank you, that's so kind of you to say.", "zh": "謝謝，你人真好。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "I'm so happy for you!", "zh": "我真為你開心！" },
+      { "en": "Congratulations! When's the big day?", "zh": "恭喜！大日子是哪天？" },
+      { "en": "How did he propose?", "zh": "他怎麼求婚的？" },
+      { "en": "I'll be there!", "zh": "我一定到！" },
+      { "en": "Can I bring a plus-one?", "zh": "我可以攜伴嗎？" },
+      { "en": "How do you know the couple?", "zh": "你跟新人怎麼認識的？", "note": "婚禮上跟陌生人聊天的最佳開場" },
+      { "en": "You two are perfect together.", "zh": "你們兩個超配。" },
+      { "en": "Let's raise a glass to the happy couple!", "zh": "讓我們為新人舉杯！" },
+      { "en": "Wishing you a lifetime of happiness.", "zh": "祝你們一輩子幸福。", "note": "寫在卡片上的祝福" },
+      { "en": "It was a beautiful ceremony.", "zh": "婚禮儀式好美。" }
+    ],
+    "chinglish": [
+      { "wrong": "Congratulation you marry!", "right": "Congratulations on your wedding! / Congrats on getting married!", "why": "congratulations 通常用複數，後面接 on + 名詞 / V-ing。" },
+      { "wrong": "I will join your wedding.", "right": "I'll be at your wedding. / I'll be there!", "why": "join 比較像「加入團體或活動」，參加婚禮說 attend / be at / come to。" },
+      { "wrong": "If you will need help, I will help you.", "right": "If you need any help, just let me know.", "why": "if 子句不用 will（複習第 39 單元）。" },
+      { "wrong": "He is the man which she will marry.", "right": "He's the man she's going to marry.", "why": "指人不用 which；當受詞的關係代名詞可以省略（複習第 31 單元）。" }
+    ]
+  },
+  "grammar": {
+    "id": "review-comparison-relative-conditional",
+    "title": "比較、關係子句、條件句",
+    "oneLiner": "這一章的三個核心：比較級不疊 more、關係子句不重複主受詞、if 子句不用 will。",
+    "whenToUse": [
+      "比較級：much / way / even + 比較級；the + 最高級 + I've ever…。It was the sweetest thing ever.",
+      "關係子句：名詞 + who / that / which / whose / where + 子句；不重複 he / it。The café where we had our first date.",
+      "where 也可以當關係詞，接地點：the café where we met（第 87 單元會細講）。",
+      "條件句 type 1：If + 現在式, will + 原形。If you need help, I'll design them.",
+      "轉述：He told me he had been planning it.（第 32、36 單元的延伸）",
+      "must 推測、so / such 加強、tag question 拉近距離，都是婚禮閒聊的好工具。"
+    ],
+    "whyWeGetItWrong": "這一章的錯誤有一個共通點：中文把修飾語放在前面、用同一個詞表達各種程度、用「會」標示所有未來，所以台灣人很容易把中文的結構直接搬進英文。整合單元的目的，就是讓你在同一個情境裡切換這些結構，練到不用想就能說出正確的形式。",
+    "examples": [
+      { "correct": "It was the most beautiful wedding I've ever been to.", "incorrect": "It was the most beautifulest wedding I ever been.", "note": "最高級 + I've ever + p.p.。" },
+      { "correct": "That's the guy who caught the bouquet.", "incorrect": "That's the guy who he caught the bouquet.", "note": "不重複主詞。" },
+      { "correct": "If it rains, they'll move the ceremony inside.", "note": "type 1 條件句。" },
+      { "correct": "Their venue was much bigger than I expected.", "note": "much + 比較級。" },
+      { "correct": "She told me she had cried during the vows.", "note": "轉述時時態後退。" }
+    ],
+    "quiz": [
+      { "id": "u040-g1", "type": "mcq", "question": "This is ___ wedding cake I've ever seen.", "options": ["the most big", "the biggest", "the more big"], "answer": 1, "explanation": "big → the biggest。" },
+      { "id": "u040-g2", "type": "mcq", "question": "The restaurant ___ they got engaged is closing.", "options": ["which", "where", "who"], "answer": 1, "explanation": "地點用 where（= in which）。" },
+      { "id": "u040-g3", "type": "fill", "question": "If you ___ (come) early, you can help us set up.", "answer": "come", "explanation": "if 子句用現在式。" },
+      { "id": "u040-g4", "type": "mcq", "question": "\"We're getting married in May.\" → She said they ___ getting married in May.", "options": ["are", "were", "will"], "answer": 1, "explanation": "轉述時 are → were。" },
+      { "id": "u040-g5", "type": "mcq", "question": "The groom ___ gave the speech was hilarious.", "options": ["who", "which", "whose"], "answer": 0, "explanation": "指人用 who。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "tie-the-knot",
+      "term": "tie the knot",
+      "meaning": "結婚",
+      "register": "casual",
+      "usage": "get married 的輕鬆說法。",
+      "risk": { "level": "safe", "note": "友善常用。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "They're tying the knot in Kyoto next year.", "zh": "他們明年要在京都結婚。" },
+        { "en": "After ten years together, they finally tied the knot.", "zh": "在一起十年後，他們終於結婚了。" }
+      ]
+    },
+    {
+      "id": "plus-one",
+      "term": "plus-one",
+      "meaning": "攜伴、同行者",
+      "register": "neutral",
+      "usage": "喜帖或活動邀請中「可以多帶一位」。bring a plus-one / be someone's plus-one。",
+      "risk": { "level": "safe", "note": "中性用語。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "The invitation says I can bring a plus-one.", "zh": "喜帖上說我可以攜伴。" },
+        { "en": "Want to be my plus-one at the wedding?", "zh": "要當我婚禮的攜伴嗎？" }
+      ]
+    },
+    {
+      "id": "cold-feet",
+      "term": "cold feet",
+      "meaning": "臨陣退縮、緊張到想反悔",
+      "register": "casual",
+      "usage": "get cold feet，通常用在婚禮、重大決定前。",
+      "risk": { "level": "safe", "note": "常見說法；說新郎新娘 got cold feet 帶八卦意味，要看場合。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "I almost got cold feet before my job interview.", "zh": "面試前我差點打退堂鼓。" },
+        { "en": "Everyone gets a little cold feet before a wedding.", "zh": "婚禮前每個人都會有點想逃。" }
+      ]
+    },
+    {
+      "id": "pop-the-question",
+      "term": "pop the question",
+      "meaning": "求婚",
+      "register": "casual",
+      "usage": "propose 的輕鬆說法。",
+      "risk": { "level": "safe", "note": "友善常用。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "He's planning to pop the question on her birthday.", "zh": "他打算在她生日那天求婚。" },
+        { "en": "So when are you going to pop the question?", "zh": "所以你什麼時候要求婚？" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u040-r1", "sourceUnit": 39, "type": "mcq", "question": "If the weather ___ nice, the ceremony will be outside.", "options": ["will be", "is", "was"], "answer": 1, "explanation": "複習第 39 單元：if 子句用現在式。" },
+    { "id": "u040-r2", "sourceUnit": 38, "type": "fill", "question": "The bride did her own makeup. She did it all by ___.", "answer": "herself", "explanation": "複習第 38 單元：by herself。" },
+    { "id": "u040-r3", "sourceUnit": 37, "type": "mcq", "question": "It was ___ beautiful speech.", "options": ["so", "such a", "such"], "answer": 1, "explanation": "複習第 37 單元：such a + 形容詞 + 名詞。" },
+    { "id": "u040-r4", "sourceUnit": 36, "type": "mcq", "question": "\"I'll be there.\" → He said he ___ be there.", "options": ["will", "would", "is"], "answer": 1, "explanation": "複習第 36 單元：will → would。" },
+    { "id": "u040-r5", "sourceUnit": 35, "type": "mcq", "question": "You've been planning the wedding for a year? That ___ be stressful.", "options": ["must", "can't", "mustn't"], "answer": 0, "explanation": "複習第 35 單元：must 表同理推測。" },
+    { "id": "u040-r6", "sourceUnit": 34, "type": "mcq", "question": "I'd rather ___ a small wedding.", "options": ["have", "to have", "having"], "answer": 0, "explanation": "複習第 34 單元：would rather + 原形。" },
+    { "id": "u040-r7", "sourceUnit": 32, "type": "fill", "question": "By the time we arrived, the ceremony ___ already started.", "answer": "had", "explanation": "複習第 32 單元：過去完成式。" },
+    { "id": "u040-r8", "sourceUnit": 24, "type": "mcq", "question": "They ___ a professional photographer take the photos.", "options": ["had", "got", "made to"], "answer": 0, "explanation": "複習第 24 單元：have + 人 + 原形。" },
+    { "id": "u040-r9", "sourceUnit": 8, "type": "mcq", "question": "I can't go to the wedding. I have ___ flu.", "options": ["a", "the", "some"], "answer": 1, "explanation": "複習第 8 單元：the flu。" },
+    { "id": "u040-r10", "sourceUnit": 40, "type": "fill", "question": "Leo finally popped the ___ last night!", "answer": "question", "explanation": "pop the question = 求婚。" }
+  ]
+}

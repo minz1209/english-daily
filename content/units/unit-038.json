@@ -1,0 +1,135 @@
+{
+  "id": 38,
+  "module": 4,
+  "level": "B1+",
+  "title": { "zh": "聊寵物", "en": "Talking About Pets" },
+  "scenario": {
+    "title": "在公園遇到狗主人、聊自家貓咪",
+    "context": "英文講寵物時，用 it 還是 he / she？養寵物的人幾乎都會說 he / she，用 it 可能會讓主人不太開心。這個單元也順便學反身代名詞（himself、herself），用來講寵物「自己」做的事。",
+    "dialogues": [
+      {
+        "title": "At the dog park",
+        "lines": [
+          { "speaker": "Minz", "en": "Oh my gosh, your dog is so cute! Can I pet him?", "zh": "天啊，你的狗好可愛！我可以摸他嗎？" },
+          { "speaker": "Owner", "en": "Sure! Actually, she's a girl. Her name's Mochi.", "zh": "可以！其實她是女生，她叫麻糬。" },
+          { "speaker": "Minz", "en": "Sorry! Hi, Mochi. How old is she?", "zh": "抱歉！嗨麻糬。她幾歲了？" },
+          { "speaker": "Owner", "en": "Three. She's a rescue. We adopted her from a shelter in Tainan.", "zh": "三歲，是救援犬。我們從台南的收容所領養的。" },
+          { "speaker": "Minz", "en": "That's amazing. Whoa, what's she doing?", "zh": "太棒了。哇，她在幹嘛？" },
+          { "speaker": "Owner", "en": "Ha, she gets the zoomies every time we come here. She tires herself out in ten minutes.", "zh": "哈，她每次來這裡都會暴衝，十分鐘就把自己累垮。" },
+          { "speaker": "Minz", "en": "What a good doggo.", "zh": "好乖的狗狗。" }
+        ]
+      },
+      {
+        "title": "Showing off a cat",
+        "lines": [
+          { "speaker": "Jess", "en": "Is that your cat on your phone background?", "zh": "你手機桌布是你的貓嗎？" },
+          { "speaker": "Minz", "en": "Yes! That's Tofu. He's my fur baby.", "zh": "對！那是豆腐，他是我的毛小孩。" },
+          { "speaker": "Jess", "en": "He's gorgeous. Is he friendly?", "zh": "他好漂亮。他親人嗎？" },
+          { "speaker": "Minz", "en": "With me, yes. With guests, he hides under the bed.", "zh": "對我很親，有客人來就躲在床底下。" },
+          { "speaker": "Jess", "en": "Who takes care of him when you travel?", "zh": "你出去玩的時候誰照顧他？" },
+          { "speaker": "Minz", "en": "My neighbor feeds him. He mostly entertains himself, though. He's very independent.", "zh": "鄰居會餵他。不過他大多自己玩自己的，很獨立。" },
+          { "speaker": "Jess", "en": "Typical cat.", "zh": "標準的貓。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "Can I pet him / her?", "zh": "我可以摸他／她嗎？" },
+      { "en": "Is he friendly?", "zh": "他親人嗎？" },
+      { "en": "What breed is she?", "zh": "她是什麼品種？" },
+      { "en": "She's a rescue.", "zh": "她是救援來的。" },
+      { "en": "We adopted him from a shelter.", "zh": "我們從收容所領養他。" },
+      { "en": "How old is he?", "zh": "他幾歲？" },
+      { "en": "Who looks after her when you travel?", "zh": "你出遠門時誰照顧她？" },
+      { "en": "He's very independent.", "zh": "他很獨立。" },
+      { "en": "She's scared of strangers.", "zh": "她很怕生。" },
+      { "en": "I'm more of a cat person.", "zh": "我比較是貓派。", "note": "dog person / cat person = 狗派 / 貓派" }
+    ],
+    "chinglish": [
+      { "wrong": "Your dog is so cute. Can I touch it?", "right": "Your dog is so cute! Can I pet him / her?", "why": "摸寵物用 pet，touch 聽起來有點奇怪。用 it 指別人的寵物也可能顯得冷淡。" },
+      { "wrong": "I raise two cats.", "right": "I have two cats.", "why": "「養寵物」直翻 raise 聽起來像在養殖或撫養孩子。說 I have… 就好。" },
+      { "wrong": "My cat plays with himself all day.", "right": "My cat keeps himself busy all day. / My cat entertains himself.", "why": "play with oneself 有性暗示，千萬不要用在寵物或人身上。" },
+      { "wrong": "My dog is very clever, it can understand people's words.", "right": "My dog is so smart. He understands everything I say.", "why": "people's words 是直翻，自然說法是 understand what I say。" }
+    ]
+  },
+  "grammar": {
+    "id": "pronouns-for-pets-reflexive",
+    "title": "寵物用 it 還是 he/she＋反身代名詞",
+    "oneLiner": "自己或別人的寵物一般用 he / she；不確定性別或講一般動物才用 it。反身代名詞表示「自己對自己」。",
+    "whenToUse": [
+      "講有名字的寵物、有感情的對象：he / she / him / her。",
+      "不知道性別、講一般動物、牠不是誰的寵物：it。",
+      "不確定性別時可以問：Is it a he or a she? / Boy or girl?",
+      "反身代名詞：myself, yourself, himself, herself, itself, ourselves, yourselves, themselves。",
+      "主詞和受詞是同一個人時用：She tires herself out. / I taught myself to draw.",
+      "by oneself = 獨自：He stays home by himself."
+    ],
+    "whyWeGetItWrong": "中文口語的「他」「她」「牠」「它」聽起來都一樣，寵物用「牠」也不會冒犯人。英文 it 帶有「物品」的感覺，用在別人心愛的寵物上可能顯得冷漠。另外，反身代名詞在中文裡較少出現（「他把自己累壞了」），台灣人常省略，或者用錯成 hisself / theirselves。",
+    "examples": [
+      { "correct": "My cat is 12. She's getting old.", "incorrect": "My cat is 12. It's getting old.", "note": "自己的寵物用 she / he 更自然。" },
+      { "correct": "There's a stray dog outside. It looks hungry.", "note": "流浪狗、性別不明，用 it 沒問題。" },
+      { "correct": "She taught herself to open the door.", "note": "主詞受詞同一人。" },
+      { "correct": "They enjoyed themselves at the park.", "incorrect": "They enjoyed theirselves at the park.", "note": "themselves 才是正確形式。" },
+      { "correct": "I can't leave my puppy home by himself yet.", "note": "by oneself = 獨自。" }
+    ],
+    "quiz": [
+      { "id": "u038-g1", "type": "mcq", "question": "That's my dog, Coco. ___ loves the beach.", "options": ["It", "She", "Its"], "answer": 1, "explanation": "有名字的寵物用 she / he。" },
+      { "id": "u038-g2", "type": "fill", "question": "He hurt ___ while playing with the dog.", "answer": "himself", "explanation": "主詞受詞同一人，用 himself。" },
+      { "id": "u038-g3", "type": "mcq", "question": "Which is correct?", "options": ["They enjoyed theirselves.", "They enjoyed themselves.", "They enjoyed themself."], "answer": 1, "explanation": "themselves。" },
+      { "id": "u038-g4", "type": "mcq", "question": "A stranger's dog runs up to you. You don't know if it's male or female. You ask:", "options": ["Is it a boy or a girl?", "What's its sex?", "It is male female?"], "answer": 0, "explanation": "自然地問 boy or girl。" },
+      { "id": "u038-g5", "type": "fill", "question": "I taught ___ to draw by watching YouTube.", "answer": "myself", "explanation": "I → myself。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "fur-baby",
+      "term": "fur baby",
+      "meaning": "毛小孩",
+      "register": "casual",
+      "usage": "把寵物當孩子般疼愛的暱稱。",
+      "risk": { "level": "safe", "note": "溫馨用語，有些人覺得有點肉麻，看對象。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "I can't travel for long. My fur baby gets lonely.", "zh": "我不能出遠門太久，我的毛小孩會寂寞。" },
+        { "en": "She posts photos of her fur babies every day.", "zh": "她每天都發毛小孩的照片。" }
+      ]
+    },
+    {
+      "id": "zoomies",
+      "term": "zoomies",
+      "meaning": "寵物突然瘋狂暴衝",
+      "register": "casual",
+      "usage": "get the zoomies = 貓狗突然興奮地到處狂奔。",
+      "risk": { "level": "safe", "note": "可愛的用語，寵物主人都懂。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "My cat gets the zoomies at 3 a.m. every night.", "zh": "我的貓每天凌晨三點都會暴衝。" },
+        { "en": "After his bath, the dog had the zoomies for ten minutes.", "zh": "洗完澡後狗狗暴衝了十分鐘。" }
+      ]
+    },
+    {
+      "id": "doggo",
+      "term": "doggo",
+      "meaning": "狗狗（網路可愛用語）",
+      "register": "very-casual",
+      "usage": "源自網路迷因，類似「狗勾」。也有 pupper（小狗）。",
+      "risk": { "level": "safe", "note": "2016–2019 年左右最紅，現在略顯過時，多用在玩笑或社群貼文。" },
+      "dated": true,
+      "variety": "both",
+      "examples": [
+        { "en": "Look at this doggo in a raincoat!", "zh": "看這隻穿雨衣的狗勾！" },
+        { "en": "Such a good doggo.", "zh": "好乖的狗狗。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u038-r1", "sourceUnit": 37, "type": "mcq", "question": "She has ___ beautiful cat!", "options": ["so", "such a", "such"], "answer": 1, "explanation": "複習第 37 單元：單數名詞前 such a。" },
+    { "id": "u038-r2", "sourceUnit": 36, "type": "fill", "question": "\"I can take care of your cat.\" → She said she ___ take care of my cat.", "answer": "could", "explanation": "複習第 36 單元：can → could。" },
+    { "id": "u038-r3", "sourceUnit": 34, "type": "mcq", "question": "I prefer cats ___ dogs.", "options": ["than", "to", "more than"], "answer": 1, "explanation": "複習第 34 單元：prefer A to B。" },
+    { "id": "u038-r4", "sourceUnit": 30, "type": "mcq", "question": "We ___ Mochi from a shelter three years ago.", "options": ["have adopted", "adopted", "adopt"], "answer": 1, "explanation": "複習第 30 單元：有明確時間用過去式。" },
+    { "id": "u038-r5", "sourceUnit": 22, "type": "mcq", "question": "Which is correct?", "options": ["I'm agree cats are better.", "I agree cats are better.", "I agreeing cats better."], "answer": 1, "explanation": "複習第 22 單元：agree 是動詞。" },
+    { "id": "u038-r6", "sourceUnit": 6, "type": "mcq", "question": "There aren't ___ dog parks in my neighborhood.", "options": ["much", "many", "a little"], "answer": 1, "explanation": "複習第 6 單元：可數用 many。" },
+    { "id": "u038-r7", "sourceUnit": 38, "type": "mcq", "question": "You want to touch a stranger's dog. You ask:", "options": ["Can I touch it?", "Can I pet him?", "Can I play him?"], "answer": 1, "explanation": "摸寵物用 pet。" }
+  ]
+}

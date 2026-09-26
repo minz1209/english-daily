@@ -1,0 +1,149 @@
+{
+  "id": 36,
+  "module": 4,
+  "level": "B1+",
+  "title": { "zh": "聊八卦", "en": "Gossip" },
+  "scenario": {
+    "title": "「她跟我說…」轉述別人的話",
+    "context": "八卦的本質就是轉述：「她說她要離職」「他跟我說他們分手了」。英文轉述別人的話時，時態通常要往過去退一格，代名詞也要跟著換，這是「間接引述」。",
+    "dialogues": [
+      {
+        "title": "Office gossip",
+        "lines": [
+          { "speaker": "Amy", "en": "OK, I have to spill the tea. Did you hear about Tony?", "zh": "好，我一定要說這個八卦。你有聽說 Tony 的事嗎？" },
+          { "speaker": "Minz", "en": "No, what happened?", "zh": "沒有，怎麼了？" },
+          { "speaker": "Amy", "en": "He told me he was leaving the company next month.", "zh": "他跟我說他下個月要離職。" },
+          { "speaker": "Minz", "en": "What? He said he loved it here!", "zh": "什麼？他之前說他很喜歡這裡！" },
+          { "speaker": "Amy", "en": "I know. He said he had gotten an offer from a startup in Singapore.", "zh": "我知道。他說他拿到新加坡一家新創的 offer。" },
+          { "speaker": "Minz", "en": "Wow, that's juicy. Does Karen know?", "zh": "哇，好勁爆。Karen 知道嗎？" },
+          { "speaker": "Amy", "en": "Word on the street is she found out yesterday.", "zh": "聽說她昨天知道了。" },
+          { "speaker": "Minz", "en": "Well, you didn't hear it from me, but I heard they're hiring someone new already.", "zh": "嗯，別說是我講的，但我聽說他們已經在找新人了。" }
+        ]
+      },
+      {
+        "title": "Passing on a message",
+        "lines": [
+          { "speaker": "Jess", "en": "Did Leo say anything about Saturday?", "zh": "Leo 有說週六的事嗎？" },
+          { "speaker": "Minz", "en": "Yeah, he said he couldn't make it because his mom was visiting.", "zh": "有，他說他不能來，因為他媽媽要來。" },
+          { "speaker": "Jess", "en": "Oh, too bad. Did he tell you when she's leaving?", "zh": "喔，可惜。他有說他媽媽什麼時候走嗎？" },
+          { "speaker": "Minz", "en": "He said she would stay until Tuesday.", "zh": "他說她會待到星期二。" },
+          { "speaker": "Jess", "en": "Did he dish about his new girlfriend, too?", "zh": "他有爆料他新女友的事嗎？" },
+          { "speaker": "Minz", "en": "Ha, no. He told me it was none of my business.", "zh": "哈，沒有。他跟我說那不關我的事。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "Did you hear about ___?", "zh": "你有聽說 ___ 的事嗎？" },
+      { "en": "She told me (that) ___.", "zh": "她跟我說 ___。" },
+      { "en": "He said (that) ___.", "zh": "他說 ___。" },
+      { "en": "I heard (that) ___.", "zh": "我聽說 ___。" },
+      { "en": "Apparently, ___.", "zh": "聽說／據說 ___。", "note": "轉述聽來的消息時最常用的字" },
+      { "en": "You didn't hear it from me.", "zh": "別說是我講的。" },
+      { "en": "Keep it between us.", "zh": "這件事我們知道就好。" },
+      { "en": "Who told you that?", "zh": "誰跟你說的？" },
+      { "en": "I'm not sure if it's true, but ___.", "zh": "我不確定是不是真的，但 ___。" },
+      { "en": "That's none of my business.", "zh": "那不關我的事。" }
+    ],
+    "chinglish": [
+      { "wrong": "He said me he is leaving.", "right": "He told me he was leaving. / He said he was leaving.", "why": "兩個錯：say 不能直接接人（複習第 20 單元）；轉述時時態通常要往過去退。" },
+      { "wrong": "She said she will come.", "right": "She said she would come.", "why": "轉述時 will 要退成 would。中文「她說她會來」的「會」沒有時態，所以容易忘。" },
+      { "wrong": "I listened that they broke up.", "right": "I heard that they broke up.", "why": "「聽說」是 hear，listen 是「專心聽」。" },
+      { "wrong": "Don't tell other people, OK?", "right": "Keep this between us, OK?", "why": "文法沒錯，但 keep it between us 是更自然的慣用說法。" }
+    ]
+  },
+  "grammar": {
+    "id": "reported-speech-1",
+    "title": "間接引述 I：say / tell＋時態後退",
+    "oneLiner": "轉述別人過去說的話時，時態通常往過去退一格：is → was、will → would、has → had。",
+    "whenToUse": [
+      "現在式 → 過去式：\"I'm leaving.\" → He said he was leaving.",
+      "現在完成 / 過去式 → 過去完成：\"I got an offer.\" → He said he had gotten an offer.",
+      "will → would，can → could：\"I'll stay till Tuesday.\" → She said she would stay…",
+      "代名詞和時間詞要跟著換：I → he，tomorrow → the next day，here → there。",
+      "tell + 人 + (that)…；say + (that)… / say to + 人。",
+      "如果內容現在仍然成立，口語可以不後退：He said he loves it here.（到現在還是喜歡）"
+    ],
+    "whyWeGetItWrong": "中文轉述只要加「他說」，後面的句子原封不動：「他說他要離職」。英文的 said 是過去式，後面的內容也要跟著往過去退，時間線才一致。台灣人最常見的錯是 He said he will…，雖然母語者也聽得懂，但不夠精確，在正式寫作中會被當成錯誤。",
+    "examples": [
+      { "correct": "She said she was tired.", "incorrect": "She said she is tired.", "note": "口語中若到現在仍成立可以不退，但一般要退。" },
+      { "correct": "He told me he would call later.", "incorrect": "He told me he will call later.", "note": "will → would。" },
+      { "correct": "They said they had already booked the tickets.", "note": "have booked → had booked。" },
+      { "correct": "She told me she couldn't come.", "note": "can't → couldn't。" },
+      { "correct": "He said he loves his new job.", "note": "現在仍然成立的事，口語可以不後退。" }
+    ],
+    "quiz": [
+      { "id": "u036-g1", "type": "mcq", "question": "\"I'm moving to Tokyo.\" → She said she ___ to Tokyo.", "options": ["is moving", "was moving", "moves"], "answer": 1, "explanation": "am moving → was moving。" },
+      { "id": "u036-g2", "type": "mcq", "question": "\"I'll text you.\" → He said he ___ text me.", "options": ["will", "would", "is"], "answer": 1, "explanation": "will → would。" },
+      { "id": "u036-g3", "type": "fill", "question": "\"I can't come.\" → She said she ___ come.", "answer": "couldn't|could not", "explanation": "can't → couldn't。" },
+      { "id": "u036-g4", "type": "mcq", "question": "Which is correct?", "options": ["He said me he was busy.", "He told me he was busy.", "He told he was busy."], "answer": 1, "explanation": "tell + 人。" },
+      { "id": "u036-g5", "type": "fill", "question": "\"We've broken up.\" → They said they ___ broken up.", "answer": "had", "explanation": "have → had。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "spill-the-tea",
+      "term": "spill the tea",
+      "meaning": "爆料、說八卦",
+      "register": "very-casual",
+      "usage": "tea = 八卦內容（源自美國黑人及 drag 文化的 T = truth）。Spill the tea! = 快說！",
+      "risk": { "level": "careful", "note": "網路和年輕人用語，工作場合避免；語氣玩笑。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "Come on, spill the tea! What happened at the party?", "zh": "快說快說！派對上發生什麼事？" },
+        { "en": "She always spills the tea about celebrities.", "zh": "她總是在爆明星的料。" }
+      ]
+    },
+    {
+      "id": "juicy",
+      "term": "juicy",
+      "meaning": "（八卦）勁爆、精彩",
+      "register": "casual",
+      "usage": "形容有趣又刺激的消息：juicy gossip / juicy details。",
+      "risk": { "level": "safe", "note": "日常用語。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Ooh, that's juicy. Tell me more!", "zh": "喔，好勁爆，再多說一點！" },
+        { "en": "I want all the juicy details.", "zh": "我要聽所有精彩細節。" }
+      ]
+    },
+    {
+      "id": "word-on-the-street",
+      "term": "word on the street",
+      "meaning": "聽說、坊間傳言",
+      "register": "casual",
+      "usage": "Word on the street is (that)… = 大家都在傳…",
+      "risk": { "level": "safe", "note": "帶點玩笑語氣的說法。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Word on the street is they're getting married.", "zh": "聽說他們要結婚了。" },
+        { "en": "What's the word on the street about the new manager?", "zh": "大家怎麼傳新主管的？" }
+      ]
+    },
+    {
+      "id": "dish",
+      "term": "dish",
+      "meaning": "爆料、八卦（動詞）",
+      "register": "very-casual",
+      "usage": "dish about someone / dish the dirt = 說某人的八卦。",
+      "risk": { "level": "careful", "note": "帶「講別人閒話」的意味，別在當事人面前用。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "Come over and dish! I want to hear everything.", "zh": "過來爆料！我全部都要聽。" },
+        { "en": "She loves to dish the dirt on her exes.", "zh": "她很愛爆她前任的料。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u036-r1", "sourceUnit": 35, "type": "mcq", "question": "You worked a double shift? You ___ be exhausted.", "options": ["must", "mustn't", "can't"], "answer": 0, "explanation": "複習第 35 單元：must 表強烈推測。" },
+    { "id": "u036-r2", "sourceUnit": 34, "type": "mcq", "question": "I prefer texting ___ calling.", "options": ["than", "to", "over than"], "answer": 1, "explanation": "複習第 34 單元：prefer A to B。" },
+    { "id": "u036-r3", "sourceUnit": 32, "type": "fill", "question": "By the time I heard the news, everyone else ___ already heard it.", "answer": "had", "explanation": "複習第 32 單元：過去完成式。" },
+    { "id": "u036-r4", "sourceUnit": 28, "type": "mcq", "question": "I ___ lunch when Amy told me the news.", "options": ["ate", "was eating", "have eaten"], "answer": 1, "explanation": "複習第 28 單元：背景用過去進行式。" },
+    { "id": "u036-r5", "sourceUnit": 20, "type": "mcq", "question": "She ___ me a secret.", "options": ["said", "told", "spoke"], "answer": 1, "explanation": "複習第 20 單元：tell + 人。" },
+    { "id": "u036-r6", "sourceUnit": 4, "type": "fill", "question": "We ___ (see) Leo with his new girlfriend yesterday.", "answer": "saw", "explanation": "複習第 4 單元：see → saw。" },
+    { "id": "u036-r7", "sourceUnit": 36, "type": "mcq", "question": "\"I'm quitting.\" → He said he ___.", "options": ["is quitting", "was quitting", "quits"], "answer": 1, "explanation": "轉述時時態後退。" }
+  ]
+}
