@@ -1,0 +1,150 @@
+{
+  "id": 75,
+  "module": 8,
+  "level": "B2",
+  "title": { "zh": "玩笑與反話", "en": "Jokes and Sarcasm" },
+  "scenario": {
+    "title": "聽懂開玩笑、反諷，正確回答否定問句",
+    "context": "「你不是要去嗎？」「對，我不去。」——中文和英文回答否定問句的邏輯剛好相反，這是台灣人最常答反的地方。這個單元也教你聽懂英文的反諷和玩笑，避免把 Yeah, right 當真。",
+    "dialogues": [
+      {
+        "title": "Office banter",
+        "lines": [
+          { "speaker": "Daniel", "en": "Aren't you coming to the team dinner?", "zh": "你不來團隊聚餐嗎？" },
+          { "speaker": "Minz", "en": "No, I'm not. I have a deadline.", "zh": "對，我不去，我有截止日。" },
+          { "speaker": "Daniel", "en": "Wait, so you're not coming?", "zh": "等等，所以你不來？" },
+          { "speaker": "Minz", "en": "Right, I'm not. Sorry!", "zh": "對，我不去，抱歉！" },
+          { "speaker": "Daniel", "en": "Karen said the boss is paying, and he's ordering lobster.", "zh": "Karen 說老闆請客，還要點龍蝦。" },
+          { "speaker": "Minz", "en": "Yeah, right. He wouldn't even pay for coffee last month.", "zh": "最好是啦。上個月他連咖啡都不請。" },
+          { "speaker": "Daniel", "en": "Ha, JK. It's split the bill as usual.", "zh": "哈，開玩笑的，照例各付各的。" },
+          { "speaker": "Minz", "en": "You're always pulling my leg.", "zh": "你老是在唬我。" }
+        ]
+      },
+      {
+        "title": "A birthday roast",
+        "lines": [
+          { "speaker": "Jess", "en": "Didn't you prepare a speech for Leo's birthday?", "zh": "你沒有為 Leo 的生日準備致詞嗎？" },
+          { "speaker": "Minz", "en": "Yes, I did! It's more of a roast, though.", "zh": "有，我有準備！不過比較像是吐槽大會。" },
+          { "speaker": "Jess", "en": "Isn't he sensitive about his cooking?", "zh": "他不是對自己的廚藝很敏感嗎？" },
+          { "speaker": "Minz", "en": "No, he's not. He jokes about it himself. He once set off the fire alarm making toast.", "zh": "不，他不會。他自己也拿來開玩笑，他曾經烤吐司烤到火災警報響。" },
+          { "speaker": "Jess", "en": "Oh, perfect. Nice job, Leo.", "zh": "喔，太好了。幹得好啊 Leo。" },
+          { "speaker": "Minz", "en": "I'll keep it friendly. A good roast should make him laugh too.", "zh": "我會保持友善。好的吐槽應該也要讓他笑。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "Just kidding!", "zh": "開玩笑的！" },
+      { "en": "Are you serious?", "zh": "你是認真的嗎？" },
+      { "en": "You're pulling my leg.", "zh": "你在唬我。" },
+      { "en": "I'm only teasing.", "zh": "我只是在逗你。" },
+      { "en": "No offense.", "zh": "沒有冒犯的意思。" },
+      { "en": "Don't take it personally.", "zh": "別往心裡去。" },
+      { "en": "Yeah, right.", "zh": "最好是啦。", "note": "反諷，表示不相信" },
+      { "en": "Very funny.", "zh": "很好笑喔。", "note": "常是反諷，意思是「一點都不好笑」" },
+      { "en": "I was being sarcastic.", "zh": "我是在反諷。" },
+      { "en": "That went over my head.", "zh": "我沒聽懂那個梗。" }
+    ],
+    "chinglish": [
+      { "wrong": "A: Aren't you coming? B: Yes, I'm not coming.", "right": "B: No, I'm not. / Right, I'm not coming.", "why": "英文回答否定問句只看事實：不去就說 No。中文習慣先附和問題（對，我不去），直翻成 Yes 會讓對方以為你要去。" },
+      { "wrong": "A: Don't you like it? B: No, I like it.", "right": "B: Yes, I do! I love it.", "why": "喜歡就說 Yes，不管問題是肯定還是否定。" },
+      { "wrong": "I'm joking you.", "right": "I'm joking. / I'm kidding. / I'm messing with you.", "why": "joke 通常不直接接人，說 joke with / kid / mess with someone。" },
+      { "wrong": "You are very funny.（其實想說對方講的話很荒謬）", "right": "Very funny.（搭配平淡語調）", "why": "英文反諷靠語調。Very funny 用平淡或翻白眼的語氣，意思是「一點都不好笑」。" }
+    ]
+  },
+  "grammar": {
+    "id": "negative-questions-yes-no",
+    "title": "否定疑問句的 Yes / No",
+    "oneLiner": "不管問句是肯定還是否定，英文的 Yes / No 只看事實：事實是肯定就說 Yes，事實是否定就說 No。",
+    "whenToUse": [
+      "否定疑問句：Aren't you…? / Don't you…? / Didn't you…? / Isn't it…?",
+      "功能：表示驚訝、確認自己的預期、或委婉提議。Isn't that your phone?",
+      "要去：Yes, I am. / 不去：No, I'm not.",
+      "喜歡：Yes, I do. / 不喜歡：No, I don't.",
+      "避免混亂的方法：Yes / No 後面一定加完整短句（Yes, I am / No, I'm not）。",
+      "也可以用 Right / Actually 開頭：Right, I'm not going. / Actually, I am."
+    ],
+    "whyWeGetItWrong": "中文回答問題是「同意或不同意對方的說法」：「你不去嗎？」「對（你說得對），我不去。」英文則是「回答事實本身」：不去就是 No。所以台灣人常回 Yes, I'm not going，對方完全混亂。這是母語者一聽就發現、但台灣人自己很難察覺的錯誤。",
+    "examples": [
+      { "correct": "A: Aren't you hungry? B: No, I'm not. I just ate.", "incorrect": "B: Yes, I'm not hungry.", "note": "不餓就說 No。" },
+      { "correct": "A: Didn't you get my email? B: Yes, I did. Sorry for the late reply.", "note": "收到了就說 Yes。" },
+      { "correct": "A: Don't you want to come? B: Actually, I do!", "note": "用 Actually 表示「其實我想」。" },
+      { "correct": "Isn't this the café we went to last year?", "note": "表示驚訝或確認預期。" },
+      { "correct": "A: You don't eat meat, right? B: Right, I don't.", "note": "用 Right 附和也可以避免混淆。" }
+    ],
+    "quiz": [
+      { "id": "u075-g1", "type": "mcq", "question": "A: Aren't you tired? B: (你不累) ___", "options": ["Yes, I'm not.", "No, I'm not.", "Yes, not tired."], "answer": 1, "explanation": "事實是不累，說 No, I'm not。" },
+      { "id": "u075-g2", "type": "mcq", "question": "A: Don't you like spicy food? B: (你喜歡) ___", "options": ["No, I like it.", "Yes, I do!", "No, I do."], "answer": 1, "explanation": "事實是喜歡，說 Yes, I do。" },
+      { "id": "u075-g3", "type": "mcq", "question": "A: Didn't you lock the door? B: (你沒鎖) ___", "options": ["Yes, I didn't.", "No, I didn't. Sorry!", "Yes, sorry!"], "answer": 1, "explanation": "事實是沒鎖，說 No, I didn't。" },
+      { "id": "u075-g4", "type": "fill", "question": "A: Isn't it your birthday today? B: ___, it is! (是)", "answer": "Yes", "explanation": "事實是肯定，說 Yes。" },
+      { "id": "u075-g5", "type": "mcq", "question": "Your friend says \"Yeah, right\" in a flat voice after you say you'll wake up at 5 a.m. They mean:", "options": ["They agree.", "They don't believe you.", "They'll wake you up."], "answer": 1, "explanation": "Yeah, right 通常是反諷。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "pull-someones-leg",
+      "term": "pull someone's leg",
+      "meaning": "唬人、開玩笑騙人",
+      "register": "casual",
+      "usage": "You're pulling my leg! = 你在唬我吧！",
+      "risk": { "level": "safe", "note": "友善的玩笑用語。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "You won the lottery? You're pulling my leg!", "zh": "你中樂透？你在唬我吧！" },
+        { "en": "Relax, I'm just pulling your leg.", "zh": "放輕鬆，我只是在逗你。" }
+      ]
+    },
+    {
+      "id": "jk",
+      "term": "JK",
+      "meaning": "開玩笑的（just kidding）",
+      "register": "very-casual",
+      "usage": "訊息中常見，口語也會直接唸 J-K。",
+      "risk": { "level": "careful", "note": "用在傷人的話後面，不會讓那句話變得不傷人。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "I'm quitting tomorrow. JK, I love this job.", "zh": "我明天要辭職。開玩笑的，我很愛這份工作。" },
+        { "en": "Your haircut is interesting… jk, it looks great!", "zh": "你的髮型很特別……開玩笑的，很好看！" }
+      ]
+    },
+    {
+      "id": "yeah-right",
+      "term": "Yeah, right",
+      "meaning": "最好是啦、才怪（反諷）",
+      "register": "casual",
+      "usage": "兩個肯定詞組合起來表示「不相信」，靠語調傳達。",
+      "risk": { "level": "careful", "note": "對主管或客戶用會顯得不尊重。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "A: I'll finish it tonight. B: Yeah, right.", "zh": "A：我今晚會做完。 B：最好是啦。" },
+        { "en": "\"This will only take five minutes.\" Yeah, right.", "zh": "「這只要五分鐘。」才怪。" }
+      ]
+    },
+    {
+      "id": "roast",
+      "term": "roast",
+      "meaning": "吐槽、嘲弄（通常是善意的）",
+      "register": "casual",
+      "usage": "動詞 roast someone；名詞 a roast（吐槽大會）。",
+      "risk": { "level": "careful", "note": "要跟對方夠熟、確定對方開得起玩笑。不熟的人被 roast 會覺得被冒犯。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "My friends roasted me about my terrible cooking.", "zh": "我朋友吐槽我的爛廚藝。" },
+        { "en": "We're doing a roast for Leo's 30th.", "zh": "我們要幫 Leo 的 30 歲生日辦吐槽大會。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u075-r1", "sourceUnit": 74, "type": "mcq", "question": "The joke was ___ hilarious.", "options": ["very", "absolutely", "fairly very"], "answer": 1, "explanation": "複習第 74 單元：極端形容詞用 absolutely。" },
+    { "id": "u075-r2", "sourceUnit": 73, "type": "fill", "question": "How about ___ (tell) a joke to break the ice?", "answer": "telling", "explanation": "複習第 73 單元：How about + V-ing。" },
+    { "id": "u075-r3", "sourceUnit": 71, "type": "mcq", "question": "I remember ___ at his joke for ten minutes.", "options": ["to laugh", "laughing", "laugh"], "answer": 1, "explanation": "複習第 71 單元：記得過去做過用 V-ing。" },
+    { "id": "u075-r4", "sourceUnit": 67, "type": "mcq", "question": "I heard someone ___ in the next room.", "options": ["to laugh", "laughing", "laughed"], "answer": 1, "explanation": "複習第 67 單元：hear + V-ing。" },
+    { "id": "u075-r5", "sourceUnit": 59, "type": "mcq", "question": "___ I love about him is his sense of humor.", "options": ["What", "That", "Which"], "answer": 0, "explanation": "複習第 59 單元：What 子句。" },
+    { "id": "u075-r6", "sourceUnit": 43, "type": "fill", "question": "He doesn't ___ to be joking. He looks serious.", "answer": "seem", "explanation": "複習第 43 單元：doesn't seem to。" },
+    { "id": "u075-r7", "sourceUnit": 11, "type": "mcq", "question": "___ a funny video going around the office.", "options": ["There's", "There have", "It has"], "answer": 0, "explanation": "複習第 11 單元：There is。" },
+    { "id": "u075-r8", "sourceUnit": 75, "type": "mcq", "question": "A: Didn't you see my message? B: (你沒看到) ___", "options": ["Yes, I didn't.", "No, I didn't. Sorry!", "Yes, sorry."], "answer": 1, "explanation": "沒看到就說 No, I didn't。" }
+  ]
+}

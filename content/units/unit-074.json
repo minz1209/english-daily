@@ -1,0 +1,150 @@
+{
+  "id": 74,
+  "module": 8,
+  "level": "B2",
+  "title": { "zh": "細膩的情緒", "en": "Shades of Feeling" },
+  "scenario": {
+    "title": "描述心情的細微差別",
+    "context": "「還不錯」「蠻好的」「有點失望」「超級開心」，中文靠這些程度詞表達細膩情緒。英文的 quite、pretty、rather、fairly 也在做同樣的事，但美式和英式的理解差很多：英國人說 quite good，可能只是「還行」。",
+    "dialogues": [
+      {
+        "title": "Job results",
+        "lines": [
+          { "speaker": "Jess", "en": "So? Did you hear back from the London agency?", "zh": "所以呢？倫敦那家公司回覆你了嗎？" },
+          { "speaker": "Leo", "en": "I didn't get it. I'm pretty bummed, honestly.", "zh": "沒上。老實說我蠻沮喪的。" },
+          { "speaker": "Jess", "en": "Oh no. I'm sorry. Did they give any feedback?", "zh": "喔不，我很遺憾。他們有給任何回饋嗎？" },
+          { "speaker": "Leo", "en": "They said my portfolio was quite good, but they went with someone more senior.", "zh": "他們說我的作品集 quite good，但選了資歷更深的人。" },
+          { "speaker": "Minz", "en": "Careful. When British people say \"quite good,\" it sometimes means \"just OK.\"", "zh": "小心。英國人說 quite good 有時意思是「還行」。" },
+          { "speaker": "Leo", "en": "Great, now I feel even worse.", "zh": "太好了，我現在感覺更糟了。" },
+          { "speaker": "Minz", "en": "Sorry! But being shortlisted is still fairly impressive.", "zh": "抱歉！但能進入決選名單還是蠻厲害的。" }
+        ]
+      },
+      {
+        "title": "Good news, nervous news",
+        "lines": [
+          { "speaker": "Amy", "en": "Guess what? My ceramics piece got into the exhibition! I'm over the moon.", "zh": "猜猜怎樣？我的陶藝作品入選展覽了！我開心到飛起來。" },
+          { "speaker": "Minz", "en": "No way! I'm so stoked for you!", "zh": "真的假的！我超替你興奮的！" },
+          { "speaker": "Amy", "en": "Thanks! But I'm also rather nervous. The opening night is next week.", "zh": "謝謝！但我也有點緊張，開幕夜是下週。" },
+          { "speaker": "Minz", "en": "That's normal. You've been a bit on edge all week, huh?", "zh": "很正常。你這整週都有點緊繃對吧？" },
+          { "speaker": "Amy", "en": "Pretty much. I keep imagining people hating it.", "zh": "差不多。我一直想像大家會討厭它。" },
+          { "speaker": "Minz", "en": "They won't. And I'll be there, cheering the loudest.", "zh": "不會的。而且我會到場，歡呼得最大聲。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "I'm pretty happy with how it turned out.", "zh": "我對結果蠻滿意的。" },
+      { "en": "I'm a bit disappointed.", "zh": "我有點失望。" },
+      { "en": "I'm absolutely thrilled!", "zh": "我超級興奮！" },
+      { "en": "I'm kind of nervous.", "zh": "我有點緊張。" },
+      { "en": "I'm not thrilled about it.", "zh": "我不太開心。", "note": "委婉表達不滿" },
+      { "en": "I have mixed feelings.", "zh": "我心情很複雜。" },
+      { "en": "I'm on cloud nine.", "zh": "我開心得像在雲端。" },
+      { "en": "I'm a little on edge today.", "zh": "我今天有點緊繃。" },
+      { "en": "It's bittersweet.", "zh": "這是苦樂參半。" },
+      { "en": "I'm so happy for you!", "zh": "我真替你開心！" }
+    ],
+    "chinglish": [
+      { "wrong": "I'm very very happy!", "right": "I'm absolutely thrilled! / I'm over the moon!", "why": "英文不疊 very，換成程度更強的詞（thrilled、ecstatic）或慣用語。" },
+      { "wrong": "I'm a little bit very sad.", "right": "I'm pretty sad. / I'm quite upset.", "why": "a little bit 和 very 互相矛盾。選一個程度就好。" },
+      { "wrong": "My mood is not good.", "right": "I'm not in a great mood. / I'm feeling a bit down.", "why": "「我心情不好」直翻 my mood is not good 很生硬。" },
+      { "wrong": "I'm so happy for me!", "right": "I'm so happy! / I'm so happy for you!", "why": "happy for 用在替別人開心。" }
+    ]
+  },
+  "grammar": {
+    "id": "degree-adverbs-quite-pretty-rather",
+    "title": "quite / pretty / rather / fairly",
+    "oneLiner": "fairly < quite（英）/ pretty < rather < really / very < absolutely；美式的 quite 偏「很」，英式的 quite 常偏「還算」。",
+    "whenToUse": [
+      "fairly：還算、尚可（語氣最弱）。It's fairly easy.",
+      "pretty：蠻、相當（美式口語最常用）。I'm pretty tired.",
+      "quite：美式 = 很（quite good ≈ very good）；英式常 = 還算（quite good ≈ fairly good）。",
+      "rather：相當、有點（常帶負面或意外，英式較常用）。It's rather expensive.",
+      "really / very：很。",
+      "absolutely / totally：搭配極端形容詞（amazing, exhausted, thrilled）。不能說 very amazing。",
+      "a bit / a little / kind of / sort of：有點（口語）。"
+    ],
+    "whyWeGetItWrong": "中文的「蠻」「挺」「相當」「有點」本身已經很細膩，但台灣人說英文時常只用 very 和 a little，讓情緒表達變得很平。另外，quite 在美英兩地的解讀不同，跟英國人合作時，聽到 quite good 別太開心。極端形容詞（amazing、exhausted）前面不能加 very，這也是常見錯誤。",
+    "examples": [
+      { "correct": "The movie was pretty good.", "note": "美式口語的「蠻好的」。" },
+      { "correct": "The results were quite good, but there's room for improvement.", "note": "英式語境中常是「還行」。" },
+      { "correct": "It was rather expensive for what it was.", "note": "rather 常帶負面評價。" },
+      { "correct": "I'm absolutely exhausted.", "incorrect": "I'm very exhausted.", "note": "極端形容詞用 absolutely / totally。" },
+      { "correct": "I'm kind of nervous about tomorrow.", "note": "口語的「有點」。" }
+    ],
+    "quiz": [
+      { "id": "u074-g1", "type": "mcq", "question": "The food was ___ amazing.", "options": ["very", "absolutely", "fairly"], "answer": 1, "explanation": "極端形容詞用 absolutely。" },
+      { "id": "u074-g2", "type": "mcq", "question": "Which is the WEAKEST?", "options": ["It's really good.", "It's pretty good.", "It's fairly good."], "answer": 2, "explanation": "fairly 最弱。" },
+      { "id": "u074-g3", "type": "mcq", "question": "A British client says your draft is \"quite good.\" They probably mean:", "options": ["It's excellent.", "It's OK, but it could be better.", "It's terrible."], "answer": 1, "explanation": "英式 quite good 常是「還行」。" },
+      { "id": "u074-g4", "type": "fill", "question": "I'm ___ nervous about the interview. (有點，口語兩個字)", "answer": "kind of|sort of|a bit|a little", "explanation": "kind of / a bit = 有點。" },
+      { "id": "u074-g5", "type": "mcq", "question": "Which is correct?", "options": ["I'm very exhausted.", "I'm totally exhausted.", "I'm a little very exhausted."], "answer": 1, "explanation": "exhausted 是極端形容詞，用 totally。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "bummed",
+      "term": "bummed",
+      "meaning": "沮喪、失望",
+      "register": "casual",
+      "usage": "I'm bummed (out). = 我很失望／很掃興。",
+      "risk": { "level": "safe", "note": "口語常用，不粗俗。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "I'm so bummed the concert got canceled.", "zh": "演唱會取消，我好失望。" },
+        { "en": "Don't be bummed. There'll be other chances.", "zh": "別沮喪，還會有其他機會。" }
+      ]
+    },
+    {
+      "id": "stoked",
+      "term": "stoked",
+      "meaning": "超興奮、超期待",
+      "register": "casual",
+      "usage": "源自衝浪文化。I'm stoked for… / I'm stoked about…",
+      "risk": { "level": "safe", "note": "美澳常用，熱情友善。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "I'm so stoked for our trip next week!", "zh": "我超期待下週的旅行！" },
+        { "en": "She was stoked to get the job.", "zh": "她拿到那份工作超興奮。" }
+      ]
+    },
+    {
+      "id": "over-the-moon",
+      "term": "over the moon",
+      "meaning": "欣喜若狂、開心到飛起來",
+      "register": "casual",
+      "usage": "非常開心。英式特別常用。",
+      "risk": { "level": "safe", "note": "正面熱情。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "My parents were over the moon when I told them the news.", "zh": "我告訴爸媽消息時，他們開心得不得了。" },
+        { "en": "I'm over the moon about the promotion!", "zh": "升遷讓我欣喜若狂！" }
+      ]
+    },
+    {
+      "id": "on-edge",
+      "term": "on edge",
+      "meaning": "緊張不安、神經緊繃",
+      "register": "neutral",
+      "usage": "焦慮到容易被激怒或嚇到。",
+      "risk": { "level": "safe", "note": "中性用語。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Everyone's on edge before the layoff announcement.", "zh": "裁員公告前每個人都很緊繃。" },
+        { "en": "Too much coffee puts me on edge.", "zh": "咖啡喝太多會讓我很焦躁。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u074-r1", "sourceUnit": 73, "type": "mcq", "question": "___ you take a day off? You look exhausted.", "options": ["Why don't", "Why not you", "How about you"], "answer": 0, "explanation": "複習第 73 單元：Why don't you…?" },
+    { "id": "u074-r2", "sourceUnit": 72, "type": "fill", "question": "___ made me happy was that everyone came.", "answer": "What", "explanation": "複習第 72 單元：What 分裂句。" },
+    { "id": "u074-r3", "sourceUnit": 70, "type": "mcq", "question": "I wish I ___ so nervous before presentations.", "options": ["didn't get", "don't get", "won't get"], "answer": 0, "explanation": "複習第 70 單元：現在的遺憾用過去式。" },
+    { "id": "u074-r4", "sourceUnit": 66, "type": "mcq", "question": "___ patience is important when learning a language.", "options": ["The", "A", "(no article)"], "answer": 2, "explanation": "複習第 66 單元：泛指抽象名詞不加冠詞。" },
+    { "id": "u074-r5", "sourceUnit": 58, "type": "mcq", "question": "I'm still not used to ___ in front of crowds.", "options": ["speak", "speaking", "spoke"], "answer": 1, "explanation": "複習第 58 單元：be used to + V-ing。" },
+    { "id": "u074-r6", "sourceUnit": 42, "type": "mcq", "question": "Her piece ___ for the exhibition.", "options": ["got selected", "selected", "was select"], "answer": 0, "explanation": "複習第 42 單元：get + p.p.。" },
+    { "id": "u074-r7", "sourceUnit": 10, "type": "fill", "question": "We had a ___ at the opening night! (超好玩)", "answer": "blast", "explanation": "複習第 10 單元：had a blast。" },
+    { "id": "u074-r8", "sourceUnit": 74, "type": "mcq", "question": "Which is correct?", "options": ["It was very amazing.", "It was absolutely amazing.", "It was fairly amazing very."], "answer": 1, "explanation": "極端形容詞用 absolutely。" }
+  ]
+}

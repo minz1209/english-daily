@@ -1,0 +1,154 @@
+{
+  "id": 80,
+  "module": 8,
+  "level": "B2",
+  "title": { "zh": "整合：帶外國朋友吃熱炒", "en": "Review: Taking Friends to a Rechao Place" },
+  "scenario": {
+    "title": "熱炒店、台啤、乾杯文化",
+    "context": "第八章的收尾：帶外國朋友去熱炒店。你要介紹菜色、解釋台灣的乾杯文化、回答「你不喝嗎？」這種否定問句、用 So do I / Neither do I 附和，還要委婉地拒絕再來一杯。這一章的細膩表達全部派上用場。",
+    "dialogues": [
+      {
+        "title": "Ordering at the rechao place",
+        "lines": [
+          { "speaker": "Ryan", "en": "Wow, this place is loud! I love it.", "zh": "哇，這裡好吵！我好喜歡。" },
+          { "speaker": "Minz", "en": "Welcome to rechao. It's basically a Taiwanese stir-fry restaurant, and it's pretty much made for drinking with friends.", "zh": "歡迎來到熱炒店。基本上就是台式快炒店，幾乎就是為了跟朋友喝酒而存在的。" },
+          { "speaker": "Ryan", "en": "Don't you need a menu?", "zh": "你們不需要菜單嗎？" },
+          { "speaker": "Minz", "en": "No, we don't. Everything's on the wall. Let's get clams with basil, three-cup chicken, and stir-fried water spinach.", "zh": "不需要，菜單都在牆上。我們點九層塔炒蛤蜊、三杯雞、炒空心菜。" },
+          { "speaker": "Ryan", "en": "I've never had three-cup chicken.", "zh": "我從來沒吃過三杯雞。" },
+          { "speaker": "Jess", "en": "Neither had I until I moved here. It's absolutely amazing.", "zh": "我搬來這裡之前也沒吃過，超級好吃。" },
+          { "speaker": "Minz", "en": "And a few bottles of Taiwan Beer, of course. It's always served ice cold.", "zh": "當然還有幾瓶台啤，這裡總是冰得透心涼。" }
+        ]
+      },
+      {
+        "title": "Ganbei culture",
+        "lines": [
+          { "speaker": "Uncle", "en": "(at the next table, raising a glass) Ganbei!", "zh": "（隔壁桌舉杯）乾杯！" },
+          { "speaker": "Ryan", "en": "What's happening? Why is he toasting us?", "zh": "發生什麼事？他為什麼跟我們敬酒？" },
+          { "speaker": "Minz", "en": "It's a thing here. \"Ganbei\" literally means \"dry the glass,\" so it's basically bottoms up.", "zh": "這是這裡的文化。「乾杯」字面意思是把杯子喝乾，基本上就是 bottoms up。" },
+          { "speaker": "Ryan", "en": "Wait, I have to chug the whole thing?", "zh": "等等，我要整杯喝光嗎？" },
+          { "speaker": "Minz", "en": "You don't have to. Just say \"suíyì,\" which means \"as much as you like.\"", "zh": "不用。你就說「隨意」，意思是想喝多少就喝多少。" },
+          { "speaker": "Ryan", "en": "Good, because I'm already a bit tipsy.", "zh": "好，因為我已經有點微醺了。" },
+          { "speaker": "Jess", "en": "Aren't you working tomorrow?", "zh": "你明天不用上班嗎？" },
+          { "speaker": "Ryan", "en": "Yes, I am. So I'd better stop now, or I'll have a terrible hangover.", "zh": "要，我要上班。所以我最好現在停，不然明天會宿醉得很慘。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "It's a Taiwanese thing.", "zh": "這是台灣特有的。" },
+      { "en": "Let me order for the table.", "zh": "我來幫大家點。" },
+      { "en": "Have you ever tried ___?", "zh": "你吃過 ___ 嗎？" },
+      { "en": "It literally means ___.", "zh": "字面意思是 ___。" },
+      { "en": "You don't have to finish it.", "zh": "你不用喝完。" },
+      { "en": "I'll take it easy tonight.", "zh": "我今晚喝少一點。" },
+      { "en": "I'm good for now, thanks.", "zh": "我先這樣就好，謝謝。", "note": "婉拒再倒酒" },
+      { "en": "Cheers to good friends!", "zh": "敬好朋友！" },
+      { "en": "This one's on me.", "zh": "這攤我請。" },
+      { "en": "Let's do this again soon!", "zh": "我們很快再來一次吧！" }
+    ],
+    "chinglish": [
+      { "wrong": "A: Don't you drink? B: Yes, I don't drink.", "right": "B: No, I don't. / Right, I don't drink.", "why": "複習第 75 單元：回答否定問句只看事實。" },
+      { "wrong": "Ganbei means you must drink all.", "right": "Ganbei literally means \"dry the glass,\" but you don't have to finish it.", "why": "解釋文化時要完整，而且別嚇到外國朋友。" },
+      { "wrong": "I'm a little drunk very much.", "right": "I'm a bit tipsy. / I'm pretty drunk.", "why": "複習第 74 單元：程度詞只選一個。" },
+      { "wrong": "My head is very pain tomorrow.", "right": "I'll have a terrible hangover tomorrow.", "why": "複習第 8 單元：pain 是名詞；宿醉說 hangover。" }
+    ]
+  },
+  "grammar": {
+    "id": "review-negative-questions-short-answers-degree",
+    "title": "否定疑問、簡答、程度副詞",
+    "oneLiner": "社交場合的三個細節：否定問句只看事實回答、So / Neither 附和、用程度詞精準表達感受。",
+    "whenToUse": [
+      "否定問句：Aren't you…? → Yes, I am. / No, I'm not.（只看事實）",
+      "附和肯定：So do I / So am I / Me too。",
+      "附和否定：Neither do I / Neither had I / Me neither。",
+      "程度詞：a bit tipsy / pretty good / absolutely amazing（極端形容詞用 absolutely）。",
+      "委婉拒絕：I'm good for now / I'll pass this time / I'd better not（第 34、71 單元）。",
+      "招待用祈使句：Help yourself / Try this one（第 77 單元）。"
+    ],
+    "whyWeGetItWrong": "這一章教的都是「細節」：中文不需要區分的肯定否定回答、附和時的助動詞、程度詞的強弱。在熱炒店這種熱鬧、要快速反應的場合，台灣人最容易回到中文習慣。整合單元的目的是讓這些細節變成反射動作。",
+    "examples": [
+      { "correct": "A: Aren't you hungry? B: Yes, I'm starving!", "note": "餓就說 Yes。" },
+      { "correct": "A: I've never had stinky tofu. B: Neither have I!", "note": "否定句用 neither。" },
+      { "correct": "The clams are absolutely delicious.", "incorrect": "The clams are very delicious very.", "note": "程度詞只用一個。" },
+      { "correct": "I'm a bit tipsy, so I'll switch to tea.", "note": "a bit 軟化。" },
+      { "correct": "A: More beer? B: I'm good for now, thanks.", "note": "委婉拒絕。" }
+    ],
+    "quiz": [
+      { "id": "u080-g1", "type": "mcq", "question": "A: Don't you like beer? B: (你不喜歡) ___", "options": ["Yes, I don't.", "No, I don't. I prefer tea.", "Yes, not."], "answer": 1, "explanation": "不喜歡就說 No, I don't。" },
+      { "id": "u080-g2", "type": "mcq", "question": "A: I'm so full. B: ___", "options": ["So do I.", "So am I.", "Neither am I."], "answer": 1, "explanation": "be 動詞對應 So am I。" },
+      { "id": "u080-g3", "type": "fill", "question": "A: I've never been to a rechao place. B: Neither ___ I!", "answer": "have", "explanation": "現在完成式對應 have。" },
+      { "id": "u080-g4", "type": "mcq", "question": "This three-cup chicken is ___ incredible.", "options": ["very", "absolutely", "a bit very"], "answer": 1, "explanation": "極端形容詞用 absolutely。" },
+      { "id": "u080-g5", "type": "mcq", "question": "Someone offers you another beer, but you've had enough. You say:", "options": ["No want.", "I'm good for now, thanks.", "Stop pouring."], "answer": 1, "explanation": "I'm good for now 委婉拒絕。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "bottoms-up",
+      "term": "bottoms up",
+      "meaning": "乾杯（喝光）",
+      "register": "casual",
+      "usage": "舉杯時說，意思是把杯底朝天喝光。比 Cheers 更強調「喝乾」。",
+      "risk": { "level": "careful", "note": "在英美很少真的要求別人喝光，逼人乾杯可能讓外國朋友不舒服。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Here's to the new job. Bottoms up!", "zh": "敬新工作，乾杯！" },
+        { "en": "In Taiwan, \"ganbei\" is like saying \"bottoms up.\"", "zh": "在台灣，「乾杯」就像是說 bottoms up。" }
+      ]
+    },
+    {
+      "id": "tipsy",
+      "term": "tipsy",
+      "meaning": "微醺、有點醉",
+      "register": "casual",
+      "usage": "比 drunk 輕，帶點愉快的醉意。",
+      "risk": { "level": "safe", "note": "輕鬆常用。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "I'm a little tipsy after two beers.", "zh": "兩杯啤酒我就有點微醺了。" },
+        { "en": "She gets tipsy really easily.", "zh": "她很容易就醉。" }
+      ]
+    },
+    {
+      "id": "hangover",
+      "term": "hangover",
+      "meaning": "宿醉",
+      "register": "neutral",
+      "usage": "have a hangover / be hungover。",
+      "risk": { "level": "careful", "note": "跟主管說自己 hungover 可能不太專業。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "I have a terrible hangover. Never again.", "zh": "我宿醉超嚴重，再也不喝了。" },
+        { "en": "Drink lots of water so you don't get a hangover.", "zh": "多喝水才不會宿醉。" }
+      ]
+    },
+    {
+      "id": "chug",
+      "term": "chug",
+      "meaning": "一口氣灌下、牛飲",
+      "register": "very-casual",
+      "usage": "大口快速喝完飲料，常用在喝酒遊戲。",
+      "risk": { "level": "careful", "note": "帶有派對、喝酒遊戲的意味，工作聚會少用。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "He chugged the whole bottle in ten seconds.", "zh": "他十秒內把整瓶灌完。" },
+        { "en": "You don't have to chug it. Just sip.", "zh": "你不用一口氣喝完，慢慢喝就好。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u080-r1", "sourceUnit": 79, "type": "mcq", "question": "As soon as we ___, the owner brought us beer.", "options": ["sat down", "had sit down", "sit down"], "answer": 0, "explanation": "複習第 79 單元：as soon as + 過去式。" },
+    { "id": "u080-r2", "sourceUnit": 78, "type": "fill", "question": "My uncle is ___ making us drink more at family dinners! (老是)", "answer": "always|constantly|forever", "explanation": "複習第 78 單元：always + 進行式。" },
+    { "id": "u080-r3", "sourceUnit": 77, "type": "fill", "question": "Help ___ to the clams!", "answer": "yourself|yourselves", "explanation": "複習第 77 單元：help yourself。" },
+    { "id": "u080-r4", "sourceUnit": 76, "type": "mcq", "question": "A: I can't drink much. B: ___", "options": ["Me too.", "Neither can I.", "So can I."], "answer": 1, "explanation": "複習第 76 單元：否定附和。" },
+    { "id": "u080-r5", "sourceUnit": 75, "type": "mcq", "question": "A: Isn't this place amazing? B: (你同意) ___", "options": ["No, it is!", "Yes, it is!", "No, it isn't!"], "answer": 1, "explanation": "複習第 75 單元：事實是肯定就說 Yes。" },
+    { "id": "u080-r6", "sourceUnit": 74, "type": "mcq", "question": "I'm ___ full. I can't eat another bite.", "options": ["fairly", "absolutely", "a bit very"], "answer": 1, "explanation": "複習第 74 單元：強烈程度。" },
+    { "id": "u080-r7", "sourceUnit": 73, "type": "mcq", "question": "___ you try the stinky tofu? It's better than it smells.", "options": ["Why don't", "Why not you", "How about you"], "answer": 0, "explanation": "複習第 73 單元：Why don't you…?" },
+    { "id": "u080-r8", "sourceUnit": 72, "type": "fill", "question": "___ I love about rechao is the atmosphere.", "answer": "What", "explanation": "複習第 72 單元：What 分裂句。" },
+    { "id": "u080-r9", "sourceUnit": 71, "type": "mcq", "question": "Remember ___ water between beers.", "options": ["drinking", "to drink", "drink"], "answer": 1, "explanation": "複習第 71 單元：remember to V。" },
+    { "id": "u080-r10", "sourceUnit": 64, "type": "mcq", "question": "If I hadn't had that last beer, I ___ a hangover.", "options": ["wouldn't have had", "wouldn't have", "won't have"], "answer": 0, "explanation": "複習第 64 單元：type 3。" },
+    { "id": "u080-r11", "sourceUnit": 80, "type": "mcq", "question": "You're a little drunk. You're ___.", "options": ["tipsy", "chug", "hangover"], "answer": 0, "explanation": "tipsy = 微醺。" }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "id": 76,
+  "module": 8,
+  "level": "B2",
+  "title": { "zh": "Small talk", "en": "Small Talk" },
+  "scenario": {
+    "title": "電梯、茶水間、活動場合的閒聊",
+    "context": "Small talk 的祕訣不是說很多，而是快速、自然地回應。「我也是」「我也不是」在英文裡有 So do I / Neither do I / Me too / Me neither 這一整組簡答，用對了對話就會很流暢，用錯了會讓人愣一下。",
+    "dialogues": [
+      {
+        "title": "In the office kitchen",
+        "lines": [
+          { "speaker": "Tony", "en": "Hey, how's it going?", "zh": "嘿，最近好嗎？" },
+          { "speaker": "Minz", "en": "Can't complain. You?", "zh": "還不錯啦，你呢？" },
+          { "speaker": "Tony", "en": "Same old, same old. I'm so tired of this rain, though.", "zh": "老樣子。不過我受夠這場雨了。" },
+          { "speaker": "Minz", "en": "So am I. I haven't seen the sun in a week.", "zh": "我也是，我一個禮拜沒看到太陽了。" },
+          { "speaker": "Tony", "en": "I don't even have a proper umbrella.", "zh": "我連一把像樣的傘都沒有。" },
+          { "speaker": "Minz", "en": "Neither do I. Mine broke on Monday.", "zh": "我也沒有，我的星期一壞了。" },
+          { "speaker": "Tony", "en": "Any plans for the long weekend?", "zh": "連假有什麼計畫嗎？" },
+          { "speaker": "Minz", "en": "Not really. Probably just catching up on sleep. You know how it is.", "zh": "沒什麼，大概就是補眠。你懂的。" }
+        ]
+      },
+      {
+        "title": "At a networking event",
+        "lines": [
+          { "speaker": "Guest", "en": "I've never been to one of these before.", "zh": "我從來沒參加過這種活動。" },
+          { "speaker": "Minz", "en": "Me neither. I only came because my friend dragged me here.", "zh": "我也沒有，我是被朋友拖來的。" },
+          { "speaker": "Guest", "en": "Ha! So did I. I'm Ben, by the way. I work in marketing.", "zh": "哈！我也是。對了，我叫 Ben，做行銷的。" },
+          { "speaker": "Minz", "en": "Nice to meet you, Ben. I'm an illustrator. I love working with marketing teams.", "zh": "很高興認識你，Ben。我是插畫家，很喜歡跟行銷團隊合作。" },
+          { "speaker": "Guest", "en": "We might need an illustrator next quarter, actually.", "zh": "其實我們下一季可能需要插畫家。" },
+          { "speaker": "Minz", "en": "Oh, really? Here's my card. Keep me posted!", "zh": "喔真的嗎？這是我的名片，有消息再告訴我！" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "How's your week going?", "zh": "這週過得怎樣？" },
+      { "en": "Can't complain.", "zh": "還不錯。" },
+      { "en": "Any plans for the weekend?", "zh": "週末有什麼計畫？" },
+      { "en": "So do I. / Me too.", "zh": "我也是。" },
+      { "en": "Neither do I. / Me neither.", "zh": "我也不。" },
+      { "en": "How do you know the host?", "zh": "你跟主人怎麼認識的？" },
+      { "en": "Have you been here before?", "zh": "你以前來過嗎？" },
+      { "en": "It's been nice chatting with you.", "zh": "跟你聊天很愉快。", "note": "結束閒聊的得體說法" },
+      { "en": "I'll let you get back to it.", "zh": "不打擾你了。", "note": "禮貌地結束對話" },
+      { "en": "Keep me posted!", "zh": "有消息再跟我說！" }
+    ],
+    "chinglish": [
+      { "wrong": "A: I don't like rain. B: Me too.", "right": "B: Me neither. / Neither do I.", "why": "對方說否定句，要附和「我也不」要用 neither，不是 too。" },
+      { "wrong": "A: I'm tired. B: So do I.", "right": "B: So am I.", "why": "So / Neither 後面的助動詞要跟對方的句子對應：be 動詞用 am，一般動詞用 do。" },
+      { "wrong": "A: I went to the party. B: Me also.", "right": "B: Me too. / So did I.", "why": "Me also 不是自然的說法。" },
+      { "wrong": "Have you eaten?", "right": "How's your day going?", "why": "「吃飽沒」是中文的問候，英文直翻會被當成真的在問吃飯。" }
+    ]
+  },
+  "grammar": {
+    "id": "short-answers-so-neither",
+    "title": "簡答 So do I / Neither do I / Me neither",
+    "oneLiner": "附和肯定句：So + 助動詞 + 主詞 / Me too；附和否定句：Neither + 助動詞 + 主詞 / Me neither。",
+    "whenToUse": [
+      "助動詞要對應原句：I'm tired. → So am I. / I love it. → So do I. / I went. → So did I. / I've been there. → So have I.",
+      "否定：I don't like it. → Neither do I. / I can't swim. → Neither can I.",
+      "口語簡化：Me too（肯定）、Me neither（否定）。",
+      "Neither 後面用肯定助動詞：Neither do I（不是 Neither don't I）。",
+      "不同意時：A: I love rain. B: Oh, I don't. / A: I don't like cats. B: Really? I do.",
+      "英式也說 Nor do I。"
+    ],
+    "whyWeGetItWrong": "中文的「我也是」「我也不是」不需要看原句的動詞，一律適用。英文的 So / Neither 後面卻要用和原句對應的助動詞，而且會倒裝。在 small talk 這種需要快速反應的場合，台灣人常常直覺說 Me too，但對否定句說 Me too 意思會變成相反。",
+    "examples": [
+      { "correct": "A: I'm starving. B: So am I.", "incorrect": "B: So do I.", "note": "be 動詞對應 am。" },
+      { "correct": "A: I didn't sleep well. B: Neither did I.", "note": "過去式對應 did。" },
+      { "correct": "A: I can't stand the heat. B: Me neither.", "incorrect": "B: Me too.", "note": "否定句附和用 neither。" },
+      { "correct": "A: I've never tried durian. B: Neither have I.", "note": "never 也是否定。" },
+      { "correct": "A: I love karaoke. B: Really? I don't.", "note": "表示不同意。" }
+    ],
+    "quiz": [
+      { "id": "u076-g1", "type": "mcq", "question": "A: I'm so hungry. B: ___", "options": ["So do I.", "So am I.", "Neither am I."], "answer": 1, "explanation": "be 動詞對應 am。" },
+      { "id": "u076-g2", "type": "mcq", "question": "A: I don't drink coffee. B: ___", "options": ["Me too.", "Me neither.", "So do I."], "answer": 1, "explanation": "否定句用 Me neither。" },
+      { "id": "u076-g3", "type": "fill", "question": "A: I went to the concert last night. B: So ___ I!", "answer": "did", "explanation": "過去式對應 did。" },
+      { "id": "u076-g4", "type": "fill", "question": "A: I've never been to Japan. B: Neither ___ I.", "answer": "have", "explanation": "現在完成式對應 have。" },
+      { "id": "u076-g5", "type": "mcq", "question": "A: I can't cook. B: ___", "options": ["Neither can I.", "Neither can't I.", "So can't I."], "answer": 0, "explanation": "Neither + 肯定助動詞。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "cant-complain",
+      "term": "can't complain",
+      "meaning": "還不錯、沒什麼好抱怨的",
+      "register": "casual",
+      "usage": "回答 How are you? / How's it going? 的常見答案。",
+      "risk": { "level": "safe", "note": "很安全的 small talk 回答。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "A: How's business? B: Can't complain.", "zh": "A：生意怎樣？ B：還不錯。" },
+        { "en": "Can't complain. The weather's nice, work is fine.", "zh": "沒什麼好抱怨的，天氣好、工作也順。" }
+      ]
+    },
+    {
+      "id": "same-old-same-old",
+      "term": "same old, same old",
+      "meaning": "老樣子",
+      "register": "casual",
+      "usage": "表示生活沒什麼變化。",
+      "risk": { "level": "safe", "note": "輕鬆常用。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "A: What's new? B: Same old, same old.", "zh": "A：有什麼新鮮事？ B：老樣子。" },
+        { "en": "Work is same old, same old. Nothing exciting.", "zh": "工作老樣子，沒什麼特別的。" }
+      ]
+    },
+    {
+      "id": "you-know-how-it-is",
+      "term": "you know how it is",
+      "meaning": "你懂的、你知道就是那樣",
+      "register": "casual",
+      "usage": "不需要多解釋，預設對方能理解的狀況。",
+      "risk": { "level": "safe", "note": "拉近距離的說法。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "I meant to call, but work got crazy. You know how it is.", "zh": "我本來要打給你，但工作忙翻了，你懂的。" },
+        { "en": "Kids, deadlines, bills… you know how it is.", "zh": "小孩、截稿、帳單……你知道就是那樣。" }
+      ]
+    },
+    {
+      "id": "keep-me-posted",
+      "term": "keep me posted",
+      "meaning": "有消息隨時告訴我",
+      "register": "neutral",
+      "usage": "請對方持續更新進度。",
+      "risk": { "level": "safe", "note": "職場和私人都很常用。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Sounds exciting! Keep me posted.", "zh": "聽起來很棒！有消息再跟我說。" },
+        { "en": "Please keep me posted on the client's decision.", "zh": "客戶決定了請隨時告訴我。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u076-r1", "sourceUnit": 75, "type": "mcq", "question": "A: Aren't you from Taipei? B: (你不是) ___", "options": ["Yes, I'm not.", "No, I'm from Tainan.", "Yes, Tainan."], "answer": 1, "explanation": "複習第 75 單元：事實是否定就說 No。" },
+    { "id": "u076-r2", "sourceUnit": 74, "type": "mcq", "question": "The event was ___ good. I met a few interesting people.", "options": ["pretty", "absolutely", "very very"], "answer": 0, "explanation": "複習第 74 單元：pretty good。" },
+    { "id": "u076-r3", "sourceUnit": 72, "type": "fill", "question": "It was Ben ___ introduced me to the client.", "answer": "who|that", "explanation": "複習第 72 單元：It was… who。" },
+    { "id": "u076-r4", "sourceUnit": 68, "type": "mcq", "question": "I wish I ___ better at small talk.", "options": ["am", "were", "will be"], "answer": 1, "explanation": "複習第 68 單元：wish + were。" },
+    { "id": "u076-r5", "sourceUnit": 60, "type": "mcq", "question": "I ___ hate networking, but now I kind of enjoy it.", "options": ["used to", "am used to", "use to"], "answer": 0, "explanation": "複習第 60 單元：used to。" },
+    { "id": "u076-r6", "sourceUnit": 44, "type": "mcq", "question": "I suggest ___ a few questions ready.", "options": ["you to have", "having", "to have you"], "answer": 1, "explanation": "複習第 44 單元：suggest + V-ing。" },
+    { "id": "u076-r7", "sourceUnit": 12, "type": "fill", "question": "Have you eaten ___? (了沒)", "answer": "yet", "explanation": "複習第 12 單元：yet。" },
+    { "id": "u076-r8", "sourceUnit": 76, "type": "mcq", "question": "A: I don't like crowds. B: ___", "options": ["Me too.", "Neither do I.", "So do I."], "answer": 1, "explanation": "否定句附和用 Neither do I。" }
+  ]
+}

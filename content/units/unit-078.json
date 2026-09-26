@@ -1,0 +1,439 @@
+{
+  "id": 78,
+  "module": 8,
+  "level": "B2",
+  "title": {
+    "zh": "抱怨鄰居",
+    "en": "Noisy Neighbors"
+  },
+  "scenario": {
+    "title": "鄰居太吵、室友的壞習慣",
+    "context": "抱怨別人的壞習慣時，英文有一個很特別的用法：always + 現在進行式。He's always leaving his dishes in the sink 不只是描述事實，還帶著「煩死了」的情緒，這是母語者抱怨時最常用的句型。",
+    "dialogues": [
+      {
+        "title": "Complaining to a friend",
+        "lines": [
+          {
+            "speaker": "Minz",
+            "en": "My upstairs neighbor is driving me up the wall.",
+            "zh": "我樓上的鄰居快把我逼瘋了。"
+          },
+          {
+            "speaker": "Jess",
+            "en": "What's he doing?",
+            "zh": "他在幹嘛？"
+          },
+          {
+            "speaker": "Minz",
+            "en": "He's always moving furniture at 2 a.m. And his dog is constantly barking.",
+            "zh": "他老是在凌晨兩點搬家具，而且他的狗一直在叫。"
+          },
+          {
+            "speaker": "Jess",
+            "en": "That would get on my nerves too. Have you talked to him?",
+            "zh": "我也會受不了。你跟他談過嗎？"
+          },
+          {
+            "speaker": "Minz",
+            "en": "Not yet. I'm worried he'll get defensive.",
+            "zh": "還沒，我怕他會防衛心很重。"
+          },
+          {
+            "speaker": "Jess",
+            "en": "You could leave a friendly note first. Something like \"Hi, just a heads-up about the noise.\"",
+            "zh": "你可以先留張友善的紙條，像是「嗨，想提醒一下噪音的事」。"
+          },
+          {
+            "speaker": "Minz",
+            "en": "Good idea. That feels less confrontational.",
+            "zh": "好主意，那樣感覺比較不會正面衝突。"
+          }
+        ]
+      },
+      {
+        "title": "Talking to the neighbor",
+        "lines": [
+          {
+            "speaker": "Minz",
+            "en": "Hi, I'm Minz from 4F. Sorry to bother you. Do you have a minute?",
+            "zh": "嗨，我是四樓的 Minz，抱歉打擾。你有空一下嗎？"
+          },
+          {
+            "speaker": "Neighbor",
+            "en": "Sure. Is everything OK?",
+            "zh": "有，還好嗎？"
+          },
+          {
+            "speaker": "Minz",
+            "en": "I just wanted to mention that it gets pretty loud late at night. I can hear furniture moving around 2 a.m.",
+            "zh": "我只是想提一下，晚上蠻吵的，我凌晨兩點左右會聽到搬家具的聲音。"
+          },
+          {
+            "speaker": "Neighbor",
+            "en": "Oh no, I'm so sorry. I work night shifts, and I didn't realize the noise traveled.",
+            "zh": "喔不，真的很抱歉。我上夜班，沒想到聲音會傳下去。"
+          },
+          {
+            "speaker": "Minz",
+            "en": "No worries. Maybe some felt pads under the chairs would help?",
+            "zh": "沒關係。也許在椅腳貼防滑墊會有幫助？"
+          },
+          {
+            "speaker": "Neighbor",
+            "en": "Great idea. I'll get some this weekend. Thanks for telling me nicely.",
+            "zh": "好主意，我這週末去買。謝謝你這麼客氣地告訴我。"
+          }
+        ]
+      }
+    ],
+    "patterns": [
+      {
+        "en": "Sorry to bother you, but ___.",
+        "zh": "抱歉打擾，但 ___。"
+      },
+      {
+        "en": "I just wanted to mention ___.",
+        "zh": "我只是想提一下 ___。"
+      },
+      {
+        "en": "It gets pretty loud at night.",
+        "zh": "晚上蠻吵的。"
+      },
+      {
+        "en": "Would you mind keeping it down after 11?",
+        "zh": "十一點後可以小聲一點嗎？"
+      },
+      {
+        "en": "He's always ___.",
+        "zh": "他老是 ___。",
+        "note": "抱怨的句型"
+      },
+      {
+        "en": "It's driving me crazy.",
+        "zh": "快把我逼瘋了。"
+      },
+      {
+        "en": "I don't want to cause any trouble.",
+        "zh": "我不想惹麻煩。"
+      },
+      {
+        "en": "Maybe we could find a solution.",
+        "zh": "也許我們可以找個解決辦法。"
+      },
+      {
+        "en": "Thanks for understanding.",
+        "zh": "謝謝體諒。"
+      },
+      {
+        "en": "I'll talk to the building manager.",
+        "zh": "我會跟管委會說。"
+      }
+    ],
+    "chinglish": [
+      {
+        "wrong": "Your noise is too big!",
+        "right": "It gets pretty loud. / The noise is really loud.",
+        "why": "「聲音很大」直翻 big 不對，噪音用 loud。另外直接說 your noise 帶指責。"
+      },
+      {
+        "wrong": "He always leaves dishes, very annoying.",
+        "right": "He's always leaving his dishes in the sink. It's so annoying.",
+        "why": "抱怨用 always + 進行式最有情緒；後半句要有主詞動詞。"
+      },
+      {
+        "wrong": "Please be quiet a little.",
+        "right": "Would you mind keeping it down a bit?",
+        "why": "語序不自然。keep it down = 小聲一點，是固定用法。"
+      },
+      {
+        "wrong": "You make me very angry!",
+        "right": "It's been really frustrating.",
+        "why": "說 you make me… 容易讓對方防衛。描述情況的感受比較不會起衝突。"
+      }
+    ]
+  },
+  "grammar": {
+    "id": "always-continuous-complaints",
+    "title": "always＋進行式表不滿",
+    "oneLiner": "be + always / constantly / forever + V-ing：抱怨某人的壞習慣，比簡單式多了「煩死了」的情緒。",
+    "whenToUse": [
+      "現在：He's always leaving his socks on the floor.（抱怨）",
+      "對比：He always leaves at 6.（中性描述習慣）",
+      "常用副詞：always, constantly, forever, continually。",
+      "過去：She was always interrupting me.",
+      "也可以用在正面的驚喜：She's always bringing us snacks!（她老是帶零食來，好可愛）",
+      "搭配其他抱怨句型：It drives me crazy when… / I can't stand it when…"
+    ],
+    "whyWeGetItWrong": "第 1 單元學過：習慣用簡單式，暫時的狀態用進行式。現在這個規則有個例外：always + 進行式反而是在講習慣，而且帶情緒。中文的「老是」「一天到晚」有同樣的效果，但動詞不變。台灣人抱怨時常用簡單式，聽起來像在陳述事實，少了情緒。",
+    "examples": [
+      {
+        "correct": "My roommate is always borrowing my stuff without asking.",
+        "note": "抱怨，帶情緒。always 放在 be 動詞後面。",
+        "incorrect": "My roommate always is borrowing my stuff without asking."
+      },
+      {
+        "correct": "My roommate always borrows my charger.",
+        "note": "中性描述。"
+      },
+      {
+        "correct": "He's constantly checking his phone during meetings.",
+        "note": "constantly 同樣帶抱怨。"
+      },
+      {
+        "correct": "My last boss was forever changing his mind.",
+        "note": "過去的抱怨。"
+      },
+      {
+        "correct": "Grandma is always sending us food. She's the best.",
+        "note": "正面的「老是」。"
+      }
+    ],
+    "quiz": [
+      {
+        "id": "u078-g1",
+        "type": "mcq",
+        "question": "Which sounds like a complaint?",
+        "options": [
+          "He always leaves at 6.",
+          "He's always leaving his trash in the hallway.",
+          "He left at 6."
+        ],
+        "answer": 1,
+        "explanation": "always + 進行式帶抱怨情緒。"
+      },
+      {
+        "id": "u078-g2",
+        "type": "fill",
+        "question": "My neighbor is ___ playing loud music. (老是)",
+        "answer": "always|constantly|forever",
+        "explanation": "be + always + V-ing。"
+      },
+      {
+        "id": "u078-g3",
+        "type": "mcq",
+        "question": "She ___ interrupting me when I was talking.",
+        "options": [
+          "always was",
+          "was always",
+          "always"
+        ],
+        "answer": 1,
+        "explanation": "was always + V-ing。"
+      },
+      {
+        "id": "u078-g4",
+        "type": "fill",
+        "question": "He's always ___ (lose) his keys!",
+        "answer": "losing",
+        "explanation": "always + V-ing。"
+      },
+      {
+        "id": "u078-g5",
+        "type": "mcq",
+        "question": "Could you keep it ___ after 11 p.m.?",
+        "options": [
+          "down",
+          "up",
+          "low"
+        ],
+        "answer": 0,
+        "explanation": "keep it down = 小聲一點。"
+      }
+    ]
+  },
+  "slang": [
+    {
+      "id": "drive-someone-up-the-wall",
+      "term": "drive someone up the wall",
+      "meaning": "把某人逼瘋、讓人抓狂",
+      "register": "casual",
+      "usage": "形容某件事讓人非常煩躁。",
+      "risk": {
+        "level": "safe",
+        "note": "口語常用。"
+      },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        {
+          "en": "The construction noise is driving me up the wall.",
+          "zh": "工地噪音快把我逼瘋了。"
+        },
+        {
+          "en": "His constant humming drives me up the wall.",
+          "zh": "他一直哼歌讓我抓狂。"
+        }
+      ]
+    },
+    {
+      "id": "get-on-my-nerves",
+      "term": "get on my nerves",
+      "meaning": "讓我很煩、惹毛我",
+      "register": "casual",
+      "usage": "get on someone's nerves = 讓某人不耐煩。",
+      "risk": {
+        "level": "careful",
+        "note": "當面說 You're getting on my nerves 很不客氣。"
+      },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        {
+          "en": "That song is really getting on my nerves.",
+          "zh": "那首歌真的很煩。"
+        },
+        {
+          "en": "Little things get on my nerves when I'm tired.",
+          "zh": "我累的時候小事都會讓我很煩。"
+        }
+      ]
+    },
+    {
+      "id": "cut-it-out",
+      "term": "cut it out",
+      "meaning": "夠了、別鬧了",
+      "register": "casual",
+      "usage": "要對方停止某個煩人的行為，常用在朋友、家人、小孩之間。",
+      "risk": {
+        "level": "careful",
+        "note": "語氣直接，對不熟的人或長輩說很失禮。"
+      },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        {
+          "en": "Cut it out, you two! I'm trying to work.",
+          "zh": "你們兩個夠了！我在工作。"
+        },
+        {
+          "en": "Stop teasing me. Cut it out!",
+          "zh": "別再笑我了，夠了！"
+        }
+      ]
+    },
+    {
+      "id": "knock-it-off",
+      "term": "knock it off",
+      "meaning": "住手、別再這樣",
+      "register": "casual",
+      "usage": "和 cut it out 類似，語氣更強硬。",
+      "risk": {
+        "level": "avoid-at-work",
+        "note": "語氣很衝，工作場合或對不熟的人不要用。"
+      },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        {
+          "en": "Knock it off! You're going to break something.",
+          "zh": "住手！你會弄壞東西。"
+        },
+        {
+          "en": "I told him to knock it off, but he kept going.",
+          "zh": "我叫他別再這樣了，但他還是繼續。"
+        }
+      ]
+    }
+  ],
+  "review": [
+    {
+      "id": "u078-r1",
+      "sourceUnit": 77,
+      "type": "fill",
+      "question": "Feel free ___ use the washing machine.",
+      "answer": "to",
+      "explanation": "複習第 77 單元：feel free to + V。"
+    },
+    {
+      "id": "u078-r2",
+      "sourceUnit": 76,
+      "type": "mcq",
+      "question": "A: I can't sleep with all this noise. B: ___",
+      "options": [
+        "Me too.",
+        "Neither can I.",
+        "So can I."
+      ],
+      "answer": 1,
+      "explanation": "複習第 76 單元：否定句附和用 neither。"
+    },
+    {
+      "id": "u078-r3",
+      "sourceUnit": 74,
+      "type": "mcq",
+      "question": "I'm ___ exhausted. The dog barked all night.",
+      "options": [
+        "very",
+        "totally",
+        "fairly very"
+      ],
+      "answer": 1,
+      "explanation": "複習第 74 單元：極端形容詞用 totally。"
+    },
+    {
+      "id": "u078-r4",
+      "sourceUnit": 70,
+      "type": "mcq",
+      "question": "If I had known about the noise, I ___ this apartment.",
+      "options": [
+        "wouldn't rent",
+        "wouldn't have rented",
+        "won't rent"
+      ],
+      "answer": 1,
+      "explanation": "複習第 70 單元：type 3。"
+    },
+    {
+      "id": "u078-r5",
+      "sourceUnit": 62,
+      "type": "mcq",
+      "question": "There's a ___ construction project next door.",
+      "options": [
+        "two-years",
+        "two-year",
+        "two year's"
+      ],
+      "answer": 1,
+      "explanation": "複習第 62 單元：複合形容詞。"
+    },
+    {
+      "id": "u078-r6",
+      "sourceUnit": 46,
+      "type": "mcq",
+      "question": "The noise stopped. He ___ fallen asleep.",
+      "options": [
+        "must have",
+        "must",
+        "should have"
+      ],
+      "answer": 0,
+      "explanation": "複習第 46 單元：推測過去。"
+    },
+    {
+      "id": "u078-r7",
+      "sourceUnit": 14,
+      "type": "mcq",
+      "question": "I can't stand ___ to loud music at night.",
+      "options": [
+        "to listen",
+        "listening",
+        "listen"
+      ],
+      "answer": 1,
+      "explanation": "複習第 14 單元：can't stand + V-ing。"
+    },
+    {
+      "id": "u078-r8",
+      "sourceUnit": 78,
+      "type": "mcq",
+      "question": "Which is a complaint?",
+      "options": [
+        "She always calls on Sundays.",
+        "She's always calling me at midnight!",
+        "She called me."
+      ],
+      "answer": 1,
+      "explanation": "always + 進行式帶抱怨。"
+    }
+  ]
+}

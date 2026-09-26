@@ -1,0 +1,151 @@
+{
+  "id": 71,
+  "module": 8,
+  "level": "B2",
+  "title": { "zh": "婉拒同事請求", "en": "Saying No at Work" },
+  "scenario": {
+    "title": "工作太多，怎麼拒絕新任務",
+    "context": "在職場說「不」是一門藝術：要讓對方知道你真的沒辦法，又不能讓人覺得你不合作。這個單元也處理一組經典易混動詞：remember / stop / try 後面接 to V 和 V-ing，意思會完全不同。",
+    "dialogues": [
+      {
+        "title": "A new request",
+        "lines": [
+          { "speaker": "Tony", "en": "Hey Minz, could you design a quick flyer for our event next week?", "zh": "嘿 Minz，你可以幫我們下週的活動做一張簡單的傳單嗎？" },
+          { "speaker": "Minz", "en": "I'd love to help, but my plate is full right now. I'm finishing two packaging projects.", "zh": "我很想幫忙，但我現在手上滿了，正在趕兩個包裝案。" },
+          { "speaker": "Tony", "en": "It's really small. It would only take an hour.", "zh": "真的很小，大概只要一小時。" },
+          { "speaker": "Minz", "en": "I believe you, but I'm already stretched thin. If I say yes, something else will slip.", "zh": "我相信你，但我已經分身乏術了。如果答應，其他事就會出包。" },
+          { "speaker": "Tony", "en": "Fair enough. Do you know anyone else who could do it?", "zh": "有道理。你知道還有誰可以做嗎？" },
+          { "speaker": "Minz", "en": "Try asking Kai. He's been looking for more projects. And remember to send him the brand guide.", "zh": "試試問 Kai，他一直在找更多案子。還有記得把品牌規範寄給他。" },
+          { "speaker": "Tony", "en": "Great idea. Thanks!", "zh": "好主意，謝謝！" }
+        ]
+      },
+      {
+        "title": "Reflecting with a friend",
+        "lines": [
+          { "speaker": "Jess", "en": "I can't believe you said no. You never say no.", "zh": "真不敢相信你拒絕了，你從來不拒絕的。" },
+          { "speaker": "Minz", "en": "I know. I remember saying yes to everything last year, and I burned out.", "zh": "我知道。我記得去年什麼都答應，結果燃燒殆盡。" },
+          { "speaker": "Jess", "en": "You definitely bit off more than you could chew.", "zh": "你那時候絕對是自不量力了。" },
+          { "speaker": "Minz", "en": "So I stopped taking on extra work. I tried saying no nicely, and it actually worked.", "zh": "所以我不再接額外的工作了。我試著好好地說不，結果真的有用。" },
+          { "speaker": "Jess", "en": "I need to learn that. My boss asks me to do weekend work, and I never refuse.", "zh": "我需要學這個。我老闆叫我週末工作，我從來不拒絕。" },
+          { "speaker": "Minz", "en": "Next time, just say \"No can do\" with a smile.", "zh": "下次就笑著說「辦不到」。" },
+          { "speaker": "Jess", "en": "Ha! Maybe I'll try a more polite version first.", "zh": "哈！我可能先試試比較禮貌的版本。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "I'd love to help, but ___.", "zh": "我很想幫忙，但 ___。" },
+      { "en": "I'm at full capacity right now.", "zh": "我現在滿檔了。" },
+      { "en": "I can't take this on right now.", "zh": "我現在接不了這個。" },
+      { "en": "Could it wait until next week?", "zh": "可以等到下週嗎？" },
+      { "en": "What should I deprioritize if I take this on?", "zh": "如果我接了，哪件事可以先放下？", "note": "把決定權丟回給主管的聰明問法" },
+      { "en": "Have you tried asking ___?", "zh": "你有試過問 ___ 嗎？" },
+      { "en": "I don't want to do a rushed job.", "zh": "我不想草草了事。" },
+      { "en": "I'm afraid I'll have to pass.", "zh": "恐怕我得婉拒。" },
+      { "en": "Let me check my workload and get back to you.", "zh": "我看一下工作量再回覆你。" },
+      { "en": "Thanks for understanding.", "zh": "謝謝體諒。" }
+    ],
+    "chinglish": [
+      { "wrong": "I have no time, sorry.", "right": "I'd love to help, but I'm at full capacity this week.", "why": "直接說 no time 很硬。先表達意願，再給具體原因。" },
+      { "wrong": "I stopped to take extra work.", "right": "I stopped taking extra work.", "why": "stop + to V 是「停下來去做某事」，stop + V-ing 才是「不再做」。意思完全相反。" },
+      { "wrong": "Remember sending the file!", "right": "Remember to send the file!", "why": "提醒未來要做的事用 remember to V；remember V-ing 是「記得（過去）做過」。" },
+      { "wrong": "I will try my best to do.", "right": "I'll do my best. / I'll try.", "why": "try my best to do 後面少了受詞，聽起來不完整。" }
+    ]
+  },
+  "grammar": {
+    "id": "verb-to-v-vs-ving-meaning",
+    "title": "remember / stop / try + to V vs V-ing",
+    "oneLiner": "有些動詞接 to V 和 V-ing 意思完全不同：to V 通常指向未來或目的，V-ing 通常指向過去或動作本身。",
+    "whenToUse": [
+      "remember to V：記得要去做（未來）。Remember to send it.",
+      "remember V-ing：記得做過（過去）。I remember saying yes to everything.",
+      "forget to V：忘了去做。/ forget V-ing：忘記做過（通常用 I'll never forget…）。",
+      "stop V-ing：停止做某事。I stopped taking extra work.",
+      "stop to V：停下來（為了）去做另一件事。I stopped to buy coffee.",
+      "try to V：努力嘗試（可能很難）。I tried to finish, but I couldn't.",
+      "try V-ing：試試看某個方法。Try asking Kai."
+    ],
+    "whyWeGetItWrong": "第 14 單元學過動詞後面接 to V 或 V-ing 要背。這個單元更進一步：同一個動詞，後面接不同形式，意思就不同。中文「記得」「停止」「試」後面動詞不變，完全靠語境判斷，所以台灣人常把 stop to take（停下來去接）和 stop taking（不再接）搞混，意思剛好相反。",
+    "examples": [
+      { "correct": "Please remember to lock the door.", "incorrect": "Please remember locking the door.", "note": "提醒未來的事用 to V。" },
+      { "correct": "I remember meeting her at a conference.", "note": "記得過去做過用 V-ing。" },
+      { "correct": "I stopped drinking coffee after 3 p.m.", "note": "不再喝了。" },
+      { "correct": "On the way home, I stopped to get coffee.", "note": "停下來去買咖啡。" },
+      { "correct": "If the file won't open, try restarting your laptop.", "note": "試試某個方法。" },
+      { "correct": "I tried to call you, but you didn't pick up.", "note": "努力嘗試但沒成功。" }
+    ],
+    "quiz": [
+      { "id": "u071-g1", "type": "mcq", "question": "Don't forget ___ me the files tonight.", "options": ["sending", "to send", "send"], "answer": 1, "explanation": "提醒未來的事：forget to V。" },
+      { "id": "u071-g2", "type": "mcq", "question": "I've stopped ___ work emails on weekends. It's much healthier.", "options": ["to check", "checking", "check"], "answer": 1, "explanation": "不再做：stop V-ing。" },
+      { "id": "u071-g3", "type": "fill", "question": "I remember ___ (meet) him at a party years ago.", "answer": "meeting", "explanation": "記得過去做過：remember V-ing。" },
+      { "id": "u071-g4", "type": "mcq", "question": "The printer isn't working. Try ___ it off and on again.", "options": ["to turn", "turning", "turn"], "answer": 1, "explanation": "試試某個方法：try V-ing。" },
+      { "id": "u071-g5", "type": "mcq", "question": "We stopped ___ lunch on the way to Tainan.", "options": ["having", "to have", "have"], "answer": 1, "explanation": "停下來去吃午餐：stop to V。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "my-plate-is-full",
+      "term": "my plate is full",
+      "meaning": "我手上的事已經滿了",
+      "register": "neutral",
+      "usage": "婉拒工作時的經典說法。也說 I have a lot on my plate.",
+      "risk": { "level": "safe", "note": "職場上很得體的拒絕方式。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "I'd love to join the committee, but my plate is full.", "zh": "我很想加入委員會，但我手上的事已經滿了。" },
+        { "en": "You have a lot on your plate. Let me help.", "zh": "你手上事情好多，我來幫忙。" }
+      ]
+    },
+    {
+      "id": "stretched-thin",
+      "term": "stretched thin",
+      "meaning": "分身乏術、資源被拉得太開",
+      "register": "neutral",
+      "usage": "人或團隊同時處理太多事，快撐不住。",
+      "risk": { "level": "safe", "note": "職場常用。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Our team is stretched thin with three launches this month.", "zh": "這個月有三個上線案，我們團隊分身乏術。" },
+        { "en": "I'm stretched too thin to take on anything else.", "zh": "我已經分身乏術，沒辦法再接別的。" }
+      ]
+    },
+    {
+      "id": "bite-off-more-than-you-can-chew",
+      "term": "bite off more than you can chew",
+      "meaning": "貪多嚼不爛、自不量力",
+      "register": "casual",
+      "usage": "接下超過自己能力或時間能處理的事。",
+      "risk": { "level": "safe", "note": "自嘲很常見；說別人時帶點批評。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "I bit off more than I could chew with five clients at once.", "zh": "同時接五個客戶，我真是自不量力。" },
+        { "en": "Don't bite off more than you can chew in your first month.", "zh": "第一個月別貪多嚼不爛。" }
+      ]
+    },
+    {
+      "id": "no-can-do",
+      "term": "no can do",
+      "meaning": "辦不到",
+      "register": "very-casual",
+      "usage": "輕鬆幽默地拒絕。據說源自洋涇濱英語，和第 10 單元的 long time no see 類似。",
+      "risk": { "level": "careful", "note": "語氣輕鬆直接，對主管或客戶說可能太隨便。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "A: Can you work Saturday? B: Sorry, no can do.", "zh": "A：你週六可以上班嗎？ B：抱歉，辦不到。" },
+        { "en": "Finish it by tonight? No can do.", "zh": "今晚做完？辦不到。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u071-r1", "sourceUnit": 70, "type": "mcq", "question": "I wish I ___ yes to so many projects last year.", "options": ["didn't say", "hadn't said", "don't say"], "answer": 1, "explanation": "複習第 70 單元：過去的遺憾。" },
+    { "id": "u071-r2", "sourceUnit": 69, "type": "mcq", "question": "The more I take on, ___ stressed I get.", "options": ["more", "the more", "the most"], "answer": 1, "explanation": "複習第 69 單元：the more… the more…" },
+    { "id": "u071-r3", "sourceUnit": 67, "type": "fill", "question": "I noticed him ___ (look) exhausted in the meeting.", "answer": "looking", "explanation": "複習第 67 單元：notice + V-ing。" },
+    { "id": "u071-r4", "sourceUnit": 63, "type": "mcq", "question": "___ being busy, she helped me.", "options": ["Despite", "Although", "Even though"], "answer": 0, "explanation": "複習第 63 單元：despite + V-ing。" },
+    { "id": "u071-r5", "sourceUnit": 55, "type": "fill", "question": "Our team doesn't have the ___ for another project.", "answer": "bandwidth", "explanation": "複習第 55 單元：bandwidth = 餘力。" },
+    { "id": "u071-r6", "sourceUnit": 39, "type": "mcq", "question": "If I ___ this project, I'll miss my other deadlines.", "options": ["take", "will take", "took"], "answer": 0, "explanation": "複習第 39 單元：type 1。" },
+    { "id": "u071-r7", "sourceUnit": 71, "type": "mcq", "question": "\"I stopped to answer the phone\" means:", "options": ["I don't answer the phone anymore.", "I paused what I was doing in order to answer the phone.", "I forgot to answer."], "answer": 1, "explanation": "stop to V = 停下來去做。" }
+  ]
+}

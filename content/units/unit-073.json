@@ -1,0 +1,150 @@
+{
+  "id": 73,
+  "module": 8,
+  "level": "B2",
+  "title": { "zh": "安慰失戀", "en": "Comforting a Heartbroken Friend" },
+  "scenario": {
+    "title": "朋友分手了，怎麼陪伴和給建議",
+    "context": "朋友失戀時，給建議要非常小心：太直接像在說教，太模糊又沒幫助。英文用 You could… / You might… / Why don't you…? / Maybe try… 讓建議聽起來像選項，而不是命令。",
+    "dialogues": [
+      {
+        "title": "The bad news",
+        "lines": [
+          { "speaker": "Amy", "en": "He dumped me. Over text.", "zh": "他甩了我，用傳訊息的。" },
+          { "speaker": "Minz", "en": "Oh, Amy. I'm so sorry. Come here.", "zh": "喔，Amy，我很遺憾，過來。" },
+          { "speaker": "Amy", "en": "Three years, and he couldn't even call me.", "zh": "三年了，他連打通電話都不肯。" },
+          { "speaker": "Minz", "en": "That's awful. You deserved so much better than that.", "zh": "太爛了，你值得更好的對待。" },
+          { "speaker": "Amy", "en": "I don't even know what to do with myself right now.", "zh": "我現在都不知道該怎麼辦。" },
+          { "speaker": "Minz", "en": "Why don't you stay at my place this weekend? We could order food and watch terrible movies.", "zh": "你這週末要不要住我家？我們可以叫外送看爛片。" },
+          { "speaker": "Amy", "en": "That sounds perfect, actually.", "zh": "其實聽起來很完美。" }
+        ]
+      },
+      {
+        "title": "A few weeks later",
+        "lines": [
+          { "speaker": "Amy", "en": "I think I'm ready to move on. But everyone keeps saying there are plenty of fish in the sea.", "zh": "我想我準備好往前走了。但大家一直說天涯何處無芳草。" },
+          { "speaker": "Minz", "en": "Ugh, that's the least helpful thing to say.", "zh": "唉，那是最沒幫助的一句話。" },
+          { "speaker": "Amy", "en": "Right? And I don't want a rebound. I just want to feel like myself again.", "zh": "對吧？而且我不想找個人填補空虛，我只想重新找回自己。" },
+          { "speaker": "Minz", "en": "You might try doing something just for you. What about that ceramics class you wanted to take?", "zh": "你可以試試做些只為自己的事。你之前想上的陶藝課呢？" },
+          { "speaker": "Amy", "en": "I could sign up. I always put it off because of him.", "zh": "我可以報名。我以前一直因為他拖延。" },
+          { "speaker": "Minz", "en": "Maybe it's time. And you could come to my Thursday dinner club too, if you feel like it.", "zh": "也許是時候了。如果你想的話，也可以來我的週四晚餐聚會。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "I'm so sorry. That must be really hard.", "zh": "我很遺憾，那一定很難受。" },
+      { "en": "Do you want to talk about it?", "zh": "你想聊聊嗎？" },
+      { "en": "Why don't you ___?", "zh": "你要不要 ___？" },
+      { "en": "You could ___.", "zh": "你可以 ___。" },
+      { "en": "Maybe try ___.", "zh": "也許試試 ___。" },
+      { "en": "You deserve better.", "zh": "你值得更好的。" },
+      { "en": "It's his loss.", "zh": "那是他的損失。" },
+      { "en": "Take all the time you need.", "zh": "慢慢來，不急。" },
+      { "en": "It gets easier, I promise.", "zh": "會越來越好的，我保證。" },
+      { "en": "I'm here for you.", "zh": "我會陪著你。" }
+    ],
+    "chinglish": [
+      { "wrong": "Don't be sad, next one will be better.", "right": "I'm so sorry. You deserve someone who treats you well.", "why": "「別難過」直翻聽起來像在否定對方的感受。先同理，再鼓勵。" },
+      { "wrong": "You should forget him quickly.", "right": "Take your time. You'll get through this.", "why": "should 太像命令，而且「快點忘了他」對剛失戀的人壓力很大。" },
+      { "wrong": "He broke up you.", "right": "He broke up with you. / He dumped you.", "why": "break up 要加 with + 人。" },
+      { "wrong": "You can try to go out more.", "right": "You could try going out more.", "why": "can 比較像「你有能力」，給建議用 could 更委婉；try V-ing = 試試某方法（複習第 71 單元）。" }
+    ]
+  },
+  "grammar": {
+    "id": "suggestions-could-might-why-dont-you",
+    "title": "could / might / Why don't you 建議",
+    "oneLiner": "給建議從強到弱：You should > Why don't you…? > You could… > You might (want to)… > Maybe you could…",
+    "whenToUse": [
+      "You could + V：提供一個選項。You could take a trip.",
+      "You might + V / might want to：更委婉。You might try yoga.",
+      "Why don't you + V?：友善的提議。Why don't you stay with me?",
+      "Why not + V?：更簡短。Why not take a class?",
+      "How about / What about + V-ing / 名詞：How about going for a walk?",
+      "If I were you, I'd…（第 45 單元）",
+      "注意：Why don't you…? 不是在問原因，而是在提建議，語調要下降。"
+    ],
+    "whyWeGetItWrong": "中文的「你可以」「你應該」「要不要」差別不大，都算正常建議。英文卻很講究：should 在情緒敏感的時候聽起來太強勢。另外，台灣人第一次聽到 Why don't you…? 常常以為對方在問「你為什麼不…」，會開始解釋理由，其實對方只是在給建議。",
+    "examples": [
+      { "correct": "Why don't you take a few days off?", "note": "友善的建議，不是在問原因。" },
+      { "correct": "You could try journaling. It helped me.", "note": "提供選項 + 個人經驗。" },
+      { "correct": "You might want to talk to a counselor.", "note": "最委婉的建議。" },
+      { "correct": "How about going for a walk by the river?", "incorrect": "How about go for a walk?", "note": "How about + V-ing。" },
+      { "correct": "Maybe you could call your sister.", "note": "maybe + could 更柔和。" }
+    ],
+    "quiz": [
+      { "id": "u073-g1", "type": "mcq", "question": "Which is the gentlest suggestion?", "options": ["You should go out more.", "You must go out more.", "You might try going out a bit more."], "answer": 2, "explanation": "might try 最委婉。" },
+      { "id": "u073-g2", "type": "mcq", "question": "How about ___ a movie tonight?", "options": ["watch", "watching", "to watch"], "answer": 1, "explanation": "How about + V-ing。" },
+      { "id": "u073-g3", "type": "fill", "question": "Why ___ you come over for dinner?", "answer": "don't", "explanation": "Why don't you…? = 你要不要…？" },
+      { "id": "u073-g4", "type": "mcq", "question": "A friend says, \"Why don't you join us?\" This means:", "options": ["They want to know your reason.", "They're inviting you.", "They're angry."], "answer": 1, "explanation": "Why don't you…? 是邀請或建議。" },
+      { "id": "u073-g5", "type": "fill", "question": "You ___ try talking to him directly. (提供選項)", "answer": "could|might", "explanation": "You could / might…" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "plenty-of-fish-in-the-sea",
+      "term": "plenty of fish in the sea",
+      "meaning": "天涯何處無芳草",
+      "register": "casual",
+      "usage": "安慰失戀的人還有很多對象。",
+      "risk": { "level": "careful", "note": "剛失戀就說可能顯得敷衍，時機很重要。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Don't worry. There are plenty of fish in the sea.", "zh": "別擔心，天涯何處無芳草。" },
+        { "en": "Everyone says there are plenty of fish in the sea, but I want this fish!", "zh": "大家都說天涯何處無芳草，但我就要這一株！" }
+      ]
+    },
+    {
+      "id": "move-on",
+      "term": "move on",
+      "meaning": "放下、往前走",
+      "register": "neutral",
+      "usage": "從失戀、失敗或困難中走出來。move on from something。",
+      "risk": { "level": "safe", "note": "常見用語；催別人 Just move on 會顯得不體貼。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "It took me a year to move on after the breakup.", "zh": "分手後我花了一年才走出來。" },
+        { "en": "It's time to move on to the next project.", "zh": "是時候進行下一個案子了。" }
+      ]
+    },
+    {
+      "id": "dump",
+      "term": "dump",
+      "meaning": "甩（某人）",
+      "register": "casual",
+      "usage": "dump someone = 跟某人分手（主動方）。get dumped = 被甩。",
+      "risk": { "level": "safe", "note": "直白但不粗俗。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "She dumped him the day before Valentine's.", "zh": "她在情人節前一天把他甩了。" },
+        { "en": "I got dumped in college, and it was the best thing that happened to me.", "zh": "我大學時被甩，那是發生在我身上最好的事。" }
+      ]
+    },
+    {
+      "id": "rebound",
+      "term": "rebound",
+      "meaning": "分手後馬上找來填補空虛的對象",
+      "register": "casual",
+      "usage": "a rebound (relationship) / on the rebound = 失戀後的空窗期。",
+      "risk": { "level": "careful", "note": "說別人的新對象是 rebound 可能很傷人。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Be careful. You don't want a rebound relationship.", "zh": "小心點，你不會想要一段填補空虛的感情。" },
+        { "en": "I think he's just her rebound.", "zh": "我覺得他只是她失戀後的過渡。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u073-r1", "sourceUnit": 72, "type": "mcq", "question": "It wasn't the breakup ___ hurt. It was the way he did it.", "options": ["that", "what", "who"], "answer": 0, "explanation": "複習第 72 單元：It was… that。" },
+    { "id": "u073-r2", "sourceUnit": 71, "type": "mcq", "question": "I've stopped ___ his social media. It's healthier.", "options": ["to check", "checking", "check"], "answer": 1, "explanation": "複習第 71 單元：stop V-ing = 不再做。" },
+    { "id": "u073-r3", "sourceUnit": 69, "type": "fill", "question": "The ___ you think about him, the worse you'll feel. (越多)", "answer": "more", "explanation": "複習第 69 單元：the more… the worse…" },
+    { "id": "u073-r4", "sourceUnit": 65, "type": "mcq", "question": "She deleted his number so ___ she wouldn't text him.", "options": ["that", "to", "for"], "answer": 0, "explanation": "複習第 65 單元：so that。" },
+    { "id": "u073-r5", "sourceUnit": 57, "type": "mcq", "question": "Her ex, ___ she dated for three years, moved to Canada.", "options": ["that", "whom", "which"], "answer": 1, "explanation": "複習第 57 單元：非限定子句不用 that。" },
+    { "id": "u073-r6", "sourceUnit": 41, "type": "mcq", "question": "I'll pick ___ at your place at 7.", "options": ["up you", "you up", "you"], "answer": 1, "explanation": "複習第 41 單元：代名詞放中間。" },
+    { "id": "u073-r7", "sourceUnit": 9, "type": "mcq", "question": "He was supposed to come, but he ___ at the last minute.", "options": ["bailed", "bailing", "bail"], "answer": 0, "explanation": "複習第 9 單元：bail 過去式。" },
+    { "id": "u073-r8", "sourceUnit": 73, "type": "mcq", "question": "Which is the gentlest suggestion?", "options": ["You should forget him.", "You could try a new hobby.", "You must move on now."], "answer": 1, "explanation": "You could… 提供選項最溫和。" }
+  ]
+}

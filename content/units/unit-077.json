@@ -1,0 +1,149 @@
+{
+  "id": 77,
+  "module": 8,
+  "level": "B2",
+  "title": { "zh": "去朋友家作客", "en": "Visiting a Friend's Place" },
+  "scenario": {
+    "title": "當主人和當客人的英文",
+    "context": "招待客人時，英文會大量使用祈使句：「請進」「隨便坐」「自己拿」。祈使句本來很直接，但搭配 Please / Feel free to / Help yourself，反而是最熱情、最有禮貌的招待方式。",
+    "dialogues": [
+      {
+        "title": "Arriving at a potluck",
+        "lines": [
+          { "speaker": "Jess", "en": "Hey, come on in! Make yourself at home.", "zh": "嘿，快進來！當自己家。" },
+          { "speaker": "Minz", "en": "Thanks for having me. I brought some dumplings for the potluck.", "zh": "謝謝邀請。我帶了一些水餃來百樂餐。" },
+          { "speaker": "Jess", "en": "Amazing! Just put them on the table over there. Help yourself to drinks.", "zh": "太棒了！放那邊桌上就好。飲料自己拿。" },
+          { "speaker": "Minz", "en": "Should I take my shoes off?", "zh": "要脫鞋嗎？" },
+          { "speaker": "Jess", "en": "Yes, please. There are slippers by the door.", "zh": "要，麻煩了。門邊有拖鞋。" },
+          { "speaker": "Minz", "en": "Your place is so cozy. I love the plants.", "zh": "你家好溫馨，我好喜歡那些植物。" },
+          { "speaker": "Jess", "en": "Thanks! Feel free to look around. Don't mind the mess in the bedroom.", "zh": "謝謝！隨便看看。別管臥室的亂。" }
+        ]
+      },
+      {
+        "title": "At the end of the night",
+        "lines": [
+          { "speaker": "Minz", "en": "Oh no, it's past midnight. I've missed the last MRT.", "zh": "糟了，已經過半夜了，我錯過末班捷運了。" },
+          { "speaker": "Jess", "en": "Don't worry about it. Just crash here tonight.", "zh": "別擔心，今晚就睡這吧。" },
+          { "speaker": "Minz", "en": "Are you sure? I don't want to overstay my welcome.", "zh": "你確定嗎？我不想打擾太久。" },
+          { "speaker": "Jess", "en": "Don't be silly. The couch is super comfy. Let me grab you a blanket.", "zh": "別傻了，沙發超舒服，我去幫你拿條毯子。" },
+          { "speaker": "Minz", "en": "You're the best. Let me at least help clean up.", "zh": "你最好了。至少讓我幫忙收拾。" },
+          { "speaker": "Jess", "en": "Leave the dishes. We'll do them in the morning.", "zh": "碗盤先放著，我們早上再洗。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "Come on in!", "zh": "快進來！" },
+      { "en": "Make yourself at home.", "zh": "當自己家。" },
+      { "en": "Help yourself to ___.", "zh": "___ 自己拿／自己來。" },
+      { "en": "Feel free to ___.", "zh": "隨意 ___。" },
+      { "en": "Can I get you something to drink?", "zh": "要喝點什麼嗎？" },
+      { "en": "Thanks for having me.", "zh": "謝謝邀請／招待。" },
+      { "en": "Should I take my shoes off?", "zh": "要脫鞋嗎？" },
+      { "en": "Is there anything I can do to help?", "zh": "有什麼我能幫忙的嗎？" },
+      { "en": "Don't mind the mess.", "zh": "別介意有點亂。" },
+      { "en": "I should get going. Thanks for everything!", "zh": "我該走了，謝謝招待！" }
+    ],
+    "chinglish": [
+      { "wrong": "Sit, sit, sit!", "right": "Please, have a seat. / Make yourself comfortable.", "why": "中文連說「坐坐坐」很熱情，英文重複祈使句聽起來像命令。" },
+      { "wrong": "You don't need to be polite.", "right": "Make yourself at home. / Help yourself.", "why": "「別客氣」直翻 don't be polite 聽起來很怪，像叫對方沒禮貌。" },
+      { "wrong": "Eat more, eat more!", "right": "Please, have some more! There's plenty.", "why": "一直叫人多吃在英文文化裡可能讓人壓力很大。" },
+      { "wrong": "Sorry to disturb you.（到別人家時）", "right": "Thanks for having me!", "why": "台灣人習慣說「打擾了」，英文用感謝取代道歉更自然。" }
+    ]
+  },
+  "grammar": {
+    "id": "imperatives-hospitality",
+    "title": "祈使句與客氣用語",
+    "oneLiner": "招待客人時，祈使句（Come in / Sit down / Help yourself）加上 please 或 feel free to，是最熱情自然的說法。",
+    "whenToUse": [
+      "邀請式祈使句：Come in! / Make yourself at home. / Have a seat.",
+      "help yourself (to…)：自己拿、自己來。Help yourself to snacks.",
+      "feel free to + V：隨意做。Feel free to look around.",
+      "否定祈使句：Don't worry. / Don't be silly.（安慰、客氣時很自然）",
+      "Let me + V：我來。Let me grab you a blanket.",
+      "語氣關鍵：語調友善、加上笑容，祈使句就是好客，不是命令。"
+    ],
+    "whyWeGetItWrong": "台灣人學英文時常聽到「祈使句不禮貌」，所以招待客人時會過度使用 Could you…? / Would you like to…?，反而顯得生疏。其實在熱情的情境下（邀請、給東西、安慰），英文母語者大量使用祈使句。關鍵在於：你是在給對方好處，還是在要求對方做事？",
+    "examples": [
+      { "correct": "Come in, come in! Make yourself at home.", "note": "熱情招待。" },
+      { "correct": "Help yourself to anything in the fridge.", "incorrect": "Please help you to take food.", "note": "help yourself 是固定說法。" },
+      { "correct": "Feel free to use the Wi-Fi. The password's on the fridge.", "note": "feel free to + V。" },
+      { "correct": "Don't worry about the dishes.", "note": "否定祈使句表示客氣。" },
+      { "correct": "Let me take your coat.", "note": "Let me 表示「我來」。" }
+    ],
+    "quiz": [
+      { "id": "u077-g1", "type": "mcq", "question": "A guest arrives at your home. You say:", "options": ["Please be polite.", "Come on in! Make yourself at home.", "Could you possibly enter?"], "answer": 1, "explanation": "熱情的祈使句最自然。" },
+      { "id": "u077-g2", "type": "fill", "question": "Help ___ to some snacks.", "answer": "yourself|yourselves", "explanation": "help yourself = 自己拿。" },
+      { "id": "u077-g3", "type": "mcq", "question": "Feel free ___ around.", "options": ["look", "to look", "looking"], "answer": 1, "explanation": "feel free to + V。" },
+      { "id": "u077-g4", "type": "fill", "question": "___ me get you a towel. (我來)", "answer": "Let", "explanation": "Let me + V。" },
+      { "id": "u077-g5", "type": "mcq", "question": "Your guest offers to wash the dishes. You say:", "options": ["Don't worry about it!", "You don't need polite.", "No need, no need, no need."], "answer": 0, "explanation": "Don't worry about it 是自然的客氣話。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "make-yourself-at-home",
+      "term": "make yourself at home",
+      "meaning": "當自己家、別拘束",
+      "register": "neutral",
+      "usage": "主人招待客人的經典說法。",
+      "risk": { "level": "safe", "note": "溫暖好客。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Come in and make yourself at home.", "zh": "進來吧，當自己家。" },
+        { "en": "Please make yourselves at home while I finish cooking.", "zh": "我煮完之前大家請隨意。" }
+      ]
+    },
+    {
+      "id": "crash",
+      "term": "crash",
+      "meaning": "借住、睡一晚；倒頭就睡",
+      "register": "casual",
+      "usage": "crash at someone's place = 在某人家過夜。I'm going to crash = 我要睡了。",
+      "risk": { "level": "safe", "note": "朋友間很常用。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Can I crash at your place tonight?", "zh": "今晚可以借住你家嗎？" },
+        { "en": "I'm so tired. I'm going to crash.", "zh": "我好累，要倒頭就睡了。" }
+      ]
+    },
+    {
+      "id": "potluck",
+      "term": "potluck",
+      "meaning": "百樂餐（每人帶一道菜的聚會）",
+      "register": "neutral",
+      "usage": "a potluck (dinner / party)。",
+      "risk": { "level": "safe", "note": "普遍用語。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "We're having a potluck on Saturday. Can you bring a salad?", "zh": "我們週六辦百樂餐，你可以帶沙拉嗎？" },
+        { "en": "Potlucks are great because everyone tries new food.", "zh": "百樂餐很棒，大家都能吃到新東西。" }
+      ]
+    },
+    {
+      "id": "overstay-your-welcome",
+      "term": "overstay your welcome",
+      "meaning": "待太久、打擾太久",
+      "register": "neutral",
+      "usage": "待得比主人希望的還久。",
+      "risk": { "level": "safe", "note": "常用來客氣地表示自己要離開。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "I don't want to overstay my welcome. I'll head out soon.", "zh": "我不想打擾太久，我等下就走。" },
+        { "en": "Three weeks at his cousin's place? He's definitely overstayed his welcome.", "zh": "在他表哥家住三週？他絕對待太久了。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u077-r1", "sourceUnit": 76, "type": "mcq", "question": "A: I love this apartment. B: ___", "options": ["So do I.", "Neither do I.", "So am I."], "answer": 0, "explanation": "複習第 76 單元：肯定一般動詞用 So do I。" },
+    { "id": "u077-r2", "sourceUnit": 75, "type": "mcq", "question": "A: Don't you want more cake? B: (你想要) ___", "options": ["No, I want.", "Yes, please!", "No, please."], "answer": 1, "explanation": "複習第 75 單元：想要就說 Yes。" },
+    { "id": "u077-r3", "sourceUnit": 73, "type": "fill", "question": "Why ___ you stay for dinner?", "answer": "don't", "explanation": "複習第 73 單元：Why don't you…?" },
+    { "id": "u077-r4", "sourceUnit": 69, "type": "mcq", "question": "The more, ___!", "options": ["the merrier", "merrier", "the more merry"], "answer": 0, "explanation": "複習第 69 單元：The more, the merrier。" },
+    { "id": "u077-r5", "sourceUnit": 61, "type": "mcq", "question": "Her cooking is said ___ amazing.", "options": ["to be", "being", "be"], "answer": 0, "explanation": "複習第 61 單元：is said to be。" },
+    { "id": "u077-r6", "sourceUnit": 45, "type": "mcq", "question": "If I ___ a bigger place, I'd host more parties.", "options": ["have", "had", "will have"], "answer": 1, "explanation": "複習第 45 單元：type 2。" },
+    { "id": "u077-r7", "sourceUnit": 13, "type": "mcq", "question": "The party was so ___! I'm glad I came.", "options": ["excited", "exciting", "excite"], "answer": 1, "explanation": "複習第 13 單元：-ing 形容詞。" },
+    { "id": "u077-r8", "sourceUnit": 77, "type": "fill", "question": "Help ___ to anything in the kitchen!", "answer": "yourself|yourselves", "explanation": "help yourself。" }
+  ]
+}

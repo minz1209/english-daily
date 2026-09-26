@@ -1,0 +1,151 @@
+{
+  "id": 79,
+  "module": 8,
+  "level": "B2",
+  "title": { "zh": "說一個故事", "en": "Telling a Story" },
+  "scenario": {
+    "title": "講一段有趣的遭遇",
+    "context": "說故事是英文口說的綜合考驗：要用過去式推進情節、過去進行式鋪背景、過去完成式交代更早的事，還要用 as soon as、by the time、just as 這些時間連接詞把事件串起來。講得好，聽的人才會跟著你的節奏走。",
+    "dialogues": [
+      {
+        "title": "The wrong wedding",
+        "lines": [
+          { "speaker": "Minz", "en": "You won't believe what happened to me last weekend.", "zh": "你絕對不會相信我上週末發生什麼事。" },
+          { "speaker": "Jess", "en": "Tell me!", "zh": "快說！" },
+          { "speaker": "Minz", "en": "So I was going to my cousin's wedding. I'd never been to that hotel before, so I was running a bit late.", "zh": "我那時要去參加表姊的婚禮。我從沒去過那間飯店，所以有點遲到。" },
+          { "speaker": "Minz", "en": "As soon as I walked in, someone handed me a glass of champagne and pointed me to a table.", "zh": "我一走進去，就有人遞給我一杯香檳，指引我到一張桌子。" },
+          { "speaker": "Minz", "en": "I was chatting with the people at my table when I realized I didn't recognize anyone.", "zh": "我正在跟同桌的人聊天時，突然發現我一個人都不認識。" },
+          { "speaker": "Jess", "en": "No way. Wrong wedding?", "zh": "不會吧。走錯婚禮？" },
+          { "speaker": "Minz", "en": "Wrong wedding. By the time I found my cousin's hall, they had already cut the cake.", "zh": "走錯婚禮。等我找到我表姊的宴會廳時，他們已經切完蛋糕了。" },
+          { "speaker": "Jess", "en": "That's hilarious!", "zh": "太好笑了！" }
+        ]
+      },
+      {
+        "title": "An unexpected call",
+        "lines": [
+          { "speaker": "Leo", "en": "So how did you get the job at the new agency?", "zh": "所以你是怎麼拿到新公司那份工作的？" },
+          { "speaker": "Minz", "en": "Long story short, a former client recommended me.", "zh": "長話短說，一位以前的客戶推薦了我。" },
+          { "speaker": "Minz", "en": "I hadn't talked to her in two years. Then out of the blue, she messaged me.", "zh": "我已經兩年沒跟她聯絡了，然後她突然傳訊息給我。" },
+          { "speaker": "Minz", "en": "Just as I was about to go to bed, the agency called. The next thing I knew, I had an interview the next morning.", "zh": "就在我正要上床睡覺時，那家公司打來了。接著我就知道隔天早上有面試。" },
+          { "speaker": "Leo", "en": "Wow, that's so fast.", "zh": "哇，好快。" },
+          { "speaker": "Minz", "en": "It all happened within 24 hours. I still can't believe it.", "zh": "整件事 24 小時內就發生了，我到現在還不敢相信。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "You won't believe what happened.", "zh": "你絕對不會相信發生了什麼事。" },
+      { "en": "So there I was, ___.", "zh": "所以我那時就 ___。", "note": "說故事的經典開場" },
+      { "en": "As soon as I ___, ___.", "zh": "我一 ___，就 ___。" },
+      { "en": "By the time I ___, ___ had already ___.", "zh": "等我 ___ 的時候，___ 已經 ___ 了。" },
+      { "en": "Just as I was about to ___, ___.", "zh": "就在我正要 ___ 時，___。" },
+      { "en": "And then, out of nowhere, ___.", "zh": "然後突然，___。" },
+      { "en": "Anyway, long story short, ___.", "zh": "總之，長話短說，___。" },
+      { "en": "The funny thing is, ___.", "zh": "好笑的是，___。" },
+      { "en": "Guess what happened next?", "zh": "猜猜接下來發生什麼事？" },
+      { "en": "I'll never forget it.", "zh": "我永遠不會忘記。" }
+    ],
+    "chinglish": [
+      { "wrong": "When I arrive the hotel, I see many people.", "right": "When I arrived at the hotel, I saw lots of people.", "why": "說故事要全程用過去時態，arrive 還要加 at。中文說故事常用現在式，台灣人翻成英文時會忘記切換。" },
+      { "wrong": "I talked with them and then I found I don't know anyone.", "right": "I was chatting with them when I realized I didn't know anyone.", "why": "背景用過去進行式、突發事件用過去式（複習第 28 單元），整個故事都要統一在過去。" },
+      { "wrong": "When I found the right room, they cut the cake already.", "right": "By the time I found the right room, they had already cut the cake.", "why": "更早發生的事用過去完成式（複習第 32 單元）。" },
+      { "wrong": "Suddenly, suddenly, she called me.", "right": "Then out of the blue, she called me.", "why": "英文說故事用多種轉折詞增加變化，不重複 suddenly。" }
+    ]
+  },
+  "grammar": {
+    "id": "narrative-tenses-time-linkers",
+    "title": "敘事時態＋by the time / as soon as",
+    "oneLiner": "說故事的四個時態：過去式推情節、過去進行式鋪背景、過去完成式交代更早的事、would / was going to 講「當時的未來」；再用時間連接詞串起來。",
+    "whenToUse": [
+      "過去式：主要事件。I walked in. Someone handed me a drink.",
+      "過去進行式：背景或被打斷的動作。I was chatting when I realized…",
+      "過去完成式：比主線更早的事。I'd never been there before.",
+      "as soon as：一…就…。As soon as I walked in, …",
+      "by the time：等到…的時候（前面的事已經完成）。By the time I arrived, they had left.",
+      "just as：就在…的那一刻。Just as I was leaving, the phone rang.",
+      "the moment / once：一旦。The moment I saw her, I knew."
+    ],
+    "whyWeGetItWrong": "中文說故事常用現在式（「然後我走進去，看到一群人」），讓聽眾有臨場感。英文口語也有這種用法，但對學習者來說，混用現在式和過去式會讓時間線大亂。更重要的是，英文說故事時靠時態區分背景、主線和倒敘，這是中文靠語境處理的東西。整合前面學過的時態，是 B2 口說的關鍵。",
+    "examples": [
+      { "correct": "As soon as I got home, I jumped in the shower.", "incorrect": "As soon as I will get home, I jumped in the shower.", "note": "過去的故事全用過去式。" },
+      { "correct": "By the time we arrived, the show had already started.", "note": "by the time + 過去完成式。" },
+      { "correct": "Just as I was locking the door, I heard a noise.", "note": "just as + 過去進行式。" },
+      { "correct": "I was walking home when I saw a cat stuck in a tree.", "note": "背景 + 突發事件。" },
+      { "correct": "I had never met her before, but she knew my name.", "note": "過去完成式交代更早的狀態。" }
+    ],
+    "quiz": [
+      { "id": "u079-g1", "type": "mcq", "question": "___ I opened the door, the cat ran out.", "options": ["As soon as", "By the time", "Until"], "answer": 0, "explanation": "一…就…用 as soon as。" },
+      { "id": "u079-g2", "type": "mcq", "question": "By the time I got to the station, the train ___.", "options": ["left", "had left", "has left"], "answer": 1, "explanation": "by the time + 過去完成式。" },
+      { "id": "u079-g3", "type": "fill", "question": "Just as I ___ (leave), my boss called me into her office.", "answer": "was leaving", "explanation": "just as + 過去進行式。" },
+      { "id": "u079-g4", "type": "mcq", "question": "I ___ my phone when I heard someone scream.", "options": ["checked", "was checking", "had checked"], "answer": 1, "explanation": "被打斷的背景用過去進行式。" },
+      { "id": "u079-g5", "type": "fill", "question": "I ___ never been to a wedding that big before.", "answer": "had", "explanation": "過去完成式交代更早的經驗。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "long-story-short",
+      "term": "long story short",
+      "meaning": "長話短說",
+      "register": "casual",
+      "usage": "跳過細節直接講結果。",
+      "risk": { "level": "safe", "note": "口語和職場都常用。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Long story short, we missed the flight.", "zh": "長話短說，我們錯過班機了。" },
+        { "en": "Long story short, I got the job!", "zh": "總之，我拿到那份工作了！" }
+      ]
+    },
+    {
+      "id": "out-of-the-blue",
+      "term": "out of the blue",
+      "meaning": "突然、毫無預警地",
+      "register": "casual",
+      "usage": "像晴天霹靂一樣突然發生。",
+      "risk": { "level": "safe", "note": "日常用語。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "My old friend called me out of the blue.", "zh": "我的老朋友突然打給我。" },
+        { "en": "The offer came out of the blue.", "zh": "那個 offer 來得毫無預警。" }
+      ]
+    },
+    {
+      "id": "you-wont-believe",
+      "term": "you won't believe",
+      "meaning": "你絕對不會相信",
+      "register": "casual",
+      "usage": "You won't believe what happened / who I saw. 說故事的吸睛開場。",
+      "risk": { "level": "safe", "note": "很自然的開場白。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "You won't believe who I ran into at the airport.", "zh": "你絕對不會相信我在機場遇到誰。" },
+        { "en": "You won't believe how much they charged us.", "zh": "你不會相信他們收了我們多少錢。" }
+      ]
+    },
+    {
+      "id": "the-next-thing-i-knew",
+      "term": "the next thing I knew",
+      "meaning": "接下來我只知道、轉眼間",
+      "register": "casual",
+      "usage": "表示事情發生得很快，來不及反應。",
+      "risk": { "level": "safe", "note": "說故事很好用。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "I sat down on the couch, and the next thing I knew, it was morning.", "zh": "我在沙發上坐下，轉眼間就天亮了。" },
+        { "en": "The next thing I knew, I was on stage singing karaoke.", "zh": "接下來我只知道，我已經在台上唱卡拉 OK 了。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u079-r1", "sourceUnit": 78, "type": "mcq", "question": "My cousin is ___ telling that same story!", "options": ["always", "never", "rarely"], "answer": 0, "explanation": "複習第 78 單元：always + 進行式表抱怨。" },
+    { "id": "u079-r2", "sourceUnit": 77, "type": "fill", "question": "Make ___ at home!", "answer": "yourself|yourselves", "explanation": "複習第 77 單元：make yourself at home。" },
+    { "id": "u079-r3", "sourceUnit": 75, "type": "mcq", "question": "A: Didn't you go to the wedding? B: (你有去) ___", "options": ["No, I went.", "Yes, I did. The wrong one!", "No, I did."], "answer": 1, "explanation": "複習第 75 單元：有去就說 Yes。" },
+    { "id": "u079-r4", "sourceUnit": 71, "type": "mcq", "question": "I'll never forget ___ into the wrong wedding.", "options": ["to walk", "walking", "walk"], "answer": 1, "explanation": "複習第 71 單元：forget + V-ing = 忘記做過。" },
+    { "id": "u079-r5", "sourceUnit": 63, "type": "mcq", "question": "___ being late, I still had a great time.", "options": ["Despite", "Although", "Even though"], "answer": 0, "explanation": "複習第 63 單元：despite + V-ing。" },
+    { "id": "u079-r6", "sourceUnit": 47, "type": "mcq", "question": "___ into the hall, I noticed everyone staring at me.", "options": ["Walking", "Walked", "To walk"], "answer": 0, "explanation": "複習第 47 單元：分詞構句。" },
+    { "id": "u079-r7", "sourceUnit": 15, "type": "mcq", "question": "Which is correct?", "options": ["I'm usually on time.", "I usually am on time.", "I'm on time usually always."], "answer": 0, "explanation": "複習第 15 單元：be 動詞後放頻率副詞。" },
+    { "id": "u079-r8", "sourceUnit": 79, "type": "mcq", "question": "By the time I arrived, the party ___.", "options": ["ended", "had ended", "has ended"], "answer": 1, "explanation": "by the time + 過去完成式。" }
+  ]
+}

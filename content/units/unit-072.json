@@ -1,0 +1,149 @@
+{
+  "id": 72,
+  "module": 8,
+  "level": "B2",
+  "title": { "zh": "化解衝突", "en": "Resolving Conflict" },
+  "scenario": {
+    "title": "跟同事吵架後，怎麼和好",
+    "context": "化解誤會時，最重要的是把重點講清楚：「我在意的不是遲到，而是你沒說一聲」「我的意思是…」。英文用分裂句（It was… that / What I meant was…）把要強調的部分拉出來，讓對方聽到你真正的重點。",
+    "dialogues": [
+      {
+        "title": "After an argument",
+        "lines": [
+          { "speaker": "Daniel", "en": "Hey, can we talk about yesterday? I think we got off on the wrong foot.", "zh": "嘿，我們可以談談昨天的事嗎？我覺得我們一開始就搞砸了。" },
+          { "speaker": "Minz", "en": "Sure. I'm sorry I blew up in the meeting. That wasn't fair to you.", "zh": "好。抱歉我在會議上發飆，那對你不公平。" },
+          { "speaker": "Daniel", "en": "I appreciate that. I just want to understand what upset you.", "zh": "謝謝你這樣說。我只是想知道你為什麼不高興。" },
+          { "speaker": "Minz", "en": "It wasn't the feedback that bothered me. It was the fact that you gave it in front of the client.", "zh": "讓我不舒服的不是回饋本身，而是你在客戶面前說。" },
+          { "speaker": "Daniel", "en": "Oh. I didn't realize that. What I meant was that we could improve the colors, not that your work was bad.", "zh": "喔，我沒意識到。我的意思是配色可以更好，不是說你做得不好。" },
+          { "speaker": "Minz", "en": "I get that now. What I need is for us to discuss those things privately first.", "zh": "我現在懂了。我需要的是我們先私下討論這些事。" },
+          { "speaker": "Daniel", "en": "Totally fair. I'll do that from now on.", "zh": "完全合理，從現在起我會這樣做。" }
+        ]
+      },
+      {
+        "title": "Moving on",
+        "lines": [
+          { "speaker": "Minz", "en": "I'm glad we cleared the air.", "zh": "很高興我們把話說開了。" },
+          { "speaker": "Daniel", "en": "Me too. It was the silence that was killing me.", "zh": "我也是。最折磨我的是那種沉默。" },
+          { "speaker": "Minz", "en": "Ha, same. So, are we good?", "zh": "哈，我也是。所以我們沒事了嗎？" },
+          { "speaker": "Daniel", "en": "We're good. Let's bury the hatchet. Coffee's on me.", "zh": "沒事了，我們和好吧。咖啡我請。" },
+          { "speaker": "Minz", "en": "Deal. And it's you who's buying the pastries too.", "zh": "成交。而且點心也是你請喔。" },
+          { "speaker": "Daniel", "en": "Fine, fine. I deserve that.", "zh": "好啦好啦，我活該。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "Can we talk about what happened?", "zh": "我們可以談談發生的事嗎？" },
+      { "en": "I'm sorry I overreacted.", "zh": "抱歉我反應過度了。" },
+      { "en": "What I meant was ___.", "zh": "我的意思是 ___。" },
+      { "en": "It wasn't ___ that bothered me. It was ___.", "zh": "讓我在意的不是 ___，而是 ___。" },
+      { "en": "I can see why you felt that way.", "zh": "我理解你為什麼那樣覺得。" },
+      { "en": "That's not what I meant.", "zh": "那不是我的意思。" },
+      { "en": "How can we avoid this next time?", "zh": "下次怎麼避免這種情況？" },
+      { "en": "Are we good?", "zh": "我們沒事了吧？" },
+      { "en": "Let's put this behind us.", "zh": "讓這件事過去吧。" },
+      { "en": "Thanks for being so understanding.", "zh": "謝謝你這麼體諒。" }
+    ],
+    "chinglish": [
+      { "wrong": "I'm not angry the feedback, I'm angry you said it in front of the client.", "right": "It wasn't the feedback that upset me. It was that you said it in front of the client.", "why": "中文「我氣的不是…而是…」直翻缺動詞結構；分裂句能清楚標示重點。" },
+      { "wrong": "My meaning is the color can be better.", "right": "What I meant was that the colors could be better.", "why": "「我的意思是」直翻 my meaning is 很生硬。" },
+      { "wrong": "You misunderstand me!", "right": "I think there's been a misunderstanding.", "why": "直接說 You misunderstand me 帶指責；說 there's been a misunderstanding 不歸咎於任何人。" },
+      { "wrong": "Let's forget it, OK?", "right": "Let's put this behind us.", "why": "Let's forget it 有時聽起來像「算了不談了」，帶一點放棄的感覺。" }
+    ]
+  },
+  "grammar": {
+    "id": "cleft-sentences",
+    "title": "分裂句 It was… that / What I meant was…",
+    "oneLiner": "把句子拆成兩半，用 It is / was… that… 或 What… is / was… 把重點強調出來。",
+    "whenToUse": [
+      "It + be + 強調部分 + that / who + 其餘：It was Daniel who called. / It was the tone that bothered me.",
+      "What + 子句 + be + 強調部分：What I need is time. / What bothered me was the tone.（第 59 單元的延伸）",
+      "否定對比：It wasn't the money that mattered. It was the respect.",
+      "澄清誤會：What I meant was… / What I'm trying to say is…",
+      "指人時可以用 who：It's you who owes me coffee.",
+      "口語中很有力，適合道歉、澄清、強調立場。"
+    ],
+    "whyWeGetItWrong": "中文用「是…的」「不是…而是…」強調重點，語序比較自由。英文的一般語序很固定，要強調某個部分就需要特殊結構。台灣人不太用分裂句，所以講重要的事時常常「平鋪直敘」，對方抓不到重點。在衝突或誤會的時候，這會讓人覺得你在迴避。",
+    "examples": [
+      { "correct": "It was the deadline that stressed me out, not the work.", "note": "It was… that 強調原因。" },
+      { "correct": "What I meant was that we need more time.", "incorrect": "My meaning was we need more time.", "note": "澄清意思。" },
+      { "correct": "It's Karen who makes the final decision.", "note": "指人用 who。" },
+      { "correct": "What surprised me was how calm she was.", "note": "What 分裂句。" },
+      { "correct": "It wasn't until I left that I realized how much I liked the job.", "note": "It wasn't until… that…：直到…才…" }
+    ],
+    "quiz": [
+      { "id": "u072-g1", "type": "mcq", "question": "It was the tone ___ upset me, not the words.", "options": ["that", "what", "which it"], "answer": 0, "explanation": "It was… that…" },
+      { "id": "u072-g2", "type": "fill", "question": "___ I meant was that we should talk privately.", "answer": "What", "explanation": "What I meant was…" },
+      { "id": "u072-g3", "type": "mcq", "question": "It's Minz ___ designed the logo.", "options": ["who", "which", "what"], "answer": 0, "explanation": "指人用 who。" },
+      { "id": "u072-g4", "type": "mcq", "question": "It wasn't until I apologized ___ she started talking to me again.", "options": ["when", "that", "then"], "answer": 1, "explanation": "It wasn't until… that…" },
+      { "id": "u072-g5", "type": "mcq", "question": "Which is correct?", "options": ["My meaning is we need help.", "What I mean is that we need help.", "What I mean is need help."], "answer": 1, "explanation": "What I mean is (that) + 子句。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "clear-the-air",
+      "term": "clear the air",
+      "meaning": "把話說開、消除誤會",
+      "register": "neutral",
+      "usage": "透過坦白溝通化解緊張氣氛。",
+      "risk": { "level": "safe", "note": "職場和私人都適用。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Let's grab lunch and clear the air.", "zh": "我們去吃個午餐把話說開吧。" },
+        { "en": "The meeting helped clear the air between the two teams.", "zh": "那場會議幫兩個團隊化解了緊張。" }
+      ]
+    },
+    {
+      "id": "bury-the-hatchet",
+      "term": "bury the hatchet",
+      "meaning": "化干戈為玉帛、和解",
+      "register": "casual",
+      "usage": "源自美洲原住民埋下斧頭表示休戰的習俗。",
+      "risk": { "level": "safe", "note": "常見用語。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "After years of not talking, the brothers finally buried the hatchet.", "zh": "多年沒說話後，兄弟倆終於和解了。" },
+        { "en": "Come on, let's bury the hatchet.", "zh": "好啦，我們和好吧。" }
+      ]
+    },
+    {
+      "id": "get-off-on-the-wrong-foot",
+      "term": "get off on the wrong foot",
+      "meaning": "一開始就搞砸關係、第一印象不好",
+      "register": "casual",
+      "usage": "關係或合作一開始就不順利。反義 get off on the right foot。",
+      "risk": { "level": "safe", "note": "說 we got off on the wrong foot 是很好的和解開場。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "I think we got off on the wrong foot. Can we start over?", "zh": "我覺得我們一開始就沒搞好，可以重新開始嗎？" },
+        { "en": "The new manager got off on the wrong foot with the team.", "zh": "新主管一開始就跟團隊關係不好。" }
+      ]
+    },
+    {
+      "id": "blow-up",
+      "term": "blow up",
+      "meaning": "發飆、大發脾氣；（事情）鬧大",
+      "register": "casual",
+      "usage": "blow up at someone = 對某人發火。也可以指事情爆發：The story blew up online.",
+      "risk": { "level": "safe", "note": "描述別人發飆時注意語氣，可能顯得在說他情緒化。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "He blew up at me for being five minutes late.", "zh": "我才遲到五分鐘他就對我發飆。" },
+        { "en": "The small issue blew up into a huge argument.", "zh": "那個小問題演變成一場大吵。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u072-r1", "sourceUnit": 71, "type": "mcq", "question": "Please remember ___ Karen before the meeting.", "options": ["calling", "to call", "call"], "answer": 1, "explanation": "複習第 71 單元：remember to V。" },
+    { "id": "u072-r2", "sourceUnit": 70, "type": "fill", "question": "If I ___ (stay) calm, we wouldn't have argued.", "answer": "had stayed", "explanation": "複習第 70 單元：type 3。" },
+    { "id": "u072-r3", "sourceUnit": 68, "type": "mcq", "question": "I wish you ___ tell me these things earlier.", "options": ["will", "would", "are"], "answer": 1, "explanation": "複習第 68 單元：wish + would。" },
+    { "id": "u072-r4", "sourceUnit": 64, "type": "mcq", "question": "If he had apologized, I ___ so upset.", "options": ["wouldn't be", "wouldn't have been", "won't be"], "answer": 1, "explanation": "複習第 64 單元：type 3。" },
+    { "id": "u072-r5", "sourceUnit": 56, "type": "mcq", "question": "Please reply ___ Friday.", "options": ["until", "by", "since"], "answer": 1, "explanation": "複習第 56 單元：截止用 by。" },
+    { "id": "u072-r6", "sourceUnit": 40, "type": "mcq", "question": "He's the colleague ___ I had the argument with.", "options": ["which", "who", "whose"], "answer": 1, "explanation": "複習第 40 單元：指人用 who。" },
+    { "id": "u072-r7", "sourceUnit": 8, "type": "mcq", "question": "I feel ___ today. I didn't sleep well after the fight.", "options": ["off", "of", "out"], "answer": 0, "explanation": "複習第 8 單元：feel off。" },
+    { "id": "u072-r8", "sourceUnit": 72, "type": "mcq", "question": "Which clarifies your meaning best?", "options": ["My meaning is different.", "What I meant was that we need more time.", "You misunderstand."], "answer": 1, "explanation": "What I meant was… 澄清意思。" }
+  ]
+}
