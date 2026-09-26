@@ -2,7 +2,10 @@
   "id": 56,
   "module": 6,
   "level": "B2-",
-  "title": { "zh": "趕死線", "en": "Racing a Deadline" },
+  "title": {
+    "zh": "趕死線",
+    "en": "Racing a Deadline"
+  },
   "scenario": {
     "title": "截稿前的倒數",
     "context": "趕截稿時一直在講「到週五前我們就會完成…」「等客戶看到的時候我們已經改了三版」。這種「到未來某個時間點前已經完成」的說法，就是未來完成式（will have + p.p.）。",
@@ -10,43 +13,142 @@
       {
         "title": "Two days before launch",
         "lines": [
-          { "speaker": "Karen", "en": "OK team, it's crunch time. Where are we?", "zh": "好各位，關鍵時刻到了。我們進度如何？" },
-          { "speaker": "Minz", "en": "By tonight, I'll have finished the main visuals. The social media versions will be done by tomorrow noon.", "zh": "今晚前我會完成主視覺，社群版本明天中午前會好。" },
-          { "speaker": "Daniel", "en": "The website is 80 percent done. By Thursday, we'll have tested it on every device.", "zh": "網站完成 80%。週四前我們會在所有裝置上測過。" },
-          { "speaker": "Karen", "en": "And the printed materials?", "zh": "那印刷品呢？" },
-          { "speaker": "Amy", "en": "The printer says they won't have delivered them until Friday morning.", "zh": "印刷廠說他們要到週五早上才能送到。" },
-          { "speaker": "Karen", "en": "Friday morning? The event is Friday afternoon. That's going down to the wire.", "zh": "週五早上？活動是週五下午，這也太趕了。" },
-          { "speaker": "Amy", "en": "I know. I'll call them again and see if they can do Thursday.", "zh": "我知道，我再打給他們看能不能週四送。" }
+          {
+            "speaker": "Karen",
+            "en": "OK team, it's crunch time. Where are we?",
+            "zh": "好各位，關鍵時刻到了。我們進度如何？"
+          },
+          {
+            "speaker": "Minz",
+            "en": "By tonight, I'll have finished the main visuals. The social media versions will be done by tomorrow noon.",
+            "zh": "今晚前我會完成主視覺，社群版本明天中午前會好。"
+          },
+          {
+            "speaker": "Daniel",
+            "en": "The website is 80 percent done. By Thursday, we'll have tested it on every device.",
+            "zh": "網站完成 80%。週四前我們會在所有裝置上測過。"
+          },
+          {
+            "speaker": "Karen",
+            "en": "And the printed materials?",
+            "zh": "那印刷品呢？"
+          },
+          {
+            "speaker": "Amy",
+            "en": "The printer says they won't have delivered them until Friday morning.",
+            "zh": "印刷廠說他們要到週五早上才能送到。"
+          },
+          {
+            "speaker": "Karen",
+            "en": "Friday morning? The event is Friday afternoon. That's going down to the wire.",
+            "zh": "週五早上？活動是週五下午，這也太趕了。"
+          },
+          {
+            "speaker": "Amy",
+            "en": "I know. I'll call them again and see if they can do Thursday.",
+            "zh": "我知道，我再打給他們看能不能週四送。"
+          }
         ]
       },
       {
         "title": "Late at the office",
         "lines": [
-          { "speaker": "Daniel", "en": "You're still here? It's almost midnight.", "zh": "你還在？快半夜了。" },
-          { "speaker": "Minz", "en": "Yeah, I'm burning the midnight oil. By the time I leave, I'll have redone this layout four times.", "zh": "對，我在熬夜趕工。等我離開的時候，這個版面我會已經改了四次。" },
-          { "speaker": "Daniel", "en": "Please don't pull an all-nighter. You'll be useless tomorrow.", "zh": "拜託別通宵，你明天會廢掉。" },
-          { "speaker": "Minz", "en": "I know. I'll leave by one. By this time next week, it'll all be over.", "zh": "我知道，我一點前會走。下週這個時候就全部結束了。" },
-          { "speaker": "Daniel", "en": "And we'll have survived another launch.", "zh": "我們又撐過一次上線了。" }
+          {
+            "speaker": "Daniel",
+            "en": "You're still here? It's almost midnight.",
+            "zh": "你還在？快半夜了。"
+          },
+          {
+            "speaker": "Minz",
+            "en": "Yeah, I'm burning the midnight oil. By the time I leave, I'll have redone this layout four times.",
+            "zh": "對，我在熬夜趕工。等我離開的時候，這個版面我會已經改了四次。"
+          },
+          {
+            "speaker": "Daniel",
+            "en": "Please don't pull an all-nighter. You'll be useless tomorrow.",
+            "zh": "拜託別通宵，你明天會廢掉。"
+          },
+          {
+            "speaker": "Minz",
+            "en": "I know. I'll leave by one. By this time next week, it'll all be over.",
+            "zh": "我知道，我一點前會走。下週這個時候就全部結束了。"
+          },
+          {
+            "speaker": "Daniel",
+            "en": "And we'll have survived another launch.",
+            "zh": "我們又撐過一次上線了。"
+          },
+          {
+            "speaker": "Minz",
+            "en": "Ha. Now go home, Daniel. That's an order.",
+            "zh": "哈。現在回家吧，Daniel，這是命令。"
+          }
         ]
       }
     ],
     "patterns": [
-      { "en": "It's crunch time.", "zh": "關鍵時刻到了。" },
-      { "en": "Where are we on ___?", "zh": "___ 進度到哪了？" },
-      { "en": "I'll have it done by ___.", "zh": "我會在 ___ 前完成。" },
-      { "en": "By tomorrow, we'll have finished ___.", "zh": "明天前我們會完成 ___。" },
-      { "en": "Is that realistic?", "zh": "這樣實際嗎？" },
-      { "en": "We're cutting it close.", "zh": "我們時間抓很緊。" },
-      { "en": "Can we push the deadline?", "zh": "截止日可以延後嗎？" },
-      { "en": "What can we cut?", "zh": "有什麼可以砍掉的？" },
-      { "en": "Let's prioritize ___.", "zh": "我們先處理 ___。" },
-      { "en": "We made it!", "zh": "我們做到了！" }
+      {
+        "en": "It's crunch time.",
+        "zh": "關鍵時刻到了。"
+      },
+      {
+        "en": "Where are we on ___?",
+        "zh": "___ 進度到哪了？"
+      },
+      {
+        "en": "I'll have it done by ___.",
+        "zh": "我會在 ___ 前完成。"
+      },
+      {
+        "en": "By tomorrow, we'll have finished ___.",
+        "zh": "明天前我們會完成 ___。"
+      },
+      {
+        "en": "Is that realistic?",
+        "zh": "這樣實際嗎？"
+      },
+      {
+        "en": "We're cutting it close.",
+        "zh": "我們時間抓很緊。"
+      },
+      {
+        "en": "Can we push the deadline?",
+        "zh": "截止日可以延後嗎？"
+      },
+      {
+        "en": "What can we cut?",
+        "zh": "有什麼可以砍掉的？"
+      },
+      {
+        "en": "Let's prioritize ___.",
+        "zh": "我們先處理 ___。"
+      },
+      {
+        "en": "We made it!",
+        "zh": "我們做到了！"
+      }
     ],
     "chinglish": [
-      { "wrong": "Before Friday I will finish it.", "right": "I'll have it done by Friday. / I'll finish it by Friday.", "why": "截止期限用 by。before Friday 表示「週五以前」，週五當天不算，意思略有不同。" },
-      { "wrong": "Until Friday, I will have finished.", "right": "By Friday, I will have finished.", "why": "until 是「持續到」，完成的期限要用 by。這是台灣人很常搞混的一組。" },
-      { "wrong": "I will stay up all night to do it.", "right": "I'm going to pull an all-nighter.", "why": "文法沒錯，但慣用說法更自然。" },
-      { "wrong": "The deadline is too close to die.", "right": "The deadline is killing me.", "why": "「死線快逼死我」直翻不通，英文說 The deadline is killing me。" }
+      {
+        "wrong": "Before Friday I will finish it.",
+        "right": "I'll have it done by Friday. / I'll finish it by Friday.",
+        "why": "截止期限用 by。before Friday 表示「週五以前」，週五當天不算，意思略有不同。"
+      },
+      {
+        "wrong": "Until Friday, I will have finished.",
+        "right": "By Friday, I will have finished.",
+        "why": "until 是「持續到」，完成的期限要用 by。這是台灣人很常搞混的一組。"
+      },
+      {
+        "wrong": "I will stay up all night to do it.",
+        "right": "I'm going to pull an all-nighter.",
+        "why": "文法沒錯，但慣用說法更自然。"
+      },
+      {
+        "wrong": "The deadline is too close to die.",
+        "right": "The deadline is killing me.",
+        "why": "「死線快逼死我」直翻不通，英文說 The deadline is killing me。"
+      }
     ]
   },
   "grammar": {
@@ -63,18 +165,80 @@
     ],
     "whyWeGetItWrong": "中文用「到…之前就會…了」表達未來完成，動詞不變。英文則需要 will have + p.p.。另外，台灣人很常混用 by 和 until，因為中文都說「到…為止」。記住：by 是「最晚在這之前」，until 是「一直持續到這個時間」。",
     "examples": [
-      { "correct": "By next month, I'll have worked here for a year.", "note": "到下個月就滿一年。" },
-      { "correct": "Please send it by Friday.", "incorrect": "Please send it until Friday.", "note": "截止期限用 by。" },
-      { "correct": "I'll be in the office until 7.", "note": "until = 持續到 7 點。" },
-      { "correct": "By the time the client wakes up, we'll have sent the files.", "incorrect": "By the time the client will wake up, …", "note": "by the time 後面用現在式。" },
-      { "correct": "They won't have finished printing by Thursday.", "note": "否定。" }
+      {
+        "correct": "By next month, I'll have worked here for a year.",
+        "note": "到下個月就滿一年。"
+      },
+      {
+        "correct": "Please send it by Friday.",
+        "incorrect": "Please send it until Friday.",
+        "note": "截止期限用 by。"
+      },
+      {
+        "correct": "I'll be in the office until 7.",
+        "note": "until = 持續到 7 點。"
+      },
+      {
+        "correct": "By the time the client wakes up, we'll have sent the files.",
+        "incorrect": "By the time the client will wake up, …",
+        "note": "by the time 後面用現在式。"
+      },
+      {
+        "correct": "They won't have finished printing by Thursday.",
+        "note": "否定。"
+      }
     ],
     "quiz": [
-      { "id": "u056-g1", "type": "mcq", "question": "By Friday, we ___ all the designs.", "options": ["will finish", "will have finished", "have finished"], "answer": 1, "explanation": "到未來某時已完成：will have + p.p.。" },
-      { "id": "u056-g2", "type": "mcq", "question": "Please submit your report ___ 5 p.m.", "options": ["until", "by", "since"], "answer": 1, "explanation": "截止期限用 by。" },
-      { "id": "u056-g3", "type": "fill", "question": "I'll be working ___ midnight tonight. (持續到)", "answer": "until|till", "explanation": "持續到用 until。" },
-      { "id": "u056-g4", "type": "mcq", "question": "By the time you ___, we'll have started the meeting.", "options": ["will arrive", "arrive", "arrived"], "answer": 1, "explanation": "by the time 後面用現在式。" },
-      { "id": "u056-g5", "type": "fill", "question": "By next June, I ___ have lived in Taipei for ten years.", "answer": "will|'ll", "explanation": "will have + p.p.。" }
+      {
+        "id": "u056-g1",
+        "type": "mcq",
+        "question": "By Friday, we ___ all the designs.",
+        "options": [
+          "will finish",
+          "will have finished",
+          "have finished"
+        ],
+        "answer": 1,
+        "explanation": "到未來某時已完成：will have + p.p.。"
+      },
+      {
+        "id": "u056-g2",
+        "type": "mcq",
+        "question": "Please submit your report ___ 5 p.m.",
+        "options": [
+          "until",
+          "by",
+          "since"
+        ],
+        "answer": 1,
+        "explanation": "截止期限用 by。"
+      },
+      {
+        "id": "u056-g3",
+        "type": "fill",
+        "question": "I'll be working ___ midnight tonight. (持續到)",
+        "answer": "until|till",
+        "explanation": "持續到用 until。"
+      },
+      {
+        "id": "u056-g4",
+        "type": "mcq",
+        "question": "By the time you ___, we'll have started the meeting.",
+        "options": [
+          "will arrive",
+          "arrive",
+          "arrived"
+        ],
+        "answer": 1,
+        "explanation": "by the time 後面用現在式。"
+      },
+      {
+        "id": "u056-g5",
+        "type": "fill",
+        "question": "By next June, I ___ have lived in Taipei for ten years.",
+        "answer": "will|'ll",
+        "explanation": "will have + p.p.。"
+      }
     ]
   },
   "slang": [
@@ -84,12 +248,21 @@
       "meaning": "關鍵時刻、最後衝刺期",
       "register": "casual",
       "usage": "截止日前工作量最大、壓力最大的時期。",
-      "risk": { "level": "safe", "note": "職場常用。" },
+      "risk": {
+        "level": "safe",
+        "note": "職場常用。"
+      },
       "dated": false,
       "variety": "US",
       "examples": [
-        { "en": "It's crunch time. No more coffee breaks.", "zh": "最後衝刺了，不能再喝咖啡休息了。" },
-        { "en": "Everyone works late during crunch time.", "zh": "衝刺期大家都加班。" }
+        {
+          "en": "It's crunch time. No more coffee breaks.",
+          "zh": "最後衝刺了，不能再喝咖啡休息了。"
+        },
+        {
+          "en": "Everyone works late during crunch time.",
+          "zh": "衝刺期大家都加班。"
+        }
       ]
     },
     {
@@ -98,12 +271,21 @@
       "meaning": "拖到最後一刻、非常驚險",
       "register": "casual",
       "usage": "源自賽馬的終點線。go down to the wire = 到最後一刻才見分曉或完成。",
-      "risk": { "level": "safe", "note": "日常用語。" },
+      "risk": {
+        "level": "safe",
+        "note": "日常用語。"
+      },
       "dated": false,
       "variety": "both",
       "examples": [
-        { "en": "The project went down to the wire, but we made it.", "zh": "案子拖到最後一刻，但我們做到了。" },
-        { "en": "The game went down to the wire.", "zh": "比賽打到最後一秒才分勝負。" }
+        {
+          "en": "The project went down to the wire, but we made it.",
+          "zh": "案子拖到最後一刻，但我們做到了。"
+        },
+        {
+          "en": "The game went down to the wire.",
+          "zh": "比賽打到最後一秒才分勝負。"
+        }
       ]
     },
     {
@@ -112,12 +294,21 @@
       "meaning": "熬通宵",
       "register": "casual",
       "usage": "整晚不睡來工作或讀書。",
-      "risk": { "level": "safe", "note": "日常用語。" },
+      "risk": {
+        "level": "safe",
+        "note": "日常用語。"
+      },
       "dated": false,
       "variety": "US",
       "examples": [
-        { "en": "I pulled an all-nighter to finish the pitch deck.", "zh": "我熬通宵把提案簡報做完。" },
-        { "en": "I'm too old to pull all-nighters now.", "zh": "我年紀太大，現在熬不了通宵了。" }
+        {
+          "en": "I pulled an all-nighter to finish the pitch deck.",
+          "zh": "我熬通宵把提案簡報做完。"
+        },
+        {
+          "en": "I'm too old to pull all-nighters now.",
+          "zh": "我年紀太大，現在熬不了通宵了。"
+        }
       ]
     },
     {
@@ -126,22 +317,110 @@
       "meaning": "挑燈夜戰、熬夜工作",
       "register": "neutral",
       "usage": "源自以前點油燈工作到深夜。比 pull an all-nighter 文雅，不一定是整夜。",
-      "risk": { "level": "safe", "note": "有點書面，職場和寫作都適合。" },
+      "risk": {
+        "level": "safe",
+        "note": "有點書面，職場和寫作都適合。"
+      },
       "dated": false,
       "variety": "both",
       "examples": [
-        { "en": "She's been burning the midnight oil to finish her thesis.", "zh": "她一直熬夜趕論文。" },
-        { "en": "We burned the midnight oil all week before the launch.", "zh": "上線前整週我們都挑燈夜戰。" }
+        {
+          "en": "She's been burning the midnight oil to finish her thesis.",
+          "zh": "她一直熬夜趕論文。"
+        },
+        {
+          "en": "We burned the midnight oil all week before the launch.",
+          "zh": "上線前整週我們都挑燈夜戰。"
+        }
       ]
     }
   ],
   "review": [
-    { "id": "u056-r1", "sourceUnit": 55, "type": "fill", "question": "I'll follow ___ with the printer tomorrow morning.", "answer": "up", "explanation": "複習第 55 單元：follow up。" },
-    { "id": "u056-r2", "sourceUnit": 54, "type": "mcq", "question": "Your manager says, \"You might want to start earlier next time.\" She means:", "options": ["It's optional.", "Please start earlier next time.", "Great job."], "answer": 1, "explanation": "複習第 54 單元：委婉句其實是要求。" },
-    { "id": "u056-r3", "sourceUnit": 52, "type": "mcq", "question": "The printer will ___ deliver on Friday morning.", "options": ["probably", "maybe", "likely to"], "answer": 0, "explanation": "複習第 52 單元：will probably。" },
-    { "id": "u056-r4", "sourceUnit": 48, "type": "mcq", "question": "This project took ___ time as the last one.", "options": ["twice as much", "two times more", "double much"], "answer": 0, "explanation": "複習第 48 單元：twice as much。" },
-    { "id": "u056-r5", "sourceUnit": 40, "type": "mcq", "question": "If we ___ tonight, we'll be ready.", "options": ["finish", "will finish", "finished"], "answer": 0, "explanation": "複習第 40 單元：type 1。" },
-    { "id": "u056-r6", "sourceUnit": 24, "type": "mcq", "question": "The client ___ us redo the whole thing.", "options": ["made", "let", "got"], "answer": 0, "explanation": "複習第 24 單元：make + 人 + 原形。" },
-    { "id": "u056-r7", "sourceUnit": 56, "type": "mcq", "question": "Please reply ___ Wednesday.", "options": ["until", "by", "since"], "answer": 1, "explanation": "截止期限用 by。" }
+    {
+      "id": "u056-r1",
+      "sourceUnit": 55,
+      "type": "fill",
+      "question": "I'll follow ___ with the printer tomorrow morning.",
+      "answer": "up",
+      "explanation": "複習第 55 單元：follow up。"
+    },
+    {
+      "id": "u056-r2",
+      "sourceUnit": 54,
+      "type": "mcq",
+      "question": "Your manager says, \"You might want to start earlier next time.\" She means:",
+      "options": [
+        "It's optional.",
+        "Please start earlier next time.",
+        "Great job."
+      ],
+      "answer": 1,
+      "explanation": "複習第 54 單元：委婉句其實是要求。"
+    },
+    {
+      "id": "u056-r3",
+      "sourceUnit": 52,
+      "type": "mcq",
+      "question": "The printer will ___ deliver on Friday morning.",
+      "options": [
+        "probably",
+        "maybe",
+        "likely to"
+      ],
+      "answer": 0,
+      "explanation": "複習第 52 單元：will probably。"
+    },
+    {
+      "id": "u056-r4",
+      "sourceUnit": 48,
+      "type": "mcq",
+      "question": "This project took ___ time as the last one.",
+      "options": [
+        "twice as much",
+        "two times more",
+        "double much"
+      ],
+      "answer": 0,
+      "explanation": "複習第 48 單元：twice as much。"
+    },
+    {
+      "id": "u056-r5",
+      "sourceUnit": 40,
+      "type": "mcq",
+      "question": "If we ___ tonight, we'll be ready.",
+      "options": [
+        "finish",
+        "will finish",
+        "finished"
+      ],
+      "answer": 0,
+      "explanation": "複習第 40 單元：type 1。"
+    },
+    {
+      "id": "u056-r6",
+      "sourceUnit": 24,
+      "type": "mcq",
+      "question": "The client ___ us redo the whole thing.",
+      "options": [
+        "made",
+        "let",
+        "got"
+      ],
+      "answer": 0,
+      "explanation": "複習第 24 單元：make + 人 + 原形。"
+    },
+    {
+      "id": "u056-r7",
+      "sourceUnit": 56,
+      "type": "mcq",
+      "question": "Please reply ___ Wednesday.",
+      "options": [
+        "until",
+        "by",
+        "since"
+      ],
+      "answer": 1,
+      "explanation": "截止期限用 by。"
+    }
   ]
 }

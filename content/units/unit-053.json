@@ -2,7 +2,10 @@
   "id": 53,
   "module": 6,
   "level": "B2-",
-  "title": { "zh": "做簡報", "en": "Giving a Presentation" },
+  "title": {
+    "zh": "做簡報",
+    "en": "Giving a Presentation"
+  },
   "scenario": {
     "title": "跟客戶提案、報告數據",
     "context": "簡報的英文好不好，很大一部分在「轉折詞」：然而、因此、此外、相反地。中文習慣「雖然…但是…」成對出現，英文卻只能用一個，這是台灣人寫 email 和做簡報時最常見的錯誤之一。",
@@ -10,44 +13,147 @@
       {
         "title": "Pitching to a client",
         "lines": [
-          { "speaker": "Minz", "en": "Thanks for having us. Today I'll walk you through three logo directions.", "zh": "謝謝邀請我們。今天我會帶大家看三個 logo 方向。" },
-          { "speaker": "Minz", "en": "First, let's look at the big picture. Your customers are mostly under 30. However, your current branding feels quite traditional.", "zh": "首先看整體。你們的客群大多在 30 歲以下，然而目前的品牌形象感覺相當傳統。" },
-          { "speaker": "Minz", "en": "Therefore, all three directions aim to feel younger while keeping your heritage.", "zh": "因此，三個方向都是想在保留品牌底蘊的同時，讓感覺更年輕。" },
-          { "speaker": "Client", "en": "Makes sense. What about cost? We have a limited budget this year.", "zh": "有道理。那成本呢？我們今年預算有限。" },
-          { "speaker": "Minz", "en": "Good question. Although option C is the most striking, it's also the most expensive to print.", "zh": "好問題。雖然方案 C 最搶眼，但印刷成本也最高。" },
-          { "speaker": "Minz", "en": "In a nutshell, A is safe, B is balanced, and C is bold.", "zh": "簡單來說，A 穩健、B 平衡、C 大膽。" },
-          { "speaker": "Client", "en": "And what's your recommendation?", "zh": "那你的建議是？" },
-          { "speaker": "Minz", "en": "B. It's the best fit for your audience. Moreover, it's the easiest to adapt for packaging.", "zh": "B。它最適合你們的客群。此外，它也最容易延伸到包裝上。" }
+          {
+            "speaker": "Minz",
+            "en": "Thanks for having us. Today I'll walk you through three logo directions.",
+            "zh": "謝謝邀請我們。今天我會帶大家看三個 logo 方向。"
+          },
+          {
+            "speaker": "Minz",
+            "en": "First, let's look at the big picture. Your customers are mostly under 30. However, your current branding feels quite traditional.",
+            "zh": "首先看整體。你們的客群大多在 30 歲以下，然而目前的品牌形象感覺相當傳統。"
+          },
+          {
+            "speaker": "Minz",
+            "en": "Therefore, all three directions aim to feel younger while keeping your heritage.",
+            "zh": "因此，三個方向都是想在保留品牌底蘊的同時，讓感覺更年輕。"
+          },
+          {
+            "speaker": "Client",
+            "en": "Makes sense. What about cost? We have a limited budget this year.",
+            "zh": "有道理。那成本呢？我們今年預算有限。"
+          },
+          {
+            "speaker": "Minz",
+            "en": "Good question. Although option C is the most striking, it's also the most expensive to print.",
+            "zh": "好問題。雖然方案 C 最搶眼，但印刷成本也最高。"
+          },
+          {
+            "speaker": "Minz",
+            "en": "In a nutshell, A is safe, B is balanced, and C is bold.",
+            "zh": "簡單來說，A 穩健、B 平衡、C 大膽。"
+          },
+          {
+            "speaker": "Client",
+            "en": "And what's your recommendation?",
+            "zh": "那你的建議是？"
+          },
+          {
+            "speaker": "Minz",
+            "en": "B. It's the best fit for your audience. Moreover, it's the easiest to adapt for packaging.",
+            "zh": "B。它最適合你們的客群。此外，它也最容易延伸到包裝上。"
+          }
         ]
       },
       {
         "title": "Debrief with the manager",
         "lines": [
-          { "speaker": "Karen", "en": "Nice job. What's the bottom line? Did they pick one?", "zh": "做得好。結論是什麼？他們選了嗎？" },
-          { "speaker": "Minz", "en": "They liked B. However, they want to see it in two more colors.", "zh": "他們喜歡 B，不過想再看兩種配色。" },
-          { "speaker": "Karen", "en": "That's easy. Let's go for the low-hanging fruit first: send the colors by Friday.", "zh": "那很簡單。先做容易的：週五前把配色寄過去。" },
-          { "speaker": "Minz", "en": "Will do. On the other hand, the packaging will take much longer.", "zh": "好的。另一方面，包裝會花更久時間。" },
-          { "speaker": "Karen", "en": "Then let's plan that separately.", "zh": "那我們另外規劃。" }
+          {
+            "speaker": "Karen",
+            "en": "Nice job. What's the bottom line? Did they pick one?",
+            "zh": "做得好。結論是什麼？他們選了嗎？"
+          },
+          {
+            "speaker": "Minz",
+            "en": "They liked B. However, they want to see it in two more colors.",
+            "zh": "他們喜歡 B，不過想再看兩種配色。"
+          },
+          {
+            "speaker": "Karen",
+            "en": "That's easy. Let's go for the low-hanging fruit first: send the colors by Friday.",
+            "zh": "那很簡單。先做容易的：週五前把配色寄過去。"
+          },
+          {
+            "speaker": "Minz",
+            "en": "Will do. On the other hand, the packaging will take much longer.",
+            "zh": "好的。另一方面，包裝會花更久時間。"
+          },
+          {
+            "speaker": "Karen",
+            "en": "Then let's plan that separately.",
+            "zh": "那我們另外規劃。"
+          },
+          {
+            "speaker": "Minz",
+            "en": "Sounds good. I'll draft a timeline and share it tomorrow.",
+            "zh": "好的，我會擬一份時程表，明天分享給大家。"
+          }
         ]
       }
     ],
     "patterns": [
-      { "en": "Today I'll walk you through ___.", "zh": "今天我會帶大家看 ___。" },
-      { "en": "Let's start with the big picture.", "zh": "先從整體來看。" },
-      { "en": "As you can see on this slide, ___.", "zh": "如這頁投影片所示，___。" },
-      { "en": "This brings me to my next point.", "zh": "這帶到我的下一個重點。" },
-      { "en": "On the other hand, ___.", "zh": "另一方面，___。" },
-      { "en": "To put it simply, ___.", "zh": "簡單來說，___。" },
-      { "en": "That's a great question.", "zh": "這是個好問題。" },
-      { "en": "Let me get back to you on that.", "zh": "這個我晚點回覆你。" },
-      { "en": "To sum up, ___.", "zh": "總結來說，___。" },
-      { "en": "Does anyone have any questions?", "zh": "有人有問題嗎？" }
+      {
+        "en": "Today I'll walk you through ___.",
+        "zh": "今天我會帶大家看 ___。"
+      },
+      {
+        "en": "Let's start with the big picture.",
+        "zh": "先從整體來看。"
+      },
+      {
+        "en": "As you can see on this slide, ___.",
+        "zh": "如這頁投影片所示，___。"
+      },
+      {
+        "en": "This brings me to my next point.",
+        "zh": "這帶到我的下一個重點。"
+      },
+      {
+        "en": "On the other hand, ___.",
+        "zh": "另一方面，___。"
+      },
+      {
+        "en": "To put it simply, ___.",
+        "zh": "簡單來說，___。"
+      },
+      {
+        "en": "That's a great question.",
+        "zh": "這是個好問題。"
+      },
+      {
+        "en": "Let me get back to you on that.",
+        "zh": "這個我晚點回覆你。"
+      },
+      {
+        "en": "To sum up, ___.",
+        "zh": "總結來說，___。"
+      },
+      {
+        "en": "Does anyone have any questions?",
+        "zh": "有人有問題嗎？"
+      }
     ],
     "chinglish": [
-      { "wrong": "Although option C is beautiful, but it is expensive.", "right": "Although option C is beautiful, it's expensive. / Option C is beautiful, but it's expensive.", "why": "中文「雖然…但是…」成對出現，英文 although 和 but 只能選一個。" },
-      { "wrong": "Because the budget is limited, so we choose B.", "right": "Because the budget is limited, we chose B. / The budget is limited, so we chose B.", "why": "「因為…所以…」同理，because 和 so 只能選一個。" },
-      { "wrong": "The price is high, however it is good quality.", "right": "The price is high. However, the quality is excellent.", "why": "however 是副詞，不能像 but 一樣連接兩個句子。前面要用句號或分號，後面加逗號。" },
-      { "wrong": "Next, I want to introduce the data.", "right": "Next, let's take a look at the numbers.", "why": "introduce 用在介紹人或新東西，說明數據用 look at / walk through。" }
+      {
+        "wrong": "Although option C is beautiful, but it is expensive.",
+        "right": "Although option C is beautiful, it's expensive. / Option C is beautiful, but it's expensive.",
+        "why": "中文「雖然…但是…」成對出現，英文 although 和 but 只能選一個。"
+      },
+      {
+        "wrong": "Because the budget is limited, so we choose B.",
+        "right": "Because the budget is limited, we chose B. / The budget is limited, so we chose B.",
+        "why": "「因為…所以…」同理，because 和 so 只能選一個。"
+      },
+      {
+        "wrong": "The price is high, however it is good quality.",
+        "right": "The price is high. However, the quality is excellent.",
+        "why": "however 是副詞，不能像 but 一樣連接兩個句子。前面要用句號或分號，後面加逗號。"
+      },
+      {
+        "wrong": "Next, I want to introduce the data.",
+        "right": "Next, let's take a look at the numbers.",
+        "why": "introduce 用在介紹人或新東西，說明數據用 look at / walk through。"
+      }
     ]
   },
   "grammar": {
@@ -64,18 +170,81 @@
     ],
     "whyWeGetItWrong": "中文的關聯詞常常成對出現：「雖然…但是」「因為…所以」「不但…而且」。英文認為一個連接詞就足以表達關係，兩個會讓句子結構打架。另外，however 看起來和 but 意思一樣，但文法角色不同，台灣人常把它當連接詞用，寫出 It's good, however it's expensive 這種不合標點規則的句子。",
     "examples": [
-      { "correct": "Although the deadline is tight, we can do it.", "incorrect": "Although the deadline is tight, but we can do it.", "note": "although 和 but 選一個。" },
-      { "correct": "The budget is small. Therefore, we recommend option A.", "incorrect": "The budget is small, therefore we recommend option A.", "note": "therefore 前面用句號（或分號）。" },
-      { "correct": "Sales went up. However, profits went down.", "note": "however 開新句子，後加逗號。" },
-      { "correct": "Option A is cheaper, whereas option C is more memorable.", "note": "whereas 表對比。" },
-      { "correct": "Because the client changed the brief, we had to start over.", "incorrect": "Because the client changed the brief, so we had to start over.", "note": "because 和 so 選一個。" }
+      {
+        "correct": "Although the deadline is tight, we can do it.",
+        "incorrect": "Although the deadline is tight, but we can do it.",
+        "note": "although 和 but 選一個。"
+      },
+      {
+        "correct": "The budget is small. Therefore, we recommend option A.",
+        "incorrect": "The budget is small, therefore we recommend option A.",
+        "note": "therefore 前面用句號（或分號）。"
+      },
+      {
+        "correct": "Sales went up. However, profits went down.",
+        "note": "however 開新句子，後加逗號。"
+      },
+      {
+        "correct": "Option A is cheaper, whereas option C is more memorable.",
+        "note": "whereas 表對比。"
+      },
+      {
+        "correct": "Because the client changed the brief, we had to start over.",
+        "incorrect": "Because the client changed the brief, so we had to start over.",
+        "note": "because 和 so 選一個。"
+      }
     ],
     "quiz": [
-      { "id": "u053-g1", "type": "mcq", "question": "Which is correct?", "options": ["Although it's risky, but it's worth trying.", "Although it's risky, it's worth trying.", "Although it's risky, however it's worth trying."], "answer": 1, "explanation": "although 和 but 只能用一個。" },
-      { "id": "u053-g2", "type": "mcq", "question": "The design is great. ___, it's too expensive to produce.", "options": ["But", "However", "Although"], "answer": 1, "explanation": "開新句子的轉折用 However,。" },
-      { "id": "u053-g3", "type": "fill", "question": "Our audience is young. ___, we chose a playful font. (因此)", "answer": "Therefore|So|As a result", "explanation": "therefore = 因此。" },
-      { "id": "u053-g4", "type": "mcq", "question": "Which is correct?", "options": ["Because we were late, so we missed the intro.", "Because we were late, we missed the intro.", "Because late, so we missed."], "answer": 1, "explanation": "because 和 so 只能用一個。" },
-      { "id": "u053-g5", "type": "fill", "question": "It's cheaper. ___, it's easier to print. (此外)", "answer": "Moreover|Also|In addition|Plus|Besides", "explanation": "moreover / in addition = 此外。" }
+      {
+        "id": "u053-g1",
+        "type": "mcq",
+        "question": "Which is correct?",
+        "options": [
+          "Although it's risky, but it's worth trying.",
+          "Although it's risky, it's worth trying.",
+          "Although it's risky, however it's worth trying."
+        ],
+        "answer": 1,
+        "explanation": "although 和 but 只能用一個。"
+      },
+      {
+        "id": "u053-g2",
+        "type": "mcq",
+        "question": "The design is great. ___, it's too expensive to produce.",
+        "options": [
+          "But",
+          "However",
+          "Although"
+        ],
+        "answer": 1,
+        "explanation": "開新句子的轉折用 However,。"
+      },
+      {
+        "id": "u053-g3",
+        "type": "fill",
+        "question": "Our audience is young. ___, we chose a playful font. (因此)",
+        "answer": "Therefore|So|As a result",
+        "explanation": "therefore = 因此。"
+      },
+      {
+        "id": "u053-g4",
+        "type": "mcq",
+        "question": "Which is correct?",
+        "options": [
+          "Because we were late, so we missed the intro.",
+          "Because we were late, we missed the intro.",
+          "Because late, so we missed."
+        ],
+        "answer": 1,
+        "explanation": "because 和 so 只能用一個。"
+      },
+      {
+        "id": "u053-g5",
+        "type": "fill",
+        "question": "It's cheaper. ___, it's easier to print. (此外)",
+        "answer": "Moreover|Also|In addition|Plus|Besides",
+        "explanation": "moreover / in addition = 此外。"
+      }
     ]
   },
   "slang": [
@@ -85,12 +254,21 @@
       "meaning": "簡單來說、一言以蔽之",
       "register": "neutral",
       "usage": "總結重點時使用。",
-      "risk": { "level": "safe", "note": "簡報和日常都很適合。" },
+      "risk": {
+        "level": "safe",
+        "note": "簡報和日常都很適合。"
+      },
       "dated": false,
       "variety": "both",
       "examples": [
-        { "en": "In a nutshell, we need more time.", "zh": "簡單來說，我們需要更多時間。" },
-        { "en": "Can you explain the project in a nutshell?", "zh": "你可以用一句話說明這個案子嗎？" }
+        {
+          "en": "In a nutshell, we need more time.",
+          "zh": "簡單來說，我們需要更多時間。"
+        },
+        {
+          "en": "Can you explain the project in a nutshell?",
+          "zh": "你可以用一句話說明這個案子嗎？"
+        }
       ]
     },
     {
@@ -99,12 +277,21 @@
       "meaning": "重點、結論；（財務）盈虧",
       "register": "neutral",
       "usage": "The bottom line is… = 最重要的是…。源自財報最底下那一行的淨利。",
-      "risk": { "level": "safe", "note": "職場常用。" },
+      "risk": {
+        "level": "safe",
+        "note": "職場常用。"
+      },
       "dated": false,
       "variety": "both",
       "examples": [
-        { "en": "The bottom line is, we can't afford it this year.", "zh": "重點是，我們今年負擔不起。" },
-        { "en": "How will this affect our bottom line?", "zh": "這會怎麼影響我們的盈虧？" }
+        {
+          "en": "The bottom line is, we can't afford it this year.",
+          "zh": "重點是，我們今年負擔不起。"
+        },
+        {
+          "en": "How will this affect our bottom line?",
+          "zh": "這會怎麼影響我們的盈虧？"
+        }
       ]
     },
     {
@@ -113,12 +300,21 @@
       "meaning": "大局、整體方向",
       "register": "neutral",
       "usage": "look at the big picture = 從整體來看，不要陷在細節裡。",
-      "risk": { "level": "safe", "note": "職場常用。" },
+      "risk": {
+        "level": "safe",
+        "note": "職場常用。"
+      },
       "dated": false,
       "variety": "both",
       "examples": [
-        { "en": "Let's not get lost in details. What's the big picture?", "zh": "別陷在細節裡，大方向是什麼？" },
-        { "en": "She's great at seeing the big picture.", "zh": "她很擅長看大局。" }
+        {
+          "en": "Let's not get lost in details. What's the big picture?",
+          "zh": "別陷在細節裡，大方向是什麼？"
+        },
+        {
+          "en": "She's great at seeing the big picture.",
+          "zh": "她很擅長看大局。"
+        }
       ]
     },
     {
@@ -127,22 +323,105 @@
       "meaning": "容易達成的目標、先做的簡單事",
       "register": "neutral",
       "usage": "像低處容易摘的果子，先處理最容易有成果的部分。",
-      "risk": { "level": "careful", "note": "被認為是很重的商業行話，有些人會覺得陳腔濫調，別太頻繁使用。" },
+      "risk": {
+        "level": "careful",
+        "note": "被認為是很重的商業行話，有些人會覺得陳腔濫調，別太頻繁使用。"
+      },
       "dated": false,
       "variety": "both",
       "examples": [
-        { "en": "Let's start with the low-hanging fruit and fix the typos.", "zh": "先從簡單的開始，把錯字修掉。" },
-        { "en": "Updating the website photos is low-hanging fruit.", "zh": "更新官網照片是很容易完成的事。" }
+        {
+          "en": "Let's start with the low-hanging fruit and fix the typos.",
+          "zh": "先從簡單的開始，把錯字修掉。"
+        },
+        {
+          "en": "Updating the website photos is low-hanging fruit.",
+          "zh": "更新官網照片是很容易完成的事。"
+        }
       ]
     }
   ],
   "review": [
-    { "id": "u053-r1", "sourceUnit": 52, "type": "mcq", "question": "The client will ___ approve option B.", "options": ["probably", "maybe", "likely to"], "answer": 0, "explanation": "複習第 52 單元：will probably。" },
-    { "id": "u053-r2", "sourceUnit": 51, "type": "fill", "question": "I ___ (lead) a team of five on that project.", "answer": "led", "explanation": "複習第 51 單元：lead → led。" },
-    { "id": "u053-r3", "sourceUnit": 49, "type": "mcq", "question": "I ___ practiced the presentation more.", "options": ["should have", "should", "must"], "answer": 0, "explanation": "複習第 49 單元：should have + p.p.。" },
-    { "id": "u053-r4", "sourceUnit": 45, "type": "mcq", "question": "If I ___ more time, I'd add more data.", "options": ["have", "had", "will have"], "answer": 1, "explanation": "複習第 45 單元：type 2。" },
-    { "id": "u053-r5", "sourceUnit": 37, "type": "mcq", "question": "It was ___ clear presentation.", "options": ["so", "such a", "such"], "answer": 1, "explanation": "複習第 37 單元：such a。" },
-    { "id": "u053-r6", "sourceUnit": 21, "type": "fill", "question": "I've worked in design ___ 2019.", "answer": "since", "explanation": "複習第 21 單元：起點用 since。" },
-    { "id": "u053-r7", "sourceUnit": 53, "type": "mcq", "question": "Which is correct?", "options": ["Although it's hard, but we'll try.", "Although it's hard, we'll try.", "Although hard, but try."], "answer": 1, "explanation": "although 和 but 選一個。" }
+    {
+      "id": "u053-r1",
+      "sourceUnit": 52,
+      "type": "mcq",
+      "question": "The client will ___ approve option B.",
+      "options": [
+        "probably",
+        "maybe",
+        "likely to"
+      ],
+      "answer": 0,
+      "explanation": "複習第 52 單元：will probably。"
+    },
+    {
+      "id": "u053-r2",
+      "sourceUnit": 51,
+      "type": "fill",
+      "question": "I ___ (lead) a team of five on that project.",
+      "answer": "led",
+      "explanation": "複習第 51 單元：lead → led。"
+    },
+    {
+      "id": "u053-r3",
+      "sourceUnit": 49,
+      "type": "mcq",
+      "question": "I ___ practiced the presentation more.",
+      "options": [
+        "should have",
+        "should",
+        "must"
+      ],
+      "answer": 0,
+      "explanation": "複習第 49 單元：should have + p.p.。"
+    },
+    {
+      "id": "u053-r4",
+      "sourceUnit": 45,
+      "type": "mcq",
+      "question": "If I ___ more time, I'd add more data.",
+      "options": [
+        "have",
+        "had",
+        "will have"
+      ],
+      "answer": 1,
+      "explanation": "複習第 45 單元：type 2。"
+    },
+    {
+      "id": "u053-r5",
+      "sourceUnit": 37,
+      "type": "mcq",
+      "question": "It was ___ clear presentation.",
+      "options": [
+        "so",
+        "such a",
+        "such"
+      ],
+      "answer": 1,
+      "explanation": "複習第 37 單元：such a。"
+    },
+    {
+      "id": "u053-r6",
+      "sourceUnit": 21,
+      "type": "fill",
+      "question": "I've worked in design ___ 2019.",
+      "answer": "since",
+      "explanation": "複習第 21 單元：起點用 since。"
+    },
+    {
+      "id": "u053-r7",
+      "sourceUnit": 53,
+      "type": "mcq",
+      "question": "Which is correct?",
+      "options": [
+        "Although it's hard, but we'll try.",
+        "Although it's hard, we'll try.",
+        "Although hard, but try."
+      ],
+      "answer": 1,
+      "explanation": "although 和 but 選一個。"
+    }
   ]
 }
