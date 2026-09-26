@@ -1,0 +1,149 @@
+{
+  "id": 68,
+  "module": 7,
+  "level": "B2",
+  "title": { "zh": "世代差異", "en": "Generation Gaps" },
+  "scenario": {
+    "title": "聊世代差異和懷舊",
+    "context": "聊世代差異時，常會出現「真希望…」：真希望我年輕十歲、真希望當年有智慧型手機、真希望爸媽能理解。英文的 wish 和 if only 後面的時態要「往過去退一格」，跟第 45、64 單元的條件句是同一套邏輯。",
+    "dialogues": [
+      {
+        "title": "Family dinner",
+        "lines": [
+          { "speaker": "Minz", "en": "My mom still prints out emails to read them.", "zh": "我媽還是會把 email 印出來看。" },
+          { "speaker": "Leo", "en": "That's so old school. My dad calls instead of texting.", "zh": "好老派。我爸都打電話不傳訊息。" },
+          { "speaker": "Minz", "en": "I wish my parents understood what I do for work.", "zh": "真希望我爸媽懂我在做什麼工作。" },
+          { "speaker": "Leo", "en": "Same. Mine think freelancing means unemployed.", "zh": "我也是。我爸媽以為接案就是失業。" },
+          { "speaker": "Minz", "en": "Back in the day, they say, everyone had a stable job for life.", "zh": "他們說以前的年代，每個人都有一輩子的鐵飯碗。" },
+          { "speaker": "Leo", "en": "If only it were that simple now.", "zh": "要是現在也那麼簡單就好了。" },
+          { "speaker": "Minz", "en": "Right? I wish I had known about freelancing when I was in college.", "zh": "對吧？真希望我大學時就知道接案這件事。" }
+        ]
+      },
+      {
+        "title": "Gen Z slang",
+        "lines": [
+          { "speaker": "Jess", "en": "My intern said my presentation was \"bussin, no cap.\" What does that mean?", "zh": "我的實習生說我的簡報「bussin, no cap」，那是什麼意思？" },
+          { "speaker": "Minz", "en": "Ha! \"No cap\" means \"no lie.\" It's a compliment.", "zh": "哈！No cap 是「不騙你」的意思，那是稱讚。" },
+          { "speaker": "Jess", "en": "I wish I could keep up with their slang.", "zh": "真希望我跟得上他們的用語。" },
+          { "speaker": "Minz", "en": "Don't try too hard, though. If you use it wrong, they'll roast you.", "zh": "不過別太努力，用錯的話他們會嘲笑你。" },
+          { "speaker": "Jess", "en": "I know. When I complained about TikTok, one of them said \"OK boomer.\"", "zh": "我知道。我抱怨 TikTok 時，其中一個人說「OK boomer」。" },
+          { "speaker": "Minz", "en": "Ouch. And you're not even a boomer!", "zh": "好痛。而且你根本不是嬰兒潮世代！" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "Back in my day, ___.", "zh": "在我那個年代，___。" },
+      { "en": "Things were different back then.", "zh": "那時候不一樣。" },
+      { "en": "I wish I were ___.", "zh": "真希望我是 ___。" },
+      { "en": "I wish I had ___ when I was younger.", "zh": "真希望我年輕時有 ___。" },
+      { "en": "If only ___.", "zh": "要是 ___ 就好了。" },
+      { "en": "Kids these days ___.", "zh": "現在的小孩 ___。" },
+      { "en": "That's a generational thing.", "zh": "那是世代差異。" },
+      { "en": "I'm starting to feel old.", "zh": "我開始覺得自己老了。" },
+      { "en": "We just see things differently.", "zh": "我們只是看法不同。" },
+      { "en": "Every generation thinks the next one is lazy.", "zh": "每一代都覺得下一代很懶。" }
+    ],
+    "chinglish": [
+      { "wrong": "I hope I am younger.", "right": "I wish I were younger.", "why": "不可能實現的願望用 wish + 過去式，hope 是用在「有可能」的事。" },
+      { "wrong": "I wish I know the answer.", "right": "I wish I knew the answer.", "why": "wish 後面講現在的事要用過去式。" },
+      { "wrong": "I wish I studied harder in college.", "right": "I wish I had studied harder in college.", "why": "對過去的遺憾用 had + p.p.。" },
+      { "wrong": "The generation gap between us is very big.", "right": "We have a big generation gap. / We see things very differently.", "why": "文法沒錯，但口語更常說「我們看法不同」。" }
+    ]
+  },
+  "grammar": {
+    "id": "wish-if-only",
+    "title": "wish / if only",
+    "oneLiner": "wish / if only 表達不可能實現的願望：現在的事用過去式，過去的事用 had + p.p.，希望別人改變用 would。",
+    "whenToUse": [
+      "現在的遺憾：wish + 過去式。I wish I knew. / I wish I were taller.",
+      "過去的遺憾：wish + had + p.p.。I wish I had studied harder.",
+      "希望別人或情況改變：wish + would。I wish my dad would text instead of calling.",
+      "能力：wish + could。I wish I could speak Japanese.",
+      "if only 意思相同但更強烈：If only I had known!",
+      "hope 用在有可能的事：I hope you get the job.（不是 wish）"
+    ],
+    "whyWeGetItWrong": "中文的「希望」同時代表 hope（可能實現）和 wish（不可能實現），而且動詞不變。英文不只要選對字，wish 後面還要往過去退一格。台灣人常說 I wish I know 或 I hope I am taller，聽起來邏輯很奇怪。",
+    "examples": [
+      { "correct": "I wish I had more free time.", "incorrect": "I wish I have more free time.", "note": "現在的遺憾用過去式。" },
+      { "correct": "I wish I had bought that apartment ten years ago.", "note": "過去的遺憾用 had + p.p.。" },
+      { "correct": "I wish you would stop checking your phone at dinner.", "note": "希望別人改變用 would。" },
+      { "correct": "If only I could go back in time!", "note": "if only 語氣更強。" },
+      { "correct": "I hope it doesn't rain tomorrow.", "incorrect": "I wish it doesn't rain tomorrow.", "note": "可能的事用 hope。" }
+    ],
+    "quiz": [
+      { "id": "u068-g1", "type": "mcq", "question": "I wish I ___ how to fix this.", "options": ["know", "knew", "will know"], "answer": 1, "explanation": "現在的遺憾：wish + 過去式。" },
+      { "id": "u068-g2", "type": "mcq", "question": "I wish I ___ harder when I was in school.", "options": ["studied", "had studied", "study"], "answer": 1, "explanation": "過去的遺憾：had + p.p.。" },
+      { "id": "u068-g3", "type": "fill", "question": "I wish my neighbors ___ stop playing loud music. (希望別人改變)", "answer": "would", "explanation": "wish + would。" },
+      { "id": "u068-g4", "type": "mcq", "question": "I ___ you have a great trip!", "options": ["wish", "hope", "wish that"], "answer": 1, "explanation": "可能實現的事用 hope。" },
+      { "id": "u068-g5", "type": "fill", "question": "If only I ___ (be) ten years younger!", "answer": "were|was", "explanation": "if only + were。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "old-school",
+      "term": "old school",
+      "meaning": "老派、傳統（可褒可貶）",
+      "register": "casual",
+      "usage": "形容傳統的做法、風格或人。可以是「過時」，也可以是「經典有味道」。",
+      "risk": { "level": "safe", "note": "看語氣可能是稱讚也可能是調侃。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "My boss is old school. He wants everything printed.", "zh": "我老闆很老派，什麼都要印出來。" },
+        { "en": "I love this old-school diner.", "zh": "我好愛這間老派餐館。" }
+      ]
+    },
+    {
+      "id": "back-in-the-day",
+      "term": "back in the day",
+      "meaning": "以前、想當年",
+      "register": "casual",
+      "usage": "懷舊地提起過去。",
+      "risk": { "level": "safe", "note": "日常用語。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Back in the day, we had to use maps instead of GPS.", "zh": "以前我們都要用地圖，沒有 GPS。" },
+        { "en": "Back in the day, this street was all rice fields.", "zh": "想當年這條街都是稻田。" }
+      ]
+    },
+    {
+      "id": "no-cap",
+      "term": "no cap",
+      "meaning": "不騙你、說真的",
+      "register": "very-casual",
+      "usage": "cap = 說謊。No cap = 我沒在唬爛。源自非裔美國人英語（AAVE），Gen Z 大量使用。",
+      "risk": { "level": "careful", "note": "Gen Z 用語，年紀較大的人用會顯得刻意，職場避免。聽懂就好。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "This is the best ramen in Taipei, no cap.", "zh": "這是台北最好吃的拉麵，說真的。" },
+        { "en": "No cap, I finished the whole series in one day.", "zh": "不騙你，我一天就追完整部劇。" }
+      ]
+    },
+    {
+      "id": "ok-boomer",
+      "term": "OK boomer",
+      "meaning": "好啦老人家（嘲諷上一代的保守觀念）",
+      "register": "very-casual",
+      "usage": "年輕世代用來回應長輩說教的反諷用語。boomer 指嬰兒潮世代（1946–1964 出生）。",
+      "risk": { "level": "avoid-at-work", "note": "非常失禮，帶年齡歧視意味，對長輩或同事說會嚴重冒犯。只需要聽得懂。" },
+      "dated": true,
+      "variety": "US",
+      "examples": [
+        { "en": "He complained about young people being lazy, and someone replied, \"OK boomer.\"", "zh": "他抱怨年輕人懶，有人回「好啦老人家」。" },
+        { "en": "The phrase \"OK boomer\" went viral in 2019.", "zh": "「OK boomer」這個說法在 2019 年爆紅。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u068-r1", "sourceUnit": 67, "type": "mcq", "question": "I heard my parents ___ about my job.", "options": ["to argue", "arguing", "argued"], "answer": 1, "explanation": "複習第 67 單元：hear + V-ing。" },
+    { "id": "u068-r2", "sourceUnit": 66, "type": "mcq", "question": "___ young people spend a lot of time online.", "options": ["The", "A", "(no article)"], "answer": 2, "explanation": "複習第 66 單元：泛指複數不加冠詞。" },
+    { "id": "u068-r3", "sourceUnit": 64, "type": "fill", "question": "If my parents ___ (have) smartphones, they would have texted more.", "answer": "had had", "explanation": "複習第 64 單元：type 3。" },
+    { "id": "u068-r4", "sourceUnit": 60, "type": "mcq", "question": "My dad ___ work at a factory, but now he's retired.", "options": ["used to", "is used to", "was used to"], "answer": 0, "explanation": "複習第 60 單元：used to。" },
+    { "id": "u068-r5", "sourceUnit": 52, "type": "mcq", "question": "My parents will ___ never understand TikTok.", "options": ["probably", "maybe", "likely"], "answer": 0, "explanation": "複習第 52 單元：will probably。" },
+    { "id": "u068-r6", "sourceUnit": 36, "type": "mcq", "question": "\"I don't get it.\" → My mom said she ___ get it.", "options": ["doesn't", "didn't", "won't"], "answer": 1, "explanation": "複習第 36 單元：轉述時態後退。" },
+    { "id": "u068-r7", "sourceUnit": 4, "type": "fill", "question": "When I was a kid, we ___ (play) outside every day.", "answer": "played", "explanation": "複習第 4 單元：過去式。" },
+    { "id": "u068-r8", "sourceUnit": 68, "type": "mcq", "question": "Which is correct?", "options": ["I wish I know Korean.", "I wish I knew Korean.", "I hope I knew Korean."], "answer": 1, "explanation": "wish + 過去式。" }
+  ]
+}

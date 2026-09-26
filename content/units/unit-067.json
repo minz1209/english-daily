@@ -1,0 +1,149 @@
+{
+  "id": 67,
+  "module": 7,
+  "level": "B2",
+  "title": { "zh": "社群媒體", "en": "Social Media" },
+  "scenario": {
+    "title": "聊 IG、Threads 和網路文化",
+    "context": "聊社群時一直在描述看到、聽到的東西：「我看到她在發文」「我聽到有人在罵」。英文的感官動詞 see / hear / watch / notice 後面接原形或 V-ing，意思不太一樣，這是 B2 的經典考點。",
+    "dialogues": [
+      {
+        "title": "Scrolling together",
+        "lines": [
+          { "speaker": "Jess", "en": "Did you see Leo's post? He's in Japan again.", "zh": "你有看到 Leo 的貼文嗎？他又去日本了。" },
+          { "speaker": "Minz", "en": "Yeah. I saw him posting stories all night. Serious FOMO.", "zh": "有，我看到他整晚都在發限動，超怕錯過的焦慮。" },
+          { "speaker": "Jess", "en": "He's definitely flexing. That hotel costs a fortune.", "zh": "他絕對是在炫耀，那間飯店超貴。" },
+          { "speaker": "Minz", "en": "Do you post much?", "zh": "你常發文嗎？" },
+          { "speaker": "Jess", "en": "Not really. I mostly lurk. I like watching other people share their lives.", "zh": "不太發，我大多潛水，喜歡看別人分享生活。" },
+          { "speaker": "Minz", "en": "Same. Although for work, I have to post my illustrations every week.", "zh": "我也是。不過因為工作，我每週都得發插畫。" },
+          { "speaker": "Jess", "en": "Right, your account is doing well! I saw a big brand repost you.", "zh": "對，你的帳號經營得不錯！我看到一個大品牌轉發你。" }
+        ]
+      },
+      {
+        "title": "An online controversy",
+        "lines": [
+          { "speaker": "Daniel", "en": "Did you hear about that influencer who got canceled?", "zh": "你有聽說那個被抵制的網紅嗎？" },
+          { "speaker": "Minz", "en": "I heard people talking about it, but I don't know the details.", "zh": "我有聽到大家在講，但不知道細節。" },
+          { "speaker": "Daniel", "en": "Someone noticed him copying another artist's work.", "zh": "有人發現他抄襲另一位藝術家的作品。" },
+          { "speaker": "Minz", "en": "Oof. That's a big deal in the art world.", "zh": "唉，那在藝術圈是大事。" },
+          { "speaker": "Daniel", "en": "I watched the whole thing unfold in the comments. It was brutal.", "zh": "我在留言區看了整件事的發展，超殘酷。" },
+          { "speaker": "Minz", "en": "Cancel culture can go too far, but plagiarism is serious.", "zh": "抵制文化有時太過頭，但抄襲是很嚴重的事。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "Did you see ___'s post?", "zh": "你有看到 ___ 的貼文嗎？" },
+      { "en": "I saw it on my feed.", "zh": "我在動態上看到的。" },
+      { "en": "I mostly just scroll.", "zh": "我大多只是滑。" },
+      { "en": "It blew up overnight.", "zh": "它一夜爆紅。" },
+      { "en": "I muted him.", "zh": "我把他靜音了。" },
+      { "en": "I'm taking a break from social media.", "zh": "我要暫時遠離社群。" },
+      { "en": "Don't read the comments.", "zh": "別看留言。" },
+      { "en": "Tag me in the photo!", "zh": "照片標記我！" },
+      { "en": "I spend way too much time on my phone.", "zh": "我花太多時間在手機上了。" },
+      { "en": "It's all curated.", "zh": "那都是精心經營過的。" }
+    ],
+    "chinglish": [
+      { "wrong": "I saw him to post a photo.", "right": "I saw him post a photo. / I saw him posting a photo.", "why": "感官動詞後面接原形或 V-ing，不加 to。" },
+      { "wrong": "I heard someone scolded him on the internet.", "right": "I heard people criticizing him online.", "why": "感官動詞 hear + 人 + V-ing；「在網路上」說 online。scold 是罵小孩的「責罵」，網路批評用 criticize。" },
+      { "wrong": "I am a diving person on IG.", "right": "I mostly lurk on Instagram.", "why": "「潛水」直翻 dive 不通，英文說 lurk。" },
+      { "wrong": "He is showing off his rich.", "right": "He's flexing. / He's showing off his wealth.", "why": "rich 是形容詞，不能當 show off 的受詞。" }
+    ]
+  },
+  "grammar": {
+    "id": "perception-verbs",
+    "title": "感官動詞 see / hear + V / V-ing",
+    "oneLiner": "see / hear / watch / notice / feel + 受詞 + 原形（看到完整過程）或 V-ing（看到正在進行的片段）；不加 to。",
+    "whenToUse": [
+      "+ 原形：看到或聽到整個動作完成。I saw him post the photo.（從頭到尾）",
+      "+ V-ing：看到或聽到動作進行中的一部分。I saw him posting stories.（正在發）",
+      "常見感官動詞：see, hear, watch, notice, feel, smell（smell 通常接 V-ing）。",
+      "被動時要加 to：He was seen to leave.（正式，較少用）",
+      "hear about / hear of：聽說某事。I heard about the scandal.",
+      "注意和 make / let（第 24 單元）一樣，主動時後面不加 to。"
+    ],
+    "whyWeGetItWrong": "中文「看到他發文」「聽到有人在罵」的動詞不用變形。英文感官動詞後面的動詞要用原形或 V-ing，台灣人常受 want to、need to 影響而加 to。另外，原形和 V-ing 的細微差別（完整 vs 片段）也很少被注意。",
+    "examples": [
+      { "correct": "I saw her leave the party early.", "incorrect": "I saw her to leave the party early.", "note": "感官動詞 + 原形，不加 to。" },
+      { "correct": "I heard someone singing in the next room.", "note": "聽到正在進行的片段。" },
+      { "correct": "We watched the sun set over the ocean.", "note": "看完整個過程。" },
+      { "correct": "Did you notice him looking at his phone the whole time?", "note": "notice + V-ing。" },
+      { "correct": "I can smell something burning!", "note": "smell + V-ing。" }
+    ],
+    "quiz": [
+      { "id": "u067-g1", "type": "mcq", "question": "I saw him ___ the photo.", "options": ["to delete", "delete", "deleted"], "answer": 1, "explanation": "感官動詞 + 原形。" },
+      { "id": "u067-g2", "type": "mcq", "question": "I heard people ___ about it in the café.", "options": ["to talk", "talking", "talked"], "answer": 1, "explanation": "聽到正在進行：V-ing。" },
+      { "id": "u067-g3", "type": "fill", "question": "Did you notice her ___ (leave) early?", "answer": "leave|leaving", "explanation": "notice + 原形或 V-ing。" },
+      { "id": "u067-g4", "type": "mcq", "question": "Which is correct?", "options": ["I watched him to play.", "I watched him play.", "I watched him played."], "answer": 1, "explanation": "watch + 受詞 + 原形。" },
+      { "id": "u067-g5", "type": "fill", "question": "I can smell something ___ (burn).", "answer": "burning", "explanation": "smell + V-ing。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "fomo",
+      "term": "FOMO",
+      "meaning": "錯失恐懼症（怕錯過好玩的事）",
+      "register": "casual",
+      "usage": "fear of missing out。唸成 /ˈfoʊmoʊ/。反義 JOMO（joy of missing out）。",
+      "risk": { "level": "safe", "note": "普遍用語。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Everyone's at the concert and I'm home. Major FOMO.", "zh": "大家都去演唱會，只有我在家，超怕錯過。" },
+        { "en": "I bought the ticket out of pure FOMO.", "zh": "我純粹是怕錯過才買票的。" }
+      ]
+    },
+    {
+      "id": "lurk",
+      "term": "lurk",
+      "meaning": "潛水（只看不發言）",
+      "register": "casual",
+      "usage": "在社群或論壇只看不互動。名詞 lurker。",
+      "risk": { "level": "safe", "note": "網路用語，中性。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "I've been lurking in this group for years.", "zh": "我在這個社團潛水好幾年了。" },
+        { "en": "Hi, I'm usually a lurker, but I had to comment on this.", "zh": "嗨，我平常都潛水，但這篇我一定要留言。" }
+      ]
+    },
+    {
+      "id": "flex",
+      "term": "flex",
+      "meaning": "炫耀",
+      "register": "very-casual",
+      "usage": "動詞 flex（炫耀）；名詞 a flex。Weird flex, but OK = 很奇怪的炫耀，但好吧。",
+      "risk": { "level": "careful", "note": "年輕人和網路用語，帶一點調侃。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "He's always flexing his new cars on Instagram.", "zh": "他總是在 IG 上炫他的新車。" },
+        { "en": "Finishing all my emails before noon? That's a flex.", "zh": "中午前回完所有信？這值得炫耀。" }
+      ]
+    },
+    {
+      "id": "cancel",
+      "term": "cancel",
+      "meaning": "（網路）抵制、封殺某人",
+      "register": "casual",
+      "usage": "get canceled = 因為爭議被群眾抵制。cancel culture = 抵制文化。",
+      "risk": { "level": "careful", "note": "是有政治爭議的話題，討論時注意語氣，很容易引起對立。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "The comedian got canceled after his old tweets resurfaced.", "zh": "那個喜劇演員的舊推文被翻出來後就被抵制了。" },
+        { "en": "Some people think cancel culture has gone too far.", "zh": "有些人覺得抵制文化太過頭了。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u067-r1", "sourceUnit": 66, "type": "mcq", "question": "___ can be addictive.", "options": ["The social media", "Social media", "A social media"], "answer": 1, "explanation": "複習第 66 單元：泛指不加冠詞。" },
+    { "id": "u067-r2", "sourceUnit": 65, "type": "fill", "question": "I turned off notifications so ___ I could focus.", "answer": "that", "explanation": "複習第 65 單元：so that + 子句。" },
+    { "id": "u067-r3", "sourceUnit": 63, "type": "mcq", "question": "___ having 10,000 followers, she rarely posts.", "options": ["Despite", "Although", "Even though"], "answer": 0, "explanation": "複習第 63 單元：despite + V-ing。" },
+    { "id": "u067-r4", "sourceUnit": 59, "type": "mcq", "question": "___ bothers me is how fake it all looks.", "options": ["What", "That", "It"], "answer": 0, "explanation": "複習第 59 單元：What 子句。" },
+    { "id": "u067-r5", "sourceUnit": 51, "type": "mcq", "question": "I ___ my follower count by 200% last year.", "options": ["grew", "was grown", "have grow"], "answer": 0, "explanation": "複習第 51 單元：強動詞過去式。" },
+    { "id": "u067-r6", "sourceUnit": 35, "type": "mcq", "question": "You got 1,000 hateful comments? That ___ be awful.", "options": ["must", "can't", "mustn't"], "answer": 0, "explanation": "複習第 35 單元：must 推測。" },
+    { "id": "u067-r7", "sourceUnit": 3, "type": "mcq", "question": "I saw it ___ Instagram.", "options": ["in", "on", "at"], "answer": 1, "explanation": "複習第 3 單元延伸：社群平台用 on。" },
+    { "id": "u067-r8", "sourceUnit": 67, "type": "mcq", "question": "Which is correct?", "options": ["I saw her to post it.", "I saw her post it.", "I saw her posted it."], "answer": 1, "explanation": "感官動詞 + 原形。" }
+  ]
+}

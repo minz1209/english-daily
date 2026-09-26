@@ -1,0 +1,149 @@
+{
+  "id": 65,
+  "module": 7,
+  "level": "B2",
+  "title": { "zh": "花錢與存錢", "en": "Spending and Saving" },
+  "scenario": {
+    "title": "聊理財習慣和存錢目標",
+    "context": "講理財時一直在說目的：「為了存頭期款」「好讓我明年能出國」「以免月底沒錢」。英文用 to、in order to、so that、so as not to 表達目的，每個後面接的東西都不一樣。",
+    "dialogues": [
+      {
+        "title": "End of the month",
+        "lines": [
+          { "speaker": "Leo", "en": "I'm totally broke until payday.", "zh": "發薪日前我完全沒錢了。" },
+          { "speaker": "Minz", "en": "Again? What happened?", "zh": "又來？怎麼了？" },
+          { "speaker": "Leo", "en": "I splurged on a new camera. I bought it to start a YouTube channel.", "zh": "我揮霍買了一台新相機，為了開 YouTube 頻道。" },
+          { "speaker": "Minz", "en": "Ha. Well, money doesn't grow on trees.", "zh": "哈，錢又不會從天上掉下來。" },
+          { "speaker": "Leo", "en": "I know. How do you always have savings?", "zh": "我知道。你怎麼總是有存款？" },
+          { "speaker": "Minz", "en": "I move 20 percent of my income into a separate account so that I don't spend it.", "zh": "我把收入的 20% 轉到另一個帳戶，這樣我就不會花掉。" },
+          { "speaker": "Leo", "en": "That's smart. I should do that in order to stop living paycheck to paycheck.", "zh": "聰明。我應該這樣做，才不會一直月光。" }
+        ]
+      },
+      {
+        "title": "Saving for a goal",
+        "lines": [
+          { "speaker": "Jess", "en": "I'm pinching pennies this year to save for a trip to Iceland.", "zh": "我今年在省吃儉用，為了存錢去冰島。" },
+          { "speaker": "Minz", "en": "Nice! How are you doing it?", "zh": "不錯！你怎麼做？" },
+          { "speaker": "Jess", "en": "I cook at home so as not to spend too much on eating out.", "zh": "我在家煮飯，以免在外面吃花太多錢。" },
+          { "speaker": "Minz", "en": "I track every expense in an app so that I can see where my money goes.", "zh": "我用 app 記每一筆支出，這樣才看得到錢花去哪了。" },
+          { "speaker": "Jess", "en": "Does it work?", "zh": "有用嗎？" },
+          { "speaker": "Minz", "en": "Mostly. Except for bubble tea. That's still my weakness.", "zh": "大部分有用，除了珍奶。那還是我的弱點。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "I'm saving up for ___.", "zh": "我在存錢買 ___。" },
+      { "en": "I'm on a tight budget this month.", "zh": "我這個月預算很緊。" },
+      { "en": "I'm trying to cut back on ___.", "zh": "我在努力減少 ___ 的開銷。" },
+      { "en": "It's not in my budget.", "zh": "那不在我的預算內。" },
+      { "en": "I live paycheck to paycheck.", "zh": "我月光。" },
+      { "en": "I treat myself once in a while.", "zh": "我偶爾犒賞自己。" },
+      { "en": "I set aside ___ every month.", "zh": "我每個月存 ___。" },
+      { "en": "It's worth the investment.", "zh": "值得投資。" },
+      { "en": "Can you afford it?", "zh": "你負擔得起嗎？" },
+      { "en": "I'll wait until it goes on sale.", "zh": "我會等它特價。" }
+    ],
+    "chinglish": [
+      { "wrong": "I save money for buy a house.", "right": "I'm saving money to buy a house. / I'm saving for a house.", "why": "表目的用 to + V，或 for + 名詞，不能 for + 原形動詞。" },
+      { "wrong": "I cook at home so that save money.", "right": "I cook at home to save money. / …so that I can save money.", "why": "so that 後面要接完整子句（主詞 + 動詞）。" },
+      { "wrong": "I use an app in order to not overspend.", "right": "I use an app in order not to overspend. / …so as not to overspend.", "why": "否定目的的 not 放在 to 前面。" },
+      { "wrong": "I'm a moonlight family.", "right": "I live paycheck to paycheck.", "why": "「月光族」直翻完全不通。" }
+    ]
+  },
+  "grammar": {
+    "id": "purpose-to-so-that",
+    "title": "目的 to / in order to / so that",
+    "oneLiner": "to / in order to + 原形；so that + 主詞 + can / will / won't + 原形；否定目的用 so as not to 或 in order not to。",
+    "whenToUse": [
+      "to + V：最常用。I work two jobs to save money.",
+      "in order to + V：比較正式、強調目的。We changed the process in order to save time.",
+      "so that + 子句：主詞不同或需要情態動詞時。I'll send it now so that you can review it tonight.",
+      "否定目的：so as not to / in order not to + V：I left early so as not to be late.",
+      "for + 名詞：I'm saving for a trip.（不能 for + 原形）",
+      "口語常用 so（= so that）：I wrote it down so I wouldn't forget."
+    ],
+    "whyWeGetItWrong": "中文的「為了」「好讓」「以免」後面可以接任何結構。英文則要看後面是動詞還是子句，選 to 或 so that。台灣人最常見的錯誤是 for + 原形（for buy），以及 so that 後面漏掉主詞。",
+    "examples": [
+      { "correct": "I'm learning English to work abroad.", "incorrect": "I'm learning English for work abroad.", "note": "目的用 to + V。" },
+      { "correct": "I'm saving for a new laptop.", "note": "for + 名詞。" },
+      { "correct": "I set an alarm so that I wouldn't oversleep.", "incorrect": "I set an alarm so that not oversleep.", "note": "so that + 主詞 + 動詞。" },
+      { "correct": "Speak quietly so as not to wake the baby.", "note": "否定目的。" },
+      { "correct": "In order to qualify, you need two years of experience.", "note": "放句首較正式。" }
+    ],
+    "quiz": [
+      { "id": "u065-g1", "type": "mcq", "question": "I'm working overtime ___ pay off my loan.", "options": ["for", "to", "so that"], "answer": 1, "explanation": "目的 + 動詞用 to。" },
+      { "id": "u065-g2", "type": "mcq", "question": "I'll email you the file ___ you can check it tonight.", "options": ["to", "so that", "for"], "answer": 1, "explanation": "後面有主詞，用 so that。" },
+      { "id": "u065-g3", "type": "fill", "question": "I left early so as ___ to miss the train.", "answer": "not", "explanation": "so as not to。" },
+      { "id": "u065-g4", "type": "mcq", "question": "Which is correct?", "options": ["I'm saving money for buy a car.", "I'm saving money to buy a car.", "I'm saving money so that buy a car."], "answer": 1, "explanation": "to + V。" },
+      { "id": "u065-g5", "type": "fill", "question": "We're cutting costs in order ___ stay in business.", "answer": "to", "explanation": "in order to + V。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "broke",
+      "term": "broke",
+      "meaning": "沒錢、破產",
+      "register": "casual",
+      "usage": "I'm broke. = 我沒錢了（通常是暫時的）。flat broke = 身無分文。",
+      "risk": { "level": "safe", "note": "自嘲很常見。注意 broke 也是 break 的過去式。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "I can't go out this weekend. I'm broke.", "zh": "我這週末不能出去，我沒錢了。" },
+        { "en": "I was totally broke in college.", "zh": "我大學時窮到不行。" }
+      ]
+    },
+    {
+      "id": "splurge",
+      "term": "splurge",
+      "meaning": "揮霍、大手筆花錢",
+      "register": "casual",
+      "usage": "splurge on something = 花大錢買某樣東西。名詞 a splurge。",
+      "risk": { "level": "safe", "note": "美式常用（英式較常說 splash out，第 48 單元）。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "I splurged on a fancy dinner for my birthday.", "zh": "我生日時揮霍吃了一頓高級晚餐。" },
+        { "en": "This bag was a total splurge, but I love it.", "zh": "這個包包完全是揮霍，但我好愛。" }
+      ]
+    },
+    {
+      "id": "pinch-pennies",
+      "term": "pinch pennies",
+      "meaning": "省吃儉用、錙銖必較",
+      "register": "casual",
+      "usage": "非常節省地花每一塊錢。形容詞 penny-pinching。",
+      "risk": { "level": "safe", "note": "說自己沒問題；說別人 penny-pinching 帶「小氣」意味。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "We're pinching pennies until we buy the house.", "zh": "買房前我們都在省吃儉用。" },
+        { "en": "My penny-pinching boss won't buy new chairs.", "zh": "我那小氣的老闆不肯買新椅子。" }
+      ]
+    },
+    {
+      "id": "money-doesnt-grow-on-trees",
+      "term": "money doesn't grow on trees",
+      "meaning": "錢不是從天上掉下來的",
+      "register": "casual",
+      "usage": "父母常對孩子說的話，提醒花錢要節制。",
+      "risk": { "level": "safe", "note": "有點說教，朋友間用常帶玩笑。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Another new phone? Money doesn't grow on trees, you know.", "zh": "又一支新手機？錢不是從天上掉下來的。" },
+        { "en": "My mom always said money doesn't grow on trees.", "zh": "我媽總是說錢不是從天上掉下來的。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u065-r1", "sourceUnit": 64, "type": "mcq", "question": "If I had saved more last year, I ___ bought a new laptop.", "options": ["would have", "would", "will have"], "answer": 0, "explanation": "複習第 64 單元：type 3 用 would have + p.p.。" },
+    { "id": "u065-r2", "sourceUnit": 63, "type": "fill", "question": "___ earning more, he still can't save any money. (儘管)", "answer": "Despite|In spite of", "explanation": "複習第 63 單元：despite + V-ing。" },
+    { "id": "u065-r3", "sourceUnit": 61, "type": "mcq", "question": "Prices are expected ___ again next year.", "options": ["rise", "to rise", "rising"], "answer": 1, "explanation": "複習第 61 單元：is expected to + V。" },
+    { "id": "u065-r4", "sourceUnit": 57, "type": "mcq", "question": "My sister, ___ is an accountant, helps me with my taxes.", "options": ["who", "that", "which"], "answer": 0, "explanation": "複習第 57 單元：非限定子句用 who。" },
+    { "id": "u065-r5", "sourceUnit": 49, "type": "mcq", "question": "I ___ bought that jacket. I've never worn it.", "options": ["shouldn't have", "should have", "mustn't"], "answer": 0, "explanation": "複習第 49 單元：後悔做了。" },
+    { "id": "u065-r6", "sourceUnit": 33, "type": "mcq", "question": "This is the ___ thing I've ever bought.", "options": ["most expensive", "expensivest", "more expensive"], "answer": 0, "explanation": "複習第 33 單元：長形容詞用 most。" },
+    { "id": "u065-r7", "sourceUnit": 1, "type": "mcq", "question": "I ___ money for a trip this year.", "options": ["save", "'m saving", "am save"], "answer": 1, "explanation": "複習第 1 單元：這陣子的狀態用進行式。" },
+    { "id": "u065-r8", "sourceUnit": 65, "type": "mcq", "question": "Which is correct?", "options": ["I'm saving for buy a car.", "I'm saving to buy a car.", "I'm saving so that buy a car."], "answer": 1, "explanation": "目的用 to + V。" }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "id": 66,
+  "module": 7,
+  "level": "B2",
+  "title": { "zh": "飲食習慣", "en": "Eating Habits" },
+  "scenario": {
+    "title": "聊健康飲食和生活習慣",
+    "context": "討論飲食和健康時，一直在講「一般的」東西：糖對身體不好、蔬菜很重要、早餐是最重要的一餐。英文講「泛指」時，冠詞的用法（a / the / 什麼都不加）是台灣人最頭痛的文法之一。",
+    "dialogues": [
+      {
+        "title": "Lunch conversation",
+        "lines": [
+          { "speaker": "Amy", "en": "Are you on a diet? You've been eating salad all week.", "zh": "你在節食嗎？你整週都在吃沙拉。" },
+          { "speaker": "Minz", "en": "Kind of. I'm trying to cut down on sugar. I have a real sweet tooth.", "zh": "算是吧。我在減糖，我超愛吃甜的。" },
+          { "speaker": "Amy", "en": "Same. Sugar is my weakness, especially the bubble tea from that shop downstairs.", "zh": "我也是。糖是我的弱點，尤其是樓下那家的珍奶。" },
+          { "speaker": "Minz", "en": "I let myself have one cheat day a week. Saturday is dessert day.", "zh": "我每週給自己一天放縱日，星期六是甜點日。" },
+          { "speaker": "Amy", "en": "That's smart. Vegetables are important, but so is happiness.", "zh": "聰明。蔬菜很重要，但快樂也是。" },
+          { "speaker": "Minz", "en": "Exactly. And the problem with strict diets is that I get hangry.", "zh": "就是。而且嚴格節食的問題是我會餓到生氣。" },
+          { "speaker": "Amy", "en": "Ha! Nobody wants to see a hangry designer.", "zh": "哈！沒人想看到一個餓到暴躁的設計師。" }
+        ]
+      },
+      {
+        "title": "Weekend habits",
+        "lines": [
+          { "speaker": "Leo", "en": "What did you do this weekend?", "zh": "你這週末做了什麼？" },
+          { "speaker": "Jess", "en": "Honestly? I was a total couch potato. I watched a whole series.", "zh": "老實說？我整個當沙發馬鈴薯，追完了一整部劇。" },
+          { "speaker": "Leo", "en": "Nothing wrong with that. Rest is important too.", "zh": "那也沒什麼不好，休息也很重要。" },
+          { "speaker": "Jess", "en": "True. But I ate an entire pizza, which probably wasn't great.", "zh": "也對。但我吃掉了一整個披薩，那大概不太好。" },
+          { "speaker": "Leo", "en": "The pizza from that new place? Was it good?", "zh": "那家新店的披薩？好吃嗎？" },
+          { "speaker": "Jess", "en": "Amazing. Pizza is life.", "zh": "超好吃。披薩就是人生。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "I'm trying to eat healthier.", "zh": "我在努力吃得更健康。" },
+      { "en": "I'm cutting down on ___.", "zh": "我在減少 ___。" },
+      { "en": "I have a sweet tooth.", "zh": "我愛吃甜食。" },
+      { "en": "I'm a vegetarian / vegan.", "zh": "我吃素／純素。" },
+      { "en": "I skip breakfast most days.", "zh": "我大多時候不吃早餐。" },
+      { "en": "Everything in moderation.", "zh": "凡事適量。" },
+      { "en": "I'm allergic to shellfish.", "zh": "我對有殼海鮮過敏。" },
+      { "en": "I eat out more than I cook.", "zh": "我外食比自己煮多。" },
+      { "en": "I'm starving. Let's eat.", "zh": "我餓扁了，吃飯吧。" },
+      { "en": "It's a guilty pleasure.", "zh": "這是罪惡的小確幸。" }
+    ],
+    "chinglish": [
+      { "wrong": "The sugar is bad for the health.", "right": "Sugar is bad for your health.", "why": "泛指一般的糖，不加 the。中文沒有冠詞，台灣人常把 the 當成「這個」隨便加。" },
+      { "wrong": "I like the dogs.", "right": "I like dogs.", "why": "泛指所有狗用複數、不加 the。I like the dogs 意思是「我喜歡這些（特定的）狗」。" },
+      { "wrong": "Breakfast is most important meal.", "right": "Breakfast is the most important meal.", "why": "最高級前一定要加 the。" },
+      { "wrong": "I want to eat a pizza and a coffee.", "right": "I want some pizza and a coffee.", "why": "一片披薩不是 a pizza（整個披薩）；a coffee 則在點餐時可以。" }
+    ]
+  },
+  "grammar": {
+    "id": "articles-generic",
+    "title": "冠詞 a / the / 零冠詞",
+    "oneLiner": "泛指一般的東西：不可數名詞和複數名詞不加冠詞；特指雙方都知道的那個：用 the；第一次提到的單一可數名詞：用 a。",
+    "whenToUse": [
+      "泛指不可數：Sugar is bad for you. / Rest is important.",
+      "泛指複數：Vegetables are healthy. / I love cats.",
+      "特指（雙方都知道是哪個）：The pizza from that place was great.",
+      "第一次提到單一可數名詞：I ate a pizza. → The pizza was huge.",
+      "最高級、序數、獨一無二：the best, the first, the sun, the internet。",
+      "固定用法：have breakfast（三餐不加冠詞）、go to bed、at work、by bus。"
+    ],
+    "whyWeGetItWrong": "中文沒有冠詞，「糖不好」「這個糖不好」「一顆糖」的差別靠語境。英文每個名詞都要決定冠詞，而「泛指」這種情況是最反直覺的：講「所有的糖」反而什麼都不加。台灣人常常 the 加太多（the sugar is bad），或最高級忘了加（most important）。",
+    "examples": [
+      { "correct": "Coffee keeps me awake.", "incorrect": "The coffee keeps me awake.", "note": "泛指咖啡，不加 the。" },
+      { "correct": "The coffee at this café is amazing.", "note": "特指這家店的咖啡，加 the。" },
+      { "correct": "Cats are independent.", "incorrect": "The cats are independent.", "note": "泛指所有貓用複數、不加 the。" },
+      { "correct": "I had lunch with a client.", "incorrect": "I had a lunch with a client.", "note": "三餐通常不加冠詞。" },
+      { "correct": "It's the best ramen in town.", "note": "最高級加 the。" }
+    ],
+    "quiz": [
+      { "id": "u066-g1", "type": "mcq", "question": "___ is good for your health.", "options": ["The exercise", "Exercise", "An exercise"], "answer": 1, "explanation": "泛指不可數，不加冠詞。" },
+      { "id": "u066-g2", "type": "mcq", "question": "I really love ___.", "options": ["the dogs", "dogs", "a dogs"], "answer": 1, "explanation": "泛指所有狗：複數、無冠詞。" },
+      { "id": "u066-g3", "type": "fill", "question": "___ bubble tea from that shop is the best. (特指)", "answer": "The", "explanation": "特指那家店的，加 the。" },
+      { "id": "u066-g4", "type": "mcq", "question": "What time do you usually have ___?", "options": ["the dinner", "a dinner", "dinner"], "answer": 2, "explanation": "三餐不加冠詞。" },
+      { "id": "u066-g5", "type": "fill", "question": "Breakfast is ___ most important meal of the day.", "answer": "the", "explanation": "最高級前加 the。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "couch-potato",
+      "term": "couch potato",
+      "meaning": "沙發馬鈴薯、整天窩在沙發看電視的人",
+      "register": "casual",
+      "usage": "形容懶洋洋、不愛運動的人。",
+      "risk": { "level": "safe", "note": "自嘲很常見；說別人時帶點調侃。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "I was a couch potato all weekend.", "zh": "我整個週末都窩在沙發上。" },
+        { "en": "My husband turns into a couch potato during the World Cup.", "zh": "世界盃期間我老公就變成沙發馬鈴薯。" }
+      ]
+    },
+    {
+      "id": "cheat-day",
+      "term": "cheat day",
+      "meaning": "放縱日（飲食控制時可以亂吃的一天）",
+      "register": "casual",
+      "usage": "節食或健身期間，允許自己吃喜歡的東西的日子。",
+      "risk": { "level": "safe", "note": "日常用語。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Sunday is my cheat day. Fried chicken, here I come!", "zh": "星期天是我的放縱日，炸雞我來了！" },
+        { "en": "Every day seems to be a cheat day lately.", "zh": "最近好像每天都是放縱日。" }
+      ]
+    },
+    {
+      "id": "hangry",
+      "term": "hangry",
+      "meaning": "餓到生氣、餓到暴躁",
+      "register": "very-casual",
+      "usage": "hungry + angry 的組合字。",
+      "risk": { "level": "safe", "note": "幽默的說法，已經收進字典。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Feed me before I get hangry.", "zh": "在我餓到發火前快餵我。" },
+        { "en": "Sorry I snapped at you. I was hangry.", "zh": "抱歉剛剛兇你，我是餓到暴躁。" }
+      ]
+    },
+    {
+      "id": "sweet-tooth",
+      "term": "sweet tooth",
+      "meaning": "愛吃甜食",
+      "register": "casual",
+      "usage": "have a sweet tooth = 很愛吃甜的。",
+      "risk": { "level": "safe", "note": "日常用語。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "I have a huge sweet tooth. I can't say no to cake.", "zh": "我超愛甜食，沒辦法拒絕蛋糕。" },
+        { "en": "This dessert shop is perfect for anyone with a sweet tooth.", "zh": "這家甜點店很適合愛吃甜的人。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u066-r1", "sourceUnit": 65, "type": "mcq", "question": "I cook at home ___ save money.", "options": ["for", "to", "so that"], "answer": 1, "explanation": "複習第 65 單元：to + V。" },
+    { "id": "u066-r2", "sourceUnit": 64, "type": "fill", "question": "If I ___ (know) it had so much sugar, I wouldn't have ordered it.", "answer": "had known", "explanation": "複習第 64 單元：type 3。" },
+    { "id": "u066-r3", "sourceUnit": 62, "type": "mcq", "question": "I did a ___ fast last week.", "options": ["two-days", "two-day", "two days"], "answer": 1, "explanation": "複習第 62 單元：複合形容詞。" },
+    { "id": "u066-r4", "sourceUnit": 58, "type": "mcq", "question": "I'm used to ___ breakfast. I never eat in the morning.", "options": ["skip", "skipping", "skipped"], "answer": 1, "explanation": "複習第 58 單元：be used to + V-ing。" },
+    { "id": "u066-r5", "sourceUnit": 50, "type": "mcq", "question": "The café ___ closed. The lights are off.", "options": ["must have", "must", "should have"], "answer": 0, "explanation": "複習第 50 單元：推測過去。" },
+    { "id": "u066-r6", "sourceUnit": 34, "type": "mcq", "question": "I'd rather ___ salad than fried chicken today.", "options": ["have", "to have", "having"], "answer": 0, "explanation": "複習第 34 單元：would rather + 原形。" },
+    { "id": "u066-r7", "sourceUnit": 2, "type": "mcq", "question": "Which is the most natural?", "options": ["I want a latte.", "Can I get a latte, please?", "Give me latte."], "answer": 1, "explanation": "複習第 2 單元。" },
+    { "id": "u066-r8", "sourceUnit": 66, "type": "mcq", "question": "Which is correct?", "options": ["The sugar is bad for you.", "Sugar is bad for you.", "A sugar is bad for you."], "answer": 1, "explanation": "泛指不可數不加冠詞。" }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "id": 64,
+  "module": 7,
+  "level": "B2",
+  "title": { "zh": "環保議題", "en": "Environmental Issues" },
+  "scenario": {
+    "title": "討論環保、永續和企業責任",
+    "context": "談環保常會回顧過去：「如果我們二十年前就開始減碳，現在就不會這麼糟」。這種「過去沒發生的假設」是第三類條件句：If + had + p.p., would have + p.p.，是英文條件句裡最難、也最能表達遺憾的一種。",
+    "dialogues": [
+      {
+        "title": "A client meeting about packaging",
+        "lines": [
+          { "speaker": "Client", "en": "We want our new packaging to look eco-friendly.", "zh": "我們希望新包裝看起來很環保。" },
+          { "speaker": "Minz", "en": "Great. Are you planning to change the materials too, or just the look?", "zh": "很好。你們打算連材質一起換，還是只換外觀？" },
+          { "speaker": "Client", "en": "Just the look for now. Materials are expensive.", "zh": "目前只換外觀，材料很貴。" },
+          { "speaker": "Minz", "en": "I'd be careful. Customers are pretty good at spotting greenwashing these days.", "zh": "我會建議小心點。現在消費者很會看出漂綠。" },
+          { "speaker": "Client", "en": "Hmm. A competitor got a lot of criticism for that last year.", "zh": "嗯，去年有個競爭對手就因為這樣被罵很慘。" },
+          { "speaker": "Minz", "en": "Exactly. If they had changed their materials, they wouldn't have gotten so much backlash.", "zh": "就是。如果他們當初換了材質，就不會被那麼多人反彈。" },
+          { "speaker": "Client", "en": "Good point. Let me talk to our supplier about recycled paper.", "zh": "說得好。我去跟供應商談談再生紙。" }
+        ]
+      },
+      {
+        "title": "Chatting with a friend",
+        "lines": [
+          { "speaker": "Jess", "en": "I'm trying to go green. I stopped using plastic straws.", "zh": "我在努力過環保生活，不用塑膠吸管了。" },
+          { "speaker": "Leo", "en": "That's nice, but isn't it just a drop in the bucket?", "zh": "很好，但那不是杯水車薪嗎？" },
+          { "speaker": "Jess", "en": "Maybe. But if everyone had done it ten years ago, we would have saved billions of straws.", "zh": "也許吧。但如果十年前大家都這樣做，我們早就省下幾十億根吸管了。" },
+          { "speaker": "Leo", "en": "True. My mom calls me a tree hugger because I bike to work.", "zh": "也對。我媽因為我騎腳踏車上班，叫我環保狂熱份子。" },
+          { "speaker": "Jess", "en": "Ha! If I had known how much I'd save on gas, I would have started biking years ago.", "zh": "哈！如果我早知道能省多少油錢，幾年前就開始騎了。" },
+          { "speaker": "Leo", "en": "Good for the planet and your wallet.", "zh": "對地球和錢包都好。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "I'm trying to go green.", "zh": "我在努力過環保生活。" },
+      { "en": "Is this recyclable?", "zh": "這可以回收嗎？" },
+      { "en": "What's your company doing about sustainability?", "zh": "你們公司在永續方面做了什麼？" },
+      { "en": "Every little bit helps.", "zh": "積少成多。" },
+      { "en": "It's a step in the right direction.", "zh": "這是往正確方向的一步。" },
+      { "en": "If we had acted sooner, ___.", "zh": "如果我們早點行動，___。" },
+      { "en": "I try to reduce my plastic use.", "zh": "我試著減少使用塑膠。" },
+      { "en": "Climate change affects all of us.", "zh": "氣候變遷影響我們每個人。" },
+      { "en": "It's not just about individuals. Companies need to change too.", "zh": "這不只是個人的事，企業也要改變。" },
+      { "en": "I'd rather pay more for something sustainable.", "zh": "我寧願為永續的東西多付一點錢。" }
+    ],
+    "chinglish": [
+      { "wrong": "If I knew earlier, I would bike to work.", "right": "If I had known earlier, I would have biked to work.", "why": "「早知道就…」是對過去的假設，要用第三類條件句。中文的「如果」不分過去現在。" },
+      { "wrong": "If they changed the material, they won't be criticized.", "right": "If they had changed the material, they wouldn't have been criticized.", "why": "講過去沒發生的事，兩邊都要往前推：had + p.p. / would have + p.p.。" },
+      { "wrong": "I protect environment.", "right": "I try to be eco-friendly. / I care about the environment.", "why": "environment 前要加 the；而且「我保護環境」直翻太大，說具體行動更自然。" },
+      { "wrong": "This packaging is very environmental.", "right": "This packaging is eco-friendly / sustainable.", "why": "environmental 是「環境的」，不是「環保的」。" }
+    ]
+  },
+  "grammar": {
+    "id": "third-conditional",
+    "title": "條件句 type 3",
+    "oneLiner": "If + had + p.p., would have + p.p.：假設過去發生了不同的事，結果會怎樣（但都已經不可能了）。",
+    "whenToUse": [
+      "過去沒發生的假設：If I had known, I would have told you.（但我不知道，所以沒說）",
+      "表達遺憾：If we had left earlier, we wouldn't have missed the train.",
+      "主要子句可以用 could have / might have：We could have saved money.",
+      "口語縮寫：If I'd known, I'd have… / I would've…",
+      "倒裝（正式）：Had I known, I would have told you.",
+      "比較：type 1（真的可能）、type 2（現在不太可能）、type 3（過去已經不可能）。"
+    ],
+    "whyWeGetItWrong": "中文「早知道就…」「要是當初…」講的明明是過去，但動詞不變。英文的條件句用「往後退一格」表達假設程度：type 2 退到過去式，type 3 再退到過去完成式。台灣人常用 type 2 來講過去（If I knew, I would…），聽起來像在講現在。",
+    "examples": [
+      { "correct": "If I had known about the sale, I would have bought two.", "incorrect": "If I knew about the sale, I would buy two.", "note": "過去沒發生，用 type 3。" },
+      { "correct": "We wouldn't have been late if the bus had come on time.", "note": "if 放後面不加逗號。" },
+      { "correct": "If she had asked me, I could have helped.", "note": "could have = 本來可以。" },
+      { "correct": "If I'd studied harder, I might have passed.", "note": "口語縮寫 I'd = I had。" },
+      { "correct": "Had we acted sooner, we would have saved more forests.", "note": "正式的倒裝寫法。" }
+    ],
+    "quiz": [
+      { "id": "u064-g1", "type": "mcq", "question": "If I ___ about the meeting, I would have come.", "options": ["knew", "had known", "have known"], "answer": 1, "explanation": "type 3 if 子句：had + p.p.。" },
+      { "id": "u064-g2", "type": "mcq", "question": "If we had left earlier, we ___ the train.", "options": ["wouldn't miss", "wouldn't have missed", "didn't miss"], "answer": 1, "explanation": "主要子句：would have + p.p.。" },
+      { "id": "u064-g3", "type": "fill", "question": "If you had asked, I ___ have helped you.", "answer": "would|could", "explanation": "would / could have + p.p.。" },
+      { "id": "u064-g4", "type": "mcq", "question": "Which one talks about the PAST?", "options": ["If I had time, I'd help.", "If I had had time, I'd have helped.", "If I have time, I'll help."], "answer": 1, "explanation": "had had + would have = type 3，講過去。" },
+      { "id": "u064-g5", "type": "fill", "question": "If they ___ (use) recycled paper, they wouldn't have been criticized.", "answer": "had used", "explanation": "had + p.p.。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "go-green",
+      "term": "go green",
+      "meaning": "走環保路線、過環保生活",
+      "register": "neutral",
+      "usage": "個人或企業開始注重環保。",
+      "risk": { "level": "safe", "note": "普遍用語。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Our office is going green. No more paper cups.", "zh": "我們辦公室要走環保路線，不再用紙杯了。" },
+        { "en": "Going green doesn't have to be expensive.", "zh": "過環保生活不一定很花錢。" }
+      ]
+    },
+    {
+      "id": "greenwashing",
+      "term": "greenwashing",
+      "meaning": "漂綠（假裝環保的行銷）",
+      "register": "neutral",
+      "usage": "企業誇大或捏造環保形象。動詞 greenwash。",
+      "risk": { "level": "careful", "note": "是很重的批評，對客戶說他們在 greenwashing 要委婉。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Putting a leaf on the logo without changing anything is just greenwashing.", "zh": "什麼都沒改，只在 logo 加片葉子，那就是漂綠。" },
+        { "en": "Consumers are getting better at spotting greenwashing.", "zh": "消費者越來越會識破漂綠了。" }
+      ]
+    },
+    {
+      "id": "a-drop-in-the-bucket",
+      "term": "a drop in the bucket",
+      "meaning": "杯水車薪、微不足道",
+      "register": "neutral",
+      "usage": "相對於整體問題，貢獻太小。英式也說 a drop in the ocean。",
+      "risk": { "level": "safe", "note": "中性用語，但說別人的努力是 a drop in the bucket 可能讓人洩氣。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "Our donation was just a drop in the bucket.", "zh": "我們的捐款只是杯水車薪。" },
+        { "en": "Every drop in the bucket adds up eventually.", "zh": "每一滴水最終都會積少成多。" }
+      ]
+    },
+    {
+      "id": "tree-hugger",
+      "term": "tree hugger",
+      "meaning": "環保狂熱份子（常帶揶揄）",
+      "register": "casual",
+      "usage": "形容非常熱衷環保的人，常帶輕微嘲諷。",
+      "risk": { "level": "careful", "note": "可能被當成貶低環保人士。自嘲可以，說別人時要看交情。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "Call me a tree hugger, but I think we should ban plastic bags.", "zh": "你可以說我是環保狂，但我覺得應該禁用塑膠袋。" },
+        { "en": "He's a bit of a tree hugger, but he means well.", "zh": "他有點環保狂熱，但他是好意。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u064-r1", "sourceUnit": 63, "type": "mcq", "question": "___ the high cost, they switched to recycled materials.", "options": ["Despite", "Even though", "Although"], "answer": 0, "explanation": "複習第 63 單元：despite + 名詞。" },
+    { "id": "u064-r2", "sourceUnit": 62, "type": "fill", "question": "They launched a ___-year plan to cut emissions. (十年)", "answer": "ten|10", "explanation": "複習第 62 單元：a ten-year plan。" },
+    { "id": "u064-r3", "sourceUnit": 60, "type": "mcq", "question": "I ___ use plastic bags, but now I bring my own.", "options": ["used to", "am used to", "use to"], "answer": 0, "explanation": "複習第 60 單元：used to + 原形。" },
+    { "id": "u064-r4", "sourceUnit": 56, "type": "mcq", "question": "By 2030, the city ___ all its buses to electric.", "options": ["will have switched", "will switch", "switched"], "answer": 0, "explanation": "複習第 56 單元：未來完成式。" },
+    { "id": "u064-r5", "sourceUnit": 48, "type": "mcq", "question": "Recycled paper costs ___ regular paper.", "options": ["twice as much as", "two times more as", "double much"], "answer": 0, "explanation": "複習第 48 單元：倍數比較。" },
+    { "id": "u064-r6", "sourceUnit": 32, "type": "mcq", "question": "By the time scientists warned us, the damage ___ already begun.", "options": ["has", "had", "was"], "answer": 1, "explanation": "複習第 32 單元：過去完成式。" },
+    { "id": "u064-r7", "sourceUnit": 64, "type": "mcq", "question": "Which is correct?", "options": ["If I knew, I would have told you.", "If I had known, I would have told you.", "If I have known, I would tell you."], "answer": 1, "explanation": "type 3：had known + would have told。" }
+  ]
+}

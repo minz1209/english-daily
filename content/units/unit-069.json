@@ -1,0 +1,149 @@
+{
+  "id": 69,
+  "module": 7,
+  "level": "B2",
+  "title": { "zh": "城市 vs 鄉下", "en": "City vs. Countryside" },
+  "scenario": {
+    "title": "要留在台北，還是搬去花東？",
+    "context": "討論生活選擇時，常會說「越…就越…」：住得越遠，房租越便宜；工作越多，壓力越大。英文用 the + 比較級, the + 比較級 表達這種連動關係，結構很特別，兩個 the 都不能少。",
+    "dialogues": [
+      {
+        "title": "Thinking of moving",
+        "lines": [
+          { "speaker": "Leo", "en": "I'm seriously thinking of moving to Hualien.", "zh": "我認真在考慮搬去花蓮。" },
+          { "speaker": "Minz", "en": "Really? What about your job?", "zh": "真的嗎？那你的工作怎麼辦？" },
+          { "speaker": "Leo", "en": "I can work remotely. I'm tired of the rat race. The longer I stay in Taipei, the more stressed I get.", "zh": "我可以遠端工作。我受夠了這種你爭我奪的生活。在台北待得越久，我壓力就越大。" },
+          { "speaker": "Minz", "en": "I get it. But the farther you move, the harder it is to see friends.", "zh": "我懂。但你搬得越遠，要見朋友就越難。" },
+          { "speaker": "Leo", "en": "True. But the cheaper the rent, the more I can save.", "zh": "也對。但房租越便宜，我能存的就越多。" },
+          { "speaker": "Minz", "en": "Just don't move to the middle of nowhere. You'll go crazy.", "zh": "只是別搬到荒郊野外，你會瘋掉。" },
+          { "speaker": "Leo", "en": "Don't worry. I'm looking at places near the city center.", "zh": "別擔心，我在看市中心附近的房子。" }
+        ]
+      },
+      {
+        "title": "Visiting a friend in the countryside",
+        "lines": [
+          { "speaker": "Jess", "en": "Wow, it's so quiet here. All I can hear are birds.", "zh": "哇，這裡好安靜，只聽得到鳥叫。" },
+          { "speaker": "Amy", "en": "Welcome to the sticks! The nearest 7-Eleven is twenty minutes away.", "zh": "歡迎來到鄉下！最近的 7-Eleven 要二十分鐘。" },
+          { "speaker": "Jess", "en": "After living in a concrete jungle for so long, this feels like heaven.", "zh": "在水泥叢林住了那麼久，這裡感覺像天堂。" },
+          { "speaker": "Amy", "en": "The more time you spend here, the less you want to go back.", "zh": "你在這待得越久，就越不想回去。" },
+          { "speaker": "Jess", "en": "I believe it. Do you miss anything about the city?", "zh": "我相信。你會懷念城市的什麼嗎？" },
+          { "speaker": "Amy", "en": "Food delivery. And bubble tea at midnight.", "zh": "外送。還有半夜的珍奶。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "I'm tired of city life.", "zh": "我厭倦城市生活了。" },
+      { "en": "The cost of living is so high here.", "zh": "這裡生活成本好高。" },
+      { "en": "I need a slower pace of life.", "zh": "我需要慢一點的生活步調。" },
+      { "en": "The more ___, the more ___.", "zh": "越 ___，就越 ___。" },
+      { "en": "There's nothing to do here.", "zh": "這裡什麼都沒有。" },
+      { "en": "Everything's within walking distance.", "zh": "什麼都走路就到。" },
+      { "en": "I miss the convenience.", "zh": "我懷念那種便利。" },
+      { "en": "It's a great place to raise kids.", "zh": "這是養小孩的好地方。" },
+      { "en": "You need a car to get around.", "zh": "要有車才能到處走。" },
+      { "en": "It's the best of both worlds.", "zh": "兩全其美。" }
+    ],
+    "chinglish": [
+      { "wrong": "More far, more cheap.", "right": "The farther you go, the cheaper it gets.", "why": "「越…越…」直翻缺了 the 和主詞動詞。英文結構是 the + 比較級 + 主詞 + 動詞。" },
+      { "wrong": "The more I work, the more I tired.", "right": "The more I work, the more tired I get.", "why": "兩個子句都要有完整的主詞和動詞；tired 是形容詞，要搭配 get / feel。" },
+      { "wrong": "Countryside air is more fresh.", "right": "The air in the countryside is fresher.", "why": "fresh 是一音節，比較級用 fresher。" },
+      { "wrong": "I want to go back to my hometown to develop.", "right": "I want to move back to my hometown and start something there.", "why": "「回鄉發展」直翻 develop 很模糊。" }
+    ]
+  },
+  "grammar": {
+    "id": "the-more-the-more",
+    "title": "the more…, the more…",
+    "oneLiner": "The + 比較級 + 主詞 + 動詞, the + 比較級 + 主詞 + 動詞：表達兩件事一起增加或減少。",
+    "whenToUse": [
+      "基本結構：The more you practice, the better you get.",
+      "形容詞比較級：The cheaper the rent, the more I can save.",
+      "less：The less you sleep, the worse you feel.",
+      "口語可以省略動詞：The sooner, the better.（越快越好）/ The more, the merrier.（人越多越熱鬧）",
+      "兩個 the 都不能省略。",
+      "注意形容詞和名詞的位置：The more money you make, the more you spend."
+    ],
+    "whyWeGetItWrong": "中文的「越…越…」結構非常簡單，直接把形容詞或動詞放進去就好：「越遠越便宜」。英文則需要 the + 比較級，而且兩邊都要有主詞和動詞。台灣人常省略 the，或忘了把形容詞變成比較級。",
+    "examples": [
+      { "correct": "The more you read, the more you learn.", "incorrect": "More you read, more you learn.", "note": "兩個 the 都要。" },
+      { "correct": "The older I get, the less I care what people think.", "note": "形容詞比較級 + less。" },
+      { "correct": "The bigger the city, the higher the rent.", "note": "省略 be 動詞的形式。" },
+      { "correct": "The sooner we leave, the better.", "note": "口語縮短版。" },
+      { "correct": "The more people come, the merrier.", "note": "固定說法：人越多越熱鬧。" }
+    ],
+    "quiz": [
+      { "id": "u069-g1", "type": "mcq", "question": "___ you practice, the better you'll get.", "options": ["More", "The more", "The most"], "answer": 1, "explanation": "The + 比較級。" },
+      { "id": "u069-g2", "type": "mcq", "question": "The farther we drove, ___ the roads became.", "options": ["the quieter", "quieter", "the more quiet"], "answer": 0, "explanation": "quiet → quieter；前面要加 the。" },
+      { "id": "u069-g3", "type": "fill", "question": "The ___ I sleep, the worse I feel. (越少)", "answer": "less", "explanation": "the less… the worse…" },
+      { "id": "u069-g4", "type": "fill", "question": "Come early. The sooner, the ___.", "answer": "better", "explanation": "The sooner, the better. = 越快越好。" },
+      { "id": "u069-g5", "type": "mcq", "question": "Which is correct?", "options": ["The more I work, the more I tired.", "The more I work, the more tired I get.", "More work, more tired."], "answer": 1, "explanation": "兩邊都要有完整主詞動詞。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "rat-race",
+      "term": "rat race",
+      "meaning": "你爭我奪的忙碌都市生活",
+      "register": "casual",
+      "usage": "形容為了錢和成就不停競爭、疲於奔命的生活。escape the rat race = 逃離這種生活。",
+      "risk": { "level": "safe", "note": "常見用語。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "He quit the rat race and opened a café by the sea.", "zh": "他退出競爭生活，在海邊開了間咖啡店。" },
+        { "en": "I'm tired of the rat race.", "zh": "我厭倦了這種你爭我奪的生活。" }
+      ]
+    },
+    {
+      "id": "the-middle-of-nowhere",
+      "term": "the middle of nowhere",
+      "meaning": "荒郊野外、鳥不生蛋的地方",
+      "register": "casual",
+      "usage": "形容偏僻、什麼都沒有的地方。",
+      "risk": { "level": "safe", "note": "帶點誇飾，說別人的老家是 the middle of nowhere 要看交情。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Our car broke down in the middle of nowhere.", "zh": "我們的車在荒郊野外拋錨了。" },
+        { "en": "The hotel is beautiful, but it's in the middle of nowhere.", "zh": "飯店很美，但在很偏僻的地方。" }
+      ]
+    },
+    {
+      "id": "concrete-jungle",
+      "term": "concrete jungle",
+      "meaning": "水泥叢林（大都市）",
+      "register": "neutral",
+      "usage": "形容高樓林立、缺乏自然的大城市。",
+      "risk": { "level": "safe", "note": "常見用語。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Taipei can feel like a concrete jungle, but the mountains are close.", "zh": "台北有時感覺像水泥叢林，但山離得很近。" },
+        { "en": "I need to escape the concrete jungle this weekend.", "zh": "我這週末需要逃離水泥叢林。" }
+      ]
+    },
+    {
+      "id": "in-the-sticks",
+      "term": "in the sticks",
+      "meaning": "在鄉下、在偏遠地區",
+      "register": "casual",
+      "usage": "the sticks = 鄉下、偏遠地方，帶一點「很土」的調侃。",
+      "risk": { "level": "careful", "note": "可能帶輕視鄉下的意味，自嘲可以，說別人家鄉要小心。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "My grandparents live way out in the sticks.", "zh": "我爺爺奶奶住在很偏僻的鄉下。" },
+        { "en": "There's no good Wi-Fi out here in the sticks.", "zh": "這個鄉下地方沒什麼好的 Wi-Fi。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u069-r1", "sourceUnit": 68, "type": "mcq", "question": "I wish I ___ closer to the mountains.", "options": ["live", "lived", "will live"], "answer": 1, "explanation": "複習第 68 單元：wish + 過去式。" },
+    { "id": "u069-r2", "sourceUnit": 67, "type": "fill", "question": "I could hear the waves ___ (crash) all night.", "answer": "crashing", "explanation": "複習第 67 單元：hear + V-ing。" },
+    { "id": "u069-r3", "sourceUnit": 65, "type": "mcq", "question": "He moved to the countryside ___ save money.", "options": ["for", "to", "so that"], "answer": 1, "explanation": "複習第 65 單元：to + V。" },
+    { "id": "u069-r4", "sourceUnit": 61, "type": "mcq", "question": "Rural towns are said ___ losing young people.", "options": ["to be", "being", "be"], "answer": 0, "explanation": "複習第 61 單元：is said to + V。" },
+    { "id": "u069-r5", "sourceUnit": 53, "type": "mcq", "question": "The city is exciting. ___, it's exhausting.", "options": ["However", "Although", "Because"], "answer": 0, "explanation": "複習第 53 單元：However,。" },
+    { "id": "u069-r6", "sourceUnit": 37, "type": "mcq", "question": "It's ___ peaceful place!", "options": ["so", "such a", "such"], "answer": 1, "explanation": "複習第 37 單元：such a。" },
+    { "id": "u069-r7", "sourceUnit": 5, "type": "mcq", "question": "There aren't ___ restaurants in my village.", "options": ["some", "any", "much"], "answer": 1, "explanation": "複習第 5 單元：否定用 any。" },
+    { "id": "u069-r8", "sourceUnit": 69, "type": "mcq", "question": "Which is correct?", "options": ["More far, more cheap.", "The farther, the cheaper.", "The more far, the more cheap."], "answer": 1, "explanation": "The + 比較級, the + 比較級。" }
+  ]
+}

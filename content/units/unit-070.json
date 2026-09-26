@@ -1,0 +1,153 @@
+{
+  "id": 70,
+  "module": 7,
+  "level": "B2",
+  "title": { "zh": "整合：深夜聊人生", "en": "Review: Late-Night Life Talk" },
+  "scenario": {
+    "title": "跟老朋友深夜談心",
+    "context": "第七章的收尾：跟老朋友聊到凌晨，話題從工作、夢想到後悔。你會用到 wish（真希望）、第三類條件句（如果當初）、讓步（儘管），還有這一章的觀點表達。這是全課程情緒最深的一次對話。",
+    "dialogues": [
+      {
+        "title": "Midnight on the rooftop",
+        "lines": [
+          { "speaker": "Jess", "en": "Can I ask you something personal? Do you ever regret quitting your agency job?", "zh": "我可以問你一個私人問題嗎？你會後悔辭掉廣告公司的工作嗎？" },
+          { "speaker": "Minz", "en": "Sometimes. Even though I love freelancing, I wish I had more stability.", "zh": "有時候會。雖然我很愛接案，但真希望能更穩定一點。" },
+          { "speaker": "Jess", "en": "But if you hadn't quit, you wouldn't have found your own style.", "zh": "但如果你當初沒辭職，你就不會找到自己的風格。" },
+          { "speaker": "Minz", "en": "True. Despite the stress, I've grown more in two years than in the five before.", "zh": "也對。儘管壓力很大，這兩年我的成長比之前五年還多。" },
+          { "speaker": "Jess", "en": "I feel like I'm at a crossroads. I don't know if I should stay or go abroad.", "zh": "我覺得我站在十字路口，不知道該留下還是出國。" },
+          { "speaker": "Minz", "en": "What's holding you back?", "zh": "是什麼讓你猶豫？" },
+          { "speaker": "Jess", "en": "Fear, mostly. If only I were brave like you.", "zh": "大部分是恐懼。要是我能像你一樣勇敢就好了。" },
+          { "speaker": "Minz", "en": "I wasn't brave. I was scared the whole time. I just did it anyway.", "zh": "我不勇敢，我一直都很害怕，只是還是做了。" }
+        ]
+      },
+      {
+        "title": "Almost 3 a.m.",
+        "lines": [
+          { "speaker": "Jess", "en": "Thanks for this heart-to-heart. I needed it.", "zh": "謝謝這次的談心，我需要這個。" },
+          { "speaker": "Minz", "en": "Anytime. The older we get, the more these talks matter.", "zh": "隨時。我們年紀越大，這種對話就越重要。" },
+          { "speaker": "Jess", "en": "I think I'll apply. If I don't, I'll wish I had.", "zh": "我想我會申請。如果不申請，我會後悔沒申請。" },
+          { "speaker": "Minz", "en": "That's the spirit. And if it doesn't work out, you just go with the flow.", "zh": "這就對了。如果不成功，就順其自然吧。" },
+          { "speaker": "Jess", "en": "YOLO, right?", "zh": "人生只有一次，對吧？" },
+          { "speaker": "Minz", "en": "Ha, nobody says that anymore. But yes.", "zh": "哈，現在已經沒人這樣說了。但是沒錯。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "Can I ask you something personal?", "zh": "我可以問你一個私人問題嗎？" },
+      { "en": "Do you ever regret ___?", "zh": "你會後悔 ___ 嗎？" },
+      { "en": "What's holding you back?", "zh": "是什麼讓你猶豫？" },
+      { "en": "I feel stuck.", "zh": "我覺得卡住了。" },
+      { "en": "If I don't try, I'll always wonder.", "zh": "如果不試，我會一直想。" },
+      { "en": "Looking back, I wish I had ___.", "zh": "回頭看，真希望我當初 ___。" },
+      { "en": "Everything happens for a reason.", "zh": "凡事皆有因。" },
+      { "en": "You only live once.", "zh": "人生只有一次。" },
+      { "en": "I'm proud of you.", "zh": "我為你驕傲。" },
+      { "en": "Thanks for listening.", "zh": "謝謝你聽我說。" }
+    ],
+    "chinglish": [
+      { "wrong": "If I didn't quit, I wouldn't find my style.", "right": "If I hadn't quit, I wouldn't have found my style.", "why": "講過去的假設要用第三類條件句（複習第 64 單元）。" },
+      { "wrong": "I hope I were braver.", "right": "I wish I were braver.", "why": "不可能的願望用 wish（複習第 68 單元）。" },
+      { "wrong": "Despite I was scared, I did it.", "right": "Even though I was scared, I did it. / Despite being scared, I did it.", "why": "despite 不接子句（複習第 63 單元）。" },
+      { "wrong": "Life is only one time.", "right": "You only live once.", "why": "「人生只有一次」直翻不自然。" }
+    ]
+  },
+  "grammar": {
+    "id": "review-wish-third-conditional-concession",
+    "title": "wish、type 3、讓步",
+    "oneLiner": "談人生選擇的三個工具：wish（遺憾）、if + had + p.p.（當初如果）、even though / despite（儘管）。",
+    "whenToUse": [
+      "wish + 過去式：現在的遺憾。I wish I had more time.",
+      "wish + had + p.p.：過去的遺憾。I wish I had started earlier.",
+      "type 3：If I hadn't quit, I wouldn't have found my style.",
+      "讓步：Even though I love it, … / Despite the stress, …",
+      "the more… the more…：The older we get, the more we value friends.",
+      "對未來的後悔預測：If I don't apply, I'll wish I had."
+    ],
+    "whyWeGetItWrong": "這一章所有「假設」和「遺憾」的文法都在做同一件事：用往過去退一格的時態，表達「跟現實不同」。中文用「要是」「早知道」「真希望」加上語氣來表達，英文則靠時態精準區分現在的遺憾、過去的遺憾、還有可能的未來。整合單元把這些放在同一段對話裡，是練習切換的好機會。",
+    "examples": [
+      { "correct": "I wish I had traveled more in my twenties.", "incorrect": "I wish I traveled more in my twenties.", "note": "過去的遺憾用 had + p.p.。" },
+      { "correct": "If I had taken that job, I would have moved to Tokyo.", "note": "type 3。" },
+      { "correct": "Even though it was risky, I don't regret it.", "note": "讓步子句。" },
+      { "correct": "Despite everything, we're still friends.", "note": "despite + 名詞。" },
+      { "correct": "The more I think about it, the more sure I am.", "note": "the more… the more…" }
+    ],
+    "quiz": [
+      { "id": "u070-g1", "type": "mcq", "question": "I wish I ___ more when I was younger.", "options": ["traveled", "had traveled", "travel"], "answer": 1, "explanation": "過去的遺憾：wish + had + p.p.。" },
+      { "id": "u070-g2", "type": "mcq", "question": "If I ___ that class, I wouldn't have met my best friend.", "options": ["didn't take", "hadn't taken", "don't take"], "answer": 1, "explanation": "type 3：hadn't + p.p.。" },
+      { "id": "u070-g3", "type": "fill", "question": "___ the risks, she decided to start her own business.", "answer": "Despite|In spite of", "explanation": "despite + 名詞。" },
+      { "id": "u070-g4", "type": "mcq", "question": "I wish I ___ braver.", "options": ["am", "were", "will be"], "answer": 1, "explanation": "現在的遺憾：wish + were。" },
+      { "id": "u070-g5", "type": "fill", "question": "The ___ I get to know you, the more I like you.", "answer": "more|better", "explanation": "the more… the more…" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "heart-to-heart",
+      "term": "heart-to-heart",
+      "meaning": "談心、推心置腹的對話",
+      "register": "neutral",
+      "usage": "have a heart-to-heart (talk) with someone。",
+      "risk": { "level": "safe", "note": "溫暖的說法。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "We had a real heart-to-heart last night.", "zh": "我們昨晚真正談了心。" },
+        { "en": "I think you two need a heart-to-heart.", "zh": "我覺得你們兩個需要好好談談。" }
+      ]
+    },
+    {
+      "id": "at-a-crossroads",
+      "term": "at a crossroads",
+      "meaning": "站在十字路口、面臨重大抉擇",
+      "register": "neutral",
+      "usage": "人生或事業面臨重要的轉折點。",
+      "risk": { "level": "safe", "note": "正式和口語都適用。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "I'm at a crossroads in my career.", "zh": "我的職涯走到十字路口了。" },
+        { "en": "The company is at a crossroads: grow fast or stay small.", "zh": "公司面臨抉擇：快速擴張或保持小規模。" }
+      ]
+    },
+    {
+      "id": "go-with-the-flow",
+      "term": "go with the flow",
+      "meaning": "順其自然、隨遇而安",
+      "register": "casual",
+      "usage": "不強求，跟著情況走。",
+      "risk": { "level": "safe", "note": "正面輕鬆。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "I don't plan my weekends. I just go with the flow.", "zh": "我週末不排計畫，就順其自然。" },
+        { "en": "She's very go-with-the-flow. Nothing stresses her out.", "zh": "她很隨遇而安，什麼事都不會讓她焦慮。" }
+      ]
+    },
+    {
+      "id": "yolo",
+      "term": "YOLO",
+      "meaning": "人生只有一次（You Only Live Once）",
+      "register": "very-casual",
+      "usage": "2012 年左右爆紅，用來為衝動的決定找理由。",
+      "risk": { "level": "careful", "note": "現在聽起來很過時，多半被拿來自嘲或開玩笑。認真說會顯得有點尷尬。" },
+      "dated": true,
+      "variety": "both",
+      "examples": [
+        { "en": "I booked a last-minute flight to Bali. YOLO!", "zh": "我臨時訂了去峇里島的機票，人生只有一次！" },
+        { "en": "People used to say YOLO, but now it sounds so 2012.", "zh": "以前大家都說 YOLO，但現在聽起來很 2012 年。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u070-r1", "sourceUnit": 69, "type": "mcq", "question": "___ I think about it, the less sure I am.", "options": ["More", "The more", "The most"], "answer": 1, "explanation": "複習第 69 單元：the more… the less…" },
+    { "id": "u070-r2", "sourceUnit": 68, "type": "fill", "question": "I wish I ___ (can) speak three languages.", "answer": "could", "explanation": "複習第 68 單元：wish + could。" },
+    { "id": "u070-r3", "sourceUnit": 67, "type": "mcq", "question": "I watched the sun ___ over the city.", "options": ["to rise", "rise", "rose"], "answer": 1, "explanation": "複習第 67 單元：感官動詞 + 原形。" },
+    { "id": "u070-r4", "sourceUnit": 66, "type": "mcq", "question": "___ happiness is more important than money.", "options": ["The", "A", "(no article)"], "answer": 2, "explanation": "複習第 66 單元：泛指抽象名詞不加冠詞。" },
+    { "id": "u070-r5", "sourceUnit": 65, "type": "fill", "question": "I'm saving money so ___ I can travel next year.", "answer": "that", "explanation": "複習第 65 單元：so that。" },
+    { "id": "u070-r6", "sourceUnit": 64, "type": "mcq", "question": "If you hadn't introduced us, I ___ that job last year.", "options": ["wouldn't get", "wouldn't have gotten", "won't get"], "answer": 1, "explanation": "複習第 64 單元：type 3 主要子句用 would have + p.p.。" },
+    { "id": "u070-r7", "sourceUnit": 63, "type": "mcq", "question": "___ being scared, she moved abroad alone.", "options": ["Despite", "Although", "Even though"], "answer": 0, "explanation": "複習第 63 單元：despite + V-ing。" },
+    { "id": "u070-r8", "sourceUnit": 62, "type": "mcq", "question": "It was a ___ conversation.", "options": ["three-hour", "three-hours", "three hours"], "answer": 0, "explanation": "複習第 62 單元：複合形容詞。" },
+    { "id": "u070-r9", "sourceUnit": 54, "type": "mcq", "question": "Which is the softest advice?", "options": ["You must go abroad.", "You might want to think about going abroad.", "Go abroad."], "answer": 1, "explanation": "複習第 54 單元：軟化語氣。" },
+    { "id": "u070-r10", "sourceUnit": 38, "type": "fill", "question": "Be kind to ___. You're doing your best.", "answer": "yourself", "explanation": "複習第 38 單元：反身代名詞。" },
+    { "id": "u070-r11", "sourceUnit": 70, "type": "fill", "question": "Don't overplan your trip. Just go with the ___.", "answer": "flow", "explanation": "go with the flow = 順其自然。" }
+  ]
+}

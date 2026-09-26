@@ -1,0 +1,148 @@
+{
+  "id": 63,
+  "module": 7,
+  "level": "B2",
+  "title": { "zh": "贊成與反對", "en": "Agreeing and Disagreeing" },
+  "scenario": {
+    "title": "朋友間的辯論：四天工作制",
+    "context": "討論有爭議的話題時，常要先承認對方的論點，再提出自己的看法：「儘管…，我還是認為…」。英文的 even though / although 接子句，despite / in spite of 接名詞或 V-ing，這個差別是 B2 程度的重要門檻。",
+    "dialogues": [
+      {
+        "title": "Debate over dinner",
+        "lines": [
+          { "speaker": "Leo", "en": "I think every company should switch to a four-day week.", "zh": "我覺得每家公司都應該改成一週四天班。" },
+          { "speaker": "Jess", "en": "Let me play devil's advocate. Even though people would be happier, wouldn't productivity drop?", "zh": "我來唱個反調。雖然大家會比較開心，但生產力不會下降嗎？" },
+          { "speaker": "Leo", "en": "Actually, despite working fewer hours, most trial companies got more done.", "zh": "其實儘管工時變少，大部分試行的公司完成的工作反而更多。" },
+          { "speaker": "Jess", "en": "Fair point. But in spite of the data, some industries just can't do it. Think of hospitals.", "zh": "說得有道理。但儘管有數據，有些產業就是做不到，想想醫院。" },
+          { "speaker": "Minz", "en": "I hear you. Although it wouldn't work everywhere, it could work for office jobs.", "zh": "我懂你的意思。雖然不是每個地方都適用，但辦公室工作可以。" },
+          { "speaker": "Jess", "en": "Maybe. I'm still not fully convinced, though.", "zh": "也許吧，不過我還是沒完全被說服。" },
+          { "speaker": "Leo", "en": "OK, let's agree to disagree. More dumplings?", "zh": "好吧，我們就各自保留意見。再來點餃子？" }
+        ]
+      },
+      {
+        "title": "Follow-up the next day",
+        "lines": [
+          { "speaker": "Jess", "en": "I read more about that four-day week thing last night.", "zh": "我昨晚多讀了一些四天工作制的東西。" },
+          { "speaker": "Minz", "en": "And? Did you change your mind?", "zh": "然後呢？你改變想法了嗎？" },
+          { "speaker": "Jess", "en": "Partly. Despite my doubts, the results look pretty convincing.", "zh": "部分改變了。儘管我有疑慮，結果看起來蠻有說服力的。" },
+          { "speaker": "Minz", "en": "See? You were just playing devil's advocate.", "zh": "看吧？你剛剛只是在唱反調。" },
+          { "speaker": "Jess", "en": "Someone had to! Even though I agree now, it was a fun debate.", "zh": "總得有人唱啊！雖然我現在同意了，但辯論很好玩。" },
+          { "speaker": "Minz", "en": "It was. Let's argue about pineapple pizza next.", "zh": "的確。下次來辯鳳梨披薩。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "I see where you're coming from, but ___.", "zh": "我理解你的出發點，但 ___。" },
+      { "en": "That's a fair point.", "zh": "說得有道理。" },
+      { "en": "I'm not fully convinced.", "zh": "我沒有完全被說服。" },
+      { "en": "Let me play devil's advocate.", "zh": "我來唱個反調。" },
+      { "en": "Even though ___, I still think ___.", "zh": "雖然 ___，我還是認為 ___。" },
+      { "en": "Despite ___, ___.", "zh": "儘管 ___，___。" },
+      { "en": "What makes you say that?", "zh": "你為什麼這樣說？" },
+      { "en": "I hadn't thought of it that way.", "zh": "我沒從那個角度想過。" },
+      { "en": "You've changed my mind.", "zh": "你改變了我的想法。" },
+      { "en": "Let's agree to disagree.", "zh": "我們就各自保留意見吧。" }
+    ],
+    "chinglish": [
+      { "wrong": "Despite it is expensive, I bought it.", "right": "Despite the price, I bought it. / Even though it was expensive, I bought it.", "why": "despite 是介系詞，後面接名詞或 V-ing，不能接子句。要接子句用 even though / although。" },
+      { "wrong": "Despite of the rain, we went hiking.", "right": "Despite the rain… / In spite of the rain…", "why": "despite 不加 of；in spite of 才有 of。" },
+      { "wrong": "Even though he is tired, but he keeps working.", "right": "Even though he's tired, he keeps working.", "why": "複習第 53 單元：even though 和 but 只能選一個。" },
+      { "wrong": "I don't agree your opinion.", "right": "I don't agree with you. / I see it differently.", "why": "agree 後面要加 with（複習第 22 單元）。" }
+    ]
+  },
+  "grammar": {
+    "id": "concession-even-though-despite",
+    "title": "讓步 even though / despite / in spite of",
+    "oneLiner": "even though / although + 子句；despite / in spite of + 名詞或 V-ing。",
+    "whenToUse": [
+      "although / even though + 主詞 + 動詞：Even though it's expensive, it's worth it.",
+      "even though 比 although 語氣更強。",
+      "despite + 名詞 / V-ing：Despite the rain… / Despite working fewer hours…",
+      "in spite of + 名詞 / V-ing：和 despite 意思相同，稍微正式一點。",
+      "despite the fact that + 子句：想接子句但又想用 despite 時的解法。",
+      "though 放句尾（口語）：It's expensive. I bought it, though."
+    ],
+    "whyWeGetItWrong": "中文的「雖然」「儘管」後面可以接任何東西：「儘管下雨」「儘管他很累」，結構完全一樣。英文則要看後面是名詞還是子句，選不同的詞。台灣人最常見的兩個錯是 despite + 子句，以及 despite of，後者是把 despite 和 in spite of 混在一起了。",
+    "examples": [
+      { "correct": "Even though it was raining, we went out.", "incorrect": "Despite it was raining, we went out.", "note": "子句用 even though。" },
+      { "correct": "Despite the rain, we went out.", "incorrect": "Despite of the rain, we went out.", "note": "despite 不加 of。" },
+      { "correct": "In spite of feeling tired, she finished the report.", "note": "in spite of + V-ing。" },
+      { "correct": "Despite the fact that he's new, he's already leading a project.", "note": "despite the fact that + 子句。" },
+      { "correct": "It was a long trip. I loved it, though.", "note": "though 放句尾，口語。" }
+    ],
+    "quiz": [
+      { "id": "u063-g1", "type": "mcq", "question": "___ the traffic, we arrived on time.", "options": ["Even though", "Despite", "Although"], "answer": 1, "explanation": "後面是名詞，用 despite。" },
+      { "id": "u063-g2", "type": "mcq", "question": "___ she was sick, she came to the meeting.", "options": ["Despite", "In spite of", "Even though"], "answer": 2, "explanation": "後面是子句，用 even though。" },
+      { "id": "u063-g3", "type": "fill", "question": "In ___ of the bad reviews, the movie was a hit.", "answer": "spite", "explanation": "in spite of。" },
+      { "id": "u063-g4", "type": "mcq", "question": "Which is correct?", "options": ["Despite of the cost, we did it.", "Despite the cost, we did it.", "Despite the cost is high, we did it."], "answer": 1, "explanation": "despite + 名詞，不加 of。" },
+      { "id": "u063-g5", "type": "fill", "question": "Despite ___ (work) fewer hours, they were more productive.", "answer": "working", "explanation": "despite + V-ing。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "devils-advocate",
+      "term": "devil's advocate",
+      "meaning": "故意唱反調的人",
+      "register": "neutral",
+      "usage": "play devil's advocate = 為了測試論點而故意提出反對意見。",
+      "risk": { "level": "safe", "note": "先說 Let me play devil's advocate 可以讓反對聽起來不針對人。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "I'm just playing devil's advocate, but what if the client says no?", "zh": "我只是唱個反調，但如果客戶說不呢？" },
+        { "en": "She always plays devil's advocate in meetings.", "zh": "她開會時總是唱反調。" }
+      ]
+    },
+    {
+      "id": "fair-point",
+      "term": "fair point",
+      "meaning": "說得有道理",
+      "register": "casual",
+      "usage": "承認對方的論點成立。",
+      "risk": { "level": "safe", "note": "友善又好用。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Fair point. I hadn't thought about the cost.", "zh": "有道理，我沒想到成本。" },
+        { "en": "That's a fair point, but I still disagree.", "zh": "說得有道理，但我還是不同意。" }
+      ]
+    },
+    {
+      "id": "agree-to-disagree",
+      "term": "agree to disagree",
+      "meaning": "各自保留意見、求同存異",
+      "register": "neutral",
+      "usage": "Let's agree to disagree. = 我們就不要再爭了，各自保留看法。",
+      "risk": { "level": "safe", "note": "結束爭論的和平說法。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "We're never going to agree on this. Let's agree to disagree.", "zh": "這件事我們永遠不會有共識，就各自保留意見吧。" },
+        { "en": "My dad and I agree to disagree about politics.", "zh": "我跟我爸在政治上就是各持己見。" }
+      ]
+    },
+    {
+      "id": "i-hear-you",
+      "term": "I hear you",
+      "meaning": "我懂你的意思、我理解",
+      "register": "casual",
+      "usage": "表示理解對方的感受或觀點，不一定代表同意。",
+      "risk": { "level": "safe", "note": "溫和好用，但用太多可能顯得敷衍。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "I hear you. It's frustrating. But we still need to finish it.", "zh": "我懂，很煩。但我們還是得做完。" },
+        { "en": "A: I'm so tired of this rain. B: I hear you.", "zh": "A：我受夠這場雨了。 B：我懂。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u063-r1", "sourceUnit": 62, "type": "mcq", "question": "They're testing a ___ work week.", "options": ["four-days", "four-day", "four days'"], "answer": 1, "explanation": "複習第 62 單元：複合形容詞用單數。" },
+    { "id": "u063-r2", "sourceUnit": 61, "type": "fill", "question": "It is ___ that shorter weeks improve focus. (據說)", "answer": "said|believed|thought|reported", "explanation": "複習第 61 單元：It is said that。" },
+    { "id": "u063-r3", "sourceUnit": 59, "type": "mcq", "question": "___ convinced me was the data.", "options": ["What", "That", "Which"], "answer": 0, "explanation": "複習第 59 單元：What 子句。" },
+    { "id": "u063-r4", "sourceUnit": 55, "type": "fill", "question": "We need to figure ___ a solution that works for everyone.", "answer": "out", "explanation": "複習第 55 單元：figure out。" },
+    { "id": "u063-r5", "sourceUnit": 47, "type": "mcq", "question": "___ both sides, I still prefer the five-day week.", "options": ["Having heard", "Heard", "Hear"], "answer": 0, "explanation": "複習第 47 單元：having + p.p.。" },
+    { "id": "u063-r6", "sourceUnit": 31, "type": "mcq", "question": "People ___ work four days a week seem happier.", "options": ["which", "who", "whose"], "answer": 1, "explanation": "複習第 31 單元：指人用 who。" },
+    { "id": "u063-r7", "sourceUnit": 63, "type": "mcq", "question": "Which is correct?", "options": ["Despite it was late, we kept talking.", "Even though it was late, we kept talking.", "Despite of late, we kept talking."], "answer": 1, "explanation": "子句用 even though。" }
+  ]
+}

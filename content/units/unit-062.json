@@ -1,0 +1,147 @@
+{
+  "id": 62,
+  "module": 7,
+  "level": "B2",
+  "title": { "zh": "聊科技 AI", "en": "Talking Tech and AI" },
+  "scenario": {
+    "title": "討論 AI 工具和新科技",
+    "context": "聊科技時會一直冒出「兩小時的會議」「三年保固」「AI 生成的圖」這種描述。英文把「數字 + 名詞」「名詞 + 分詞」組合成複合形容詞時，名詞不加 s、中間加連字號，是台灣人寫作時很常錯的地方。",
+    "dialogues": [
+      {
+        "title": "Trying a new AI tool",
+        "lines": [
+          { "speaker": "Daniel", "en": "Have you tried the new AI design tool? It's a total game changer.", "zh": "你試過那個新的 AI 設計工具嗎？完全改變遊戲規則。" },
+          { "speaker": "Minz", "en": "I tried it last week. It turned a two-hour task into a ten-minute one.", "zh": "我上週試過。它把兩小時的工作變成十分鐘。" },
+          { "speaker": "Daniel", "en": "Right? I'm usually an early adopter, but even I was surprised.", "zh": "對吧？我通常很早嘗鮮，但連我都很驚訝。" },
+          { "speaker": "Minz", "en": "The AI-generated images still need a lot of fixing, though.", "zh": "不過 AI 生成的圖還是需要大量修改。" },
+          { "speaker": "Daniel", "en": "True. And the app is still a bit buggy. It crashed three times yesterday.", "zh": "對。而且那個 app 還有點不穩，昨天當了三次。" },
+          { "speaker": "Minz", "en": "Classic first version. Let's give it a few months.", "zh": "典型的第一版。給它幾個月吧。" }
+        ]
+      },
+      {
+        "title": "Worried about the future",
+        "lines": [
+          { "speaker": "Jess", "en": "Aren't you worried AI will replace illustrators?", "zh": "你不擔心 AI 會取代插畫家嗎？" },
+          { "speaker": "Minz", "en": "Sometimes. But clients still want a real person with a well-known style.", "zh": "有時候會。但客戶還是想要一個有辨識度風格的真人。" },
+          { "speaker": "Jess", "en": "My brother's a total techie. He says it'll be a five-year transition at most.", "zh": "我哥是超級科技宅，他說頂多五年就會轉型完成。" },
+          { "speaker": "Minz", "en": "Maybe. I'm treating AI as a time-saving tool, not a replacement.", "zh": "也許吧。我把 AI 當成省時工具，不是替代品。" },
+          { "speaker": "Jess", "en": "That's a healthy way to look at it.", "zh": "這樣看待很健康。" },
+          { "speaker": "Minz", "en": "And honestly, my hand-drawn work sells better than ever.", "zh": "而且說真的，我的手繪作品賣得比以前還好。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "Have you tried ___?", "zh": "你試過 ___ 嗎？" },
+      { "en": "It's a total game changer.", "zh": "這完全改變遊戲規則。" },
+      { "en": "It saves me a lot of time.", "zh": "它幫我省很多時間。" },
+      { "en": "It's still a bit buggy.", "zh": "它還有點不穩。" },
+      { "en": "I'm not very tech-savvy.", "zh": "我不太懂科技。" },
+      { "en": "How does it work?", "zh": "它是怎麼運作的？" },
+      { "en": "Is it worth upgrading?", "zh": "值得升級嗎？" },
+      { "en": "I'm worried about privacy.", "zh": "我擔心隱私問題。" },
+      { "en": "It's only a matter of time.", "zh": "這只是時間問題。" },
+      { "en": "It's a tool, not a replacement.", "zh": "它是工具，不是替代品。" }
+    ],
+    "chinglish": [
+      { "wrong": "It was a two-hours meeting.", "right": "It was a two-hour meeting.", "why": "複合形容詞裡的名詞一律用單數，因為它是形容詞，不是名詞。" },
+      { "wrong": "My son is ten years old boy.", "right": "My son is a ten-year-old boy. / My son is ten years old.", "why": "當形容詞放名詞前要加連字號、用單數；放句尾當敘述才用 years old。" },
+      { "wrong": "The picture AI made is very high level.", "right": "The AI-generated image is really impressive.", "why": "AI-generated 是很自然的複合形容詞；high level 不是用來讚美圖片的說法。" },
+      { "wrong": "I'm a technology idiot.", "right": "I'm not very tech-savvy.", "why": "自嘲不懂科技，用 not tech-savvy 比較得體。" }
+    ]
+  },
+  "grammar": {
+    "id": "compound-adjectives",
+    "title": "複合形容詞 a two-hour meeting",
+    "oneLiner": "兩個以上的字合起來修飾名詞時，用連字號連接，而且裡面的名詞一律用單數。",
+    "whenToUse": [
+      "數字 + 名詞：a two-hour meeting, a five-year plan, a ten-minute walk, a 20-page report。",
+      "數字 + 名詞 + 形容詞：a ten-year-old girl, a three-day-long event。",
+      "名詞 + 分詞：AI-generated, hand-drawn, time-saving, eye-catching。",
+      "形容詞 + 名詞-ed：a well-known artist, a long-haired cat, open-minded。",
+      "放在名詞前才加連字號；放在 be 動詞後通常不用：The meeting was two hours long.",
+      "常見：full-time, part-time, last-minute, high-quality, user-friendly。"
+    ],
+    "whyWeGetItWrong": "中文「兩小時的會議」「十歲的男孩」，「小時」「歲」本來就不分單複數，所以台灣人翻成英文時，腦中想的是「兩個小時」，自然寫成 two-hours。英文的邏輯是：這些字已經合成一個形容詞了，形容詞沒有複數。",
+    "examples": [
+      { "correct": "We had a three-hour workshop.", "incorrect": "We had a three-hours workshop.", "note": "複合形容詞裡用單數 hour。" },
+      { "correct": "It's a five-minute walk from here.", "note": "數字 + 名詞。" },
+      { "correct": "The workshop was three hours long.", "note": "放在 be 動詞後就是一般說法，用複數。" },
+      { "correct": "She's a well-known illustrator.", "note": "副詞 + 分詞。" },
+      { "correct": "This app is really user-friendly.", "note": "名詞 + 形容詞。" }
+    ],
+    "quiz": [
+      { "id": "u062-g1", "type": "mcq", "question": "It's a ___ drive to Taichung.", "options": ["two-hours", "two-hour", "two hours'"], "answer": 1, "explanation": "複合形容詞用單數。" },
+      { "id": "u062-g2", "type": "mcq", "question": "Which is correct?", "options": ["She has a five-years-old daughter.", "She has a five-year-old daughter.", "She has a five year old's daughter."], "answer": 1, "explanation": "a five-year-old daughter。" },
+      { "id": "u062-g3", "type": "fill", "question": "All the illustrations are hand-___ (draw).", "answer": "drawn", "explanation": "hand-drawn = 手繪的。" },
+      { "id": "u062-g4", "type": "mcq", "question": "The meeting was ___.", "options": ["two-hour long", "two hours long", "two-hours long"], "answer": 1, "explanation": "放在 be 動詞後，用一般說法。" },
+      { "id": "u062-g5", "type": "fill", "question": "I need a ___-minute break. (十分鐘)", "answer": "ten|10", "explanation": "a ten-minute break。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "game-changer",
+      "term": "game changer",
+      "meaning": "改變遊戲規則的東西、重大突破",
+      "register": "neutral",
+      "usage": "徹底改變做事方式的產品、想法或人。",
+      "risk": { "level": "safe", "note": "廣告和職場很常用，用太多會顯得誇張。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Online ordering was a game changer for small restaurants.", "zh": "線上點餐對小餐廳是一大突破。" },
+        { "en": "This standing desk is a game changer for my back.", "zh": "這張升降桌對我的背來說是神器。" }
+      ]
+    },
+    {
+      "id": "techie",
+      "term": "techie",
+      "meaning": "科技宅、科技通",
+      "register": "casual",
+      "usage": "對科技很有熱情或在科技業工作的人。",
+      "risk": { "level": "safe", "note": "友善的稱呼。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Ask Leo. He's the techie in our group.", "zh": "問 Leo，他是我們之中的科技通。" },
+        { "en": "The café is full of techies working on laptops.", "zh": "咖啡店裡都是拿著筆電工作的科技人。" }
+      ]
+    },
+    {
+      "id": "early-adopter",
+      "term": "early adopter",
+      "meaning": "早期採用者、嘗鮮者",
+      "register": "neutral",
+      "usage": "很早就開始使用新產品或新技術的人。",
+      "risk": { "level": "safe", "note": "行銷和科技圈常用。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "I'm always an early adopter. I bought the first smartwatch.", "zh": "我一向很愛嘗鮮，第一代智慧手錶我就買了。" },
+        { "en": "Early adopters often pay more for buggier products.", "zh": "早期使用者常常花更多錢買更不穩的產品。" }
+      ]
+    },
+    {
+      "id": "buggy",
+      "term": "buggy",
+      "meaning": "（軟體）很多 bug、不穩定",
+      "register": "casual",
+      "usage": "形容程式或 app 錯誤很多。",
+      "risk": { "level": "safe", "note": "日常用語。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "The update is really buggy. My app keeps crashing.", "zh": "這次更新超多 bug，我的 app 一直當。" },
+        { "en": "Wait for version 2. The first one is always buggy.", "zh": "等第二版吧，第一版總是很多 bug。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u062-r1", "sourceUnit": 61, "type": "mcq", "question": "The new phone is expected ___ next month.", "options": ["to launch", "launching", "launch"], "answer": 0, "explanation": "複習第 61 單元：is expected to + V。" },
+    { "id": "u062-r2", "sourceUnit": 60, "type": "fill", "question": "I'm still getting used to ___ (use) AI tools.", "answer": "using", "explanation": "複習第 60 單元：get used to + V-ing。" },
+    { "id": "u062-r3", "sourceUnit": 58, "type": "mcq", "question": "Did you ___ use a flip phone?", "options": ["used to", "use to", "using to"], "answer": 1, "explanation": "複習第 58 單元：did + use to。" },
+    { "id": "u062-r4", "sourceUnit": 54, "type": "mcq", "question": "Which is softest?", "options": ["This app is bad.", "This app might need a few more updates.", "Delete this app."], "answer": 1, "explanation": "複習第 54 單元：軟化語氣。" },
+    { "id": "u062-r5", "sourceUnit": 46, "type": "mcq", "question": "My file is gone. The app ___ deleted it.", "options": ["must have", "must", "should"], "answer": 0, "explanation": "複習第 46 單元：推測過去。" },
+    { "id": "u062-r6", "sourceUnit": 30, "type": "mcq", "question": "I ___ this laptop since 2021.", "options": ["had", "'ve had", "have"], "answer": 1, "explanation": "複習第 30 單元：since 用現在完成式。" },
+    { "id": "u062-r7", "sourceUnit": 62, "type": "mcq", "question": "Which is correct?", "options": ["a three-hours class", "a three-hour class", "a three hour's class"], "answer": 1, "explanation": "複合形容詞用單數。" }
+  ]
+}

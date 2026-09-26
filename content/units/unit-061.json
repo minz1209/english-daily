@@ -1,0 +1,148 @@
+{
+  "id": 61,
+  "module": 7,
+  "level": "B2",
+  "title": { "zh": "聊新聞", "en": "Talking About the News" },
+  "scenario": {
+    "title": "討論新聞、查證消息",
+    "context": "聊新聞時，常要轉述「據說」「據報導」「一般認為」的內容，又不想把話說死。英文用 It is said that… / He is reported to… 這種「報導式被動」保持客觀距離，新聞英文裡到處都是。",
+    "dialogues": [
+      {
+        "title": "Morning coffee",
+        "lines": [
+          { "speaker": "Daniel", "en": "Did you see the news about the new MRT line?", "zh": "你有看到新捷運線的新聞嗎？" },
+          { "speaker": "Minz", "en": "Yeah. It's reported to be two years behind schedule.", "zh": "有，據報導進度落後兩年。" },
+          { "speaker": "Daniel", "en": "And the cost is said to have doubled.", "zh": "而且據說成本翻倍了。" },
+          { "speaker": "Minz", "en": "Wait, where did you read that? The article I saw said 30 percent.", "zh": "等等，你在哪看到的？我看的文章說是 30%。" },
+          { "speaker": "Daniel", "en": "Some post on social media. It went viral last night.", "zh": "社群上的某篇貼文，昨晚爆紅。" },
+          { "speaker": "Minz", "en": "Hmm, that could be clickbait. It's widely believed, but that doesn't make it true.", "zh": "嗯，那可能是標題黨。很多人相信，不代表它是真的。" },
+          { "speaker": "Daniel", "en": "Fair. I should check the official report.", "zh": "有道理，我應該去看官方報告。" }
+        ]
+      },
+      {
+        "title": "Discussing a hot take",
+        "lines": [
+          { "speaker": "Jess", "en": "Did you read that columnist's hot take on remote work?", "zh": "你有看那位專欄作家對遠端工作的辛辣評論嗎？" },
+          { "speaker": "Minz", "en": "The one who says it's killing creativity? He's known to be pretty controversial.", "zh": "說遠端扼殺創意那位？他是出了名的愛引戰。" },
+          { "speaker": "Jess", "en": "It's been suggested that he's just trying to get clicks.", "zh": "有人認為他只是想衝點擊。" },
+          { "speaker": "Minz", "en": "Probably. There's so much fake news these days, it's hard to know what to trust.", "zh": "大概吧。現在假新聞那麼多，很難知道該信什麼。" },
+          { "speaker": "Jess", "en": "I only trust sources that link to actual data.", "zh": "我只相信有附上真實數據的來源。" },
+          { "speaker": "Minz", "en": "Same. If there's no source, I assume it's rumor.", "zh": "我也是。沒附來源的我都當作謠言。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "Did you see the news about ___?", "zh": "你有看到 ___ 的新聞嗎？" },
+      { "en": "According to ___, ___.", "zh": "根據 ___，___。" },
+      { "en": "It's reported that ___.", "zh": "據報導 ___。" },
+      { "en": "Where did you read that?", "zh": "你在哪看到的？" },
+      { "en": "Is that a reliable source?", "zh": "那是可靠的來源嗎？" },
+      { "en": "I'd take that with a grain of salt.", "zh": "我會對那個半信半疑。", "note": "第 89 單元會正式學這個俚語" },
+      { "en": "That's been debunked.", "zh": "那已經被證實是假的。" },
+      { "en": "It's a developing story.", "zh": "這是還在發展中的新聞。" },
+      { "en": "The headline is misleading.", "zh": "標題有誤導性。" },
+      { "en": "What's your take on it?", "zh": "你怎麼看？" }
+    ],
+    "chinglish": [
+      { "wrong": "The news say the MRT is late.", "right": "The news says… / According to the news, …", "why": "news 是不可數名詞，動詞用單數 says。" },
+      { "wrong": "I heard from internet that…", "right": "I read online that… / I saw on social media that…", "why": "「從網路聽說」直翻很怪，網路上多是讀到的，用 read online。" },
+      { "wrong": "It is said the cost doubled already.", "right": "The cost is said to have doubled.", "why": "報導式被動有兩種寫法，第二種更精簡：主詞 + is said to have + p.p.。" },
+      { "wrong": "This is a fake news.", "right": "This is fake news. / This is a fake news story.", "why": "news 不可數，不加 a。" }
+    ]
+  },
+  "grammar": {
+    "id": "passive-reporting",
+    "title": "It is said that / is reported to",
+    "oneLiner": "用報導式被動轉述未證實或一般的說法：It is said that… 或 主詞 + is said to + V。",
+    "whenToUse": [
+      "It + be + p.p. + that 子句：It is reported that the line is delayed.",
+      "主詞 + be + p.p. + to V（同時）：The line is reported to be delayed.",
+      "主詞 + be + p.p. + to have + p.p.（更早發生）：The cost is said to have doubled.",
+      "常用動詞：say, report, believe, think, know, expect, consider, suggest（suggest 只用 It is suggested that）。",
+      "目的：保持客觀、不確定來源、或不想說是誰說的。",
+      "口語較常用：Apparently… / I heard that… / They say that…"
+    ],
+    "whyWeGetItWrong": "中文用「據說」「據報導」「一般認為」放在句首就好，句子本身不變。英文則有兩套結構，其中「主詞 + is said to have + p.p.」特別反直覺：講的是過去發生的事，但 said 用現在式。台灣人常寫出 It is said the cost doubled already 這種混合版。",
+    "examples": [
+      { "correct": "It is believed that the fire started in the kitchen.", "note": "It + be + p.p. + that。" },
+      { "correct": "The fire is believed to have started in the kitchen.", "incorrect": "The fire is believed to start in the kitchen yesterday.", "note": "過去發生用 to have + p.p.。" },
+      { "correct": "He is known to be a tough negotiator.", "note": "現在的狀態用 to be。" },
+      { "correct": "The new policy is expected to take effect next year.", "note": "未來用 is expected to。" },
+      { "correct": "Apparently, the CEO is stepping down.", "note": "口語版的「據說」。" }
+    ],
+    "quiz": [
+      { "id": "u061-g1", "type": "mcq", "question": "It ___ that the singer is retiring.", "options": ["is said", "says", "is saying"], "answer": 0, "explanation": "It is said that…" },
+      { "id": "u061-g2", "type": "mcq", "question": "The building is believed ___ built in the 1920s.", "options": ["to be", "to have been", "being"], "answer": 1, "explanation": "過去發生的事：to have been。" },
+      { "id": "u061-g3", "type": "fill", "question": "The new MRT line is expected ___ open in 2028.", "answer": "to", "explanation": "is expected to + V。" },
+      { "id": "u061-g4", "type": "mcq", "question": "The news ___ the storm will hit tomorrow.", "options": ["say", "says", "are saying"], "answer": 1, "explanation": "news 不可數，用單數。" },
+      { "id": "u061-g5", "type": "fill", "question": "She is known ___ be very private.", "answer": "to", "explanation": "is known to + V。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "clickbait",
+      "term": "clickbait",
+      "meaning": "標題黨、騙點擊的內容",
+      "register": "casual",
+      "usage": "用誇張標題吸引點擊的文章或影片。",
+      "risk": { "level": "safe", "note": "普遍用語。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "\"You won't believe what happened next!\" Total clickbait.", "zh": "「你絕對不敢相信接下來發生什麼！」根本標題黨。" },
+        { "en": "I stopped following that page. It's all clickbait.", "zh": "我退追那個粉專了，全是標題黨。" }
+      ]
+    },
+    {
+      "id": "go-viral",
+      "term": "go viral",
+      "meaning": "爆紅、瘋傳",
+      "register": "neutral",
+      "usage": "內容在網路上迅速大量傳播。",
+      "risk": { "level": "safe", "note": "普遍用語。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Her video went viral overnight.", "zh": "她的影片一夜爆紅。" },
+        { "en": "Every brand wants their campaign to go viral.", "zh": "每個品牌都希望自己的活動爆紅。" }
+      ]
+    },
+    {
+      "id": "hot-take",
+      "term": "hot take",
+      "meaning": "辛辣觀點、故意引戰的看法",
+      "register": "casual",
+      "usage": "刻意有爭議或很快下的評論。也可自嘲：Hot take: pineapple belongs on pizza.",
+      "risk": { "level": "safe", "note": "常用在玩笑，也用在批評評論員。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "Hot take: bubble tea is overrated.", "zh": "辛辣觀點：珍奶被高估了。" },
+        { "en": "Twitter is full of hot takes after every game.", "zh": "每場比賽後推特都是各種辛辣評論。" }
+      ]
+    },
+    {
+      "id": "fake-news",
+      "term": "fake news",
+      "meaning": "假新聞",
+      "register": "neutral",
+      "usage": "錯誤或捏造的新聞。也常被政治人物用來攻擊不喜歡的報導。",
+      "risk": { "level": "careful", "note": "帶政治色彩，開玩笑說某件事 fake news 沒問題，但討論政治時可能引起爭論。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "My uncle keeps sharing fake news in the family group.", "zh": "我舅舅一直在家族群組分享假新聞。" },
+        { "en": "Always check the source before you share. It could be fake news.", "zh": "分享前一定要查來源，可能是假新聞。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u061-r1", "sourceUnit": 60, "type": "mcq", "question": "I ___ read the newspaper every morning, but now I use apps.", "options": ["used to", "am used to", "was used to"], "answer": 0, "explanation": "複習第 60 單元：used to + 原形。" },
+    { "id": "u061-r2", "sourceUnit": 59, "type": "fill", "question": "___ worries me is how fast fake news spreads.", "answer": "What", "explanation": "複習第 59 單元：What 子句。" },
+    { "id": "u061-r3", "sourceUnit": 57, "type": "mcq", "question": "The article, ___ went viral, was later corrected.", "options": ["that", "which", "who"], "answer": 1, "explanation": "複習第 57 單元：非限定子句用 which。" },
+    { "id": "u061-r4", "sourceUnit": 53, "type": "mcq", "question": "The headline was shocking. ___, the facts were boring.", "options": ["However", "Although", "Because"], "answer": 0, "explanation": "複習第 53 單元：However,。" },
+    { "id": "u061-r5", "sourceUnit": 45, "type": "mcq", "question": "If I ___ a journalist, I'd cover the environment.", "options": ["am", "were", "will be"], "answer": 1, "explanation": "複習第 45 單元：type 2。" },
+    { "id": "u061-r6", "sourceUnit": 29, "type": "mcq", "question": "That story isn't true, ___?", "options": ["is it", "isn't it", "does it"], "answer": 0, "explanation": "複習第 29 單元：否定句配肯定尾巴。" },
+    { "id": "u061-r7", "sourceUnit": 61, "type": "mcq", "question": "The fire ___ to have started around midnight.", "options": ["believes", "is believed", "believed"], "answer": 1, "explanation": "報導式被動：is believed to have + p.p.。" }
+  ]
+}
