@@ -1,0 +1,149 @@
+{
+  "id": 27,
+  "module": 3,
+  "level": "B1+",
+  "title": { "zh": "請主管核准", "en": "Getting Approval" },
+  "scenario": {
+    "title": "問主管能不能做、預算批了沒",
+    "context": "跟主管或客戶問事情，直接問 Where is the file? 聽起來有點衝。英文會把問題包進 Do you know… / Could you tell me… 裡面，這就是「間接問句」，而且包進去之後語序會變，這是台灣人最常出錯的地方。",
+    "dialogues": [
+      {
+        "title": "Asking the manager",
+        "lines": [
+          { "speaker": "Minz", "en": "Hi Karen, do you have a minute? I wanted to run something by you.", "zh": "Karen，你有空一下嗎？我想跟你確認一件事。" },
+          { "speaker": "Karen", "en": "Sure, what's up?", "zh": "好啊，怎麼了？" },
+          { "speaker": "Minz", "en": "The client asked if we could add an animated version of the logo. Do you know if that's in the budget?", "zh": "客戶問我們能不能加做動態版 logo。你知道預算裡有這項嗎？" },
+          { "speaker": "Karen", "en": "Hmm, I'm not sure. Can you tell me how long it would take?", "zh": "嗯，我不確定。你可以告訴我大概要多久嗎？" },
+          { "speaker": "Minz", "en": "About three extra days.", "zh": "大概多三天。" },
+          { "speaker": "Karen", "en": "I'd need to get the higher-ups to sign off on that.", "zh": "那需要上面的人簽核。" },
+          { "speaker": "Minz", "en": "Do you know when they'll decide? The client wants an answer by Friday.", "zh": "你知道他們什麼時候會決定嗎？客戶希望週五前有答案。" },
+          { "speaker": "Karen", "en": "I'll ask today. If they give us the green light, go for it.", "zh": "我今天去問。如果他們放行，你就做。" }
+        ]
+      },
+      {
+        "title": "Asking a coworker for information",
+        "lines": [
+          { "speaker": "Minz", "en": "Daniel, do you remember where we saved the old brand guidelines?", "zh": "Daniel，你記得我們把舊的品牌規範存在哪裡嗎？" },
+          { "speaker": "Daniel", "en": "I think they're in the shared drive under \"Archive.\"", "zh": "應該在共用硬碟的「封存」資料夾。" },
+          { "speaker": "Minz", "en": "Got it. And do you know who approved the last color change?", "zh": "了解。那你知道上次改顏色是誰核准的嗎？" },
+          { "speaker": "Daniel", "en": "No idea. You could ask Karen. She usually knows what's going on.", "zh": "不知道。你可以問 Karen，她通常都知道狀況。" },
+          { "speaker": "Minz", "en": "I'd rather not bug her again. I already asked her what time the client call is.", "zh": "我不想再煩她了，我剛剛才問她客戶電話幾點。" },
+          { "speaker": "Daniel", "en": "Ha, fair. Let me check my emails and see if I can find it.", "zh": "哈，有道理。我查一下信件看能不能找到。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "Do you have a minute?", "zh": "你有空一下嗎？" },
+      { "en": "I wanted to run something by you.", "zh": "我想跟你確認一件事。" },
+      { "en": "Do you know if ___?", "zh": "你知道是否 ___ 嗎？" },
+      { "en": "Could you tell me when ___?", "zh": "可以告訴我 ___ 是什麼時候嗎？" },
+      { "en": "I was wondering whether ___.", "zh": "我在想是否 ___。", "note": "最委婉的提問方式" },
+      { "en": "Do you remember where ___?", "zh": "你記得 ___ 在哪裡嗎？" },
+      { "en": "Is it OK if I ___?", "zh": "我 ___ 可以嗎？" },
+      { "en": "Who should I ask about ___?", "zh": "___ 的事我該問誰？" },
+      { "en": "Would it be possible to ___?", "zh": "有可能 ___ 嗎？" },
+      { "en": "Let me know what you think.", "zh": "告訴我你的想法。" }
+    ],
+    "chinglish": [
+      { "wrong": "Do you know where is the file?", "right": "Do you know where the file is?", "why": "間接問句裡語序要改回「主詞 + 動詞」。中文「你知道檔案在哪嗎」的語序沒有變化，台灣人就直接把問句塞進去。" },
+      { "wrong": "Can you tell me what time does the meeting start?", "right": "Can you tell me what time the meeting starts?", "why": "間接問句裡不用 do / does / did，動詞直接變化。" },
+      { "wrong": "I want to ask you can I leave early?", "right": "I wanted to ask if I could leave early.", "why": "yes/no 問題放進句子裡要用 if 或 whether 連接，語序也要改。" },
+      { "wrong": "Boss, the budget pass or not?", "right": "Do you know if the budget has been approved?", "why": "「…了沒」「…或不…」的中式問法直翻很突兀。用 Do you know if… 包起來。" }
+    ]
+  },
+  "grammar": {
+    "id": "indirect-questions",
+    "title": "間接問句",
+    "oneLiner": "把問題放進 Do you know… / Could you tell me… 裡面時，後半段要用「肯定句的語序」，而且不加 do / does / did。",
+    "whenToUse": [
+      "wh- 問題：直接 Where is the file? → 間接 Do you know where the file is?",
+      "有 do / does / did 的問題：直接 What time does it start? → 間接 Could you tell me what time it starts?",
+      "yes/no 問題用 if / whether：Is it in the budget? → Do you know if it's in the budget?",
+      "常見開頭：Do you know… / Could you tell me… / I was wondering… / Do you remember… / I'm not sure…",
+      "間接問句比直接問句禮貌，適合問主管、客戶、陌生人。",
+      "句尾標點看開頭：Do you know…? 用問號；I was wondering… 用句號。"
+    ],
+    "whyWeGetItWrong": "中文問句的語序跟肯定句一樣，只在句尾加「嗎」或換成疑問詞：「檔案在哪」「你知道檔案在哪嗎」，語序完全不變。英文的直接問句會倒裝（Where is it?），放進間接問句時又要改回來（where it is）。台灣人剛學會倒裝，就會把倒裝的語序原封不動地搬進間接問句。",
+    "examples": [
+      { "correct": "Do you know where Karen is?", "incorrect": "Do you know where is Karen?", "note": "間接問句用肯定語序。" },
+      { "correct": "Could you tell me how much it costs?", "incorrect": "Could you tell me how much does it cost?", "note": "去掉 does，動詞加 s。" },
+      { "correct": "Do you know if the client approved it?", "incorrect": "Do you know did the client approve it?", "note": "yes/no 問題用 if。" },
+      { "correct": "I was wondering whether we could extend the deadline.", "note": "最委婉的請求，常用在對主管或客戶。" },
+      { "correct": "I'm not sure what time the call is.", "note": "不一定要是問句，陳述句裡也常用。" }
+    ],
+    "quiz": [
+      { "id": "u027-g1", "type": "mcq", "question": "Do you know where ___?", "options": ["is the meeting room", "the meeting room is", "does the meeting room"], "answer": 1, "explanation": "間接問句用肯定語序。" },
+      { "id": "u027-g2", "type": "mcq", "question": "Could you tell me what time ___?", "options": ["the train leaves", "does the train leave", "leaves the train"], "answer": 0, "explanation": "去掉 does，動詞加 s。" },
+      { "id": "u027-g3", "type": "fill", "question": "Do you know ___ the budget has been approved? (是否)", "answer": "if|whether", "explanation": "yes/no 問題用 if / whether。" },
+      { "id": "u027-g4", "type": "mcq", "question": "Which is correct?", "options": ["I'm not sure who did send it.", "I'm not sure who sent it.", "I'm not sure who did it send."], "answer": 1, "explanation": "間接問句不用 did。" },
+      { "id": "u027-g5", "type": "fill", "question": "Can you tell me how long it ___ take? (would / will)", "answer": "would|will", "explanation": "肯定語序：it would take / it will take。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "green-light",
+      "term": "green light",
+      "meaning": "放行、批准",
+      "register": "neutral",
+      "usage": "give something the green light / get the green light。也可以當動詞：The project was green-lit.",
+      "risk": { "level": "safe", "note": "職場標準用語。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "We finally got the green light for the rebrand.", "zh": "品牌重塑終於獲准了。" },
+        { "en": "Once the client gives us the green light, we'll start printing.", "zh": "客戶一放行，我們就開始印。" }
+      ]
+    },
+    {
+      "id": "sign-off-on",
+      "term": "sign off on",
+      "meaning": "簽核、正式批准",
+      "register": "neutral",
+      "usage": "sign off on something = 正式同意。另外 sign off 單獨用是「結束（信件、節目、上線）」。",
+      "risk": { "level": "safe", "note": "職場常用。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "The CEO needs to sign off on the final design.", "zh": "最終設計要執行長簽核。" },
+        { "en": "Has legal signed off on the contract yet?", "zh": "法務簽核合約了嗎？" }
+      ]
+    },
+    {
+      "id": "run-it-by",
+      "term": "run it by",
+      "meaning": "先跟某人確認、徵詢意見",
+      "register": "neutral",
+      "usage": "run something by someone = 在決定前先問對方的看法。",
+      "risk": { "level": "safe", "note": "禮貌又常用，表示尊重對方。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Let me run it by my manager first.", "zh": "我先跟我主管確認一下。" },
+        { "en": "Can I run an idea by you?", "zh": "我可以跟你討論一個想法嗎？" }
+      ]
+    },
+    {
+      "id": "the-higher-ups",
+      "term": "the higher-ups",
+      "meaning": "上面的人、高層",
+      "register": "casual",
+      "usage": "泛指公司高層，不指名道姓。",
+      "risk": { "level": "careful", "note": "帶一點距離感甚至抱怨語氣，別在高層面前這樣稱呼他們。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "The higher-ups want everyone back in the office.", "zh": "高層要大家回辦公室上班。" },
+        { "en": "It's not my decision. It's up to the higher-ups.", "zh": "這不是我能決定的，要看上面。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u027-r1", "sourceUnit": 26, "type": "mcq", "question": "I ___ for your reply since Monday.", "options": ["'m waiting", "'ve been waiting", "wait"], "answer": 1, "explanation": "複習第 26 單元：since + 持續動作用完成進行式。" },
+    { "id": "u027-r2", "sourceUnit": 26, "type": "fill", "question": "We've fallen ___ on the project, so we need to work faster.", "answer": "behind", "explanation": "複習第 26 單元：fall behind = 落後。" },
+    { "id": "u027-r3", "sourceUnit": 25, "type": "mcq", "question": "Could you turn ___ your mic? There's an echo.", "options": ["off", "out", "down it"], "answer": 0, "explanation": "複習第 25 單元：turn off = 關掉。" },
+    { "id": "u027-r4", "sourceUnit": 23, "type": "fill", "question": "___, the office is closed tomorrow. (僅供參考，三個字母)", "answer": "FYI", "explanation": "複習第 23 單元：FYI。" },
+    { "id": "u027-r5", "sourceUnit": 19, "type": "mcq", "question": "Which is correct?", "options": ["How good idea!", "What a good idea!", "What good idea!"], "answer": 1, "explanation": "複習第 19 單元：What a + 形容詞 + 名詞。" },
+    { "id": "u027-r6", "sourceUnit": 11, "type": "mcq", "question": "___ any updates from the client?", "options": ["Are there", "Is there", "Have"], "answer": 0, "explanation": "複習第 11 單元：updates 複數用 Are there。" },
+    { "id": "u027-r7", "sourceUnit": 27, "type": "mcq", "question": "Which is correct?", "options": ["Do you know when does the meeting start?", "Do you know when the meeting starts?", "Do you know when starts the meeting?"], "answer": 1, "explanation": "間接問句用肯定語序，去掉 does。" }
+  ]
+}

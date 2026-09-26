@@ -1,0 +1,153 @@
+{
+  "id": 25,
+  "module": 3,
+  "level": "B1+",
+  "title": { "zh": "視訊會議", "en": "Video Calls" },
+  "scenario": {
+    "title": "Zoom / Meet / 電話上的突發狀況",
+    "context": "視訊會議的英文有一半都在處理技術問題：你靜音了、訊號斷斷續續、我等一下回撥。這些句子幾乎都靠「片語動詞」（call back、hang up、hold on），一個介系詞就能改變整句意思。",
+    "dialogues": [
+      {
+        "title": "Technical difficulties",
+        "lines": [
+          { "speaker": "Karen", "en": "Hi everyone, thanks for hopping on the call. Can everyone hear me?", "zh": "大家好，謝謝加入通話。大家聽得到我嗎？" },
+          { "speaker": "Daniel", "en": "Loud and clear.", "zh": "聽得很清楚。" },
+          { "speaker": "Karen", "en": "Minz, I think you're on mute.", "zh": "Minz，你好像靜音了。" },
+          { "speaker": "Minz", "en": "Sorry, can you hear me now?", "zh": "抱歉，現在聽得到嗎？" },
+          { "speaker": "Karen", "en": "Yes, but you're breaking up a little. Could you turn off your camera?", "zh": "聽得到，但你有點斷斷續續的。可以關掉鏡頭嗎？" },
+          { "speaker": "Minz", "en": "Sure. Is that better?", "zh": "好。這樣有好一點嗎？" },
+          { "speaker": "Karen", "en": "Much better. Oh, looks like the client dropped off. Hold on, let me call them back.", "zh": "好多了。喔，客戶好像斷線了。等一下，我打回去給他們。" },
+          { "speaker": "Daniel", "en": "While we wait, can you see my screen?", "zh": "等的時候，你們看得到我的畫面嗎？" },
+          { "speaker": "Minz", "en": "Not yet. I think you need to hit share again.", "zh": "還沒，你好像要再按一次分享。" }
+        ]
+      },
+      {
+        "title": "A phone call with a vendor",
+        "lines": [
+          { "speaker": "Vendor", "en": "Hello, Sunshine Printing, how can I help you?", "zh": "你好，陽光印刷，請問有什麼需要？" },
+          { "speaker": "Minz", "en": "Hi, this is Minz from Nine Studio. Could I speak to Mr. Chen?", "zh": "你好，我是九號工作室的 Minz，請問陳先生在嗎？" },
+          { "speaker": "Vendor", "en": "Hold on a second, I'll put you through.", "zh": "請稍等，我幫你轉接。" },
+          { "speaker": "Vendor", "en": "Sorry, he's on another line. Can he call you back in ten minutes?", "zh": "抱歉，他在講另一通電話。他十分鐘後回撥給你可以嗎？" },
+          { "speaker": "Minz", "en": "Sure. Could you ask him to look up our order first? It's number 4521.", "zh": "可以。能請他先查一下我們的訂單嗎？編號 4521。" },
+          { "speaker": "Vendor", "en": "Got it. I'll pass the message on.", "zh": "了解，我會轉告他。" },
+          { "speaker": "Minz", "en": "Thanks. Talk soon.", "zh": "謝謝，再聯絡。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "Can everyone hear me?", "zh": "大家聽得到我嗎？" },
+      { "en": "I think you're on mute.", "zh": "你好像靜音了。" },
+      { "en": "You're breaking up.", "zh": "你的聲音斷斷續續。" },
+      { "en": "Can you see my screen?", "zh": "你看得到我的畫面嗎？" },
+      { "en": "Sorry, go ahead.", "zh": "抱歉，你先說。", "note": "兩人同時開口時的禮讓" },
+      { "en": "Let me share my screen.", "zh": "我來分享畫面。" },
+      { "en": "Hold on a second.", "zh": "等一下。" },
+      { "en": "Can I call you back?", "zh": "我可以回撥給你嗎？" },
+      { "en": "I'll put you through.", "zh": "我幫你轉接。" },
+      { "en": "Talk soon!", "zh": "再聯絡！" }
+    ],
+    "chinglish": [
+      { "wrong": "Your sound is not clear, it's cut cut.", "right": "You're breaking up. / The audio's a bit choppy.", "why": "「斷斷續續」直翻不通。訊號不穩說 You're breaking up / choppy。" },
+      { "wrong": "Please open your camera.", "right": "Could you turn on your camera?", "why": "中文「開鏡頭」的「開」用 open 是常見錯誤。電器開關用 turn on / turn off。" },
+      { "wrong": "Wait me a moment.", "right": "Hold on a moment. / Give me a sec.", "why": "wait 後面要加 for：wait for me。講電話時更常用 hold on。" },
+      { "wrong": "I will call you again back.", "right": "I'll call you back.", "why": "call back 已經包含「再打一次」的意思，不用加 again。" }
+    ]
+  },
+  "grammar": {
+    "id": "phone-phrasal-verbs",
+    "title": "電話片語動詞 call back / hang up / hold on",
+    "oneLiner": "片語動詞 = 動詞 + 介系詞／副詞，意思常常跟動詞本身差很遠；受詞如果是代名詞，一定要夾在中間。",
+    "whenToUse": [
+      "call back：回電。I'll call you back.",
+      "hang up：掛電話。Don't hang up!",
+      "hold on：稍等。Hold on a sec.",
+      "put through：轉接。I'll put you through to sales.",
+      "pick up：接電話。He didn't pick up.",
+      "drop off / drop out：（會議中）斷線。",
+      "turn on / off：開關裝置。Turn off your mic.",
+      "代名詞位置：call him back（不能說 call back him）；名詞可以前後都放：call back the client / call the client back。"
+    ],
+    "whyWeGetItWrong": "中文動詞本身就有完整意思，「回電」「掛斷」「轉接」都是一個詞。英文片語動詞的意思要整組理解，拆開看完全猜不到（hang up 為什麼是掛電話？）。另外台灣人常把代名詞放在最後：call back him、turn on it，這是聽起來最不自然的錯誤。",
+    "examples": [
+      { "correct": "Can I call you back in five minutes?", "incorrect": "Can I call back you in five minutes?", "note": "代名詞夾中間。" },
+      { "correct": "She hung up before I could explain.", "note": "hang 的過去式是 hung。" },
+      { "correct": "Could you turn it off?", "incorrect": "Could you turn off it?", "note": "代名詞夾中間。" },
+      { "correct": "I called three times, but nobody picked up.", "note": "pick up = 接電話。" },
+      { "correct": "Please hold on while I put you through.", "note": "hold on 和 put through 常一起出現。" }
+    ],
+    "quiz": [
+      { "id": "u025-g1", "type": "mcq", "question": "Which is correct?", "options": ["I'll call back you.", "I'll call you back.", "I'll back call you."], "answer": 1, "explanation": "代名詞夾在片語動詞中間。" },
+      { "id": "u025-g2", "type": "fill", "question": "Hold ___ a second. I need to grab a pen.", "answer": "on", "explanation": "hold on = 稍等。" },
+      { "id": "u025-g3", "type": "mcq", "question": "I called her twice, but she didn't ___.", "options": ["pick up", "hang up", "call up"], "answer": 0, "explanation": "接電話用 pick up。" },
+      { "id": "u025-g4", "type": "fill", "question": "Could you turn ___ your camera? We can't see you.", "answer": "on", "explanation": "開啟裝置用 turn on。" },
+      { "id": "u025-g5", "type": "mcq", "question": "Which is correct?", "options": ["Please turn off it.", "Please turn it off.", "Please off turn it."], "answer": 1, "explanation": "代名詞 it 放中間。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "hop-on-a-call",
+      "term": "hop on a call",
+      "meaning": "加入通話、開個會",
+      "register": "casual",
+      "usage": "hop on = 迅速加入。Can you hop on a quick call? 也可以 hop off（離開通話）。",
+      "risk": { "level": "safe", "note": "遠距工作時代的常用語。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "Can you hop on a quick call at 3?", "zh": "三點可以快速開個會嗎？" },
+        { "en": "I have to hop off in five minutes.", "zh": "我五分鐘後要先離開。" }
+      ]
+    },
+    {
+      "id": "youre-breaking-up",
+      "term": "you're breaking up",
+      "meaning": "你的聲音斷斷續續",
+      "register": "neutral",
+      "usage": "通話訊號不穩時說。注意 break up 也有「分手」的意思，看語境。",
+      "risk": { "level": "safe", "note": "標準說法，任何人都能用。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Sorry, you're breaking up. Could you repeat that?", "zh": "抱歉你斷斷續續的，可以再說一次嗎？" },
+        { "en": "I'm on the train, so I might break up.", "zh": "我在火車上，訊號可能會斷斷續續。" }
+      ]
+    },
+    {
+      "id": "drop-off",
+      "term": "drop off",
+      "meaning": "（通話中）斷線、離開",
+      "register": "casual",
+      "usage": "有人突然從會議中消失：I think she dropped off. 另外 drop off 也有「送達、放下（人或東西）」的意思。",
+      "risk": { "level": "safe", "note": "中性，職場常用。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Looks like Tom dropped off. Let's wait a minute.", "zh": "Tom 好像斷線了，我們等一下。" },
+        { "en": "Sorry, I dropped off for a second. What did I miss?", "zh": "抱歉我剛剛斷線，我錯過什麼？" }
+      ]
+    },
+    {
+      "id": "talk-over-each-other",
+      "term": "talk over each other",
+      "meaning": "搶話、同時講話",
+      "register": "neutral",
+      "usage": "視訊會議很常發生：Sorry, we're talking over each other.",
+      "risk": { "level": "safe", "note": "說 we 比說 you're talking over me 客氣。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Oops, we're talking over each other. Go ahead.", "zh": "哎，我們同時開口了，你先說。" },
+        { "en": "It's hard to follow when everyone talks over each other.", "zh": "大家都搶著講的時候很難跟上。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u025-r1", "sourceUnit": 24, "type": "mcq", "question": "Which is correct?", "options": ["Let me to share my screen.", "Let me share my screen.", "Let me sharing my screen."], "answer": 1, "explanation": "複習第 24 單元：let + 原形。" },
+    { "id": "u025-r2", "sourceUnit": 24, "type": "fill", "question": "I'm ___ today. Can we talk tomorrow? (忙翻了)", "answer": "swamped|slammed", "explanation": "複習第 24 單元：swamped / slammed = 忙翻。" },
+    { "id": "u025-r3", "sourceUnit": 23, "type": "mcq", "question": "A: Would you mind muting yourself? B: ___", "options": ["Yes, I would mind.", "Not at all.", "Yes, sure mind."], "answer": 1, "explanation": "複習第 23 單元：答應說 Not at all。" },
+    { "id": "u025-r4", "sourceUnit": 21, "type": "mcq", "question": "How long ___ Karen?", "options": ["do you know", "have you known", "are you knowing"], "answer": 1, "explanation": "複習第 21 單元：問持續多久用現在完成式。" },
+    { "id": "u025-r5", "sourceUnit": 17, "type": "mcq", "question": "The call starts in two minutes. We ___ log in now.", "options": ["'d better", "ought", "should to"], "answer": 0, "explanation": "複習第 17 單元：有後果用 had better。" },
+    { "id": "u025-r6", "sourceUnit": 9, "type": "fill", "question": "I'm not sure when I'll be free, so let's play it by ___.", "answer": "ear", "explanation": "複習第 9 單元：play it by ear。" },
+    { "id": "u025-r7", "sourceUnit": 25, "type": "mcq", "question": "Your coworker's audio is choppy. You say:", "options": ["Your voice is cut cut.", "You're breaking up.", "You are broken."], "answer": 1, "explanation": "You're breaking up = 斷斷續續。" }
+  ]
+}

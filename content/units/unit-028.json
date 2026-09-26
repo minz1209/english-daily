@@ -1,0 +1,148 @@
+{
+  "id": 28,
+  "module": 3,
+  "level": "B1+",
+  "title": { "zh": "出包道歉", "en": "Owning a Mistake" },
+  "scenario": {
+    "title": "寄錯檔案、忘記回信，怎麼道歉",
+    "context": "出包後的英文要做到三件事：承認、說明發生什麼事、提出補救。說明經過時常會用到「我正在做 A 的時候，B 發生了」，這就是過去進行式 + when / while 的主場。",
+    "dialogues": [
+      {
+        "title": "Sent the wrong file",
+        "lines": [
+          { "speaker": "Karen", "en": "Minz, the client just emailed. They said the file you sent was the old version?", "zh": "Minz，客戶剛寄信來，說你寄的檔案是舊版？" },
+          { "speaker": "Minz", "en": "Oh no. That's on me. I'm so sorry.", "zh": "糟了，是我的錯，真的很抱歉。" },
+          { "speaker": "Karen", "en": "What happened?", "zh": "發生什麼事了？" },
+          { "speaker": "Minz", "en": "I was exporting the final files when the software crashed. I must have attached the backup by mistake.", "zh": "我在匯出最終檔的時候軟體當掉了，我一定是不小心附到備份檔。" },
+          { "speaker": "Karen", "en": "OK, these things happen. Did they print anything yet?", "zh": "好，這種事難免。他們已經印了嗎？" },
+          { "speaker": "Minz", "en": "I don't think so. I'll send the correct file right now and call them to double-check.", "zh": "應該還沒。我現在寄正確的檔案，再打電話跟他們確認。" },
+          { "speaker": "Karen", "en": "Good. And let's add a file-check step before anything goes out.", "zh": "好。以後東西寄出前我們加一道檢查檔案的步驟。" },
+          { "speaker": "Minz", "en": "Absolutely. It won't happen again.", "zh": "一定，不會再發生了。" }
+        ]
+      },
+      {
+        "title": "Forgot to reply",
+        "lines": [
+          { "speaker": "Daniel", "en": "Hey, did you ever reply to the printer? They called me asking about the paper.", "zh": "嘿，你有回印刷廠嗎？他們打給我問紙的事。" },
+          { "speaker": "Minz", "en": "Ugh, my bad! I was reading their email while I was on a call, and I totally forgot about it.", "zh": "唉，我的錯！我在講電話時看了他們的信，然後就完全忘了。" },
+          { "speaker": "Daniel", "en": "No worries. I told them you'd get back to them today.", "zh": "沒關係，我跟他們說你今天會回覆。" },
+          { "speaker": "Minz", "en": "Thanks for covering. I really dropped the ball on that one.", "zh": "謝謝你幫我擋，那件事我真的漏掉了。" },
+          { "speaker": "Daniel", "en": "Hey, everyone messes up sometimes. Last month I screwed up a whole invoice.", "zh": "嘿，每個人都會出包。上個月我整張發票都搞砸了。" },
+          { "speaker": "Minz", "en": "Ha, I remember. OK, replying now.", "zh": "哈，我記得。好，我現在回。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "That's on me.", "zh": "是我的錯。", "note": "承擔責任最簡潔有力的說法" },
+      { "en": "I'm so sorry about that.", "zh": "真的很抱歉。" },
+      { "en": "Here's what happened.", "zh": "事情是這樣的。" },
+      { "en": "I was ___ when ___.", "zh": "我正在 ___ 的時候，___。" },
+      { "en": "I must have ___ by mistake.", "zh": "我一定是不小心 ___。" },
+      { "en": "I'll fix it right away.", "zh": "我馬上處理。" },
+      { "en": "It won't happen again.", "zh": "不會再發生了。" },
+      { "en": "Thanks for your patience.", "zh": "謝謝你的耐心。" },
+      { "en": "Sorry for the confusion.", "zh": "抱歉造成混亂。" },
+      { "en": "These things happen.", "zh": "這種事難免。", "note": "安慰出包的人" }
+    ],
+    "chinglish": [
+      { "wrong": "Sorry, I make a mistake.", "right": "Sorry, I made a mistake. / Sorry, my mistake.", "why": "錯誤已經發生，要用過去式 made。" },
+      { "wrong": "When I send the email, the computer was crashed.", "right": "I was sending the email when my computer crashed.", "why": "兩個錯：「正在寄」要用過去進行式；crash 是主動發生，不用被動。" },
+      { "wrong": "Sorry sorry sorry, is my fault.", "right": "I'm really sorry. That's my fault.", "why": "中文可以連說好幾次「抱歉」，英文一次 really sorry 就夠了，而且 is my fault 少了主詞。" },
+      { "wrong": "I will pay attention next time.", "right": "I'll double-check everything from now on.", "why": "「下次會注意」直翻有點空泛，英文職場更期待聽到具體的改善方法。" }
+    ]
+  },
+  "grammar": {
+    "id": "past-continuous-when-while",
+    "title": "過去進行式＋when / while",
+    "oneLiner": "過去進行式（was / were + V-ing）是「背景」，過去式是「打斷它的事件」；while 接背景，when 常接事件。",
+    "whenToUse": [
+      "過去某個時間點正在做的事：At 3 p.m. I was talking to a client.",
+      "背景 + 打斷事件：I was exporting the files when the software crashed.",
+      "while + 進行式（兩件事同時在持續）：I was reading the email while I was on a call.",
+      "when + 過去式（突然發生的事件）：The power went out when I was saving the file.",
+      "兩個句子可以對調順序，放前面的子句後加逗號：When the software crashed, I was exporting the files."
+    ],
+    "whyWeGetItWrong": "中文用「正在…的時候」表達背景，動詞本身不變，所以台灣人說故事時常整段用過去式（或整段用現在式）。英文聽眾需要知道哪個動作是背景、哪個是突發事件，才能理解經過。出包時把背景和事件講清楚，聽起來更像在說明狀況，而不是在找藉口。",
+    "examples": [
+      { "correct": "I was presenting when my laptop died.", "incorrect": "I presented when my laptop was dying.", "note": "背景用進行式，突發事件用過去式。" },
+      { "correct": "While I was waiting for the bus, I answered some emails.", "note": "while + 背景動作。" },
+      { "correct": "What were you doing when the client called?", "note": "問當時正在做什麼。" },
+      { "correct": "She was typing while he was talking.", "note": "兩個同時持續的動作。" },
+      { "correct": "When I got to the office, everyone was waiting for me.", "note": "我到的時候，大家已經在等（背景）。" }
+    ],
+    "quiz": [
+      { "id": "u028-g1", "type": "mcq", "question": "I ___ the files when the power went out.", "options": ["saved", "was saving", "am saving"], "answer": 1, "explanation": "被打斷的背景動作用過去進行式。" },
+      { "id": "u028-g2", "type": "mcq", "question": "The client ___ while I was in the shower.", "options": ["called", "was call", "calling"], "answer": 0, "explanation": "突發事件用過去式。" },
+      { "id": "u028-g3", "type": "fill", "question": "What ___ you doing at 10 last night?", "answer": "were", "explanation": "you 的過去進行式用 were。" },
+      { "id": "u028-g4", "type": "fill", "question": "___ I was driving to work, I remembered the deadline. (當…的時候，接持續動作)", "answer": "While|When", "explanation": "while 接持續的背景動作（when 也可以）。" },
+      { "id": "u028-g5", "type": "mcq", "question": "I was ___ an email when I noticed the typo.", "options": ["write", "writing", "wrote"], "answer": 1, "explanation": "was + V-ing。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "my-bad",
+      "term": "my bad",
+      "meaning": "我的錯（輕鬆版）",
+      "register": "very-casual",
+      "usage": "小錯誤時的隨口道歉，例如撞到人、拿錯東西。",
+      "risk": { "level": "careful", "note": "只適合小事和熟人。對客戶或大錯誤說 my bad 會顯得不當一回事，要用 I'm sorry, that's my fault。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "Oh, my bad. I thought this was my coffee.", "zh": "喔，我的錯，我以為這杯是我的咖啡。" },
+        { "en": "My bad, I forgot to add you to the invite.", "zh": "抱歉，我忘了把你加進邀請。" }
+      ]
+    },
+    {
+      "id": "drop-the-ball",
+      "term": "drop the ball",
+      "meaning": "漏接、疏忽失職",
+      "register": "neutral",
+      "usage": "該負責的事沒做好，像球賽中漏接。I dropped the ball on that.",
+      "risk": { "level": "safe", "note": "職場承認疏失的常用說法，說自己沒問題；說別人要注意語氣。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "I dropped the ball on the follow-up email. Sorry about that.", "zh": "後續追蹤的信我漏掉了，抱歉。" },
+        { "en": "Someone dropped the ball, and the order never went out.", "zh": "有人疏忽了，訂單一直沒寄出。" }
+      ]
+    },
+    {
+      "id": "mess-up",
+      "term": "mess up",
+      "meaning": "搞砸、弄亂",
+      "register": "casual",
+      "usage": "mess up / mess something up。名詞 a mess-up = 出包。",
+      "risk": { "level": "safe", "note": "口語但不粗俗，職場可用。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "I messed up the order, so I'll fix it.", "zh": "我把訂單搞砸了，我來處理。" },
+        { "en": "Don't worry, everyone messes up sometimes.", "zh": "別擔心，每個人都會出錯。" }
+      ]
+    },
+    {
+      "id": "screw-up",
+      "term": "screw up",
+      "meaning": "搞砸（比 mess up 重）",
+      "register": "very-casual",
+      "usage": "screw up / screw something up；名詞 a screw-up。",
+      "risk": { "level": "avoid-at-work", "note": "有點粗，雖然美國職場私下常聽到，但對客戶、主管或正式場合用 mess up / make a mistake。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "I really screwed up the presentation.", "zh": "我簡報整個搞砸了。" },
+        { "en": "Whoever screwed up the schedule, please fix it.", "zh": "不管是誰把班表搞亂的，請修好。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u028-r1", "sourceUnit": 27, "type": "mcq", "question": "Could you tell me where ___?", "options": ["is the printer", "the printer is", "does the printer"], "answer": 1, "explanation": "複習第 27 單元：間接問句用肯定語序。" },
+    { "id": "u028-r2", "sourceUnit": 27, "type": "fill", "question": "Let me run it ___ my manager before I say yes.", "answer": "by", "explanation": "複習第 27 單元：run it by = 先確認。" },
+    { "id": "u028-r3", "sourceUnit": 26, "type": "mcq", "question": "I ___ this bug all afternoon and I still can't find it.", "options": ["'ve been chasing", "chase", "'m chase"], "answer": 0, "explanation": "複習第 26 單元：持續到現在的動作。" },
+    { "id": "u028-r4", "sourceUnit": 24, "type": "mcq", "question": "I'll ___ the intern fix the typo.", "options": ["have", "get", "make to"], "answer": 0, "explanation": "複習第 24 單元：安排屬下做事用 have + 原形。" },
+    { "id": "u028-r5", "sourceUnit": 20, "type": "mcq", "question": "What did the client ___ about the new logo?", "options": ["say", "tell", "talk"], "answer": 0, "explanation": "複習第 20 單元：後面沒接人用 say。" },
+    { "id": "u028-r6", "sourceUnit": 12, "type": "fill", "question": "Don't worry, I've ___ sent the correct version. (剛剛)", "answer": "just", "explanation": "複習第 12 單元：just = 剛剛。" },
+    { "id": "u028-r7", "sourceUnit": 28, "type": "mcq", "question": "You sent a client the wrong invoice. The best apology is:", "options": ["My bad lol.", "I'm so sorry, that's on me. I'll send the correct one now.", "Screw up, sorry."], "answer": 1, "explanation": "對客戶要正式承認並提出補救。" }
+  ]
+}

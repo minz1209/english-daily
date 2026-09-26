@@ -1,0 +1,149 @@
+{
+  "id": 29,
+  "module": 3,
+  "level": "B1+",
+  "title": { "zh": "下班小聚", "en": "After-Work Drinks" },
+  "scenario": {
+    "title": "跟同事下班喝一杯、閒聊",
+    "context": "下班聚會的對話充滿「…對吧？」「…不是嗎？」：今天好累喔對吧、你不是住附近嗎。英文用附加問句（tag questions）來拉近距離、邀請對方接話，是聽起來自然的關鍵。",
+    "dialogues": [
+      {
+        "title": "Friday evening",
+        "lines": [
+          { "speaker": "Amy", "en": "It's been a long week, hasn't it?", "zh": "這週好漫長，對吧？" },
+          { "speaker": "Minz", "en": "Seriously. Anyone want to grab a bite?", "zh": "真的。有人要去吃點東西嗎？" },
+          { "speaker": "Daniel", "en": "There's a happy hour at the bar across the street, isn't there?", "zh": "對面那間酒吧有歡樂時光優惠，不是嗎？" },
+          { "speaker": "Amy", "en": "Yeah, half-price drinks till eight. You're coming, aren't you, Minz?", "zh": "對，八點前飲料半價。Minz 你會來吧？" },
+          { "speaker": "Minz", "en": "Just for one drink. I have to be up early tomorrow.", "zh": "只喝一杯，我明天要早起。" },
+          { "speaker": "Daniel", "en": "You said that last time, didn't you? And we stayed till midnight.", "zh": "你上次也這樣說，不是嗎？結果我們待到半夜。" },
+          { "speaker": "Minz", "en": "OK, fair. But tonight I really mean it.", "zh": "好啦，有道理。但今晚我是認真的。" }
+        ]
+      },
+      {
+        "title": "At the bar",
+        "lines": [
+          { "speaker": "Amy", "en": "Karen doesn't usually come to these, does she?", "zh": "Karen 通常不會來這種聚會，對吧？" },
+          { "speaker": "Daniel", "en": "Not really. I think she likes to keep work and life separate.", "zh": "不太會。我覺得她喜歡把工作和生活分開。" },
+          { "speaker": "Minz", "en": "That's healthy, isn't it? Unlike us.", "zh": "那很健康吧？不像我們。" },
+          { "speaker": "Daniel", "en": "Hey, we deserve to let loose once in a while.", "zh": "嘿，我們偶爾也該放鬆一下。" },
+          { "speaker": "Amy", "en": "Let's order some fries, shall we?", "zh": "我們點個薯條吧，好嗎？" },
+          { "speaker": "Minz", "en": "Sure. After that, I'm going to call it a night.", "zh": "好。吃完我就要回家了。" },
+          { "speaker": "Daniel", "en": "Sure you are.", "zh": "最好是啦。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "It's been a long week, hasn't it?", "zh": "這週好漫長，對吧？" },
+      { "en": "Anyone want to grab a bite?", "zh": "有人要去吃點東西嗎？" },
+      { "en": "What are you drinking?", "zh": "你喝什麼？", "note": "問對方要點什麼" },
+      { "en": "This round's on me.", "zh": "這輪我請。" },
+      { "en": "Just one drink for me.", "zh": "我只喝一杯。" },
+      { "en": "Cheers!", "zh": "乾杯！" },
+      { "en": "I should get going.", "zh": "我該走了。" },
+      { "en": "Let's do this again sometime.", "zh": "改天再聚。" },
+      { "en": "Get home safe!", "zh": "平安到家！" },
+      { "en": "You're coming, aren't you?", "zh": "你會來吧？" }
+    ],
+    "chinglish": [
+      { "wrong": "You are tired, right or not?", "right": "You're tired, aren't you?", "why": "「對不對」直翻成 right or not 不是英文。口語可以用 right?，更道地的是附加問句。" },
+      { "wrong": "Let's go drink.", "right": "Let's grab a drink. / Let's go for a drink.", "why": "go drink 聽起來像要去喝到爛醉。社交喝一杯說 grab a drink / go for drinks。" },
+      { "wrong": "He doesn't drink, is it?", "right": "He doesn't drink, does he?", "why": "附加問句要跟前面的主詞和助動詞對應，不能一律用 is it。這是新加坡、馬來西亞英文的特色，標準英文不這樣說。" },
+      { "wrong": "I go home first.", "right": "I'm going to head out. / I'll head home.", "why": "「我先回家了」的「先」直翻會很怪。離開說 head out / head home。" }
+    ]
+  },
+  "grammar": {
+    "id": "tag-questions",
+    "title": "附加問句",
+    "oneLiner": "肯定句配否定的尾巴，否定句配肯定的尾巴；尾巴用和前面對應的助動詞與代名詞。",
+    "whenToUse": [
+      "肯定句 + 否定尾巴：It's cold, isn't it? / You're coming, aren't you?",
+      "否定句 + 肯定尾巴：She doesn't drink, does she? / You haven't eaten, have you?",
+      "一般動詞用 do / does / did：You live nearby, don't you? / You said that, didn't you?",
+      "特殊：I am → aren't I?（I'm right, aren't I?）；Let's → shall we?；祈使句 → will you?",
+      "語調：尾巴下降 = 只是想確認、聊天；尾巴上升 = 真的不確定、在問。",
+      "口語也常用 right? 取代：You're coming, right?"
+    ],
+    "whyWeGetItWrong": "中文只要在句尾加「對吧」「是不是」「嗎」，不需要看前面的句子。英文的附加問句要對應前面的主詞、時態和助動詞，還要肯定否定相反，腦袋要瞬間處理好幾件事。剛開始可以先用 right? 撐場面，但聽懂附加問句很重要，因為母語者講得非常多。",
+    "examples": [
+      { "correct": "You're from Tainan, aren't you?", "incorrect": "You're from Tainan, isn't it?", "note": "主詞 you，用 aren't you。" },
+      { "correct": "Daniel doesn't eat meat, does he?", "note": "否定句配肯定尾巴。" },
+      { "correct": "We met last year, didn't we?", "note": "過去式用 didn't。" },
+      { "correct": "You've tried this place before, haven't you?", "note": "現在完成式用 haven't。" },
+      { "correct": "Let's get another round, shall we?", "note": "Let's 的尾巴是 shall we。" }
+    ],
+    "quiz": [
+      { "id": "u029-g1", "type": "mcq", "question": "It's a nice bar, ___?", "options": ["isn't it", "is it", "doesn't it"], "answer": 0, "explanation": "肯定句 + 否定尾巴，be 動詞用 isn't it。" },
+      { "id": "u029-g2", "type": "mcq", "question": "You don't drink beer, ___?", "options": ["don't you", "do you", "are you"], "answer": 1, "explanation": "否定句 + 肯定尾巴。" },
+      { "id": "u029-g3", "type": "fill", "question": "You went to the party last night, ___ you?", "answer": "didn't", "explanation": "過去式肯定句用 didn't you。" },
+      { "id": "u029-g4", "type": "fill", "question": "She's been here before, ___ she?", "answer": "hasn't", "explanation": "She's been = She has been，用 hasn't she。" },
+      { "id": "u029-g5", "type": "mcq", "question": "Let's split the bill, ___?", "options": ["shall we", "don't we", "let's we"], "answer": 0, "explanation": "Let's 的尾巴是 shall we。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "grab-a-bite",
+      "term": "grab a bite",
+      "meaning": "隨便吃點東西",
+      "register": "casual",
+      "usage": "grab a bite (to eat)，簡單吃一頓，不是正式大餐。",
+      "risk": { "level": "safe", "note": "同事朋友都能用。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Want to grab a bite before the movie?", "zh": "看電影前要不要吃點東西？" },
+        { "en": "I'll just grab a bite at my desk.", "zh": "我在座位上隨便吃一下就好。" }
+      ]
+    },
+    {
+      "id": "happy-hour",
+      "term": "happy hour",
+      "meaning": "歡樂時光（酒吧下班時段的優惠）",
+      "register": "neutral",
+      "usage": "通常是傍晚五到七點的飲料折扣時段，也引申為「下班喝一杯」。",
+      "risk": { "level": "safe", "note": "公司也常辦 team happy hour，很普遍。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Team happy hour is at six on Friday.", "zh": "團隊聚會週五六點。" },
+        { "en": "Let's go before happy hour ends.", "zh": "趁優惠時段結束前去吧。" }
+      ]
+    },
+    {
+      "id": "call-it-a-night",
+      "term": "call it a night",
+      "meaning": "今晚就到這、收工回家",
+      "register": "casual",
+      "usage": "晚上活動或工作要結束時說。白天的版本是 call it a day。",
+      "risk": { "level": "safe", "note": "輕鬆常用。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "It's almost midnight. I'm going to call it a night.", "zh": "快半夜了，我要回家了。" },
+        { "en": "Let's call it a night and finish this tomorrow.", "zh": "今晚就到這，明天再做完。" }
+      ]
+    },
+    {
+      "id": "let-loose",
+      "term": "let loose",
+      "meaning": "放開玩、盡情放鬆",
+      "register": "casual",
+      "usage": "拋開拘束盡情享受，常用在派對、聚會、度假。",
+      "risk": { "level": "safe", "note": "正面輕鬆的說法。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "After the deadline, we all let loose at karaoke.", "zh": "截稿後我們在 KTV 盡情放鬆。" },
+        { "en": "You work so hard. You need to let loose sometimes.", "zh": "你太認真了，偶爾也要放開玩一下。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u029-r1", "sourceUnit": 28, "type": "mcq", "question": "I ___ dinner when my boss called.", "options": ["cooked", "was cooking", "am cooking"], "answer": 1, "explanation": "複習第 28 單元：被打斷的背景用過去進行式。" },
+    { "id": "u029-r2", "sourceUnit": 28, "type": "fill", "question": "I totally dropped the ___ on that email. Sorry!", "answer": "ball", "explanation": "複習第 28 單元：drop the ball = 疏忽。" },
+    { "id": "u029-r3", "sourceUnit": 27, "type": "mcq", "question": "Do you know ___?", "options": ["what time does the bar close", "what time the bar closes", "what time closes the bar"], "answer": 1, "explanation": "複習第 27 單元：間接問句用肯定語序。" },
+    { "id": "u029-r4", "sourceUnit": 25, "type": "mcq", "question": "Which is correct?", "options": ["Turn off it.", "Turn it off.", "Off turn it."], "answer": 1, "explanation": "複習第 25 單元：代名詞夾中間。" },
+    { "id": "u029-r5", "sourceUnit": 21, "type": "fill", "question": "I've known Amy ___ we were in college.", "answer": "since", "explanation": "複習第 21 單元：起點用 since。" },
+    { "id": "u029-r6", "sourceUnit": 13, "type": "mcq", "question": "Karaoke with coworkers is always so ___.", "options": ["embarrassed", "embarrassing", "embarrass"], "answer": 1, "explanation": "複習第 13 單元：令人尷尬用 -ing。" },
+    { "id": "u029-r7", "sourceUnit": 29, "type": "mcq", "question": "You're coming to happy hour, ___?", "options": ["aren't you", "are you", "don't you"], "answer": 0, "explanation": "肯定句 + 否定尾巴。" }
+  ]
+}

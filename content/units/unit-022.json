@@ -1,0 +1,149 @@
+{
+  "id": 22,
+  "module": 3,
+  "level": "B1+",
+  "title": { "zh": "開會發言", "en": "Speaking Up in Meetings" },
+  "scenario": {
+    "title": "在會議上表達同意與不同意",
+    "context": "英文會議最難的不是聽懂，而是敢開口，尤其是要說「我不同意」的時候。這個單元學怎麼同意、部分同意、禮貌地反對，也修正台灣人最經典的錯誤：I'm agree。",
+    "dialogues": [
+      {
+        "title": "Weekly design meeting",
+        "lines": [
+          { "speaker": "Karen", "en": "So the client wants the logo in bright red. Thoughts?", "zh": "客戶希望 logo 用亮紅色。大家覺得呢？" },
+          { "speaker": "Daniel", "en": "I agree. Red fits a spicy noodle brand.", "zh": "我同意，紅色很適合辣味麵品牌。" },
+          { "speaker": "Minz", "en": "I see your point, but I'm not sure I agree. Every noodle brand on the shelf is already red.", "zh": "我懂你的意思，但我不太確定。貨架上每個麵品牌都已經是紅色了。" },
+          { "speaker": "Karen", "en": "Good point. So what would you suggest?", "zh": "說得好。那你會建議什麼？" },
+          { "speaker": "Minz", "en": "Maybe a deep orange? It still feels spicy, but it'll stand out.", "zh": "也許用深橘色？還是有辣的感覺，但會比較突出。" },
+          { "speaker": "Daniel", "en": "Hmm, I partly agree. It's a risk, though. The client was pretty clear.", "zh": "嗯，我部分同意。不過有風險，客戶講得蠻明確的。" },
+          { "speaker": "Karen", "en": "Let's make sure we're on the same page before we talk to them. Can we do one red and one orange option?", "zh": "跟客戶談之前我們先確認想法一致。可以做一個紅色、一個橘色的方案嗎？" },
+          { "speaker": "Minz", "en": "That works for me.", "zh": "我可以。" }
+        ]
+      },
+      {
+        "title": "Parking a topic",
+        "lines": [
+          { "speaker": "Amy", "en": "Should we also discuss the packaging timeline?", "zh": "我們要不要也討論一下包裝時程？" },
+          { "speaker": "Karen", "en": "Let's put a pin in that. We're almost out of time.", "zh": "那個先放著，我們快沒時間了。" },
+          { "speaker": "Amy", "en": "Sure. Can we circle back to it on Thursday?", "zh": "好。那週四再回來討論？" },
+          { "speaker": "Karen", "en": "Definitely. Minz, could you touch base with the printer before then?", "zh": "一定。Minz，在那之前你可以先跟印刷廠聯絡一下嗎？" },
+          { "speaker": "Minz", "en": "Will do. I'll email them this afternoon.", "zh": "好的，我今天下午寄信給他們。" },
+          { "speaker": "Karen", "en": "Great. Anything else before we wrap up?", "zh": "很好。結束前還有別的嗎？" },
+          { "speaker": "Daniel", "en": "Nope, I think we're good.", "zh": "沒有，應該都好了。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "I agree with you.", "zh": "我同意你。" },
+      { "en": "That's a good point.", "zh": "說得好。" },
+      { "en": "I see your point, but ___.", "zh": "我懂你的意思，但 ___。", "note": "先認同再轉折，反對聽起來溫和很多" },
+      { "en": "I'm not sure I agree.", "zh": "我不太確定我同意。", "note": "比 I disagree 委婉" },
+      { "en": "I partly agree.", "zh": "我部分同意。" },
+      { "en": "What if we ___?", "zh": "如果我們 ___ 呢？" },
+      { "en": "Could I add something?", "zh": "我可以補充一點嗎？", "note": "插話的禮貌方式" },
+      { "en": "Sorry, could you clarify what you mean by ___?", "zh": "抱歉，可以說明一下 ___ 是什麼意思嗎？" },
+      { "en": "That works for me.", "zh": "我可以。" },
+      { "en": "Anything else before we wrap up?", "zh": "結束前還有其他事嗎？" }
+    ],
+    "chinglish": [
+      { "wrong": "I'm agree with you.", "right": "I agree with you.", "why": "agree 是動詞，不是形容詞，前面不加 am。中文「我同意」沒有 be 動詞的概念，但很多人受 I'm sure / I'm right 影響而加了 am。" },
+      { "wrong": "I'm not agree.", "right": "I don't agree. / I disagree.", "why": "否定也是一樣，agree 是動詞，用 don't。" },
+      { "wrong": "Your idea is wrong.", "right": "I'm not sure that'll work, because ___.", "why": "英文職場很少直接說別人錯，會用 hedging 軟化並附上理由。直說 wrong 聽起來很有攻擊性。" },
+      { "wrong": "I have a question want to ask.", "right": "I have a question. / Can I ask a question?", "why": "中文「我有問題想問」直翻會多出一個動詞。" }
+    ]
+  },
+  "grammar": {
+    "id": "agree-disagree",
+    "title": "同意／不同意：I agree（不說 I'm agree）",
+    "oneLiner": "agree 是動詞：I agree / I don't agree；搭配 with 人、on 議題、that 子句。",
+    "whenToUse": [
+      "agree with + 人或意見：I agree with you / with that.",
+      "agree on + 議題（達成共識）：We agreed on the budget.",
+      "agree to + 提議（答應）：The client agreed to our timeline.",
+      "agree that + 子句：I agree that red is too common.",
+      "否定：I don't agree / I disagree。disagree 比較直接，前面常加 I'm afraid I… 或 I have to respectfully…",
+      "程度：I totally agree / I partly agree / I couldn't agree more."
+    ],
+    "whyWeGetItWrong": "中文「我同意」「我很確定」「我準備好了」看起來結構一樣，但英文分別是動詞 agree、形容詞 sure、形容詞 ready。台灣人以為「同意」是一種狀態，就在前面加 am。另外，中文開會文化裡直接反對比較少，所以台灣人要嘛不說，要嘛一開口就太直接。",
+    "examples": [
+      { "correct": "I agree with Daniel.", "incorrect": "I'm agree with Daniel.", "note": "agree 是動詞。" },
+      { "correct": "I don't agree with that approach.", "incorrect": "I'm not agree with that approach.", "note": "否定用 don't。" },
+      { "correct": "We finally agreed on a color.", "note": "達成共識用 agree on。" },
+      { "correct": "They agreed to extend the deadline.", "note": "答應某個提議用 agree to。" },
+      { "correct": "I agree that the timeline is tight, but it's doable.", "note": "agree that + 子句。" }
+    ],
+    "quiz": [
+      { "id": "u022-g1", "type": "mcq", "question": "Which is correct?", "options": ["I'm agree.", "I agree.", "I agreeing."], "answer": 1, "explanation": "agree 是動詞，不加 am。" },
+      { "id": "u022-g2", "type": "fill", "question": "I ___ agree with that. I think it's too risky. (否定)", "answer": "don't|do not", "explanation": "否定用 don't agree。" },
+      { "id": "u022-g3", "type": "mcq", "question": "After two hours, we finally agreed ___ a name.", "options": ["with", "on", "to"], "answer": 1, "explanation": "達成共識用 agree on。" },
+      { "id": "u022-g4", "type": "mcq", "question": "The client agreed ___ our new budget.", "options": ["to", "with", "at"], "answer": 0, "explanation": "答應某個提議用 agree to。" },
+      { "id": "u022-g5", "type": "mcq", "question": "Which is the most polite way to disagree?", "options": ["You're wrong.", "I see your point, but I'm not sure that'll work.", "No, bad idea."], "answer": 1, "explanation": "先認同，再委婉表達疑慮。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "on-the-same-page",
+      "term": "on the same page",
+      "meaning": "想法一致、有共識",
+      "register": "neutral",
+      "usage": "確認大家對某事理解相同。Let's make sure we're on the same page.",
+      "risk": { "level": "safe", "note": "職場超常用。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Before we start, let's make sure we're all on the same page.", "zh": "開始之前，先確認大家想法一致。" },
+        { "en": "I don't think the client and we are on the same page.", "zh": "我覺得我們和客戶的認知不一樣。" }
+      ]
+    },
+    {
+      "id": "touch-base",
+      "term": "touch base",
+      "meaning": "簡短聯絡一下、確認一下",
+      "register": "neutral",
+      "usage": "touch base with someone，簡單溝通或更新進度。",
+      "risk": { "level": "safe", "note": "典型的職場用語，有人覺得有點老套，但非常普遍。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "Let's touch base next week about the launch.", "zh": "下週我們再針對上市聯絡一下。" },
+        { "en": "I'll touch base with the printer tomorrow.", "zh": "我明天跟印刷廠確認一下。" }
+      ]
+    },
+    {
+      "id": "circle-back",
+      "term": "circle back",
+      "meaning": "之後再回來討論",
+      "register": "neutral",
+      "usage": "circle back to something / circle back on something，稍後再處理某話題。",
+      "risk": { "level": "careful", "note": "被認為是很重的職場行話，常被取笑，有時也被當成「拖延」的委婉說法。用可以，別每句都用。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "Good question. Can we circle back to that after lunch?", "zh": "好問題，我們午餐後再回來討論好嗎？" },
+        { "en": "I'll circle back once I hear from the client.", "zh": "等客戶回覆後我再跟你更新。" }
+      ]
+    },
+    {
+      "id": "put-a-pin-in-it",
+      "term": "put a pin in it",
+      "meaning": "先擱著、暫時放一邊",
+      "register": "casual",
+      "usage": "像把便條釘在牆上，之後再回來處理。",
+      "risk": { "level": "safe", "note": "會議上很常用，語氣輕鬆。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "Let's put a pin in the budget discussion for now.", "zh": "預算的討論先放著。" },
+        { "en": "Interesting idea. Can we put a pin in it?", "zh": "有意思的想法，可以先記下來之後再談嗎？" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u022-r1", "sourceUnit": 21, "type": "mcq", "question": "I ___ in this company since 2022.", "options": ["work", "'ve worked", "worked"], "answer": 1, "explanation": "複習第 21 單元：since + 起點，用現在完成式。" },
+    { "id": "u022-r2", "sourceUnit": 20, "type": "mcq", "question": "Karen ___ me the meeting was moved to 3.", "options": ["said", "told", "talked"], "answer": 1, "explanation": "複習第 20 單元：tell + 人。" },
+    { "id": "u022-r3", "sourceUnit": 18, "type": "fill", "question": "The final files will be ___ (send) to the client tomorrow.", "answer": "sent", "explanation": "複習第 18 單元：被動 will be + p.p.。" },
+    { "id": "u022-r4", "sourceUnit": 14, "type": "mcq", "question": "Would you mind ___ the slides?", "options": ["to share", "sharing", "share"], "answer": 1, "explanation": "複習第 14 單元：mind + V-ing。" },
+    { "id": "u022-r5", "sourceUnit": 6, "type": "mcq", "question": "We don't have ___ time left. Let's wrap up.", "options": ["many", "much", "few"], "answer": 1, "explanation": "複習第 6 單元：time 不可數，用 much。" },
+    { "id": "u022-r6", "sourceUnit": 22, "type": "fill", "question": "Let's make sure we're on the same ___ before the client meeting.", "answer": "page", "explanation": "on the same page = 想法一致。" }
+  ]
+}

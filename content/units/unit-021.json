@@ -1,0 +1,149 @@
+{
+  "id": 21,
+  "module": 3,
+  "level": "B1+",
+  "title": { "zh": "上班第一天", "en": "First Day at Work" },
+  "scenario": {
+    "title": "新公司自我介紹、認識同事",
+    "context": "到新公司第一天，每個人都會問：你之前在哪裡、做這行多久了、住這附近多久了。回答這些問題需要分清楚「已經結束的經歷」（過去式）和「持續到現在的狀態」（現在完成式 + for / since）。",
+    "dialogues": [
+      {
+        "title": "Meeting the team",
+        "lines": [
+          { "speaker": "Karen", "en": "Everyone, this is Minz. She's joining us as our new visual designer.", "zh": "各位，這位是 Minz，她是我們的新視覺設計師。" },
+          { "speaker": "Minz", "en": "Hi everyone! I'm really excited to be here.", "zh": "大家好！很高興來到這裡。" },
+          { "speaker": "Daniel", "en": "Welcome aboard! Where were you before this?", "zh": "歡迎加入！你之前在哪裡？" },
+          { "speaker": "Minz", "en": "I worked at a branding agency for three years, and I've been freelancing since last spring.", "zh": "我在一家品牌設計公司待了三年，從去年春天開始接案。" },
+          { "speaker": "Daniel", "en": "Nice. So you've done a lot of food and beverage work, right? Karen showed us your portfolio.", "zh": "不錯。你做過很多餐飲的案子對吧？Karen 給我們看過你的作品集。" },
+          { "speaker": "Minz", "en": "Yeah, I've worked with about fifteen F&B brands so far.", "zh": "對，到目前為止跟大概十五個餐飲品牌合作過。" },
+          { "speaker": "Karen", "en": "Daniel's been here the longest, so he'll show you the ropes.", "zh": "Daniel 待最久，他會帶你熟悉環境。" },
+          { "speaker": "Daniel", "en": "Happy to. Don't worry, we don't bite.", "zh": "樂意之至。別擔心，我們不會咬人。" }
+        ]
+      },
+      {
+        "title": "Lunch with a coworker",
+        "lines": [
+          { "speaker": "Amy", "en": "So how's your first day going?", "zh": "第一天還好嗎？" },
+          { "speaker": "Minz", "en": "Good so far! I had some first-day jitters this morning, but everyone's been really nice.", "zh": "目前不錯！早上有點新人緊張，但大家都很友善。" },
+          { "speaker": "Amy", "en": "Totally normal. I've only been here since March, so I'm still kind of a newbie too.", "zh": "很正常。我三月才來，所以我也還算新人。" },
+          { "speaker": "Minz", "en": "Really? How long have you lived in this area?", "zh": "真的嗎？你在這一區住多久了？" },
+          { "speaker": "Amy", "en": "For about five years. I moved here after grad school.", "zh": "大概五年。我研究所畢業後搬來的。" },
+          { "speaker": "Minz", "en": "Then you have to tell me all the good lunch spots.", "zh": "那你一定要告訴我所有好吃的午餐店。" },
+          { "speaker": "Amy", "en": "Deal. And a tip: Karen loves team players. Offer to help and she'll love you.", "zh": "成交。給你個建議：Karen 很欣賞有團隊精神的人，主動幫忙她就會喜歡你。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "I'm really excited to be here.", "zh": "很高興來到這裡。" },
+      { "en": "I've been in the industry for about five years.", "zh": "我在這行大概五年了。" },
+      { "en": "Before this, I worked at ___.", "zh": "在這之前，我在 ___ 工作。" },
+      { "en": "I've been freelancing since 2025.", "zh": "我從 2025 年開始接案。" },
+      { "en": "How long have you been here?", "zh": "你在這裡多久了？" },
+      { "en": "Welcome aboard!", "zh": "歡迎加入！" },
+      { "en": "Let me know if there's anything I can help with.", "zh": "有什麼我能幫忙的就跟我說。" },
+      { "en": "I'm still learning the ropes.", "zh": "我還在熟悉中。" },
+      { "en": "Who should I ask about ___?", "zh": "___ 的事我該問誰？" },
+      { "en": "How's your first week going?", "zh": "第一週還好嗎？" }
+    ],
+    "chinglish": [
+      { "wrong": "I work here for three years.", "right": "I've worked here for three years.", "why": "中文「我在這工作三年了」沒有時態標記。持續到現在的狀態要用現在完成式；用現在式聽起來像「我每次都在這做三年」。" },
+      { "wrong": "I have graduated in 2020.", "right": "I graduated in 2020.", "why": "有明確過去時間（in 2020）就用過去式，這是第 12 單元的延伸。" },
+      { "wrong": "I have lived here since five years.", "right": "I've lived here for five years. / I've lived here since 2021.", "why": "for + 一段時間，since + 起點。中文「五年了」「從 2021 年」都可能翻成 since。" },
+      { "wrong": "Nice to meet you all, please give me more advices.", "right": "Nice to meet you all. I'm looking forward to working with you.", "why": "「請多多指教」沒有對應的英文。直接說期待合作就好，而且 advice 不可數。" }
+    ]
+  },
+  "grammar": {
+    "id": "present-perfect-vs-past-for-since",
+    "title": "現在完成 vs 過去式＋for / since",
+    "oneLiner": "已經結束、有明確時間的事用過去式；從過去一路延續到現在的事用現在完成式。",
+    "whenToUse": [
+      "過去式：事情已經結束，或有明確過去時間。I worked at an agency for three years.（現在已經不在那）",
+      "現在完成式 + for / since：到現在都還是這樣。I've worked here for three years.（現在還在）",
+      "for + 一段時間：for two weeks, for ages, for a long time。",
+      "since + 起點：since March, since 2023, since I was a kid, since last spring。",
+      "問多久：How long have you worked here? / How long have you been here?",
+      "經驗（到目前為止）：I've worked with fifteen brands so far."
+    ],
+    "whyWeGetItWrong": "中文用「了」同時處理「已經結束」和「持續到現在」：「我在那工作了三年」（已離職）和「我在這工作三年了」（還在），差別只在「了」的位置。英文把差別放在時態：worked 表示結束了，have worked 表示還在持續。說錯了對方會誤會你已經離職或還在職。",
+    "examples": [
+      { "correct": "I lived in Tainan for ten years. Now I live in Taipei.", "note": "已經不住台南了，用過去式。" },
+      { "correct": "I've lived in Taipei since 2019.", "incorrect": "I live in Taipei since 2019.", "note": "從 2019 到現在，用現在完成式。" },
+      { "correct": "How long have you known Karen?", "incorrect": "How long do you know Karen?", "note": "問持續多久用現在完成式。" },
+      { "correct": "I've been a designer for about eight years.", "note": "be 動詞的現在完成式：have been。" },
+      { "correct": "She joined the company last month.", "incorrect": "She has joined the company last month.", "note": "有 last month 用過去式。" }
+    ],
+    "quiz": [
+      { "id": "u021-g1", "type": "mcq", "question": "I ___ here since January.", "options": ["work", "worked", "'ve worked"], "answer": 2, "explanation": "since + 起點，持續到現在，用現在完成式。" },
+      { "id": "u021-g2", "type": "mcq", "question": "I ___ at a bank for two years, but I quit in 2023.", "options": ["worked", "'ve worked", "work"], "answer": 0, "explanation": "已經結束了，用過去式。" },
+      { "id": "u021-g3", "type": "fill", "question": "I've known Daniel ___ ten years.", "answer": "for", "explanation": "一段時間用 for。" },
+      { "id": "u021-g4", "type": "fill", "question": "She's been our manager ___ 2022.", "answer": "since", "explanation": "起點用 since。" },
+      { "id": "u021-g5", "type": "mcq", "question": "How long ___ in Taipei?", "options": ["do you live", "have you lived", "did you live"], "answer": 1, "explanation": "問持續到現在多久，用現在完成式。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "newbie",
+      "term": "newbie",
+      "meaning": "新人、菜鳥",
+      "register": "casual",
+      "usage": "剛加入的人，常用來自嘲：I'm still a newbie here.",
+      "risk": { "level": "safe", "note": "自稱很自然；叫別人 newbie 通常友善，但不要帶輕蔑語氣。網路用語 noob 就比較帶嘲諷。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Go easy on me. I'm the newbie.", "zh": "手下留情，我是新人。" },
+        { "en": "We have two newbies starting on Monday.", "zh": "週一有兩個新人報到。" }
+      ]
+    },
+    {
+      "id": "show-someone-the-ropes",
+      "term": "show someone the ropes",
+      "meaning": "帶新人熟悉環境、教基本做法",
+      "register": "neutral",
+      "usage": "the ropes 指「做事的訣竅」。learn the ropes = 學習上手。",
+      "risk": { "level": "safe", "note": "職場標準用語。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Amy will show you the ropes this week.", "zh": "這週 Amy 會帶你熟悉。" },
+        { "en": "It took me a month to learn the ropes.", "zh": "我花了一個月才上手。" }
+      ]
+    },
+    {
+      "id": "team-player",
+      "term": "team player",
+      "meaning": "有團隊精神的人",
+      "register": "neutral",
+      "usage": "願意合作、不只顧自己的人。履歷和面試很常出現。",
+      "risk": { "level": "safe", "note": "正面詞，但有時主管用它來暗示你該無償多做事，聽的時候留意語境。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "She's a real team player. She always helps out.", "zh": "她很有團隊精神，總是主動幫忙。" },
+        { "en": "We're looking for a team player with strong design skills.", "zh": "我們在找有團隊精神、設計能力強的人。" }
+      ]
+    },
+    {
+      "id": "first-day-jitters",
+      "term": "first-day jitters",
+      "meaning": "第一天上班（上學）的緊張感",
+      "register": "casual",
+      "usage": "jitters = 緊張不安。也可以說 pre-interview jitters、wedding jitters。",
+      "risk": { "level": "safe", "note": "輕鬆常用。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "I always get first-day jitters, even after ten years of working.", "zh": "就算工作十年了，我第一天上班還是會緊張。" },
+        { "en": "Don't worry, the first-day jitters go away fast.", "zh": "別擔心，第一天的緊張很快就會過去。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u021-r1", "sourceUnit": 20, "type": "mcq", "question": "Can you ___ me your notes from the meeting?", "options": ["borrow", "lend", "take"], "answer": 1, "explanation": "複習第 20 單元：借出給我用 lend。" },
+    { "id": "u021-r2", "sourceUnit": 19, "type": "mcq", "question": "___ kind of you to show me around!", "options": ["What", "How", "What a"], "answer": 1, "explanation": "複習第 19 單元：How + 形容詞 + of you。" },
+    { "id": "u021-r3", "sourceUnit": 17, "type": "fill", "question": "You look pale. You ___ go home and rest.", "answer": "should", "explanation": "複習第 17 單元：一般建議用 should。" },
+    { "id": "u021-r4", "sourceUnit": 13, "type": "mcq", "question": "The new job is really ___. I learn something every day.", "options": ["excited", "exciting", "excite"], "answer": 1, "explanation": "複習第 13 單元：工作令人興奮用 -ing。" },
+    { "id": "u021-r5", "sourceUnit": 5, "type": "mcq", "question": "Could I get ___ information about the benefits?", "options": ["an", "some", "many"], "answer": 1, "explanation": "複習第 5 單元：information 不可數，用 some。" },
+    { "id": "u021-r6", "sourceUnit": 21, "type": "fill", "question": "Daniel will show you the ___ this week.", "answer": "ropes", "explanation": "show someone the ropes = 帶新人熟悉。" }
+  ]
+}

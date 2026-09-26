@@ -1,0 +1,147 @@
+{
+  "id": 23,
+  "module": 3,
+  "level": "B1+",
+  "title": { "zh": "寫工作 email", "en": "Writing Work Emails" },
+  "scenario": {
+    "title": "請同事、客戶幫忙的信件和訊息",
+    "context": "工作 email 的語氣很微妙：太直接像在命令，太客氣又顯得囉嗦。Would you mind…? 和 Could you…? 是最好用的請託句型，但 Would you mind 的回答方式會讓很多台灣人答反。",
+    "dialogues": [
+      {
+        "title": "An email thread with a client",
+        "lines": [
+          { "speaker": "Minz", "en": "Hi Ms. Lin, I hope you're doing well. I've attached the first draft of the menu design.", "zh": "林小姐您好，希望您一切順利。附上菜單設計的初稿。" },
+          { "speaker": "Minz", "en": "Would you mind sharing your feedback by Friday? That way we can stay on schedule for printing.", "zh": "方便請您在週五前給我回饋嗎？這樣我們印刷時程才能照原訂計畫。" },
+          { "speaker": "Ms. Lin", "en": "Thanks, Minz! It looks great. I'm looping in our marketing manager, Tony, since he'll need to approve the prices.", "zh": "謝謝 Minz！看起來很棒。我把行銷經理 Tony 加進來，因為價格需要他核准。" },
+          { "speaker": "Tony", "en": "Hi Minz, nice to meet you. Would you mind making the prices a little bigger? Some of our customers are older.", "zh": "Minz 你好，很高興認識你。方便把價格字放大一點嗎？我們有些客人年紀比較大。" },
+          { "speaker": "Minz", "en": "Not at all! I'll send an updated version by tomorrow afternoon.", "zh": "完全沒問題！我明天下午前寄更新版本。" },
+          { "speaker": "Tony", "en": "Perfect, thanks. FYI, we might add two new drinks next week, so please leave some space.", "zh": "太好了，謝謝。另外跟你說，我們下週可能會加兩款新飲品，請留點空間。" }
+        ]
+      },
+      {
+        "title": "Chat with a coworker",
+        "lines": [
+          { "speaker": "Daniel", "en": "Hey, sorry to ping you. Do you have the brand fonts? The client needs them ASAP.", "zh": "嘿，抱歉打擾。你有品牌字體檔嗎？客戶急著要。" },
+          { "speaker": "Minz", "en": "Sure, I'll send them now. Would you mind reminding them that one of the fonts needs a license?", "zh": "有，我現在傳。可以麻煩你提醒他們其中一套字需要授權嗎？" },
+          { "speaker": "Daniel", "en": "Good catch. Could you forward me the license link too?", "zh": "好險你有注意到。可以也把授權連結轉給我嗎？" },
+          { "speaker": "Minz", "en": "Done. Check your inbox.", "zh": "好了，看一下你的信箱。" },
+          { "speaker": "Daniel", "en": "Got it. You're a lifesaver.", "zh": "收到，你真是救星。" },
+          { "speaker": "Minz", "en": "Anytime!", "zh": "隨時！" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "I hope you're doing well.", "zh": "希望您一切順利。", "note": "email 開頭的客套，取代「您好」" },
+      { "en": "I've attached ___.", "zh": "附上 ___。", "note": "比 Please find attached 自然現代" },
+      { "en": "Would you mind ___ by Friday?", "zh": "方便請您在週五前 ___ 嗎？" },
+      { "en": "Could you let me know if ___?", "zh": "可以請你告訴我是否 ___ 嗎？" },
+      { "en": "Just a quick reminder that ___.", "zh": "提醒一下 ___。", "note": "催件的溫和說法" },
+      { "en": "I'm looping in ___.", "zh": "我把 ___ 加進來。" },
+      { "en": "Please let me know if you have any questions.", "zh": "有任何問題請告訴我。" },
+      { "en": "Thanks in advance!", "zh": "先謝謝您！" },
+      { "en": "Sorry for the late reply.", "zh": "抱歉晚回覆。" },
+      { "en": "Looking forward to hearing from you.", "zh": "期待您的回覆。" }
+    ],
+    "chinglish": [
+      { "wrong": "Please help me check this file.", "right": "Could you take a look at this file?", "why": "「請幫我…」直翻成 Please help me… 很常見，但英文 help 暗示對方在幫你一個私人忙，工作上的請託用 Could you… 更自然。" },
+      { "wrong": "A: Would you mind sending it again? B: Yes, of course!", "right": "B: Not at all! / No problem!", "why": "Would you mind 字面是「你介意嗎」，回答 Yes 是「我介意」。答應要說 Not at all / No problem / Of course not。" },
+      { "wrong": "Please reply me as soon as possible.", "right": "Could you get back to me when you have a chance?", "why": "reply 後面要加 to；而且 as soon as possible 放在信裡語氣很急，除非真的很急才用。" },
+      { "wrong": "Dear Minz, how are you? I am fine.", "right": "Hi Minz, I hope you're doing well.", "why": "How are you? I am fine. 是課本對話，不適合放在信裡。" }
+    ]
+  },
+  "grammar": {
+    "id": "would-you-mind-ving",
+    "title": "Would you mind + V-ing",
+    "oneLiner": "Would you mind + V-ing? 是很客氣的請託，意思是「你介意…嗎？」，所以答應時要說 Not at all。",
+    "whenToUse": [
+      "Would you mind + V-ing：請對方做事。Would you mind sending it again?",
+      "Would you mind if I + 過去式：請求自己做事的許可。Would you mind if I left early?",
+      "Do you mind + V-ing：語氣稍微直接一點。",
+      "答應：Not at all. / No, go ahead. / Of course not. / Sure（口語常見，雖然邏輯上怪，但大家都這樣說）。",
+      "拒絕：Actually, I'd rather you didn't. / Sorry, I'm a bit busy right now.",
+      "禮貌度排序：Can you… < Could you… < Would you mind… < I was wondering if you could…"
+    ],
+    "whyWeGetItWrong": "中文的「方便…嗎？」「可以…嗎？」答應就說「好」「可以」。但 Would you mind 問的是「你介意嗎」，所以「好」要說成「不介意」。台灣人常直覺回 Yes，對方會愣一下。另外 mind 後面接 V-ing（第 14 單元學過），很多人會寫成 mind to send。",
+    "examples": [
+      { "correct": "Would you mind resending the file?", "incorrect": "Would you mind to resend the file?", "note": "mind + V-ing。" },
+      { "correct": "A: Would you mind closing the door? B: Not at all.", "incorrect": "A: Would you mind closing the door? B: Yes.", "note": "答應要說 Not at all。" },
+      { "correct": "Would you mind if I joined the call a few minutes late?", "note": "請求自己做事，if + 過去式（假設語氣，更客氣）。" },
+      { "correct": "Could you send me the invoice?", "note": "Could you 也很禮貌，日常 email 最常用。" },
+      { "correct": "I was wondering if you could review the draft by Friday.", "note": "最委婉的請託，適合對客戶或上司。" }
+    ],
+    "quiz": [
+      { "id": "u023-g1", "type": "mcq", "question": "Would you mind ___ the report by Thursday?", "options": ["to finish", "finishing", "finish"], "answer": 1, "explanation": "mind + V-ing。" },
+      { "id": "u023-g2", "type": "mcq", "question": "A: Would you mind if I opened the window? B: ___ (你答應)", "options": ["Yes, I mind.", "Not at all, go ahead.", "Yes, please mind."], "answer": 1, "explanation": "答應要說 Not at all。" },
+      { "id": "u023-g3", "type": "fill", "question": "Would you mind ___ (send) me the latest version?", "answer": "sending", "explanation": "mind + V-ing。" },
+      { "id": "u023-g4", "type": "mcq", "question": "Which is the MOST polite?", "options": ["Send me the file.", "Can you send me the file?", "I was wondering if you could send me the file."], "answer": 2, "explanation": "I was wondering if you could… 最委婉。" },
+      { "id": "u023-g5", "type": "fill", "question": "Would you mind if I ___ (bring) a friend to the dinner?", "answer": "brought|bring", "explanation": "Would you mind if I + 過去式最客氣，口語也會聽到現在式。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "asap",
+      "term": "ASAP",
+      "meaning": "盡快（as soon as possible）",
+      "register": "neutral",
+      "usage": "可以唸成 A-S-A-P 或 /ˈeɪsæp/。工作訊息很常見。",
+      "risk": { "level": "careful", "note": "語氣很急，對上司或客戶寫 ASAP 可能顯得在催促，改用 at your earliest convenience 或 when you get a chance。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "The client needs the logo files ASAP.", "zh": "客戶急需 logo 檔。" },
+        { "en": "Please call me back ASAP. It's urgent.", "zh": "請盡快回電，很緊急。" }
+      ]
+    },
+    {
+      "id": "fyi",
+      "term": "FYI",
+      "meaning": "僅供參考、跟你說一聲（for your information）",
+      "register": "neutral",
+      "usage": "分享資訊但不需要對方做什麼時用，email 和聊天都很普遍。",
+      "risk": { "level": "careful", "note": "口頭說 Just FYI 有時帶「我先說喔」的不悅語氣，像在提醒對方錯了。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "FYI, the office will be closed on Friday.", "zh": "跟大家說，週五辦公室不開。" },
+        { "en": "Just FYI, the client prefers email over phone calls.", "zh": "提醒一下，客戶比較喜歡 email 不喜歡電話。" }
+      ]
+    },
+    {
+      "id": "loop-in",
+      "term": "loop in",
+      "meaning": "把某人加進討論、讓某人知情",
+      "register": "neutral",
+      "usage": "loop someone in = 把某人加入信件或對話。keep me in the loop = 有消息要讓我知道。",
+      "risk": { "level": "safe", "note": "職場超常用。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "I'm looping in Tony from marketing.", "zh": "我把行銷部的 Tony 加進來。" },
+        { "en": "Can you loop me in on the next client call?", "zh": "下次客戶電話可以讓我加入嗎？" }
+      ]
+    },
+    {
+      "id": "ping",
+      "term": "ping",
+      "meaning": "傳個訊息、敲一下",
+      "register": "casual",
+      "usage": "用 Slack、LINE 等快速聯絡某人：I'll ping you when it's ready.",
+      "risk": { "level": "safe", "note": "科技業和年輕職場很常用，傳統產業的人可能覺得太隨性。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Ping me if you need anything.", "zh": "需要什麼就敲我。" },
+        { "en": "Sorry to ping you on a Sunday.", "zh": "抱歉週日還傳訊息給你。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u023-r1", "sourceUnit": 22, "type": "mcq", "question": "Which is correct?", "options": ["I'm not agree.", "I don't agree.", "I no agree."], "answer": 1, "explanation": "複習第 22 單元：agree 是動詞。" },
+    { "id": "u023-r2", "sourceUnit": 22, "type": "fill", "question": "Let's put a ___ in that and discuss it next week.", "answer": "pin", "explanation": "複習第 22 單元：put a pin in it = 先擱著。" },
+    { "id": "u023-r3", "sourceUnit": 21, "type": "fill", "question": "I've been in this industry ___ ten years.", "answer": "for", "explanation": "複習第 21 單元：一段時間用 for。" },
+    { "id": "u023-r4", "sourceUnit": 19, "type": "mcq", "question": "___ a helpful email!", "options": ["How", "What", "What an"], "answer": 1, "explanation": "複習第 19 單元：What a + 形容詞 + 名詞。" },
+    { "id": "u023-r5", "sourceUnit": 15, "type": "mcq", "question": "Which is correct?", "options": ["I check always my email first.", "I always check my email first.", "Always I check first my email."], "answer": 1, "explanation": "複習第 15 單元：頻率副詞放一般動詞前。" },
+    { "id": "u023-r6", "sourceUnit": 7, "type": "fill", "question": "___ getting late. Let's finish this tomorrow.", "answer": "It's|It is", "explanation": "複習第 7 單元：時間用虛主詞 It。" },
+    { "id": "u023-r7", "sourceUnit": 23, "type": "mcq", "question": "A: Would you mind checking this for me? B: ___", "options": ["Yes.", "Not at all!", "I mind."], "answer": 1, "explanation": "答應要說 Not at all。" }
+  ]
+}

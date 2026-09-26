@@ -1,0 +1,149 @@
+{
+  "id": 26,
+  "module": 3,
+  "level": "B1+",
+  "title": { "zh": "回報進度", "en": "Giving Status Updates" },
+  "scenario": {
+    "title": "站立會議、跟主管報告進度",
+    "context": "「我這幾天一直在做包裝」「我從早上就在改圖」——報告進度時，重點常常不是「做完了沒」，而是「一直在做」。現在完成進行式（have been + V-ing）就是用來講這種持續中的努力。",
+    "dialogues": [
+      {
+        "title": "Monday stand-up",
+        "lines": [
+          { "speaker": "Karen", "en": "OK, quick updates. Minz, how's the packaging project going?", "zh": "好，快速更新一下。Minz，包裝案進行得怎樣？" },
+          { "speaker": "Minz", "en": "It's on track. I've been working on the illustrations all week, and I've finished four out of six.", "zh": "照進度走。我這週一直在畫插圖，六張完成四張了。" },
+          { "speaker": "Karen", "en": "Great. Any blockers?", "zh": "很好。有卡住的地方嗎？" },
+          { "speaker": "Minz", "en": "Just one. I've been waiting for the final copy from the client since Wednesday.", "zh": "只有一個。我從週三就在等客戶給最終文案。" },
+          { "speaker": "Karen", "en": "I'll chase them today. Daniel?", "zh": "我今天去追。Daniel 呢？" },
+          { "speaker": "Daniel", "en": "Honestly, I've fallen a bit behind on the website. I've been dealing with bugs for three days.", "zh": "老實說網站進度有點落後，我這三天都在處理 bug。" },
+          { "speaker": "Karen", "en": "How far behind are we talking?", "zh": "落後多少？" },
+          { "speaker": "Daniel", "en": "About two days. I'm in the weeds, but I think I can catch up by Friday.", "zh": "大概兩天。我現在忙得焦頭爛額，但我想週五前能追上。" }
+        ]
+      },
+      {
+        "title": "A worried manager",
+        "lines": [
+          { "speaker": "Karen", "en": "Daniel, you look exhausted. How long have you been staying late?", "zh": "Daniel，你看起來好累。你加班多久了？" },
+          { "speaker": "Daniel", "en": "Since last Monday. I've been trying to fix the checkout page.", "zh": "從上週一開始。我一直在想辦法修結帳頁面。" },
+          { "speaker": "Karen", "en": "Why didn't you say something sooner?", "zh": "你怎麼不早點說？" },
+          { "speaker": "Daniel", "en": "I didn't want to look like I couldn't handle it.", "zh": "我不想看起來像是搞不定。" },
+          { "speaker": "Karen", "en": "Asking for help isn't a weakness. Now we're behind the eight ball with the launch.", "zh": "求助不是弱點。現在上線的事我們很被動了。" },
+          { "speaker": "Daniel", "en": "You're right. Sorry. Can Amy help with testing?", "zh": "你說得對，抱歉。Amy 可以幫忙測試嗎？" },
+          { "speaker": "Karen", "en": "I'll ask her. And please go home on time tonight.", "zh": "我去問她。還有今晚請準時下班。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "It's on track.", "zh": "照進度走。" },
+      { "en": "I've been working on ___ all week.", "zh": "我這週一直在做 ___。" },
+      { "en": "I've finished ___ out of ___.", "zh": "___ 個裡完成了 ___ 個。" },
+      { "en": "Any blockers?", "zh": "有卡住的地方嗎？", "note": "blocker = 阻礙進度的問題" },
+      { "en": "I'm waiting on ___ from the client.", "zh": "我在等客戶的 ___。" },
+      { "en": "We're about two days behind.", "zh": "我們大概落後兩天。" },
+      { "en": "I should be able to wrap it up by Friday.", "zh": "我應該週五前可以完成。" },
+      { "en": "Here's where we are.", "zh": "目前進度是這樣。" },
+      { "en": "The next step is ___.", "zh": "下一步是 ___。" },
+      { "en": "I'll keep you posted.", "zh": "我會隨時跟你更新。" }
+    ],
+    "chinglish": [
+      { "wrong": "I am doing this project since Monday.", "right": "I've been working on this project since Monday.", "why": "從過去某時一直持續到現在的動作，要用現在完成進行式。中文「我從星期一就在做」的「在」讓人直覺用現在進行式。" },
+      { "wrong": "The progress is slow slow.", "right": "It's moving a bit slowly. / We're a bit behind.", "why": "疊字不是英文。講進度落後用 behind / falling behind。" },
+      { "wrong": "I have been knowing him for years.", "right": "I've known him for years.", "why": "know 是狀態動詞，不用進行式，現在完成進行式也一樣。" },
+      { "wrong": "I finish 80%.", "right": "I'm about 80% done.", "why": "講完成度用 done：I'm 80% done / It's 80% done。" }
+    ]
+  },
+  "grammar": {
+    "id": "present-perfect-continuous",
+    "title": "現在完成進行式",
+    "oneLiner": "have been + V-ing：強調某個動作「從過去一直持續到現在」，而且可能還沒結束。",
+    "whenToUse": [
+      "持續到現在的動作：I've been working on this all week.",
+      "問持續多久：How long have you been waiting?",
+      "解釋眼前的狀態：You look tired. Have you been working late?（累是因為一直加班）",
+      "和現在完成式的差別：I've been writing emails all morning（強調過程）vs I've written ten emails（強調結果、數量）。",
+      "狀態動詞（know, like, have 擁有, believe）不用進行式，改用現在完成式：I've known her since 2020."
+    ],
+    "whyWeGetItWrong": "中文用「一直」「從…就在」表達持續，動詞不變。台灣人講進度時常說 I am doing this since Monday（混合進行式和 since），或者只用過去式說 I did it all week，聽起來像已經做完了。要說「到現在都還在做」，就用 have been + V-ing。",
+    "examples": [
+      { "correct": "I've been waiting for the client's reply since Wednesday.", "incorrect": "I'm waiting for the client's reply since Wednesday.", "note": "有 since，要用完成進行式。" },
+      { "correct": "How long have you been working here?", "note": "問持續時間。" },
+      { "correct": "I've been editing photos all morning, and I've finished twenty.", "note": "過程用完成進行式，結果數量用現在完成式。" },
+      { "correct": "Your eyes are red. Have you been crying?", "note": "解釋眼前的狀態。" },
+      { "correct": "I've known Daniel for years.", "incorrect": "I've been knowing Daniel for years.", "note": "know 不用進行式。" }
+    ],
+    "quiz": [
+      { "id": "u026-g1", "type": "mcq", "question": "I ___ on this design since 9 a.m.", "options": ["work", "'m working", "'ve been working"], "answer": 2, "explanation": "since + 持續到現在的動作，用完成進行式。" },
+      { "id": "u026-g2", "type": "fill", "question": "How long have you been ___ (wait)?", "answer": "waiting", "explanation": "have been + V-ing。" },
+      { "id": "u026-g3", "type": "mcq", "question": "I ___ three reports today.", "options": ["'ve written", "'ve been writing", "write"], "answer": 0, "explanation": "強調完成的數量，用現在完成式。" },
+      { "id": "u026-g4", "type": "mcq", "question": "Which is correct?", "options": ["I've been liking this job.", "I've liked this job since day one.", "I'm liking this job since day one."], "answer": 1, "explanation": "like 是狀態動詞，用現在完成式。" },
+      { "id": "u026-g5", "type": "fill", "question": "You look exhausted. Have you ___ working late again?", "answer": "been", "explanation": "have been + V-ing。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "on-track",
+      "term": "on track",
+      "meaning": "照進度走、在正軌上",
+      "register": "neutral",
+      "usage": "The project is on track. / Let's keep things on track. 反義是 off track。",
+      "risk": { "level": "safe", "note": "職場標準說法。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "We're on track to launch next month.", "zh": "我們照進度下個月上線。" },
+        { "en": "The meeting got off track, so let's refocus.", "zh": "會議偏題了，我們拉回來。" }
+      ]
+    },
+    {
+      "id": "fall-behind",
+      "term": "fall behind",
+      "meaning": "進度落後",
+      "register": "neutral",
+      "usage": "fall behind on + 工作 / fall behind schedule。完成式：I've fallen behind.",
+      "risk": { "level": "safe", "note": "中性，主管面前說也 OK。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "I fell behind on emails while I was sick.", "zh": "我生病時信件都落後了。" },
+        { "en": "If we fall behind again, we'll miss the deadline.", "zh": "如果再落後，我們會趕不上截止日。" }
+      ]
+    },
+    {
+      "id": "in-the-weeds",
+      "term": "in the weeds",
+      "meaning": "忙得焦頭爛額；陷在細節裡",
+      "register": "casual",
+      "usage": "源自餐飲業，指點單多到應付不來。職場上也表示「太陷入細節」：Let's not get in the weeds.",
+      "risk": { "level": "safe", "note": "美式職場常用。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "Sorry for the slow reply. I'm totally in the weeds this week.", "zh": "抱歉晚回，我這週忙翻了。" },
+        { "en": "We're getting in the weeds. Let's focus on the big decisions.", "zh": "我們陷進細節了，先聚焦在大方向。" }
+      ]
+    },
+    {
+      "id": "behind-the-eight-ball",
+      "term": "behind the eight ball",
+      "meaning": "處境不利、很被動",
+      "register": "casual",
+      "usage": "源自撞球，8 號球擋在前面很難打。形容陷入困境。",
+      "risk": { "level": "safe", "note": "有點老派，年紀大一點的美國人常用；聽得懂就好，自己不一定要用。" },
+      "dated": true,
+      "variety": "US",
+      "examples": [
+        { "en": "Losing our biggest client put us behind the eight ball.", "zh": "失去最大的客戶讓我們很被動。" },
+        { "en": "Starting late left the whole team behind the eight ball.", "zh": "晚開始讓整個團隊陷入困境。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u026-r1", "sourceUnit": 25, "type": "mcq", "question": "Which is correct?", "options": ["I'll call back you.", "I'll call you back.", "I'll back you call."], "answer": 1, "explanation": "複習第 25 單元：代名詞夾在片語動詞中間。" },
+    { "id": "u026-r2", "sourceUnit": 25, "type": "fill", "question": "Sorry, you're breaking ___. Can you say that again?", "answer": "up", "explanation": "複習第 25 單元：you're breaking up。" },
+    { "id": "u026-r3", "sourceUnit": 24, "type": "mcq", "question": "I finally got the client ___ the budget.", "options": ["approve", "to approve", "approving"], "answer": 1, "explanation": "複習第 24 單元：get + 人 + to V。" },
+    { "id": "u026-r4", "sourceUnit": 22, "type": "mcq", "question": "Which is the most polite?", "options": ["You're wrong.", "I see your point, but I'm not sure that works.", "No."], "answer": 1, "explanation": "複習第 22 單元：委婉反對。" },
+    { "id": "u026-r5", "sourceUnit": 18, "type": "fill", "question": "The website needs to be ___ (update) before the launch.", "answer": "updated", "explanation": "複習第 18 單元：被動 to be + p.p.。" },
+    { "id": "u026-r6", "sourceUnit": 10, "type": "mcq", "question": "I ___ at an agency before I started freelancing.", "options": ["work", "worked", "am working"], "answer": 1, "explanation": "複習第 10 單元：已結束的經歷用過去式。" },
+    { "id": "u026-r7", "sourceUnit": 26, "type": "fill", "question": "Good news: the project is ___ track for the June launch.", "answer": "on", "explanation": "on track = 照進度。" }
+  ]
+}

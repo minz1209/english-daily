@@ -1,0 +1,150 @@
+{
+  "id": 30,
+  "module": 3,
+  "level": "B1+",
+  "title": { "zh": "整合：績效面談", "en": "Review: Performance Check-In" },
+  "scenario": {
+    "title": "三個月試用期面談",
+    "context": "第三章的收尾：試用期結束的一對一面談。你要回顧已經完成的事（過去式）、到現在累積的成果（現在完成式）、一直在努力的方向（現在完成進行式），還要回應讚美和建議。前面九個職場單元的句型全部會用上。",
+    "dialogues": [
+      {
+        "title": "Looking back",
+        "lines": [
+          { "speaker": "Karen", "en": "So, you've been with us for three months now. How do you feel it's gone?", "zh": "你來我們這裡三個月了。你覺得進行得怎樣？" },
+          { "speaker": "Minz", "en": "Honestly, it's been great. I've learned a lot, especially about working with bigger clients.", "zh": "說真的很棒。我學到很多，特別是跟大客戶合作的部分。" },
+          { "speaker": "Karen", "en": "I agree. You've really stepped up. The tea packaging project was a big win.", "zh": "我同意，你真的有挺身而出。茶飲包裝案是一大勝利。" },
+          { "speaker": "Minz", "en": "Thank you. That project was tough. We were finalizing the illustrations when the client changed the whole concept.", "zh": "謝謝。那個案子很硬，我們在定稿插圖時客戶把整個概念改掉了。" },
+          { "speaker": "Karen", "en": "And you still delivered on time. That's what I mean by going the extra mile.", "zh": "而你還是準時交件，這就是我說的多走一哩路。" },
+          { "speaker": "Minz", "en": "I couldn't have done it without the team, though. Daniel covered for me a lot.", "zh": "不過沒有團隊我做不到，Daniel 幫我擋了很多事。" },
+          { "speaker": "Karen", "en": "That's why you're a good fit here. Everyone pulls their weight.", "zh": "這就是你適合這裡的原因，每個人都盡自己的本分。" }
+        ]
+      },
+      {
+        "title": "Looking ahead",
+        "lines": [
+          { "speaker": "Karen", "en": "Is there anything you'd like to work on?", "zh": "有什麼是你想加強的嗎？" },
+          { "speaker": "Minz", "en": "I've been trying to speak up more in client meetings. I don't think I'm there yet.", "zh": "我一直在努力在客戶會議上多發言，但我覺得還沒做到。" },
+          { "speaker": "Karen", "en": "I've noticed. You made a great point in the noodle brand meeting, didn't you?", "zh": "我有注意到。你在麵品牌那場會議上提了很好的觀點，對吧？" },
+          { "speaker": "Minz", "en": "The orange idea? Yeah, I was nervous, but I'm glad I said something.", "zh": "橘色那個點子嗎？對，我很緊張，但很高興我有講。" },
+          { "speaker": "Karen", "en": "Keep doing that. Also, you dropped the ball on file checks once. Just stay on the ball with that.", "zh": "繼續保持。另外，你有一次檔案檢查漏掉了，這部分要保持警覺。" },
+          { "speaker": "Minz", "en": "Definitely. We've added a checklist since then, and there haven't been any mistakes.", "zh": "一定。從那之後我們加了檢查清單，就再也沒出錯過。" },
+          { "speaker": "Karen", "en": "Perfect. Well, I'm happy to say you've passed your probation. Welcome to the team, officially.", "zh": "太好了。很高興告訴你，你通過試用期了。正式歡迎加入團隊。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "How do you feel it's gone?", "zh": "你覺得進行得怎樣？" },
+      { "en": "I've learned a lot about ___.", "zh": "我在 ___ 方面學到很多。" },
+      { "en": "I'm proud of how ___ turned out.", "zh": "我對 ___ 的成果很滿意。" },
+      { "en": "I couldn't have done it without ___.", "zh": "沒有 ___ 我做不到。", "note": "接受稱讚時把功勞分出去" },
+      { "en": "I've been trying to ___ more.", "zh": "我一直在努力多 ___。" },
+      { "en": "I don't think I'm there yet.", "zh": "我覺得我還沒做到。" },
+      { "en": "What would you like to see from me?", "zh": "你希望我在哪方面多表現？" },
+      { "en": "That's really helpful feedback.", "zh": "這個回饋很有幫助。" },
+      { "en": "I'll definitely work on that.", "zh": "我一定會加強。" },
+      { "en": "Thanks for the opportunity.", "zh": "謝謝你給我這個機會。" }
+    ],
+    "chinglish": [
+      { "wrong": "No no no, I am not good, everyone is better.", "right": "Thank you, I really appreciate that. The team helped a lot.", "why": "中文習慣用否認回應稱讚表示謙虛，英文會讓對方覺得你在反駁他的判斷。先說 thank you，再分享功勞（第 37 單元會詳細講）。" },
+      { "wrong": "I have done the tea project in May.", "right": "I did the tea project in May.", "why": "有明確時間 in May，用過去式（複習第 12、21 單元）。" },
+      { "wrong": "I am trying to speak more since last month.", "right": "I've been trying to speak up more since last month.", "why": "since + 持續到現在的努力，用現在完成進行式（複習第 26 單元）。" },
+      { "wrong": "Please give me more chance.", "right": "I'd love the chance to take on more responsibility.", "why": "chance 可數，要加 a 或用 more chances；而且主動表達想承擔什麼比「請給機會」更有力。" }
+    ]
+  },
+  "grammar": {
+    "id": "perfect-past-continuous-contrast",
+    "title": "完成／過去／完成進行 對照",
+    "oneLiner": "過去式講「那時候」，現在完成式講「到現在的成果」，現在完成進行式講「到現在的努力過程」。",
+    "whenToUse": [
+      "過去式：已結束、有明確時間的事件。The client changed the concept last month.",
+      "過去進行式：當時正在進行的背景。We were finalizing the illustrations when…",
+      "現在完成式：到目前為止的成果、經驗、數量。I've learned a lot. / I've finished three projects.",
+      "現在完成進行式：到現在為止持續的努力或動作，可能還在繼續。I've been trying to speak up more.",
+      "判斷訣竅：有 yesterday / in May / last week → 過去式；有 so far / since / for / yet → 完成式系列。"
+    ],
+    "whyWeGetItWrong": "這一章每個時態都是從同一個問題延伸出來的：中文用「了」「過」「一直」「正在」來標時間，英文把這些資訊放進動詞形態。績效面談正好是四種時態交錯出現的場合，講錯了可能讓主管誤會你的成果已經結束、或者還沒開始。說話前先想：我要講的是某個時間點、到現在的成果，還是到現在的過程？",
+    "examples": [
+      { "correct": "I joined the team in June, and I've worked on five projects since then.", "note": "加入是過去的時間點；做了幾個案子是到現在的累積。" },
+      { "correct": "I've been working on my presentation skills.", "incorrect": "I work on my presentation skills since June.", "note": "持續的努力用完成進行式。" },
+      { "correct": "We were testing the site when we found the bug.", "note": "背景用過去進行式。" },
+      { "correct": "There haven't been any mistakes since we added the checklist.", "note": "since + 到現在的結果，用現在完成式。" },
+      { "correct": "Have you finished the report yet? — Not yet, but I've been working on it all day.", "note": "結果用完成式，過程用完成進行式。" }
+    ],
+    "quiz": [
+      { "id": "u030-g1", "type": "mcq", "question": "I ___ the company in March.", "options": ["have joined", "joined", "have been joining"], "answer": 1, "explanation": "有明確時間 in March，用過去式。" },
+      { "id": "u030-g2", "type": "mcq", "question": "Since then, I ___ four client projects.", "options": ["completed", "'ve completed", "'m completing"], "answer": 1, "explanation": "since + 到現在的成果，用現在完成式。" },
+      { "id": "u030-g3", "type": "fill", "question": "I've ___ (try) to improve my English for a year now.", "answer": "been trying", "explanation": "持續的努力用現在完成進行式。" },
+      { "id": "u030-g4", "type": "mcq", "question": "We ___ the final files when the client called.", "options": ["sent", "were sending", "have sent"], "answer": 1, "explanation": "被打斷的背景用過去進行式。" },
+      { "id": "u030-g5", "type": "mcq", "question": "Which is correct?", "options": ["I have finished it yesterday.", "I finished it yesterday.", "I've been finishing it yesterday."], "answer": 1, "explanation": "有 yesterday 用過去式。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "pull-your-weight",
+      "term": "pull your weight",
+      "meaning": "盡自己的本分、做好該做的份",
+      "register": "neutral",
+      "usage": "團隊中每個人都分擔工作。常用否定：He's not pulling his weight（他沒盡本分）。",
+      "risk": { "level": "careful", "note": "說別人 not pulling their weight 是很重的批評，當面說要謹慎。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Everyone on this team pulls their weight.", "zh": "這個團隊每個人都盡了本分。" },
+        { "en": "I feel like I'm not pulling my weight since I got sick.", "zh": "我生病之後覺得自己沒盡到本分。" }
+      ]
+    },
+    {
+      "id": "go-the-extra-mile",
+      "term": "go the extra mile",
+      "meaning": "多做一點、超出期待的努力",
+      "register": "neutral",
+      "usage": "做超過本分的事，讓成果更好。",
+      "risk": { "level": "safe", "note": "正面稱讚，履歷和面談很常見。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "She always goes the extra mile for her clients.", "zh": "她總是為客戶多做一點。" },
+        { "en": "Thanks for going the extra mile on this project.", "zh": "謝謝你在這個案子上格外用心。" }
+      ]
+    },
+    {
+      "id": "on-the-ball",
+      "term": "on the ball",
+      "meaning": "反應快、很機靈、狀況掌握得好",
+      "register": "casual",
+      "usage": "形容人很能幹、注意力集中。stay on the ball = 保持警覺。",
+      "risk": { "level": "safe", "note": "正面稱讚。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Our new intern is really on the ball.", "zh": "我們的新實習生反應超快。" },
+        { "en": "I need more coffee. I'm not on the ball today.", "zh": "我需要更多咖啡，今天腦袋不太靈光。" }
+      ]
+    },
+    {
+      "id": "step-up",
+      "term": "step up",
+      "meaning": "挺身而出、承擔更多",
+      "register": "neutral",
+      "usage": "在需要的時候主動承擔責任：You really stepped up. / step up to the plate。",
+      "risk": { "level": "safe", "note": "職場常見的稱讚或期許。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "When our manager was out, Amy stepped up and led the team.", "zh": "主管不在的時候，Amy 挺身而出帶領團隊。" },
+        { "en": "We need someone to step up and take charge of this.", "zh": "我們需要有人站出來負責這件事。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u030-r1", "sourceUnit": 29, "type": "mcq", "question": "You've worked here for three months, ___?", "options": ["haven't you", "didn't you", "don't you"], "answer": 0, "explanation": "複習第 29 單元：You've = You have，用 haven't you。" },
+    { "id": "u030-r2", "sourceUnit": 28, "type": "fill", "question": "Sorry, that's ___ me. I'll fix it right away.", "answer": "on", "explanation": "複習第 28 單元：That's on me = 是我的錯。" },
+    { "id": "u030-r3", "sourceUnit": 27, "type": "mcq", "question": "I was wondering ___ I could work from home on Fridays.", "options": ["if", "that", "what"], "answer": 0, "explanation": "複習第 27 單元：yes/no 間接問句用 if。" },
+    { "id": "u030-r4", "sourceUnit": 26, "type": "fill", "question": "The project is ___ track, so we'll launch on time.", "answer": "on", "explanation": "複習第 26 單元：on track。" },
+    { "id": "u030-r5", "sourceUnit": 24, "type": "mcq", "question": "My manager ___ me take Friday off.", "options": ["let", "made", "got"], "answer": 0, "explanation": "複習第 24 單元：允許用 let。" },
+    { "id": "u030-r6", "sourceUnit": 23, "type": "mcq", "question": "A: Would you mind staying late tonight? B: ___ (你答應)", "options": ["Yes.", "Not at all.", "I mind yes."], "answer": 1, "explanation": "複習第 23 單元：Not at all。" },
+    { "id": "u030-r7", "sourceUnit": 22, "type": "mcq", "question": "Which is correct?", "options": ["I'm agree with the plan.", "I agree with the plan.", "I agreeing the plan."], "answer": 1, "explanation": "複習第 22 單元：agree 是動詞。" },
+    { "id": "u030-r8", "sourceUnit": 14, "type": "mcq", "question": "I've decided ___ a design course next year.", "options": ["taking", "to take", "take"], "answer": 1, "explanation": "複習第 14 單元：decide + to V。" },
+    { "id": "u030-r9", "sourceUnit": 30, "type": "fill", "question": "When the manager was sick, Amy stepped ___ and ran the meeting.", "answer": "up", "explanation": "step up = 挺身而出。" }
+  ]
+}

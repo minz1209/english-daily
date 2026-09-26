@@ -1,0 +1,149 @@
+{
+  "id": 24,
+  "module": 3,
+  "level": "B1+",
+  "title": { "zh": "請同事幫忙", "en": "Asking Coworkers for Help" },
+  "scenario": {
+    "title": "忙不過來時找人幫忙、分工",
+    "context": "「老闆叫我改稿」「我讓他先走」「我請印刷廠重印」——職場上一直在講「誰讓誰做什麼」。make / let / have / get 都是「使役動詞」，強迫、允許、安排、說服，意思差很多，後面的動詞形式也不一樣。",
+    "dialogues": [
+      {
+        "title": "A crazy busy afternoon",
+        "lines": [
+          { "speaker": "Minz", "en": "Hey Amy, are you busy? I'm completely swamped today.", "zh": "嘿 Amy，你忙嗎？我今天完全被淹沒了。" },
+          { "speaker": "Amy", "en": "I'm OK. What's going on?", "zh": "還好。怎麼了？" },
+          { "speaker": "Minz", "en": "Karen made me redo the whole deck because the client changed their mind.", "zh": "Karen 叫我整份簡報重做，因為客戶改主意了。" },
+          { "speaker": "Amy", "en": "Ugh, that's the worst. How can I help?", "zh": "唉，最慘的狀況。我可以怎麼幫？" },
+          { "speaker": "Minz", "en": "Could you cover for me at the 4 p.m. meeting? Just take notes.", "zh": "你可以幫我顧四點的會議嗎？做筆記就好。" },
+          { "speaker": "Amy", "en": "Sure. I'll have Daniel send you the notes afterward, since he's presenting.", "zh": "好。我會請 Daniel 結束後把筆記傳給你，因為他要報告。" },
+          { "speaker": "Minz", "en": "Thank you! Oh, and do you think Karen would let me push the deadline to Monday?", "zh": "謝謝！對了，你覺得 Karen 會讓我把截止日延到週一嗎？" },
+          { "speaker": "Amy", "en": "Probably, if you get the client to agree first.", "zh": "應該會，如果你先說服客戶同意的話。" }
+        ]
+      },
+      {
+        "title": "Returning the favor",
+        "lines": [
+          { "speaker": "Daniel", "en": "Minz, sorry to bug you. Are you slammed right now?", "zh": "Minz，抱歉打擾。你現在超忙嗎？" },
+          { "speaker": "Minz", "en": "Not anymore. The deck's done. What's up?", "zh": "不忙了，簡報做完了。怎麼了？" },
+          { "speaker": "Daniel", "en": "The printer messed up our business cards. I need to get them reprinted by Thursday.", "zh": "印刷廠把我們的名片印壞了，我得讓他們在週四前重印。" },
+          { "speaker": "Minz", "en": "I know the owner. Let me call him. I'll get him to put us first in line.", "zh": "我認識老闆，我打給他。我會讓他把我們排第一。" },
+          { "speaker": "Daniel", "en": "Seriously? That would be amazing.", "zh": "真的嗎？那就太好了。" },
+          { "speaker": "Minz", "en": "Of course. You helped me yesterday. I've got your back.", "zh": "當然。你昨天幫了我，我挺你。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "Are you busy right now?", "zh": "你現在忙嗎？" },
+      { "en": "Do you have a sec?", "zh": "你有空一下嗎？" },
+      { "en": "Could you cover for me at ___?", "zh": "___ 可以幫我代一下嗎？" },
+      { "en": "I'm completely swamped today.", "zh": "我今天忙翻了。" },
+      { "en": "How can I help?", "zh": "我可以怎麼幫？" },
+      { "en": "I'll have ___ send it to you.", "zh": "我會請 ___ 傳給你。" },
+      { "en": "Let me handle it.", "zh": "交給我處理。" },
+      { "en": "I'll get it done by Friday.", "zh": "我週五前會做完。" },
+      { "en": "Sorry to bug you.", "zh": "抱歉打擾你。" },
+      { "en": "Let me know if you need anything.", "zh": "需要什麼再跟我說。" }
+    ],
+    "chinglish": [
+      { "wrong": "My boss let me to redo the deck.", "right": "My boss made me redo the deck.", "why": "兩個錯：let 是「允許」，被迫要用 make；而且 make / let 後面接原形動詞，不加 to。" },
+      { "wrong": "I will let the printer reprint it.", "right": "I'll have the printer reprint it. / I'll get the printer to reprint it.", "why": "中文「讓印刷廠重印」的「讓」是「安排」，不是「允許」。安排別人做事用 have 或 get。" },
+      { "wrong": "Can you help me to cover the meeting?", "right": "Can you cover the meeting for me?", "why": "help me to 雖然文法沒錯，但工作請託直接說要對方做什麼比較簡潔。" },
+      { "wrong": "I'm very busy busy.", "right": "I'm swamped. / I'm slammed.", "why": "疊字不是英文的加強方式，用程度更強的字。" }
+    ]
+  },
+  "grammar": {
+    "id": "causative-make-let-have-get",
+    "title": "使役動詞 make / let / have / get",
+    "oneLiner": "make 是強迫、let 是允許、have 是安排、get 是說服；make / let / have 接原形，get 接 to V。",
+    "whenToUse": [
+      "make + 人 + 原形：強迫、讓對方不得不做。She made me redo it.",
+      "let + 人 + 原形：允許。Let me handle it. / He let us leave early.",
+      "have + 人 + 原形：安排、指派（通常是對方本來就該做的）。I'll have Daniel send the notes.",
+      "get + 人 + to V：說服、想辦法讓對方做。I got the client to agree.",
+      "have / get + 物 + p.p.：請別人把某事做好。I need to get the cards reprinted. / I had my hair cut.",
+      "被動的 make：I was made to wait（我被迫等），這時要加 to。"
+    ],
+    "whyWeGetItWrong": "中文一個「讓」（或「叫」「請」）就包辦了強迫、允許、安排、說服：「老闆叫我重做」「老闆讓我先走」「我請同事幫忙」。英文要先判斷權力關係和意願，再選動詞。而且 make / let / have 後面不能加 to，這點跟一般動詞不同，台灣人很容易順手寫成 let me to。",
+    "examples": [
+      { "correct": "Let me help you with that.", "incorrect": "Let me to help you with that.", "note": "let 後面接原形。" },
+      { "correct": "The client made us change the color three times.", "note": "被迫做的事用 make。" },
+      { "correct": "I'll have my assistant email you the contract.", "note": "安排屬下做事用 have。" },
+      { "correct": "I finally got my boss to approve the budget.", "incorrect": "I finally got my boss approve the budget.", "note": "get + 人 + to V。" },
+      { "correct": "I need to get my laptop fixed.", "note": "get + 物 + p.p.：請人把東西修好。" }
+    ],
+    "quiz": [
+      { "id": "u024-g1", "type": "mcq", "question": "My manager ___ me leave early because I was sick.", "options": ["made", "let", "got"], "answer": 1, "explanation": "允許用 let。" },
+      { "id": "u024-g2", "type": "mcq", "question": "Which is correct?", "options": ["Let me to check.", "Let me check.", "Let me checking."], "answer": 1, "explanation": "let + 原形。" },
+      { "id": "u024-g3", "type": "fill", "question": "I finally got the client ___ (sign) the contract.", "answer": "to sign", "explanation": "get + 人 + to V。" },
+      { "id": "u024-g4", "type": "mcq", "question": "I'll ___ my assistant send you the files.", "options": ["have", "get", "let to"], "answer": 0, "explanation": "安排屬下做事用 have + 原形。" },
+      { "id": "u024-g5", "type": "fill", "question": "I need to get my phone ___ (repair).", "answer": "repaired|fixed", "explanation": "get + 物 + p.p.。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "cover-for",
+      "term": "cover for",
+      "meaning": "代班、頂替；幫某人掩護",
+      "register": "neutral",
+      "usage": "cover for someone = 代替某人做事，也可能是幫人掩飾（例如幫翹班的同事圓謊）。",
+      "risk": { "level": "safe", "note": "代班的意思完全安全；掩護的意思要看語境。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Can you cover for me on Friday? I have a doctor's appointment.", "zh": "週五你可以幫我代班嗎？我要看醫生。" },
+        { "en": "I'm not going to cover for you if the boss asks.", "zh": "老闆問的話，我不會幫你掩護。" }
+      ]
+    },
+    {
+      "id": "swamped",
+      "term": "swamped",
+      "meaning": "忙翻了、被工作淹沒",
+      "register": "casual",
+      "usage": "I'm swamped (with work). 像被沼澤淹沒一樣。",
+      "risk": { "level": "safe", "note": "職場很常用，跟主管說也可以。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Sorry, I'm swamped this week. Can we meet next Tuesday?", "zh": "抱歉我這週超忙，下週二見面好嗎？" },
+        { "en": "We've been swamped with orders since the ad went viral.", "zh": "廣告爆紅之後我們訂單接到手軟。" }
+      ]
+    },
+    {
+      "id": "slammed",
+      "term": "slammed",
+      "meaning": "超級忙、忙到爆",
+      "register": "casual",
+      "usage": "和 swamped 意思相同，餐飲業常說 We're slammed tonight（今晚客滿忙翻）。",
+      "risk": { "level": "safe", "note": "口語，同事間常用。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "The restaurant was slammed all night.", "zh": "餐廳整晚忙到爆。" },
+        { "en": "I'm slammed until Thursday, but I'm free after that.", "zh": "我週四前都超忙，之後就有空。" }
+      ]
+    },
+    {
+      "id": "ive-got-your-back",
+      "term": "I've got your back",
+      "meaning": "我挺你、我罩你",
+      "register": "casual",
+      "usage": "表示會支持、保護對方。也可以說 I got you.",
+      "risk": { "level": "safe", "note": "溫暖又有力的一句話，朋友同事都能用。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Don't worry about the presentation. I've got your back.", "zh": "別擔心簡報，我挺你。" },
+        { "en": "Thanks for having my back in the meeting.", "zh": "謝謝你在會議上挺我。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u024-r1", "sourceUnit": 23, "type": "mcq", "question": "Would you mind ___ me the link?", "options": ["to send", "sending", "send"], "answer": 1, "explanation": "複習第 23 單元：mind + V-ing。" },
+    { "id": "u024-r2", "sourceUnit": 23, "type": "fill", "question": "I'm looping ___ our designer so she can answer your question.", "answer": "in", "explanation": "複習第 23 單元：loop in。" },
+    { "id": "u024-r3", "sourceUnit": 22, "type": "mcq", "question": "We finally agreed ___ a date for the launch.", "options": ["with", "on", "to"], "answer": 1, "explanation": "複習第 22 單元：達成共識 agree on。" },
+    { "id": "u024-r4", "sourceUnit": 20, "type": "mcq", "question": "Can I ___ your stapler?", "options": ["lend", "borrow", "bring"], "answer": 1, "explanation": "複習第 20 單元：我借入用 borrow。" },
+    { "id": "u024-r5", "sourceUnit": 16, "type": "mcq", "question": "I'm going to my ___ place for dinner.", "options": ["parents'", "parents's", "parent"], "answer": 0, "explanation": "複習第 16 單元：parents'。" },
+    { "id": "u024-r6", "sourceUnit": 8, "type": "fill", "question": "I've felt a bit ___ since lunch. I think I ate something bad.", "answer": "off", "explanation": "複習第 8 單元：feel off = 怪怪的。" },
+    { "id": "u024-r7", "sourceUnit": 24, "type": "mcq", "question": "My boss ___ me work on Saturday. I had no choice.", "options": ["let", "made", "had to"], "answer": 1, "explanation": "被迫用 make。" }
+  ]
+}
