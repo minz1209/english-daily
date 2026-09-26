@@ -1,0 +1,146 @@
+{
+  "id": 12,
+  "module": 2,
+  "level": "B1",
+  "title": { "zh": "跟房東報修", "en": "Reporting Problems to the Landlord" },
+  "scenario": {
+    "title": "冷氣壞了、熱水器不熱",
+    "context": "住進去之後，總有東西會壞。跟房東報修要講清楚：什麼壞了、從什麼時候開始、你已經試過什麼、修好了沒。這些正是現在完成式 already / yet / just 最常出場的地方。",
+    "dialogues": [
+      {
+        "title": "Messaging the landlord",
+        "lines": [
+          { "speaker": "Minz", "en": "Hi Mr. Wang, sorry to bother you. The AC in the bedroom has stopped working.", "zh": "王先生您好，抱歉打擾。臥室的冷氣不動了。" },
+          { "speaker": "Landlord", "en": "Oh no. Have you checked the remote batteries?", "zh": "哎呀。你檢查過遙控器的電池了嗎？" },
+          { "speaker": "Minz", "en": "Yes, I've already changed them. It turns on, but it's just blowing warm air.", "zh": "有，我已經換過了。它開得起來，但只吹熱風。" },
+          { "speaker": "Landlord", "en": "Hmm, it's been acting up since last summer. I'll call the repair guy.", "zh": "嗯，它從去年夏天就怪怪的。我來叫師傅。" },
+          { "speaker": "Minz", "en": "Thank you. Do you know when he can come?", "zh": "謝謝。您知道他什麼時候能來嗎？" },
+          { "speaker": "Landlord", "en": "I haven't heard back from him yet. I'll let you know.", "zh": "他還沒回我，我再跟你說。" }
+        ]
+      },
+      {
+        "title": "Following up a week later",
+        "lines": [
+          { "speaker": "Minz", "en": "Hi Mr. Wang, just checking in. Has the repair guy gotten back to you yet?", "zh": "王先生您好，跟您確認一下。師傅回覆您了嗎？" },
+          { "speaker": "Landlord", "en": "Sorry, I haven't gotten around to calling him again. I've been so busy.", "zh": "抱歉，我還沒空再打給他，最近太忙了。" },
+          { "speaker": "Minz", "en": "I understand, but it's been a week and it's 34 degrees in my room.", "zh": "我理解，但已經一個禮拜了，我房間有 34 度。" },
+          { "speaker": "Landlord", "en": "You're right. I'll sort it out today, I promise.", "zh": "你說得對，我今天就處理，我保證。" },
+          { "speaker": "Minz", "en": "Thanks. Oh, and the water heater has been on the fritz too. The water only gets lukewarm.", "zh": "謝謝。對了，熱水器也怪怪的，水只會溫溫的。" },
+          { "speaker": "Landlord", "en": "Got it. I've just texted him about both. He says he can come tomorrow at 10.", "zh": "了解。我剛剛傳訊息跟他說了兩件事，他說明天十點可以來。" },
+          { "speaker": "Minz", "en": "Perfect, I'll be home. Thank you!", "zh": "太好了，我會在家。謝謝！" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "The ___ has stopped working.", "zh": "___ 壞了（不動了）。" },
+      { "en": "It's been making a weird noise.", "zh": "它一直發出奇怪的聲音。" },
+      { "en": "I've already tried ___.", "zh": "我已經試過 ___ 了。" },
+      { "en": "There's a leak under the sink.", "zh": "水槽下面在漏水。" },
+      { "en": "The toilet won't stop running.", "zh": "馬桶一直在流水。" },
+      { "en": "Has anyone gotten back to you yet?", "zh": "有人回覆你了嗎？" },
+      { "en": "Just checking in.", "zh": "跟你確認一下。", "note": "追進度時的禮貌開頭，不會顯得在催" },
+      { "en": "When would be a good time for him to come?", "zh": "他什麼時候方便過來？" },
+      { "en": "I'll be home all day.", "zh": "我整天都在家。" },
+      { "en": "Thanks for sorting it out so quickly.", "zh": "謝謝你這麼快處理好。" }
+    ],
+    "chinglish": [
+      { "wrong": "The air conditioner is broken already one week.", "right": "The AC has been broken for a week.", "why": "中文「已經壞一個禮拜了」的「已經」不能直翻成 already。表示持續多久要用現在完成式 + for。" },
+      { "wrong": "Did the repairman come already?", "right": "Has the repairman come yet?", "why": "美式口語 Did… already? 其實也聽得到，但問「到底來了沒」時，Has… yet? 是最標準的說法。" },
+      { "wrong": "I have fixed it yesterday.", "right": "I fixed it yesterday.", "why": "有明確過去時間（yesterday）就只能用過去式。現在完成式不能搭配明確的過去時間點。" },
+      { "wrong": "The water is not hot, it is warm warm.", "right": "The water only gets lukewarm.", "why": "「溫溫的」英文是 lukewarm，不能用疊字。" }
+    ]
+  },
+  "grammar": {
+    "id": "present-perfect-already-yet-just",
+    "title": "現在完成式入門 already / yet / just",
+    "oneLiner": "現在完成式（have + p.p.）講的是「過去的事對現在的影響」：做完了沒、做了沒。",
+    "whenToUse": [
+      "just：剛剛才完成。I've just texted him.",
+      "already：已經完成（常常比預期早）。I've already changed the batteries.",
+      "yet：問句和否定句，「了沒／還沒」。Has he called yet? / He hasn't called yet.",
+      "位置：just 和 already 放在 have 和 p.p. 中間；yet 放句尾。",
+      "注意：句子裡有 yesterday、last week、in 2023 這種明確時間時，要改用過去式。"
+    ],
+    "whyWeGetItWrong": "中文用「了」「過」「已經」「還沒」標示完成，動詞形態不變，而且可以跟任何時間詞一起用：「我昨天已經修好了」。英文的現在完成式卻不能和明確的過去時間放在一起，因為它的重點是「現在的狀態」而不是「什麼時候發生」。台灣人最常犯的錯就是 I have done it yesterday。",
+    "examples": [
+      { "correct": "I've just sent you the photos.", "note": "剛剛才發生，just 放中間。" },
+      { "correct": "Have you called the landlord yet?", "incorrect": "Have you called the landlord already yet?", "note": "問句用 yet 放句尾就好。" },
+      { "correct": "He hasn't replied yet.", "incorrect": "He didn't reply yet.", "note": "英式一定用現在完成式；美式口語偶爾聽到 didn't…yet，但考試和書寫用 hasn't…yet。" },
+      { "correct": "I fixed the door last night.", "incorrect": "I've fixed the door last night.", "note": "有明確時間 last night，用過去式。" },
+      { "correct": "The repair guy has already left.", "note": "already 放 has 和 left 中間。" }
+    ],
+    "quiz": [
+      { "id": "u012-g1", "type": "mcq", "question": "Have you paid the rent ___?", "options": ["already", "yet", "just"], "answer": 1, "explanation": "問句問「了沒」用 yet，放句尾。" },
+      { "id": "u012-g2", "type": "mcq", "question": "Which is correct?", "options": ["I've called him yesterday.", "I called him yesterday.", "I've yesterday called him."], "answer": 1, "explanation": "有 yesterday 要用過去式。" },
+      { "id": "u012-g3", "type": "fill", "question": "Don't worry, I've ___ locked the door. (已經)", "answer": "already", "explanation": "already 放在 have 和 p.p. 中間。" },
+      { "id": "u012-g4", "type": "fill", "question": "The landlord ___ replied yet. (還沒)", "answer": "hasn't|has not", "explanation": "否定用 hasn't + p.p. + yet。" },
+      { "id": "u012-g5", "type": "mcq", "question": "A: Where's Tom? B: He's ___ left. You missed him by a minute.", "options": ["just", "yet", "ever"], "answer": 0, "explanation": "剛剛才離開用 just。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "act-up",
+      "term": "act up",
+      "meaning": "（機器）出毛病、（小孩）不乖",
+      "register": "casual",
+      "usage": "機器時好時壞：My laptop is acting up. 也可用在身體：My back is acting up again.",
+      "risk": { "level": "safe", "note": "中性好用，報修時很自然。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "The Wi-Fi has been acting up all morning.", "zh": "Wi-Fi 整個早上都怪怪的。" },
+        { "en": "My knee acts up whenever it rains.", "zh": "每次下雨我的膝蓋就不舒服。" }
+      ]
+    },
+    {
+      "id": "on-the-fritz",
+      "term": "on the fritz",
+      "meaning": "（電器）故障、怪怪的",
+      "register": "casual",
+      "usage": "美式口語，形容電器壞掉或運作不正常。",
+      "risk": { "level": "safe", "note": "有點老派但仍常用，年輕人也聽得懂。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "The microwave is on the fritz again.", "zh": "微波爐又壞了。" },
+        { "en": "Sorry I didn't call. My phone's been on the fritz.", "zh": "抱歉沒打給你，我手機最近怪怪的。" }
+      ]
+    },
+    {
+      "id": "get-around-to",
+      "term": "get around to",
+      "meaning": "終於抽空去做（拖了一陣子的事）",
+      "register": "neutral",
+      "usage": "get around to + V-ing。常用否定：I haven't gotten around to it yet（還沒空去做）。",
+      "risk": { "level": "safe", "note": "工作上也能用，但聽起來有點「一直拖」，自己說時要小心。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "I finally got around to cleaning my closet.", "zh": "我終於抽空整理衣櫃了。" },
+        { "en": "Sorry, I haven't gotten around to reading your email yet.", "zh": "抱歉，我還沒空看你的信。" }
+      ]
+    },
+    {
+      "id": "sort-out",
+      "term": "sort out",
+      "meaning": "處理好、解決",
+      "register": "neutral",
+      "usage": "sort something out / sort out something。英式特別常用，美式也很普遍。",
+      "risk": { "level": "safe", "note": "職場、生活都能用。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Don't worry, we'll sort it out.", "zh": "別擔心，我們會處理好。" },
+        { "en": "I need to sort out my taxes this weekend.", "zh": "我這週末得把稅弄好。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u012-r1", "sourceUnit": 11, "type": "mcq", "question": "___ any convenience stores near your place?", "options": ["Is there", "Are there", "Have"], "answer": 1, "explanation": "複習第 11 單元：複數用 Are there any。" },
+    { "id": "u012-r2", "sourceUnit": 11, "type": "fill", "question": "Carrying groceries up six floors every day is such a ___.", "answer": "hassle|pain", "explanation": "複習第 11 單元：a hassle = 麻煩事。" },
+    { "id": "u012-r3", "sourceUnit": 10, "type": "mcq", "question": "Thanks for the party. I had a ___!", "options": ["blast", "bomb", "boom"], "answer": 0, "explanation": "複習第 10 單元：had a blast = 玩得超開心。" },
+    { "id": "u012-r4", "sourceUnit": 8, "type": "mcq", "question": "Which is correct?", "options": ["My back is pain.", "My back hurts.", "My back is hurt pain."], "answer": 1, "explanation": "複習第 8 單元：部位 + hurts。" },
+    { "id": "u012-r5", "sourceUnit": 4, "type": "fill", "question": "Where ___ you go on vacation last year?", "answer": "did", "explanation": "複習第 4 單元：過去式問句用 did。" },
+    { "id": "u012-r6", "sourceUnit": 12, "type": "fill", "question": "Don't worry about the leak. The plumber will sort it ___.", "answer": "out", "explanation": "sort out = 處理好。" }
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "id": 18,
+  "module": 2,
+  "level": "B1",
+  "title": { "zh": "手機送修", "en": "Getting Your Phone Fixed" },
+  "scenario": {
+    "title": "到維修中心描述手機問題",
+    "context": "「我的手機壞了」「螢幕被摔破了」「它被送去原廠」——講東西壞掉時，英文要分清楚是「它自己壞了」還是「被弄壞了」。這是被動語態最自然的入門場景。",
+    "dialogues": [
+      {
+        "title": "At the repair counter",
+        "lines": [
+          { "speaker": "Staff", "en": "Hi, what seems to be the problem?", "zh": "你好，有什麼問題嗎？" },
+          { "speaker": "Minz", "en": "My phone won't turn on. It just died yesterday afternoon.", "zh": "我手機開不了機，昨天下午突然就掛了。" },
+          { "speaker": "Staff", "en": "Did you drop it or get it wet?", "zh": "你有摔到或弄濕嗎？" },
+          { "speaker": "Minz", "en": "No, nothing like that. It was updating, and then the screen went black.", "zh": "沒有。它在更新，然後螢幕就黑了。" },
+          { "speaker": "Staff", "en": "Sounds like it got bricked during the update. Let me run a quick test.", "zh": "聽起來像是更新時變磚了，我先幫你簡單測試。" },
+          { "speaker": "Staff", "en": "Yeah, the software's corrupted. It needs to be sent to the main service center.", "zh": "對，軟體損毀了，需要送回總維修中心。" },
+          { "speaker": "Minz", "en": "How long will that take? And will my photos be deleted?", "zh": "要多久？我的照片會被刪掉嗎？" },
+          { "speaker": "Staff", "en": "About a week. And unfortunately, the data might be wiped. Is it backed up?", "zh": "大概一週。很遺憾資料可能會被清空。你有備份嗎？" },
+          { "speaker": "Minz", "en": "I think it was backed up to the cloud last week. Fingers crossed.", "zh": "我記得上週有備份到雲端。祈禱一下。" }
+        ]
+      },
+      {
+        "title": "Complaining to a friend",
+        "lines": [
+          { "speaker": "Jess", "en": "Wait, didn't you just get that phone?", "zh": "等等，你那支手機不是才剛買嗎？" },
+          { "speaker": "Minz", "en": "Eight months ago. And this is the second time it's been repaired.", "zh": "八個月前。而且這是第二次送修了。" },
+          { "speaker": "Jess", "en": "Sounds like you got a lemon.", "zh": "聽起來你買到瑕疵品了。" },
+          { "speaker": "Minz", "en": "Totally. The first time, the screen was replaced because of dead pixels.", "zh": "完全是。第一次是因為壞點，換了螢幕。" },
+          { "speaker": "Jess", "en": "Can you ask for a new one? It's still under warranty, right?", "zh": "你可以要求換新嗎？還在保固內對吧？" },
+          { "speaker": "Minz", "en": "Yeah, I'm going to ask. Meanwhile I'm using my old phone, which is on its last legs.", "zh": "對，我會問。這段期間我先用舊手機，它也快不行了。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "My phone won't turn on.", "zh": "我手機開不了機。", "note": "won't = 就是不肯，形容東西不運作很傳神" },
+      { "en": "The screen is cracked.", "zh": "螢幕裂了。" },
+      { "en": "The battery drains really fast.", "zh": "電池掉得很快。" },
+      { "en": "It keeps freezing.", "zh": "它一直當機。" },
+      { "en": "Is it still under warranty?", "zh": "還在保固內嗎？" },
+      { "en": "How long will the repair take?", "zh": "維修要多久？" },
+      { "en": "How much will it cost to fix?", "zh": "修要多少錢？" },
+      { "en": "Is my data backed up?", "zh": "我的資料有備份嗎？" },
+      { "en": "Can I get a replacement?", "zh": "可以換新的嗎？" },
+      { "en": "It was working fine yesterday.", "zh": "它昨天還好好的。" }
+    ],
+    "chinglish": [
+      { "wrong": "My phone is broken by itself.", "right": "My phone just stopped working. / My phone broke.", "why": "is broken by itself 混合了被動和「自己」，邏輯打架。東西自己壞掉就用主動的 broke / stopped working / died。" },
+      { "wrong": "My phone was broke.", "right": "My phone broke. / My phone was broken.", "why": "被動要 be + 過去分詞（broken），broke 是過去式。另外 broke 當形容詞是「沒錢」，I'm broke = 我沒錢。" },
+      { "wrong": "The phone needs to repair.", "right": "The phone needs to be repaired. / The phone needs repairing.", "why": "手機是「被修」的，要用被動 to be repaired。" },
+      { "wrong": "My phone is dead machine.", "right": "My phone froze. / My phone keeps freezing.", "why": "「當機」直翻成 dead machine 不是英文。當機是 freeze / crash。" }
+    ]
+  },
+  "grammar": {
+    "id": "passive-intro-broke-vs-was-broken",
+    "title": "被動入門：broke vs was broken",
+    "oneLiner": "主詞「自己做」用主動；主詞「被做」用被動 be + p.p.。重點不在誰做的時候，就用被動。",
+    "whenToUse": [
+      "被動 = be + 過去分詞：was replaced, is being repaired, will be sent, has been fixed。",
+      "用被動的時機：不知道是誰做的、誰做的不重要，或重點是「東西」而不是「人」。The screen was replaced.",
+      "有些動詞主動就能表示「自己發生」：The phone broke. / The screen cracked. / The glass broke.",
+      "The phone broke（它壞了，發生的事件）vs The phone is broken（它現在是壞的，描述狀態）。",
+      "真的要說是誰做的，才加 by：It was repaired by a technician."
+    ],
+    "whyWeGetItWrong": "中文的被動常靠「被」字，但日常很少用：「手機送修了」「螢幕換好了」其實都是被動意思，卻沒有「被」。台灣人不習慣判斷主詞是主動還是被動，所以會寫出 The phone needs to repair（手機需要去修理別人）或 The screen replaced（螢幕去替換了什麼）。",
+    "examples": [
+      { "correct": "The screen was replaced last month.", "incorrect": "The screen replaced last month.", "note": "螢幕是被換的，要用被動。" },
+      { "correct": "My laptop broke yesterday.", "note": "東西自己壞了，主動就可以。" },
+      { "correct": "My laptop is broken.", "note": "描述現在的狀態。" },
+      { "correct": "Your phone will be sent to the service center.", "note": "未來的被動：will be + p.p.。" },
+      { "correct": "It needs to be charged.", "incorrect": "It needs to charge.", "note": "It needs to charge 口語其實也聽得到，但指的是「需要充電」這件事；正式寫法用被動。" }
+    ],
+    "quiz": [
+      { "id": "u018-g1", "type": "mcq", "question": "My phone screen ___ last week. It looks brand new now.", "options": ["replaced", "was replaced", "is replace"], "answer": 1, "explanation": "螢幕是被換的，用被動。" },
+      { "id": "u018-g2", "type": "mcq", "question": "Oh no, the glass ___! Who put it on the edge?", "options": ["broke", "was broke", "is broke"], "answer": 0, "explanation": "東西自己破了，用主動的過去式。" },
+      { "id": "u018-g3", "type": "fill", "question": "Your laptop will be ___ (fix) by Friday.", "answer": "fixed", "explanation": "will be + 過去分詞。" },
+      { "id": "u018-g4", "type": "mcq", "question": "This printer needs ___.", "options": ["to repair", "to be repaired", "repair it"], "answer": 1, "explanation": "印表機是被修理的，用被動。" },
+      { "id": "u018-g5", "type": "fill", "question": "All my photos ___ backed up to the cloud yesterday. (were / was)", "answer": "were", "explanation": "photos 是複數，過去被動用 were + p.p.。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "bricked",
+      "term": "bricked",
+      "meaning": "（電子產品）變磚、完全無法開機",
+      "register": "casual",
+      "usage": "裝置壞到跟磚頭一樣沒用，常用在更新失敗後。brick 也可以當動詞。",
+      "risk": { "level": "safe", "note": "科技圈常用語，一般人也懂。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "The update bricked my tablet.", "zh": "更新讓我的平板變磚了。" },
+        { "en": "Don't unplug it during the update or it might get bricked.", "zh": "更新時別拔插頭，不然可能會變磚。" }
+      ]
+    },
+    {
+      "id": "a-lemon",
+      "term": "a lemon",
+      "meaning": "瑕疵品、問題很多的產品（特別是車）",
+      "register": "casual",
+      "usage": "買到一直出問題的東西：I got a lemon. 美國甚至有 Lemon Law（瑕疵車保護法）。",
+      "risk": { "level": "safe", "note": "講物品沒問題。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "My first car was a lemon. It broke down every month.", "zh": "我第一台車是爛車，每個月都拋錨。" },
+        { "en": "If it breaks again, it's definitely a lemon.", "zh": "如果再壞，那絕對是瑕疵品。" }
+      ]
+    },
+    {
+      "id": "dead",
+      "term": "dead",
+      "meaning": "（電池）沒電；（機器）掛了",
+      "register": "casual",
+      "usage": "My phone's dead = 我手機沒電了。也可以說機器完全壞了。",
+      "risk": { "level": "safe", "note": "日常最常用的說法之一。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Sorry I didn't reply. My phone was dead.", "zh": "抱歉沒回你，我手機沒電了。" },
+        { "en": "Can I borrow your charger? My battery's almost dead.", "zh": "可以借你的充電器嗎？我快沒電了。" }
+      ]
+    },
+    {
+      "id": "on-its-last-legs",
+      "term": "on its last legs",
+      "meaning": "快不行了、快報廢了",
+      "register": "casual",
+      "usage": "形容東西很舊快壞了；用在人（on his last legs）則是很累或快撐不住。",
+      "risk": { "level": "safe", "note": "講物品很安全；講人時注意語境，可能暗示病重。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "My laptop is on its last legs. It takes ten minutes to start.", "zh": "我的筆電快掛了，開機要十分鐘。" },
+        { "en": "This washing machine is on its last legs.", "zh": "這台洗衣機快報廢了。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u018-r1", "sourceUnit": 17, "type": "mcq", "question": "You look exhausted. You ___ go home early.", "options": ["should", "should to", "had better to"], "answer": 0, "explanation": "複習第 17 單元：一般建議用 should + 原形。" },
+    { "id": "u018-r2", "sourceUnit": 17, "type": "fill", "question": "I'm going to call in ___ today. I can't stop coughing.", "answer": "sick", "explanation": "複習第 17 單元：call in sick。" },
+    { "id": "u018-r3", "sourceUnit": 16, "type": "mcq", "question": "Which is most natural?", "options": ["the house of my grandma", "my grandma's house", "my grandma house"], "answer": 1, "explanation": "複習第 16 單元：人的所有物用 's。" },
+    { "id": "u018-r4", "sourceUnit": 14, "type": "fill", "question": "Do you mind ___ (wait) a few minutes?", "answer": "waiting", "explanation": "複習第 14 單元：mind + V-ing。" },
+    { "id": "u018-r5", "sourceUnit": 10, "type": "mcq", "question": "The party is ___, so bring your own drinks.", "options": ["BYOB", "BBQ", "ASAP"], "answer": 0, "explanation": "複習第 10 單元：BYOB = 酒水自備。" },
+    { "id": "u018-r6", "sourceUnit": 2, "type": "mcq", "question": "Which is the most polite way to order?", "options": ["I want a sandwich.", "Could I have a sandwich, please?", "Give me sandwich."], "answer": 1, "explanation": "複習第 2 單元：Could I have… please?" },
+    { "id": "u018-r7", "sourceUnit": 18, "type": "mcq", "question": "My phone ___ so I couldn't call you. (沒電了)", "options": ["was dead", "was die", "dead"], "answer": 0, "explanation": "My phone was dead = 手機沒電了。" }
+  ]
+}

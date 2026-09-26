@@ -1,0 +1,149 @@
+{
+  "id": 15,
+  "module": 2,
+  "level": "B1",
+  "title": { "zh": "上健身房", "en": "At the Gym" },
+  "scenario": {
+    "title": "健身房裡的對話、聊運動習慣",
+    "context": "聊運動習慣一定會講到頻率：常常、有時、幾乎不、一週三次。always / usually / sometimes 放在句子哪裡，是台灣人很少注意、但一放錯就很明顯的地方。",
+    "dialogues": [
+      {
+        "title": "Asking to share equipment",
+        "lines": [
+          { "speaker": "Minz", "en": "Excuse me, are you using this bench?", "zh": "不好意思，你在用這張椅子嗎？" },
+          { "speaker": "Guy", "en": "I've got two more sets. Want to work in?", "zh": "我還剩兩組。要一起輪著用嗎？" },
+          { "speaker": "Minz", "en": "Sure, thanks. I'll just do my sets between yours.", "zh": "好啊，謝謝。我就在你的組間做。" },
+          { "speaker": "Guy", "en": "No problem. You're here pretty often, right?", "zh": "沒問題。你很常來對吧？" },
+          { "speaker": "Minz", "en": "I usually come three times a week, but I never come on weekends. It's way too crowded.", "zh": "我通常一週來三次，但週末從來不來，人太多了。" },
+          { "speaker": "Guy", "en": "Smart. Saturdays are a zoo.", "zh": "聰明。週六根本是動物園。" },
+          { "speaker": "Minz", "en": "Do you always train this late?", "zh": "你都這麼晚練嗎？" },
+          { "speaker": "Guy", "en": "Pretty much. I hit the gym right after work, otherwise I just go home and crash.", "zh": "差不多。我下班就直接來，不然回家就直接倒下了。" }
+        ]
+      },
+      {
+        "title": "Complaining to a friend",
+        "lines": [
+          { "speaker": "Jess", "en": "Why are you walking like that?", "zh": "你怎麼這樣走路？" },
+          { "speaker": "Minz", "en": "Leg day. My trainer went full beast mode on me.", "zh": "練腿日。我教練整個火力全開。" },
+          { "speaker": "Jess", "en": "Ouch. Do you often get this sore?", "zh": "好痛。你常常這麼痠嗎？" },
+          { "speaker": "Minz", "en": "Not usually. But he says no pain, no gain.", "zh": "通常不會。但他說不痛就沒有收穫。" },
+          { "speaker": "Jess", "en": "Are you trying to get swole or something?", "zh": "你是想練成大隻佬之類的嗎？" },
+          { "speaker": "Minz", "en": "Ha, no. I just want to be able to carry my groceries up five floors without dying.", "zh": "哈，不是。我只是想提著菜爬五層樓不會死掉。" },
+          { "speaker": "Jess", "en": "Fair. I hardly ever work out, so I'm in no position to judge.", "zh": "合理。我幾乎不運動，沒資格評論。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "Are you using this?", "zh": "你在用這個嗎？", "note": "健身房最常用的一句" },
+      { "en": "How many sets do you have left?", "zh": "你還剩幾組？" },
+      { "en": "Mind if I work in?", "zh": "介意我跟你輪流用嗎？", "note": "work in = 在別人組間休息時插進去用" },
+      { "en": "I work out three times a week.", "zh": "我一週運動三次。" },
+      { "en": "I usually go after work.", "zh": "我通常下班後去。" },
+      { "en": "I'm so sore from yesterday.", "zh": "我昨天練完好痠。" },
+      { "en": "I'm trying to get in shape.", "zh": "我在努力把身體練好。" },
+      { "en": "Could you spot me?", "zh": "可以幫我保護一下嗎？", "note": "spot = 在旁邊保護舉重的人" },
+      { "en": "I hardly ever skip a workout.", "zh": "我幾乎不會翹掉訓練。" },
+      { "en": "I'm out of shape.", "zh": "我體能很差。" }
+    ],
+    "chinglish": [
+      { "wrong": "I go always to the gym after work.", "right": "I always go to the gym after work.", "why": "頻率副詞放在一般動詞前面。中文「我總是下班去」的語序其實一樣，但很多人會被其他語言干擾放錯。" },
+      { "wrong": "I do sport every day.", "right": "I work out every day. / I exercise every day.", "why": "do sport 是英式說法而且偏指球類運動。一般的「運動、健身」美式說 work out / exercise。" },
+      { "wrong": "My body is very sour.", "right": "I'm so sore.", "why": "肌肉痠痛是 sore。sour 是「酸的味道」，完全不同的字。" },
+      { "wrong": "Sometimes I am late to the gym usually.", "right": "I'm sometimes late for my gym class.", "why": "一個句子放一個頻率副詞就好；be 動詞時副詞放在 be 後面。" }
+    ]
+  },
+  "grammar": {
+    "id": "frequency-adverb-position",
+    "title": "頻率副詞的位置",
+    "oneLiner": "頻率副詞放在一般動詞前面、be 動詞後面、助動詞後面。",
+    "whenToUse": [
+      "常見頻率副詞（由高到低）：always > usually > often > sometimes > rarely / hardly ever > never。",
+      "一般動詞前：I usually go after work.",
+      "be 動詞後：I'm always tired on Mondays.",
+      "助動詞後：I can never remember his name. / I've never tried yoga.",
+      "sometimes 和 usually 也可以放句首強調：Sometimes I skip leg day.",
+      "具體次數放句尾：three times a week, once a month, every day。"
+    ],
+    "whyWeGetItWrong": "中文的「常常、總是」大多放在動詞前面，這點和英文一樣。真正的問題出在 be 動詞：中文「我總是很累」沒有 be 動詞，所以台灣人會說 I always am tired。另外 hardly ever 和 never 本身就是否定，不能再加 don't。",
+    "examples": [
+      { "correct": "I usually work out in the morning.", "incorrect": "I work out usually in the morning.", "note": "一般動詞前。" },
+      { "correct": "I'm always hungry after the gym.", "incorrect": "I always am hungry after the gym.", "note": "be 動詞後。" },
+      { "correct": "I've never been to a spin class.", "note": "助動詞 have 後面。" },
+      { "correct": "I hardly ever eat breakfast.", "incorrect": "I don't hardly ever eat breakfast.", "note": "hardly ever 已經是否定，不要再加 don't。" },
+      { "correct": "I go swimming twice a week.", "note": "具體次數放句尾。" }
+    ],
+    "quiz": [
+      { "id": "u015-g1", "type": "mcq", "question": "Choose the sentence with the correct word order.", "options": ["I usually take the MRT.", "I take usually the MRT.", "I take the MRT usually always."], "answer": 0, "explanation": "頻率副詞放一般動詞前。" },
+      { "id": "u015-g2", "type": "mcq", "question": "Which is correct?", "options": ["I always am late.", "I'm always late.", "Always I'm late always."], "answer": 1, "explanation": "be 動詞後。" },
+      { "id": "u015-g3", "type": "fill", "question": "I can ___ remember where I parked. (從來不)", "answer": "never", "explanation": "助動詞 can 後面放 never。" },
+      { "id": "u015-g4", "type": "mcq", "question": "Which is correct?", "options": ["I don't hardly ever cook.", "I hardly ever cook.", "I hardly ever don't cook."], "answer": 1, "explanation": "hardly ever 本身是否定。" },
+      { "id": "u015-g5", "type": "fill", "question": "I go to yoga ___ a week. (兩次)", "answer": "twice|two times", "explanation": "twice a week = 一週兩次。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "hit-the-gym",
+      "term": "hit the gym",
+      "meaning": "去健身房",
+      "register": "casual",
+      "usage": "go to the gym 的口語說法。hit 也可以接其他地方：hit the road, hit the beach。",
+      "risk": { "level": "safe", "note": "任何場合都能說。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "I'm going to hit the gym before dinner.", "zh": "我晚餐前要去健身房。" },
+        { "en": "I haven't hit the gym in two weeks. I feel so lazy.", "zh": "我兩週沒去健身房了，覺得好懶。" }
+      ]
+    },
+    {
+      "id": "swole",
+      "term": "swole",
+      "meaning": "肌肉很大、很壯",
+      "register": "very-casual",
+      "usage": "健身圈用語，形容肌肉練得很大。get swole = 練壯。",
+      "risk": { "level": "careful", "note": "年輕人和健身圈才用，帶點玩笑語氣；工作場合不要用。形容別人時可能被理解成揶揄。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "Dude, you got swole! Have you been lifting?", "zh": "兄弟你變好壯！你有在練嗎？" },
+        { "en": "I don't want to get swole. I just want to feel healthy.", "zh": "我不想練大隻，只想覺得健康。" }
+      ]
+    },
+    {
+      "id": "no-pain-no-gain",
+      "term": "no pain, no gain",
+      "meaning": "不痛就沒有收穫、一分耕耘一分收穫",
+      "register": "neutral",
+      "usage": "運動界的經典口號，也延伸到工作、讀書：不吃苦就沒有成果。",
+      "risk": { "level": "safe", "note": "有點老套，常被拿來開玩笑或反諷。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "My legs are killing me, but hey, no pain, no gain.", "zh": "我的腿痛死了，不過嘛，不痛就沒收穫。" },
+        { "en": "Learning a language is hard work. No pain, no gain.", "zh": "學語言很辛苦，一分耕耘一分收穫。" }
+      ]
+    },
+    {
+      "id": "beast-mode",
+      "term": "beast mode",
+      "meaning": "火力全開、野獸模式",
+      "register": "very-casual",
+      "usage": "形容全力以赴、狀態超猛，運動、工作、讀書都能用。go (full) beast mode。",
+      "risk": { "level": "safe", "note": "帶玩笑的誇飾，同輩間用；正式簡報別用。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "She went full beast mode and finished the project in two days.", "zh": "她火力全開，兩天就把專案做完。" },
+        { "en": "Coffee's in. Time for beast mode.", "zh": "咖啡喝了，開啟野獸模式。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u015-r1", "sourceUnit": 14, "type": "mcq", "question": "I really enjoy ___ in the park.", "options": ["to run", "running", "run"], "answer": 1, "explanation": "複習第 14 單元：enjoy + V-ing。" },
+    { "id": "u015-r2", "sourceUnit": 14, "type": "fill", "question": "I got totally hooked ___ that podcast.", "answer": "on", "explanation": "複習第 14 單元：hooked on = 迷上。" },
+    { "id": "u015-r3", "sourceUnit": 13, "type": "mcq", "question": "I'm really ___ in joining a running club.", "options": ["interesting", "interested", "interest"], "answer": 1, "explanation": "複習第 13 單元：感興趣用 interested。" },
+    { "id": "u015-r4", "sourceUnit": 11, "type": "fill", "question": "There ___ three gyms within walking distance of my place.", "answer": "are", "explanation": "複習第 11 單元：複數用 There are。" },
+    { "id": "u015-r5", "sourceUnit": 7, "type": "mcq", "question": "Can we turn the AC off? It's ___ in here!", "options": ["freezing", "froze", "freeze"], "answer": 0, "explanation": "複習第 7 單元：It's freezing = 冷死了。" },
+    { "id": "u015-r6", "sourceUnit": 15, "type": "mcq", "question": "My arms are so ___ from yesterday's workout.", "options": ["sour", "sore", "sorry"], "answer": 1, "explanation": "肌肉痠痛用 sore。" }
+  ]
+}

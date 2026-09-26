@@ -1,0 +1,149 @@
+{
+  "id": 11,
+  "module": 2,
+  "level": "B1",
+  "title": { "zh": "租屋看房", "en": "Viewing an Apartment" },
+  "scenario": {
+    "title": "跟房東或仲介看房子",
+    "context": "看房時要一邊聽介紹、一邊問問題：有沒有洗衣機、有沒有電梯、附近有什麼。這整個單元都在描述「某處有什麼」，也就是台灣人最容易講錯的 There is / There are。",
+    "dialogues": [
+      {
+        "title": "Viewing a studio",
+        "lines": [
+          { "speaker": "Agent", "en": "So this is the studio. It's about ten ping, so it's a bit of a shoebox, but it's got great light.", "zh": "這就是那間套房，大概十坪，有點小，但採光很好。" },
+          { "speaker": "Minz", "en": "It's cozy. Is there a washing machine?", "zh": "蠻溫馨的。有洗衣機嗎？" },
+          { "speaker": "Agent", "en": "There's one on the rooftop that all the tenants share.", "zh": "頂樓有一台，所有房客共用。" },
+          { "speaker": "Minz", "en": "Hmm, that's a bit of a hassle. Are there any units with their own washer?", "zh": "嗯，那有點麻煩。有自己洗衣機的房間嗎？" },
+          { "speaker": "Agent", "en": "There's a bigger one on the fourth floor, but it's three thousand more a month.", "zh": "四樓有一間比較大的，但每個月貴三千。" },
+          { "speaker": "Minz", "en": "Is there an elevator?", "zh": "有電梯嗎？" },
+          { "speaker": "Agent", "en": "Unfortunately, no. But there are lots of restaurants and a supermarket right downstairs.", "zh": "可惜沒有。不過樓下有很多餐廳和一間超市。" },
+          { "speaker": "Minz", "en": "OK. Can I see the fourth-floor one too?", "zh": "好。我也可以看四樓那間嗎？" }
+        ]
+      },
+      {
+        "title": "Talking it over with a friend",
+        "lines": [
+          { "speaker": "Jess", "en": "So how was the viewing?", "zh": "看房看得怎樣？" },
+          { "speaker": "Minz", "en": "The first place was a dump, honestly. There was mold all over the bathroom ceiling.", "zh": "說真的第一間很破，浴室天花板都是霉。" },
+          { "speaker": "Jess", "en": "Gross. What about the second one?", "zh": "好噁。那第二間呢？" },
+          { "speaker": "Minz", "en": "Much better. There are two bedrooms, so I'm thinking of finding a roomie.", "zh": "好很多。有兩間房，所以我在想要找個室友。" },
+          { "speaker": "Jess", "en": "Smart. Is there a balcony?", "zh": "聰明。有陽台嗎？" },
+          { "speaker": "Minz", "en": "A tiny one. There's just enough room for a chair and a plant.", "zh": "很小一個，剛好放得下一張椅子和一盆植物。" },
+          { "speaker": "Jess", "en": "That's all you need. I say go for it.", "zh": "這樣就夠了。我覺得可以租。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "Is there a washing machine?", "zh": "有洗衣機嗎？" },
+      { "en": "Are there any ___ nearby?", "zh": "附近有 ___ 嗎？" },
+      { "en": "How much is the rent?", "zh": "房租多少？" },
+      { "en": "Does the rent include utilities?", "zh": "房租含水電嗎？", "note": "utilities = 水電瓦斯網路等費用" },
+      { "en": "How much is the deposit?", "zh": "押金多少？", "note": "台灣常見押二付一：a two-month deposit plus one month's rent" },
+      { "en": "Is there a minimum lease?", "zh": "有最短租期嗎？" },
+      { "en": "Are pets allowed?", "zh": "可以養寵物嗎？" },
+      { "en": "When is it available?", "zh": "什麼時候可以入住？" },
+      { "en": "It gets great light.", "zh": "採光很好。" },
+      { "en": "Can I think about it and get back to you?", "zh": "我可以考慮一下再回覆你嗎？" }
+    ],
+    "chinglish": [
+      { "wrong": "There have a washing machine on the roof.", "right": "There's a washing machine on the roof.", "why": "中文「有」同時表示擁有和存在。表示「某地有某物」要用 There is / There are，不能用 have。" },
+      { "wrong": "This room has very good sunshine.", "right": "This room gets great light.", "why": "sunshine 指陽光本身。說房子採光好，英文慣用 get a lot of light / get great light。" },
+      { "wrong": "The rent is include water and electricity?", "right": "Does the rent include utilities?", "why": "include 是動詞，不能和 is 疊在一起。問句用 Does… include…?" },
+      { "wrong": "The house is very small but very warm.", "right": "It's small, but it's cozy.", "why": "warm 形容房子多半是溫度。「溫馨」要用 cozy。" }
+    ]
+  },
+  "grammar": {
+    "id": "there-is-there-are",
+    "title": "There is / There are",
+    "oneLiner": "要說「某個地方有某樣東西」，用 There is / There are，不用 have。",
+    "whenToUse": [
+      "There is + 單數或不可數名詞：There's a supermarket downstairs. / There's mold on the ceiling.",
+      "There are + 複數名詞：There are two bedrooms.",
+      "問句：Is there…? / Are there any…?",
+      "否定：There isn't a… / There aren't any…",
+      "過去：There was / There were。未來：There will be / There's going to be。",
+      "have 是「某人擁有」：The apartment has two bedrooms 也對，因為主詞是房子；但不能說 There have。"
+    ],
+    "whyWeGetItWrong": "中文的「有」一個字身兼兩職：「我有車」（擁有）和「樓下有超市」（存在）。英文把這兩件事分得很清楚：擁有用 have，存在用 there is/are。台灣人會直翻出 There have…、或 Downstairs has a supermarket，前者文法錯誤，後者聽起來很怪。",
+    "examples": [
+      { "correct": "There's a convenience store on every corner.", "incorrect": "There has a convenience store on every corner.", "note": "存在句用 There is。" },
+      { "correct": "Are there any parks nearby?", "incorrect": "Have any parks nearby?", "note": "問「附近有沒有」用 Are there any。" },
+      { "correct": "There isn't an elevator.", "note": "否定句。" },
+      { "correct": "The apartment has two bedrooms and a balcony.", "note": "以房子為主詞時可以用 has。" },
+      { "correct": "There was a lot of noise last night.", "incorrect": "There were a lot of noise last night.", "note": "noise 不可數，用 was。" }
+    ],
+    "quiz": [
+      { "id": "u011-g1", "type": "mcq", "question": "___ a night market near my place.", "options": ["There has", "There's", "It has"], "answer": 1, "explanation": "存在句用 There is。" },
+      { "id": "u011-g2", "type": "mcq", "question": "___ any good cafés around here?", "options": ["Are there", "Is there", "Have"], "answer": 0, "explanation": "cafés 是複數，用 Are there any。" },
+      { "id": "u011-g3", "type": "fill", "question": "There ___ two bathrooms in the apartment.", "answer": "are", "explanation": "複數用 are。" },
+      { "id": "u011-g4", "type": "mcq", "question": "There ___ a lot of traffic this morning.", "options": ["were", "was", "are"], "answer": 1, "explanation": "traffic 不可數，過去用 was。" },
+      { "id": "u011-g5", "type": "fill", "question": "Sorry, there ___ any parking spaces left. (否定)", "answer": "aren't|are not", "explanation": "複數否定用 aren't any。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "roomie",
+      "term": "roomie",
+      "meaning": "室友（roommate 的暱稱）",
+      "register": "casual",
+      "usage": "朋友間稱呼室友。美式 roommate 通常指同住一間公寓；英式多說 flatmate。",
+      "risk": { "level": "safe", "note": "口語暱稱，租屋合約等正式文件寫 roommate / tenant。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "My roomie and I split the rent fifty-fifty.", "zh": "我跟室友房租各付一半。" },
+        { "en": "I'm looking for a roomie. Know anyone?", "zh": "我在找室友，你有認識誰嗎？" }
+      ]
+    },
+    {
+      "id": "a-dump",
+      "term": "a dump",
+      "meaning": "破爛的地方、很髒亂的房子",
+      "register": "very-casual",
+      "usage": "批評住處或店家又破又髒。This place is a dump.",
+      "risk": { "level": "careful", "note": "當著房東或主人的面說非常失禮；自嘲自己家亂沒關係。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "My first apartment was a total dump, but it was cheap.", "zh": "我第一間公寓超破，但很便宜。" },
+        { "en": "Sorry, my place is a dump right now. I haven't cleaned in weeks.", "zh": "抱歉我家現在超亂，好幾週沒打掃了。" }
+      ]
+    },
+    {
+      "id": "a-shoebox",
+      "term": "a shoebox",
+      "meaning": "超小的房子（鞋盒般大小）",
+      "register": "casual",
+      "usage": "形容住處小到像鞋盒，大城市租屋族的自嘲。",
+      "risk": { "level": "safe", "note": "自嘲自己家很自然；說別人家是 shoebox 要看交情。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "I pay twenty thousand a month for a shoebox in Da'an.", "zh": "我每個月付兩萬住大安區的鞋盒。" },
+        { "en": "It's a shoebox, but it's my shoebox.", "zh": "雖然很小，但它是我的小窩。" }
+      ]
+    },
+    {
+      "id": "a-hassle",
+      "term": "a hassle",
+      "meaning": "麻煩事",
+      "register": "casual",
+      "usage": "形容很費工、很煩的事。It's a hassle. / What a hassle. 也可以當動詞 hassle someone（煩某人）。",
+      "risk": { "level": "safe", "note": "工作場合也能用，語氣比 annoying 溫和。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Carrying laundry up to the roof every week is such a hassle.", "zh": "每週把衣服搬上頂樓超麻煩。" },
+        { "en": "Moving is always a hassle.", "zh": "搬家永遠很麻煩。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u011-r1", "sourceUnit": 10, "type": "mcq", "question": "I ___ at a bank for five years, but I quit in 2024.", "options": ["work", "worked", "am working"], "answer": 1, "explanation": "複習第 10 單元：已結束的事用過去式。" },
+    { "id": "u011-r2", "sourceUnit": 10, "type": "fill", "question": "Long time no ___! How have you been?", "answer": "see", "explanation": "複習第 10 單元：Long time no see。" },
+    { "id": "u011-r3", "sourceUnit": 9, "type": "mcq", "question": "A: The trash is full. B: I ___ take it out.", "options": ["'ll", "'m taking", "take"], "answer": 0, "explanation": "複習第 9 單元：當下決定用 will。" },
+    { "id": "u011-r4", "sourceUnit": 7, "type": "mcq", "question": "Which is correct?", "options": ["Outside is pouring.", "It's pouring outside.", "Is pouring outside."], "answer": 1, "explanation": "複習第 7 單元：天氣用虛主詞 It。" },
+    { "id": "u011-r5", "sourceUnit": 3, "type": "fill", "question": "My apartment is ___ the fifth floor.", "answer": "on", "explanation": "複習第 3 單元：樓層用 on。" },
+    { "id": "u011-r6", "sourceUnit": 11, "type": "mcq", "question": "Which is correct?", "options": ["There have a gym in the building.", "There's a gym in the building.", "The building there is a gym."], "answer": 1, "explanation": "存在句用 There is。" }
+  ]
+}

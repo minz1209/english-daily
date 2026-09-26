@@ -1,0 +1,147 @@
+{
+  "id": 17,
+  "module": 2,
+  "level": "B1",
+  "title": { "zh": "請病假", "en": "Calling in Sick" },
+  "scenario": {
+    "title": "跟主管請假、同事給建議",
+    "context": "請病假要簡潔、有禮貌、交代工作。同事聽到你生病，會給各種建議：你應該去看醫生、最好多休息。should、had better、ought to 看起來都是「應該」，語氣卻差很多，用錯了可能變成在威脅人。",
+    "dialogues": [
+      {
+        "title": "Messaging the manager",
+        "lines": [
+          { "speaker": "Minz", "en": "Hi Karen, I'm afraid I need to call in sick today. I've had a fever since last night.", "zh": "Karen 你好，我今天恐怕得請病假。我從昨晚開始發燒。" },
+          { "speaker": "Karen", "en": "Oh no, sorry to hear that. Take it easy and get some rest.", "zh": "哎呀，真遺憾。好好休息。" },
+          { "speaker": "Minz", "en": "Thanks. I've asked Daniel to cover the 2 p.m. client call.", "zh": "謝謝。我已經請 Daniel 幫我顧下午兩點的客戶電話。" },
+          { "speaker": "Karen", "en": "Perfect. You should see a doctor if it doesn't go down.", "zh": "太好了。如果沒退燒，你應該去看醫生。" },
+          { "speaker": "Minz", "en": "I will. I'll keep an eye on my email in case anything urgent comes up.", "zh": "我會的。我會留意信箱，以防有緊急的事。" },
+          { "speaker": "Karen", "en": "Honestly, you'd better stay offline. We'll manage. Feel better!", "zh": "說真的，你最好別上線，我們撐得住。早日康復！" }
+        ]
+      },
+      {
+        "title": "Back at work",
+        "lines": [
+          { "speaker": "Daniel", "en": "Hey, you're back! Feeling better?", "zh": "嘿，你回來了！好點了嗎？" },
+          { "speaker": "Minz", "en": "Much better, thanks. It was just a bug, I think. Half my building has it.", "zh": "好多了，謝謝。應該只是小病毒，我們那棟一半的人都中了。" },
+          { "speaker": "Daniel", "en": "You should've stayed home one more day. You still sound stuffy.", "zh": "你應該多待在家一天的，你聽起來還有鼻音。" },
+          { "speaker": "Minz", "en": "I know, but I had a deadline.", "zh": "我知道，但我有截止日。" },
+          { "speaker": "Daniel", "en": "Well, you ought to take it easy this week at least.", "zh": "嗯，至少這週你應該放慢一點。" },
+          { "speaker": "Minz", "en": "I will. By the way, thanks for covering the call.", "zh": "我會的。對了，謝謝你幫我顧電話。" },
+          { "speaker": "Daniel", "en": "No problem. Just don't play hooky on me next Friday!", "zh": "沒事。只要你下週五別給我裝病翹班就好！" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "I'm afraid I need to call in sick today.", "zh": "我今天恐怕得請病假。", "note": "I'm afraid 讓壞消息聽起來比較客氣" },
+      { "en": "I've had a fever since last night.", "zh": "我從昨晚開始發燒。" },
+      { "en": "I've asked ___ to cover ___.", "zh": "我已經請 ___ 幫我顧 ___。", "note": "交代工作，讓主管安心" },
+      { "en": "I'll be checking my email occasionally.", "zh": "我會偶爾看一下信箱。" },
+      { "en": "I should be back tomorrow.", "zh": "我應該明天就能回來。" },
+      { "en": "Sorry for the short notice.", "zh": "抱歉這麼臨時才說。" },
+      { "en": "You should see a doctor.", "zh": "你應該去看醫生。" },
+      { "en": "Get some rest.", "zh": "好好休息。" },
+      { "en": "Feeling better?", "zh": "好點了嗎？" },
+      { "en": "Thanks for covering for me.", "zh": "謝謝你幫我代班。" }
+    ],
+    "chinglish": [
+      { "wrong": "I want to ask for a leave today.", "right": "I need to take a sick day today. / I'm calling in sick today.", "why": "ask for a leave 是中式直翻，而且 leave 在這裡不可數，不加 a。病假說 take a sick day 或 call in sick。" },
+      { "wrong": "You had better go see a doctor, OK?", "right": "You should really see a doctor.", "why": "had better 語氣很重，帶「不然會有後果」的暗示，對平輩或上司說聽起來像命令甚至威脅。一般建議用 should。" },
+      { "wrong": "I am sick, so I cannot go to the company.", "right": "I'm sick, so I can't come in today.", "why": "「去公司」直翻成 go to the company 很生硬。上班說 come in / go into the office / go to work。" },
+      { "wrong": "You should to rest.", "right": "You should rest.", "why": "should 後面直接接原形動詞，不加 to。ought 才要加 to。" }
+    ]
+  },
+  "grammar": {
+    "id": "should-had-better-ought-to",
+    "title": "should / had better / ought to",
+    "oneLiner": "should 是一般建議；ought to 意思差不多但稍微正式；had better 是強烈警告，暗示不照做會有後果。",
+    "whenToUse": [
+      "should + 原形：最常用、語氣中性的建議。You should get some rest.",
+      "ought to + 原形：和 should 差不多，稍微正式或強調「道理上應該」。口語較少用。",
+      "had better（'d better）+ 原形：強烈建議，暗示「不然會出事」。You'd better leave now or you'll miss the train.",
+      "had better 雖然有 had，但講的是現在或未來，不是過去。",
+      "否定：shouldn't / had better not（不是 hadn't better）。",
+      "過去後悔：should have + p.p.（第 49 單元會詳細講）。You should've stayed home."
+    ],
+    "whyWeGetItWrong": "中文的「應該、最好、要」語氣差別不大，「你最好去看醫生」聽起來很關心。但英文的 had better 帶有警告意味，接近「你最好給我去看醫生，不然…」。課本常把 had better 翻成「最好」，台灣人就拿它當禮貌建議用，結果對主管說了很沒禮貌的話。",
+    "examples": [
+      { "correct": "You should drink more water.", "note": "一般建議，最安全。" },
+      { "correct": "We'd better hurry. The meeting starts in five minutes.", "note": "有後果（遲到），用 had better 很自然，而且對象是「我們」。" },
+      { "correct": "You shouldn't work when you're sick.", "incorrect": "You don't should work when you're sick.", "note": "否定是 shouldn't。" },
+      { "correct": "You'd better not tell the boss.", "incorrect": "You hadn't better tell the boss.", "note": "had better 的否定是 had better not。" },
+      { "correct": "You ought to call your mom more often.", "note": "ought to 常帶「道理上、道德上應該」的語感。" }
+    ],
+    "quiz": [
+      { "id": "u017-g1", "type": "mcq", "question": "Your coworker has a bad cough. The most polite advice is:", "options": ["You'd better see a doctor.", "You should probably see a doctor.", "You must go to doctor."], "answer": 1, "explanation": "一般的關心建議用 should，加 probably 更柔和。" },
+      { "id": "u017-g2", "type": "mcq", "question": "It's 8:55 and the train leaves at 9. \"We ___ run!\"", "options": ["'d better", "ought", "should to"], "answer": 0, "explanation": "有明確後果（趕不上車），用 had better。" },
+      { "id": "u017-g3", "type": "fill", "question": "You should ___ (rest) for a few days.", "answer": "rest", "explanation": "should 後面接原形。" },
+      { "id": "u017-g4", "type": "mcq", "question": "Which is correct?", "options": ["You hadn't better be late.", "You'd better not be late.", "You better don't be late."], "answer": 1, "explanation": "had better 的否定是 had better not。" },
+      { "id": "u017-g5", "type": "fill", "question": "You ___ to apologize to her. It was your fault. (應該，用 ought)", "answer": "ought", "explanation": "ought to + 原形。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "call-in-sick",
+      "term": "call in sick",
+      "meaning": "打電話（或傳訊息）請病假",
+      "register": "neutral",
+      "usage": "當天通知公司自己生病不能上班。",
+      "risk": { "level": "safe", "note": "職場標準說法，可以直接對主管用。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Three people called in sick today, so we're short-staffed.", "zh": "今天有三個人請病假，所以人手不足。" },
+        { "en": "I hate calling in sick, but I can barely stand up.", "zh": "我很討厭請病假，但我連站都站不太起來。" }
+      ]
+    },
+    {
+      "id": "take-it-easy",
+      "term": "take it easy",
+      "meaning": "放輕鬆、別太累；也用來道別",
+      "register": "casual",
+      "usage": "叫人休息別勉強，或是朋友間道別：Take it easy!（保重、慢走）。",
+      "risk": { "level": "safe", "note": "對方在生氣時說 Take it easy! 會變成「你冷靜點」，可能火上加油。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "You just got over the flu. Take it easy this week.", "zh": "你剛好流感，這週放慢一點。" },
+        { "en": "See you tomorrow. Take it easy!", "zh": "明天見，保重啦！" }
+      ]
+    },
+    {
+      "id": "a-bug",
+      "term": "a bug",
+      "meaning": "小病毒、小感冒（傳染性的小病）",
+      "register": "casual",
+      "usage": "a stomach bug（腸胃炎）、there's a bug going around（最近有病毒在流行）。",
+      "risk": { "level": "safe", "note": "很常用。注意程式的 bug 是「錯誤」，看語境判斷。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "There's a bug going around the office.", "zh": "辦公室最近有病毒在流行。" },
+        { "en": "I caught a stomach bug on my trip.", "zh": "我旅行時得了腸胃炎。" }
+      ]
+    },
+    {
+      "id": "play-hooky",
+      "term": "play hooky",
+      "meaning": "翹課、翹班（裝病偷懶）",
+      "register": "casual",
+      "usage": "沒有正當理由地不去上學或上班，常帶玩笑語氣。",
+      "risk": { "level": "careful", "note": "開玩笑可以；認真指控同事 play hooky 很嚴重。有點老派但仍通用。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "We played hooky and went to the beach.", "zh": "我們翹課去海邊了。" },
+        { "en": "It's such a nice day. Want to play hooky this afternoon?", "zh": "天氣這麼好，下午要不要翹班？" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u017-r1", "sourceUnit": 16, "type": "mcq", "question": "I'm staying at my ___ place this weekend.", "options": ["parents'", "parent's's", "parents's"], "answer": 0, "explanation": "複習第 16 單元：複數 parents 只加 '。" },
+    { "id": "u017-r2", "sourceUnit": 15, "type": "mcq", "question": "Which is correct?", "options": ["I'm never late.", "I never am late.", "I'm late never."], "answer": 0, "explanation": "複習第 15 單元：be 動詞後放頻率副詞。" },
+    { "id": "u017-r3", "sourceUnit": 13, "type": "fill", "question": "Sorry, I'm ___ (confuse). Can you explain that again?", "answer": "confused", "explanation": "複習第 13 單元：感受用 -ed。" },
+    { "id": "u017-r4", "sourceUnit": 9, "type": "mcq", "question": "Sorry, I have to ___. Something came up at work.", "options": ["bail", "bale", "boil"], "answer": 0, "explanation": "複習第 9 單元：bail = 取消、先閃。" },
+    { "id": "u017-r5", "sourceUnit": 1, "type": "mcq", "question": "A: Sorry I'm late! B: No ___, we just started.", "options": ["worry", "worries", "problem worries"], "answer": 1, "explanation": "複習第 1 單元：No worries。" },
+    { "id": "u017-r6", "sourceUnit": 17, "type": "mcq", "question": "Which advice sounds the most like a warning?", "options": ["You should leave early.", "You'd better leave early.", "Maybe leave early?"], "answer": 1, "explanation": "had better 帶警告意味。" }
+  ]
+}

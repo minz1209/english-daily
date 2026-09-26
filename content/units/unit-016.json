@@ -1,0 +1,148 @@
+{
+  "id": 16,
+  "module": 2,
+  "level": "B1",
+  "title": { "zh": "聊家人", "en": "Talking About Family" },
+  "scenario": {
+    "title": "過年回家、介紹家人",
+    "context": "中文的親戚稱謂精細到「堂哥、表妹、姑丈、舅媽」，英文卻只有 cousin、uncle、aunt。跟外國朋友聊家人時，要學會用所有格把關係說清楚，也要知道什麼時候不必翻得那麼細。",
+    "dialogues": [
+      {
+        "title": "After Lunar New Year",
+        "lines": [
+          { "speaker": "Ryan", "en": "How was New Year with your family?", "zh": "跟家人過年過得怎樣？" },
+          { "speaker": "Minz", "en": "Loud. There were like thirty people at my grandma's house.", "zh": "很吵。我阿嬤家大概有三十個人。" },
+          { "speaker": "Ryan", "en": "Thirty? Who's everyone?", "zh": "三十個？都是誰啊？" },
+          { "speaker": "Minz", "en": "My folks, my brother, my dad's three siblings and their families, plus all my cousins' kids.", "zh": "我爸媽、我哥、我爸的三個兄弟姊妹和他們的家人，還有我所有堂表兄弟姊妹的小孩。" },
+          { "speaker": "Ryan", "en": "Is it true you have different words for cousins on your mom's side and your dad's side?", "zh": "聽說你們媽媽那邊和爸爸那邊的表親有不同的稱呼，是真的嗎？" },
+          { "speaker": "Minz", "en": "Yep. In Chinese, my dad's brother's son and my mom's sister's son have totally different titles.", "zh": "對。在中文裡，我爸哥哥的兒子和我媽姊妹的兒子稱呼完全不同。" },
+          { "speaker": "Ryan", "en": "In English they're all just \"cousin.\" Way easier.", "zh": "英文全部都叫 cousin，簡單多了。" },
+          { "speaker": "Minz", "en": "Easier, but you lose a lot of information!", "zh": "是簡單，但也少了很多資訊！" }
+        ]
+      },
+      {
+        "title": "The black sheep",
+        "lines": [
+          { "speaker": "Jess", "en": "Did your aunt ask when you're getting married again?", "zh": "你阿姨又問你什麼時候結婚了嗎？" },
+          { "speaker": "Minz", "en": "Of course. And why I quit my stable job to freelance.", "zh": "當然。還問我為什麼辭掉穩定工作去接案。" },
+          { "speaker": "Jess", "en": "Oof. So you're the black sheep of the family now?", "zh": "唉。所以你現在是家裡的異類了？" },
+          { "speaker": "Minz", "en": "Pretty much. My brother's the golden child. He's an engineer at TSMC.", "zh": "差不多。我哥是模範生，他在台積電當工程師。" },
+          { "speaker": "Jess", "en": "Classic. How did your mom's reaction compare to your dad's?", "zh": "經典。你媽和你爸的反應差多少？" },
+          { "speaker": "Minz", "en": "My mom's secretly proud. My dad's still worried, but he bought one of my prints.", "zh": "我媽其實偷偷很驕傲。我爸還是很擔心，但他買了一張我的版畫。" },
+          { "speaker": "Jess", "en": "Aww. That's his way of saying he supports you.", "zh": "好可愛，那是他表達支持的方式。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "Do you have any brothers or sisters?", "zh": "你有兄弟姊妹嗎？", "note": "也可以說 Do you have any siblings?" },
+      { "en": "I'm an only child.", "zh": "我是獨生子女。" },
+      { "en": "I'm the youngest of three.", "zh": "我是三個小孩裡最小的。" },
+      { "en": "My older brother is an engineer.", "zh": "我哥哥是工程師。", "note": "英文不分哥哥弟弟，要說清楚就加 older / younger" },
+      { "en": "He's my cousin on my mom's side.", "zh": "他是我媽那邊的表親。" },
+      { "en": "My parents live in Tainan.", "zh": "我爸媽住在台南。" },
+      { "en": "We're really close.", "zh": "我們感情很好。" },
+      { "en": "I take after my dad.", "zh": "我像我爸。", "note": "take after = 個性或外表像長輩" },
+      { "en": "We don't really get along.", "zh": "我們處得不太好。" },
+      { "en": "My whole family gets together for New Year.", "zh": "過年我們全家會聚在一起。" }
+    ],
+    "chinglish": [
+      { "wrong": "My brother's wife's mother", "right": "My sister-in-law's mom", "why": "中文習慣一路「的」下去。英文有現成的 in-law 系列（mother-in-law, brother-in-law），講起來短很多。" },
+      { "wrong": "He is my big brother.", "right": "He's my older brother.", "why": "big brother 在口語可以，但也有「老大哥、監視者」的意思。一般介紹說 older brother 最清楚。" },
+      { "wrong": "The car of my father", "right": "My dad's car", "why": "表示人的所有物時，英文幾乎都用 's，不用 of。of 比較用在物品的部分：the end of the movie。" },
+      { "wrong": "I have two brothers and sisters.", "right": "I have two siblings. / I have a brother and a sister.", "why": "two brothers and sisters 會讓人搞不清楚總共幾個。" }
+    ]
+  },
+  "grammar": {
+    "id": "possessives-family-terms",
+    "title": "所有格＋家族稱謂",
+    "oneLiner": "人的所有物用 's；複數名詞只加 '；英文稱謂少，需要時才用 on my mom's side 補充。",
+    "whenToUse": [
+      "單數名詞 + 's：my dad's car, my sister's boyfriend。",
+      "字尾是 s 的複數名詞只加 '：my parents' house, my cousins' kids。",
+      "不規則複數加 's：my children's school。",
+      "物品或抽象概念通常用 of：the end of the story, the name of the song。",
+      "稱謂：cousin（堂表兄弟姊妹）、uncle（伯叔舅姑丈姨丈）、aunt（姑姨嬸舅媽伯母）、niece / nephew（姪女外甥）。要區分就說 on my dad's / mom's side。"
+    ],
+    "whyWeGetItWrong": "中文用「的」就能表示所有關係，而且可以連續疊很多層。英文的 's 位置和複數規則（parents' vs parent's）常讓人搞混，而且中文使用者很容易直翻成 the car of my father。另一方面，中文的親屬稱謂比英文細太多，台灣人常會花很大力氣把「堂」「表」翻出來，其實外國人多半只需要知道是 cousin。",
+    "examples": [
+      { "correct": "We had dinner at my parents' place.", "incorrect": "We had dinner at my parents's place.", "note": "複數 parents 只加 '。" },
+      { "correct": "My brother's girlfriend is a nurse.", "incorrect": "The girlfriend of my brother is a nurse.", "note": "人的所有物用 's。" },
+      { "correct": "She's my cousin on my dad's side.", "note": "需要區分父系母系時這樣補充。" },
+      { "correct": "The kids' toys were everywhere.", "note": "kids 是複數，所以 ' 在 s 後面。" },
+      { "correct": "I can't remember the name of the restaurant.", "note": "物品的部分、屬性用 of 比較自然。" }
+    ],
+    "quiz": [
+      { "id": "u016-g1", "type": "mcq", "question": "We're spending New Year at my ___ house.", "options": ["parent's", "parents'", "parents's"], "answer": 1, "explanation": "爸媽兩個人，複數 parents，只加 '。" },
+      { "id": "u016-g2", "type": "mcq", "question": "Which is more natural?", "options": ["the phone of my sister", "my sister's phone", "my sister phone"], "answer": 1, "explanation": "人的所有物用 's。" },
+      { "id": "u016-g3", "type": "fill", "question": "My mom's sister is my ___.", "answer": "aunt|auntie", "explanation": "媽媽的姊妹 = aunt。" },
+      { "id": "u016-g4", "type": "fill", "question": "My uncle's son is my ___.", "answer": "cousin", "explanation": "不管堂表，都是 cousin。" },
+      { "id": "u016-g5", "type": "mcq", "question": "My sister's husband is my ___.", "options": ["brother-in-law", "brother-of-law", "law brother"], "answer": 0, "explanation": "姊夫／妹夫 = brother-in-law。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "folks",
+      "term": "folks",
+      "meaning": "爸媽；也可指「大家」",
+      "register": "casual",
+      "usage": "my folks = 我爸媽。Hey folks! = 各位好！",
+      "risk": { "level": "safe", "note": "美式很常用，親切又不幼稚。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "I'm visiting my folks this weekend.", "zh": "我這週末要回去看爸媽。" },
+        { "en": "Alright folks, let's get started.", "zh": "好，各位，我們開始吧。" }
+      ]
+    },
+    {
+      "id": "bro",
+      "term": "bro",
+      "meaning": "兄弟、哥（brother 的簡稱；也用來叫朋友）",
+      "register": "very-casual",
+      "usage": "可以指自己的兄弟，也可以是男生朋友之間的稱呼：Thanks, bro.",
+      "risk": { "level": "careful", "note": "女生或不熟的人用會有點怪；職場避免。bro 也可能帶「兄弟文化」的刻板印象。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "My little bro just started college.", "zh": "我弟剛上大學。" },
+        { "en": "Bro, you have to try this beef noodle place.", "zh": "兄弟，你一定要試試這家牛肉麵。" }
+      ]
+    },
+    {
+      "id": "sis",
+      "term": "sis",
+      "meaning": "姊妹（sister 的簡稱；也用來叫好姊妹）",
+      "register": "very-casual",
+      "usage": "可以指自己的姊妹，也常用在女生朋友之間表示親近。",
+      "risk": { "level": "careful", "note": "網路上 sis 有時帶揶揄或 drag 文化的語氣，對不熟的人少用。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "My big sis is getting married next month.", "zh": "我姊下個月要結婚了。" },
+        { "en": "Sis, you look amazing!", "zh": "姊妹，你看起來超美！" }
+      ]
+    },
+    {
+      "id": "the-black-sheep",
+      "term": "the black sheep",
+      "meaning": "家中（或團體中）的異類、害群之馬",
+      "register": "neutral",
+      "usage": "the black sheep of the family，指不按家族期待走的人，常帶自嘲。",
+      "risk": { "level": "safe", "note": "自嘲很常見；說別人是 black sheep 帶批評意味。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Everyone in my family is a doctor. I'm the black sheep. I'm an artist.", "zh": "我家每個人都是醫生，我是異類，我是藝術家。" },
+        { "en": "My uncle was always the black sheep of the family.", "zh": "我叔叔一直是家裡的害群之馬。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u016-r1", "sourceUnit": 15, "type": "mcq", "question": "Which is correct?", "options": ["I go usually to bed at 11.", "I usually go to bed at 11.", "I go to bed usually always at 11."], "answer": 1, "explanation": "複習第 15 單元：頻率副詞放一般動詞前。" },
+    { "id": "u016-r2", "sourceUnit": 15, "type": "fill", "question": "I'm going to ___ the gym after work.", "answer": "hit", "explanation": "複習第 15 單元：hit the gym。" },
+    { "id": "u016-r3", "sourceUnit": 14, "type": "mcq", "question": "I've been meaning ___ to swim.", "options": ["learning", "to learn", "learn"], "answer": 1, "explanation": "複習第 14 單元：mean（打算）+ to V。" },
+    { "id": "u016-r4", "sourceUnit": 12, "type": "fill", "question": "I haven't finished the report ___. Can I send it tomorrow?", "answer": "yet", "explanation": "複習第 12 單元：否定句用 yet。" },
+    { "id": "u016-r5", "sourceUnit": 8, "type": "mcq", "question": "I think I'm coming ___ with a cold.", "options": ["up", "down", "in"], "answer": 1, "explanation": "複習第 8 單元：come down with。" },
+    { "id": "u016-r6", "sourceUnit": 16, "type": "fill", "question": "My dad's sister is my ___, and her son is my cousin.", "answer": "aunt|auntie", "explanation": "姑姑 = aunt。" }
+  ]
+}

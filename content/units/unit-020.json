@@ -1,0 +1,154 @@
+{
+  "id": 20,
+  "module": 2,
+  "level": "B1",
+  "title": { "zh": "整合：幫忙搬家", "en": "Review: Helping a Friend Move" },
+  "scenario": {
+    "title": "朋友搬家，大家來幫忙",
+    "context": "第二章的收尾：搬家這天會借東西、帶東西過去、交代誰說了什麼，正好碰上台灣人最常混用的幾組動詞：borrow / lend、bring / take、say / tell。前面學過的租屋、報修、家人、描述人也都會出現。",
+    "dialogues": [
+      {
+        "title": "Moving day morning",
+        "lines": [
+          { "speaker": "Leo", "en": "Hey, could you give me a hand with this sofa?", "zh": "嘿，可以幫我搬一下這張沙發嗎？" },
+          { "speaker": "Minz", "en": "Sure. Where should we take it?", "zh": "好啊，要搬去哪？" },
+          { "speaker": "Leo", "en": "Take it down to the truck. My cousin's waiting there.", "zh": "搬下去卡車那邊，我表哥在那邊等。" },
+          { "speaker": "Minz", "en": "Is there an elevator in this building?", "zh": "這棟有電梯嗎？" },
+          { "speaker": "Leo", "en": "Nope. Four floors of stairs. Sorry!", "zh": "沒有，要走四層樓梯。抱歉！" },
+          { "speaker": "Minz", "en": "No biggie. I've been hitting the gym, remember?", "zh": "沒差，我最近有在上健身房，記得嗎？" },
+          { "speaker": "Leo", "en": "You're a lifesaver. Oh, did Jess tell you she'd be late?", "zh": "你真是救星。對了，Jess 有跟你說她會晚到嗎？" },
+          { "speaker": "Minz", "en": "She said something about borrowing her dad's car. She'll bring more boxes.", "zh": "她說要去借她爸的車，會帶更多箱子過來。" }
+        ]
+      },
+      {
+        "title": "At the new place",
+        "lines": [
+          { "speaker": "Jess", "en": "Sorry I'm late! My dad lent me his car, but it's been acting up.", "zh": "抱歉我遲到了！我爸借我他的車，但車子一直怪怪的。" },
+          { "speaker": "Leo", "en": "No worries. Did you bring the tape?", "zh": "沒關係。你有帶膠帶嗎？" },
+          { "speaker": "Jess", "en": "Oh no, I left it at home. Can I borrow yours?", "zh": "糟糕，我忘在家裡了。可以借你的嗎？" },
+          { "speaker": "Leo", "en": "Sure. Wow, what a nice view from here!", "zh": "好啊。哇，這裡的景色也太好了吧！" },
+          { "speaker": "Minz", "en": "I know! The landlord told me it gets great light in the afternoon, too.", "zh": "對吧！房東跟我說下午採光也很好。" },
+          { "speaker": "Jess", "en": "Leo, you should throw a housewarming party.", "zh": "Leo，你應該辦個入厝派對。" },
+          { "speaker": "Leo", "en": "Definitely. And pizza's on me tonight. I owe you guys one.", "zh": "一定要。今晚披薩我請，我欠你們一次。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "Could you give me a hand with this?", "zh": "可以幫我一下嗎？" },
+      { "en": "Can I borrow your ___?", "zh": "可以跟你借 ___ 嗎？" },
+      { "en": "Could you lend me ___?", "zh": "可以借我 ___ 嗎？" },
+      { "en": "Where should I put this?", "zh": "這個要放哪？" },
+      { "en": "Watch your step!", "zh": "小心腳步！" },
+      { "en": "Careful, it's heavy.", "zh": "小心，很重。" },
+      { "en": "Let's take a break.", "zh": "休息一下吧。" },
+      { "en": "Did she tell you ___?", "zh": "她有跟你說 ___ 嗎？" },
+      { "en": "I'll bring some drinks over.", "zh": "我會帶點飲料過去。" },
+      { "en": "Pizza's on me.", "zh": "披薩我請。" }
+    ],
+    "chinglish": [
+      { "wrong": "Can you borrow me your car?", "right": "Can I borrow your car? / Can you lend me your car?", "why": "中文「借」不分方向。英文 borrow 是「借入」（主詞拿東西），lend 是「借出」（主詞給東西）。" },
+      { "wrong": "She said me she would be late.", "right": "She told me she'd be late. / She said she'd be late.", "why": "tell 後面直接接人；say 後面不能直接接人，要說 say to me。" },
+      { "wrong": "I will bring the boxes to your old place from here.", "right": "I'll take the boxes to your old place.", "why": "bring 是「帶過來（朝說話者或聽者的位置）」，take 是「帶過去（離開說話者）」。" },
+      { "wrong": "Very thank you for helping me move house.", "right": "Thanks so much for helping me move.", "why": "複習第 19 單元：不要疊 very。另外口語 move 就夠了，move house 是英式說法。" }
+    ]
+  },
+  "grammar": {
+    "id": "confusing-verbs-borrow-lend-bring-take-say-tell",
+    "title": "易混動詞 borrow/lend、bring/take、say/tell",
+    "oneLiner": "borrow 借入、lend 借出；bring 帶來、take 帶去；tell 直接接人，say 不接人。",
+    "whenToUse": [
+      "borrow（from 某人）：我從你那裡拿。Can I borrow your pen?",
+      "lend（某人 + 東西）：我給你用。Can you lend me your pen? / I lent him 500.",
+      "bring：朝向說話者或聽者所在的地方。Bring your laptop to the meeting.（會議是我們會在的地方）",
+      "take：離開說話者所在的地方。Take the trash out.",
+      "tell + 人 + 事：She told me the news. / Tell me about it.",
+      "say + 事（+ to 人）：She said it was fine. / What did he say to you?",
+      "固定用法：tell a story / tell the truth / tell a lie / tell a joke；say hello / say sorry / say yes。"
+    ],
+    "whyWeGetItWrong": "中文的「借」「帶」「說」都不分方向和結構：「借我」「跟你借」「帶來」「帶去」「跟我說」全用同一個動詞加方向詞。英文則把方向直接放進動詞裡。這一組動詞沒有捷徑，要在每次開口前先想：東西往哪個方向移動？後面有沒有直接接人？",
+    "examples": [
+      { "correct": "Can I borrow your umbrella?", "incorrect": "Can you borrow me your umbrella?", "note": "我從你那借用 borrow。" },
+      { "correct": "My sister lent me her car.", "incorrect": "My sister borrowed me her car.", "note": "她借出給我用 lend，過去式 lent。" },
+      { "correct": "Can you bring some snacks when you come over?", "note": "東西要來到說話者這邊，用 bring。" },
+      { "correct": "Don't forget to take your jacket.", "note": "離開這裡時帶走，用 take。" },
+      { "correct": "He told me he was moving.", "incorrect": "He said me he was moving.", "note": "tell 直接接人。" },
+      { "correct": "He said he was moving.", "note": "say 不接人。" }
+    ],
+    "quiz": [
+      { "id": "u020-g1", "type": "mcq", "question": "Could you ___ me 200 dollars until Friday?", "options": ["borrow", "lend", "rent"], "answer": 1, "explanation": "你借出給我，用 lend。" },
+      { "id": "u020-g2", "type": "mcq", "question": "She ___ me she'd be late.", "options": ["said", "told", "spoke"], "answer": 1, "explanation": "後面直接接人（me），用 tell。" },
+      { "id": "u020-g3", "type": "fill", "question": "Can I ___ your charger for a sec?", "answer": "borrow|use", "explanation": "我從你那借用，用 borrow。" },
+      { "id": "u020-g4", "type": "mcq", "question": "You're coming to my place tonight? Great, ___ your guitar!", "options": ["take", "bring", "borrow"], "answer": 1, "explanation": "帶到說話者這邊，用 bring。" },
+      { "id": "u020-g5", "type": "fill", "question": "What did the landlord ___ about the deposit? (say / tell)", "answer": "say", "explanation": "後面沒有接人，用 say。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "give-me-a-hand",
+      "term": "give me a hand",
+      "meaning": "幫我一下",
+      "register": "casual",
+      "usage": "請人幫忙做體力或簡單的事：Can you give me a hand with this? 也可以說 lend me a hand。",
+      "risk": { "level": "safe", "note": "語氣友善，同事、朋友、陌生人都能用。另外 give someone a big hand 是「給某人熱烈掌聲」。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Can you give me a hand setting up the chairs?", "zh": "可以幫我擺椅子嗎？" },
+        { "en": "Need a hand with those bags?", "zh": "那些袋子要幫忙嗎？" }
+      ]
+    },
+    {
+      "id": "no-biggie",
+      "term": "no biggie",
+      "meaning": "沒什麼大不了、小事一樁",
+      "register": "very-casual",
+      "usage": "no big deal 的更口語版本，回應道謝或道歉。",
+      "risk": { "level": "careful", "note": "很隨興，對主管或客戶用 No problem at all 比較好。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "A: Sorry I forgot your book. B: No biggie, give it to me next time.", "zh": "A：抱歉忘了帶你的書。 B：沒差，下次再給我。" },
+        { "en": "It's no biggie. I was going that way anyway.", "zh": "小事啦，反正我也順路。" }
+      ]
+    },
+    {
+      "id": "youre-a-lifesaver",
+      "term": "you're a lifesaver",
+      "meaning": "你真是我的救星",
+      "register": "casual",
+      "usage": "別人在緊要關頭幫了你，誇張地表達感謝。",
+      "risk": { "level": "safe", "note": "友善的誇飾，對同事、主管都能用。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "You brought an extra charger? You're a lifesaver!", "zh": "你帶了備用充電器？你是我的救星！" },
+        { "en": "Thanks for covering my shift. You're a lifesaver.", "zh": "謝謝你幫我代班，你真是救星。" }
+      ]
+    },
+    {
+      "id": "owe-you-one",
+      "term": "owe you one",
+      "meaning": "我欠你一次、欠你一個人情",
+      "register": "casual",
+      "usage": "I owe you one. 感謝對方幫忙，並表示下次會回報。",
+      "risk": { "level": "safe", "note": "職場上也很常用。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Thanks for the ride. I owe you one.", "zh": "謝謝你載我，欠你一次。" },
+        { "en": "You helped me move? I definitely owe you one.", "zh": "你幫我搬家？我絕對欠你一個人情。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u020-r1", "sourceUnit": 19, "type": "mcq", "question": "___ a beautiful apartment!", "options": ["How", "What", "What an"], "answer": 1, "explanation": "複習第 19 單元：What a + 形容詞 + 名詞。" },
+    { "id": "u020-r2", "sourceUnit": 18, "type": "mcq", "question": "The boxes ___ to the new place yesterday.", "options": ["delivered", "were delivered", "was deliver"], "answer": 1, "explanation": "複習第 18 單元：箱子是被送的，用被動。" },
+    { "id": "u020-r3", "sourceUnit": 17, "type": "fill", "question": "You just had surgery. You should take it ___ for a few weeks.", "answer": "easy", "explanation": "複習第 17 單元：take it easy。" },
+    { "id": "u020-r4", "sourceUnit": 16, "type": "mcq", "question": "My mom's brother is my ___.", "options": ["uncle", "cousin", "nephew"], "answer": 0, "explanation": "複習第 16 單元：舅舅 = uncle。" },
+    { "id": "u020-r5", "sourceUnit": 14, "type": "mcq", "question": "I've decided ___ to a bigger apartment.", "options": ["moving", "to move", "move"], "answer": 1, "explanation": "複習第 14 單元：decide + to V。" },
+    { "id": "u020-r6", "sourceUnit": 13, "type": "fill", "question": "Moving is so ___ (tire). I'm going to sleep for twelve hours.", "answer": "tiring|exhausting", "explanation": "複習第 13 單元：造成疲累的事用 -ing。" },
+    { "id": "u020-r7", "sourceUnit": 12, "type": "mcq", "question": "Have you unpacked ___?", "options": ["yet", "already yet", "just"], "answer": 0, "explanation": "複習第 12 單元：問句用 yet。" },
+    { "id": "u020-r8", "sourceUnit": 4, "type": "fill", "question": "We ___ (take) three trips with the truck.", "answer": "took", "explanation": "複習第 4 單元：take → took。" },
+    { "id": "u020-r9", "sourceUnit": 20, "type": "mcq", "question": "Thanks for helping me move. I ___ you one!", "options": ["owe", "own", "borrow"], "answer": 0, "explanation": "I owe you one = 欠你一次。" }
+  ]
+}

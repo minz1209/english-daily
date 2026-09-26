@@ -1,0 +1,149 @@
+{
+  "id": 19,
+  "module": 2,
+  "level": "B1",
+  "title": { "zh": "生日派對", "en": "Birthday Party" },
+  "scenario": {
+    "title": "驚喜派對、收禮物、稱讚",
+    "context": "派對上最常說的就是驚嘆：「好漂亮的蛋糕！」「你們也太用心了吧！」英文的感嘆句 What a… / How… 有固定結構，學會就能自然地表達驚喜和感謝，不用每次都說 very very good。",
+    "dialogues": [
+      {
+        "title": "The surprise",
+        "lines": [
+          { "speaker": "Everyone", "en": "Surprise! Happy birthday!", "zh": "驚喜！生日快樂！" },
+          { "speaker": "Jess", "en": "Oh my god, you guys! What a surprise!", "zh": "天啊，你們！也太驚喜了吧！" },
+          { "speaker": "Minz", "en": "Did you have any idea?", "zh": "你有發現嗎？" },
+          { "speaker": "Jess", "en": "None at all! How did you get everyone here without me knowing?", "zh": "完全沒有！你們怎麼讓大家都來還不被我發現？" },
+          { "speaker": "Minz", "en": "Leo told you we were just grabbing dinner, remember?", "zh": "Leo 跟你說我們只是去吃晚餐，記得嗎？" },
+          { "speaker": "Jess", "en": "I can't believe it. How sweet of you guys!", "zh": "我不敢相信，你們也太貼心了！" },
+          { "speaker": "Leo", "en": "It was all Minz's idea. She planned the whole thing.", "zh": "全都是 Minz 的主意，她一手策劃的。" },
+          { "speaker": "Jess", "en": "Come here! What a great friend you are.", "zh": "過來！你真是個好朋友。" }
+        ]
+      },
+      {
+        "title": "Later that night",
+        "lines": [
+          { "speaker": "Jess", "en": "What a beautiful cake! Where did you get it?", "zh": "好漂亮的蛋糕！在哪買的？" },
+          { "speaker": "Minz", "en": "A little bakery in Da'an. The owner's a friend.", "zh": "大安區的一家小烘焙坊，老闆是朋友。" },
+          { "speaker": "Leo", "en": "Who's that guy dancing on the sofa? I don't know him.", "zh": "那個在沙發上跳舞的是誰？我不認識他。" },
+          { "speaker": "Minz", "en": "No idea. I think he's from the party next door. He just crashed ours.", "zh": "不知道，應該是隔壁派對的人，他直接混進我們的。" },
+          { "speaker": "Jess", "en": "Ha! Well, he's definitely the life of the party.", "zh": "哈！嗯，他絕對是全場氣氛擔當。" },
+          { "speaker": "Leo", "en": "What a party animal. It's two a.m. and he's still going.", "zh": "真是派對動物，凌晨兩點了還在嗨。" },
+          { "speaker": "Jess", "en": "Thank you all so much. How lucky am I to have friends like you?", "zh": "謝謝大家。我有你們這樣的朋友真是太幸運了。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "What a surprise!", "zh": "好驚喜！" },
+      { "en": "How sweet of you!", "zh": "你真貼心！", "note": "How + 形容詞 + of you = 你真是…" },
+      { "en": "You shouldn't have!", "zh": "你太破費了！", "note": "收到禮物時的客套話，字面是「你不該這樣做的」" },
+      { "en": "I love it!", "zh": "我好喜歡！" },
+      { "en": "Make a wish!", "zh": "許個願！" },
+      { "en": "Blow out the candles!", "zh": "吹蠟燭！" },
+      { "en": "Did you have any idea?", "zh": "你有發現嗎？" },
+      { "en": "Here's to Jess!", "zh": "敬 Jess！", "note": "舉杯祝福時說" },
+      { "en": "Many happy returns!", "zh": "祝你年年有今日！", "note": "比較傳統的英式生日祝福" },
+      { "en": "Thanks for coming, everyone!", "zh": "謝謝大家來！" }
+    ],
+    "chinglish": [
+      { "wrong": "How beautiful cake!", "right": "What a beautiful cake! / How beautiful!", "why": "有名詞時用 What a + 形容詞 + 名詞；只有形容詞時用 How + 形容詞。How beautiful cake 把兩個結構混在一起了。" },
+      { "wrong": "Wish you happy birthday!", "right": "Happy birthday! / Wishing you a happy birthday!", "why": "「祝你生日快樂」直翻少了主詞，還少了 a。直接說 Happy birthday 最自然。" },
+      { "wrong": "Very very thank you!", "right": "Thank you so much!", "why": "中文可以疊字加強，英文要用 so much / so / really。" },
+      { "wrong": "What a good weather!", "right": "What nice weather!", "why": "weather 不可數，不能用 a。不可數名詞的感嘆句是 What + 形容詞 + 名詞。" }
+    ]
+  },
+  "grammar": {
+    "id": "exclamations-what-how",
+    "title": "感嘆句 What a… / How…",
+    "oneLiner": "有名詞用 What（a）…，只有形容詞或副詞用 How…",
+    "whenToUse": [
+      "What a / an + (形容詞) + 單數可數名詞：What a surprise! / What an amazing cake!",
+      "What + (形容詞) + 複數或不可數名詞：What cute kids! / What nice weather!",
+      "How + 形容詞 / 副詞：How sweet! / How beautiful! / How fast he runs!",
+      "How + 形容詞 + of you：How kind of you! / How thoughtful of you!",
+      "後面可以接完整句子，但主詞動詞不倒裝：What a great friend you are!（不是 are you）"
+    ],
+    "whyWeGetItWrong": "中文的感嘆只要加「好、太、真」：「好漂亮」「好漂亮的蛋糕」，結構完全一樣。英文卻要看後面有沒有名詞，選 What 或 How。另外，英文感嘆句後面的主詞動詞不倒裝，台灣人受疑問句影響，常說出 What a nice girl is she!。",
+    "examples": [
+      { "correct": "What a lovely dress!", "incorrect": "How lovely dress!", "note": "有名詞用 What a。" },
+      { "correct": "How lovely!", "note": "只有形容詞用 How。" },
+      { "correct": "What a nice guy he is!", "incorrect": "What a nice guy is he!", "note": "感嘆句不倒裝。" },
+      { "correct": "What delicious food!", "incorrect": "What a delicious food!", "note": "food 不可數，不加 a。" },
+      { "correct": "How thoughtful of you to remember my birthday!", "note": "How + 形容詞 + of you + to V。" }
+    ],
+    "quiz": [
+      { "id": "u019-g1", "type": "mcq", "question": "___ a great idea!", "options": ["How", "What", "So"], "answer": 1, "explanation": "有名詞（idea）用 What a。" },
+      { "id": "u019-g2", "type": "mcq", "question": "___ nice of you to help!", "options": ["What", "How", "What a"], "answer": 1, "explanation": "How + 形容詞 + of you。" },
+      { "id": "u019-g3", "type": "fill", "question": "What ___ amazing view! (a / an)", "answer": "an", "explanation": "amazing 母音開頭，用 an。" },
+      { "id": "u019-g4", "type": "mcq", "question": "Which is correct?", "options": ["What a beautiful weather!", "What beautiful weather!", "How beautiful weather!"], "answer": 1, "explanation": "weather 不可數，What + 形容詞 + 名詞。" },
+      { "id": "u019-g5", "type": "mcq", "question": "Which is correct?", "options": ["What a lucky guy are you!", "What a lucky guy you are!", "How lucky guy you are!"], "answer": 1, "explanation": "感嘆句主詞動詞不倒裝。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "party-animal",
+      "term": "party animal",
+      "meaning": "派對咖、超愛玩的人",
+      "register": "casual",
+      "usage": "形容很愛參加派對、玩到很晚的人。",
+      "risk": { "level": "safe", "note": "通常是開玩笑的稱呼；在正式場合介紹別人時別這樣說。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "My brother was a party animal in college.", "zh": "我哥大學時是派對咖。" },
+        { "en": "I used to be a party animal. Now I'm in bed by ten.", "zh": "我以前很愛玩，現在十點就上床了。" }
+      ]
+    },
+    {
+      "id": "throw-a-party",
+      "term": "throw a party",
+      "meaning": "辦派對",
+      "register": "neutral",
+      "usage": "throw 比 hold 更口語，throw someone a party = 幫某人辦派對。",
+      "risk": { "level": "safe", "note": "中性常用。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "We're throwing a party for Leo's thirtieth.", "zh": "我們要幫 Leo 辦三十歲派對。" },
+        { "en": "Let's throw her a surprise party.", "zh": "我們幫她辦個驚喜派對吧。" }
+      ]
+    },
+    {
+      "id": "crash-a-party",
+      "term": "crash a party",
+      "meaning": "不請自來、闖進派對",
+      "register": "casual",
+      "usage": "沒被邀請卻跑去參加。party crasher = 不速之客。",
+      "risk": { "level": "safe", "note": "常帶玩笑語氣：Mind if I crash your party?（我可以來湊熱鬧嗎？）" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Some random guys crashed our party last night.", "zh": "昨晚有幾個陌生人闖進我們的派對。" },
+        { "en": "Hope you don't mind me crashing your party!", "zh": "希望你不介意我來湊熱鬧！" }
+      ]
+    },
+    {
+      "id": "the-life-of-the-party",
+      "term": "the life of the party",
+      "meaning": "派對的靈魂人物、氣氛擔當",
+      "register": "neutral",
+      "usage": "形容讓大家都很開心、帶動氣氛的人。",
+      "risk": { "level": "safe", "note": "正面稱讚。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Grandpa was the life of the party at the wedding.", "zh": "阿公是婚禮上的氣氛擔當。" },
+        { "en": "Invite Jess. She's always the life of the party.", "zh": "邀 Jess 啦，她每次都是全場焦點。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u019-r1", "sourceUnit": 18, "type": "mcq", "question": "My laptop ___ last week. The screen looks new now.", "options": ["repaired", "was repaired", "is repairing"], "answer": 1, "explanation": "複習第 18 單元：被修理用被動。" },
+    { "id": "u019-r2", "sourceUnit": 18, "type": "fill", "question": "Can I use your charger? My phone's almost ___.", "answer": "dead", "explanation": "複習第 18 單元：dead = 沒電。" },
+    { "id": "u019-r3", "sourceUnit": 17, "type": "mcq", "question": "Which is correct?", "options": ["You hadn't better tell her.", "You'd better not tell her.", "You better don't tell her."], "answer": 1, "explanation": "複習第 17 單元：had better not。" },
+    { "id": "u019-r4", "sourceUnit": 15, "type": "fill", "question": "I ___ ever drink coffee after 3 p.m. (幾乎不)", "answer": "hardly|rarely", "explanation": "複習第 15 單元：hardly ever = 幾乎不。" },
+    { "id": "u019-r5", "sourceUnit": 11, "type": "mcq", "question": "___ a lot of people at the party last night.", "options": ["There was", "There were", "It had"], "answer": 1, "explanation": "複習第 11 單元：複數過去用 There were。" },
+    { "id": "u019-r6", "sourceUnit": 3, "type": "mcq", "question": "The party is ___ Leo's apartment.", "options": ["in", "at", "on"], "answer": 1, "explanation": "複習第 3 單元：在某人家、某個地點用 at。" },
+    { "id": "u019-r7", "sourceUnit": 19, "type": "mcq", "question": "You bring a gift. Your friend says: \"___\"", "options": ["You shouldn't have!", "You don't should!", "Why you buy?"], "answer": 0, "explanation": "You shouldn't have! = 你太破費了。" }
+  ]
+}

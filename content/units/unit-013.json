@@ -1,0 +1,147 @@
+{
+  "id": 13,
+  "module": 2,
+  "level": "B1",
+  "title": { "zh": "描述一個人", "en": "Describing People" },
+  "scenario": {
+    "title": "跟朋友介紹新同事、新室友",
+    "context": "「他人很好」「她很有趣」「那個人很煩」——描述一個人是聊天最常見的題材。英文有一整組 -ed / -ing 形容詞，用錯了會從「我覺得很無聊」變成「我是個無聊的人」。",
+    "dialogues": [
+      {
+        "title": "Talking about a new coworker",
+        "lines": [
+          { "speaker": "Jess", "en": "So what's the new guy on your team like?", "zh": "所以你們組上那個新人怎麼樣？" },
+          { "speaker": "Minz", "en": "Daniel? He's really down-to-earth. Super easy to talk to.", "zh": "Daniel 嗎？他人很實在，超好聊。" },
+          { "speaker": "Jess", "en": "That's good. Is he any good at his job?", "zh": "不錯。他工作能力好嗎？" },
+          { "speaker": "Minz", "en": "Yeah, he's a total tech nerd. Ask him anything about computers.", "zh": "好啊，他是超級科技宅，電腦的事問他就對了。" },
+          { "speaker": "Jess", "en": "Better than the last guy, then.", "zh": "那比上一個好。" },
+          { "speaker": "Minz", "en": "Way better. The last guy was a pain in the neck. He complained about everything.", "zh": "好太多了。上一個超煩，什麼都要抱怨。" },
+          { "speaker": "Jess", "en": "I remember. You always looked so annoyed after meetings with him.", "zh": "我記得，你每次跟他開完會都一臉厭煩。" },
+          { "speaker": "Minz", "en": "Because those meetings were so annoying!", "zh": "因為那些會議真的很煩啊！" }
+        ]
+      },
+      {
+        "title": "Describing a date",
+        "lines": [
+          { "speaker": "Leo", "en": "How was the date last night?", "zh": "昨晚約會怎樣？" },
+          { "speaker": "Amy", "en": "Honestly? I was bored after twenty minutes.", "zh": "老實說？二十分鐘後我就覺得無聊了。" },
+          { "speaker": "Leo", "en": "Oh no. Was he boring?", "zh": "不會吧，他很無聊嗎？" },
+          { "speaker": "Amy", "en": "Not boring exactly. He just talked about crypto the whole time.", "zh": "也不算無聊，他只是整晚都在講加密貨幣。" },
+          { "speaker": "Leo", "en": "Ha, so he's interested in money. Is he interesting, though?", "zh": "哈，所以他對錢有興趣。那他人有趣嗎？" },
+          { "speaker": "Amy", "en": "Not really. I prefer someone more laid-back.", "zh": "不太有趣。我比較喜歡隨和一點的人。" },
+          { "speaker": "Leo", "en": "Fair enough. Next!", "zh": "有道理。下一位！" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "What's he like?", "zh": "他是個怎樣的人？", "note": "問個性；What does he look like? 才是問外表" },
+      { "en": "She's really easy to talk to.", "zh": "她很好聊。" },
+      { "en": "He's a bit shy at first, but he's really funny.", "zh": "他一開始有點害羞，但其實很好笑。" },
+      { "en": "She's the kind of person who ___.", "zh": "她是那種會 ___ 的人。" },
+      { "en": "We really hit it off.", "zh": "我們很合得來。", "note": "第 31 單元會正式學這個俚語" },
+      { "en": "He's tall, with short curly hair.", "zh": "他高高的，短捲髮。" },
+      { "en": "She looks like her mom.", "zh": "她長得像她媽媽。" },
+      { "en": "He's in his thirties.", "zh": "他三十幾歲。" },
+      { "en": "I'm not a big fan of him.", "zh": "我不太喜歡他。", "note": "比 I don't like him 委婉" },
+      { "en": "She's got a great sense of humor.", "zh": "她很有幽默感。" }
+    ],
+    "chinglish": [
+      { "wrong": "I am very boring today.", "right": "I'm so bored today.", "why": "I'm boring 是「我是個無聊的人」。要說「我覺得無聊」用 bored。" },
+      { "wrong": "He is a very nice guy, very kind, very good.", "right": "He's really nice, super down-to-earth.", "why": "中文習慣疊一串「很好、很善良」。英文用一兩個精準的形容詞，再舉一個例子，描述會更有畫面。" },
+      { "wrong": "How does he look like?", "right": "What does he look like?", "why": "look like 後面接的是 what，How 和 like 不能同時出現。問個性就用 What's he like?" },
+      { "wrong": "She is very interesting in art.", "right": "She's really interested in art.", "why": "「對…有興趣」用 interested in；interesting 是「令人感興趣的」。" }
+    ]
+  },
+  "grammar": {
+    "id": "ed-vs-ing-adjectives",
+    "title": "-ed / -ing 形容詞",
+    "oneLiner": "-ed 描述「人的感受」，-ing 描述「造成這種感受的人事物」。",
+    "whenToUse": [
+      "-ed：我感到…。I'm bored / interested / tired / excited / confused / annoyed.",
+      "-ing：它（或他）讓人感到…。The movie is boring. / He's interesting. / This is confusing.",
+      "形容人時兩種都能用，但意思完全不同：He's bored（他覺得無聊）vs He's boring（他這個人很無聊）。",
+      "常見組合：bored/boring, interested/interesting, excited/exciting, tired/tiring, confused/confusing, annoyed/annoying, embarrassed/embarrassing, surprised/surprising。"
+    ],
+    "whyWeGetItWrong": "中文的「無聊」「有趣」「煩」同時可以指感受和原因：「我好無聊」「這部片好無聊」用同一個詞。英文卻要看主詞是「感受者」還是「原因」。台灣人最經典的錯誤就是 I'm so boring，本來想說「我好無聊喔」，結果變成「我是個很無聊的人」。",
+    "examples": [
+      { "correct": "I was so bored during the meeting.", "incorrect": "I was so boring during the meeting.", "note": "描述自己的感受用 -ed。" },
+      { "correct": "The meeting was so boring.", "note": "會議造成無聊感，用 -ing。" },
+      { "correct": "I'm really interested in design.", "incorrect": "I'm really interesting in design.", "note": "對某事有興趣用 interested in。" },
+      { "correct": "That was so embarrassing.", "note": "那件事令人尷尬。" },
+      { "correct": "I'm confused. Can you explain it again?", "incorrect": "I'm confusing. Can you explain it again?", "note": "我感到困惑用 confused。" }
+    ],
+    "quiz": [
+      { "id": "u013-g1", "type": "mcq", "question": "There's nothing to do. I'm so ___.", "options": ["boring", "bored", "bore"], "answer": 1, "explanation": "描述自己的感受用 -ed。" },
+      { "id": "u013-g2", "type": "mcq", "question": "His explanation was really ___. I didn't understand anything.", "options": ["confusing", "confused", "confuse"], "answer": 0, "explanation": "解釋讓人困惑，用 -ing。" },
+      { "id": "u013-g3", "type": "fill", "question": "I'm really ___ (interest) in learning Japanese.", "answer": "interested", "explanation": "感興趣用 interested in。" },
+      { "id": "u013-g4", "type": "mcq", "question": "I tripped in front of my boss. It was so ___.", "options": ["embarrassed", "embarrassing", "embarrass"], "answer": 1, "explanation": "那件事令人尷尬，用 -ing。" },
+      { "id": "u013-g5", "type": "fill", "question": "After a twelve-hour shift, I'm completely ___ (tire).", "answer": "tired|exhausted", "explanation": "描述自己的感受用 tired。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "down-to-earth",
+      "term": "down-to-earth",
+      "meaning": "實在、不做作、接地氣",
+      "register": "neutral",
+      "usage": "稱讚一個人不擺架子、很真誠，特別是有名或有成就的人。",
+      "risk": { "level": "safe", "note": "正面稱讚，任何場合都能用。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "For a CEO, she's surprisingly down-to-earth.", "zh": "以執行長來說，她意外地很親民。" },
+        { "en": "I like him because he's so down-to-earth.", "zh": "我喜歡他，因為他很實在。" }
+      ]
+    },
+    {
+      "id": "laid-back",
+      "term": "laid-back",
+      "meaning": "隨和、悠哉、不緊繃",
+      "register": "casual",
+      "usage": "形容人的個性或地方的氛圍：a laid-back guy / a laid-back town。",
+      "risk": { "level": "safe", "note": "通常是稱讚；但在工作評價裡說某人 too laid-back 可能暗示他不夠積極。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "My new boss is really laid-back. She doesn't micromanage.", "zh": "我新主管很隨和，不會事事緊盯。" },
+        { "en": "Tainan has a much more laid-back vibe than Taipei.", "zh": "台南的氣氛比台北悠閒多了。" }
+      ]
+    },
+    {
+      "id": "a-pain-in-the-neck",
+      "term": "a pain in the neck",
+      "meaning": "討厭鬼、很麻煩的人或事",
+      "register": "casual",
+      "usage": "形容讓人很煩的人或事情。",
+      "risk": { "level": "careful", "note": "私下抱怨可以；當面說某人是 a pain in the neck 很傷人。更粗俗的版本 a pain in the ass 職場絕對避免。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Filling out these forms is a pain in the neck.", "zh": "填這些表格超麻煩。" },
+        { "en": "My neighbor's kid can be a real pain in the neck.", "zh": "我鄰居的小孩有時候很煩人。" }
+      ]
+    },
+    {
+      "id": "nerd",
+      "term": "nerd",
+      "meaning": "書呆子、某領域的狂熱者、宅",
+      "register": "casual",
+      "usage": "現在常常是中性甚至正面的意思：a design nerd / a coffee nerd（對某事很懂很熱衷的人）。",
+      "risk": { "level": "careful", "note": "自稱沒問題；說別人時語氣要友善，否則可能被當成嘲笑對方不合群。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "I'm a total font nerd. I can talk about typefaces for hours.", "zh": "我是字體宅，可以聊字體聊好幾個小時。" },
+        { "en": "Ask Tom. He's the computer nerd in our office.", "zh": "問 Tom，他是我們辦公室的電腦通。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u013-r1", "sourceUnit": 12, "type": "mcq", "question": "Has the plumber come ___?", "options": ["already", "yet", "just"], "answer": 1, "explanation": "複習第 12 單元：問句用 yet。" },
+    { "id": "u013-r2", "sourceUnit": 12, "type": "fill", "question": "My laptop has been acting ___ all week.", "answer": "up", "explanation": "複習第 12 單元：act up = 出毛病。" },
+    { "id": "u013-r3", "sourceUnit": 11, "type": "mcq", "question": "There ___ a lot of noise from upstairs last night.", "options": ["were", "was", "have"], "answer": 1, "explanation": "複習第 11 單元：noise 不可數，用 was。" },
+    { "id": "u013-r4", "sourceUnit": 9, "type": "mcq", "question": "I ___ my dentist at 3 tomorrow. It's already booked.", "options": ["will see", "'m seeing", "see"], "answer": 1, "explanation": "複習第 9 單元：已排定的行程用進行式。" },
+    { "id": "u013-r5", "sourceUnit": 5, "type": "mcq", "question": "Can you give me some ___?", "options": ["advices", "advice", "an advice"], "answer": 1, "explanation": "複習第 5 單元：advice 不可數。" },
+    { "id": "u013-r6", "sourceUnit": 13, "type": "mcq", "question": "Which one means \"我好無聊\"?", "options": ["I'm so boring.", "I'm so bored.", "I'm so bore."], "answer": 1, "explanation": "感受用 bored；I'm boring 是「我是個無聊的人」。" }
+  ]
+}

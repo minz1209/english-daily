@@ -1,0 +1,149 @@
+{
+  "id": 14,
+  "module": 2,
+  "level": "B1",
+  "title": { "zh": "聊興趣", "en": "Hobbies and Interests" },
+  "scenario": {
+    "title": "「你平常喜歡做什麼？」",
+    "context": "聊興趣是從客套進到真正聊天的轉折點。這個單元學怎麼自然地說自己喜歡什麼、最近迷上什麼、想學什麼，也順便搞懂動詞後面到底要接 to V 還是 V-ing。",
+    "dialogues": [
+      {
+        "title": "Getting to know a coworker",
+        "lines": [
+          { "speaker": "Daniel", "en": "So what do you like to do in your free time?", "zh": "你空閒時喜歡做什麼？" },
+          { "speaker": "Minz", "en": "I'm really into pottery these days. I started taking classes last month.", "zh": "我最近很迷陶藝，上個月開始上課。" },
+          { "speaker": "Daniel", "en": "Oh cool! Is it hard?", "zh": "好酷！很難嗎？" },
+          { "speaker": "Minz", "en": "Harder than it looks. I keep making bowls that look like ashtrays.", "zh": "比看起來難。我做的碗一直很像菸灰缸。" },
+          { "speaker": "Daniel", "en": "Ha! I'd love to try it someday.", "zh": "哈！我有一天也想試試看。" },
+          { "speaker": "Minz", "en": "You should! What about you? Any hobbies?", "zh": "你應該試試！那你呢？有什麼嗜好？" },
+          { "speaker": "Daniel", "en": "I'm a bit of a film buff. I try to watch at least one old movie every weekend.", "zh": "我算是個電影迷，每個週末至少會看一部老電影。" },
+          { "speaker": "Minz", "en": "Nice. Any recommendations? I want to watch more classics.", "zh": "不錯。有推薦的嗎？我想多看一些經典片。" },
+          { "speaker": "Daniel", "en": "Oh, don't get me started. I could geek out about this all day.", "zh": "喔，別讓我開始講，這個我可以講一整天。" }
+        ]
+      },
+      {
+        "title": "A new obsession",
+        "lines": [
+          { "speaker": "Jess", "en": "Why do you look so tired?", "zh": "你怎麼看起來這麼累？" },
+          { "speaker": "Leo", "en": "I stayed up till 3 playing this new game. I'm totally hooked on it.", "zh": "我玩一款新遊戲玩到三點，完全上癮了。" },
+          { "speaker": "Jess", "en": "You need to stop doing that on work nights.", "zh": "你平日晚上真的不能再這樣了。" },
+          { "speaker": "Leo", "en": "I know, I know. I keep telling myself one more round.", "zh": "我知道我知道，我一直跟自己說再一局就好。" },
+          { "speaker": "Jess", "en": "Have you thought about picking up a hobby that doesn't involve a screen?", "zh": "你有想過培養一個不用看螢幕的嗜好嗎？" },
+          { "speaker": "Leo", "en": "Actually, I've been meaning to learn to swim.", "zh": "其實我一直想學游泳。" },
+          { "speaker": "Jess", "en": "Do it! I enjoy swimming. We can go together.", "zh": "去學！我很喜歡游泳，我們可以一起去。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "What do you like to do in your free time?", "zh": "你空閒時喜歡做什麼？", "note": "比 What's your hobby? 自然很多" },
+      { "en": "I'm really into ___ these days.", "zh": "我最近很迷 ___。" },
+      { "en": "I started ___ last year.", "zh": "我去年開始 ___。" },
+      { "en": "I've been meaning to learn ___.", "zh": "我一直想學 ___。" },
+      { "en": "I'd love to try it someday.", "zh": "我有一天也想試試。" },
+      { "en": "I'm not very good at it, but I enjoy it.", "zh": "我不太厲害，但我很享受。" },
+      { "en": "How did you get into it?", "zh": "你怎麼開始接觸的？", "note": "get into = 開始迷上" },
+      { "en": "It's a great way to unwind.", "zh": "這是放鬆的好方法。" },
+      { "en": "Don't get me started.", "zh": "別讓我開始講（不然會講不完）。" },
+      { "en": "Any recommendations?", "zh": "有推薦的嗎？" }
+    ],
+    "chinglish": [
+      { "wrong": "My hobby is watching movies and listening music.", "right": "I love watching movies, and I listen to a lot of music.", "why": "My hobby is… 很像作文開頭，聊天很少這樣說。另外 listen 後面要加 to。" },
+      { "wrong": "I like go hiking.", "right": "I like going hiking. / I like to go hiking.", "why": "兩個動詞不能直接連在一起，第二個要變 V-ing 或 to V。" },
+      { "wrong": "I enjoy to swim.", "right": "I enjoy swimming.", "why": "enjoy 後面只能接 V-ing，這是要背的。" },
+      { "wrong": "I am interesting in photography.", "right": "I'm interested in photography.", "why": "複習第 13 單元：感興趣用 interested in。" }
+    ]
+  },
+  "grammar": {
+    "id": "gerund-vs-infinitive-1",
+    "title": "動名詞 vs 不定詞 I",
+    "oneLiner": "有些動詞後面只能接 V-ing，有些只能接 to V，有些兩個都可以。最常用的那幾個要直接背起來。",
+    "whenToUse": [
+      "只接 V-ing：enjoy, finish, mind, keep, practice, avoid, suggest, can't stand。I enjoy swimming.",
+      "只接 to V：want, need, decide, plan, hope, learn, would like, would love, try (嘗試努力)。I want to learn.",
+      "兩個都可以、意思幾乎一樣：like, love, hate, start, begin, prefer。I like cooking. = I like to cook.",
+      "介系詞後面一律接 V-ing：good at drawing, interested in learning, instead of going。",
+      "V-ing 也可以當主詞：Swimming is good exercise."
+    ],
+    "whyWeGetItWrong": "中文動詞可以直接串在一起：「喜歡去爬山」「決定開始學畫畫」。英文兩個動詞相遇時，第二個一定要變形（to V 或 V-ing），而且選哪一個要看前面的動詞。沒有完美的邏輯規則，最有效的方法是記住最常用的十幾個動詞。",
+    "examples": [
+      { "correct": "I really enjoy cooking for friends.", "incorrect": "I really enjoy to cook for friends.", "note": "enjoy 後面只接 V-ing。" },
+      { "correct": "I've decided to learn Korean.", "incorrect": "I've decided learning Korean.", "note": "decide 後面接 to V。" },
+      { "correct": "I started running last year. / I started to run last year.", "note": "start 兩種都可以。" },
+      { "correct": "She's really good at drawing.", "incorrect": "She's really good at draw.", "note": "介系詞 at 後面接 V-ing。" },
+      { "correct": "Do you mind closing the window?", "incorrect": "Do you mind to close the window?", "note": "mind 後面接 V-ing。" }
+    ],
+    "quiz": [
+      { "id": "u014-g1", "type": "mcq", "question": "I really enjoy ___ new places.", "options": ["to explore", "exploring", "explore"], "answer": 1, "explanation": "enjoy + V-ing。" },
+      { "id": "u014-g2", "type": "mcq", "question": "I've decided ___ a pottery class.", "options": ["taking", "to take", "take"], "answer": 1, "explanation": "decide + to V。" },
+      { "id": "u014-g3", "type": "fill", "question": "Have you finished ___ (read) that book yet?", "answer": "reading", "explanation": "finish + V-ing。" },
+      { "id": "u014-g4", "type": "mcq", "question": "I'm not very good at ___.", "options": ["sing", "to sing", "singing"], "answer": 2, "explanation": "介系詞 at 後面接 V-ing。" },
+      { "id": "u014-g5", "type": "fill", "question": "I'd love ___ (try) rock climbing someday.", "answer": "to try", "explanation": "would love + to V。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "be-into",
+      "term": "be into",
+      "meaning": "很喜歡、很迷",
+      "register": "casual",
+      "usage": "be into + 名詞 / V-ing。I'm into jazz. 也可以說喜歡某個人：I think he's into you（他好像喜歡你）。",
+      "risk": { "level": "safe", "note": "講興趣完全安全；講人時帶戀愛意味，看語境。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "I'm really into bouldering right now.", "zh": "我最近很迷抱石。" },
+        { "en": "What kind of music are you into?", "zh": "你喜歡哪種音樂？" }
+      ]
+    },
+    {
+      "id": "geek-out",
+      "term": "geek out",
+      "meaning": "講到熱愛的東西就停不下來、宅魂爆發",
+      "register": "casual",
+      "usage": "geek out about / over something，對某事表現出極度熱情。",
+      "risk": { "level": "safe", "note": "通常是友善的自嘲或調侃。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "We spent an hour geeking out about fonts.", "zh": "我們聊字體聊到宅魂爆發，聊了一小時。" },
+        { "en": "Sorry, I'm geeking out. I just love this stuff.", "zh": "抱歉我太激動了，我就是超愛這個。" }
+      ]
+    },
+    {
+      "id": "a-buff",
+      "term": "a buff",
+      "meaning": "…迷、…通",
+      "register": "neutral",
+      "usage": "放在名詞後面：a film buff, a history buff, a wine buff。指對某領域很有研究的愛好者。",
+      "risk": { "level": "safe", "note": "中性偏正面。注意 buff 當形容詞是「肌肉發達」，意思完全不同。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "My dad's a history buff. He's read every book about WWII.", "zh": "我爸是歷史迷，二戰的書他全看過。" },
+        { "en": "As a film buff, he hates it when people talk during movies.", "zh": "身為電影迷，他超討厭別人看電影時講話。" }
+      ]
+    },
+    {
+      "id": "hooked-on",
+      "term": "hooked on",
+      "meaning": "上癮、迷上",
+      "register": "casual",
+      "usage": "像被魚鉤鉤住一樣戒不掉。be / get hooked on + 名詞。",
+      "risk": { "level": "safe", "note": "講遊戲、影集、食物都沒問題；也可用在毒品等負面上癮，看語境。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "I got hooked on this K-drama and watched it in two days.", "zh": "我迷上這部韓劇，兩天就看完了。" },
+        { "en": "Be careful. That bubble tea is easy to get hooked on.", "zh": "小心，那家珍奶很容易上癮。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u014-r1", "sourceUnit": 13, "type": "mcq", "question": "The lecture was two hours long and really ___.", "options": ["bored", "boring", "bore"], "answer": 1, "explanation": "複習第 13 單元：造成無聊感的東西用 -ing。" },
+    { "id": "u014-r2", "sourceUnit": 13, "type": "fill", "question": "She's famous, but she's really down-to-___.", "answer": "earth", "explanation": "複習第 13 單元：down-to-earth = 實在、不做作。" },
+    { "id": "u014-r3", "sourceUnit": 12, "type": "mcq", "question": "Which is correct?", "options": ["I've sent it last night.", "I sent it last night.", "I have last night sent it."], "answer": 1, "explanation": "複習第 12 單元：有明確過去時間用過去式。" },
+    { "id": "u014-r4", "sourceUnit": 10, "type": "fill", "question": "Let's grab coffee and catch ___. It's been ages!", "answer": "up", "explanation": "複習第 10 單元：catch up = 敘舊。" },
+    { "id": "u014-r5", "sourceUnit": 6, "type": "mcq", "question": "There are only ___ tickets left. Book now!", "options": ["a little", "a few", "much"], "answer": 1, "explanation": "複習第 6 單元：可數用 a few。" },
+    { "id": "u014-r6", "sourceUnit": 14, "type": "mcq", "question": "Which is the most natural way to ask about hobbies?", "options": ["What's your hobby?", "What do you like to do in your free time?", "What is your interesting?"], "answer": 1, "explanation": "What do you like to do in your free time? 最自然。" }
+  ]
+}
