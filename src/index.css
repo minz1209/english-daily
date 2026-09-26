@@ -2,12 +2,12 @@
 
 @custom-variant dark (&:where(.dark, .dark *));
 
-/* 設計方向：像一本有頁邊註記的讀本。紙色底、襯線英文、文楷中文；
+/* 設計方向：像一本有頁邊註記的讀本。紙色底、襯線英文、黑體中文；
    每個內容區塊一種墨色，只用在標記、邊線與重點，不大面積鋪色。 */
 @theme {
-  --font-display: 'Fraunces', 'LXGW WenKai TC', Georgia, serif;
+  --font-display: 'Fraunces', 'Noto Sans TC', Georgia, serif;
   --font-en: 'Newsreader', Georgia, 'Times New Roman', serif;
-  --font-zh: 'LXGW WenKai TC', 'PingFang TC', 'Noto Sans TC', sans-serif;
+  --font-zh: 'Noto Sans TC', 'PingFang TC', 'Microsoft JhengHei', sans-serif;
 
   --color-paper: var(--paper);
   --color-paper-2: var(--paper-2);
@@ -83,7 +83,7 @@ html {
 body {
   font-family: var(--font-zh);
   font-size: 18px;
-  line-height: 1.75;
+  line-height: 1.8;
   background: var(--paper);
   /* 很淡的紙紋，讓畫面不像純平面 */
   background-image: radial-gradient(color-mix(in srgb, var(--ink) 4%, transparent) 0.6px, transparent 0.6px);
