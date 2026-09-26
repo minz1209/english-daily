@@ -1,0 +1,150 @@
+{
+  "id": 86,
+  "module": 9,
+  "level": "B2",
+  "title": { "zh": "看球賽", "en": "Watching a Game" },
+  "scenario": {
+    "title": "跟朋友看棒球、聊比賽",
+    "context": "看球賽時一直在說「期待」：很期待看這場比賽、我一直很想去看職棒。英文的 look forward to 看起來是 to + 原形，其實 to 是介系詞，後面要接 V-ing，這是台灣人（甚至很多老師）最常搞錯的地方之一。",
+    "dialogues": [
+      {
+        "title": "At the baseball stadium",
+        "lines": [
+          { "speaker": "Ryan", "en": "I've been looking forward to seeing a CPBL game for months!", "zh": "我好幾個月前就很期待看中職比賽了！" },
+          { "speaker": "Leo", "en": "You picked a good one. The Hawks are the underdogs, but they've been on fire lately.", "zh": "你挑了一場好比賽。雄鷹是弱勢的一方，但他們最近很火熱。" },
+          { "speaker": "Ryan", "en": "What's with all the drums and cheerleaders?", "zh": "那些鼓和啦啦隊是怎麼回事？" },
+          { "speaker": "Leo", "en": "When it comes to cheering, Taiwan goes all out. Every player has their own song.", "zh": "講到加油，台灣是傾盡全力的，每個球員都有自己的應援曲。" },
+          { "speaker": "Ryan", "en": "I'm not used to hearing so much noise at a baseball game. I love it!", "zh": "我不習慣在棒球場聽到這麼吵的聲音。我好愛！" },
+          { "speaker": "Leo", "en": "Watch this guy. He's so clutch. He always hits when it matters.", "zh": "看這個人，他超有關鍵時刻的能力，總在最重要的時候擊出安打。" },
+          { "speaker": "Ryan", "en": "Home run! Is he the GOAT or what?", "zh": "全壘打！他是不是史上最強？" }
+        ]
+      },
+      {
+        "title": "After the game",
+        "lines": [
+          { "speaker": "Ryan", "en": "What a game! I can't believe the other team's pitcher choked in the ninth.", "zh": "好精彩的比賽！真不敢相信對方投手在第九局失常。" },
+          { "speaker": "Leo", "en": "He must have been nervous. Everyone was screaming.", "zh": "他一定很緊張，大家都在尖叫。" },
+          { "speaker": "Ryan", "en": "I'm really into Taiwanese baseball now. I'm committed to learning all the cheer songs.", "zh": "我現在超迷台灣棒球。我決心要學會所有應援曲。" },
+          { "speaker": "Leo", "en": "Ha! I object to singing the cheer songs in the office, though.", "zh": "哈！不過我反對在辦公室唱應援曲。" },
+          { "speaker": "Ryan", "en": "No promises. I look forward to annoying you with them.", "zh": "不保證。我很期待用它們來煩你。" },
+          { "speaker": "Leo", "en": "Great. Can't wait.", "zh": "太好了，我等不及了。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "Who are you rooting for?", "zh": "你支持哪一隊？" },
+      { "en": "What's the score?", "zh": "比數多少？" },
+      { "en": "They're up by two.", "zh": "他們領先兩分。" },
+      { "en": "It's a tie game.", "zh": "現在平手。" },
+      { "en": "What a play!", "zh": "好球！" },
+      { "en": "That was a close game.", "zh": "那場比賽很接近。" },
+      { "en": "I'm looking forward to the playoffs.", "zh": "我很期待季後賽。" },
+      { "en": "When it comes to ___, ___.", "zh": "說到 ___，___。" },
+      { "en": "They didn't stand a chance.", "zh": "他們根本沒機會。" },
+      { "en": "Let's go! / Come on!", "zh": "加油！" }
+    ],
+    "chinglish": [
+      { "wrong": "I'm looking forward to see the game.", "right": "I'm looking forward to seeing the game.", "why": "look forward to 的 to 是介系詞，後面接 V-ing。這是非常常見的錯誤。" },
+      { "wrong": "Fighting! Fighting!", "right": "Let's go! / Come on!", "why": "複習第 35 單元：加油不是 fighting。" },
+      { "wrong": "When it comes to cheer, Taiwan is number one.", "right": "When it comes to cheering, Taiwan is the best.", "why": "when it comes to 的 to 也是介系詞，接 V-ing 或名詞。" },
+      { "wrong": "The pitcher is very clutch in key moment.", "right": "The pitcher is really clutch.", "why": "clutch 本身就是「關鍵時刻表現好」，不用再加 in key moment。" }
+    ]
+  },
+  "grammar": {
+    "id": "to-as-preposition",
+    "title": "to 當介系詞：look forward to + V-ing",
+    "oneLiner": "有些片語裡的 to 是介系詞，不是不定詞的 to，所以後面接名詞或 V-ing。",
+    "whenToUse": [
+      "look forward to + V-ing：期待。I look forward to hearing from you.",
+      "be used to / get used to + V-ing（第 58 單元）。",
+      "when it comes to + V-ing / 名詞：說到…",
+      "be committed / dedicated to + V-ing：致力於。",
+      "object to + V-ing：反對。",
+      "in addition to + V-ing：除了…之外。",
+      "判斷方法：在 to 後面放一個名詞試試看，如果可以（look forward to the game），那 to 就是介系詞，動詞要用 V-ing。"
+    ],
+    "whyWeGetItWrong": "台灣人學英文時最早學到的規則之一就是「to 後面接原形」，這個規則太根深蒂固，所以遇到 look forward to 時很自然就接原形。其實 to 有兩種身分：不定詞（want to go）和介系詞（go to school）。當 to 是介系詞時，後面的動詞要變成動名詞。英文 email 最常見的結尾 I look forward to hearing from you，很多人都寫錯。",
+    "examples": [
+      { "correct": "I look forward to hearing from you.", "incorrect": "I look forward to hear from you.", "note": "to 是介系詞，接 V-ing。" },
+      { "correct": "When it comes to cooking, my dad is the expert.", "note": "when it comes to + V-ing。" },
+      { "correct": "We're committed to reducing waste.", "incorrect": "We're committed to reduce waste.", "note": "be committed to + V-ing。" },
+      { "correct": "I object to working on weekends.", "note": "object to + V-ing。" },
+      { "correct": "I'm looking forward to the game.", "note": "to 後面接名詞，證明它是介系詞。" }
+    ],
+    "quiz": [
+      { "id": "u086-g1", "type": "mcq", "question": "I'm looking forward to ___ you next week.", "options": ["see", "seeing", "saw"], "answer": 1, "explanation": "look forward to + V-ing。" },
+      { "id": "u086-g2", "type": "fill", "question": "When it comes to ___ (choose) a team, I always pick the underdog.", "answer": "choosing", "explanation": "when it comes to + V-ing。" },
+      { "id": "u086-g3", "type": "mcq", "question": "Which is correct for an email ending?", "options": ["I look forward to hear from you.", "I look forward to hearing from you.", "I look forward hearing from you."], "answer": 1, "explanation": "I look forward to hearing from you。" },
+      { "id": "u086-g4", "type": "mcq", "question": "Our company is committed to ___ more sustainable.", "options": ["become", "becoming", "became"], "answer": 1, "explanation": "be committed to + V-ing。" },
+      { "id": "u086-g5", "type": "mcq", "question": "Which \"to\" is a preposition?", "options": ["I want to go.", "I need to leave.", "I'm used to waking up early."], "answer": 2, "explanation": "be used to 的 to 是介系詞。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "underdog",
+      "term": "underdog",
+      "meaning": "處於劣勢的一方、不被看好的隊伍",
+      "register": "neutral",
+      "usage": "被預期會輸的隊伍或人，也用在商業、選舉等。",
+      "risk": { "level": "safe", "note": "常見用語，常帶支持意味。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "I always root for the underdog.", "zh": "我總是支持不被看好的一方。" },
+        { "en": "The small startup was the underdog, but it won the contract.", "zh": "那家小新創不被看好，但拿下了合約。" }
+      ]
+    },
+    {
+      "id": "clutch",
+      "term": "clutch",
+      "meaning": "關鍵時刻表現出色的",
+      "register": "casual",
+      "usage": "形容在壓力最大的時候發揮的人或表現：a clutch hit / He's so clutch.",
+      "risk": { "level": "safe", "note": "運動和遊戲用語，也可以開玩笑用在生活中。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "That was a clutch shot in the last second!", "zh": "最後一秒那球太關鍵了！" },
+        { "en": "You brought an umbrella? So clutch.", "zh": "你有帶傘？太神了。" }
+      ]
+    },
+    {
+      "id": "choke",
+      "term": "choke",
+      "meaning": "（關鍵時刻）失常、腿軟",
+      "register": "casual",
+      "usage": "在壓力下表現失常。choke under pressure。",
+      "risk": { "level": "careful", "note": "說別人 choked 帶批評，當事人聽了會難受。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "He choked in the final and missed an easy shot.", "zh": "他在決賽失常，錯過一個很簡單的球。" },
+        { "en": "I always choke during job interviews.", "zh": "我面試時總是會失常。" }
+      ]
+    },
+    {
+      "id": "goat",
+      "term": "GOAT",
+      "meaning": "史上最強（Greatest Of All Time）",
+      "register": "very-casual",
+      "usage": "唸成 goat（山羊）。形容某領域的頂尖人物，也常開玩笑用在朋友身上。",
+      "risk": { "level": "safe", "note": "年輕人和運動迷常用；有時用山羊表情符號代替。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "Some people say Messi is the GOAT.", "zh": "有些人說梅西是史上最強。" },
+        { "en": "You made breakfast for everyone? You're the GOAT.", "zh": "你幫大家做早餐？你是神。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u086-r1", "sourceUnit": 85, "type": "mcq", "question": "(Formal) We ___ that the game has been postponed.", "options": ["regret to inform you", "are sorry tell you", "sadly say you"], "answer": 0, "explanation": "複習第 85 單元：正式語域。" },
+    { "id": "u086-r2", "sourceUnit": 84, "type": "mcq", "question": "The coach insisted that every player ___ on time.", "options": ["arrives", "arrive", "arrived"], "answer": 1, "explanation": "複習第 84 單元：insist that + 原形。" },
+    { "id": "u086-r3", "sourceUnit": 82, "type": "fill", "question": "Fans ___ (wear) team jerseys got a discount.", "answer": "wearing", "explanation": "複習第 82 單元：減化關係子句。" },
+    { "id": "u086-r4", "sourceUnit": 78, "type": "mcq", "question": "That guy behind us was ___ shouting at the umpire!", "options": ["always", "rarely", "never"], "answer": 0, "explanation": "複習第 78 單元：always + 進行式抱怨。" },
+    { "id": "u086-r5", "sourceUnit": 70, "type": "mcq", "question": "If he hadn't dropped the ball, they ___.", "options": ["would win", "would have won", "will win"], "answer": 1, "explanation": "複習第 70 單元：type 3。" },
+    { "id": "u086-r6", "sourceUnit": 54, "type": "mcq", "question": "Which is the softest comment?", "options": ["The umpire is blind.", "That call might have been a bit off.", "Terrible umpire."], "answer": 1, "explanation": "複習第 54 單元：軟化語氣。" },
+    { "id": "u086-r7", "sourceUnit": 22, "type": "mcq", "question": "Which is correct?", "options": ["I'm agree it was a great game.", "I agree it was a great game.", "I agreeing it was great."], "answer": 1, "explanation": "複習第 22 單元：agree 是動詞。" },
+    { "id": "u086-r8", "sourceUnit": 86, "type": "mcq", "question": "Which is correct?", "options": ["I look forward to meet you.", "I look forward to meeting you.", "I look forward meet you."], "answer": 1, "explanation": "look forward to + V-ing。" }
+  ]
+}

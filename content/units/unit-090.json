@@ -1,0 +1,153 @@
+{
+  "id": 90,
+  "module": 9,
+  "level": "B2",
+  "title": { "zh": "整合：半年回顧", "en": "Review: Six Months In" },
+  "scenario": {
+    "title": "回顧這半年，展望下一步",
+    "context": "課程的最後一個單元：跟朋友回顧這半年的改變。你會用到所有的假設語氣：如果明天下雨（type 1）、如果我是你（type 2）、如果當初沒開始（type 3）、如果那時沒堅持，現在就不會（混合）、真希望早點開始（wish）。能流暢切換這些，你的英文就真的到 B2 了。",
+    "dialogues": [
+      {
+        "title": "Looking back",
+        "lines": [
+          { "speaker": "Jess", "en": "Can you believe it's been six months since you started your English routine?", "zh": "你相信你開始每天練英文已經半年了嗎？" },
+          { "speaker": "Minz", "en": "Honestly, no. I remember being so nervous about ordering coffee in English.", "zh": "說真的不敢相信。我還記得當時用英文點咖啡都好緊張。" },
+          { "speaker": "Jess", "en": "And last week you led a whole client meeting in English. You've come a long way.", "zh": "而上週你用英文主持了一整場客戶會議。你進步好多。" },
+          { "speaker": "Minz", "en": "If I hadn't started back then, I wouldn't be working with international clients now.", "zh": "如果我當初沒開始，現在就不會跟國際客戶合作。" },
+          { "speaker": "Jess", "en": "Do you have any regrets?", "zh": "有什麼後悔的嗎？" },
+          { "speaker": "Minz", "en": "Only one. I wish I had started years ago.", "zh": "只有一個：真希望我好幾年前就開始。" },
+          { "speaker": "Jess", "en": "Better late than never. Pat yourself on the back.", "zh": "遲到總比不到好。好好誇獎一下自己吧。" }
+        ]
+      },
+      {
+        "title": "Looking ahead",
+        "lines": [
+          { "speaker": "Jess", "en": "So what's next?", "zh": "所以下一步是什麼？" },
+          { "speaker": "Minz", "en": "If the London studio offers me the project, I'll take it.", "zh": "如果倫敦那間工作室給我那個案子，我就接。" },
+          { "speaker": "Jess", "en": "And if they don't?", "zh": "如果他們沒給呢？" },
+          { "speaker": "Minz", "en": "Then I'll keep pitching. If I were more patient, I'd wait, but I'm not.", "zh": "那我就繼續提案。如果我更有耐心就會等，但我沒有。" },
+          { "speaker": "Jess", "en": "Ha! Well, with your portfolio and your English, the sky's the limit.", "zh": "哈！嗯，憑你的作品集和英文，前途無可限量。" },
+          { "speaker": "Minz", "en": "Thanks, Jess. Here's to the next six months. Onwards and upwards!", "zh": "謝謝你，Jess。敬接下來的六個月，繼續向前！" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "Can you believe it's been ___?", "zh": "你相信已經 ___ 了嗎？" },
+      { "en": "I remember being so ___.", "zh": "我記得當時好 ___。" },
+      { "en": "I've come a long way.", "zh": "我進步很多。" },
+      { "en": "Looking back, ___.", "zh": "回頭看，___。" },
+      { "en": "If I hadn't ___, I wouldn't ___ now.", "zh": "如果我當初沒 ___，現在就不會 ___。" },
+      { "en": "I wish I had started earlier.", "zh": "真希望我早點開始。" },
+      { "en": "What's next for you?", "zh": "你的下一步是什麼？" },
+      { "en": "My goal for the next six months is ___.", "zh": "我接下來半年的目標是 ___。" },
+      { "en": "Better late than never.", "zh": "遲到總比不到好。" },
+      { "en": "Here's to the next chapter!", "zh": "敬下一個篇章！" }
+    ],
+    "chinglish": [
+      { "wrong": "If I didn't start, I won't work with foreign clients now.", "right": "If I hadn't started, I wouldn't be working with international clients now.", "why": "過去沒做 → 現在的結果，用混合條件句（第 88 單元）。另外 foreign clients 改成 international clients 更得體。" },
+      { "wrong": "I hope I started earlier.", "right": "I wish I had started earlier.", "why": "對過去的遺憾用 wish + had + p.p.（第 68 單元）。" },
+      { "wrong": "My English is progress a lot.", "right": "My English has improved a lot. / I've made a lot of progress.", "why": "progress 是名詞（或動詞但少這樣用），進步用 improve 或 make progress。" },
+      { "wrong": "If they will offer me the job, I will take it.", "right": "If they offer me the job, I'll take it.", "why": "if 子句不用 will（第 39 單元）。這是課程第一個假設語氣，也是最常見的錯誤。" }
+    ]
+  },
+  "grammar": {
+    "id": "review-all-conditionals",
+    "title": "假設語氣全系列",
+    "oneLiner": "判斷兩件事：假設的是現在、過去、還是未來？可能還是不可能？時態往過去退一格 = 離現實更遠。",
+    "whenToUse": [
+      "Type 1（真的可能）：If + 現在式, will + V。If it rains, I'll stay home.",
+      "Type 2（現在不可能）：If + 過去式, would + V。If I were rich, I'd travel.",
+      "Type 3（過去不可能）：If + had + p.p., would have + p.p.。If I had known, I would have come.",
+      "混合（過去 → 現在）：If + had + p.p., would + V。If I had studied, I'd be a doctor now.",
+      "wish（現在）：wish + 過去式。/ wish（過去）：wish + had + p.p.。/ wish + would：希望別人改變。",
+      "It's essential that + 原形（第 84 單元）；If I were you…（第 45 單元）。"
+    ],
+    "whyWeGetItWrong": "這是整個課程的最後一個文法點，也是最能看出中文和英文思維差異的地方：中文的「如果」「要是」「真希望」幾乎不需要改變動詞，全靠時間詞和語氣；英文則用一套精密的時態系統，把「可能性」和「時間」都編碼在動詞裡。從第 39 單元到這裡，你已經學完整套系統了。接下來需要的不是更多規則，而是大量開口，讓它變成直覺。",
+    "examples": [
+      { "correct": "If I get the project, I'll move to London for three months.", "note": "Type 1：真的可能。" },
+      { "correct": "If I were you, I'd take the offer.", "note": "Type 2：給建議。" },
+      { "correct": "If I had known about this course earlier, I would have started sooner.", "note": "Type 3：過去的遺憾。" },
+      { "correct": "If I hadn't practiced every day, I wouldn't be this confident now.", "incorrect": "If I didn't practice every day, I won't be this confident now.", "note": "混合條件句。" },
+      { "correct": "I wish I could speak as naturally as a native speaker.", "note": "wish + could。" }
+    ],
+    "quiz": [
+      { "id": "u090-g1", "type": "mcq", "question": "If it ___ tomorrow, we'll cancel the picnic.", "options": ["rains", "rained", "had rained"], "answer": 0, "explanation": "Type 1：if + 現在式。" },
+      { "id": "u090-g2", "type": "mcq", "question": "If I ___ you, I'd apply for that job.", "options": ["am", "were", "had been"], "answer": 1, "explanation": "Type 2：If I were you。" },
+      { "id": "u090-g3", "type": "mcq", "question": "If I had saved more, I ___ a house by now.", "options": ["would own", "would have owned", "will own"], "answer": 0, "explanation": "混合：過去原因 + 現在結果（by now）。" },
+      { "id": "u090-g4", "type": "fill", "question": "If she had asked me, I ___ have helped her. (過去)", "answer": "would|could", "explanation": "Type 3：would have + p.p.。" },
+      { "id": "u090-g5", "type": "mcq", "question": "I wish I ___ English when I was a kid.", "options": ["learned", "had learned", "learn"], "answer": 1, "explanation": "過去的遺憾：wish + had + p.p.。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "come-a-long-way",
+      "term": "come a long way",
+      "meaning": "進步很多、走了很長的路",
+      "register": "neutral",
+      "usage": "You've come a long way! = 你進步好多！也用在科技、社會的發展。",
+      "risk": { "level": "safe", "note": "溫暖的讚美。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Your English has come a long way this year.", "zh": "你的英文今年進步好多。" },
+        { "en": "Phones have come a long way since the 90s.", "zh": "手機從 90 年代到現在進步好多。" }
+      ]
+    },
+    {
+      "id": "the-skys-the-limit",
+      "term": "the sky's the limit",
+      "meaning": "前途無可限量、沒有極限",
+      "register": "casual",
+      "usage": "可能性無窮，只要努力什麼都做得到。",
+      "risk": { "level": "safe", "note": "鼓勵用語。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "With your talent, the sky's the limit.", "zh": "以你的才華，前途無可限量。" },
+        { "en": "For this project, the sky's the limit. Be creative!", "zh": "這個案子沒有限制，盡情發揮！" }
+      ]
+    },
+    {
+      "id": "onwards-and-upwards",
+      "term": "onwards and upwards",
+      "meaning": "繼續前進、越來越好",
+      "register": "casual",
+      "usage": "度過困難或完成階段後，表示要繼續向前。英式較常用。",
+      "risk": { "level": "safe", "note": "正面的結尾語。" },
+      "dated": false,
+      "variety": "UK",
+      "examples": [
+        { "en": "The project's done. Onwards and upwards!", "zh": "案子完成了，繼續向前！" },
+        { "en": "It was a tough year, but onwards and upwards.", "zh": "今年很辛苦，但會越來越好。" }
+      ]
+    },
+    {
+      "id": "pat-yourself-on-the-back",
+      "term": "pat yourself on the back",
+      "meaning": "誇獎自己、犒賞自己",
+      "register": "casual",
+      "usage": "肯定自己的努力和成就。",
+      "risk": { "level": "safe", "note": "溫暖友善。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "You finished all 90 units. Pat yourself on the back!", "zh": "你完成了全部 90 個單元，好好誇獎自己吧！" },
+        { "en": "Take a moment to pat yourself on the back.", "zh": "花點時間肯定一下自己。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u090-r1", "sourceUnit": 89, "type": "fill", "question": "I'm so proud ___ how far I've come.", "answer": "of", "explanation": "複習第 89 單元：proud of。" },
+    { "id": "u090-r2", "sourceUnit": 88, "type": "mcq", "question": "If I hadn't taken that class, I ___ you now.", "options": ["wouldn't know", "wouldn't have known", "won't know"], "answer": 0, "explanation": "複習第 88 單元：混合條件句。" },
+    { "id": "u090-r3", "sourceUnit": 86, "type": "mcq", "question": "I'm looking forward to ___ the next chapter.", "options": ["start", "starting", "started"], "answer": 1, "explanation": "複習第 86 單元：look forward to + V-ing。" },
+    { "id": "u090-r4", "sourceUnit": 82, "type": "fill", "question": "Learners ___ (practice) every day improve the fastest.", "answer": "practicing", "explanation": "複習第 82 單元：減化關係子句。" },
+    { "id": "u090-r5", "sourceUnit": 74, "type": "mcq", "question": "I'm ___ thrilled with my progress.", "options": ["very", "absolutely", "fairly very"], "answer": 1, "explanation": "複習第 74 單元：極端形容詞用 absolutely。" },
+    { "id": "u090-r6", "sourceUnit": 58, "type": "mcq", "question": "I ___ be scared of speaking English, but now I enjoy it.", "options": ["used to", "am used to", "was used to"], "answer": 0, "explanation": "複習第 58 單元：used to。" },
+    { "id": "u090-r7", "sourceUnit": 45, "type": "mcq", "question": "If I ___ more time, I'd learn another language.", "options": ["have", "had", "will have"], "answer": 1, "explanation": "複習第 45 單元：type 2。" },
+    { "id": "u090-r8", "sourceUnit": 39, "type": "mcq", "question": "If I ___ this every day, I'll get even better.", "options": ["keep doing", "will keep doing", "kept doing"], "answer": 0, "explanation": "複習第 39 單元：type 1。" },
+    { "id": "u090-r9", "sourceUnit": 26, "type": "mcq", "question": "I ___ English for six months now.", "options": ["study", "'ve been studying", "studied"], "answer": 1, "explanation": "複習第 26 單元：完成進行式。" },
+    { "id": "u090-r10", "sourceUnit": 2, "type": "mcq", "question": "Back to the beginning! Which is the best way to order?", "options": ["I want a latte.", "Can I get a latte, please?", "Give me latte."], "answer": 1, "explanation": "複習第 2 單元：你第一週學的句子。" },
+    { "id": "u090-r11", "sourceUnit": 1, "type": "mcq", "question": "A: What's up? B: ___", "options": ["Not much, you?", "The sky.", "I'm fine, thank you, and you?"], "answer": 0, "explanation": "複習第 1 單元：一切的開始。" },
+    { "id": "u090-r12", "sourceUnit": 90, "type": "fill", "question": "You finished all 90 units. You've come a long ___!", "answer": "way", "explanation": "come a long way = 進步很多。" }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "id": 83,
+  "module": 9,
+  "level": "B2",
+  "title": { "zh": "醫病溝通", "en": "Talking to Your Doctor" },
+  "scenario": {
+    "title": "健康檢查、轉述醫生的建議",
+    "context": "看完醫生後，常要轉述醫生的指示：「醫生叫我少喝咖啡」「她建議我多運動」「他要我下週回診」。英文用 advise / ask / tell / want + 人 + to V，這是轉述指示和建議的核心句型。",
+    "dialogues": [
+      {
+        "title": "Annual checkup",
+        "lines": [
+          { "speaker": "Doctor", "en": "Your results look good overall. Your cholesterol is a little high, though.", "zh": "你的檢查結果整體不錯，不過膽固醇有點高。" },
+          { "speaker": "Minz", "en": "Oh. Is that serious?", "zh": "喔，嚴重嗎？" },
+          { "speaker": "Doctor", "en": "Not yet. I'd advise you to cut back on fried food and exercise at least three times a week.", "zh": "還不嚴重。我建議你少吃油炸食物，每週至少運動三次。" },
+          { "speaker": "Minz", "en": "OK. Do you want me to take any medication?", "zh": "好。你要我吃什麼藥嗎？" },
+          { "speaker": "Doctor", "en": "No, not at this stage. But I'd like you to come back in six months for another blood test.", "zh": "目前不用。但我希望你六個月後回來再驗一次血。" },
+          { "speaker": "Minz", "en": "Got it. Should I avoid coffee too?", "zh": "了解。我也該避免喝咖啡嗎？" },
+          { "speaker": "Doctor", "en": "Coffee's fine. Just ask the barista not to add so much syrup.", "zh": "咖啡沒關係，只要請店員別加那麼多糖漿就好。" }
+        ]
+      },
+      {
+        "title": "Telling a friend",
+        "lines": [
+          { "speaker": "Jess", "en": "How was your checkup?", "zh": "健康檢查怎麼樣？" },
+          { "speaker": "Minz", "en": "Mostly fine. The doctor told me to exercise more and eat less fried chicken.", "zh": "大致沒事。醫生叫我多運動、少吃炸雞。" },
+          { "speaker": "Jess", "en": "Doctor's orders! Did she ask you to come back?", "zh": "醫生的命令！她有要你回診嗎？" },
+          { "speaker": "Minz", "en": "In six months. Hopefully I'll get a clean bill of health then.", "zh": "六個月後。希望到時候檢查結果一切正常。" },
+          { "speaker": "Jess", "en": "My dad went under the knife last year for his knee. He's doing great now.", "zh": "我爸去年膝蓋開刀，現在很好。" },
+          { "speaker": "Minz", "en": "That's good to hear. My grandma's health took a turn for the worse last winter, so I'm trying to take this seriously.", "zh": "很高興聽到。我阿嬤去年冬天健康狀況惡化，所以我想認真看待這件事。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "I'd like to make an appointment.", "zh": "我想預約。" },
+      { "en": "I've been having trouble sleeping.", "zh": "我最近睡不好。" },
+      { "en": "Is it anything serious?", "zh": "嚴重嗎？" },
+      { "en": "What do you recommend?", "zh": "你建議怎麼做？" },
+      { "en": "Are there any side effects?", "zh": "有副作用嗎？" },
+      { "en": "How often should I take this?", "zh": "這個要多久吃一次？" },
+      { "en": "The doctor told me to ___.", "zh": "醫生叫我 ___。" },
+      { "en": "She advised me to ___.", "zh": "她建議我 ___。" },
+      { "en": "I need to come back for a follow-up.", "zh": "我需要回診。" },
+      { "en": "Do I need to fast before the test?", "zh": "檢查前需要空腹嗎？" }
+    ],
+    "chinglish": [
+      { "wrong": "The doctor suggested me to exercise.", "right": "The doctor advised me to exercise. / The doctor suggested (that) I exercise.", "why": "suggest 不接「人 + to V」（複習第 44 單元）；advise 才可以。" },
+      { "wrong": "She let me come back next week.", "right": "She asked me to come back next week. / She wants me to come back next week.", "why": "let 是「允許」。醫生要你回診是 ask / want / tell（複習第 24 單元）。" },
+      { "wrong": "The doctor said me to rest.", "right": "The doctor told me to rest.", "why": "say 不能直接接人，也不能接 to V（複習第 20 單元）。" },
+      { "wrong": "I want to do a body check.", "right": "I'd like to get a checkup.", "why": "「健康檢查」直翻 body check 是運動術語（身體衝撞）。說 checkup / physical。" }
+    ]
+  },
+  "grammar": {
+    "id": "verb-object-to-infinitive",
+    "title": "advise / ask / tell sb to V",
+    "oneLiner": "要求、建議、命令別人做事：動詞 + 人 + to V；否定是 + 人 + not to V。",
+    "whenToUse": [
+      "tell + 人 + to V：叫（命令）。The doctor told me to rest.",
+      "ask + 人 + to V：請、要求。She asked me to come back.",
+      "advise + 人 + to V：建議（較正式）。He advised me to cut back on sugar.",
+      "want / would like + 人 + to V：希望某人做。I'd like you to take this.",
+      "remind / encourage / allow / warn + 人 + to V。",
+      "否定：tell someone not to V。She told me not to worry.",
+      "例外（不接人 + to V）：suggest, recommend（第 44 單元）、make, let, have（第 24 單元）。"
+    ],
+    "whyWeGetItWrong": "中文「叫我去」「請我做」「建議我做」「讓我做」都是同一個結構，所以台灣人會把所有動詞套進同一個句型。英文卻分成三組：接 to V 的（tell, ask, advise）、接原形的（make, let, have）、根本不接人的（suggest, recommend）。這個單元把之前學過的例外整合起來。",
+    "examples": [
+      { "correct": "The doctor told me to drink more water.", "incorrect": "The doctor said me to drink more water.", "note": "tell + 人 + to V。" },
+      { "correct": "She asked me not to eat before the test.", "incorrect": "She asked me don't eat before the test.", "note": "否定：not to V。" },
+      { "correct": "He advised me to see a specialist.", "note": "advise 接 人 + to V。" },
+      { "correct": "The doctor suggested that I rest.", "incorrect": "The doctor suggested me to rest.", "note": "suggest 不接 人 + to V。" },
+      { "correct": "The nurse reminded me to bring my health insurance card.", "note": "remind + 人 + to V。" }
+    ],
+    "quiz": [
+      { "id": "u083-g1", "type": "mcq", "question": "The doctor ___ me to take it easy.", "options": ["said", "told", "suggested"], "answer": 1, "explanation": "tell + 人 + to V。" },
+      { "id": "u083-g2", "type": "mcq", "question": "She asked me ___ coffee before the test.", "options": ["don't drink", "not to drink", "to not drinking"], "answer": 1, "explanation": "否定：not to V。" },
+      { "id": "u083-g3", "type": "fill", "question": "My doctor advised me ___ sleep at least seven hours.", "answer": "to", "explanation": "advise + 人 + to V。" },
+      { "id": "u083-g4", "type": "mcq", "question": "Which is correct?", "options": ["He suggested me to rest.", "He advised me to rest.", "He advised me rest."], "answer": 1, "explanation": "advise + 人 + to V；suggest 不能這樣用。" },
+      { "id": "u083-g5", "type": "mcq", "question": "Which one does NOT take \"someone + to V\"?", "options": ["tell", "ask", "recommend"], "answer": 2, "explanation": "recommend 不接 人 + to V。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "a-clean-bill-of-health",
+      "term": "a clean bill of health",
+      "meaning": "健康檢查一切正常",
+      "register": "neutral",
+      "usage": "get / be given a clean bill of health；也可引申到公司、建築通過檢查。",
+      "risk": { "level": "safe", "note": "正面用語。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Good news: I got a clean bill of health.", "zh": "好消息：我健康檢查一切正常。" },
+        { "en": "The building got a clean bill of health after the inspection.", "zh": "那棟大樓檢查後一切合格。" }
+      ]
+    },
+    {
+      "id": "under-the-knife",
+      "term": "under the knife",
+      "meaning": "動手術",
+      "register": "casual",
+      "usage": "go under the knife = 接受手術，也常指整形手術。",
+      "risk": { "level": "careful", "note": "談別人的手術（尤其整形）要注意隱私和語氣。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "My dad went under the knife for his knee.", "zh": "我爸膝蓋動了手術。" },
+        { "en": "I'm nervous about going under the knife.", "zh": "我對動手術很緊張。" }
+      ]
+    },
+    {
+      "id": "doctors-orders",
+      "term": "doctor's orders",
+      "meaning": "醫生的吩咐（常用來當藉口或開玩笑）",
+      "register": "casual",
+      "usage": "It's doctor's orders. = 這是醫生說的，我也沒辦法。",
+      "risk": { "level": "safe", "note": "輕鬆常用，常帶幽默。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "I can't drink tonight. Doctor's orders.", "zh": "我今晚不能喝酒，醫生交代的。" },
+        { "en": "Two weeks of rest. Doctor's orders!", "zh": "休息兩週，醫生的命令！" }
+      ]
+    },
+    {
+      "id": "take-a-turn-for-the-worse",
+      "term": "take a turn for the worse",
+      "meaning": "情況惡化",
+      "register": "neutral",
+      "usage": "病情或情況突然變糟。反義 take a turn for the better。",
+      "risk": { "level": "safe", "note": "中性，談嚴肅話題時很得體。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "His condition took a turn for the worse overnight.", "zh": "他的病情一夜之間惡化了。" },
+        { "en": "The weather took a turn for the worse, so we canceled the hike.", "zh": "天氣變糟，所以我們取消了健行。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u083-r1", "sourceUnit": 82, "type": "mcq", "question": "Patients ___ surgery need to fast.", "options": ["having", "had", "who having"], "answer": 0, "explanation": "複習第 82 單元：減化關係子句。" },
+    { "id": "u083-r2", "sourceUnit": 81, "type": "mcq", "question": "Rarely ___ so healthy.", "options": ["I have felt", "have I felt", "I felt"], "answer": 1, "explanation": "複習第 81 單元：倒裝。" },
+    { "id": "u083-r3", "sourceUnit": 79, "type": "fill", "question": "___ soon as I saw the results, I felt relieved. (一…就…)", "answer": "As", "explanation": "複習第 79 單元：as soon as。" },
+    { "id": "u083-r4", "sourceUnit": 75, "type": "mcq", "question": "A: Didn't you take your medicine? B: (你有吃) ___", "options": ["Yes, I did.", "No, I did.", "Yes, I didn't."], "answer": 0, "explanation": "複習第 75 單元：有吃就說 Yes, I did。" },
+    { "id": "u083-r5", "sourceUnit": 67, "type": "mcq", "question": "I felt my heart ___ fast during the test.", "options": ["to beat", "beating", "beat to"], "answer": 1, "explanation": "複習第 67 單元：feel + V-ing。" },
+    { "id": "u083-r6", "sourceUnit": 51, "type": "mcq", "question": "I ___ ten kilos since I started exercising.", "options": ["lost", "'ve lost", "lose"], "answer": 1, "explanation": "複習第 51 單元：since 用現在完成式。" },
+    { "id": "u083-r7", "sourceUnit": 19, "type": "mcq", "question": "___ relief!", "options": ["What a", "How", "What"], "answer": 0, "explanation": "複習第 19 單元：What a + 名詞。" },
+    { "id": "u083-r8", "sourceUnit": 83, "type": "mcq", "question": "Which is correct?", "options": ["The doctor said me to rest.", "The doctor told me to rest.", "The doctor told me rest."], "answer": 1, "explanation": "tell + 人 + to V。" }
+  ]
+}

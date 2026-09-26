@@ -1,0 +1,149 @@
+{
+  "id": 84,
+  "module": 9,
+  "level": "B2",
+  "title": { "zh": "公共議題", "en": "Public Issues" },
+  "scenario": {
+    "title": "討論政策、社會議題",
+    "context": "討論公共議題時常要表達主張：「政府必須…」「重要的是每個人都要…」。英文的 It's crucial / essential / important that + 主詞 + 原形動詞，是一種較正式的「假設語氣現在式」，動詞不加 s，第 44 單元的 suggest that 也是同一個規則。",
+    "dialogues": [
+      {
+        "title": "Discussing housing prices",
+        "lines": [
+          { "speaker": "Leo", "en": "Did you see the new housing policy? Rents are supposed to be capped.", "zh": "你有看到新的住宅政策嗎？聽說要限制租金。" },
+          { "speaker": "Minz", "en": "I did. It's such a hot-button issue. Everyone has an opinion.", "zh": "有，那是超敏感的議題，每個人都有意見。" },
+          { "speaker": "Leo", "en": "I think it's essential that the government do something. Young people can't afford anything.", "zh": "我覺得政府一定要做點什麼，年輕人什麼都負擔不起。" },
+          { "speaker": "Minz", "en": "I agree something needs to change. But some economists say rent caps are a slippery slope.", "zh": "我同意需要改變。但有些經濟學家說限租是滑坡。" },
+          { "speaker": "Leo", "en": "Why?", "zh": "為什麼？" },
+          { "speaker": "Minz", "en": "They worry that landlords will stop maintaining their buildings. They recommend that the city build more public housing instead.", "zh": "他們擔心房東會不再維護房子，他們建議市政府改蓋更多社會住宅。" },
+          { "speaker": "Leo", "en": "Honestly, I'm on the fence. Both sides make sense.", "zh": "說真的我還沒決定立場，兩邊都有道理。" }
+        ]
+      },
+      {
+        "title": "Avoiding a difficult topic",
+        "lines": [
+          { "speaker": "Jess", "en": "Should we bring up the election at dinner with your parents?", "zh": "跟你爸媽吃飯時我們要提選舉嗎？" },
+          { "speaker": "Minz", "en": "Please don't. That would open a can of worms.", "zh": "拜託不要，那會惹出一堆麻煩。" },
+          { "speaker": "Jess", "en": "Your dad has strong opinions?", "zh": "你爸意見很強烈嗎？" },
+          { "speaker": "Minz", "en": "Very. It's important that everyone stay calm, so let's just talk about food.", "zh": "非常。重要的是大家都保持冷靜，所以我們就聊吃的吧。" },
+          { "speaker": "Jess", "en": "Got it. Food is always safe.", "zh": "了解，聊吃的最安全。" },
+          { "speaker": "Minz", "en": "Unless my mom starts on why I'm not married yet.", "zh": "除非我媽開始講我為什麼還沒結婚。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "It's a complicated issue.", "zh": "這是個複雜的議題。" },
+      { "en": "I can see both sides.", "zh": "我兩邊都能理解。" },
+      { "en": "It's essential that ___.", "zh": "___ 是非常必要的。" },
+      { "en": "The problem is that ___.", "zh": "問題在於 ___。" },
+      { "en": "I'm not sure where I stand.", "zh": "我不確定自己的立場。" },
+      { "en": "What's your take on ___?", "zh": "你對 ___ 有什麼看法？" },
+      { "en": "That's a valid concern.", "zh": "那是合理的擔憂。" },
+      { "en": "There's no easy answer.", "zh": "沒有簡單的答案。" },
+      { "en": "Let's agree to disagree.", "zh": "我們就各自保留意見吧。" },
+      { "en": "Maybe we should change the subject.", "zh": "也許我們該換個話題。" }
+    ],
+    "chinglish": [
+      { "wrong": "It's important that the government does something.", "right": "It's important that the government do something.", "why": "正式寫作和演講中，It's important that 後面用原形動詞（假設語氣）。口語中 does 也很常聽到，美式尤其如此。" },
+      { "wrong": "The government should must build more houses.", "right": "The government needs to build more public housing.", "why": "should 和 must 不能連用。" },
+      { "wrong": "I have no position.", "right": "I'm on the fence. / I haven't made up my mind.", "why": "「我沒有立場」直翻 no position 很怪。" },
+      { "wrong": "This problem is very sensitive, don't talk.", "right": "That's a sensitive topic. Maybe let's not go there.", "why": "don't talk 像命令。let's not go there 是委婉的「別碰這個話題」。" }
+    ]
+  },
+  "grammar": {
+    "id": "subjunctive-its-crucial-that",
+    "title": "It's crucial that + 原形",
+    "oneLiner": "表示重要、必要、建議、要求的句型，that 子句裡的動詞用原形（不管主詞是誰）。",
+    "whenToUse": [
+      "It's + essential / crucial / important / vital / necessary + that + 主詞 + 原形。",
+      "例：It's essential that she be on time.（不是 she is）",
+      "suggest / recommend / insist / demand / propose + that + 主詞 + 原形：I recommend that he apply.",
+      "否定：that + 主詞 + not + 原形：It's important that he not be late.",
+      "英式常用 should + 原形：It's important that he should be on time.",
+      "口語中很多人直接用一般時態（does / is），但正式寫作和考試用原形。"
+    ],
+    "whyWeGetItWrong": "第三人稱單數加 s 是台灣人最早學、也最常忘的規則。好不容易記住了，這個句型又要你把 s 拿掉。原因是 that 子句表達的是「應該發生、但還沒發生」的事，屬於假設語氣。這是 B2 到 C1 之間的門檻，日常說錯不太影響溝通，但在正式寫作中會被注意到。",
+    "examples": [
+      { "correct": "It's crucial that every child have access to education.", "incorrect": "It's crucial that every child has access to education.", "note": "正式寫作用原形 have。" },
+      { "correct": "The doctor recommended that she rest for a week.", "note": "recommend that + 原形。" },
+      { "correct": "It's important that he not be late.", "incorrect": "It's important that he doesn't be late.", "note": "否定：not + 原形。" },
+      { "correct": "I suggest that the meeting be moved to Friday.", "note": "be 動詞一律用 be。" },
+      { "correct": "They insisted that we stay for dinner.", "note": "insist that + 原形。" }
+    ],
+    "quiz": [
+      { "id": "u084-g1", "type": "mcq", "question": "It's essential that she ___ the contract before Friday.", "options": ["signs", "sign", "signed"], "answer": 1, "explanation": "It's essential that + 原形。" },
+      { "id": "u084-g2", "type": "mcq", "question": "The committee recommended that the policy ___ reviewed.", "options": ["is", "be", "was"], "answer": 1, "explanation": "recommend that + be。" },
+      { "id": "u084-g3", "type": "fill", "question": "It's important that he ___ be late. (否定)", "answer": "not", "explanation": "that + 主詞 + not + 原形。" },
+      { "id": "u084-g4", "type": "mcq", "question": "I suggest that he ___ a lawyer.", "options": ["contacts", "contact", "to contact"], "answer": 1, "explanation": "suggest that + 原形。" },
+      { "id": "u084-g5", "type": "fill", "question": "They insisted that we ___ (stay) for another drink.", "answer": "stay", "explanation": "insist that + 原形。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "hot-button-issue",
+      "term": "hot-button issue",
+      "meaning": "敏感議題、容易引發爭議的話題",
+      "register": "neutral",
+      "usage": "容易激起強烈情緒的政治或社會議題。",
+      "risk": { "level": "safe", "note": "新聞和討論常用。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "Immigration is a hot-button issue in many countries.", "zh": "移民在很多國家都是敏感議題。" },
+        { "en": "Let's avoid hot-button issues at the family dinner.", "zh": "家族聚餐時我們避開敏感話題吧。" }
+      ]
+    },
+    {
+      "id": "slippery-slope",
+      "term": "slippery slope",
+      "meaning": "滑坡、一步錯步步錯",
+      "register": "neutral",
+      "usage": "擔心一個小改變會導致一連串更糟的後果。",
+      "risk": { "level": "safe", "note": "辯論常用；也要知道「滑坡謬誤」是一種邏輯謬誤。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Skipping one workout is a slippery slope.", "zh": "翹掉一次運動就會越翹越多。" },
+        { "en": "Critics say the new rule is a slippery slope.", "zh": "批評者說新規定會開不好的先例。" }
+      ]
+    },
+    {
+      "id": "on-the-fence",
+      "term": "on the fence",
+      "meaning": "猶豫不決、還沒選邊",
+      "register": "casual",
+      "usage": "sit on the fence = 保持中立、不表態。",
+      "risk": { "level": "safe", "note": "說別人 sitting on the fence 有時暗示他不敢表態。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "I'm still on the fence about moving abroad.", "zh": "我對要不要出國還在猶豫。" },
+        { "en": "Many voters are on the fence.", "zh": "很多選民還沒決定。" }
+      ]
+    },
+    {
+      "id": "a-can-of-worms",
+      "term": "a can of worms",
+      "meaning": "一堆麻煩、自找麻煩",
+      "register": "casual",
+      "usage": "open a can of worms = 挑起一個會引發很多麻煩的話題或問題。",
+      "risk": { "level": "safe", "note": "常見用語。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Asking about his divorce would open a can of worms.", "zh": "問他離婚的事會惹出一堆麻煩。" },
+        { "en": "Changing the contract now would open a whole can of worms.", "zh": "現在改合約會惹出一大堆問題。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u084-r1", "sourceUnit": 83, "type": "mcq", "question": "The expert advised the city ___ more public housing.", "options": ["build", "to build", "building"], "answer": 1, "explanation": "複習第 83 單元：advise + 人 + to V。" },
+    { "id": "u084-r2", "sourceUnit": 82, "type": "fill", "question": "People ___ (live) in big cities face higher rents.", "answer": "living", "explanation": "複習第 82 單元：減化關係子句。" },
+    { "id": "u084-r3", "sourceUnit": 80, "type": "mcq", "question": "A: I don't follow politics much. B: ___", "options": ["Me too.", "Neither do I.", "So do I."], "answer": 1, "explanation": "複習第 80 單元：否定附和。" },
+    { "id": "u084-r4", "sourceUnit": 76, "type": "mcq", "question": "A: I'm worried about housing prices. B: ___", "options": ["So am I.", "So do I.", "Neither am I."], "answer": 0, "explanation": "複習第 76 單元：be 動詞對應 So am I。" },
+    { "id": "u084-r5", "sourceUnit": 68, "type": "mcq", "question": "I wish housing ___ more affordable.", "options": ["is", "were", "will be"], "answer": 1, "explanation": "複習第 68 單元：wish + were。" },
+    { "id": "u084-r6", "sourceUnit": 52, "type": "mcq", "question": "Prices will ___ keep rising.", "options": ["probably", "maybe", "likely to"], "answer": 0, "explanation": "複習第 52 單元：will probably。" },
+    { "id": "u084-r7", "sourceUnit": 20, "type": "mcq", "question": "What did the minister ___ about the policy?", "options": ["say", "tell", "speak"], "answer": 0, "explanation": "複習第 20 單元：沒接人用 say。" },
+    { "id": "u084-r8", "sourceUnit": 84, "type": "mcq", "question": "(正式寫作) It's vital that every citizen ___.", "options": ["votes", "vote", "voted"], "answer": 1, "explanation": "It's vital that + 原形。" }
+  ]
+}

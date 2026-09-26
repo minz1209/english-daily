@@ -1,0 +1,149 @@
+{
+  "id": 85,
+  "module": 9,
+  "level": "B2",
+  "title": { "zh": "爭取權益", "en": "Standing Up for Yourself" },
+  "scenario": {
+    "title": "客訴、申請退款、跟公司交涉",
+    "context": "爭取權益時，同一件事要依對象調整說法：跟朋友抱怨用口語、打客服電話用中性、寫正式投訴信用正式語。這就是「語域」（register）。學會在三種語氣間切換，是英文從「會說」到「說得得體」的關鍵。",
+    "dialogues": [
+      {
+        "title": "Complaining to a friend (informal)",
+        "lines": [
+          { "speaker": "Minz", "en": "Ugh, the airline's giving me the runaround. They lost my bag three days ago.", "zh": "唉，航空公司一直踢皮球。他們三天前弄丟我的行李。" },
+          { "speaker": "Jess", "en": "That sucks. Did you call them?", "zh": "好爛。你有打給他們嗎？" },
+          { "speaker": "Minz", "en": "Like five times. Every person tells me to call another number.", "zh": "打了大概五次。每個人都叫我打另一支電話。" },
+          { "speaker": "Jess", "en": "Classic red tape. Did you read the fine print on your ticket?", "zh": "典型的官僚作風。你有看機票上的細則嗎？" },
+          { "speaker": "Minz", "en": "Yeah. Apparently, I have to jump through a bunch of hoops just to get compensation.", "zh": "有，看來我得過一堆關卡才能拿到賠償。" },
+          { "speaker": "Jess", "en": "Write a formal complaint. They take those more seriously.", "zh": "寫正式投訴信，他們會比較認真處理。" }
+        ]
+      },
+      {
+        "title": "Calling customer service (neutral)",
+        "lines": [
+          { "speaker": "Agent", "en": "Thank you for calling. How can I help you today?", "zh": "謝謝您的來電，今天有什麼能為您服務？" },
+          { "speaker": "Minz", "en": "Hi, I'm calling about a lost bag. My reference number is TPE4521.", "zh": "你好，我打來是關於遺失行李，我的案件編號是 TPE4521。" },
+          { "speaker": "Agent", "en": "Let me check. I'm sorry, it hasn't been located yet.", "zh": "我查一下。很抱歉，目前還沒找到。" },
+          { "speaker": "Minz", "en": "I understand. Could you tell me what compensation I'm entitled to in the meantime?", "zh": "我了解。可以告訴我這段期間我可以獲得什麼補償嗎？" },
+          { "speaker": "Agent", "en": "You can claim up to 100 US dollars for essentials. Please keep your receipts.", "zh": "您可以申請最多 100 美元的必需品費用，請保留收據。" },
+          { "speaker": "Minz", "en": "Thank you. Could you also send me that in writing?", "zh": "謝謝。可以也寄一份書面資料給我嗎？" },
+          { "speaker": "Agent", "en": "Of course. You'll receive an email within the hour.", "zh": "當然，一小時內您會收到 email。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "I'm calling about ___.", "zh": "我打來是關於 ___。" },
+      { "en": "My reference number is ___.", "zh": "我的編號是 ___。" },
+      { "en": "What am I entitled to?", "zh": "我有權獲得什麼？" },
+      { "en": "Could you send me that in writing?", "zh": "可以給我書面資料嗎？" },
+      { "en": "I'd like to speak to a supervisor, please.", "zh": "我想跟主管談談。" },
+      { "en": "This is the third time I've called.", "zh": "這是我第三次打來了。" },
+      { "en": "I'm writing to express my concern about ___.", "zh": "我寫信是想表達對 ___ 的關切。", "note": "正式投訴信開頭" },
+      { "en": "I would appreciate a prompt response.", "zh": "希望能盡快得到回覆。", "note": "正式" },
+      { "en": "I look forward to a resolution.", "zh": "期待問題得到解決。", "note": "正式" },
+      { "en": "Thanks for your help.", "zh": "謝謝你的協助。" }
+    ],
+    "chinglish": [
+      { "wrong": "You must give me money back!", "right": "I'd like to request a refund.", "why": "爭取權益時，禮貌但堅定比大聲更有效。" },
+      { "wrong": "(正式信件) Hey, your company sucks.", "right": "I am writing to express my dissatisfaction with your service.", "why": "正式信件要用正式語域：完整句子、不用縮寫、不用俚語。" },
+      { "wrong": "(跟朋友聊天) I am writing to express my dissatisfaction.", "right": "I'm so annoyed with them.", "why": "語域相反的錯：跟朋友講話太正式會很好笑。" },
+      { "wrong": "I want to complain you.", "right": "I'd like to make a complaint. / I want to complain about the service.", "why": "complain 不直接接人，要用 complain about / to。" }
+    ]
+  },
+  "grammar": {
+    "id": "register-informal-neutral-formal",
+    "title": "語域：口語／中性／正式",
+    "oneLiner": "同一件事有三種說法：口語（朋友）、中性（客服、同事）、正式（投訴信、官方文件）。選錯語域比文法錯誤更容易讓人不舒服。",
+    "whenToUse": [
+      "口語：縮寫、片語動詞、俚語、短句。They lost my bag. It sucks.",
+      "中性：禮貌完整的句子，適度使用縮寫。I'm calling about my lost bag.",
+      "正式：不用縮寫、用拉丁字源的字、被動語態。I am writing regarding the loss of my luggage.",
+      "字的對照：get → receive；ask for → request；find out → discover；help → assist；but → however；about → regarding。",
+      "片語動詞通常比較口語：put off（延後）→ postpone；look into（調查）→ investigate。",
+      "正式信件：Dear… / I am writing to… / I would appreciate… / Sincerely,"
+    ],
+    "whyWeGetItWrong": "中文也有語域（「幫我」vs「煩請協助」），但台灣人學英文時，課本多半教中性到正式的英文，所以跟朋友講話顯得太生硬，寫正式信又不知道怎麼再往上提一級。另外，第 23、54 單元學的軟化語氣，在正式語域中特別重要。",
+    "examples": [
+      { "correct": "(Informal) They messed up my order.", "note": "口語：片語動詞 mess up。" },
+      { "correct": "(Neutral) There seems to be a problem with my order.", "note": "中性：seem 軟化。" },
+      { "correct": "(Formal) I am writing to report an error in my order.", "note": "正式：不縮寫、完整句。" },
+      { "correct": "(Formal) I would appreciate it if you could investigate this matter.", "incorrect": "(Formal) Can you look into it ASAP?", "note": "正式信件避免片語動詞和縮寫。" },
+      { "correct": "(Formal) We regret to inform you that…", "note": "官方壞消息的標準開頭。" }
+    ],
+    "quiz": [
+      { "id": "u085-g1", "type": "mcq", "question": "Which is most appropriate for a formal complaint letter?", "options": ["Your service sucks.", "I am writing to express my dissatisfaction with your service.", "Hey, what's up with your service?"], "answer": 1, "explanation": "正式語域：完整句、不縮寫、不用俚語。" },
+      { "id": "u085-g2", "type": "mcq", "question": "The formal word for \"ask for\" is:", "options": ["request", "get", "grab"], "answer": 0, "explanation": "ask for → request。" },
+      { "id": "u085-g3", "type": "fill", "question": "(Formal) We would like to ___ (延後) the meeting to Friday.", "answer": "postpone|reschedule", "explanation": "put off → postpone。" },
+      { "id": "u085-g4", "type": "mcq", "question": "Which is most natural when texting a friend?", "options": ["I regret to inform you that I am unable to attend.", "Sorry, can't make it tonight!", "I am writing to decline."], "answer": 1, "explanation": "跟朋友用口語。" },
+      { "id": "u085-g5", "type": "fill", "question": "(Formal) I am writing ___ (關於) my recent order. (以 r 開頭)", "answer": "regarding", "explanation": "about → regarding。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "get-the-runaround",
+      "term": "get the runaround",
+      "meaning": "被踢皮球、被敷衍",
+      "register": "casual",
+      "usage": "一直被轉給別人處理，得不到明確答案。give someone the runaround。",
+      "risk": { "level": "safe", "note": "口語抱怨常用。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "I keep getting the runaround from the bank.", "zh": "銀行一直在踢皮球。" },
+        { "en": "Stop giving me the runaround. Just tell me yes or no.", "zh": "別再敷衍我了，直接告訴我可以還是不行。" }
+      ]
+    },
+    {
+      "id": "the-fine-print",
+      "term": "the fine print",
+      "meaning": "合約的細則、小字條款",
+      "register": "neutral",
+      "usage": "read the fine print = 看清楚細則。英式也說 the small print。",
+      "risk": { "level": "safe", "note": "普遍用語。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "Always read the fine print before you sign.", "zh": "簽約前一定要看清楚細則。" },
+        { "en": "The fine print says there's a cancellation fee.", "zh": "細則寫著有取消費。" }
+      ]
+    },
+    {
+      "id": "jump-through-hoops",
+      "term": "jump through hoops",
+      "meaning": "過五關斬六將、跑一堆程序",
+      "register": "casual",
+      "usage": "為了達成目的得完成很多麻煩的步驟。",
+      "risk": { "level": "safe", "note": "常見用語。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "I had to jump through hoops to get my visa.", "zh": "我為了拿簽證跑了一堆程序。" },
+        { "en": "Why do we have to jump through so many hoops for a simple refund?", "zh": "簡單退個款為什麼要跑這麼多關？" }
+      ]
+    },
+    {
+      "id": "red-tape",
+      "term": "red tape",
+      "meaning": "官僚程序、繁文縟節",
+      "register": "neutral",
+      "usage": "過多的規定和文書作業，源自以前捆綁公文的紅色帶子。",
+      "risk": { "level": "safe", "note": "新聞和日常都用。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "There's so much red tape involved in starting a business.", "zh": "開公司要跑超多繁瑣程序。" },
+        { "en": "The new policy aims to cut red tape.", "zh": "新政策旨在減少官僚程序。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u085-r1", "sourceUnit": 84, "type": "mcq", "question": "(Formal) It is essential that the issue ___ resolved quickly.", "options": ["is", "be", "was"], "answer": 1, "explanation": "複習第 84 單元：It is essential that + be。" },
+    { "id": "u085-r2", "sourceUnit": 83, "type": "mcq", "question": "The agent told me ___ my receipts.", "options": ["keep", "to keep", "keeping"], "answer": 1, "explanation": "複習第 83 單元：tell + 人 + to V。" },
+    { "id": "u085-r3", "sourceUnit": 81, "type": "mcq", "question": "Never ___ such terrible service.", "options": ["I have experienced", "have I experienced", "I experienced"], "answer": 1, "explanation": "複習第 81 單元：倒裝。" },
+    { "id": "u085-r4", "sourceUnit": 77, "type": "fill", "question": "Please feel ___ to contact us with any questions.", "answer": "free", "explanation": "複習第 77 單元：feel free to。" },
+    { "id": "u085-r5", "sourceUnit": 69, "type": "mcq", "question": "The longer I waited, ___ I got.", "options": ["the angrier", "angrier", "the more angry"], "answer": 0, "explanation": "複習第 69 單元：the + 比較級。" },
+    { "id": "u085-r6", "sourceUnit": 53, "type": "mcq", "question": "(Formal) The product arrived damaged. ___, we are requesting a refund.", "options": ["Therefore", "So that", "Although"], "answer": 0, "explanation": "複習第 53 單元：Therefore,。" },
+    { "id": "u085-r7", "sourceUnit": 21, "type": "mcq", "question": "I ___ for my refund for three weeks.", "options": ["wait", "'ve been waiting", "waited"], "answer": 1, "explanation": "複習第 21、26 單元：持續到現在。" },
+    { "id": "u085-r8", "sourceUnit": 85, "type": "mcq", "question": "Which is the FORMAL version of \"find out\"?", "options": ["discover", "figure", "check out"], "answer": 0, "explanation": "find out → discover。" }
+  ]
+}

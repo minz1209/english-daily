@@ -1,0 +1,150 @@
+{
+  "id": 82,
+  "module": 9,
+  "level": "B2",
+  "title": { "zh": "外商視訊面試", "en": "Remote Interview" },
+  "scenario": {
+    "title": "跟國外公司視訊面試",
+    "context": "外商面試時，面試官說話很精簡：「在這裡工作的人都…」「上個月推出的產品…」。英文常把關係子句減化成分詞片語（people working here、the product launched last month），聽起來專業又流暢，是 B2 聽力和口說的重要升級。",
+    "dialogues": [
+      {
+        "title": "The interview",
+        "lines": [
+          { "speaker": "Interviewer", "en": "Thanks for joining us, Minz. Can you tell us about a project you're proud of?", "zh": "Minz，謝謝你參加。可以說說一個你自豪的案子嗎？" },
+          { "speaker": "Minz", "en": "Sure. Last year, I designed packaging for a tea brand based in Taichung. The designs, printed on recycled paper, won a local award.", "zh": "好的。去年我為一個台中的茶飲品牌設計包裝。那些印在再生紙上的設計得了一個在地獎項。" },
+          { "speaker": "Interviewer", "en": "Impressive. Our team works with clients located all over Asia. How do you handle different time zones?", "zh": "很厲害。我們團隊的客戶遍布亞洲，你怎麼處理不同時區？" },
+          { "speaker": "Minz", "en": "I set clear check-in times and use shared boards so anyone joining late can catch up.", "zh": "我會設定明確的對接時間，也用共享看板，讓晚加入的人都能跟上。" },
+          { "speaker": "Interviewer", "en": "Great. Most people working here are remote. Is that something you're comfortable with?", "zh": "很好。在這裡工作的人大多是遠端，你習慣嗎？" },
+          { "speaker": "Minz", "en": "Absolutely. I've been freelancing remotely for over a year.", "zh": "完全沒問題，我已經遠端接案超過一年了。" },
+          { "speaker": "Interviewer", "en": "Perfect. Do you have any questions for us?", "zh": "太好了。你有什麼問題要問我們嗎？" },
+          { "speaker": "Minz", "en": "Yes. What does success look like for someone starting in this role?", "zh": "有。對剛接這個職位的人來說，怎樣才算成功？" }
+        ]
+      },
+      {
+        "title": "After the call",
+        "lines": [
+          { "speaker": "Jess", "en": "How did it go?", "zh": "怎麼樣？" },
+          { "speaker": "Minz", "en": "Better than I expected. Honestly, I thought landing a job at an international studio was a long shot.", "zh": "比預期好。老實說，我本來覺得進國際工作室是癡心妄想。" },
+          { "speaker": "Jess", "en": "You're the real deal, though. Your portfolio speaks for itself.", "zh": "但你是真材實料的，你的作品集就是證明。" },
+          { "speaker": "Minz", "en": "They said they'll let candidates selected for the next round know by Friday.", "zh": "他們說週五前會通知進入下一輪的候選人。" },
+          { "speaker": "Jess", "en": "You'll get it. You were a rock star in that last project.", "zh": "你會上的。你在上個案子表現超亮眼。" },
+          { "speaker": "Minz", "en": "Fingers crossed.", "zh": "祈禱吧。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "Thanks for having me.", "zh": "謝謝邀請我。" },
+      { "en": "Can you hear me clearly?", "zh": "你聽得清楚嗎？" },
+      { "en": "One project I'm particularly proud of is ___.", "zh": "我特別自豪的一個案子是 ___。" },
+      { "en": "I'm used to working across time zones.", "zh": "我習慣跨時區工作。" },
+      { "en": "That's a great question. Let me think for a second.", "zh": "好問題，讓我想一下。" },
+      { "en": "Could you rephrase the question?", "zh": "你可以換個方式問嗎？" },
+      { "en": "What does success look like in this role?", "zh": "這個職位怎樣才算成功？" },
+      { "en": "What's the team culture like?", "zh": "團隊文化是怎樣的？" },
+      { "en": "What are the next steps in the process?", "zh": "接下來的流程是什麼？" },
+      { "en": "I look forward to hearing from you.", "zh": "期待您的回覆。" }
+    ],
+    "chinglish": [
+      { "wrong": "The people who are working here are remote.", "right": "The people working here are remote.", "why": "文法沒錯，但減化成分詞片語更簡潔自然。" },
+      { "wrong": "The designs which printed on recycled paper won an award.", "right": "The designs printed on recycled paper won an award.", "why": "設計是「被印」的，要嘛用 which were printed，要嘛減化成 printed。which printed 會變成設計去印東西。" },
+      { "wrong": "Sorry my English is not good, I will try my best.", "right": "(不用道歉，直接回答)", "why": "複習第 51 單元：面試開頭不要為英文道歉。" },
+      { "wrong": "Do you have any question?", "right": "Do you have any questions?", "why": "any 後面接可數名詞用複數。" }
+    ]
+  },
+  "grammar": {
+    "id": "reduced-relative-clauses",
+    "title": "減化關係子句",
+    "oneLiner": "who / which / that + be 動詞 可以省略：主動改成 V-ing，被動直接用 p.p.。",
+    "whenToUse": [
+      "主動（進行）：people who are working here → people working here。",
+      "主動（一般）：anyone who joins late → anyone joining late。",
+      "被動：the product that was launched last month → the product launched last month。",
+      "被動：a brand that is based in Taichung → a brand based in Taichung。",
+      "形容詞片語：a room that is full of people → a room full of people。",
+      "判斷方法：名詞是「做」動作用 V-ing，名詞是「被」做用 p.p.。"
+    ],
+    "whyWeGetItWrong": "中文的修飾語放在名詞前面（在這裡工作的人），英文放後面，這點第 31 單元學過。減化關係子句又更進一步：去掉 who / which 和 be 動詞。台灣人最常見的錯誤是 which printed（該用被動卻用主動），因為中文「印在再生紙上的設計」看不出主動被動。",
+    "examples": [
+      { "correct": "The woman sitting next to me is the CEO.", "note": "= who is sitting。" },
+      { "correct": "Products made in Taiwan are known for quality.", "incorrect": "Products which made in Taiwan…", "note": "被動減化用 p.p.。" },
+      { "correct": "Anyone interested in the role should apply by Friday.", "note": "= who is interested。" },
+      { "correct": "The email sent this morning had a typo.", "note": "= that was sent。" },
+      { "correct": "Designers using AI tools can work faster.", "note": "= who use。" }
+    ],
+    "quiz": [
+      { "id": "u082-g1", "type": "mcq", "question": "The people ___ in this team are all remote.", "options": ["work", "working", "worked"], "answer": 1, "explanation": "主動減化用 V-ing。" },
+      { "id": "u082-g2", "type": "mcq", "question": "The app ___ last month already has a million users.", "options": ["launching", "launched", "which launched"], "answer": 1, "explanation": "app 是被推出的，用 p.p.。" },
+      { "id": "u082-g3", "type": "fill", "question": "Anyone ___ (interest) in the position should email us.", "answer": "interested", "explanation": "anyone (who is) interested。" },
+      { "id": "u082-g4", "type": "mcq", "question": "Which is correct?", "options": ["The report which written by Amy is great.", "The report written by Amy is great.", "The report writing by Amy is great."], "answer": 1, "explanation": "被動減化：written by。" },
+      { "id": "u082-g5", "type": "fill", "question": "The man ___ (stand) by the door is my manager.", "answer": "standing", "explanation": "主動減化：standing。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "land-a-job",
+      "term": "land a job",
+      "meaning": "找到工作、拿下工作",
+      "register": "casual",
+      "usage": "成功得到（通常不容易得到的）工作、客戶、機會。land a client / land a deal。",
+      "risk": { "level": "safe", "note": "正面常用。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "She landed a job at Google right after graduation.", "zh": "她一畢業就拿下 Google 的工作。" },
+        { "en": "We finally landed that big client!", "zh": "我們終於拿下那個大客戶了！" }
+      ]
+    },
+    {
+      "id": "a-long-shot",
+      "term": "a long shot",
+      "meaning": "機會渺茫的嘗試",
+      "register": "casual",
+      "usage": "成功機率很低，但還是值得一試。It's a long shot, but…",
+      "risk": { "level": "safe", "note": "常見用語。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "It's a long shot, but I applied anyway.", "zh": "機會渺茫，但我還是申請了。" },
+        { "en": "Getting tickets now is a long shot.", "zh": "現在要買到票機會很低。" }
+      ]
+    },
+    {
+      "id": "the-real-deal",
+      "term": "the real deal",
+      "meaning": "真材實料、貨真價實",
+      "register": "casual",
+      "usage": "形容人或東西真的很厲害、不是虛有其表。",
+      "risk": { "level": "safe", "note": "正面稱讚。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "This beef noodle soup is the real deal.", "zh": "這碗牛肉麵是真材實料的。" },
+        { "en": "She's the real deal. Her work is incredible.", "zh": "她是真正有實力的人，作品超厲害。" }
+      ]
+    },
+    {
+      "id": "rock-star",
+      "term": "rock star",
+      "meaning": "（職場）超級厲害的人、明星員工",
+      "register": "casual",
+      "usage": "稱讚某人表現非常出色：You're a rock star!",
+      "risk": { "level": "safe", "note": "正面稱讚；職缺寫 rock star developer 有些人覺得很浮誇。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "Thanks for staying late. You're a rock star.", "zh": "謝謝你留下來加班，你太猛了。" },
+        { "en": "Our new designer is a total rock star.", "zh": "我們的新設計師超級厲害。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u082-r1", "sourceUnit": 81, "type": "mcq", "question": "Not only ___ great benefits, but they also offer remote work.", "options": ["they have", "do they have", "they do have"], "answer": 1, "explanation": "複習第 81 單元：Not only + 助動詞 + 主詞。" },
+    { "id": "u082-r2", "sourceUnit": 80, "type": "mcq", "question": "A: Aren't you nervous? B: (你會緊張) ___", "options": ["No, I am.", "Yes, a little.", "No, a little."], "answer": 1, "explanation": "複習第 80 單元：事實是肯定就說 Yes。" },
+    { "id": "u082-r3", "sourceUnit": 78, "type": "fill", "question": "My internet is ___ cutting out during calls! (老是)", "answer": "always|constantly", "explanation": "複習第 78 單元：always + 進行式。" },
+    { "id": "u082-r4", "sourceUnit": 74, "type": "mcq", "question": "I was ___ nervous before the interview.", "options": ["pretty", "absolutely", "fairly very"], "answer": 0, "explanation": "複習第 74 單元：pretty。" },
+    { "id": "u082-r5", "sourceUnit": 66, "type": "mcq", "question": "___ experience is more important than degrees in design.", "options": ["The", "An", "(no article)"], "answer": 2, "explanation": "複習第 66 單元：泛指不加冠詞。" },
+    { "id": "u082-r6", "sourceUnit": 50, "type": "mcq", "question": "The interviewer ___ read my portfolio. She mentioned details.", "options": ["must have", "must", "can't have"], "answer": 0, "explanation": "複習第 50 單元：推測過去。" },
+    { "id": "u082-r7", "sourceUnit": 18, "type": "fill", "question": "The final decision will be ___ (make) by Friday.", "answer": "made", "explanation": "複習第 18 單元：被動。" },
+    { "id": "u082-r8", "sourceUnit": 82, "type": "mcq", "question": "The logo ___ by our team won an award.", "options": ["designing", "designed", "which designed"], "answer": 1, "explanation": "被動減化用 p.p.。" }
+  ]
+}

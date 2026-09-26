@@ -1,0 +1,148 @@
+{
+  "id": 88,
+  "module": 9,
+  "level": "B2",
+  "title": { "zh": "危機處理", "en": "Handling a Crisis" },
+  "scenario": {
+    "title": "品牌出包，緊急應變",
+    "context": "危機發生時，常會同時講「過去的原因」和「現在的結果」：「如果我們當初有檢查，現在就不會陷入這種困境」。這種跨時間的假設是混合條件句，結合了第 45 和第 64 單元的兩種條件句。",
+    "dialogues": [
+      {
+        "title": "The crisis",
+        "lines": [
+          { "speaker": "Karen", "en": "We have a problem. The new packaging has a typo on 10,000 boxes, and it's all over social media.", "zh": "我們有問題了。新包裝有一萬個盒子印錯字，而且已經傳遍社群。" },
+          { "speaker": "Minz", "en": "Oh no. If we had done one more proofread, we wouldn't be in this mess now.", "zh": "糟了。如果我們當初多校對一次，現在就不會陷入這團混亂。" },
+          { "speaker": "Karen", "en": "Let's focus on damage control. What are our options?", "zh": "我們先專注在止損。有哪些選項？" },
+          { "speaker": "Daniel", "en": "We could post an apology with a joke. People might find it charming.", "zh": "我們可以發一篇帶點幽默的道歉文，大家可能會覺得很可愛。" },
+          { "speaker": "Minz", "en": "And offer a discount code. If we weren't a small brand, it'd be harder. But our customers are loyal.", "zh": "再提供折扣碼。如果我們不是小品牌，會比較難處理，但我們的客人很忠誠。" },
+          { "speaker": "Karen", "en": "Good. I've been putting out fires all morning, but this one we can turn into something positive.", "zh": "好。我整個早上都在救火，但這個我們可以轉成正面的事。" }
+        ]
+      },
+      {
+        "title": "Reflecting afterward",
+        "lines": [
+          { "speaker": "Daniel", "en": "The apology post went viral. Sales actually went up!", "zh": "道歉文爆紅了，銷量反而上升！" },
+          { "speaker": "Minz", "en": "Unbelievable. If we hadn't made the typo, we wouldn't be this popular now.", "zh": "難以置信。如果我們沒打錯字，現在就不會這麼紅。" },
+          { "speaker": "Karen", "en": "Let's not make it a strategy, though. Honestly, that printer was the last straw.", "zh": "不過別把它當成策略。說真的，那家印刷廠是壓垮駱駝的最後一根稻草。" },
+          { "speaker": "Daniel", "en": "Agreed. They've made mistakes three times this year.", "zh": "同意，他們今年已經出錯三次了。" },
+          { "speaker": "Karen", "en": "The writing was on the wall. We should switch vendors.", "zh": "徵兆早就很明顯了，我們應該換廠商。" },
+          { "speaker": "Minz", "en": "I'll start looking for new printers tomorrow.", "zh": "我明天開始找新的印刷廠。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "We have a situation.", "zh": "我們遇到狀況了。" },
+      { "en": "Let's focus on what we can control.", "zh": "我們專注在能控制的事。" },
+      { "en": "What are our options?", "zh": "我們有哪些選項？" },
+      { "en": "We need to get ahead of this.", "zh": "我們要搶先處理。" },
+      { "en": "Let's own the mistake.", "zh": "我們承認錯誤吧。" },
+      { "en": "Who's the point of contact?", "zh": "誰是主要窗口？" },
+      { "en": "We'll issue a statement by noon.", "zh": "我們中午前發聲明。" },
+      { "en": "How do we prevent this from happening again?", "zh": "怎麼避免再發生？" },
+      { "en": "It could have been much worse.", "zh": "本來可能更糟。" },
+      { "en": "Lessons learned.", "zh": "學到教訓了。" }
+    ],
+    "chinglish": [
+      { "wrong": "If we checked it, we won't have this problem now.", "right": "If we had checked it, we wouldn't have this problem now.", "why": "過去的原因（had checked）+ 現在的結果（wouldn't have），這就是混合條件句。" },
+      { "wrong": "If we had checked it, we wouldn't have had this problem now.", "right": "If we had checked it, we wouldn't have this problem now.", "why": "有 now 表示結果在現在，主要子句用 would + 原形，不是 would have + p.p.。" },
+      { "wrong": "We must extinguish the fire quickly.", "right": "We need to put out this fire quickly. / We need to do damage control.", "why": "extinguish 很正式而且字面上是真的滅火；職場救火用 put out fires。" },
+      { "wrong": "This is the last grass.", "right": "This is the last straw.", "why": "「最後一根稻草」是 straw，不是 grass。" }
+    ]
+  },
+  "grammar": {
+    "id": "mixed-conditionals",
+    "title": "混合條件句",
+    "oneLiner": "過去的假設 → 現在的結果：If + had + p.p., would + 原形；現在的假設 → 過去的結果：If + 過去式, would have + p.p.。",
+    "whenToUse": [
+      "過去原因 → 現在結果（最常用）：If we had checked, we wouldn't be in trouble now.",
+      "現在（長期）狀態 → 過去結果：If I weren't so shy, I would have spoken up yesterday.",
+      "常見線索：主要子句有 now / today / still，if 子句有 yesterday / last year。",
+      "複習 type 2：If I had time, I'd help.（現在→現在）",
+      "複習 type 3：If I had known, I would have helped.（過去→過去）",
+      "混合條件句就是把 type 2 和 type 3 的兩半交叉組合。"
+    ],
+    "whyWeGetItWrong": "第 45 和 64 單元學會了 type 2 和 type 3 之後，台灣人常以為條件句只有這兩種固定組合。但真實生活中，過去的決定常影響現在的狀態：「如果我當初念設計，現在就是設計師了」。中文用「當初」「現在」就能說清楚，英文則要把兩個子句的時態拆開各自處理。",
+    "examples": [
+      { "correct": "If I had studied design, I would be a designer now.", "incorrect": "If I studied design, I would have been a designer now.", "note": "過去原因 + 現在結果。" },
+      { "correct": "If she hadn't moved to Taipei, we wouldn't know each other.", "note": "過去沒搬 → 現在不認識。" },
+      { "correct": "If I weren't afraid of heights, I would have gone bungee jumping last summer.", "note": "現在的個性 → 過去的結果。" },
+      { "correct": "If we had left earlier, we'd be there by now.", "note": "by now 是現在結果的線索。" },
+      { "correct": "If I had known, I would have told you.", "note": "這是一般的 type 3（過去→過去）。" }
+    ],
+    "quiz": [
+      { "id": "u088-g1", "type": "mcq", "question": "If I had taken that job, I ___ in Tokyo now.", "options": ["would live", "would have lived", "will live"], "answer": 0, "explanation": "過去原因 + 現在結果：would + 原形。" },
+      { "id": "u088-g2", "type": "mcq", "question": "If we ___ the file, we wouldn't be in trouble now.", "options": ["checked", "had checked", "check"], "answer": 1, "explanation": "過去的假設：had + p.p.。" },
+      { "id": "u088-g3", "type": "fill", "question": "If I weren't so busy, I would ___ come to your party last night.", "answer": "have", "explanation": "現在狀態 + 過去結果：would have + p.p.。" },
+      { "id": "u088-g4", "type": "mcq", "question": "If she hadn't helped me, I ___ this job today.", "options": ["wouldn't have", "wouldn't have had", "won't have"], "answer": 0, "explanation": "today 表示現在的結果：wouldn't have（擁有）。" },
+      { "id": "u088-g5", "type": "fill", "question": "If we had left on time, we ___ be there by now.", "answer": "would|'d", "explanation": "by now → 現在結果：would + 原形。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "damage-control",
+      "term": "damage control",
+      "meaning": "止損、危機處理",
+      "register": "neutral",
+      "usage": "出事後採取行動，把負面影響降到最低。do damage control。",
+      "risk": { "level": "safe", "note": "職場和公關常用。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "The PR team is doing damage control after the CEO's comments.", "zh": "執行長發言後，公關團隊正在止損。" },
+        { "en": "I said something awkward at dinner and spent the rest of the night on damage control.", "zh": "我晚餐時說錯話，剩下整晚都在補救。" }
+      ]
+    },
+    {
+      "id": "put-out-fires",
+      "term": "put out fires",
+      "meaning": "救火、處理突發問題",
+      "register": "casual",
+      "usage": "一直在處理緊急的小問題，沒時間做重要的事。",
+      "risk": { "level": "safe", "note": "職場常用。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "I've been putting out fires all day.", "zh": "我整天都在救火。" },
+        { "en": "A good manager prevents fires instead of just putting them out.", "zh": "好主管會預防問題，而不只是救火。" }
+      ]
+    },
+    {
+      "id": "the-last-straw",
+      "term": "the last straw",
+      "meaning": "壓垮駱駝的最後一根稻草",
+      "register": "neutral",
+      "usage": "讓人忍無可忍的最後一件事。That was the last straw.",
+      "risk": { "level": "safe", "note": "常見用語。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "When he missed the third deadline, that was the last straw.", "zh": "他第三次錯過截止日，那是最後一根稻草。" },
+        { "en": "The noise at 3 a.m. was the last straw. I'm moving.", "zh": "凌晨三點的噪音是最後一根稻草，我要搬家。" }
+      ]
+    },
+    {
+      "id": "the-writing-on-the-wall",
+      "term": "the writing on the wall",
+      "meaning": "不祥的預兆、明顯的徵兆",
+      "register": "neutral",
+      "usage": "the writing was on the wall = 早就看得出會出事。源自聖經故事。",
+      "risk": { "level": "safe", "note": "正式和口語都用。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "The writing was on the wall when sales dropped for six months.", "zh": "銷量連掉六個月時，徵兆就很明顯了。" },
+        { "en": "She saw the writing on the wall and found a new job.", "zh": "她看出苗頭不對，就找了新工作。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u088-r1", "sourceUnit": 87, "type": "mcq", "question": "That was the week ___ everything went wrong.", "options": ["where", "when", "which"], "answer": 1, "explanation": "複習第 87 單元：時間用 when。" },
+    { "id": "u088-r2", "sourceUnit": 86, "type": "fill", "question": "We're committed to ___ (fix) the problem.", "answer": "fixing", "explanation": "複習第 86 單元：committed to + V-ing。" },
+    { "id": "u088-r3", "sourceUnit": 84, "type": "mcq", "question": "It's essential that the statement ___ out by noon.", "options": ["goes", "go", "went"], "answer": 1, "explanation": "複習第 84 單元：It's essential that + 原形。" },
+    { "id": "u088-r4", "sourceUnit": 80, "type": "mcq", "question": "A: Didn't anyone proofread it? B: (沒有) ___", "options": ["Yes, nobody did.", "No, nobody did.", "Yes, no one."], "answer": 1, "explanation": "複習第 80 單元：否定事實用 No。" },
+    { "id": "u088-r5", "sourceUnit": 72, "type": "fill", "question": "It was the printer ___ made the mistake, not us.", "answer": "that|who", "explanation": "複習第 72 單元：It was… that。" },
+    { "id": "u088-r6", "sourceUnit": 56, "type": "mcq", "question": "By Friday, we ___ all the boxes.", "options": ["will have replaced", "will replace", "replaced"], "answer": 0, "explanation": "複習第 56 單元：未來完成式。" },
+    { "id": "u088-r7", "sourceUnit": 24, "type": "mcq", "question": "We'll ___ the printer redo the whole order.", "options": ["have", "get", "let to"], "answer": 0, "explanation": "複習第 24 單元：have + 人 + 原形。" },
+    { "id": "u088-r8", "sourceUnit": 88, "type": "mcq", "question": "If we had hired more staff last year, we ___ so overworked now.", "options": ["wouldn't be", "wouldn't have been", "won't be"], "answer": 0, "explanation": "過去原因 + 現在結果：wouldn't be。" }
+  ]
+}

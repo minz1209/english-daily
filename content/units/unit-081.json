@@ -1,0 +1,149 @@
+{
+  "id": 81,
+  "module": 9,
+  "level": "B2",
+  "title": { "zh": "職場閒聊進階", "en": "Workplace Small Talk" },
+  "scenario": {
+    "title": "研討會、業界活動上的交流",
+    "context": "在業界活動上，除了 small talk 還要能表達驚訝和強調：「我從來沒看過這麼棒的展」「她不但是設計師，還是作家」。英文用倒裝句（Never have I…、Not only… but also…）讓語氣更有份量，演講和簡報尤其常用。",
+    "dialogues": [
+      {
+        "title": "At a design conference",
+        "lines": [
+          { "speaker": "Ben", "en": "Hi, mind if I sit here? These conference chairs are brutal.", "zh": "嗨，介意我坐這嗎？這些研討會的椅子好難坐。" },
+          { "speaker": "Minz", "en": "Ha, go ahead. That's one way to break the ice.", "zh": "哈，請坐。這也是一種破冰的方式。" },
+          { "speaker": "Ben", "en": "I'm Ben. I run a small branding studio in Taichung.", "zh": "我是 Ben，在台中經營一間小型品牌工作室。" },
+          { "speaker": "Minz", "en": "Minz. I'm a freelance illustrator. Wait, did you work at Blue Door Agency?", "zh": "我是 Minz，自由插畫家。等等，你是不是在藍門廣告待過？" },
+          { "speaker": "Ben", "en": "I did! Small world. We must have overlapped.", "zh": "對！世界真小，我們一定有重疊過。" },
+          { "speaker": "Minz", "en": "Never have I seen such a packed keynote. That speaker was incredible.", "zh": "我從來沒看過這麼滿的主題演講。那位講者太厲害了。" },
+          { "speaker": "Ben", "en": "Right? Not only is she a great designer, but she's also a bestselling author.", "zh": "對吧？她不只是很棒的設計師，還是暢銷作家。" }
+        ]
+      },
+      {
+        "title": "Over coffee",
+        "lines": [
+          { "speaker": "Ben", "en": "Sorry, I promised myself I wouldn't talk shop all day.", "zh": "抱歉，我答應自己今天不要一直聊工作。" },
+          { "speaker": "Minz", "en": "It's a design conference. What else would we talk about?", "zh": "這是設計研討會，不聊工作聊什麼？" },
+          { "speaker": "Ben", "en": "Fair. At my studio, the water-cooler talk is all about fonts.", "zh": "也是。我們工作室茶水間聊的全是字體。" },
+          { "speaker": "Minz", "en": "Only rarely do I meet people who get excited about kerning.", "zh": "我很少遇到會對字距興奮的人。" },
+          { "speaker": "Ben", "en": "Well, now you've met one. Let's keep in touch.", "zh": "嗯，現在你遇到一個了。保持聯絡吧。" },
+          { "speaker": "Minz", "en": "Definitely. Here's my card.", "zh": "一定，這是我的名片。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "Mind if I join you?", "zh": "介意我加入嗎？" },
+      { "en": "What brings you here?", "zh": "你怎麼會來這裡？" },
+      { "en": "What did you think of the keynote?", "zh": "你覺得主題演講怎麼樣？" },
+      { "en": "It's a small world!", "zh": "世界真小！" },
+      { "en": "We must have crossed paths before.", "zh": "我們一定曾經碰過面。" },
+      { "en": "What are you working on these days?", "zh": "你最近在做什麼？" },
+      { "en": "I'd love to hear more about ___.", "zh": "我很想多聽聽 ___。" },
+      { "en": "Let's connect on LinkedIn.", "zh": "我們在 LinkedIn 上加一下吧。" },
+      { "en": "It was great meeting you.", "zh": "很高興認識你。" },
+      { "en": "Enjoy the rest of the conference!", "zh": "祝你接下來的研討會愉快！" }
+    ],
+    "chinglish": [
+      { "wrong": "Never I have seen such a big crowd.", "right": "Never have I seen such a big crowd. / I've never seen such a big crowd.", "why": "否定詞放句首時，主詞和助動詞要倒裝。不確定的話，用正常語序 I've never… 最安全。" },
+      { "wrong": "Not only she is a designer, but also a writer.", "right": "Not only is she a designer, but she's also a writer.", "why": "Not only 放句首要倒裝；後半句也要有完整主詞動詞。" },
+      { "wrong": "Nice to know you.", "right": "Nice to meet you. / Great to meet you.", "why": "「很高興認識你」直翻 know 不自然，初次見面用 meet。" },
+      { "wrong": "Please give me your name card.", "right": "Could I get your card? / Do you have a card?", "why": "name card 是亞洲英文說法，美式說 business card 或 card。" }
+    ]
+  },
+  "grammar": {
+    "id": "inversion-not-only-never",
+    "title": "倒裝 Not only… / Never have I…",
+    "oneLiner": "否定或限制詞（never、rarely、not only、only then）放句首時，後面要用問句語序（助動詞 + 主詞）。",
+    "whenToUse": [
+      "Never have I + p.p.：Never have I seen such a crowd.",
+      "Rarely / Seldom do I + V：Rarely do I meet people like that.",
+      "Only + 時間 / 條件 + 助動詞 + 主詞：Only then did I realize…",
+      "Not only + 助動詞 + 主詞…, but (主詞) also…：Not only is she talented, but she's also kind.",
+      "No sooner had I… than…：一…就…（很正式）。",
+      "倒裝語氣正式、有強調效果，常出現在演講、寫作、簡報；日常口語用正常語序就好。"
+    ],
+    "whyWeGetItWrong": "中文強調時只要把詞移到前面：「從來沒看過這麼多人」，語序不用變。英文把否定詞移到句首後，後面必須變成問句語序，這對台灣人來說非常反直覺，常寫成 Never I have seen。好消息是：日常對話不用倒裝也完全沒問題，但聽得懂、偶爾用在簡報裡，會讓你的英文顯得很有程度。",
+    "examples": [
+      { "correct": "Never have I been so nervous.", "incorrect": "Never I have been so nervous.", "note": "助動詞 have 放主詞前。" },
+      { "correct": "Not only did we finish early, but we also came in under budget.", "note": "過去式用 did 倒裝。" },
+      { "correct": "Rarely do you find a client this easy to work with.", "note": "rarely 放句首倒裝。" },
+      { "correct": "Only after the meeting did I understand the problem.", "note": "Only + 時間放句首。" },
+      { "correct": "I've never been so nervous.", "note": "日常口語用正常語序即可。" }
+    ],
+    "quiz": [
+      { "id": "u081-g1", "type": "mcq", "question": "Never ___ such a beautiful venue.", "options": ["I have seen", "have I seen", "I saw"], "answer": 1, "explanation": "否定詞放句首要倒裝。" },
+      { "id": "u081-g2", "type": "mcq", "question": "Not only ___ talented, but she's also generous.", "options": ["she is", "is she", "she"], "answer": 1, "explanation": "Not only + 助動詞 + 主詞。" },
+      { "id": "u081-g3", "type": "fill", "question": "Rarely ___ I get a chance to meet my heroes. (助動詞)", "answer": "do", "explanation": "Rarely do I + V。" },
+      { "id": "u081-g4", "type": "mcq", "question": "Only then ___ how important the project was.", "options": ["I realized", "did I realize", "I did realize"], "answer": 1, "explanation": "Only then + did + 主詞 + V。" },
+      { "id": "u081-g5", "type": "mcq", "question": "Which is the most natural in casual conversation?", "options": ["Never have I eaten such good food.", "I've never eaten such good food.", "Never I have eaten such good food."], "answer": 1, "explanation": "日常口語用正常語序最自然；倒裝較正式。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "break-the-ice",
+      "term": "break the ice",
+      "meaning": "破冰、打破尷尬",
+      "register": "neutral",
+      "usage": "在陌生場合開啟對話、緩和氣氛。icebreaker = 破冰活動。",
+      "risk": { "level": "safe", "note": "普遍用語。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "A joke about the weather is a classic way to break the ice.", "zh": "聊天氣的笑話是經典的破冰方式。" },
+        { "en": "We started the workshop with an icebreaker.", "zh": "工作坊一開始先做了破冰活動。" }
+      ]
+    },
+    {
+      "id": "small-world",
+      "term": "small world",
+      "meaning": "世界真小",
+      "register": "casual",
+      "usage": "發現彼此有共同認識的人或經歷時說。It's a small world!",
+      "risk": { "level": "safe", "note": "友善常用。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "You know my cousin? Small world!", "zh": "你認識我表哥？世界真小！" },
+        { "en": "The design industry in Taiwan is a small world.", "zh": "台灣設計圈很小。" }
+      ]
+    },
+    {
+      "id": "talk-shop",
+      "term": "talk shop",
+      "meaning": "聊工作、聊專業",
+      "register": "casual",
+      "usage": "在非工作場合聊工作的事，常帶點「又在聊工作了」的自嘲。",
+      "risk": { "level": "safe", "note": "常見用語。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "No talking shop at dinner, please!", "zh": "晚餐時拜託別聊工作！" },
+        { "en": "Whenever designers get together, we end up talking shop.", "zh": "設計師聚在一起最後都會聊工作。" }
+      ]
+    },
+    {
+      "id": "water-cooler-talk",
+      "term": "water-cooler talk",
+      "meaning": "茶水間閒聊",
+      "register": "casual",
+      "usage": "同事在茶水間、飲水機旁的非正式聊天。",
+      "risk": { "level": "safe", "note": "常見用語。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "Remote work means less water-cooler talk.", "zh": "遠端工作代表茶水間閒聊變少了。" },
+        { "en": "The finale was the only water-cooler talk this week.", "zh": "這週茶水間只在聊那部劇的大結局。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u081-r1", "sourceUnit": 80, "type": "mcq", "question": "A: I've never been to a conference this big. B: ___", "options": ["Me too.", "Neither have I.", "So have I."], "answer": 1, "explanation": "複習第 80 單元：否定附和用 neither。" },
+    { "id": "u081-r2", "sourceUnit": 79, "type": "mcq", "question": "By the time the keynote started, every seat ___.", "options": ["was taken", "had been taken", "has been taken"], "answer": 1, "explanation": "複習第 79 單元：by the time + 過去完成（被動）。" },
+    { "id": "u081-r3", "sourceUnit": 77, "type": "fill", "question": "Feel ___ to grab a coffee before the next talk.", "answer": "free", "explanation": "複習第 77 單元：feel free to。" },
+    { "id": "u081-r4", "sourceUnit": 73, "type": "mcq", "question": "You ___ try talking to the speaker after the session.", "options": ["could", "must", "had better to"], "answer": 0, "explanation": "複習第 73 單元：could 提供選項。" },
+    { "id": "u081-r5", "sourceUnit": 65, "type": "mcq", "question": "I came to the conference ___ meet new clients.", "options": ["for", "to", "so that"], "answer": 1, "explanation": "複習第 65 單元：to + V。" },
+    { "id": "u081-r6", "sourceUnit": 49, "type": "mcq", "question": "I ___ brought more business cards. I ran out.", "options": ["should have", "should", "must"], "answer": 0, "explanation": "複習第 49 單元：should have + p.p.。" },
+    { "id": "u081-r7", "sourceUnit": 17, "type": "mcq", "question": "The session starts in two minutes. We ___ go.", "options": ["'d better", "should to", "ought"], "answer": 0, "explanation": "複習第 17 單元：had better。" },
+    { "id": "u081-r8", "sourceUnit": 81, "type": "mcq", "question": "Which is correct?", "options": ["Never I have seen this.", "Never have I seen this.", "Never I saw this."], "answer": 1, "explanation": "倒裝：Never have I…" }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "id": 89,
+  "module": 9,
+  "level": "B2",
+  "title": { "zh": "帶新人", "en": "Mentoring a New Hire" },
+  "scenario": {
+    "title": "當導師、分享經驗",
+    "context": "當你開始帶新人，就換你給建議了：「你要負責這個」「這取決於客戶」「他很擅長這個」。這些說法都靠「形容詞／動詞 + 固定介系詞」：good at、responsible for、depend on、interested in。介系詞用錯是台灣人英文最常見的小錯誤。",
+    "dialogues": [
+      {
+        "title": "First week with Kai",
+        "lines": [
+          { "speaker": "Minz", "en": "So Kai, this week you'll be responsible for the social media graphics.", "zh": "Kai，這週你負責社群圖片。" },
+          { "speaker": "Kai", "en": "Got it. How many posts per week?", "zh": "了解。一週要幾篇？" },
+          { "speaker": "Minz", "en": "It depends on the client. Some want three, some want daily.", "zh": "要看客戶，有些要三篇，有些要每天。" },
+          { "speaker": "Kai", "en": "I'm really interested in learning about branding, too.", "zh": "我也很有興趣學品牌。" },
+          { "speaker": "Minz", "en": "Great. A good rule of thumb: always read the brand guide before you start anything.", "zh": "很好。一個經驗法則是：開始做任何東西前，一定先讀品牌規範。" },
+          { "speaker": "Kai", "en": "Any other advice?", "zh": "還有其他建議嗎？" },
+          { "speaker": "Minz", "en": "Don't be afraid of asking questions. I learned that the hard way.", "zh": "別怕問問題。那是我吃過虧才學到的。" }
+        ]
+      },
+      {
+        "title": "Handling feedback",
+        "lines": [
+          { "speaker": "Kai", "en": "The client said my design was \"too busy.\" I'm not sure what to do.", "zh": "客戶說我的設計「太雜」，我不知道該怎麼辦。" },
+          { "speaker": "Minz", "en": "Clients aren't always good at explaining what they want. Take it with a grain of salt, but look for the real problem.", "zh": "客戶不一定很會說明他們要什麼。聽聽就好，但要找出真正的問題。" },
+          { "speaker": "Kai", "en": "Maybe too many colors?", "zh": "也許是顏色太多？" },
+          { "speaker": "Minz", "en": "Could be. Try reducing it to two colors and see how it feels. A lot of design is trial and error.", "zh": "有可能。試著減到兩個顏色看看感覺。很多設計都是靠嘗試錯誤。" },
+          { "speaker": "Kai", "en": "Thanks. I was worried about disappointing you.", "zh": "謝謝。我很擔心讓你失望。" },
+          { "speaker": "Minz", "en": "You're not. I'm proud of how fast you're learning.", "zh": "你沒有。我很驕傲你學得這麼快。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "You'll be responsible for ___.", "zh": "你會負責 ___。" },
+      { "en": "It depends on ___.", "zh": "要看 ___。" },
+      { "en": "Don't be afraid of ___.", "zh": "別怕 ___。" },
+      { "en": "A good rule of thumb is ___.", "zh": "一個經驗法則是 ___。" },
+      { "en": "I learned that the hard way.", "zh": "那是我吃虧才學到的。" },
+      { "en": "Here's a tip.", "zh": "給你一個小建議。" },
+      { "en": "What are you most interested in?", "zh": "你對什麼最有興趣？" },
+      { "en": "Feel free to ask me anything.", "zh": "有任何問題都可以問我。" },
+      { "en": "You're doing great.", "zh": "你做得很好。" },
+      { "en": "Let's check in at the end of the week.", "zh": "我們週末前再對一下。" }
+    ],
+    "chinglish": [
+      { "wrong": "It depends the client.", "right": "It depends on the client.", "why": "depend 後面要加 on，這是固定搭配。" },
+      { "wrong": "I'm responsible to the social media.", "right": "I'm responsible for social media.", "why": "負責某事用 responsible for；responsible to 是「向某人負責」。" },
+      { "wrong": "She is good in design.", "right": "She's good at design.", "why": "擅長用 good at。" },
+      { "wrong": "Don't afraid to ask.", "right": "Don't be afraid to ask. / Don't be afraid of asking.", "why": "afraid 是形容詞，前面要有 be。" }
+    ]
+  },
+  "grammar": {
+    "id": "dependent-prepositions",
+    "title": "介系詞搭配 good at / responsible for / depend on",
+    "oneLiner": "很多形容詞和動詞後面有固定搭配的介系詞，沒有邏輯可推，要整組記。",
+    "whenToUse": [
+      "形容詞 + at：good at, bad at, surprised at。",
+      "形容詞 + for：responsible for, famous for, ready for, grateful for。",
+      "形容詞 + of：afraid of, proud of, tired of, aware of, capable of。",
+      "形容詞 + in / with / about：interested in, familiar with, worried about, excited about。",
+      "動詞 + on：depend on, rely on, focus on, insist on。",
+      "動詞 + for / about / to：apply for, apologize for, complain about, listen to, belong to。",
+      "介系詞後面的動詞用 V-ing：good at drawing / afraid of asking（第 14、86 單元）。"
+    ],
+    "whyWeGetItWrong": "中文的「擅長」「負責」「依賴」「有興趣」都不需要介系詞，或者都用「對」。英文每個字都有自己固定的搭配，而且看不出規則：為什麼是 good at 而不是 good in？為什麼是 interested in 而不是 interested on？這類錯誤雖然不影響溝通，卻是母語者一聽就知道你英文程度的地方。",
+    "examples": [
+      { "correct": "She's really good at explaining things.", "incorrect": "She's really good in explaining things.", "note": "good at + V-ing。" },
+      { "correct": "Who's responsible for the budget?", "incorrect": "Who's responsible of the budget?", "note": "responsible for。" },
+      { "correct": "It depends on the weather.", "incorrect": "It depends the weather.", "note": "depend on。" },
+      { "correct": "I'm proud of you.", "note": "proud of。" },
+      { "correct": "Are you familiar with Figma?", "note": "familiar with。" }
+    ],
+    "quiz": [
+      { "id": "u089-g1", "type": "mcq", "question": "She's really good ___ public speaking.", "options": ["in", "at", "on"], "answer": 1, "explanation": "good at。" },
+      { "id": "u089-g2", "type": "fill", "question": "It depends ___ the budget.", "answer": "on", "explanation": "depend on。" },
+      { "id": "u089-g3", "type": "mcq", "question": "Who's responsible ___ the final approval?", "options": ["of", "for", "to"], "answer": 1, "explanation": "responsible for。" },
+      { "id": "u089-g4", "type": "fill", "question": "I'm so proud ___ what you've achieved.", "answer": "of", "explanation": "proud of。" },
+      { "id": "u089-g5", "type": "mcq", "question": "Are you familiar ___ this software?", "options": ["to", "with", "at"], "answer": 1, "explanation": "familiar with。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "learn-the-hard-way",
+      "term": "learn the hard way",
+      "meaning": "吃過苦頭才學到",
+      "register": "casual",
+      "usage": "透過痛苦的經驗學到教訓。",
+      "risk": { "level": "safe", "note": "分享經驗時很自然。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Always back up your files. I learned that the hard way.", "zh": "檔案一定要備份，我是吃過虧才學到的。" },
+        { "en": "Some lessons you can only learn the hard way.", "zh": "有些教訓只能靠吃苦頭學到。" }
+      ]
+    },
+    {
+      "id": "rule-of-thumb",
+      "term": "rule of thumb",
+      "meaning": "經驗法則、大原則",
+      "register": "neutral",
+      "usage": "根據經驗得出的實用原則，不一定精確但很好用。",
+      "risk": { "level": "safe", "note": "職場常用。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "As a rule of thumb, don't use more than three fonts.", "zh": "一般原則是，別用超過三種字體。" },
+        { "en": "My rule of thumb is to reply to emails within 24 hours.", "zh": "我的原則是 24 小時內回信。" }
+      ]
+    },
+    {
+      "id": "take-it-with-a-grain-of-salt",
+      "term": "take it with a grain of salt",
+      "meaning": "半信半疑、聽聽就好",
+      "register": "casual",
+      "usage": "對某個說法保持懷疑，不全盤接受。英式說 take it with a pinch of salt。",
+      "risk": { "level": "safe", "note": "常見用語。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "Online reviews are useful, but take them with a grain of salt.", "zh": "網路評論有用，但聽聽就好。" },
+        { "en": "He exaggerates a lot, so take his stories with a grain of salt.", "zh": "他很愛誇大，他的故事聽聽就好。" }
+      ]
+    },
+    {
+      "id": "trial-and-error",
+      "term": "trial and error",
+      "meaning": "嘗試錯誤、反覆試驗",
+      "register": "neutral",
+      "usage": "透過不斷嘗試和修正來找到答案。",
+      "risk": { "level": "safe", "note": "中性用語。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "I learned to cook through trial and error.", "zh": "我靠不斷嘗試學會煮飯。" },
+        { "en": "Finding the right color palette takes a lot of trial and error.", "zh": "找到對的配色需要很多嘗試。" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u089-r1", "sourceUnit": 88, "type": "mcq", "question": "If I had had a mentor, I ___ so many mistakes back then.", "options": ["wouldn't make", "wouldn't have made", "won't make"], "answer": 1, "explanation": "複習第 88 單元：過去→過去用 type 3。" },
+    { "id": "u089-r2", "sourceUnit": 87, "type": "mcq", "question": "That's the reason ___ I became a designer.", "options": ["why", "where", "which"], "answer": 0, "explanation": "複習第 87 單元：the reason why。" },
+    { "id": "u089-r3", "sourceUnit": 85, "type": "mcq", "question": "(Formal) Please do not hesitate to ___ us.", "options": ["hit up", "contact", "ping"], "answer": 1, "explanation": "複習第 85 單元：正式語域。" },
+    { "id": "u089-r4", "sourceUnit": 81, "type": "mcq", "question": "Rarely ___ a new hire learn so fast.", "options": ["I see", "do I see", "I do see"], "answer": 1, "explanation": "複習第 81 單元：倒裝。" },
+    { "id": "u089-r5", "sourceUnit": 73, "type": "mcq", "question": "You ___ try asking the senior designer.", "options": ["could", "must", "had better to"], "answer": 0, "explanation": "複習第 73 單元：could 提供選項。" },
+    { "id": "u089-r6", "sourceUnit": 57, "type": "fill", "question": "Kai, ___ joined last month, is already leading a project.", "answer": "who", "explanation": "複習第 57 單元：非限定子句。" },
+    { "id": "u089-r7", "sourceUnit": 25, "type": "mcq", "question": "Let me call ___ after lunch.", "options": ["back you", "you back", "you"], "answer": 1, "explanation": "複習第 25 單元：代名詞放中間。" },
+    { "id": "u089-r8", "sourceUnit": 89, "type": "mcq", "question": "Which is correct?", "options": ["It depends the client.", "It depends on the client.", "It depends of the client."], "answer": 1, "explanation": "depend on。" }
+  ]
+}

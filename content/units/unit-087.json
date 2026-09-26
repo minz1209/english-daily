@@ -1,0 +1,149 @@
+{
+  "id": 87,
+  "module": 9,
+  "level": "B2",
+  "title": { "zh": "介紹台灣節慶", "en": "Explaining Taiwanese Festivals" },
+  "scenario": {
+    "title": "跟外國朋友介紹過年、中秋、元宵",
+    "context": "介紹台灣文化時，常要說明「那是大家…的時候」「那是我們…的地方」「這就是為什麼…」。英文用關係副詞 where / when / why 把地點、時間、原因接在名詞後面，讓解釋更流暢、更有條理。",
+    "dialogues": [
+      {
+        "title": "Explaining Lunar New Year",
+        "lines": [
+          { "speaker": "Ryan", "en": "So what's Lunar New Year like in Taiwan?", "zh": "所以台灣的農曆新年是怎樣的？" },
+          { "speaker": "Minz", "en": "It's the one time of year when everyone goes back to their hometown. Families go all out.", "zh": "那是一年中大家都會回老家的時候，每個家庭都傾盡全力準備。" },
+          { "speaker": "Ryan", "en": "What do people do?", "zh": "大家會做什麼？" },
+          { "speaker": "Minz", "en": "On New Year's Eve, we have a big dinner at the house where our grandparents live. Then we ring in the new year with fireworks.", "zh": "除夕夜我們會在爺爺奶奶住的房子吃年夜飯，然後放煙火迎接新年。" },
+          { "speaker": "Ryan", "en": "And the red envelopes? My coworker was talking about them.", "zh": "那紅包呢？我同事有講到。" },
+          { "speaker": "Minz", "en": "Oh, that's the reason why kids love New Year. Adults give them money in red envelopes for good luck.", "zh": "喔，那就是小孩愛過年的原因。大人會把錢放在紅包裡給小孩，祝他們好運。" },
+          { "speaker": "Ryan", "en": "That's a far cry from Christmas in Canada. We just get socks.", "zh": "跟加拿大的聖誕節差太多了，我們只收到襪子。" }
+        ]
+      },
+      {
+        "title": "Mid-Autumn Festival",
+        "lines": [
+          { "speaker": "Ryan", "en": "Why is everyone barbecuing on the sidewalk?", "zh": "為什麼大家都在人行道上烤肉？" },
+          { "speaker": "Minz", "en": "It's Mid-Autumn Festival. It's a thing here. Nobody really knows the reason why barbecue became the tradition.", "zh": "今天是中秋節，這是這裡的習俗。沒人真的知道為什麼烤肉會變成傳統。" },
+          { "speaker": "Ryan", "en": "Seriously? I thought it was about the moon.", "zh": "真的嗎？我以為是跟月亮有關。" },
+          { "speaker": "Minz", "en": "It is. It's the night when the moon is fullest. We eat mooncakes and pomelos too.", "zh": "是啊，那是月亮最圓的晚上。我們也會吃月餅和柚子。" },
+          { "speaker": "Ryan", "en": "Is there a place where I can join a barbecue?", "zh": "有地方可以讓我加入烤肉嗎？" },
+          { "speaker": "Minz", "en": "Come to my building's rooftop. My neighbors always invite everyone.", "zh": "來我們大樓頂樓，我鄰居都會邀請大家。" }
+        ]
+      }
+    ],
+    "patterns": [
+      { "en": "It's a time when ___.", "zh": "那是 ___ 的時候。" },
+      { "en": "It's a place where ___.", "zh": "那是 ___ 的地方。" },
+      { "en": "That's the reason why ___.", "zh": "那就是 ___ 的原因。" },
+      { "en": "It's a tradition to ___.", "zh": "___ 是一種傳統。" },
+      { "en": "It symbolizes ___.", "zh": "它象徵 ___。" },
+      { "en": "The closest thing in the West would be ___.", "zh": "西方最接近的大概是 ___。", "note": "用對方熟悉的東西來類比" },
+      { "en": "It's hard to translate, but ___.", "zh": "很難翻譯，但 ___。" },
+      { "en": "It literally means ___.", "zh": "字面意思是 ___。" },
+      { "en": "Every family does it a bit differently.", "zh": "每個家庭的做法都有點不同。" },
+      { "en": "You should experience it at least once.", "zh": "你至少應該體驗一次。" }
+    ],
+    "chinglish": [
+      { "wrong": "New Year is the time which everyone goes home.", "right": "New Year is the time when everyone goes home.", "why": "時間後面接完整子句用 when（= at which），不能單獨用 which。" },
+      { "wrong": "This is the house my grandparents live.", "right": "This is the house where my grandparents live. / …the house my grandparents live in.", "why": "live 後面需要介系詞，要嘛用 where，要嘛句尾加 in。" },
+      { "wrong": "That's why the reason kids love it.", "right": "That's the reason (why) kids love it. / That's why kids love it.", "why": "the reason 和 why 可以一起用，但語序是 the reason why，不是 why the reason。" },
+      { "wrong": "We eat moon cake and grapefruit.", "right": "We eat mooncakes and pomelos.", "why": "柚子是 pomelo，grapefruit 是葡萄柚。" }
+    ]
+  },
+  "grammar": {
+    "id": "relative-adverbs-where-when-why",
+    "title": "關係副詞 where / when / why",
+    "oneLiner": "修飾地點用 where、時間用 when、原因用 why，後面都接完整子句。",
+    "whenToUse": [
+      "where = in / at which：the house where my grandparents live。",
+      "when = on / in which：the night when the moon is fullest。",
+      "why = for which：the reason why kids love it。",
+      "the reason why 可以只說 the reason 或 why：That's why kids love it.",
+      "可用 that 或省略：the day (that) we met / the reason (that) I called。",
+      "比較：the house where I live（where + 完整子句）vs the house which I bought（which 當 bought 的受詞）。"
+    ],
+    "whyWeGetItWrong": "第 31 單元學過 who / which / that。這個單元的難點在於：什麼時候用 which、什麼時候用 where？關鍵是看後面的子句「缺不缺東西」：I bought ___（缺受詞）用 which；I live（完整，只缺介系詞的受詞）用 where。台灣人常把 which 和 where 混用，或是忘了句尾的介系詞。",
+    "examples": [
+      { "correct": "This is the café where we first met.", "incorrect": "This is the café which we first met.", "note": "we first met 是完整子句，用 where。" },
+      { "correct": "This is the café which we visited last week.", "note": "visited 需要受詞，用 which。" },
+      { "correct": "I'll never forget the day when I moved to Taipei.", "note": "時間用 when。" },
+      { "correct": "That's the reason why I love this festival.", "note": "原因用 why。" },
+      { "correct": "Tainan is the city I grew up in.", "note": "省略 where，介系詞放句尾。" }
+    ],
+    "quiz": [
+      { "id": "u087-g1", "type": "mcq", "question": "This is the temple ___ my parents got married.", "options": ["which", "where", "when"], "answer": 1, "explanation": "地點 + 完整子句用 where。" },
+      { "id": "u087-g2", "type": "mcq", "question": "New Year's Eve is the night ___ families eat together.", "options": ["where", "when", "which"], "answer": 1, "explanation": "時間用 when。" },
+      { "id": "u087-g3", "type": "fill", "question": "Do you know the reason ___ we eat mooncakes?", "answer": "why|that", "explanation": "the reason why。" },
+      { "id": "u087-g4", "type": "mcq", "question": "This is the market ___ I visited yesterday.", "options": ["where", "which", "when"], "answer": 1, "explanation": "visited 需要受詞，用 which。" },
+      { "id": "u087-g5", "type": "mcq", "question": "Which is correct?", "options": ["This is the town I grew up.", "This is the town where I grew up.", "This is the town which I grew up."], "answer": 1, "explanation": "grow up 是完整子句，用 where。" }
+    ]
+  },
+  "slang": [
+    {
+      "id": "ring-in-the-new-year",
+      "term": "ring in the new year",
+      "meaning": "迎接新年",
+      "register": "neutral",
+      "usage": "慶祝新年到來，源自敲鐘迎新年的傳統。",
+      "risk": { "level": "safe", "note": "節慶常用語。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "We rang in the new year at Taipei 101.", "zh": "我們在台北 101 迎接新年。" },
+        { "en": "How are you ringing in the new year?", "zh": "你要怎麼跨年？" }
+      ]
+    },
+    {
+      "id": "go-all-out",
+      "term": "go all out",
+      "meaning": "全力以赴、傾盡全力",
+      "register": "casual",
+      "usage": "用盡全力準備或做某事。",
+      "risk": { "level": "safe", "note": "正面常用。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "My mom goes all out for Lunar New Year dinner.", "zh": "我媽準備年夜飯都傾盡全力。" },
+        { "en": "The team went all out for the final.", "zh": "球隊在決賽全力以赴。" }
+      ]
+    },
+    {
+      "id": "a-far-cry-from",
+      "term": "a far cry from",
+      "meaning": "跟…差很多、截然不同",
+      "register": "neutral",
+      "usage": "兩件事相差很遠，通常用來對比。",
+      "risk": { "level": "safe", "note": "常見用語。" },
+      "dated": false,
+      "variety": "both",
+      "examples": [
+        { "en": "Life in Taipei is a far cry from my small hometown.", "zh": "台北的生活跟我的小家鄉差很多。" },
+        { "en": "This hotel is a far cry from the one in the photos.", "zh": "這間飯店跟照片上的差太多了。" }
+      ]
+    },
+    {
+      "id": "its-a-thing",
+      "term": "it's a thing",
+      "meaning": "這是一種（真實存在的）現象、這是這裡的習慣",
+      "register": "casual",
+      "usage": "說明某個現象或習俗真的存在。Is that a thing? = 真的有這種事嗎？",
+      "risk": { "level": "safe", "note": "口語常用。" },
+      "dated": false,
+      "variety": "US",
+      "examples": [
+        { "en": "Barbecuing on Mid-Autumn Festival? Yeah, it's a thing here.", "zh": "中秋節烤肉？對，這裡就是這樣。" },
+        { "en": "Pineapple on pizza is a thing? Really?", "zh": "披薩上放鳳梨是真的有人這樣吃？" }
+      ]
+    }
+  ],
+  "review": [
+    { "id": "u087-r1", "sourceUnit": 86, "type": "mcq", "question": "I'm looking forward to ___ my family for New Year.", "options": ["see", "seeing", "saw"], "answer": 1, "explanation": "複習第 86 單元：look forward to + V-ing。" },
+    { "id": "u087-r2", "sourceUnit": 85, "type": "mcq", "question": "Which is the most formal?", "options": ["We'd love to see you!", "We cordially invite you to attend.", "Come hang out!"], "answer": 1, "explanation": "複習第 85 單元：正式語域。" },
+    { "id": "u087-r3", "sourceUnit": 83, "type": "fill", "question": "My grandma always tells me ___ eat more at New Year dinner.", "answer": "to", "explanation": "複習第 83 單元：tell + 人 + to V。" },
+    { "id": "u087-r4", "sourceUnit": 79, "type": "mcq", "question": "As soon as midnight ___, everyone set off fireworks.", "options": ["came", "had come", "comes"], "answer": 0, "explanation": "複習第 79 單元：說故事用過去式。" },
+    { "id": "u087-r5", "sourceUnit": 71, "type": "mcq", "question": "Don't forget ___ your grandparents during the holiday.", "options": ["visiting", "to visit", "visit"], "answer": 1, "explanation": "複習第 71 單元：forget to V。" },
+    { "id": "u087-r6", "sourceUnit": 55, "type": "fill", "question": "We need to figure ___ who's bringing what to the barbecue.", "answer": "out", "explanation": "複習第 55 單元：figure out。" },
+    { "id": "u087-r7", "sourceUnit": 23, "type": "mcq", "question": "A: Would you mind bringing drinks? B: ___", "options": ["Yes.", "Not at all!", "I mind."], "answer": 1, "explanation": "複習第 23 單元：Not at all。" },
+    { "id": "u087-r8", "sourceUnit": 87, "type": "mcq", "question": "This is the restaurant ___ we had our New Year dinner.", "options": ["which", "where", "when"], "answer": 1, "explanation": "地點 + 完整子句用 where。" }
+  ]
+}
